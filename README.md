@@ -1,10 +1,17 @@
 # 🗞️ AI News Telegram Digest
 
-A zero-server Telegram bot that pushes you a curated digest of the latest **AI
+A zero-server Telegram bot that pushes you a curated feed of the latest **AI
 news** on a schedule. It pulls from a wide set of **global**, **Asia-focused**
-and **official lab** RSS/Atom feeds, classifies each item, de-duplicates
-against what it already sent, and posts a tidy digest to your Telegram chat or
-channel.
+and **official lab** RSS/Atom feeds, classifies and ranks each item, writes
+**3 AI-generated takeaways** per story, de-duplicates against what it already
+sent, and posts **one rich message per article** (with the article image
+attached) to your Telegram chat or channel.
+
+Each post shows:
+- a clear, linked **headline**
+- **source · platform badge · region · time** (e.g. *Anthropic News · 🟧 Claude · 📣 Official · 1h ago*)
+- **3 concise takeaways** summarising the article
+- the article **image** and a **Read more →** link
 
 Coverage is organised around what you asked for:
 
@@ -24,9 +31,11 @@ committed back to the repo so each run knows what it already sent.
 ## How it works
 
 ```
-feeds ──▶ fetch (concurrent, timeouts) ──▶ normalise ──▶ drop already-seen
-      ──▶ drop too-old ──▶ classify (platform / agentic / industry)
-      ──▶ cap ──▶ format (HTML, chunked) ──▶ Telegram ──▶ save state
+feeds ─▶ fetch (concurrent, timeouts, +image) ─▶ normalise ─▶ drop already-seen
+     ─▶ drop too-old ─▶ classify (platform / agentic / industry)
+     ─▶ rank (relevance) ─▶ keep top N ─▶ AI takeaways (1 batched call)
+     ─▶ render one post per article ─▶ Telegram (sendPhoto/sendMessage)
+     ─▶ save state
 ```
 
 - **Sources** live in [`ainews/sources.py`](ainews/sources.py) — add or remove
@@ -35,7 +44,17 @@ feeds ──▶ fetch (concurrent, timeouts) ──▶ normalise ──▶ drop 
   keyword maps for platforms and agentic-commerce. Even when a lab has no
   reliable feed (e.g. DeepSeek), its news is still tagged from the industry
   feeds.
-- **De-dup state** is a small JSON file at `state/seen.json`.
+- **Ranking** ([`ainews/ranker.py`](ainews/ranker.py)) scores items so the top
+  ~10 are sent: AI platforms (in priority order) and agentic-commerce first,
+  then recency, with a nudge for official lab sources. This keeps a
+  one-post-per-article feed readable instead of flooding the chat.
+- **Takeaways** ([`ainews/summarizer.py`](ainews/summarizer.py)) are written by
+  Claude in a **single batched API call** per run (prompt-cached system prompt
+  to keep cost low). Summaries are drawn from the headline + feed blurb. If no
+  `ANTHROPIC_API_KEY` is set, the bot still runs and falls back to the feed
+  blurb — no bullets, no crash.
+- **De-dup state** is a small JSON file at `state/seen.json`. Only articles
+  that were actually sent are marked, so a failed send retries next run.
 
 ---
 
@@ -60,6 +79,9 @@ In the repo: **Settings → Secrets and variables → Actions → New repository
 secret**, add:
 - `TELEGRAM_BOT_TOKEN`
 - `TELEGRAM_CHAT_ID`
+- `ANTHROPIC_API_KEY` *(optional)* — enables the 3-bullet AI takeaways. Get one
+  at [console.anthropic.com](https://console.anthropic.com). Without it the bot
+  still works and shows the feed's own blurb instead of takeaways.
 
 ### 4. Enable the workflow
 The workflow [`/.github/workflows/digest.yml`](.github/workflows/digest.yml)
@@ -88,7 +110,10 @@ export TELEGRAM_CHAT_ID="123456789"
 python -m ainews
 
 # Widen the window for a one-off catch-up run:
-python -m ainews --lookback 72 --max-items 60
+python -m ainews --lookback 72 --max-items 20
+
+# Takeaways need an Anthropic key (skip it and you get feed blurbs instead):
+export ANTHROPIC_API_KEY="sk-ant-..."
 ```
 
 Copy [`.env.example`](.env.example) to `.env` for local config (it is
@@ -99,7 +124,7 @@ git-ignored). Then `set -a; . ./.env; set +a` before running.
 |------|---------|
 | `--dry-run` | Print the digest to stdout; send nothing, save no state. |
 | `--lookback N` | Only include items from the last `N` hours (default 24). |
-| `--max-items N` | Cap total items in one digest (default 45). |
+| `--max-items N` | Cap how many articles are sent per run (default 10). |
 | `--no-state` | Ignore the dedup file (always treat everything as new). |
 | `-v` / `--verbose` | Debug logging. |
 
@@ -113,12 +138,23 @@ All optional, via environment variables (see [`.env.example`](.env.example)):
 |----------|---------|---------|
 | `TELEGRAM_BOT_TOKEN` | – | **Required** to send. |
 | `TELEGRAM_CHAT_ID` | – | **Required** to send. |
+| `ANTHROPIC_API_KEY` | – | Enables AI takeaways. Optional — falls back to feed blurb. |
+| `AINEWS_SUMMARY_MODEL` | `claude-haiku-4-5` | Model for takeaways. Bump to `claude-sonnet-4-6` / `claude-opus-4-8` for richer bullets. |
+| `AINEWS_SUMMARIZE` | `1` | Set `0` to disable AI takeaways. |
+| `AINEWS_PHOTOS` | `1` | `1` = attach the article image to each post; `0` = text only. |
+| `AINEWS_SEND_DELAY_MS` | `1000` | Pause between per-article posts (rate-limit safety). |
 | `AINEWS_LOOKBACK_HOURS` | `24` | Time window for "new". |
-| `AINEWS_MAX_ITEMS` | `45` | Items per digest. |
+| `AINEWS_MAX_ITEMS` | `10` | Max articles sent per run (one post each). |
 | `AINEWS_MAX_PER_FEED` | `8` | Items taken per feed per run. |
 | `AINEWS_TIMEOUT` | `20` | Per-feed network timeout (s). |
 | `AINEWS_STATE_FILE` | `state/seen.json` | Dedup state path. |
 | `AINEWS_STATE_TTL_DAYS` | `45` | Prune seen entries older than this. |
+
+### Cost of AI takeaways
+One batched call per run on **Haiku 4.5** (the default) for ~10 articles is a
+fraction of a US cent. Running every 3 hours that's roughly a few cents a month.
+Switching `AINEWS_SUMMARY_MODEL` to Sonnet or Opus improves bullet quality at
+proportionally higher cost. No key set → no cost, blurb fallback.
 
 ### Change the schedule
 Edit the `cron` in the workflow. Examples:
@@ -146,8 +182,10 @@ python -m pytest -q
 ```
 
 Tests cover classification (priority order, word-boundary matching,
-agentic-vs-platform precedence) and formatting (section ordering, HTML
-escaping, message chunking) — all offline, no network needed.
+agentic-vs-platform precedence), ranking (platform/agentic priority, caps),
+post rendering (title/meta/takeaways, blurb fallback, HTML escaping, caption
+limit), feed image extraction, and summarizer graceful degradation — all
+offline, no network or API key needed.
 
 ---
 
@@ -156,6 +194,11 @@ escaping, message chunking) — all offline, no network needed.
   via keyword tagging on the industry feeds. If a lab adds an official feed,
   drop it into `sources.py`.
 - Feeds occasionally rate-limit or go down — those runs simply skip them.
-- This is a **push-only digest**. Interactive commands (`/latest`, etc.) would
+- **Takeaways are built from the headline + the feed's summary blurb**, not the
+  full article text. Some feeds give a rich blurb, others only a sentence, so
+  bullet depth varies by source. (Full-page fetching could be added later.)
+- **Images** come from the feed (`media:content`, enclosures, or the first
+  `<img>` in the summary). If a feed exposes none, that article posts as text.
+- This is a **push-only feed**. Interactive commands (`/latest`, etc.) would
   need an always-on bot process; the design intentionally favours the free,
   serverless cron model.

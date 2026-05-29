@@ -45,6 +45,9 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Optional: enables 3-bullet AI takeaways. Without it the bot falls
+          # back to the feed blurb. Add it under repo Settings → Secrets.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AINEWS_LOOKBACK_HOURS: ${{ github.event.inputs.lookback || '24' }}
         run: |
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then

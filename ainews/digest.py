@@ -14,16 +14,19 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from typing import List
 
 from .classifier import classify
 from .config import Config
 from .fetcher import fetch_all
-from .formatter import format_digest
+from .formatter import MAX_CAPTION_LEN, MAX_MSG_LEN, render_post
 from .models import Article
+from .ranker import rank
 from .sources import all_feeds
 from .state import SeenStore
+from .summarizer import summarize
 from .telegram import TelegramClient
 
 log = logging.getLogger("ainews")
@@ -56,12 +59,12 @@ def select_articles(cfg: Config, store: SeenStore,
             continue
         fresh.append(classify(art))
 
-    # Newest first overall, then apply the global cap.
-    fresh.sort(key=lambda a: a.sort_key, reverse=True)
-
     if first_run:
         log.info("First run: empty state, capping starter digest.")
-    return fresh[: cfg.max_items]
+
+    # Rank by relevance (platforms & agentic first, then recency) and keep the
+    # top N so a one-post-per-article digest doesn't flood the chat.
+    return rank(fresh, cfg.max_items)
 
 
 def run(argv: List[str] | None = None) -> int:
@@ -103,21 +106,44 @@ def run(argv: List[str] | None = None) -> int:
         log.info("No new articles within the last %dh. Nothing to send.", lookback)
         return 0
 
-    messages = format_digest(articles)
-    log.info("Prepared %d message(s) covering %d article(s).",
-             len(messages), len(articles))
+    # Generate 3 takeaways per article (best-effort — degrades to feed blurb).
+    if cfg.summarize:
+        summarize(articles, cfg.anthropic_api_key, cfg.summary_model,
+                  timeout=max(cfg.timeout, 60))
+
+    # One rich post per article. Caption length is the limit when a photo is
+    # attached, otherwise the full message limit.
+    posts = []
+    for art in articles:
+        use_photo = cfg.photos and bool(art.image_url)
+        limit = MAX_CAPTION_LEN if use_photo else MAX_MSG_LEN
+        posts.append((art, render_post(art, max_len=limit),
+                      art.image_url if use_photo else None))
+
+    log.info("Prepared %d post(s).", len(posts))
 
     if args.dry_run:
-        for i, msg in enumerate(messages, 1):
-            print(f"\n===== MESSAGE {i}/{len(messages)} =====\n{msg}")
+        for i, (art, text, photo) in enumerate(posts, 1):
+            img = f"  [photo: {photo}]" if photo else "  [no photo]"
+            print(f"\n===== POST {i}/{len(posts)} (score={art.score:.1f}){img} =====\n{text}")
         return 0
 
     client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
-    sent = client.send_all(messages)
-    log.info("Sent %d message(s) to Telegram.", sent)
+    sent = 0
+    sent_uids = []
+    for art, text, photo in posts:
+        try:
+            client.send_post(text, photo_url=photo)
+            sent += 1
+            sent_uids.append(art.uid)
+        except RuntimeError as exc:
+            log.warning("Failed to send post for %r: %s", art.title[:60], exc)
+        time.sleep(cfg.send_delay)
+    log.info("Sent %d/%d post(s) to Telegram.", sent, len(posts))
 
-    if not args.no_state:
-        store.mark(a.uid for a in articles)
+    if not args.no_state and sent_uids:
+        # Only mark what actually went out, so a failed send retries next run.
+        store.mark(sent_uids)
         store.save()
         log.info("State updated: %s", cfg.state_file)
     return 0

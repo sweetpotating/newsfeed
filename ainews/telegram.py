@@ -64,6 +64,34 @@ class TelegramClient:
             },
         )
 
+    def send_photo(self, photo_url: str, caption: str) -> dict:
+        return self._post(
+            "sendPhoto",
+            {
+                "chat_id": self.chat_id,
+                "photo": photo_url,
+                "caption": caption,
+                "parse_mode": "HTML",
+                "disable_notification": False,
+            },
+        )
+
+    def send_post(self, text: str, photo_url: str | None = None) -> dict:
+        """Send one article post.
+
+        With a photo, the text rides as the caption (capped at 1024 chars by
+        Telegram). If Telegram rejects the photo (dead/oversized image URL),
+        fall back to a text message with a link preview enabled so the image
+        still shows when possible.
+        """
+        if photo_url:
+            try:
+                return self.send_photo(photo_url, text)
+            except RuntimeError as exc:
+                log.warning("sendPhoto failed (%s); falling back to text.", exc)
+                return self.send_message(text, disable_preview=False)
+        return self.send_message(text)
+
     def send_all(self, messages: List[str]) -> int:
         sent = 0
         for msg in messages:

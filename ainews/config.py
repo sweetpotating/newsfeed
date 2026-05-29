@@ -21,16 +21,33 @@ def _int(name: str, default: int) -> int:
         return default
 
 
+def _bool(name: str, default: bool) -> bool:
+    raw = os.environ.get(name)
+    if raw is None or raw.strip() == "":
+        return default
+    return raw.strip().lower() in ("1", "true", "yes", "on")
+
+
 @dataclass
 class Config:
     bot_token: str = ""
     chat_id: str = ""
     lookback_hours: int = 24
-    max_items: int = 45
+    max_items: int = 10
     max_per_feed: int = 8
     timeout: int = 20
     state_file: str = "state/seen.json"
     state_ttl_days: int = 45
+
+    # AI summaries (top-3 takeaways).
+    anthropic_api_key: str = ""
+    summary_model: str = "claude-haiku-4-5"
+    summarize: bool = True
+
+    # Delivery: one Telegram message per article, image attached when available.
+    photos: bool = True
+    # Pause between per-article messages (seconds) to respect Telegram limits.
+    send_delay: float = 1.0
 
     @classmethod
     def from_env(cls) -> "Config":
@@ -38,12 +55,18 @@ class Config:
             bot_token=os.environ.get("TELEGRAM_BOT_TOKEN", "").strip(),
             chat_id=os.environ.get("TELEGRAM_CHAT_ID", "").strip(),
             lookback_hours=_int("AINEWS_LOOKBACK_HOURS", 24),
-            max_items=_int("AINEWS_MAX_ITEMS", 45),
+            max_items=_int("AINEWS_MAX_ITEMS", 10),
             max_per_feed=_int("AINEWS_MAX_PER_FEED", 8),
             timeout=_int("AINEWS_TIMEOUT", 20),
             state_file=os.environ.get("AINEWS_STATE_FILE", "state/seen.json").strip()
             or "state/seen.json",
             state_ttl_days=_int("AINEWS_STATE_TTL_DAYS", 45),
+            anthropic_api_key=os.environ.get("ANTHROPIC_API_KEY", "").strip(),
+            summary_model=os.environ.get("AINEWS_SUMMARY_MODEL", "claude-haiku-4-5").strip()
+            or "claude-haiku-4-5",
+            summarize=_bool("AINEWS_SUMMARIZE", True),
+            photos=_bool("AINEWS_PHOTOS", True),
+            send_delay=float(_int("AINEWS_SEND_DELAY_MS", 1000)) / 1000.0,
         )
 
     def require_telegram(self) -> None:
