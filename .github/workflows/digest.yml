@@ -3,8 +3,8 @@ name: AI News Digest
 # Manual runs: Actions tab -> "AI News Digest" -> "Run workflow".
 on:
   schedule:
-    # Every 3 hours, on the hour (UTC). Adjust to taste.
-    - cron: "0 */3 * * *"
+    # 08:00 and 18:00 Singapore time (SGT = UTC+8) => 00:00 and 10:00 UTC.
+    - cron: "0 0,10 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
