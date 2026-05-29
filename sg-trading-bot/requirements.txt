@@ -1,0 +1,13 @@
+# Core (required) — the engine, strategies, risk and paper broker run on these alone.
+numpy>=1.26
+pandas>=2.1
+PyYAML>=6.0
+python-dotenv>=1.0
+
+# Optional — install to enable real market data and the live Interactive Brokers link.
+#   pip install ib_async yfinance requests
+# They are imported lazily, so the system runs fully offline (paper + synthetic data)
+# without them installed.
+# ib_async>=1.0      # maintained successor to ib_insync; talks to IBKR TWS / IB Gateway
+# yfinance>=0.2.40   # free historical/daily market data
+# requests>=2.31     # Telegram / webhook notifications
