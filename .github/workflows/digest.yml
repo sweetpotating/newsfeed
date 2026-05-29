@@ -1,5 +1,6 @@
 name: AI News Digest
 
+# Manual runs: Actions tab -> "AI News Digest" -> "Run workflow".
 on:
   schedule:
     # Every 3 hours, on the hour (UTC). Adjust to taste.
