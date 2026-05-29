@@ -1,0 +1,70 @@
+name: AI News Digest
+
+on:
+  schedule:
+    # Every 3 hours, on the hour (UTC). Adjust to taste.
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only (do not send to Telegram)"
+        type: boolean
+        default: false
+      lookback:
+        description: "Lookback window in hours"
+        type: string
+        default: "24"
+
+# Allow the job to commit the updated dedup state back to the repo.
+permissions:
+  contents: write
+
+# Never let two scheduled runs race on the state file.
+concurrency:
+  group: ai-news-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send digest
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          AINEWS_LOOKBACK_HOURS: ${{ github.event.inputs.lookback || '24' }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python -m ainews --dry-run --verbose
+          else
+            python -m ainews --verbose
+          fi
+
+      - name: Commit updated state
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          if [[ -n "$(git status --porcelain state/)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state/
+            git commit -m "chore: update AI news digest dedup state"
+            # Retry push to absorb the occasional racing commit.
+            for i in 1 2 3 4; do
+              git push && break || sleep $((2 ** i))
+              git pull --rebase --autostash || true
+            done
+          else
+            echo "No state changes to commit."
+          fi
