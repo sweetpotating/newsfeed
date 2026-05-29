@@ -23,6 +23,9 @@ class Article:
     uid: str = ""
     category: str = CAT_INDUSTRY
     platforms: List[str] = field(default_factory=list)
+    image_url: Optional[str] = None     # best image pulled from the feed entry
+    takeaways: List[str] = field(default_factory=list)  # AI-generated, may be empty
+    score: float = 0.0                  # relevance score, set during ranking
 
     @property
     def sort_key(self) -> datetime:

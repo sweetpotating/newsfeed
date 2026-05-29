@@ -73,6 +73,55 @@ def _parse_date(entry) -> Optional[datetime]:
     return None
 
 
+_IMG_IN_HTML_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
+
+
+def _looks_like_image(url: str) -> bool:
+    if not url or not url.lower().startswith(("http://", "https://")):
+        return False
+    return True
+
+
+def _extract_image(entry) -> Optional[str]:
+    """Pull the best representative image URL from a feed entry.
+
+    Tries the common feed conventions in order of reliability:
+    media:content, media:thumbnail, enclosures, then any <img> in the
+    summary/content HTML.
+    """
+    # media:content (often carries the lead image with a URL + medium="image")
+    for media in getattr(entry, "media_content", []) or []:
+        url = media.get("url")
+        medium = (media.get("medium") or "").lower()
+        mtype = (media.get("type") or "").lower()
+        if url and (medium == "image" or mtype.startswith("image") or _looks_like_image(url)):
+            return url
+    # media:thumbnail
+    for thumb in getattr(entry, "media_thumbnail", []) or []:
+        url = thumb.get("url")
+        if url and _looks_like_image(url):
+            return url
+    # enclosures (RSS <enclosure> with an image type)
+    for enc in getattr(entry, "enclosures", []) or []:
+        url = enc.get("href") or enc.get("url")
+        if url and (enc.get("type", "").lower().startswith("image") or _looks_like_image(url)):
+            return url
+    # links with rel=enclosure
+    for lk in getattr(entry, "links", []) or []:
+        if lk.get("rel") == "enclosure" and (lk.get("type", "").lower().startswith("image")):
+            if lk.get("href"):
+                return lk["href"]
+    # Fall back to the first <img> embedded in the summary/content HTML.
+    html_blobs = [getattr(entry, "summary", "") or ""]
+    for c in getattr(entry, "content", []) or []:
+        html_blobs.append(c.get("value", "") or "")
+    for blob in html_blobs:
+        m = _IMG_IN_HTML_RE.search(blob)
+        if m and _looks_like_image(m.group(1)):
+            return m.group(1)
+    return None
+
+
 def _entry_to_article(entry, feed: Feed) -> Optional[Article]:
     link = (getattr(entry, "link", "") or "").strip()
     title = (getattr(entry, "title", "") or "").strip()
@@ -87,6 +136,7 @@ def _entry_to_article(entry, feed: Feed) -> Optional[Article]:
         published=_parse_date(entry),
         summary=_clean_summary(summary),
         uid=_make_uid(entry, link),
+        image_url=_extract_image(entry),
     )
 
 
