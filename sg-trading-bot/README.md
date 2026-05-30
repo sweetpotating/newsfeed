@@ -161,6 +161,9 @@ execution, schedule `python -m sgtrader rebalance` with `cron`/Task Scheduler on
 the host running IB Gateway. The engine is **idempotent** — extra runs just
 re-check drift, so frequent scheduling is safe.
 
+👉 **Full always-on setup (VPS + IB Gateway + Telegram + the safe paper→live
+runway) is in [`DEPLOY.md`](DEPLOY.md).**
+
 ## Notifications (optional)
 
 Set `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` in `.env` to get a summary of
