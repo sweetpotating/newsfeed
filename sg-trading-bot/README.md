@@ -96,6 +96,7 @@ python -m pytest -q                    # 16 tests, fully offline
 
 # These run with the built-in simulator + deterministic synthetic data —
 # no account, no network, no secrets needed:
+python -m sgtrader doctor                # ✅/❌ preflight: config, data, broker, alerts
 python -m sgtrader status
 python -m sgtrader backtest --history-days 600 --rebalance-every 10
 python -m sgtrader rebalance --dry-run   # prints the JSON of what it WOULD do

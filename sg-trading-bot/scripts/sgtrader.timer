@@ -1,0 +1,14 @@
+# sg-trading-bot — schedule the rebalance.
+#
+# Default: 22:05 UTC every weekday (just after the US close). Adjust OnCalendar
+# to taste; keep it roughly in sync with config.yaml `schedule.run_cron`.
+[Unit]
+Description=Run sg-trading-bot rebalance on a weekday schedule
+
+[Timer]
+OnCalendar=Mon..Fri 22:05 UTC
+Persistent=true            # if the VPS was off at run time, run once on boot
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

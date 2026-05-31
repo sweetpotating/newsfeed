@@ -19,37 +19,65 @@ A **VPS** (Virtual Private Server) is a small always-on cloud computer you rent
 You could also use your own always-on PC or a Raspberry Pi — same idea. A VPS is
 just the simplest reliable option.
 
-**Region note:** pick a VPS region IBKR allows and that's reasonably close to
-you (e.g. Singapore). Providers: DigitalOcean, Linode, Hetzner, AWS Lightsail.
-A 2 GB RAM instance is plenty.
+### What to buy
+
+The bot itself is tiny; the spec is driven by **IB Gateway** (a Java GUI app
+that must stay running 24/7). Memory is the thing that matters — an
+under-provisioned box gets its Gateway OOM-killed and silently disconnects.
+
+| Resource | Minimum | Recommended | Why |
+|---|---|---|---|
+| RAM | 2 GB | **4 GB** | Gateway + Java + xvfb use ~1.5–2 GB idle |
+| vCPU | 1 | 2 | Gateway idles; rebalance is a daily burst |
+| Disk | 25 GB SSD | 40 GB | OS + Java + logs |
+| OS | Ubuntu 22.04/24.04 LTS | same | best-documented for IBC/Gateway |
+| Region | — | **Singapore** | close for management; daily trading isn't latency-sensitive |
+
+**Recommended pick: 2 vCPU / 4 GB RAM, Ubuntu 24.04 LTS, Singapore region** —
+~US$20–24/mo on **DigitalOcean** (SGP1) or **Vultr**. AWS Lightsail and
+Linode/Akamai also have SG regions at similar prices.
+
+**Free option:** Oracle Cloud's *Always Free* ARM (4 vCPU / 24 GB, SG region) is
+capable, but it's ARM and Oracle can reclaim idle free instances — fine for
+paper testing, not ideal for a live trading connection. Move to a paid box
+before going live.
+
+**Don't:** use a 1 GB box (Gateway will OOM), or try to run on serverless /
+GitHub Actions (Gateway needs a persistent process).
 
 ---
 
 ## One-time VPS setup
 
-```bash
-# 1. SSH into your VPS, then install Python + the bot
-sudo apt update && sudo apt install -y python3-venv git
-git clone <your-repo-url> && cd <repo>/sg-trading-bot
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt ib_async yfinance requests
+A bootstrap script does the heavy lifting (Python + bot + Java + xvfb + IBC):
 
-# 2. Configure
-cp .env.example .env
-nano .env          # fill in the values from the table below
+```bash
+# SSH into your VPS, then:
+sudo apt update && sudo apt install -y git
+git clone <your-repo-url> && cd <repo>/sg-trading-bot
+bash scripts/bootstrap.sh        # installs everything; creates .env from template
+nano .env                        # fill in the values from the table below
 ```
 
-`.env` for live IBKR on the VPS:
+The script prints the remaining steps that need *your* credentials (installing
+IB Gateway, IBC login, ports).
+
+`.env` for IBKR paper-then-live on the VPS:
 
 ```ini
 SGTRADER_MODE=paper                 # keep PAPER until you've watched it run
+SGTRADER_PAPER_BROKER=ibkr          # route paper orders to your IBKR paper acct
 SGTRADER_DATA_PROVIDER=ibkr
 IBKR_HOST=127.0.0.1
-IBKR_PORT=7497                      # TWS paper; IB Gateway paper = 4002
+IBKR_PORT=4002                      # IB Gateway paper; TWS paper = 7497
 IBKR_CLIENT_ID=11
 TELEGRAM_BOT_TOKEN=...              # see Telegram section below
 TELEGRAM_CHAT_ID=...
 ```
+
+> Setting `SGTRADER_PAPER_BROKER=ibkr` makes paper mode use the **exact same
+> live order path** as real trading, against your IBKR *paper* account — the
+> best possible dress rehearsal, with zero money at risk.
 
 ### Running IB Gateway on the VPS
 
@@ -59,26 +87,37 @@ TELEGRAM_CHAT_ID=...
 2. In Gateway: **Configure → API → Settings** → enable *ActiveX and Socket
    Clients*, set the socket port to match `IBKR_PORT`, and add `127.0.0.1` to
    trusted IPs.
-3. Confirm the bot can see the account:
+3. Confirm the bot can see the account and everything is wired:
    ```bash
-   python -m sgtrader status
+   source .venv/bin/activate
+   python -m sgtrader doctor      # ✅/❌ checklist: config, data, broker, alerts
+   python -m sgtrader status      # shows your live account snapshot
    ```
 
 ---
 
-## Scheduling the rebalance (cron)
+## Scheduling the rebalance (systemd)
 
-Run once per weekday after the US close. On the VPS:
+Use the provided units (more robust than cron — handles missed runs and logs to
+the journal). Edit the `User`/paths in `scripts/sgtrader.service` first, then:
 
 ```bash
-crontab -e
-```
-```cron
-# 22:05 UTC, Mon–Fri — run a rebalance and log it
-5 22 * * 1-5  cd /home/youruser/<repo>/sg-trading-bot && /home/youruser/<repo>/sg-trading-bot/.venv/bin/python -m sgtrader rebalance >> logs/rebalance.log 2>&1
+sudo cp scripts/sgtrader.service /etc/systemd/system/
+sudo cp scripts/sgtrader.timer   /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now sgtrader.timer
+
+systemctl list-timers sgtrader.timer    # confirm the next run time
+journalctl -u sgtrader.service -f        # watch run logs
 ```
 
-The engine is idempotent, so a missed run self-heals on the next one.
+Default schedule is **weekdays 22:05 UTC** (just after the US close). The engine
+is idempotent, so a missed run self-heals on the next one.
+
+Prefer cron? This one-liner is equivalent:
+```cron
+5 22 * * 1-5  cd /path/sg-trading-bot && .venv/bin/python -m sgtrader rebalance >> logs/rebalance.log 2>&1
+```
 
 ---
 
