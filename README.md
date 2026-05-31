@@ -1,4 +1,17 @@
-# 🗞️ AI News Telegram Digest
+# 🗞️ AI News Telegram Digest  +  💼 AI Jobs in Singapore
+
+This repo ships **two** zero-server Telegram bots that run for free on GitHub
+Actions:
+
+| Bot | Module | What it pushes | Docs |
+|-----|--------|----------------|------|
+| 🗞️ **AI News Digest** | `python -m ainews` | Curated AI news, one rich post per article | this page |
+| 💼 **AI Jobs (Singapore)** | `python -m aijobs` | **AI/ML job openings in Singapore** at OpenAI, Anthropic, Google DeepMind/Gemini & more | [jump ↓](#-ai-jobs-in-singapore) |
+
+Both share the same Telegram client, scheduling model and committed-state
+pattern. The jobs bot is documented in full [at the bottom](#-ai-jobs-in-singapore).
+
+---
 
 A zero-server Telegram bot that pushes you a curated feed of the latest **AI
 news** on a schedule. It pulls from a wide set of **global**, **Asia-focused**
@@ -202,3 +215,149 @@ offline, no network or API key needed.
 - This is a **push-only feed**. Interactive commands (`/latest`, etc.) would
   need an always-on bot process; the design intentionally favours the free,
   serverless cron model.
+
+---
+---
+
+# 💼 AI Jobs in Singapore
+
+A companion zero-server Telegram bot that pushes you **AI / ML job openings in
+Singapore** on a schedule — focused on the big AI labs you care about
+(**OpenAI, Anthropic, Google DeepMind / Gemini, xAI, Mistral, Cohere,
+Perplexity, Hugging Face, …**) plus the other companies that staff real AI
+teams in the city-state.
+
+It reads postings **straight from each company's hiring system** — Greenhouse,
+Lever, Ashby and the Google Careers API — so there's no scraping and no
+fragile HTML parsing. Each run keeps only the **Singapore-based AI roles**,
+de-duplicates against what it already sent, ranks them (frontier labs and
+research/ML roles first), and posts **one message per new opening**:
+
+```
+⭐ Priority AI Lab
+OpenAI — Member of Technical Staff, Research
+OpenAI · Singapore · 🔬 Research · 2d ago
+
+A research role on OpenAI's Singapore team working on frontier models.
+Apply →
+```
+
+## How it works
+
+```
+companies ─▶ fetch each ATS/careers API (concurrent, timeouts)
+          ─▶ normalise to Job ─▶ keep Singapore locations
+          ─▶ keep AI/ML/research roles (drop recruiters, ops, etc.)
+          ─▶ drop already-seen ─▶ drop too-old ─▶ rank ─▶ keep top N
+          ─▶ optional 1-line AI note ─▶ Telegram ─▶ save state
+```
+
+- **Roster** lives in [`aijobs/sources.py`](aijobs/sources.py). Each company
+  declares its ATS provider (`greenhouse` / `lever` / `ashby` / `google`) and
+  board slug. Priority labs are flagged so they rank to the top with a ⭐.
+- **Filtering** lives in [`aijobs/filters.py`](aijobs/filters.py): a generous
+  Singapore **location** match (handles "Singapore", "Remote – Singapore",
+  multi-location postings, etc.) and a precise AI **role** match on the title
+  (research / ML / data / AI-product / safety / infra), with hard exclusions
+  for non-AI roles that happen to share a keyword.
+- **Ranking** ([`aijobs/ranker.py`](aijobs/ranker.py)) floats the marquee labs
+  and research/ML roles up, then recency, and caps the run so the chat stays
+  readable.
+- **AI note** ([`aijobs/summarizer.py`](aijobs/summarizer.py)) writes one
+  concise line per role in a single batched, prompt-cached Claude call.
+  Optional — without `ANTHROPIC_API_KEY` the bot uses the posting's own blurb.
+- **De-dup state** is a small JSON file at `state/jobs_seen.json`, separate
+  from the news bot's state. Only roles actually sent are marked.
+
+## Setup
+
+The jobs bot reuses the **same** `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` and
+(optional) `ANTHROPIC_API_KEY` secrets as the news bot — see
+[Setup above](#setup-5-minutes). If you want the jobs feed in a *different*
+chat/channel, create a second channel and point `TELEGRAM_CHAT_ID` at it.
+
+The workflow [`.github/workflows/jobs.yml`](.github/workflows/jobs.yml) runs
+**twice daily** (09:00 & 18:00 SGT). Trigger it now from **Actions → AI Jobs
+(Singapore) → Run workflow** (tick *dry run* to preview in the logs first).
+
+## Run it locally
+
+```bash
+pip install -r requirements.txt
+
+# Preview without sending (no token needed). Widen the window for a first look:
+python -m aijobs --dry-run --lookback 720 --max-items 25
+
+# Actually send:
+export TELEGRAM_BOT_TOKEN="123:abc"
+export TELEGRAM_CHAT_ID="123456789"
+python -m aijobs
+```
+
+> **Note:** the ATS APIs (greenhouse / ashby / lever / Google) must be
+> reachable from wherever you run this. GitHub Actions can reach them; some
+> locked-down networks return `403`, in which case run it on Actions instead.
+
+### CLI flags
+| Flag | Meaning |
+|------|---------|
+| `--dry-run` | Print the feed to stdout; send nothing, save no state. |
+| `--lookback N` | Only include roles posted in the last `N` hours (default 168). |
+| `--max-items N` | Cap how many roles are sent per run (default 15). |
+| `--no-state` | Ignore the dedup file (treat everything as new). |
+| `-v` / `--verbose` | Debug logging (shows per-board fetch counts). |
+
+## Configuration
+
+All optional, via environment variables (see [`.env.example`](.env.example)):
+
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `AIJOBS_LOOKBACK_HOURS` | `168` | Time window for "new" (one week). |
+| `AIJOBS_MAX_ITEMS` | `15` | Max roles sent per run. |
+| `AIJOBS_TIMEOUT` | `20` | Per-board network timeout (s). |
+| `AIJOBS_STATE_FILE` | `state/jobs_seen.json` | Dedup state path. |
+| `AIJOBS_STATE_TTL_DAYS` | `90` | Prune seen entries older than this. |
+| `AIJOBS_SUMMARIZE` | `1` | Set `0` to disable the AI note. |
+| `AIJOBS_SUMMARY_MODEL` | `claude-haiku-4-5` | Model for the note. |
+| `AIJOBS_SEND_DELAY_MS` | `1000` | Pause between per-role posts. |
+| `AIJOBS_EXTRA_LOCATIONS` | – | Extra location keywords to accept (e.g. `remote, apac`). |
+
+## Tuning the company roster
+
+Open [`aijobs/sources.py`](aijobs/sources.py) and add a `Company(...)` line.
+The `token` is the slug from the company's careers URL. To verify a slug works,
+open its API URL in a browser — a JSON document means it's good:
+
+| Provider | API URL to check | Example slug source |
+|----------|------------------|---------------------|
+| `greenhouse` | `https://boards-api.greenhouse.io/v1/boards/<slug>/jobs` | `boards.greenhouse.io/<slug>` |
+| `lever` | `https://api.lever.co/v0/postings/<slug>?mode=json` | `jobs.lever.co/<slug>` |
+| `ashby` | `https://api.ashbyhq.com/posting-api/job-board/<slug>` | `jobs.ashbyhq.com/<slug>` |
+| `google` | `https://careers.google.com/api/v3/search/?location=Singapore&q=<query>` | (covers DeepMind / Gemini) |
+
+Dead, renamed or rate-limited boards are **skipped gracefully**, so it's safe
+to keep optimistic entries. Slugs drift over time — if a company stops
+appearing, re-check its slug with the table above.
+
+## Notes & limitations
+- **Frontier labs often have 0 Singapore roles at a given moment.** That's why
+  the roster also includes other AI-heavy employers — so the feed isn't empty
+  between marquee openings. Priority labs still rank first when they do hire.
+- **Meta and Apple** use bespoke, login-walled careers systems with no stable
+  public feed, so they aren't polled. Add them if they expose a standard board.
+- The role filter is **title-driven** and tuned for precision; a genuinely
+  AI-focused role with an unusual title may be missed. Widen the keyword lists
+  in `filters.py` if you want more recall.
+- This is a **push-only feed**, same serverless design as the news bot.
+
+## Tests
+
+```bash
+python -m pytest tests/aijobs -q
+```
+
+Offline tests (no network, no API key) cover Singapore location matching,
+AI-role classification & exclusions, every ATS adapter's JSON normalisation,
+ranking priority, post rendering / HTML-escaping / truncation, and the
+end-to-end selection pipeline (filtering, dedup, seen-skipping, lookback).
