@@ -271,10 +271,23 @@ companies ─▶ fetch each ATS/careers API (concurrent, timeouts)
 
 ## Setup
 
-The jobs bot reuses the **same** `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` and
-(optional) `ANTHROPIC_API_KEY` secrets as the news bot — see
-[Setup above](#setup-5-minutes). If you want the jobs feed in a *different*
-chat/channel, create a second channel and point `TELEGRAM_CHAT_ID` at it.
+The jobs feed posts to its **own Telegram channel**, separate from the news
+digest:
+
+1. **Create a channel** in Telegram (e.g. *AI Jobs SG*), then **add your bot as
+   an admin** so it can post there.
+2. **Get the channel id.** Use its public handle (e.g. `@my_ai_jobs_sg`), or
+   for a private channel forward one of its messages to
+   [@userinfobot](https://t.me/userinfobot) to read the numeric id (looks like
+   `-1001234567890`).
+3. **Add a GitHub secret** `AIJOBS_CHAT_ID` set to that channel
+   (**Settings → Secrets and variables → Actions → New repository secret**).
+
+The bot **reuses the news bot's** `TELEGRAM_BOT_TOKEN` and (optional)
+`ANTHROPIC_API_KEY` — the same bot can post to multiple channels, so you only
+add `AIJOBS_CHAT_ID`. (Want a fully separate bot? Add an `AIJOBS_BOT_TOKEN`
+secret too.) If `AIJOBS_CHAT_ID` is left unset, the feed falls back to
+`TELEGRAM_CHAT_ID` and shares the news digest's chat.
 
 The workflow [`.github/workflows/jobs.yml`](.github/workflows/jobs.yml) runs
 **twice daily** (09:00 & 18:00 SGT). Trigger it now from **Actions → AI Jobs
@@ -288,9 +301,9 @@ pip install -r requirements.txt
 # Preview without sending (no token needed). Widen the window for a first look:
 python -m aijobs --dry-run --lookback 720 --max-items 25
 
-# Actually send:
-export TELEGRAM_BOT_TOKEN="123:abc"
-export TELEGRAM_CHAT_ID="123456789"
+# Actually send (to the jobs channel):
+export TELEGRAM_BOT_TOKEN="123:abc"     # shared with the news bot
+export AIJOBS_CHAT_ID="@my_ai_jobs_sg"  # the dedicated jobs channel
 python -m aijobs
 ```
 
@@ -313,6 +326,8 @@ All optional, via environment variables (see [`.env.example`](.env.example)):
 
 | Variable | Default | Purpose |
 |----------|---------|---------|
+| `AIJOBS_CHAT_ID` | falls back to `TELEGRAM_CHAT_ID` | The dedicated jobs channel. |
+| `AIJOBS_BOT_TOKEN` | falls back to `TELEGRAM_BOT_TOKEN` | Use a separate bot (optional). |
 | `AIJOBS_LOOKBACK_HOURS` | `168` | Time window for "new" (one week). |
 | `AIJOBS_MAX_ITEMS` | `15` | Max roles sent per run. |
 | `AIJOBS_TIMEOUT` | `20` | Per-board network timeout (s). |

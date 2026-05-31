@@ -43,7 +43,13 @@ jobs:
 
       - name: Send jobs feed
         env:
+          # Shared bot token (same bot as the news digest). Override with an
+          # AIJOBS_BOT_TOKEN secret only if you run a separate bot.
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          AIJOBS_BOT_TOKEN: ${{ secrets.AIJOBS_BOT_TOKEN }}
+          # The jobs feed posts to its OWN channel: set the AIJOBS_CHAT_ID
+          # secret to that channel. Falls back to TELEGRAM_CHAT_ID if unset.
+          AIJOBS_CHAT_ID: ${{ secrets.AIJOBS_CHAT_ID }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           # Optional: enables the one-line AI "what this role is" note. Without
           # it the bot still runs and uses the posting's own blurb if present.

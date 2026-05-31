@@ -54,9 +54,16 @@ class Config:
 
     @classmethod
     def from_env(cls) -> "Config":
+        # The jobs feed posts to its own channel. AIJOBS_CHAT_ID takes
+        # precedence; TELEGRAM_CHAT_ID is the fallback so a single shared chat
+        # still works if no dedicated channel is configured. The bot token may
+        # likewise be overridden (AIJOBS_BOT_TOKEN) to run a separate bot,
+        # otherwise it shares the news bot's token.
         return cls(
-            bot_token=os.environ.get("TELEGRAM_BOT_TOKEN", "").strip(),
-            chat_id=os.environ.get("TELEGRAM_CHAT_ID", "").strip(),
+            bot_token=(os.environ.get("AIJOBS_BOT_TOKEN", "").strip()
+                       or os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()),
+            chat_id=(os.environ.get("AIJOBS_CHAT_ID", "").strip()
+                     or os.environ.get("TELEGRAM_CHAT_ID", "").strip()),
             lookback_hours=_int("AIJOBS_LOOKBACK_HOURS", 168),
             max_items=_int("AIJOBS_MAX_ITEMS", 15),
             timeout=_int("AIJOBS_TIMEOUT", 20),
@@ -74,9 +81,9 @@ class Config:
     def require_telegram(self) -> None:
         missing = []
         if not self.bot_token:
-            missing.append("TELEGRAM_BOT_TOKEN")
+            missing.append("AIJOBS_BOT_TOKEN or TELEGRAM_BOT_TOKEN")
         if not self.chat_id:
-            missing.append("TELEGRAM_CHAT_ID")
+            missing.append("AIJOBS_CHAT_ID or TELEGRAM_CHAT_ID")
         if missing:
             raise RuntimeError(
                 "Missing required environment variable(s): "
