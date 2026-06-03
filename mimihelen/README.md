@@ -24,6 +24,9 @@ underneath: *"eyedrop time. just."*, *"no rubbing your eyes ah, i'm serious"*,
   in correctly.
 - ✅ **Dose logging, daily progress and streaks** via buttons and commands —
   with an **↩️ Undo** (button after Done, or `/undo`) for accidental taps.
+- 📋 **Compliance report** — `/report` (or `/report 14`, `/report 30`) builds a
+  clean, forwardable summary (per-day log + adherence %) to send to her eye
+  doctor showing compliance / non-compliance.
 - 💬 **Answers questions** — *"when's my next reminder?"*, *"what are my
   eyedrops for?"*, *"how do i use the drops?"*, *"can i rub my eyes?"* — in her
   voice, with general info only (always defers to your real eye doctor).
