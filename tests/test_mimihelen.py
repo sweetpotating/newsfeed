@@ -575,3 +575,20 @@ def test_tick_sends_at_scheduled_time_not_before(tmp_path):
     assert bot.tick(datetime(2026, 6, 3, 18, 30)) is False   # 30 min early: no send
     assert bot.tick(datetime(2026, 6, 3, 19, 0)) is True     # at 7pm: sends
     assert bot.tick(datetime(2026, 6, 3, 19, 1)) is False    # already sent
+
+
+def test_tick_sends_all_due_unsent_slots(tmp_path):
+    # Three slots 2 min apart; a single tick after all three are due must send
+    # all three (closely-spaced reminders can't be skipped).
+    cfg = Config.from_env(); cfg.chat_id = "1"; cfg.tz = "Asia/Singapore"
+    cfg.times = ["16:40", "16:42", "16:44"]; cfg.slot_tolerance_min = 30
+    sent = []
+    class Mock:
+        def send_message(self, text, chat_id=None, reply_markup=None, **k):
+            sent.append(text); return {"ok": True, "result": {"message_id": 1}}
+        def answer_callback_query(self, *a, **k): pass
+    bot = MimiHelenBot(cfg, Mock(), DoseTracker(str(tmp_path / "s.json"), daily_goal=3))
+    assert bot.tick(datetime(2026, 6, 3, 16, 39)) is False           # none due yet
+    assert bot.tick(datetime(2026, 6, 3, 16, 45)) is True            # all 3 due now
+    assert len(sent) == 3
+    assert bot.tick(datetime(2026, 6, 3, 16, 46)) is False           # nothing left
