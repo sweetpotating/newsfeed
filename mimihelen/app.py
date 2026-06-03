@@ -94,8 +94,11 @@ def build_parser() -> argparse.ArgumentParser:
     p_remind.add_argument("--no-state", action="store_true",
                           help="Do not read or write the tracker state file.")
 
-    sub.add_parser("serve", parents=[common],
-                   help="Run the interactive long-polling bot.")
+    p_serve = sub.add_parser("serve", parents=[common],
+                             help="Run the interactive bot (reminders + buttons + Q&A).")
+    p_serve.add_argument("--no-schedule", action="store_true",
+                         help="Don't send scheduled reminders; only handle buttons "
+                              "& questions (use when a separate cron sends reminders).")
     return parser
 
 
@@ -111,7 +114,7 @@ def run(argv: Optional[List[str]] = None) -> int:
     cfg = Config.from_env()
 
     if args.command == "serve":
-        return serve(cfg)
+        return serve(cfg, schedule_enabled=not args.no_schedule)
     if args.command == "remind":
         return run_remind(cfg, args)
 

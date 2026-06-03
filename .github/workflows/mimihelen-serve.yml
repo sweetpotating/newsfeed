@@ -1,0 +1,72 @@
+name: Mimi Helen Bot — Interactive (buttons + Q&A)
+
+# Keeps the interactive bot alive on free GitHub Actions so the reminder
+# BUTTONS (✅ Done / ⏰ Snooze / 📊 / 💡), commands (/done, /streak, ...) and
+# free-text QUESTIONS actually get answered. The scheduled reminders themselves
+# still come from mimihelen.yml — this worker runs with `--no-schedule` so they
+# aren't sent twice.
+#
+# How "24/7" works on Actions: a job can run at most ~6 hours, so we run for
+# ~5h50m then exit, and the schedule restarts us every 6 hours. During the short
+# handoff gap Telegram simply queues taps/messages (it holds them ~24h) and this
+# worker processes them the moment it comes back — so nothing is lost, just an
+# occasional short delay.
+#
+# Public repos get unlimited Actions minutes, so this is free.
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours (UTC); restarts the worker
+  workflow_dispatch:
+
+# Never run two workers at once (Telegram allows only one long-poller per bot;
+# two would 409). A newly-scheduled run waits for the current one to finish,
+# giving near-continuous coverage.
+concurrency:
+  group: mimihelen-serve
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  serve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run interactive bot (~5h50m, then the schedule restarts it)
+        env:
+          # Same bot + chat as the reminder workflow.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.MIMIHELEN_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.MIMIHELEN_CHAT_ID }}
+          # Keep the bot's answers (next reminder, /schedule) in sync with the
+          # reminder workflow — set the same repo Variables there.
+          MIMIHELEN_FRIEND_NAME: ${{ vars.MIMIHELEN_FRIEND_NAME }}
+          MIMIHELEN_TIMES: ${{ vars.MIMIHELEN_TIMES }}
+          MIMIHELEN_TZ: ${{ vars.MIMIHELEN_TZ }}
+          MIMIHELEN_DAILY_GOAL: ${{ vars.MIMIHELEN_DAILY_GOAL }}
+          # For accurate "what are my eyedrops" answers (repo Variable).
+          MIMIHELEN_EYEDROPS: ${{ vars.MIMIHELEN_EYEDROPS }}
+          # Optional: open-ended Q&A. Safe to omit; built-in answers still work.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # Exit cleanly before the 6h hard limit so the next scheduled run can
+          # take over. `timeout` returns 124 on expiry — treat that as success.
+          timeout 350m python -m mimihelen serve --no-schedule --verbose || code=$?
+          if [ "${code:-0}" -eq 124 ] || [ "${code:-0}" -eq 0 ]; then
+            echo "Worker window ended; the schedule will restart it."
+            exit 0
+          fi
+          echo "Worker exited with code $code"
+          exit "$code"
