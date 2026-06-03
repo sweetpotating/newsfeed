@@ -533,3 +533,45 @@ def test_snooze_callback_blocks_second(tmp_path):
     assert n_after_first == 1 and len(bot._pending) == 1            # no second timer
     assert any("ok," in t for t in toasts)                          # first acknowledged
     assert any("already snoozing" in t for t in toasts)            # second refused
+
+
+# ---- due_slot: fire AT the time, never early ---------------------------
+from mimihelen.schedule import due_slot
+
+DUE_TIMES = ["08:00", "13:00", "19:00", "22:00"]
+
+
+def test_due_slot_does_not_fire_early():
+    # 30 min before 19:00 must NOT be due (the old bug fired here)
+    assert due_slot(DUE_TIMES, datetime(2026, 6, 3, 18, 30), 30) is None
+    assert due_slot(DUE_TIMES, datetime(2026, 6, 3, 18, 59), 30) is None
+
+
+def test_due_slot_fires_at_time_and_catches_up():
+    s = due_slot(DUE_TIMES, datetime(2026, 6, 3, 19, 0), 30)
+    assert s is not None and s.time_str == "19:00" and s.index == 2
+    # a few minutes late (worker restarted) still fires
+    s2 = due_slot(DUE_TIMES, datetime(2026, 6, 3, 19, 20), 30)
+    assert s2 is not None and s2.time_str == "19:00"
+    # beyond the catch-up window -> skip (don't send hours late)
+    assert due_slot(DUE_TIMES, datetime(2026, 6, 3, 19, 40), 30) is None
+
+
+def test_due_slot_picks_latest_due():
+    # at 19:05, both 13:00 and 19:00 are in the past, pick the most recent due
+    s = due_slot(DUE_TIMES, datetime(2026, 6, 3, 19, 5), 30)
+    assert s.time_str == "19:00"
+
+
+def test_tick_sends_at_scheduled_time_not_before(tmp_path):
+    cfg = Config.from_env(); cfg.chat_id = "1"; cfg.tz = "Asia/Singapore"
+    cfg.times = ["08:00", "13:00", "19:00", "22:00"]; cfg.slot_tolerance_min = 30
+    sent = []
+    class Mock:
+        def send_message(self, text, chat_id=None, reply_markup=None, **k):
+            sent.append(text); return {"ok": True, "result": {"message_id": 1}}
+        def answer_callback_query(self, *a, **k): pass
+    bot = MimiHelenBot(cfg, Mock(), DoseTracker(str(tmp_path / "s.json"), daily_goal=4))
+    assert bot.tick(datetime(2026, 6, 3, 18, 30)) is False   # 30 min early: no send
+    assert bot.tick(datetime(2026, 6, 3, 19, 0)) is True     # at 7pm: sends
+    assert bot.tick(datetime(2026, 6, 3, 19, 1)) is False    # already sent
