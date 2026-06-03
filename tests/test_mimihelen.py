@@ -201,3 +201,34 @@ def test_answer_unknown_without_llm_lists_options():
     now = datetime(2026, 6, 3, 9, 0)
     a = qa.answer("tell me a joke about cats", _cfg(), _Tracker(), now)
     assert "next reminder" in a.lower()  # falls back to the helpful menu
+
+
+# ---- tips: more of them, no same-day repeats ---------------------------
+def test_plenty_of_tips():
+    assert content.tip_count() >= 20
+
+
+def test_tips_no_repeat_within_a_day():
+    # The day's reminders (and on-demand /tip) must never repeat a tip until
+    # the whole list is exhausted.
+    n = min(content.tip_count(), 8)
+    tips = [content.tip_for_slot("2026-06-03", i) for i in range(n)]
+    assert len(set(tips)) == n
+
+
+def test_tip_order_varies_by_day():
+    a = [content.tip_for_slot("2026-06-03", i) for i in range(4)]
+    b = [content.tip_for_slot("2026-06-09", i) for i in range(4)]
+    assert a != b
+
+
+def test_build_reminder_uses_distinct_tips_across_day_slots():
+    msgs = [content.build_reminder("Helen", f"2026-06-03|{t}",
+                                   dose_label=f"dose {i+1} of 4", tip_index=i)
+            for i, t in enumerate(["07:00", "12:00", "18:00", "22:00"])]
+    # Extract the tip line (4th-from-last block) — simplest: ensure the set of
+    # full messages differ and no two share the same tip by checking the tips.
+    tips = [content.tip_for_slot("2026-06-03", i) for i in range(4)]
+    for m, tip in zip(msgs, tips):
+        assert tip in m
+    assert len(set(tips)) == 4

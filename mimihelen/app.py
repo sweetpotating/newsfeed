@@ -33,9 +33,10 @@ def _compose(cfg: Config, slot: Optional[Slot], seed_extra: str) -> str:
     seed = now.strftime("%Y-%m-%d") + "|" + seed_extra
     dose_label = slot.dose_label if slot else ""
     include_howto = bool(slot and slot.is_first)
+    tip_index = slot.index if slot else None
     return content.build_reminder(
         cfg.friend_name, seed,
-        dose_label=dose_label, include_howto=include_howto,
+        dose_label=dose_label, include_howto=include_howto, tip_index=tip_index,
     )
 
 

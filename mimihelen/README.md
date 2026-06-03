@@ -15,8 +15,10 @@ underneath: *"eyedrop time. just."*, *"no rubbing your eyes ah, i'm serious"*,
   tagged "dose 2 of 4" so she knows where she is.
 - 🚫 **"Don't rub your eyes" nudge** on every reminder, with kinder
   alternatives (blink, cool compress).
-- 💡 **Rotating eye-care tips** (20-20-20 rule, hydration, blink breaks,
-  sunglasses, sleep, spacing multiple drops, and more).
+- 💡 **~30 rotating eye-care tips** (20-20-20 rule, hydration, blink breaks,
+  sunglasses, sleep, one-drop-is-enough, warm compress, annual checks, red-flag
+  symptoms, and more) — dealt in a **shuffled, no-repeat order each day** so the
+  day's reminders never show the same tip twice.
 - 🧼 **Step-by-step how-to** on the first reminder of the day, so the drops go
   in correctly.
 - ✅ **Dose logging, daily progress and streaks** via buttons and commands.
