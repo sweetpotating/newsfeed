@@ -14,6 +14,15 @@ name: Mimi Helen Bot — Interactive (buttons + Q&A)
 #
 # Public repos get unlimited Actions minutes, so this is free.
 on:
+  # Bootstraps the worker immediately whenever the default branch changes
+  # (e.g. merging this) — no manual click needed.
+  push:
+    branches: ["claude/ai-news-telegram-bot-EBtjH"]
+  # Re-bootstrap after each reminder run, so it self-heals even if a restart
+  # was missed.
+  workflow_run:
+    workflows: ["Mimi Helen Bot — Eyedrop Reminders"]
+    types: [completed]
   schedule:
     - cron: "0 */6 * * *"   # every 6 hours (UTC); restarts the worker
   workflow_dispatch:
