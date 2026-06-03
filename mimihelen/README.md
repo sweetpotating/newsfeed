@@ -79,6 +79,33 @@ If you just want the daily reminders and don't need buttons/Q&A:
 Commands: `/done` `/today` `/streak` `/tip` `/schedule` `/ask` `/help` — or
 just type a question.
 
+### Option C — buttons + Q&A on free GitHub Actions (no laptop, no account)
+
+Keeps your existing reminder cron **and** makes the buttons + questions work,
+using a second workflow (`.github/workflows/mimihelen-serve.yml`) that runs
+`serve --no-schedule` near-continuously. Public repos get unlimited Actions
+minutes, so it's $0.
+
+1. Make sure the secrets `MIMIHELEN_BOT_TOKEN` / `MIMIHELEN_CHAT_ID` are set
+   (same ones the reminder workflow uses).
+2. Optional repo **Variables** (Settings → Secrets and variables → Actions →
+   Variables) so answers are accurate: `MIMIHELEN_TIMES`, `MIMIHELEN_TZ`,
+   `MIMIHELEN_DAILY_GOAL`, `MIMIHELEN_FRIEND_NAME`, `MIMIHELEN_EYEDROPS`.
+   Optional secret `ANTHROPIC_API_KEY` for open-ended questions.
+3. **Actions → "Mimi Helen Bot — Interactive" → Run workflow** to start it now;
+   after that the schedule keeps it alive (it restarts itself every ~6h).
+
+How it stays up: a single Actions job can run ~6h max, so the worker runs
+~5h50m then exits and the schedule restarts it. During the short handoff,
+Telegram queues taps/messages (it holds them ~24h) and the worker answers them
+when it comes back — nothing lost, just an occasional short delay.
+
+> ⚠️ Limitations of the free worker: (1) only **one** `serve` may run at a time
+> per bot — don't also run it locally, or Telegram returns 409. (2) Dose logs
+> live in memory for the worker's session, so `/today` is accurate within a
+> session but `/streak` won't accumulate across the ~6h restarts. For
+> persistent streaks, use Option A on an always-on host with a disk.
+
 ## Local preview
 
 ```bash

@@ -234,8 +234,15 @@ class MimiHelenBot:
             chat_id=chat_id, reply_markup=reminder_keyboard())
 
 
-def serve(cfg: Config) -> int:
-    """Run the long-polling loop until interrupted."""
+def serve(cfg: Config, schedule_enabled: bool = True) -> int:
+    """Run the long-polling loop until interrupted.
+
+    With ``schedule_enabled`` (default), a single ``serve`` process is a complete
+    deployment: it sends the scheduled reminders itself AND handles buttons /
+    commands / questions. Pass ``schedule_enabled=False`` (``serve --no-schedule``)
+    when a separate cron already sends the reminders and you only want this
+    process for the interactive bits — so reminders aren't sent twice.
+    """
     cfg.require_telegram()
     client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
     tracker = DoseTracker(cfg.state_file, daily_goal=cfg.daily_goal)
@@ -246,15 +253,16 @@ def serve(cfg: Config) -> int:
     except RuntimeError as exc:
         log.warning("Could not set command menu: %s", exc)
 
-    log.info("Mimi Helen Bot is now serving (reminders + buttons + Q&A). "
-             "Ctrl-C to stop.")
+    mode = "reminders + buttons + Q&A" if schedule_enabled else "buttons + Q&A only"
+    log.info("Mimi Helen Bot is now serving (%s). Ctrl-C to stop.", mode)
     offset: Optional[int] = None
     while True:
         # Fire any scheduled reminder that's due (runs every poll cycle, ≤~1min).
-        try:
-            handler.tick(now_in_tz(cfg.tz))
-        except Exception as exc:  # scheduling must never kill the loop
-            log.warning("Scheduler tick failed: %s", exc)
+        if schedule_enabled:
+            try:
+                handler.tick(now_in_tz(cfg.tz))
+            except Exception as exc:  # scheduling must never kill the loop
+                log.warning("Scheduler tick failed: %s", exc)
 
         try:
             updates = client.get_updates(offset, cfg.poll_timeout)
