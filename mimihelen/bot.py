@@ -317,8 +317,14 @@ class MimiHelenBot:
                 self.client.send_message(
                     progress_text(self.cfg, self.tracker, now), chat_id=chat_id)
         elif data == "snooze":
-            self._start_snooze(chat_id, now)
-            self.client.answer_callback_query(cb_id, f"ok, {self.cfg.snooze_min} min ⏰")
+            if self.has_pending():
+                rem = self._pending_remaining(now)
+                self.client.answer_callback_query(
+                    cb_id, f"already snoozing — {rem} left ah ⏰")
+            else:
+                self._start_snooze(chat_id, now)
+                self.client.answer_callback_query(
+                    cb_id, f"ok, {self.cfg.snooze_min} min ⏰")
         elif data == "today":
             self.client.answer_callback_query(cb_id)
             self.client.send_message(
@@ -384,9 +390,15 @@ class MimiHelenBot:
              for p in self._pending])
         self._save()
 
-    def _start_snooze(self, chat_id: str, now: datetime) -> None:
+    def _start_snooze(self, chat_id: str, now: datetime) -> bool:
         """Begin a snooze: post a countdown message that ticks down, then
-        re-sends the reminder when it hits zero. Never blocks the bot."""
+        re-sends the reminder when it hits zero. Never blocks the bot.
+
+        Only one snooze may run at a time — returns False (and does nothing) if
+        one is already active.
+        """
+        if self._pending:
+            return False
         mins = self.cfg.snooze_min
         fire_at = now + timedelta(minutes=mins)
         resp = self.client.send_message(
@@ -396,9 +408,18 @@ class MimiHelenBot:
         self._pending.append({"chat_id": chat_id, "fire_at": fire_at,
                               "msg_id": msg_id, "last": ""})
         self._persist_pending()  # survive a restart during the countdown
+        return True
 
     def has_pending(self) -> bool:
         return bool(self._pending)
+
+    def _pending_remaining(self, now: datetime) -> str:
+        """'M:SS' left on the active snooze (or '0:00' if none)."""
+        if not self._pending:
+            return "0:00"
+        remaining = max(0, int((self._pending[0]["fire_at"] - now).total_seconds()))
+        mm, ss = divmod(remaining, 60)
+        return f"{mm}:{ss:02d}"
 
     def process_pending(self, now: datetime) -> None:
         """Tick every snooze countdown; fire the ones that reached zero."""
