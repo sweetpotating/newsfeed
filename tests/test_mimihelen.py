@@ -609,3 +609,17 @@ def test_seconds_to_next_slot():
     assert sns(["19:00", "22:00"], now) == 30        # 30s to 19:00
     assert sns(["08:00"], now) is None               # nothing left today
     assert sns([], now) is None
+
+
+def test_chatid_command(tmp_path):
+    cfg = Config.from_env(); cfg.chat_id = "22340455"; cfg.tz = "Asia/Singapore"
+    sent = []
+    class Mock:
+        def send_message(self, text, chat_id=None, reply_markup=None, **k):
+            sent.append((chat_id, text)); return {"ok": True, "result": {"message_id": 1}}
+        def answer_callback_query(self, *a, **k): pass
+    bot = MimiHelenBot(cfg, Mock(), DoseTracker(str(tmp_path / "s.json"), daily_goal=4))
+    bot.handle_message({"chat": {"id": -1001234567890, "type": "supergroup"}, "text": "/chatid"})
+    cid, text = sent[0]
+    assert "-1001234567890" in text and "supergroup" in text
+    assert "MIMIHELEN_CHAT_ID" in text
