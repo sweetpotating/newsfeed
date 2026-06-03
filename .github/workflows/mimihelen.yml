@@ -49,8 +49,11 @@ jobs:
 
       - name: Send reminder
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Mimi Helen has its OWN bot + chat, separate from the AI-news bot,
+          # so it uses dedicated secrets (add these under repo Settings →
+          # Secrets and variables → Actions):
+          TELEGRAM_BOT_TOKEN: ${{ secrets.MIMIHELEN_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.MIMIHELEN_CHAT_ID }}
           # Optional overrides (otherwise sensible defaults are used):
           MIMIHELEN_FRIEND_NAME: ${{ vars.MIMIHELEN_FRIEND_NAME }}
           MIMIHELEN_TIMES: ${{ vars.MIMIHELEN_TIMES }}

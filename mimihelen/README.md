@@ -27,7 +27,9 @@ No server needed.
 1. Create a bot with [@BotFather](https://t.me/BotFather) → copy the token.
 2. Get the friend's chat id (message [@userinfobot](https://t.me/userinfobot)).
 3. In the repo: **Settings → Secrets and variables → Actions**
-   - Secrets: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
+   - Secrets: `MIMIHELEN_BOT_TOKEN`, `MIMIHELEN_CHAT_ID`
+     (dedicated names so this bot stays separate from any other Telegram bot
+     in the repo; the workflow maps them to the code's `TELEGRAM_*` env vars)
    - Optional Variables: `MIMIHELEN_FRIEND_NAME`, `MIMIHELEN_TIMES`,
      `MIMIHELEN_TZ`, `MIMIHELEN_DAILY_GOAL`
 4. The schedule fires automatically. To test now: **Actions → Mimi Helen Bot →
