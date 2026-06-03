@@ -25,13 +25,14 @@ from typing import Optional
 from . import content, qa
 from .config import Config
 from .schedule import current_slot, now_in_tz
-from .telegram import TelegramClient, reminder_keyboard
+from .telegram import TelegramClient, reminder_keyboard, undo_keyboard
 from .tracker import DoseTracker
 
 log = logging.getLogger("mimihelen.bot")
 
 COMMANDS = [
     {"command": "done", "description": "done my drops liao"},
+    {"command": "undo", "description": "oops, un-log my last drop"},
     {"command": "today", "description": "how many drops today"},
     {"command": "streak", "description": "my streak"},
     {"command": "tip", "description": "give me an eye-care tip"},
@@ -71,6 +72,7 @@ def help_text(cfg: Config) -> str:
         "take care of your eyes properly.\n\n"
         "<b>what you can do:</b>\n"
         "• /done — i did my drops ✅\n"
+        "• /undo — oops, un-log that drop ↩️\n"
         "• /today — how many drops today 📊\n"
         "• /streak — my streak 🔥\n"
         "• /tip — give me an eye-care tip 💡\n"
@@ -116,6 +118,14 @@ class MimiHelenBot:
             msg += "\nextra drops today ah. not bad 🧡"
         return msg
 
+    def _undo_dose(self, now: datetime) -> str:
+        """Remove the last-logged dose today (for an accidental Done)."""
+        remaining = self.tracker.undo_dose(now.date())
+        if remaining is None:
+            return "nothing to undo lah — you haven't logged any drops today."
+        self.tracker.save()
+        return f"ok, undone. back to {remaining}/{self.cfg.daily_goal} today. butterfingers ah 🙄"
+
     def _streak_text(self, now: datetime) -> str:
         s = self.tracker.streak(now.date())
         if s <= 0:
@@ -146,7 +156,10 @@ class MimiHelenBot:
             self.client.send_message(help_text(self.cfg), chat_id=chat_id,
                                      reply_markup=reminder_keyboard())
         elif cmd in ("done", "drop", "drops", "log"):
-            self.client.send_message(self._log_dose(chat_id, now), chat_id=chat_id)
+            self.client.send_message(self._log_dose(chat_id, now), chat_id=chat_id,
+                                     reply_markup=undo_keyboard())
+        elif cmd in ("undo", "undrop", "oops"):
+            self.client.send_message(self._undo_dose(now), chat_id=chat_id)
         elif cmd == "today":
             self.client.send_message(
                 progress_text(self.cfg, self.tracker, now), chat_id=chat_id)
@@ -181,8 +194,20 @@ class MimiHelenBot:
             self.tracker.save()
             self.client.answer_callback_query(
                 cb_id, f"noted ({count}/{self.cfg.daily_goal} today) 👌🏼")
+            # Offer an undo in case it was a mis-tap.
             self.client.send_message(
-                progress_text(self.cfg, self.tracker, now), chat_id=chat_id)
+                progress_text(self.cfg, self.tracker, now), chat_id=chat_id,
+                reply_markup=undo_keyboard())
+        elif data == "undo":
+            remaining = self.tracker.undo_dose(now.date())
+            if remaining is None:
+                self.client.answer_callback_query(cb_id, "nothing to undo")
+            else:
+                self.tracker.save()
+                self.client.answer_callback_query(
+                    cb_id, f"undone ({remaining}/{self.cfg.daily_goal} today) ↩️")
+                self.client.send_message(
+                    progress_text(self.cfg, self.tracker, now), chat_id=chat_id)
         elif data == "snooze":
             self.client.answer_callback_query(cb_id, "ok, 15 min. don't run away ah ⏰")
             self._snooze(chat_id, now)

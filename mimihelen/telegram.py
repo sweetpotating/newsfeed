@@ -131,3 +131,12 @@ def reminder_keyboard() -> dict:
             ],
         ]
     }
+
+
+def undo_keyboard() -> dict:
+    """A single 'undo' button, attached to a Done confirmation in case of a mis-tap."""
+    return {
+        "inline_keyboard": [
+            [{"text": "↩️ Undo that", "callback_data": "undo"}],
+        ]
+    }
