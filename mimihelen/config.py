@@ -11,10 +11,10 @@ import os
 from dataclasses import dataclass, field
 from typing import List
 
-# Sensible default: five evenly-spread reminders across a waking day, which
-# comfortably covers the "3-5 times a day" goal. Times are HH:MM, 24-hour, in
-# MIMIHELEN_TZ. Override with MIMIHELEN_TIMES="08:00,12:30,16:00,20:00,22:30".
-DEFAULT_TIMES = ["08:00", "12:30", "16:00", "20:00", "22:30"]
+# Sensible default: four reminders across a waking day, hitting the "3-5 times
+# a day" goal. Times are HH:MM, 24-hour, in MIMIHELEN_TZ. Override with
+# MIMIHELEN_TIMES="07:00,12:00,18:00,22:00".
+DEFAULT_TIMES = ["07:00", "12:00", "18:00", "22:00"]
 DEFAULT_TZ = "Asia/Singapore"
 
 

@@ -4,16 +4,15 @@ name: Mimi Helen Bot — Eyedrop Reminders
 # Manual runs: Actions tab -> this workflow -> "Run workflow".
 #
 # IMPORTANT: cron below is in UTC. The defaults map to Singapore time (UTC+8):
-#   08:00, 12:30, 16:00, 20:00, 22:30 SGT  ==  00:00, 04:30, 08:00, 12:00, 14:30 UTC
+#   07:00, 12:00, 18:00, 22:00 SGT  ==  23:00, 04:00, 10:00, 14:00 UTC
 # Keep MIMIHELEN_TIMES (in MIMIHELEN_TZ) in sync with these cron lines so each
 # run maps cleanly to a dose slot. Change both if you change the schedule.
 on:
   schedule:
-    - cron: "0 0 * * *"    # 08:00 SGT — dose 1 (with how-to)
-    - cron: "30 4 * * *"   # 12:30 SGT — dose 2
-    - cron: "0 8 * * *"    # 16:00 SGT — dose 3
-    - cron: "0 12 * * *"   # 20:00 SGT — dose 4
-    - cron: "30 14 * * *"  # 22:30 SGT — dose 5
+    - cron: "0 23 * * *"   # 07:00 SGT — dose 1 (with how-to)
+    - cron: "0 4 * * *"    # 12:00 SGT — dose 2
+    - cron: "0 10 * * *"   # 18:00 SGT — dose 3
+    - cron: "0 14 * * *"   # 22:00 SGT — dose 4
   workflow_dispatch:
     inputs:
       dry_run:

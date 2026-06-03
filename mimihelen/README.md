@@ -65,7 +65,7 @@ All optional — sensible defaults are built in. See `.env.example`.
 | `TELEGRAM_BOT_TOKEN` | — | From @BotFather (required to send) |
 | `TELEGRAM_CHAT_ID` | — | Where reminders go (required to send) |
 | `MIMIHELEN_FRIEND_NAME` | `Helen` | Name used in greetings |
-| `MIMIHELEN_TIMES` | `08:00,12:30,16:00,20:00,22:30` | Reminder times (24h) |
+| `MIMIHELEN_TIMES` | `07:00,12:00,18:00,22:00` | Reminder times (24h) |
 | `MIMIHELEN_TZ` | `Asia/Singapore` | Timezone for the times |
 | `MIMIHELEN_DAILY_GOAL` | `4` | Doses/day for progress & streaks |
 | `MIMIHELEN_SLOT_TOLERANCE_MIN` | `30` | How late a cron run still counts |
