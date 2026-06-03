@@ -38,6 +38,7 @@ COMMANDS = [
     {"command": "today", "description": "how many drops today"},
     {"command": "streak", "description": "my streak"},
     {"command": "tip", "description": "give me an eye-care tip"},
+    {"command": "test", "description": "send me a test reminder now"},
     {"command": "schedule", "description": "see / change reminder times"},
     {"command": "snooze", "description": "see / change snooze length"},
     {"command": "ask", "description": "ask me anything about your eyes/drops"},
@@ -76,6 +77,7 @@ def help_text(cfg: Config) -> str:
         "• /today — how many drops today 📊\n"
         "• /streak — my streak 🔥\n"
         "• /tip — give me an eye-care tip 💡\n"
+        "• /test — send a test reminder now (to try the buttons) 🧪\n"
         "• /schedule — see or change your reminder times 🕒\n"
         "• /snooze — see or change the snooze length ⏰\n"
         "• /help — this\n\n"
@@ -230,6 +232,12 @@ class MimiHelenBot:
         if cmd in ("start", "help"):
             # No action buttons here — snooze etc. belong on actual reminders.
             self.client.send_message(help_text(self.cfg), chat_id=chat_id)
+        elif cmd in ("test", "testreminder", "remindme", "remind"):
+            # A sample reminder right now, with the buttons (incl. ⏰ Snooze).
+            seed = now.strftime("%Y-%m-%d") + "|test"
+            self.client.send_message(
+                content.build_reminder(self.cfg.friend_name, seed),
+                chat_id=chat_id, reply_markup=self._kb())
         elif cmd in ("done", "drop", "drops", "log"):
             self.client.send_message(self._log_dose(chat_id, now), chat_id=chat_id,
                                      reply_markup=undo_keyboard())
