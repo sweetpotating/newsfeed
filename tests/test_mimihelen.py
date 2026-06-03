@@ -510,3 +510,26 @@ def test_report_command_sends_forwardable_message(tmp_path):
     assert len(sent) == 2                                   # report + forward hint
     assert "Compliance Report" in sent[0] and "(14 days)" in sent[0]
     assert "forward that to dr helen" in sent[1].lower()
+
+
+def test_only_one_snooze_at_a_time(tmp_path):
+    bot, cfg = _snooze_bot(tmp_path)
+    t0 = datetime(2026, 6, 3, 9, 0, 0)
+    assert bot._start_snooze("1", t0) is True       # first one starts
+    assert len(bot._pending) == 1
+    assert bot._start_snooze("1", t0 + _td(minutes=1)) is False   # second refused
+    assert len(bot._pending) == 1                    # still just one
+    # remaining-time helper reflects the original timer (5 min - 1 min = 4:00)
+    assert bot._pending_remaining(t0 + _td(minutes=1)) == "4:00"
+
+
+def test_snooze_callback_blocks_second(tmp_path):
+    bot, cfg = _snooze_bot(tmp_path)
+    toasts = []
+    bot.client.answer_callback_query = lambda cid, text="", **k: toasts.append(text)
+    bot.handle_callback({"id": "a", "data": "snooze", "message": {"chat": {"id": 1}}})
+    n_after_first = len(bot._pending)
+    bot.handle_callback({"id": "b", "data": "snooze", "message": {"chat": {"id": 1}}})
+    assert n_after_first == 1 and len(bot._pending) == 1            # no second timer
+    assert any("ok," in t for t in toasts)                          # first acknowledged
+    assert any("already snoozing" in t for t in toasts)            # second refused
