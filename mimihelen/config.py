@@ -83,6 +83,8 @@ class Config:
     tz: str = DEFAULT_TZ
     # Daily eyedrop goal (used for progress / streak). 3-5 is the target.
     daily_goal: int = 4
+    # Minutes the "⏰ Snooze" button waits before re-sending the reminder.
+    snooze_min: int = 5
     # When `remind` runs from cron a few minutes late, still treat it as the
     # nearest slot within this many minutes.
     slot_tolerance_min: int = 30
@@ -115,6 +117,7 @@ class Config:
             times=_times("MIMIHELEN_TIMES", DEFAULT_TIMES),
             tz=os.environ.get("MIMIHELEN_TZ", DEFAULT_TZ).strip() or DEFAULT_TZ,
             daily_goal=_int("MIMIHELEN_DAILY_GOAL", 4),
+            snooze_min=max(1, _int("MIMIHELEN_SNOOZE_MIN", 5)),
             slot_tolerance_min=_int("MIMIHELEN_SLOT_TOLERANCE_MIN", 30),
             state_file=os.environ.get("MIMIHELEN_STATE_FILE", "state/mimihelen.json").strip()
             or "state/mimihelen.json",
@@ -133,6 +136,9 @@ class Config:
         goal = tracker.get_daily_goal()
         if goal:
             self.daily_goal = goal
+        snooze = tracker.get_snooze_min()
+        if snooze:
+            self.snooze_min = snooze
 
     def require_telegram(self) -> None:
         missing = []

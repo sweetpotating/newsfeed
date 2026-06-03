@@ -107,13 +107,20 @@ class DoseTracker:
         val = self._meta.get("daily_goal")
         return int(val) if isinstance(val, int) and val > 0 else None
 
+    def get_snooze_min(self) -> Optional[int]:
+        val = self._meta.get("snooze_min")
+        return int(val) if isinstance(val, int) and val > 0 else None
+
     def set_schedule(self, times: Optional[list] = None,
-                     daily_goal: Optional[int] = None) -> None:
+                     daily_goal: Optional[int] = None,
+                     snooze_min: Optional[int] = None) -> None:
         if times is not None:
             self._meta["times"] = list(times)
         if daily_goal is not None:
             self._meta["daily_goal"] = int(daily_goal)
             self.daily_goal = max(1, int(daily_goal))
+        if snooze_min is not None:
+            self._meta["snooze_min"] = max(1, int(snooze_min))
 
     # ---- persistent reminder de-dup (survives worker restarts) ---------
     def reminder_sent(self, key: str) -> bool:

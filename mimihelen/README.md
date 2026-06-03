@@ -30,6 +30,10 @@ underneath: *"eyedrop time. just."*, *"no rubbing your eyes ah, i'm serious"*,
 - 🕒 **Change the schedule from chat** — `/schedule 08:00, 13:00, 19:00, 22:00`
   resets the reminder times (and the daily goal) on the spot; the change is
   saved and survives restarts. Bare `/schedule` shows the current times.
+- ⏰ **Snooze with a live countdown** — the "⏰ Snooze" button on a reminder
+  posts a message that ticks down (5:00 → 4:00 → …) and re-sends the reminder at
+  zero, without ever blocking the bot. Length is configurable: set
+  `MIMIHELEN_SNOOZE_MIN` (default **5**) or send `/snooze 10` from chat.
 
 ## One worker does everything (`serve`)
 
