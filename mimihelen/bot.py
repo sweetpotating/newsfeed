@@ -92,6 +92,18 @@ class MimiHelenBot:
         # Slots already fired this run, as "YYYY-MM-DD|HH:MM", so the internal
         # scheduler sends each reminder at most once.
         self._sent_slots: set[str] = set()
+        # Walks the day's shuffled tip order so on-demand /tip doesn't repeat.
+        self._tip_day: str = ""
+        self._tip_pos: int = 0
+
+    def _next_tip(self, now: datetime) -> str:
+        """Next on-demand tip, cycling the day's order without repeats."""
+        day = now.strftime("%Y-%m-%d")
+        if day != self._tip_day:
+            self._tip_day, self._tip_pos = day, 0
+        tip = content.tip_for_slot(day, self._tip_pos)
+        self._tip_pos += 1
+        return tip
 
     # ---- individual actions -------------------------------------------
     def _log_dose(self, chat_id: str, now: datetime) -> str:
@@ -142,7 +154,7 @@ class MimiHelenBot:
             self.client.send_message(self._streak_text(now), chat_id=chat_id)
         elif cmd in ("tip", "tips"):
             self.client.send_message(
-                content.eye_care_tip(_seed(now, "ondemand" + str(time.time()))),
+                self._next_tip(now),
                 chat_id=chat_id)
         elif cmd == "schedule":
             self.client.send_message(self._schedule_text(), chat_id=chat_id)
@@ -181,7 +193,7 @@ class MimiHelenBot:
         elif data == "tip":
             self.client.answer_callback_query(cb_id)
             self.client.send_message(
-                content.eye_care_tip(_seed(now, "cb" + str(time.time()))),
+                self._next_tip(now),
                 chat_id=chat_id)
         else:
             self.client.answer_callback_query(cb_id)
@@ -209,6 +221,7 @@ class MimiHelenBot:
         text = content.build_reminder(
             self.cfg.friend_name, key,
             dose_label=slot.dose_label, include_howto=slot.is_first,
+            tip_index=slot.index,
         )
         try:
             self.client.send_message(text, chat_id=self.cfg.chat_id,
