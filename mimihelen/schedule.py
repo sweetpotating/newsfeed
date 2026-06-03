@@ -111,3 +111,23 @@ def due_slot(times: List[str], now: datetime,
     slots = due_slots(times, now, catch_up_min)
     return slots[-1] if slots else None
 
+
+def seconds_to_next_slot(times: List[str], now: datetime) -> Optional[float]:
+    """Seconds until the next upcoming slot *today*, or None if none left.
+
+    Lets the serve loop poll faster as a reminder time approaches, so reminders
+    fire within a second or two of the scheduled time instead of up to a full
+    long-poll late.
+    """
+    best = None
+    for t in times:
+        try:
+            hh, mm = (int(x) for x in t.split(":"))
+        except ValueError:
+            continue
+        cand = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
+        delta = (cand - now).total_seconds()
+        if delta > 0 and (best is None or delta < best):
+            best = delta
+    return best
+
