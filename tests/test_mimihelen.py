@@ -460,3 +460,53 @@ def test_test_command_sends_reminder_with_buttons(tmp_path):
     assert "eyedrops" in text.lower()
     labels = [b["text"] for row in kb["inline_keyboard"] for b in row]
     assert any("Snooze 5m" in l for l in labels) and "✅ Done" in labels
+
+
+# ---- compliance report -------------------------------------------------
+from mimihelen import report as _report
+
+
+def test_build_report_structure_and_compliance(tmp_path):
+    cfg = Config.from_env()
+    cfg.friend_name = "Helen"; cfg.tz = "Asia/Singapore"; cfg.daily_goal = 4
+    cfg.times = ["08:00", "13:00", "19:00", "22:00"]; cfg.eyedrops = ""
+    t = DoseTracker(str(tmp_path / "s.json"), daily_goal=4)
+    end = datetime(2026, 6, 7, 20, 0)
+    # 7-day window 1–7 Jun: make 5 of 7 days hit the goal (4 drops), one partial, one zero.
+    plan = {1: 4, 2: 4, 3: 4, 4: 4, 5: 4, 6: 2, 7: 0}
+    for day, n in plan.items():
+        for h in range(n):
+            t.log_dose(datetime(2026, 6, day, 8 + h))
+    r = _report.build_report(cfg, t, end, days=7)
+    assert "Eyedrop Compliance Report" in r
+    assert "Patient:</b> Helen" in r
+    assert "01 Jun – 07 Jun 2026 (7 days)" in r
+    assert "Days on target: 5/7 (71%)" in r
+    # logged 22 of expected 28 -> 79%
+    assert "Doses logged: 22/28 (79%)" in r
+    assert "Self-reported via Mimi Helen Bot" in r
+    # per-day marks present
+    assert "✅" in r and "⚠️" in r and "❌" in r
+
+
+def test_report_window_and_drops_line(tmp_path):
+    cfg = Config.from_env(); cfg.daily_goal = 2; cfg.times = ["09:00", "21:00"]
+    cfg.eyedrops = "lubricating drops"
+    t = DoseTracker(str(tmp_path / "s.json"), daily_goal=2)
+    r = _report.build_report(cfg, t, datetime(2026, 6, 7, 12, 0), days=14)
+    assert "(14 days)" in r and "lubricating drops" in r
+    assert "Days on target: 0/14 (0%)" in r   # nothing logged
+
+
+def test_report_command_sends_forwardable_message(tmp_path):
+    cfg = Config.from_env(); cfg.chat_id = "1"; cfg.tz = "Asia/Singapore"
+    sent = []
+    class Mock:
+        def send_message(self, text, chat_id=None, reply_markup=None, **k):
+            sent.append(text); return {"ok": True, "result": {"message_id": 1}}
+        def answer_callback_query(self, *a, **k): pass
+    bot = MimiHelenBot(cfg, Mock(), DoseTracker(str(tmp_path / "s.json"), daily_goal=4))
+    bot.handle_message({"chat": {"id": 1}, "text": "/report 14"})
+    assert len(sent) == 2                                   # report + forward hint
+    assert "Compliance Report" in sent[0] and "(14 days)" in sent[0]
+    assert "forward that to dr helen" in sent[1].lower()

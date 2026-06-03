@@ -24,7 +24,7 @@ import time
 from datetime import datetime, timedelta
 from typing import List, Optional
 
-from . import content, qa
+from . import content, qa, report
 from .config import Config, parse_time_list
 from .schedule import current_slot, now_in_tz
 from .telegram import TelegramClient, reminder_keyboard, undo_keyboard
@@ -37,6 +37,7 @@ COMMANDS = [
     {"command": "undo", "description": "oops, un-log my last drop"},
     {"command": "today", "description": "how many drops today"},
     {"command": "streak", "description": "my streak"},
+    {"command": "report", "description": "compliance report to forward to dr helen"},
     {"command": "tip", "description": "give me an eye-care tip"},
     {"command": "test", "description": "send me a test reminder now"},
     {"command": "schedule", "description": "see / change reminder times"},
@@ -76,6 +77,7 @@ def help_text(cfg: Config) -> str:
         "• /undo — oops, un-log that drop ↩️\n"
         "• /today — how many drops today 📊\n"
         "• /streak — my streak 🔥\n"
+        "• /report — compliance report to forward to dr helen 📋\n"
         "• /tip — give me an eye-care tip 💡\n"
         "• /test — send a test reminder now (to try the buttons) 🧪\n"
         "• /schedule — see or change your reminder times 🕒\n"
@@ -263,6 +265,20 @@ class MimiHelenBot:
             # "/snooze 10" sets the snooze length; bare "/snooze" shows it.
             rest = text.split(None, 1)[1] if len(text.split(None, 1)) > 1 else ""
             self.client.send_message(self._set_snooze(rest), chat_id=chat_id)
+        elif cmd in ("report", "compliance"):
+            # "/report" = last 7 days; "/report 14" = last 14. Forwardable to the doctor.
+            arg = text.split(None, 1)[1].strip() if len(text.split(None, 1)) > 1 else ""
+            try:
+                days = int(arg) if arg else 7
+            except ValueError:
+                days = 7
+            self.client.send_message(
+                report.build_report(self.cfg, self.tracker, now, days),
+                chat_id=chat_id)
+            self.client.send_message(
+                "👆 forward that to dr helen to show your eyedrop compliance ah. "
+                "(tip: <code>/report 14</code> or <code>/report 30</code> for a longer period.)",
+                chat_id=chat_id)
         elif cmd in ("ask", "question", "q"):
             # Explicit "/ask <question>" — answer the rest of the text.
             q = text.split(None, 1)[1] if len(text.split(None, 1)) > 1 else ""
