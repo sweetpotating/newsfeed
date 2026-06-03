@@ -52,40 +52,9 @@ NO_RUB_NUDGES: List[str] = [
     "don't rub your eyes hor. you'll regret. just blink blink 🙅",
 ]
 
-# Rotating eye-care tips, delivered Helen-style. Kept varied so the day's
-# reminders never feel repetitive (selection avoids same-day repeats below).
-EYE_CARE_TIPS: List[str] = [
-    "20-20-20 ah: every 20 min, look 20 feet away for 20 sec. your eyes not iron made 👁️",
-    "drink water lah. dry eyes very 辛苦 one 💦",
-    "sleep properly. 7-8 hours. your eyes also need rest 🌙",
-    "going out? sunglasses. UV is real one 🕶️",
-    "screen too bright then dim it. arm's length away. don't paste your face on the screen 💡",
-    "blink more when you're on your phone. you all blink until forget how to blink 😮‍💨",
-    "don't aim the fan or aircon straight at your face. dries the eyes out 🌬️",
-    "two types of drops? wait 5 min in between. don't rush.",
-    "take a screen break. go walk a bit. your eyes will thank you 📵",
-    "eat your greens and fish. good for the eyes. i'm not joking 🐟",
-    "wash your hands before touching your eyes. always.",
-    "read in proper light. squinting in the dark very jialat for the eyes 🔆",
-    "one drop is enough. the eye can't hold more, the rest just rolls out — don't waste.",
-    "after the drop, close your eyes and press the inner corner ~1 min. works better, less bitter taste in your throat.",
-    "finish the full course of drops. don't stop just because your eye feels better already.",
-    "check the expiry, and store them right — some drops must go in the fridge. read the label.",
-    "don't share eyedrops, makeup or towels with anyone. infection spreads damn fast.",
-    "contact lens? take them out before drops, wait ~15 min before putting back. unless your doctor says otherwise.",
-    "take off your eye makeup before bed. sleeping in mascara is asking for trouble 😴",
-    "aircon room very dry. a small humidifier or a bowl of water helps your eyes a lot.",
-    "tired, heavy eyes? warm compress 5 min. unblocks the little oil glands. quite shiok actually.",
-    "cut the screen ~1 hour before bed. less blinking + blue light = dry, tired eyes.",
-    "keep the screen slightly BELOW eye level. less eye surface exposed = less dryness.",
-    "don't anyhow use 'redness relief' drops daily — rebound, your eye goes redder. ask first.",
-    "sports, drilling, cleaning with chemicals? wear protective eyewear. one accident is enough.",
-    "go for an eye check every year even if you see fine. pressure &amp; retina problems are quiet one.",
-    "flashes, floaters, or a curtain/shadow over your vision = go A&amp;E. don't wait, don't google.",
-    "something in your eye? don't rub. flush with clean water or saline and blink it out.",
-    "smoking is bad for your retina and dry eye. cut down lah, your eyes will thank you.",
-    "keep your sugar and blood pressure in check — the eyes are often the first to show damage.",
-]
+# Rotating eye-care tips live in ``tips.py`` (200+ of them). Selection below
+# deals them in a shuffled, no-same-day-repeat order.
+from .tips import EYE_CARE_TIPS  # noqa: E402,F401
 
 # Tough-love sign-offs. Fierce but she's proud of you really.
 ENCOURAGEMENTS: List[str] = [
