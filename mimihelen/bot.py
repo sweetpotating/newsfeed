@@ -31,12 +31,12 @@ from .tracker import DoseTracker
 log = logging.getLogger("mimihelen.bot")
 
 COMMANDS = [
-    {"command": "done", "description": "Log an eyedrop dose now"},
-    {"command": "today", "description": "Today's progress vs your goal"},
-    {"command": "streak", "description": "Your current daily streak"},
-    {"command": "tip", "description": "A random eye-care tip"},
-    {"command": "schedule", "description": "Show your reminder times"},
-    {"command": "help", "description": "What can this bot do?"},
+    {"command": "done", "description": "done my drops liao"},
+    {"command": "today", "description": "how many drops today"},
+    {"command": "streak", "description": "my streak"},
+    {"command": "tip", "description": "give me an eye-care tip"},
+    {"command": "schedule", "description": "when are my reminders"},
+    {"command": "help", "description": "what is this bot"},
 ]
 
 
@@ -51,31 +51,31 @@ def progress_text(cfg: Config, tracker: DoseTracker, now: datetime) -> str:
     filled = "💧" * min(n, goal)
     empty = "○" * max(0, goal - n)
     bar = filled + empty
-    line = f"📊 <b>Today:</b> {n}/{goal} doses  {bar}"
+    line = f"📊 today: {n}/{goal} drops  {bar}"
     times = tracker.times_on(today)
     if times:
-        line += "\n🕒 Logged at: " + ", ".join(times)
+        line += "\n🕒 you did them at: " + ", ".join(times)
     if n >= goal:
-        line += "\n\n🎉 Goal met for today — wonderful!"
+        line += "\n\nok good. goal hit for today 👌🏼 proud of you 🤍"
     else:
-        line += f"\n\n{goal - n} to go. You've got this 💛"
+        line += f"\n\n{goal - n} more to go. don't 半途而废 ah 💪🏻"
     return line
 
 
 def help_text(cfg: Config) -> str:
     return (
-        f"👋 Hi {cfg.friend_name}! I'm <b>Mimi Helen Bot</b>, here to help your "
-        "eyes stay happy.\n\n"
-        "I'll remind you to put in your eyedrops through the day, nudge you to "
-        "<b>not rub your eyes</b>, and share little eye-care tips.\n\n"
-        "<b>What you can do:</b>\n"
-        "• /done — log a dose ✅\n"
-        "• /today — see today's progress 📊\n"
-        "• /streak — your daily streak 🔥\n"
-        "• /tip — a quick eye-care tip 💡\n"
-        "• /schedule — your reminder times 🕒\n"
-        "• /help — this message\n\n"
-        "You can also tap the buttons under any reminder. 💧"
+        f"hi {cfg.friend_name} 👋 it's me, dr helen (well, the bot version).\n\n"
+        "my job is simple: make sure you do your eyedrops through the day, "
+        "stop you from <b>rubbing your eyes</b> (i'm serious), and nag you to "
+        "take care of your eyes properly.\n\n"
+        "<b>what you can do:</b>\n"
+        "• /done — i did my drops ✅\n"
+        "• /today — how many drops today 📊\n"
+        "• /streak — my streak 🔥\n"
+        "• /tip — give me an eye-care tip 💡\n"
+        "• /schedule — when are my reminders 🕒\n"
+        "• /help — this\n\n"
+        "or just tap the buttons under any reminder lah. don't shy. 💧"
     )
 
 
@@ -91,25 +91,26 @@ class MimiHelenBot:
     def _log_dose(self, chat_id: str, now: datetime) -> str:
         count = self.tracker.log_dose(now)
         self.tracker.save()
-        msg = f"✅ Logged! That's {count}/{self.cfg.daily_goal} today."
+        msg = f"ok noted. that's {count}/{self.cfg.daily_goal} today 👌🏼"
         if count == self.cfg.daily_goal:
-            msg += "\n🎉 Daily goal reached — amazing!"
+            msg += "\ngoal hit. good. now go rest 🤍"
         elif count > self.cfg.daily_goal:
-            msg += "\n🌟 Extra care today, love it."
+            msg += "\nextra drops today ah. not bad 🧡"
         return msg
 
     def _streak_text(self, now: datetime) -> str:
         s = self.tracker.streak(now.date())
         if s <= 0:
-            return "🔥 No streak yet — log today's doses to start one!"
+            return "no streak yet leh. do today's drops and start one 💪🏻"
         day_word = "day" if s == 1 else "days"
-        return f"🔥 <b>{s} {day_word}</b> in a row meeting your goal. Keep it glowing! ✨"
+        return (f"🔥 <b>{s} {day_word}</b> in a row you hit your goal. "
+                "ok consistent. don't 半途而废 ah.")
 
     def _schedule_text(self) -> str:
         times = ", ".join(self.cfg.times)
         return (
-            f"🕒 <b>Your reminders ({self.cfg.tz}):</b>\n{times}\n\n"
-            f"🎯 Daily goal: {self.cfg.daily_goal} doses."
+            f"🕒 your reminders ({self.cfg.tz}):\n{times}\n\n"
+            f"🎯 goal: {self.cfg.daily_goal} drops a day. don't bluff me ah."
         )
 
     # ---- update dispatch ----------------------------------------------
@@ -135,14 +136,13 @@ class MimiHelenBot:
             self.client.send_message(self._streak_text(now), chat_id=chat_id)
         elif cmd in ("tip", "tips"):
             self.client.send_message(
-                "<b>Eye-care tip</b> — "
-                + content.eye_care_tip(_seed(now, "ondemand" + str(time.time()))),
+                content.eye_care_tip(_seed(now, "ondemand" + str(time.time()))),
                 chat_id=chat_id)
         elif cmd == "schedule":
             self.client.send_message(self._schedule_text(), chat_id=chat_id)
         else:
             self.client.send_message(
-                "I didn't catch that 🙈 Try /help to see what I can do.",
+                "huh? i don't understand. /help to see what i can do lah.",
                 chat_id=chat_id)
 
     def handle_callback(self, callback: dict) -> None:
@@ -156,11 +156,11 @@ class MimiHelenBot:
             count = self.tracker.log_dose(now)
             self.tracker.save()
             self.client.answer_callback_query(
-                cb_id, f"Logged ✅ ({count}/{self.cfg.daily_goal} today)")
+                cb_id, f"noted ({count}/{self.cfg.daily_goal} today) 👌🏼")
             self.client.send_message(
                 progress_text(self.cfg, self.tracker, now), chat_id=chat_id)
         elif data == "snooze":
-            self.client.answer_callback_query(cb_id, "Okay, I'll nudge you in 15 min ⏰")
+            self.client.answer_callback_query(cb_id, "ok, 15 min. don't run away ah ⏰")
             self._snooze(chat_id, now)
         elif data == "today":
             self.client.answer_callback_query(cb_id)
@@ -169,8 +169,7 @@ class MimiHelenBot:
         elif data == "tip":
             self.client.answer_callback_query(cb_id)
             self.client.send_message(
-                "<b>Eye-care tip</b> — "
-                + content.eye_care_tip(_seed(now, "cb" + str(time.time()))),
+                content.eye_care_tip(_seed(now, "cb" + str(time.time()))),
                 chat_id=chat_id)
         else:
             self.client.answer_callback_query(cb_id)
@@ -182,7 +181,7 @@ class MimiHelenBot:
         time.sleep(delay_sec)
         seed = _seed(now, "snooze")
         self.client.send_message(
-            "⏰ Snooze over — " + content.build_reminder(self.cfg.friend_name, seed),
+            "⏰ ok time's up ah — " + content.build_reminder(self.cfg.friend_name, seed),
             chat_id=chat_id, reply_markup=reminder_keyboard())
 
 

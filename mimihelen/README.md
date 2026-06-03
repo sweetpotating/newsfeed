@@ -1,8 +1,13 @@
 # 💧 Mimi Helen Bot
 
-A gentle Telegram bot that helps a friend remember to use her **eyedrops 3–5
-times a day**, take good care of her eyes, and — importantly — **not rub
-them**. Warm, encouraging, and tiny enough to run for free.
+A Telegram bot that nags you — in **Dr Helen's** voice — to use your **eyedrops
+3–5 times a day**, take care of your eyes, and (most importantly) **stop rubbing
+them**. All lowercase, heavy Singlish, fierce on the surface and caring
+underneath: *"eyedrop time. just."*, *"no rubbing your eyes ah, i'm serious"*,
+*"ok good, small thing but you did it 👌🏼"*. Tiny enough to run for free.
+
+> The voice lives entirely in `mimihelen/content.py` — easy to soften or retune
+> anytime. It's a friendly reminder, not a real consultation with Dr Helen.
 
 ## What it does
 
