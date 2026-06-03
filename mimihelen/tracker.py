@@ -74,6 +74,21 @@ class DoseTracker:
         self._days.setdefault(key, []).append(when.strftime("%H:%M"))
         return len(self._days[key])
 
+    def undo_dose(self, day: date) -> Optional[int]:
+        """Remove the most recent dose logged on ``day`` (e.g. a mis-tap).
+
+        Returns the day's remaining dose count, or ``None`` if there was nothing
+        to undo.
+        """
+        key = day.isoformat()
+        entries = self._days.get(key)
+        if not entries:
+            return None
+        entries.pop()
+        if not entries:
+            self._days.pop(key, None)
+        return len(self._days.get(key, []))
+
     def note_reminder(self, when: datetime) -> None:
         """Remember when the last reminder went out (for serve/snooze logic)."""
         self._meta["last_reminder"] = when.isoformat()

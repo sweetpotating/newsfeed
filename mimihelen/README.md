@@ -21,7 +21,8 @@ underneath: *"eyedrop time. just."*, *"no rubbing your eyes ah, i'm serious"*,
   day's reminders never show the same tip twice.
 - 🧼 **Step-by-step how-to** on the first reminder of the day, so the drops go
   in correctly.
-- ✅ **Dose logging, daily progress and streaks** via buttons and commands.
+- ✅ **Dose logging, daily progress and streaks** via buttons and commands —
+  with an **↩️ Undo** (button after Done, or `/undo`) for accidental taps.
 - 💬 **Answers questions** — *"when's my next reminder?"*, *"what are my
   eyedrops for?"*, *"how do i use the drops?"*, *"can i rub my eyes?"* — in her
   voice, with general info only (always defers to your real eye doctor).

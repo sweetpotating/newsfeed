@@ -232,3 +232,27 @@ def test_build_reminder_uses_distinct_tips_across_day_slots():
     for m, tip in zip(msgs, tips):
         assert tip in m
     assert len(set(tips)) == 4
+
+
+# ---- undo (accidental Done) -------------------------------------------
+def test_undo_dose_removes_last(tmp_path):
+    t = DoseTracker(str(tmp_path / "u.json"), daily_goal=4)
+    d = datetime(2026, 6, 3, 9, 0)
+    t.log_dose(d)
+    t.log_dose(d.replace(hour=12))
+    assert t.doses_on(d.date()) == 2
+    assert t.undo_dose(d.date()) == 1        # removes the 12:00 one
+    assert t.times_on(d.date()) == ["09:00"]
+    assert t.undo_dose(d.date()) == 0        # removes the 09:00 one
+    assert t.undo_dose(d.date()) is None     # nothing left to undo
+    assert t.doses_on(d.date()) == 0
+
+
+def test_undo_persists(tmp_path):
+    path = str(tmp_path / "u.json")
+    t = DoseTracker(path, daily_goal=4)
+    d = datetime(2026, 6, 3, 9, 0)
+    t.log_dose(d); t.log_dose(d.replace(hour=12))
+    t.undo_dose(d.date()); t.save()
+    again = DoseTracker(path, daily_goal=4)
+    assert again.doses_on(date(2026, 6, 3)) == 1
