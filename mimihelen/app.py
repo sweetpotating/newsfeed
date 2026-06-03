@@ -41,6 +41,9 @@ def _compose(cfg: Config, slot: Optional[Slot], seed_extra: str) -> str:
 
 
 def run_remind(cfg: Config, args: argparse.Namespace) -> int:
+    # Honour a schedule the user set from chat (persisted in the state file).
+    if not args.no_state:
+        cfg.apply_state_overrides(DoseTracker(cfg.state_file, daily_goal=cfg.daily_goal))
     now = now_in_tz(cfg.tz)
     slot = current_slot(cfg.times, now, cfg.slot_tolerance_min)
 

@@ -98,6 +98,38 @@ class DoseTracker:
         val = self._meta.get("last_reminder")
         return val if isinstance(val, str) else None
 
+    # ---- schedule overrides (set from chat, survive restarts) ----------
+    def get_times(self) -> Optional[list]:
+        val = self._meta.get("times")
+        return list(val) if isinstance(val, list) and val else None
+
+    def get_daily_goal(self) -> Optional[int]:
+        val = self._meta.get("daily_goal")
+        return int(val) if isinstance(val, int) and val > 0 else None
+
+    def set_schedule(self, times: Optional[list] = None,
+                     daily_goal: Optional[int] = None) -> None:
+        if times is not None:
+            self._meta["times"] = list(times)
+        if daily_goal is not None:
+            self._meta["daily_goal"] = int(daily_goal)
+            self.daily_goal = max(1, int(daily_goal))
+
+    # ---- persistent reminder de-dup (survives worker restarts) ---------
+    def reminder_sent(self, key: str) -> bool:
+        sent = self._meta.get("sent_slots")
+        return isinstance(sent, list) and key in sent
+
+    def mark_reminder_sent(self, key: str) -> None:
+        day = key.split("|", 1)[0]
+        sent = self._meta.get("sent_slots")
+        sent = list(sent) if isinstance(sent, list) else []
+        # Keep only today's keys so it never grows without bound.
+        sent = [k for k in sent if k.split("|", 1)[0] == day]
+        if key not in sent:
+            sent.append(key)
+        self._meta["sent_slots"] = sent
+
     def prune(self, today: date, keep_days: int = 120) -> None:
         cutoff = (today - timedelta(days=keep_days)).isoformat()
         self._days = {k: v for k, v in self._days.items() if k >= cutoff}

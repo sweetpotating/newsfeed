@@ -27,22 +27,21 @@ underneath: *"eyedrop time. just."*, *"no rubbing your eyes ah, i'm serious"*,
 - 💬 **Answers questions** — *"when's my next reminder?"*, *"what are my
   eyedrops for?"*, *"how do i use the drops?"*, *"can i rub my eyes?"* — in her
   voice, with general info only (always defers to your real eye doctor).
+- 🕒 **Change the schedule from chat** — `/schedule 08:00, 13:00, 19:00, 22:00`
+  resets the reminder times (and the daily goal) on the spot; the change is
+  saved and survives restarts. Bare `/schedule` shows the current times.
 
-## ⚠️ Buttons & questions need `serve` mode
+## One worker does everything (`serve`)
 
-Telegram can't deliver a button press or a typed question to a workflow that
-only *sends* messages. So:
+`serve` is the whole deployment: it **sends the reminders**, handles **buttons /
+commands / questions**, and lets you **change the schedule from chat** — all in
+one always-on process. State (doses, streak, schedule, which reminders already
+went out) is saved to `state/mimihelen.json`; in CI it's committed back so it
+survives restarts.
 
-| Feature | GitHub Actions cron (push-only) | `serve` (always-on process) |
-|---|---|---|
-| Scheduled reminders | ✅ | ✅ |
-| ✅ Done / ⏰ Snooze / 📊 / 💡 buttons | ❌ (nothing listening) | ✅ |
-| `/done` `/streak`, typed questions | ❌ | ✅ |
-
-**If you want the buttons and Q&A to work, run `serve`** — it now *also* sends
-the scheduled reminders itself, so it's a complete, single-process deployment.
-(When running `serve`, disable the Actions cron so you don't get double
-reminders — Actions tab → the workflow → ⋯ → Disable workflow.)
+The push-only `remind` cron (`mimihelen.yml`) can't receive button presses or
+questions, so it's kept only as a **manual send/preview tool** and its schedule
+is disabled — the `serve` worker owns the scheduling now.
 
 ## Two ways to run it
 
@@ -83,32 +82,31 @@ If you just want the daily reminders and don't need buttons/Q&A:
 Commands: `/done` `/today` `/streak` `/tip` `/schedule` `/ask` `/help` — or
 just type a question.
 
-### Option C — buttons + Q&A on free GitHub Actions (no laptop, no account)
+### Option C — everything on free GitHub Actions (no laptop, no account)
 
-Keeps your existing reminder cron **and** makes the buttons + questions work,
-using a second workflow (`.github/workflows/mimihelen-serve.yml`) that runs
-`serve --no-schedule` near-continuously. Public repos get unlimited Actions
-minutes, so it's $0.
+The `.github/workflows/mimihelen-serve.yml` worker runs the **full `serve`** bot
+near-continuously: reminders, buttons, Q&A and chat schedule-changes. State is
+committed back to the repo (`MIMIHELEN_GIT_PERSIST`), so doses, streaks and your
+chat-set schedule survive restarts. Public repos get unlimited Actions minutes,
+so it's $0.
 
-1. Make sure the secrets `MIMIHELEN_BOT_TOKEN` / `MIMIHELEN_CHAT_ID` are set
-   (same ones the reminder workflow uses).
+1. Set the secrets `MIMIHELEN_BOT_TOKEN` / `MIMIHELEN_CHAT_ID`.
 2. Optional repo **Variables** (Settings → Secrets and variables → Actions →
-   Variables) so answers are accurate: `MIMIHELEN_TIMES`, `MIMIHELEN_TZ`,
-   `MIMIHELEN_DAILY_GOAL`, `MIMIHELEN_FRIEND_NAME`, `MIMIHELEN_EYEDROPS`.
-   Optional secret `ANTHROPIC_API_KEY` for open-ended questions.
-3. **Actions → "Mimi Helen Bot — Interactive" → Run workflow** to start it now;
-   after that the schedule keeps it alive (it restarts itself every ~6h).
+   Variables): `MIMIHELEN_TIMES`, `MIMIHELEN_TZ`, `MIMIHELEN_DAILY_GOAL`,
+   `MIMIHELEN_FRIEND_NAME`, `MIMIHELEN_EYEDROPS`. Optional secret
+   `ANTHROPIC_API_KEY` for open-ended questions.
+3. It auto-starts on push and restarts itself every ~6h. To kick it off now:
+   **Actions → "Mimi Helen Bot — Interactive" → Run workflow**.
 
-How it stays up: a single Actions job can run ~6h max, so the worker runs
-~5h50m then exits and the schedule restarts it. During the short handoff,
-Telegram queues taps/messages (it holds them ~24h) and the worker answers them
-when it comes back — nothing lost, just an occasional short delay.
+How it stays up: a job runs ~6h max, so the worker runs ~5h50m then exits and is
+restarted. During the short handoff Telegram queues taps/messages (held ~24h)
+and the worker handles them when it returns; a reminder due in that gap still
+fires on restart (within the slot tolerance) and is de-duplicated so it's never
+sent twice.
 
-> ⚠️ Limitations of the free worker: (1) only **one** `serve` may run at a time
-> per bot — don't also run it locally, or Telegram returns 409. (2) Dose logs
-> live in memory for the worker's session, so `/today` is accurate within a
-> session but `/streak` won't accumulate across the ~6h restarts. For
-> persistent streaks, use Option A on an always-on host with a disk.
+> ⚠️ Only **one** `serve` may run at a time per bot — don't also run it locally,
+> or Telegram returns 409. The push-only reminder cron stays disabled while this
+> worker runs.
 
 ## Local preview
 

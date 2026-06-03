@@ -277,3 +277,82 @@ def test_no_same_day_repeats_for_weeks():
         day = (start + timedelta(days=d)).isoformat()
         tips = [content.tip_for_slot(day, i) for i in range(4)]
         assert len(set(tips)) == 4
+
+
+# ---- change schedule + persistence ------------------------------------
+from mimihelen.config import parse_time_list
+from mimihelen.bot import MimiHelenBot
+
+
+def test_parse_time_list():
+    assert parse_time_list("8:00, 13:30; 19:00 22:5") == ["08:00", "13:30", "19:00", "22:05"]
+    assert parse_time_list("07:00, 07:00, 25:00, oops, 12:61") == ["07:00"]  # dedupe + drop invalid
+    assert parse_time_list("") == []
+    assert parse_time_list("22:00, 06:00") == ["06:00", "22:00"]            # sorted
+
+
+def test_tracker_schedule_override_persists(tmp_path):
+    p = str(tmp_path / "s.json")
+    t = DoseTracker(p, daily_goal=4)
+    t.set_schedule(times=["08:00", "20:00"], daily_goal=2)
+    t.save()
+    again = DoseTracker(p, daily_goal=4)
+    assert again.get_times() == ["08:00", "20:00"]
+    assert again.get_daily_goal() == 2
+
+
+def test_config_apply_state_overrides(tmp_path):
+    t = DoseTracker(str(tmp_path / "s.json"), daily_goal=4)
+    t.set_schedule(times=["09:00", "21:00"], daily_goal=2)
+    cfg = Config.from_env()
+    cfg.apply_state_overrides(t)
+    assert cfg.times == ["09:00", "21:00"] and cfg.daily_goal == 2
+
+
+def test_persistent_reminder_dedup(tmp_path):
+    p = str(tmp_path / "s.json")
+    t = DoseTracker(p, daily_goal=4)
+    assert not t.reminder_sent("2026-06-03|07:00")
+    t.mark_reminder_sent("2026-06-03|07:00")
+    t.save()
+    again = DoseTracker(p, daily_goal=4)
+    assert again.reminder_sent("2026-06-03|07:00")          # survives restart
+    again.mark_reminder_sent("2026-06-04|07:00")            # new day prunes old
+    assert not again.reminder_sent("2026-06-03|07:00")
+
+
+def _bot(tmp_path, **cfgkw):
+    cfg = Config.from_env()
+    cfg.chat_id = "1"; cfg.tz = "Asia/Singapore"
+    for k, v in cfgkw.items():
+        setattr(cfg, k, v)
+    class Mock:
+        def __init__(self): self.sent = []
+        def send_message(self, text, chat_id=None, reply_markup=None, **k):
+            self.sent.append(text)
+        def answer_callback_query(self, *a, **k): pass
+    return MimiHelenBot(cfg, Mock(), DoseTracker(str(tmp_path / "s.json"), daily_goal=cfg.daily_goal)), cfg
+
+
+def test_change_schedule_command(tmp_path):
+    bot, cfg = _bot(tmp_path, times=["07:00", "12:00", "18:00", "22:00"], daily_goal=4)
+    out = bot._change_schedule("08:00, 13:00, 20:00")
+    assert "08:00, 13:00, 20:00" in out
+    assert cfg.times == ["08:00", "13:00", "20:00"]   # in-memory takes effect now
+    assert cfg.daily_goal == 3
+    assert bot.tracker.get_times() == ["08:00", "13:00", "20:00"]  # persisted
+    # garbage input -> help, schedule unchanged
+    out2 = bot._change_schedule("haha no times")
+    assert "/schedule" in out2 and cfg.times == ["08:00", "13:00", "20:00"]
+
+
+def test_tick_uses_persistent_dedup(tmp_path):
+    from datetime import datetime as _dt
+    bot, cfg = _bot(tmp_path, times=["07:00", "12:00", "18:00", "22:00"], daily_goal=4,
+                    slot_tolerance_min=30)
+    now = _dt(2026, 6, 3, 12, 2)
+    assert bot.tick(now) is True               # sends 12:00
+    assert bot.tick(_dt(2026, 6, 3, 12, 6)) is False   # already sent (persisted)
+    # a brand-new handler (simulating a worker restart) must not re-send
+    bot2 = MimiHelenBot(cfg, bot.client, DoseTracker(str(tmp_path / "s.json"), daily_goal=4))
+    assert bot2.tick(_dt(2026, 6, 3, 12, 8)) is False
