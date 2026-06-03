@@ -77,6 +77,17 @@ class Config:
     # serve mode: seconds to long-poll getUpdates.
     poll_timeout: int = 50
 
+    # ---- Q&A (serve mode only) ----------------------------------------
+    # A free-text description of the drops she's actually on, so the bot can
+    # answer "what eyedrops am i using / how does it help" accurately. Set this
+    # to whatever her eye doctor prescribed, e.g.
+    #   "lubricating drops (artificial tears) for dry eyes, + a steroid drop."
+    eyedrops: str = ""
+    # Optional LLM fallback for open-ended questions. If the key is unset, the
+    # bot still answers the built-in questions; it just won't free-talk.
+    anthropic_api_key: str = ""
+    qa_model: str = "claude-haiku-4-5"
+
     @classmethod
     def from_env(cls) -> "Config":
         return cls(
@@ -92,6 +103,10 @@ class Config:
             state_file=os.environ.get("MIMIHELEN_STATE_FILE", "state/mimihelen.json").strip()
             or "state/mimihelen.json",
             poll_timeout=_int("MIMIHELEN_POLL_TIMEOUT", 50),
+            eyedrops=os.environ.get("MIMIHELEN_EYEDROPS", "").strip(),
+            anthropic_api_key=os.environ.get("ANTHROPIC_API_KEY", "").strip(),
+            qa_model=os.environ.get("MIMIHELEN_QA_MODEL", "claude-haiku-4-5").strip()
+            or "claude-haiku-4-5",
         )
 
     def require_telegram(self) -> None:
