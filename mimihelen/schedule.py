@@ -81,27 +81,33 @@ def nearest_slot(times: List[str], now: datetime) -> Optional[Slot]:
     return current_slot(times, now, tolerance_min=24 * 60)
 
 
-def due_slot(times: List[str], now: datetime,
-             catch_up_min: int = 30) -> Optional[Slot]:
-    """The slot that is *due now* for the always-on serve worker.
+def due_slots(times: List[str], now: datetime,
+              catch_up_min: int = 30) -> List[Slot]:
+    """All slots that are *due now* for the always-on serve worker.
 
-    Unlike ``current_slot`` (symmetric tolerance, used by the cron), this only
-    matches a slot whose time is **at or before** ``now`` and no more than
+    Unlike ``current_slot`` (symmetric tolerance, used by the cron), a slot is
+    due only when its time is **at or before** ``now`` and no more than
     ``catch_up_min`` minutes ago. So the worker fires reminders AT the scheduled
-    time (never early), and still catches up a reminder it missed while it was
-    restarting — without ever sending one ahead of time.
+    time (never early), and still catches up reminders it missed while it was
+    restarting — without ever sending one ahead of time. Returns them in time
+    order; de-dup (sent_slots) ensures each is actually sent only once.
     """
     if not times:
-        return None
+        return []
     ordered = sorted(times, key=_minutes)
     now_min = now.hour * 60 + now.minute
-    best = None
+    out: List[Slot] = []
     for idx, t in enumerate(ordered):
         tmin = _minutes(t)
         if tmin <= now_min and (now_min - tmin) <= catch_up_min:
-            best = idx  # keep the latest due slot
-    if best is None:
-        return None
-    return Slot(index=best, total=len(ordered),
-               time_str=ordered[best], is_first=(best == 0))
+            out.append(Slot(index=idx, total=len(ordered),
+                            time_str=t, is_first=(idx == 0)))
+    return out
+
+
+def due_slot(times: List[str], now: datetime,
+             catch_up_min: int = 30) -> Optional[Slot]:
+    """The most recent slot that is due now, or None. See ``due_slots``."""
+    slots = due_slots(times, now, catch_up_min)
+    return slots[-1] if slots else None
 

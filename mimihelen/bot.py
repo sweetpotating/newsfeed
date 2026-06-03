@@ -26,7 +26,7 @@ from typing import List, Optional
 
 from . import content, qa, report
 from .config import Config, parse_time_list
-from .schedule import current_slot, due_slot, now_in_tz
+from .schedule import current_slot, due_slots, now_in_tz
 from .telegram import TelegramClient, reminder_keyboard, undo_keyboard
 from .tracker import DoseTracker
 
@@ -339,40 +339,40 @@ class MimiHelenBot:
 
     # ---- internal scheduler -------------------------------------------
     def tick(self, now: datetime) -> bool:
-        """Send the reminder due now, if any, exactly once. Returns True if sent.
+        """Send every reminder that's due now and not yet sent. Returns True if
+        anything was sent.
 
         Lets a single long-running ``serve`` process do everything — reminders,
-        buttons and Q&A — so you don't need the GitHub Actions cron at all (and
-        the reminder buttons actually work, because this same process is the one
-        listening for the presses).
+        buttons and Q&A. Fires AT the scheduled time (never early), catching up
+        anything missed during a restart (within ``slot_tolerance_min``).
+        Sending *all* due-unsent slots means closely-spaced reminders can't slip
+        between poll cycles; ``sent_slots`` keeps each to exactly one send.
         """
-        # Fire AT the scheduled time (never early); catch up if we were
-        # restarting. slot_tolerance_min is the post-time catch-up window.
-        slot = due_slot(self.cfg.times, now, self.cfg.slot_tolerance_min)
-        if slot is None:
-            return False
-        key = f"{now.strftime('%Y-%m-%d')}|{slot.time_str}"
-        # Persistent de-dup so a worker restart within tolerance never re-sends.
-        if self.tracker.reminder_sent(key):
-            return False
-
-        text = content.build_reminder(
-            self.cfg.friend_name, key,
-            dose_label=slot.dose_label, include_howto=slot.is_first,
-            tip_index=slot.index,
-        )
-        try:
-            self.client.send_message(text, chat_id=self.cfg.chat_id,
-                                     reply_markup=self._kb())
+        day = now.strftime("%Y-%m-%d")
+        sent_any = False
+        for slot in due_slots(self.cfg.times, now, self.cfg.slot_tolerance_min):
+            key = f"{day}|{slot.time_str}"
+            if self.tracker.reminder_sent(key):
+                continue
+            text = content.build_reminder(
+                self.cfg.friend_name, key,
+                dose_label=slot.dose_label, include_howto=slot.is_first,
+                tip_index=slot.index,
+            )
+            try:
+                self.client.send_message(text, chat_id=self.cfg.chat_id,
+                                         reply_markup=self._kb())
+            except RuntimeError as exc:
+                log.warning("Scheduled reminder failed (%s); retry next cycle.", exc)
+                continue
             self.tracker.mark_reminder_sent(key)
             self.tracker.note_reminder(now)
+            log.info("Sent scheduled reminder (%s).", slot.time_str)
+            sent_any = True
+        if sent_any:
             self.tracker.prune(now.date())
             self._save()
-            log.info("Sent scheduled reminder (%s).", slot.time_str)
-            return True
-        except RuntimeError as exc:
-            log.warning("Scheduled reminder failed (%s); will retry next slot.", exc)
-            return False
+        return sent_any
 
     # ---- snooze (non-blocking, with a live countdown) -----------------
     def load_pending(self) -> None:
