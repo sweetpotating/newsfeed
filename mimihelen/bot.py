@@ -26,7 +26,7 @@ from typing import List, Optional
 
 from . import content, qa, report
 from .config import Config, parse_time_list
-from .schedule import current_slot, due_slots, now_in_tz
+from .schedule import current_slot, due_slots, now_in_tz, seconds_to_next_slot
 from .telegram import TelegramClient, reminder_keyboard, undo_keyboard
 from .tracker import DoseTracker
 
@@ -501,8 +501,13 @@ def serve(cfg: Config, schedule_enabled: bool = True) -> int:
             log.warning("Snooze processing failed: %s", exc)
 
         # Poll quickly while a countdown is ticking so it stays live; otherwise
-        # use the long poll to stay efficient.
+        # use the long poll — but shorten it as a reminder time approaches so the
+        # reminder fires within a second or two of the scheduled time.
         poll = 10 if handler.has_pending() else cfg.poll_timeout
+        if schedule_enabled:
+            secs = seconds_to_next_slot(cfg.times, nowtz)
+            if secs is not None:
+                poll = max(1, min(poll, int(secs) + 1))
         try:
             updates = client.get_updates(offset, poll)
         except (RuntimeError, Exception) as exc:  # network blips shouldn't kill it

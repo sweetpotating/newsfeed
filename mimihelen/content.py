@@ -20,16 +20,17 @@ import hashlib
 import random
 from typing import List, Optional
 
-# Header for each reminder — Helen nagging you about your drops. {name} is the
-# person she's reminding.
+# Header for each reminder — warm, doctor-casual greeting with emojis. {name} is
+# the person she's reminding.
 GREETINGS: List[str] = [
-    "{name}. eyedrop time. just.",
-    "oi {name}, drops. now 💧",
-    "{name} ah, you put your eyedrops liao not 💧",
-    "{name}, drops. don't make me come find you 💧",
-    "eyedrop time {name}. pls don't bluff me 💧",
-    "{name}, it's drops o'clock. chop chop 💧",
-    "{name}. eyes. drops. now. full stop.",
+    "hello {name} 👋 eyedrop time 💧",
+    "hi {name} 👩‍⚕️ doctor's orders — drops now 💧",
+    "knock knock {name} 🚪 your eyes need their drops 💧",
+    "hi {name} 🥰 time for your eyedrops ah 💧",
+    "{name} dear 💛 it's drops o'clock 💧",
+    "hello {name} 👀 quick, your eyedrops 💧",
+    "okay {name} 😌 drops time, chop chop 💧",
+    "hi {name} 🌿 let's take care of those eyes — drops 💧",
 ]
 
 # Step-by-step. Matter-of-fact, the way a doctor who's done it 10,000 times

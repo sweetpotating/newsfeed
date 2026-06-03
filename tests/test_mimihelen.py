@@ -592,3 +592,20 @@ def test_tick_sends_all_due_unsent_slots(tmp_path):
     assert bot.tick(datetime(2026, 6, 3, 16, 45)) is True            # all 3 due now
     assert len(sent) == 3
     assert bot.tick(datetime(2026, 6, 3, 16, 46)) is False           # nothing left
+
+
+# ---- greetings + punctual polling --------------------------------------
+def test_greetings_no_oi_have_name_and_emoji():
+    for g in content.GREETINGS:
+        assert "{name}" in g
+        assert not g.lower().startswith("oi")
+        assert "oi " not in g.lower()
+        assert any(ord(ch) > 0x2600 for ch in g)   # contains an emoji
+
+
+def test_seconds_to_next_slot():
+    from mimihelen.schedule import seconds_to_next_slot as sns
+    now = datetime(2026, 6, 3, 18, 59, 30)
+    assert sns(["19:00", "22:00"], now) == 30        # 30s to 19:00
+    assert sns(["08:00"], now) is None               # nothing left today
+    assert sns([], now) is None
