@@ -19,42 +19,65 @@ underneath: *"eyedrop time. just."*, *"no rubbing your eyes ah, i'm serious"*,
   sunglasses, sleep, spacing multiple drops, and more).
 - 🧼 **Step-by-step how-to** on the first reminder of the day, so the drops go
   in correctly.
-- ✅ **Dose logging, daily progress and streaks** (in interactive mode) via
-  buttons and commands.
+- ✅ **Dose logging, daily progress and streaks** via buttons and commands.
+- 💬 **Answers questions** — *"when's my next reminder?"*, *"what are my
+  eyedrops for?"*, *"how do i use the drops?"*, *"can i rub my eyes?"* — in her
+  voice, with general info only (always defers to your real eye doctor).
+
+## ⚠️ Buttons & questions need `serve` mode
+
+Telegram can't deliver a button press or a typed question to a workflow that
+only *sends* messages. So:
+
+| Feature | GitHub Actions cron (push-only) | `serve` (always-on process) |
+|---|---|---|
+| Scheduled reminders | ✅ | ✅ |
+| ✅ Done / ⏰ Snooze / 📊 / 💡 buttons | ❌ (nothing listening) | ✅ |
+| `/done` `/streak`, typed questions | ❌ | ✅ |
+
+**If you want the buttons and Q&A to work, run `serve`** — it now *also* sends
+the scheduled reminders itself, so it's a complete, single-process deployment.
+(When running `serve`, disable the Actions cron so you don't get double
+reminders — Actions tab → the workflow → ⋯ → Disable workflow.)
 
 ## Two ways to run it
 
-### 1. Scheduled reminders — zero hosting (recommended to start)
+### Option A — `serve` mode (full experience: reminders + buttons + Q&A)
 
-Runs on a free **GitHub Actions** cron (`.github/workflows/mimihelen.yml`).
-No server needed.
-
-1. Create a bot with [@BotFather](https://t.me/BotFather) → copy the token.
-2. Get the friend's chat id (message [@userinfobot](https://t.me/userinfobot)).
-3. In the repo: **Settings → Secrets and variables → Actions**
-   - Secrets: `MIMIHELEN_BOT_TOKEN`, `MIMIHELEN_CHAT_ID`
-     (dedicated names so this bot stays separate from any other Telegram bot
-     in the repo; the workflow maps them to the code's `TELEGRAM_*` env vars)
-   - Optional Variables: `MIMIHELEN_FRIEND_NAME`, `MIMIHELEN_TIMES`,
-     `MIMIHELEN_TZ`, `MIMIHELEN_DAILY_GOAL`
-4. The schedule fires automatically. To test now: **Actions → Mimi Helen Bot →
-   Run workflow** (leave *force* on).
-
-> The cron lines are in **UTC**; the defaults map to Singapore time. If you
-> change `MIMIHELEN_TIMES`, update the cron lines in the workflow to match.
-
-### 2. Interactive bot — `serve` mode
-
-For the full experience (buttons, `/done` logging, `/streak`), run a small
-long-lived process anywhere (a tiny VPS, a Raspberry Pi, a free dyno):
+Run one small always-on process (your own machine, a Raspberry Pi, or a free
+host like Railway / Render / Fly.io):
 
 ```bash
 pip install -r requirements.txt
-export TELEGRAM_BOT_TOKEN=... TELEGRAM_CHAT_ID=...
+export TELEGRAM_BOT_TOKEN=...        # the bot token
+export TELEGRAM_CHAT_ID=...          # who to remind
+export MIMIHELEN_EYEDROPS="lubricating drops for dry eyes, 4x a day"  # optional
+export ANTHROPIC_API_KEY=sk-ant-...  # optional, for open-ended questions
 python -m mimihelen serve
 ```
 
-Commands: `/done` `/today` `/streak` `/tip` `/schedule` `/help`.
+This one process fires reminders at your scheduled times **and** handles
+buttons, commands and questions.
+
+### Option B — reminders only, zero hosting (free GitHub Actions cron)
+
+If you just want the daily reminders and don't need buttons/Q&A:
+
+1. Create a bot with [@BotFather](https://t.me/BotFather) → copy the token.
+2. Get the chat id (message [@userinfobot](https://t.me/userinfobot)).
+3. **Settings → Secrets and variables → Actions**
+   - Secrets: `MIMIHELEN_BOT_TOKEN`, `MIMIHELEN_CHAT_ID`
+   - Optional Variables: `MIMIHELEN_FRIEND_NAME`, `MIMIHELEN_TIMES`,
+     `MIMIHELEN_TZ`, `MIMIHELEN_DAILY_GOAL`
+4. The schedule fires automatically. Test now: **Actions → Mimi Helen Bot →
+   Run workflow** (leave *force* on).
+
+> Reminders in this mode still show the buttons, but they only respond if a
+> `serve` process is also running. The cron lines are in **UTC**; defaults map
+> to Singapore time — if you change `MIMIHELEN_TIMES`, update the cron to match.
+
+Commands: `/done` `/today` `/streak` `/tip` `/schedule` `/ask` `/help` — or
+just type a question.
 
 ## Local preview
 
@@ -77,6 +100,9 @@ All optional — sensible defaults are built in. See `.env.example`.
 | `MIMIHELEN_DAILY_GOAL` | `4` | Doses/day for progress & streaks |
 | `MIMIHELEN_SLOT_TOLERANCE_MIN` | `30` | How late a cron run still counts |
 | `MIMIHELEN_STATE_FILE` | `state/mimihelen.json` | Dose/streak tracker file |
+| `MIMIHELEN_EYEDROPS` | — | Her actual drops, so Q&A can answer accurately |
+| `ANTHROPIC_API_KEY` | — | Optional — open-ended Q&A (serve mode) |
+| `MIMIHELEN_QA_MODEL` | `claude-haiku-4-5` | Model for open-ended answers |
 
 ## Ideas for more functions (roadmap)
 

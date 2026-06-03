@@ -136,3 +136,68 @@ def test_corrupt_state_does_not_crash(tmp_path):
 
 if __name__ == "__main__":
     raise SystemExit(pytest.main([__file__, "-v"]))
+
+
+# ---- Q&A ---------------------------------------------------------------
+from types import SimpleNamespace
+from mimihelen import qa
+
+
+class _Tracker:
+    def __init__(self, n=0, streak=0):
+        self._n = n
+        self._streak = streak
+    def doses_on(self, d):
+        return self._n
+    def streak(self, d):
+        return self._streak
+
+
+def _cfg(**kw):
+    base = dict(times=["07:00", "12:00", "18:00", "22:00"], tz="Asia/Singapore",
+                daily_goal=4, eyedrops="", anthropic_api_key="", qa_model="x")
+    base.update(kw)
+    return SimpleNamespace(**base)
+
+
+def test_next_reminder_same_day_and_wrap():
+    times = ["07:00", "12:00", "18:00", "22:00"]
+    s = qa.next_reminder(times, datetime(2026, 6, 3, 9, 0))
+    assert "12:00" in s and "today" in s and "in 3h" in s
+    # after the last slot -> tomorrow's first
+    s2 = qa.next_reminder(times, datetime(2026, 6, 3, 23, 0))
+    assert "07:00" in s2 and "tomorrow" in s2
+
+
+def test_answer_next_reminder_intent():
+    a = qa.answer("what time is my next reminder?", _cfg(), _Tracker(), datetime(2026, 6, 3, 9, 0))
+    assert "12:00" in a and "next drops" in a.lower()
+
+
+def test_answer_schedule_and_progress_and_streak():
+    now = datetime(2026, 6, 3, 9, 0)
+    assert "07:00" in qa.answer("show me my schedule", _cfg(), _Tracker(), now)
+    assert "2/4" in qa.answer("how many drops today", _cfg(), _Tracker(n=2), now)
+    assert "3 day" in qa.answer("what's my streak", _cfg(), _Tracker(streak=3), now)
+
+
+def test_answer_eyedrop_info_uses_configured_rx():
+    now = datetime(2026, 6, 3, 9, 0)
+    generic = qa.answer("what eyedrops am i using?", _cfg(), _Tracker(), now)
+    assert "artificial tears" in generic.lower()  # general primer
+    specific = qa.answer("what are my drops for?",
+                         _cfg(eyedrops="lubricating drops for dry eyes"), _Tracker(), now)
+    assert "lubricating drops for dry eyes" in specific
+
+
+def test_answer_no_rub_and_howto():
+    now = datetime(2026, 6, 3, 9, 0)
+    assert "rub" in qa.answer("can i rub my eyes?", _cfg(), _Tracker(), now).lower()
+    howto = qa.answer("how do i use the eyedrops?", _cfg(), _Tracker(), now)
+    assert "wash your hands" in howto.lower()
+
+
+def test_answer_unknown_without_llm_lists_options():
+    now = datetime(2026, 6, 3, 9, 0)
+    a = qa.answer("tell me a joke about cats", _cfg(), _Tracker(), now)
+    assert "next reminder" in a.lower()  # falls back to the helpful menu
