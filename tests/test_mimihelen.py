@@ -256,3 +256,24 @@ def test_undo_persists(tmp_path):
     t.undo_dose(d.date()); t.save()
     again = DoseTracker(path, daily_goal=4)
     assert again.doses_on(date(2026, 6, 3)) == 1
+
+
+# ---- 200+ tips: unique, HTML-safe, no same-day repeats over weeks --------
+def test_two_hundred_tips_unique_and_safe():
+    import re
+    tips = content.EYE_CARE_TIPS
+    assert content.tip_count() >= 200
+    assert len(set(tips)) == len(tips)                 # all distinct
+    for t in tips:
+        assert "<" not in t and ">" not in t           # Telegram HTML-safe
+        assert not re.search(r'&(?!amp;|lt;|gt;|quot;|#\d+;)', t)
+
+
+def test_no_same_day_repeats_for_weeks():
+    # 4 reminders/day for 3 weeks should never repeat a tip within any day.
+    from datetime import date, timedelta
+    start = date(2026, 6, 1)
+    for d in range(21):
+        day = (start + timedelta(days=d)).isoformat()
+        tips = [content.tip_for_slot(day, i) for i in range(4)]
+        assert len(set(tips)) == 4
