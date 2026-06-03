@@ -444,3 +444,19 @@ def test_snooze_survives_restart(tmp_path):
     assert any("snooze over" in txt for _, txt in bot2.client.sent)
     assert not bot2.has_pending()
     assert bot2.tracker.get_pending_snoozes() == []           # cleared from state
+
+
+def test_test_command_sends_reminder_with_buttons(tmp_path):
+    cfg = Config.from_env(); cfg.chat_id = "1"; cfg.tz = "Asia/Singapore"; cfg.snooze_min = 5
+    sent = []
+    class Mock:
+        def send_message(self, text, chat_id=None, reply_markup=None, **k):
+            sent.append((text, reply_markup)); return {"ok": True, "result": {"message_id": 1}}
+        def answer_callback_query(self, *a, **k): pass
+    bot = MimiHelenBot(cfg, Mock(), DoseTracker(str(tmp_path / "s.json"), daily_goal=4))
+    bot.handle_message({"chat": {"id": 1}, "text": "/test"})
+    assert len(sent) == 1
+    text, kb = sent[0]
+    assert "eyedrops" in text.lower()
+    labels = [b["text"] for row in kb["inline_keyboard"] for b in row]
+    assert any("Snooze 5m" in l for l in labels) and "✅ Done" in labels
