@@ -162,7 +162,9 @@ class MimiHelenBot:
         raw = (raw or "").strip().lower().replace("min", "").replace("m", "").strip()
         if not raw:
             return (f"⏰ snooze is <b>{self.cfg.snooze_min} min</b> now.\n"
-                    "to change: <code>/snooze 10</code> (1–180 min).")
+                    "to change: <code>/snooze 10</code> (1–180 min).\n\n"
+                    "to actually snooze a reminder, tap the <b>⏰ Snooze</b> button "
+                    "on the reminder itself — i'll buzz you again after.")
         try:
             mins = int(raw)
         except ValueError:
@@ -341,6 +343,23 @@ class MimiHelenBot:
             return False
 
     # ---- snooze (non-blocking, with a live countdown) -----------------
+    def load_pending(self) -> None:
+        """Restore snoozes persisted before a restart so they still fire."""
+        self._pending = []
+        for p in self.tracker.get_pending_snoozes():
+            try:
+                fire_at = datetime.fromisoformat(p["fire_at"])
+            except (KeyError, ValueError):
+                continue
+            self._pending.append({"chat_id": str(p.get("chat_id", self.cfg.chat_id)),
+                                  "fire_at": fire_at, "msg_id": None, "last": ""})
+
+    def _persist_pending(self) -> None:
+        self.tracker.set_pending_snoozes(
+            [{"chat_id": p["chat_id"], "fire_at": p["fire_at"].isoformat()}
+             for p in self._pending])
+        self._save()
+
     def _start_snooze(self, chat_id: str, now: datetime) -> None:
         """Begin a snooze: post a countdown message that ticks down, then
         re-sends the reminder when it hits zero. Never blocks the bot."""
@@ -352,6 +371,7 @@ class MimiHelenBot:
         msg_id = (resp or {}).get("result", {}).get("message_id")
         self._pending.append({"chat_id": chat_id, "fire_at": fire_at,
                               "msg_id": msg_id, "last": ""})
+        self._persist_pending()  # survive a restart during the countdown
 
     def has_pending(self) -> bool:
         return bool(self._pending)
@@ -359,9 +379,11 @@ class MimiHelenBot:
     def process_pending(self, now: datetime) -> None:
         """Tick every snooze countdown; fire the ones that reached zero."""
         still: List[dict] = []
+        fired = False
         for p in self._pending:
             remaining = (p["fire_at"] - now).total_seconds()
             if remaining <= 0:
+                fired = True
                 if p.get("msg_id"):
                     try:
                         self.client.edit_message_text(
@@ -387,6 +409,8 @@ class MimiHelenBot:
                     pass
             still.append(p)
         self._pending = still
+        if fired:
+            self._persist_pending()  # remove fired ones from saved state
 
 
 def serve(cfg: Config, schedule_enabled: bool = True) -> int:
@@ -405,6 +429,7 @@ def serve(cfg: Config, schedule_enabled: bool = True) -> int:
     tracker.daily_goal = max(1, cfg.daily_goal)
     client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
     handler = MimiHelenBot(cfg, client, tracker)
+    handler.load_pending()  # resume any snooze that was mid-countdown before a restart
 
     try:
         client.set_my_commands(COMMANDS)

@@ -424,3 +424,23 @@ def test_set_snooze_command(tmp_path):
     assert bot.tracker.get_snooze_min() == 10
     assert "snooze is" in bot._set_snooze("").lower()      # bare shows current
     assert "number" in bot._set_snooze("abc").lower()      # invalid
+
+
+def test_snooze_survives_restart(tmp_path):
+    # Press snooze, then simulate a worker restart: a NEW handler must reload the
+    # pending snooze from state and still fire the reminder.
+    path = str(tmp_path / "s.json")
+    cfg = Config.from_env(); cfg.chat_id = "1"; cfg.tz = "Asia/Singapore"; cfg.snooze_min = 5
+    bot1 = MimiHelenBot(cfg, _RecClient(), DoseTracker(path, daily_goal=4))
+    t0 = datetime(2026, 6, 3, 9, 0, 0)
+    bot1._start_snooze("1", t0)
+    assert bot1.tracker.get_pending_snoozes()                 # persisted
+
+    # restart: brand-new handler + tracker from the same file
+    bot2 = MimiHelenBot(cfg, _RecClient(), DoseTracker(path, daily_goal=4))
+    bot2.load_pending()
+    assert bot2.has_pending()                                 # restored
+    bot2.process_pending(t0 + _td(minutes=5, seconds=1))      # fires after restart
+    assert any("snooze over" in txt for _, txt in bot2.client.sent)
+    assert not bot2.has_pending()
+    assert bot2.tracker.get_pending_snoozes() == []           # cleared from state

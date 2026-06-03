@@ -122,6 +122,14 @@ class DoseTracker:
         if snooze_min is not None:
             self._meta["snooze_min"] = max(1, int(snooze_min))
 
+    # ---- pending snoozes (survive worker restarts) ---------------------
+    def get_pending_snoozes(self) -> list:
+        val = self._meta.get("pending_snoozes")
+        return [p for p in val if isinstance(p, dict)] if isinstance(val, list) else []
+
+    def set_pending_snoozes(self, pending: list) -> None:
+        self._meta["pending_snoozes"] = list(pending)
+
     # ---- persistent reminder de-dup (survives worker restarts) ---------
     def reminder_sent(self, key: str) -> bool:
         sent = self._meta.get("sent_slots")
