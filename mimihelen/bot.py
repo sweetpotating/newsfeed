@@ -231,7 +231,15 @@ class MimiHelenBot:
         # Normalise "/done@MimiHelenBot args" -> "done".
         cmd = text.split()[0].lstrip("/").split("@")[0].lower()
 
-        if cmd in ("start", "help"):
+        if cmd in ("chatid", "id", "groupid"):
+            ctype = chat.get("type", "chat")
+            here = " (reminders already come here ✅)" if chat_id == str(self.cfg.chat_id) else ""
+            self.client.send_message(
+                f"this chat's id is <code>{chat_id}</code> ({ctype}){here}.\n\n"
+                "to send reminders here, set the <b>MIMIHELEN_CHAT_ID</b> secret "
+                "to this id.",
+                chat_id=chat_id)
+        elif cmd in ("start", "help"):
             # No action buttons here — snooze etc. belong on actual reminders.
             self.client.send_message(help_text(self.cfg), chat_id=chat_id)
         elif cmd in ("test", "testreminder", "remindme", "remind"):
