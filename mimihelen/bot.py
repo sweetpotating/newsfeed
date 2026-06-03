@@ -18,12 +18,14 @@ Commands:
 from __future__ import annotations
 
 import logging
+import os
+import subprocess
 import time
 from datetime import datetime
 from typing import Optional
 
 from . import content, qa
-from .config import Config
+from .config import Config, parse_time_list
 from .schedule import current_slot, now_in_tz
 from .telegram import TelegramClient, reminder_keyboard, undo_keyboard
 from .tracker import DoseTracker
@@ -36,7 +38,7 @@ COMMANDS = [
     {"command": "today", "description": "how many drops today"},
     {"command": "streak", "description": "my streak"},
     {"command": "tip", "description": "give me an eye-care tip"},
-    {"command": "schedule", "description": "when are my reminders"},
+    {"command": "schedule", "description": "see / change reminder times"},
     {"command": "ask", "description": "ask me anything about your eyes/drops"},
     {"command": "help", "description": "what is this bot"},
 ]
@@ -76,7 +78,7 @@ def help_text(cfg: Config) -> str:
         "• /today — how many drops today 📊\n"
         "• /streak — my streak 🔥\n"
         "• /tip — give me an eye-care tip 💡\n"
-        "• /schedule — when are my reminders 🕒\n"
+        "• /schedule — see or change your reminder times 🕒\n"
         "• /help — this\n\n"
         "or just <b>ask me anything</b> — \"when's my next reminder?\", "
         "\"what are my eyedrops for?\", \"how do i use the drops?\". "
@@ -91,9 +93,6 @@ class MimiHelenBot:
         self.cfg = cfg
         self.client = client
         self.tracker = tracker
-        # Slots already fired this run, as "YYYY-MM-DD|HH:MM", so the internal
-        # scheduler sends each reminder at most once.
-        self._sent_slots: set[str] = set()
         # Walks the day's shuffled tip order so on-demand /tip doesn't repeat.
         self._tip_day: str = ""
         self._tip_pos: int = 0
@@ -107,10 +106,37 @@ class MimiHelenBot:
         self._tip_pos += 1
         return tip
 
+    # ---- state persistence --------------------------------------------
+    def _save(self) -> None:
+        """Save tracker state, and (in CI) commit it back so it survives restarts."""
+        self.tracker.save()
+        if os.environ.get("MIMIHELEN_GIT_PERSIST", "").strip().lower() not in (
+            "1", "true", "yes", "on"
+        ):
+            return
+        path = self.cfg.state_file
+        try:
+            subprocess.run(["git", "add", path], check=True, capture_output=True)
+            if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode == 0:
+                return  # nothing changed
+            subprocess.run(
+                ["git", "-c", "user.name=mimihelen-bot",
+                 "-c", "user.email=mimihelen-bot@users.noreply.github.com",
+                 "commit", "-m", "chore: update Mimi Helen state"],
+                check=True, capture_output=True)
+            for _ in range(4):
+                if subprocess.run(["git", "push"], capture_output=True).returncode == 0:
+                    return
+                subprocess.run(["git", "pull", "--rebase", "--autostash"],
+                               capture_output=True)
+            log.warning("Could not push state after retries.")
+        except Exception as exc:  # persistence is best-effort, never crash
+            log.warning("git persist failed: %s", exc)
+
     # ---- individual actions -------------------------------------------
     def _log_dose(self, chat_id: str, now: datetime) -> str:
         count = self.tracker.log_dose(now)
-        self.tracker.save()
+        self._save()
         msg = f"ok noted. that's {count}/{self.cfg.daily_goal} today 👌🏼"
         if count == self.cfg.daily_goal:
             msg += "\ngoal hit. good. now go rest 🤍"
@@ -123,8 +149,31 @@ class MimiHelenBot:
         remaining = self.tracker.undo_dose(now.date())
         if remaining is None:
             return "nothing to undo lah — you haven't logged any drops today."
-        self.tracker.save()
+        self._save()
         return f"ok, undone. back to {remaining}/{self.cfg.daily_goal} today. butterfingers ah 🙄"
+
+    def _change_schedule(self, raw: str) -> str:
+        """Set new reminder times (and optional goal) from a chat command."""
+        times = parse_time_list(raw)
+        if not times:
+            return (
+                "give me the times lah, like:\n"
+                "<code>/schedule 08:00, 13:00, 19:00, 22:00</code>\n\n"
+                "(24-hour, comma-separated. i'll take it from there.)"
+            )
+        if len(times) > 12:
+            return "12 reminders a day is more than enough lah. give me fewer."
+        self.cfg.times = times
+        self.tracker.set_schedule(times=times)
+        self.tracker.set_schedule(daily_goal=len(times))
+        self.cfg.daily_goal = len(times)
+        self._save()
+        return (
+            "ok done ✅ new schedule:\n"
+            f"🕒 {', '.join(times)} ({self.cfg.tz})\n"
+            f"🎯 goal: {len(times)} drops a day.\n\n"
+            "takes effect from the next reminder. don't bluff me ah 😤"
+        )
 
     def _streak_text(self, now: datetime) -> str:
         s = self.tracker.streak(now.date())
@@ -138,7 +187,9 @@ class MimiHelenBot:
         times = ", ".join(self.cfg.times)
         return (
             f"🕒 your reminders ({self.cfg.tz}):\n{times}\n\n"
-            f"🎯 goal: {self.cfg.daily_goal} drops a day. don't bluff me ah."
+            f"🎯 goal: {self.cfg.daily_goal} drops a day.\n\n"
+            "want to change? send e.g.\n"
+            "<code>/schedule 08:00, 13:00, 19:00, 22:00</code>"
         )
 
     # ---- update dispatch ----------------------------------------------
@@ -169,8 +220,13 @@ class MimiHelenBot:
             self.client.send_message(
                 self._next_tip(now),
                 chat_id=chat_id)
-        elif cmd == "schedule":
-            self.client.send_message(self._schedule_text(), chat_id=chat_id)
+        elif cmd in ("schedule", "times", "reschedule"):
+            # "/schedule 08:00,13:00,..." changes it; bare "/schedule" shows it.
+            rest = text.split(None, 1)[1] if len(text.split(None, 1)) > 1 else ""
+            if rest.strip():
+                self.client.send_message(self._change_schedule(rest), chat_id=chat_id)
+            else:
+                self.client.send_message(self._schedule_text(), chat_id=chat_id)
         elif cmd in ("ask", "question", "q"):
             # Explicit "/ask <question>" — answer the rest of the text.
             q = text.split(None, 1)[1] if len(text.split(None, 1)) > 1 else ""
@@ -191,7 +247,7 @@ class MimiHelenBot:
 
         if data == "done":
             count = self.tracker.log_dose(now)
-            self.tracker.save()
+            self._save()
             self.client.answer_callback_query(
                 cb_id, f"noted ({count}/{self.cfg.daily_goal} today) 👌🏼")
             # Offer an undo in case it was a mis-tap.
@@ -203,7 +259,7 @@ class MimiHelenBot:
             if remaining is None:
                 self.client.answer_callback_query(cb_id, "nothing to undo")
             else:
-                self.tracker.save()
+                self._save()
                 self.client.answer_callback_query(
                     cb_id, f"undone ({remaining}/{self.cfg.daily_goal} today) ↩️")
                 self.client.send_message(
@@ -235,13 +291,10 @@ class MimiHelenBot:
         slot = current_slot(self.cfg.times, now, self.cfg.slot_tolerance_min)
         if slot is None:
             return False
-        day = now.strftime("%Y-%m-%d")
-        key = f"{day}|{slot.time_str}"
-        if key in self._sent_slots:
+        key = f"{now.strftime('%Y-%m-%d')}|{slot.time_str}"
+        # Persistent de-dup so a worker restart within tolerance never re-sends.
+        if self.tracker.reminder_sent(key):
             return False
-        # Only keep today's keys so the set never grows without bound.
-        self._sent_slots = {k for k in self._sent_slots if k.startswith(day)}
-        self._sent_slots.add(key)
 
         text = content.build_reminder(
             self.cfg.friend_name, key,
@@ -251,14 +304,14 @@ class MimiHelenBot:
         try:
             self.client.send_message(text, chat_id=self.cfg.chat_id,
                                      reply_markup=reminder_keyboard())
+            self.tracker.mark_reminder_sent(key)
             self.tracker.note_reminder(now)
             self.tracker.prune(now.date())
-            self.tracker.save()
+            self._save()
             log.info("Sent scheduled reminder (%s).", slot.time_str)
             return True
         except RuntimeError as exc:
             log.warning("Scheduled reminder failed (%s); will retry next slot.", exc)
-            self._sent_slots.discard(key)
             return False
 
     def _snooze(self, chat_id: str, now: datetime, delay_sec: int = 15 * 60) -> None:
@@ -282,8 +335,11 @@ def serve(cfg: Config, schedule_enabled: bool = True) -> int:
     process for the interactive bits — so reminders aren't sent twice.
     """
     cfg.require_telegram()
-    client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
     tracker = DoseTracker(cfg.state_file, daily_goal=cfg.daily_goal)
+    # Honour a schedule the user set from chat (persisted in state).
+    cfg.apply_state_overrides(tracker)
+    tracker.daily_goal = max(1, cfg.daily_goal)
+    client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
     handler = MimiHelenBot(cfg, client, tracker)
 
     try:

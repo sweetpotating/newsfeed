@@ -35,22 +35,38 @@ def _bool(name: str, default: bool) -> bool:
     return raw.strip().lower() in ("1", "true", "yes", "on")
 
 
+def parse_time_list(raw: str) -> List[str]:
+    """Parse "8:00, 12:30; 20:5" -> ["08:00", "12:30", "20:05"].
+
+    Drops anything that isn't a valid 24h HH:MM, de-duplicates, and sorts. Used
+    both for env config and for the in-chat "change schedule" command.
+    """
+    out: List[str] = []
+    for chunk in (raw or "").replace(";", ",").replace(" ", ",").split(","):
+        t = chunk.strip()
+        if not t:
+            continue
+        try:
+            hh, mm = t.split(":")
+            hh, mm = int(hh), int(mm)
+        except ValueError:
+            continue
+        if 0 <= hh <= 23 and 0 <= mm <= 59:
+            out.append(f"{hh:02d}:{mm:02d}")
+    # De-dupe preserving order, then sort by time of day.
+    seen, uniq = set(), []
+    for t in out:
+        if t not in seen:
+            seen.add(t)
+            uniq.append(t)
+    return sorted(uniq, key=lambda s: (int(s[:2]), int(s[3:])))
+
+
 def _times(name: str, default: List[str]) -> List[str]:
     raw = os.environ.get(name)
     if raw is None or raw.strip() == "":
         return list(default)
-    out: List[str] = []
-    for chunk in raw.replace(";", ",").split(","):
-        t = chunk.strip()
-        if not t:
-            continue
-        # Accept "8:00" or "08:00"; normalise to zero-padded HH:MM.
-        try:
-            hh, mm = t.split(":")
-            out.append(f"{int(hh):02d}:{int(mm):02d}")
-        except ValueError:
-            continue
-    return out or list(default)
+    return parse_time_list(raw) or list(default)
 
 
 @dataclass
@@ -108,6 +124,15 @@ class Config:
             qa_model=os.environ.get("MIMIHELEN_QA_MODEL", "claude-haiku-4-5").strip()
             or "claude-haiku-4-5",
         )
+
+    def apply_state_overrides(self, tracker) -> None:
+        """Override the schedule with values set from chat (persisted in state)."""
+        times = tracker.get_times()
+        if times:
+            self.times = list(times)
+        goal = tracker.get_daily_goal()
+        if goal:
+            self.daily_goal = goal
 
     def require_telegram(self) -> None:
         missing = []

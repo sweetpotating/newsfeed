@@ -1,18 +1,14 @@
-name: Mimi Helen Bot — Eyedrop Reminders
+name: Mimi Helen Bot — Eyedrop Reminders (manual / backup)
 
-# Sends an eyedrop reminder to Telegram at each scheduled dose time.
-# Manual runs: Actions tab -> this workflow -> "Run workflow".
+# NOTE: the always-on "Interactive" worker (mimihelen-serve.yml) now sends the
+# scheduled reminders itself AND lets you change the schedule from chat, so this
+# scheduled cron is DISABLED to avoid double reminders. Kept as a manual
+# send/preview tool only — Actions tab -> Run workflow.
 #
-# IMPORTANT: cron below is in UTC. The defaults map to Singapore time (UTC+8):
-#   07:00, 12:00, 18:00, 22:00 SGT  ==  23:00, 04:00, 10:00, 14:00 UTC
-# Keep MIMIHELEN_TIMES (in MIMIHELEN_TZ) in sync with these cron lines so each
-# run maps cleanly to a dose slot. Change both if you change the schedule.
+# Do not re-enable the schedule below while the Interactive worker is running.
 on:
-  schedule:
-    - cron: "0 23 * * *"   # 07:00 SGT — dose 1 (with how-to)
-    - cron: "0 4 * * *"    # 12:00 SGT — dose 2
-    - cron: "0 10 * * *"   # 18:00 SGT — dose 3
-    - cron: "0 14 * * *"   # 22:00 SGT — dose 4
+  # schedule:            # intentionally disabled — the serve worker handles it
+  #   - cron: "0 23 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
