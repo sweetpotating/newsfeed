@@ -77,10 +77,16 @@ def build_parser() -> argparse.ArgumentParser:
         prog="mimihelen",
         description="Mimi Helen Bot — eyedrop & eye-care reminders on Telegram.",
     )
+    # -v/--verbose is accepted both before and after the subcommand so that
+    # `mimihelen -v remind` and `mimihelen remind -v` both work.
+    common = argparse.ArgumentParser(add_help=False)
+    common.add_argument("-v", "--verbose", action="store_true")
+
     parser.add_argument("-v", "--verbose", action="store_true")
     sub = parser.add_subparsers(dest="command")
 
-    p_remind = sub.add_parser("remind", help="Send the reminder due now (cron).")
+    p_remind = sub.add_parser("remind", parents=[common],
+                              help="Send the reminder due now (cron).")
     p_remind.add_argument("--dry-run", action="store_true",
                           help="Print the reminder; send nothing, save no state.")
     p_remind.add_argument("--force", action="store_true",
@@ -88,7 +94,8 @@ def build_parser() -> argparse.ArgumentParser:
     p_remind.add_argument("--no-state", action="store_true",
                           help="Do not read or write the tracker state file.")
 
-    sub.add_parser("serve", help="Run the interactive long-polling bot.")
+    sub.add_parser("serve", parents=[common],
+                   help="Run the interactive long-polling bot.")
     return parser
 
 

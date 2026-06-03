@@ -46,7 +46,16 @@ class TelegramClient:
                 log.warning("Telegram %s; retrying in %ss", resp.status_code, wait)
                 time.sleep(wait)
                 continue
-            data = resp.json()
+            try:
+                data = resp.json()
+            except ValueError:
+                # Not JSON — e.g. a proxy/allowlist error page or gateway
+                # response. Surface the status + a snippet instead of a cryptic
+                # JSONDecodeError so the cause is obvious.
+                raise RuntimeError(
+                    f"Telegram {method} got non-JSON HTTP {resp.status_code}: "
+                    f"{resp.text[:200].strip()!r}"
+                )
             if not data.get("ok"):
                 raise RuntimeError(
                     f"Telegram API error: {data.get('description', resp.text)}"
