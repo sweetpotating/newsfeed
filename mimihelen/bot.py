@@ -26,7 +26,7 @@ from typing import List, Optional
 
 from . import content, qa, report
 from .config import Config, parse_time_list
-from .schedule import current_slot, now_in_tz
+from .schedule import current_slot, due_slot, now_in_tz
 from .telegram import TelegramClient, reminder_keyboard, undo_keyboard
 from .tracker import DoseTracker
 
@@ -346,7 +346,9 @@ class MimiHelenBot:
         the reminder buttons actually work, because this same process is the one
         listening for the presses).
         """
-        slot = current_slot(self.cfg.times, now, self.cfg.slot_tolerance_min)
+        # Fire AT the scheduled time (never early); catch up if we were
+        # restarting. slot_tolerance_min is the post-time catch-up window.
+        slot = due_slot(self.cfg.times, now, self.cfg.slot_tolerance_min)
         if slot is None:
             return False
         key = f"{now.strftime('%Y-%m-%d')}|{slot.time_str}"
