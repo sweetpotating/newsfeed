@@ -21,8 +21,8 @@ import logging
 import os
 import subprocess
 import time
-from datetime import datetime
-from typing import Optional
+from datetime import datetime, timedelta
+from typing import List, Optional
 
 from . import content, qa
 from .config import Config, parse_time_list
@@ -39,13 +39,11 @@ COMMANDS = [
     {"command": "streak", "description": "my streak"},
     {"command": "tip", "description": "give me an eye-care tip"},
     {"command": "schedule", "description": "see / change reminder times"},
+    {"command": "snooze", "description": "see / change snooze length"},
     {"command": "ask", "description": "ask me anything about your eyes/drops"},
     {"command": "help", "description": "what is this bot"},
 ]
 
-
-def _seed(now: datetime, extra: str = "") -> str:
-    return now.strftime("%Y-%m-%d") + "|" + extra
 
 
 def progress_text(cfg: Config, tracker: DoseTracker, now: datetime) -> str:
@@ -79,6 +77,7 @@ def help_text(cfg: Config) -> str:
         "• /streak — my streak 🔥\n"
         "• /tip — give me an eye-care tip 💡\n"
         "• /schedule — see or change your reminder times 🕒\n"
+        "• /snooze — see or change the snooze length ⏰\n"
         "• /help — this\n\n"
         "or just <b>ask me anything</b> — \"when's my next reminder?\", "
         "\"what are my eyedrops for?\", \"how do i use the drops?\". "
@@ -96,6 +95,12 @@ class MimiHelenBot:
         # Walks the day's shuffled tip order so on-demand /tip doesn't repeat.
         self._tip_day: str = ""
         self._tip_pos: int = 0
+        # Pending snooze countdowns: each is {chat_id, fire_at, msg_id, last}.
+        self._pending: List[dict] = []
+
+    def _kb(self) -> dict:
+        """Reminder buttons with the snooze label matching the configured delay."""
+        return reminder_keyboard(self.cfg.snooze_min)
 
     def _next_tip(self, now: datetime) -> str:
         """Next on-demand tip, cycling the day's order without repeats."""
@@ -152,6 +157,23 @@ class MimiHelenBot:
         self._save()
         return f"ok, undone. back to {remaining}/{self.cfg.daily_goal} today. butterfingers ah 🙄"
 
+    def _set_snooze(self, raw: str) -> str:
+        """Show or change how long the ⏰ Snooze button waits."""
+        raw = (raw or "").strip().lower().replace("min", "").replace("m", "").strip()
+        if not raw:
+            return (f"⏰ snooze is <b>{self.cfg.snooze_min} min</b> now.\n"
+                    "to change: <code>/snooze 10</code> (1–180 min).")
+        try:
+            mins = int(raw)
+        except ValueError:
+            return "give me a number lah, like <code>/snooze 5</code>."
+        if not 1 <= mins <= 180:
+            return "pick between 1 and 180 min. don't play."
+        self.cfg.snooze_min = mins
+        self.tracker.set_schedule(snooze_min=mins)
+        self._save()
+        return f"ok ✅ snooze is now <b>{mins} min</b>. the button will say so on the next reminder."
+
     def _change_schedule(self, raw: str) -> str:
         """Set new reminder times (and optional goal) from a chat command."""
         times = parse_time_list(raw)
@@ -204,8 +226,8 @@ class MimiHelenBot:
         cmd = text.split()[0].lstrip("/").split("@")[0].lower()
 
         if cmd in ("start", "help"):
-            self.client.send_message(help_text(self.cfg), chat_id=chat_id,
-                                     reply_markup=reminder_keyboard())
+            # No action buttons here — snooze etc. belong on actual reminders.
+            self.client.send_message(help_text(self.cfg), chat_id=chat_id)
         elif cmd in ("done", "drop", "drops", "log"):
             self.client.send_message(self._log_dose(chat_id, now), chat_id=chat_id,
                                      reply_markup=undo_keyboard())
@@ -227,6 +249,10 @@ class MimiHelenBot:
                 self.client.send_message(self._change_schedule(rest), chat_id=chat_id)
             else:
                 self.client.send_message(self._schedule_text(), chat_id=chat_id)
+        elif cmd == "snooze":
+            # "/snooze 10" sets the snooze length; bare "/snooze" shows it.
+            rest = text.split(None, 1)[1] if len(text.split(None, 1)) > 1 else ""
+            self.client.send_message(self._set_snooze(rest), chat_id=chat_id)
         elif cmd in ("ask", "question", "q"):
             # Explicit "/ask <question>" — answer the rest of the text.
             q = text.split(None, 1)[1] if len(text.split(None, 1)) > 1 else ""
@@ -265,8 +291,8 @@ class MimiHelenBot:
                 self.client.send_message(
                     progress_text(self.cfg, self.tracker, now), chat_id=chat_id)
         elif data == "snooze":
-            self.client.answer_callback_query(cb_id, "ok, 15 min. don't run away ah ⏰")
-            self._snooze(chat_id, now)
+            self._start_snooze(chat_id, now)
+            self.client.answer_callback_query(cb_id, f"ok, {self.cfg.snooze_min} min ⏰")
         elif data == "today":
             self.client.answer_callback_query(cb_id)
             self.client.send_message(
@@ -303,7 +329,7 @@ class MimiHelenBot:
         )
         try:
             self.client.send_message(text, chat_id=self.cfg.chat_id,
-                                     reply_markup=reminder_keyboard())
+                                     reply_markup=self._kb())
             self.tracker.mark_reminder_sent(key)
             self.tracker.note_reminder(now)
             self.tracker.prune(now.date())
@@ -314,15 +340,53 @@ class MimiHelenBot:
             log.warning("Scheduled reminder failed (%s); will retry next slot.", exc)
             return False
 
-    def _snooze(self, chat_id: str, now: datetime, delay_sec: int = 15 * 60) -> None:
-        # Simple in-process snooze. For long-lived serve mode this is fine; we
-        # sleep without blocking other chats only because there is a single
-        # user, keeping the bot intentionally tiny.
-        time.sleep(delay_sec)
-        seed = _seed(now, "snooze")
-        self.client.send_message(
-            "⏰ ok time's up ah — " + content.build_reminder(self.cfg.friend_name, seed),
-            chat_id=chat_id, reply_markup=reminder_keyboard())
+    # ---- snooze (non-blocking, with a live countdown) -----------------
+    def _start_snooze(self, chat_id: str, now: datetime) -> None:
+        """Begin a snooze: post a countdown message that ticks down, then
+        re-sends the reminder when it hits zero. Never blocks the bot."""
+        mins = self.cfg.snooze_min
+        fire_at = now + timedelta(minutes=mins)
+        resp = self.client.send_message(
+            f"⏳ snoozing… <b>{mins}:00</b> left — i'll buzz you again ah.",
+            chat_id=chat_id)
+        msg_id = (resp or {}).get("result", {}).get("message_id")
+        self._pending.append({"chat_id": chat_id, "fire_at": fire_at,
+                              "msg_id": msg_id, "last": ""})
+
+    def has_pending(self) -> bool:
+        return bool(self._pending)
+
+    def process_pending(self, now: datetime) -> None:
+        """Tick every snooze countdown; fire the ones that reached zero."""
+        still: List[dict] = []
+        for p in self._pending:
+            remaining = (p["fire_at"] - now).total_seconds()
+            if remaining <= 0:
+                if p.get("msg_id"):
+                    try:
+                        self.client.edit_message_text(
+                            p["chat_id"], p["msg_id"], "⏰ time's up! drops now 💧")
+                    except RuntimeError:
+                        pass
+                seed = now.strftime("%Y-%m-%d") + "|snooze"
+                try:
+                    self.client.send_message(
+                        "⏰ snooze over — "
+                        + content.build_reminder(self.cfg.friend_name, seed),
+                        chat_id=p["chat_id"], reply_markup=self._kb())
+                except RuntimeError as exc:
+                    log.warning("Snooze re-reminder failed: %s", exc)
+                continue  # drop the entry
+            mm, ss = divmod(int(remaining), 60)
+            text = f"⏳ snoozing… <b>{mm}:{ss:02d}</b> left — i'll buzz you again ah."
+            if p.get("msg_id") and text != p.get("last"):
+                try:
+                    self.client.edit_message_text(p["chat_id"], p["msg_id"], text)
+                    p["last"] = text
+                except RuntimeError:
+                    pass
+            still.append(p)
+        self._pending = still
 
 
 def serve(cfg: Config, schedule_enabled: bool = True) -> int:
@@ -351,15 +415,24 @@ def serve(cfg: Config, schedule_enabled: bool = True) -> int:
     log.info("Mimi Helen Bot is now serving (%s). Ctrl-C to stop.", mode)
     offset: Optional[int] = None
     while True:
+        nowtz = now_in_tz(cfg.tz)
         # Fire any scheduled reminder that's due (runs every poll cycle, ≤~1min).
         if schedule_enabled:
             try:
-                handler.tick(now_in_tz(cfg.tz))
+                handler.tick(nowtz)
             except Exception as exc:  # scheduling must never kill the loop
                 log.warning("Scheduler tick failed: %s", exc)
-
+        # Tick any live snooze countdowns.
         try:
-            updates = client.get_updates(offset, cfg.poll_timeout)
+            handler.process_pending(nowtz)
+        except Exception as exc:
+            log.warning("Snooze processing failed: %s", exc)
+
+        # Poll quickly while a countdown is ticking so it stays live; otherwise
+        # use the long poll to stay efficient.
+        poll = 10 if handler.has_pending() else cfg.poll_timeout
+        try:
+            updates = client.get_updates(offset, poll)
         except (RuntimeError, Exception) as exc:  # network blips shouldn't kill it
             log.warning("getUpdates failed: %s; retrying in 3s", exc)
             time.sleep(3)

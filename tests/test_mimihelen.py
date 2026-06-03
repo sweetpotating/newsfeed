@@ -356,3 +356,71 @@ def test_tick_uses_persistent_dedup(tmp_path):
     # a brand-new handler (simulating a worker restart) must not re-send
     bot2 = MimiHelenBot(cfg, bot.client, DoseTracker(str(tmp_path / "s.json"), daily_goal=4))
     assert bot2.tick(_dt(2026, 6, 3, 12, 8)) is False
+
+
+# ---- snooze: configurable + non-blocking countdown ---------------------
+from datetime import timedelta as _td
+from mimihelen import telegram as _tg
+
+
+def test_snooze_button_label_reflects_minutes():
+    kb = _tg.reminder_keyboard(5)
+    labels = [b["text"] for row in kb["inline_keyboard"] for b in row]
+    assert "⏰ Snooze 5m" in labels
+    kb2 = _tg.reminder_keyboard(15)
+    assert any("Snooze 15m" in l for l in [b["text"] for row in kb2["inline_keyboard"] for b in row])
+
+
+def test_snooze_min_config_and_override(tmp_path, monkeypatch):
+    monkeypatch.setenv("MIMIHELEN_SNOOZE_MIN", "7")
+    cfg = Config.from_env()
+    assert cfg.snooze_min == 7
+    t = DoseTracker(str(tmp_path / "s.json"), daily_goal=4)
+    t.set_schedule(snooze_min=3)
+    cfg.apply_state_overrides(t)         # chat-set override wins
+    assert cfg.snooze_min == 3
+
+
+class _RecClient:
+    """Records messages/edits and hands out message ids."""
+    def __init__(self):
+        self.sent, self.edits, self._id = [], [], 0
+    def send_message(self, text, chat_id=None, reply_markup=None, **k):
+        self._id += 1
+        self.sent.append((self._id, text))
+        return {"ok": True, "result": {"message_id": self._id}}
+    def edit_message_text(self, chat_id, message_id, text, **k):
+        self.edits.append((message_id, text))
+        return {"ok": True}
+    def answer_callback_query(self, *a, **k): pass
+
+
+def _snooze_bot(tmp_path):
+    cfg = Config.from_env(); cfg.chat_id = "1"; cfg.tz = "Asia/Singapore"; cfg.snooze_min = 5
+    return MimiHelenBot(cfg, _RecClient(), DoseTracker(str(tmp_path / "s.json"), daily_goal=4)), cfg
+
+
+def test_snooze_is_nonblocking_with_countdown_then_fires(tmp_path):
+    bot, cfg = _snooze_bot(tmp_path)
+    t0 = datetime(2026, 6, 3, 9, 0, 0)
+    bot._start_snooze("1", t0)   # what the snooze button triggers (now passed in)
+    # returns immediately, one countdown message posted, nothing slept
+    assert bot.has_pending() and len(bot.client.sent) == 1
+    # 2 minutes in -> the countdown message is edited, not re-sent
+    bot.process_pending(t0 + _td(minutes=2))
+    assert bot.has_pending()
+    assert any("left" in txt for _, txt in bot.client.edits)
+    assert len(bot.client.sent) == 1                      # still just the countdown msg
+    # at/after 5 min -> reminder is sent and the countdown clears
+    bot.process_pending(t0 + _td(minutes=5, seconds=1))
+    assert not bot.has_pending()
+    assert any("snooze over" in txt for _, txt in bot.client.sent)
+
+
+def test_set_snooze_command(tmp_path):
+    bot, cfg = _snooze_bot(tmp_path)
+    out = bot._set_snooze("10")
+    assert "10 min" in out and cfg.snooze_min == 10
+    assert bot.tracker.get_snooze_min() == 10
+    assert "snooze is" in bot._set_snooze("").lower()      # bare shows current
+    assert "number" in bot._set_snooze("abc").lower()      # invalid

@@ -117,13 +117,13 @@ class TelegramClient:
         return data.get("result", [])
 
 
-def reminder_keyboard() -> dict:
+def reminder_keyboard(snooze_min: int = 5) -> dict:
     """The action buttons attached to each reminder."""
     return {
         "inline_keyboard": [
             [
                 {"text": "✅ Done", "callback_data": "done"},
-                {"text": "⏰ Snooze 15m", "callback_data": "snooze"},
+                {"text": f"⏰ Snooze {snooze_min}m", "callback_data": "snooze"},
             ],
             [
                 {"text": "📊 Today", "callback_data": "today"},
