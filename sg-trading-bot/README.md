@@ -172,16 +172,35 @@ each rebalance and a ⚠️ alert when the drawdown breaker trips.
 
 ---
 
-## Extracting into its own repository
+## Moving this into its own GitHub repository
 
-This project is self-contained. To move it into a standalone repo:
+This project is fully self-contained, so it's easy to give it a dedicated repo.
+
+1. Create an **empty** repo on github.com (no README/.gitignore/licence):
+   <https://github.com/new> — e.g. name it `sg-trading-bot`.
+2. From inside this folder, run the helper script with your new repo's URL:
+
+   ```bash
+   # Clean single-commit copy (recommended):
+   bash scripts/extract-repo.sh https://github.com/<you>/sg-trading-bot.git
+
+   # ...or keep this folder's git history:
+   bash scripts/extract-repo.sh https://github.com/<you>/sg-trading-bot.git --history
+   ```
+
+That's it — the script copies the project (excluding local junk like `.venv`
+and runtime state), commits, and pushes to your new repo.
+
+> **Why you run this and not an assistant:** pushing to a new GitHub repo needs
+> *your* GitHub credentials. The script automates everything except that login.
+
+Prefer to do it by hand? The equivalent manual steps:
 
 ```bash
-# Option A — just copy the folder:
-cp -r sg-trading-bot /path/to/new-repo && cd /path/to/new-repo && git init
-
-# Option B — keep its git history with subtree split:
-git subtree split --prefix=sg-trading-bot -b sg-trading-bot-standalone
+cp -r sg-trading-bot /path/to/new-repo && cd /path/to/new-repo
+git init && git add . && git commit -m "Initial commit"
+git remote add origin https://github.com/<you>/sg-trading-bot.git
+git push -u origin main
 ```
 
 ## Configuration cheat-sheet
