@@ -176,20 +176,26 @@ each rebalance and a ⚠️ alert when the drawdown breaker trips.
 
 This project is fully self-contained, so it's easy to give it a dedicated repo.
 
-1. Create an **empty** repo on github.com (no README/.gitignore/licence):
-   <https://github.com/new> — e.g. name it `sg-trading-bot`.
-2. From inside this folder, run the helper script with your new repo's URL:
+The target repo is **`sweetpotating/AI-Investor`** (change the defaults at the
+top of `scripts/extract-repo.sh` if you want a different home).
 
-   ```bash
-   # Clean single-commit copy (recommended):
-   bash scripts/extract-repo.sh https://github.com/<you>/sg-trading-bot.git
+**Easiest — with the GitHub CLI** (it creates the repo for you):
+```bash
+gh auth login                  # one-time, if not already logged in
+bash scripts/extract-repo.sh   # creates AI-Investor (if needed) + pushes
+```
 
-   # ...or keep this folder's git history:
-   bash scripts/extract-repo.sh https://github.com/<you>/sg-trading-bot.git --history
-   ```
+**Without `gh`** — create an empty repo at <https://github.com/new> first, then:
+```bash
+# Clean single-commit copy (recommended):
+bash scripts/extract-repo.sh https://github.com/sweetpotating/AI-Investor.git
 
-That's it — the script copies the project (excluding local junk like `.venv`
-and runtime state), commits, and pushes to your new repo.
+# ...or keep this folder's git history:
+bash scripts/extract-repo.sh https://github.com/sweetpotating/AI-Investor.git --history
+```
+
+The script copies the project (excluding local junk like `.venv` and runtime
+state), commits, and pushes to your new repo.
 
 > **Why you run this and not an assistant:** pushing to a new GitHub repo needs
 > *your* GitHub credentials. The script automates everything except that login.
