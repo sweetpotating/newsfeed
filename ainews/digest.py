@@ -163,21 +163,37 @@ def run(argv: List[str] | None = None) -> int:
     save_last_digest(cfg.last_digest_file,
                      [(text, photo) for _, text, photo in posts])
 
-    recipients = _recipients(cfg, subs)
-    if not recipients:
+    # A channel is a single broadcast target that reaches all its members with
+    # one send (so it scales without a per-member loop). DM recipients are the
+    # subscriber list plus the optional owner chat.
+    channel = cfg.channel_id
+    dm_recipients = _recipients(cfg, subs)
+    if not channel and not dm_recipients:
         log.warning(
-            "Nobody to send to: no subscribers and no TELEGRAM_CHAT_ID set. "
-            "Share your bot link so people can /start to subscribe."
+            "Nobody to send to: no channel, no subscribers and no "
+            "TELEGRAM_CHAT_ID set. Set TELEGRAM_CHANNEL_ID to broadcast to a "
+            "channel, or share your bot link so people can /start to subscribe."
         )
         if subs.dirty:
             subs.save()
         return 0
 
-    log.info("Delivering to %d recipient(s).", len(recipients))
+    log.info("Delivering %d post(s) to %s%d DM recipient(s).", len(posts),
+             "channel + " if channel else "", len(dm_recipients))
     sent_uids = []
     for art, text, photo in posts:
         delivered = False
-        for cid in list(recipients):
+        # Broadcast to the channel once; reaches every member.
+        if channel:
+            try:
+                client.send_post(text, photo_url=photo, chat_id=channel)
+                delivered = True
+            except RuntimeError as exc:
+                log.warning("Channel post to %s failed (is the bot an admin "
+                            "with post rights?): %s", channel, exc)
+            time.sleep(cfg.send_delay)
+        # Fan out to DM subscribers (and the owner chat).
+        for cid in list(dm_recipients):
             try:
                 client.send_post(text, photo_url=photo, chat_id=cid)
                 delivered = True
@@ -185,7 +201,7 @@ def run(argv: List[str] | None = None) -> int:
                 # Drop chats that blocked the bot / no longer exist so we stop
                 # retrying them; log anything else as a transient failure.
                 if is_unreachable(exc) and subs.remove(cid):
-                    recipients.remove(cid)
+                    dm_recipients.remove(cid)
                     log.info("Dropped unreachable subscriber %s (%s)", cid, exc)
                 else:
                     log.warning("Failed to send %r to %s: %s",
@@ -193,8 +209,9 @@ def run(argv: List[str] | None = None) -> int:
             time.sleep(cfg.send_delay)
         if delivered:
             sent_uids.append(art.uid)
-    log.info("Sent %d/%d post(s) to %d recipient(s).",
-             len(sent_uids), len(posts), len(recipients))
+    log.info("Sent %d/%d post(s)%s to %d DM recipient(s).",
+             len(sent_uids), len(posts),
+             " to channel" if channel else "", len(dm_recipients))
 
     if subs.dirty:
         subs.save()

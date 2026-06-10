@@ -174,6 +174,62 @@ class FanoutClient:
         return {"ok": True}
 
 
+def _run_digest_with(monkeypatch, tmp_path, env, client_factory, n_posts=2):
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "x:y")
+    monkeypatch.setenv("AINEWS_STATE_FILE", str(tmp_path / "seen.json"))
+    monkeypatch.setenv("AINEWS_SUBSCRIBER_FILE", str(tmp_path / "subs.json"))
+    monkeypatch.setenv("AINEWS_LAST_DIGEST_FILE", str(tmp_path / "ld.json"))
+    monkeypatch.setenv("AINEWS_SUMMARIZE", "0")
+    monkeypatch.setenv("AINEWS_SEND_DELAY_MS", "0")
+    for k, v in env.items():
+        monkeypatch.setenv(k, v)
+    arts = [classify(Article(title=f"Post {i}", link=f"https://x/{i}",
+                             source="Src", summary="b")) for i in range(n_posts)]
+    monkeypatch.setattr(digest, "select_articles", lambda *a, **k: arts)
+    captured = {}
+    monkeypatch.setattr(digest, "TelegramClient",
+                        lambda *a, **k: captured.setdefault("c", client_factory()))
+    assert digest.run([]) == 0
+    return captured["c"], arts
+
+
+def test_channel_broadcast_plus_subscribers(tmp_path, monkeypatch):
+    subs = SubscriberStore(str(tmp_path / "subs.json"))
+    subs.add(111)
+    subs.save()
+    client, arts = _run_digest_with(
+        monkeypatch, tmp_path,
+        {"TELEGRAM_CHANNEL_ID": "@mychan"}, lambda: FanoutClient())
+    # Each post went to the channel once AND to the subscriber.
+    per_post = {}
+    for cid, text in client.delivered:
+        per_post.setdefault(text, set()).add(cid)
+    for s in per_post.values():
+        assert s == {"@mychan", "111"}
+
+
+def test_channel_only_no_subscribers(tmp_path, monkeypatch):
+    client, arts = _run_digest_with(
+        monkeypatch, tmp_path,
+        {"TELEGRAM_CHANNEL_ID": "@mychan"}, lambda: FanoutClient())
+    assert {cid for cid, _ in client.delivered} == {"@mychan"}
+    # The batch is still cached for /latest.
+    assert load_last_digest(str(tmp_path / "ld.json"))
+
+
+def test_channel_failure_does_not_drop_subscribers(tmp_path, monkeypatch):
+    subs = SubscriberStore(str(tmp_path / "subs.json"))
+    subs.add(111)
+    subs.save()
+    # Channel send fails (bot not admin); subscriber must be unaffected.
+    client, _ = _run_digest_with(
+        monkeypatch, tmp_path,
+        {"TELEGRAM_CHANNEL_ID": "@bad"}, lambda: FanoutClient(dead="@bad"))
+    assert {cid for cid, _ in client.delivered} == {"111"}
+    reloaded = SubscriberStore(str(tmp_path / "subs.json"))
+    assert reloaded.has("111")          # channel failure never removes a sub
+
+
 def test_digest_fans_out_and_drops_dead(tmp_path, monkeypatch):
     seen = tmp_path / "seen.json"
     subs_path = tmp_path / "subs.json"

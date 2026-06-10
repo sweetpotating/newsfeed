@@ -45,6 +45,10 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Optional: broadcast every digest to a channel (scales to unlimited
+          # members with one send). Add the bot as a channel admin and set this
+          # to the channel @handle or numeric -100… id under repo secrets.
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           # Optional: enables 3-bullet AI takeaways. Without it the bot falls
           # back to the feed blurb. Add it under repo Settings → Secrets.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

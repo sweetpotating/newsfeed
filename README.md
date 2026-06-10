@@ -138,6 +138,36 @@ workflow**, or locally with `python -m ainews --sync-only`.
 
 ---
 
+## Go wide: broadcast to a channel
+
+DM subscriptions are great for tens-to-hundreds of people, but every digest is
+sent per-recipient. To reach **unlimited** members with **one send per post**,
+broadcast to a **Telegram channel** instead (or in addition):
+
+1. In Telegram: **New Channel** → name it → make it **public** (gets a
+   `t.me/your_channel` link anyone can join) or private (share an invite link).
+2. Add your **bot as an admin** of the channel with **Post Messages**
+   permission.
+3. Add a repo secret **`TELEGRAM_CHANNEL_ID`** = the channel `@handle`
+   (public) or its numeric `-100…` id (private; forward a channel post to
+   [@userinfobot](https://t.me/userinfobot) to get it).
+
+That's it. Each digest now posts to the channel — readers just **join the
+link**, no `/start` needed, members can't reply/spam, and you manage everyone
+from Telegram's channel admin panel. It works **alongside** DM subscribers and
+`TELEGRAM_CHAT_ID`, so you can run any mix:
+
+| Want… | Set |
+|-------|-----|
+| Broadcast to many (recommended at scale) | `TELEGRAM_CHANNEL_ID` |
+| Personal DMs people self-subscribe to | share the bot link (`/start`) |
+| A fixed private destination (your DM / a group) | `TELEGRAM_CHAT_ID` |
+
+A channel scales effortlessly because member count doesn't change the work: 10
+posts is 10 sends no matter whether 5 or 50,000 people are subscribed.
+
+---
+
 ## Run it locally
 
 ```bash
@@ -181,6 +211,7 @@ All optional, via environment variables (see [`.env.example`](.env.example)):
 |----------|---------|---------|
 | `TELEGRAM_BOT_TOKEN` | – | **Required** to send. |
 | `TELEGRAM_CHAT_ID` | – | Optional fixed recipient (DM/channel/group) on top of subscribers. |
+| `TELEGRAM_CHANNEL_ID` | – | Optional channel to broadcast to (one send per post, unlimited members). |
 | `AINEWS_SUBSCRIBER_FILE` | `state/subscribers.json` | Subscriber list (people who `/start` the bot). |
 | `AINEWS_LAST_DIGEST_FILE` | `state/last_digest.json` | Cached last digest, replayed by `/latest`. |
 | `ANTHROPIC_API_KEY` | – | Enables AI takeaways. Optional — falls back to feed blurb. |

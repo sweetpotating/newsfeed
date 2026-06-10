@@ -32,6 +32,7 @@ def _bool(name: str, default: bool) -> bool:
 class Config:
     bot_token: str = ""
     chat_id: str = ""
+    channel_id: str = ""
     lookback_hours: int = 24
     max_items: int = 10
     max_per_feed: int = 8
@@ -56,6 +57,7 @@ class Config:
         return cls(
             bot_token=os.environ.get("TELEGRAM_BOT_TOKEN", "").strip(),
             chat_id=os.environ.get("TELEGRAM_CHAT_ID", "").strip(),
+            channel_id=os.environ.get("TELEGRAM_CHANNEL_ID", "").strip(),
             lookback_hours=_int("AINEWS_LOOKBACK_HOURS", 24),
             max_items=_int("AINEWS_MAX_ITEMS", 10),
             max_per_feed=_int("AINEWS_MAX_PER_FEED", 8),
