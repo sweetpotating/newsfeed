@@ -74,7 +74,9 @@
 "41ce17e31645c382": 1780745274.2853599,
 "41e74c1497e421b7": 1780976183.3258631,
 "4273ed418e6d5871": 1780976183.3258631,
+"436a674e3bf2eef7": 1781133766.412285,
 "44f0065af7e73b7a": 1780199856.480818,
+"4600462b11c1a928": 1781133766.412285,
 "473e57c4b619c5bc": 1780497674.104431,
 "47468f27f93cf05c": 1780804920.4817452,
 "4771bf1bc8387e01": 1780409098.955187,
@@ -86,6 +88,7 @@
 "4e4360776d53ebd5": 1780373057.9135816,
 "4e764bbf2e8364ab": 1781063458.8786054,
 "507ec0fdf6297e19": 1780111863.231792,
+"51fca7fcdb7ac2e8": 1781133766.412285,
 "52bfaada25328cbd": 1780577130.4690835,
 "54fd786468ef52fe": 1780497674.104431,
 "558778525d2f440f": 1780058919.7802155,
@@ -134,8 +137,10 @@
 "7ef5e470bd1106a1": 1781008752.0030005,
 "7f29975fce02aec6": 1780409098.955187,
 "7f8a0cd61884262a": 1780745274.2853599,
+"7fb706576a8eef08": 1781133766.412285,
 "8065dada88d89276": 1781063458.8786054,
 "80ea9790d19213e1": 1780631621.2095418,
+"8149ab146413fafa": 1781133766.412285,
 "82c4cc1bbfb0212a": 1780663166.8064256,
 "8337eeb248ea1830": 1780058919.7802155,
 "84c6e5c233865ec0": 1780716939.0187893,
@@ -287,6 +292,7 @@
 "ff6db6267f18b781": 1781119898.9219766
 },
 "titles": {
+"Access OpenAI models and Codex through your Oracle cloud commitment": 1781133766.4122903,
 "Anthropic Helps JFrog Govern the Software Supply Chain": 1781128569.019046,
 "Anthropic study shows AI needs hours, not weeks, to build exploits from security patches": 1781119898.9219823,
 "Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini": 1781087485.3576393,
@@ -299,11 +305,14 @@
 "DiffusionGemma": 1781128569.019046,
 "ETS Connect UK publishes draft CT documents and Accredited Partner programme milestones": 1781087485.3576393,
 "FDIC Just Showed Why Banks May Win the Digital Dollar Race": 1781128569.019046,
+"FSB guides banks on resposible adoption of AI": 1781133766.4122903,
 "From data to decisions: how LSEG is scaling trusted AI": 1781087485.3576393,
 "Germany's National Security Council greenights an AI Safety Institute modeled after the UK's AISI": 1781093863.2189455,
 "Google Debuts Gemini Features Geared to Small Businesses": 1781119898.9219823,
 "Google's NotebookLM now runs its own cloud computer with code execution and agent-based research": 1781093863.2189455,
+"How an astrophysicist uses Codex to help simulate black holes": 1781133766.4122903,
 "Mastercard Enables AI Agents to Pay Each Other": 1781109126.8189814,
+"Mastercard launches Agent Pay for Machines": 1781133766.4122903,
 "Microsoft restricts Claude Fable for employees over data retention concerns": 1781119898.9219823,
 "OpenAI wants its biggest data center yet, and Nvidia would back the bill": 1781109126.8189814,
 "OpenAI's IPO slips as Altman tells staff to expect a public offering \"within the next year\"": 1781119898.9219823,
@@ -311,7 +320,8 @@
 "Save time and grow your business with new Gemini tools": 1781109126.8189814,
 "Top Japanese banks plot stablecoin roll out": 1781087485.3576393,
 "TradeStation expands into Europe": 1781093863.2189455,
-"Visa and OpenAI form agentic commerce partnership": 1781128569.019046
+"Visa and OpenAI form agentic commerce partnership": 1781128569.019046,
+"xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims": 1781133766.4122903
 },
-"updated": 1781128569
+"updated": 1781133766
 }
