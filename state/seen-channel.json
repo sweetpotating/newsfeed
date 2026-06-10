@@ -28,6 +28,7 @@
 "14a1f9f6d9da3e4a": 1780976183.3258631,
 "1515b1ed3e8edda6": 1780631621.2095418,
 "17b2a71e97350562": 1781078265.7462046,
+"18497e9d34bfe7bf": 1781119898.9219766,
 "186e6f713d28e400": 1780804920.4817452,
 "1ad08f1a4a40bfd2": 1780891575.1607192,
 "1ba5af99f48bf069": 1780140095.4417198,
@@ -79,6 +80,7 @@
 "494cc264fb289d6f": 1780373057.9135816,
 "4b28c4adae4c0769": 1780631621.2095418,
 "4b8dd9662b9b3fa5": 1780804920.4817452,
+"4cebce11d342be18": 1781119898.9219766,
 "4e4360776d53ebd5": 1780373057.9135816,
 "4e764bbf2e8364ab": 1781063458.8786054,
 "507ec0fdf6297e19": 1780111863.231792,
@@ -255,6 +257,7 @@
 "ea0d2f783cc25bda": 1780287083.5673838,
 "eccb7fbe90f57257": 1780287083.5673838,
 "ed029bbfc243d1c3": 1780140095.4417198,
+"ed9b46a0b2640014": 1781119898.9219766,
 "ee927969427f81bd": 1780111863.231792,
 "f143bb33161fdacd": 1780631621.2095418,
 "f1eef19f7a48f6ec": 1780409098.955187,
@@ -274,24 +277,31 @@
 "fae173f5fba9c3cb": 1780546022.2009194,
 "faf8f9e444490f37": 1780745274.2853599,
 "fbbf92de424171a8": 1780460052.232712,
-"ff0a8f0275056846": 1781056052.3985715
+"fd5ff1f544907cf3": 1781119898.9219766,
+"ff0a8f0275056846": 1781056052.3985715,
+"ff6db6267f18b781": 1781119898.9219766
 },
 "titles": {
+"Anthropic study shows AI needs hours, not weeks, to build exploits from security patches": 1781119898.9219823,
 "Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini": 1781087485.3576393,
 "Before Elon Musk\u2019s SpaceX, these were the world\u2019s 5 largest IPOs": 1781093863.2189455,
 "Chase expands digitial hub for small businesses": 1781087485.3576393,
 "China sounds alarm over AI \u2018skills\u2019 that evade guard rails and mine crypto": 1781093863.2189455,
 "Claude Fable 5: The first Mythos model is powerful, expensive, and heavily filtered": 1781109126.8189814,
+"Claude Fable won\u2019t answer basic biology questions": 1781119898.9219823,
 "Cybersecurity researchers aren\u2019t happy about the guardrails on Anthropic\u2019s Fable": 1781109126.8189814,
 "ETS Connect UK publishes draft CT documents and Accredited Partner programme milestones": 1781087485.3576393,
 "From data to decisions: how LSEG is scaling trusted AI": 1781087485.3576393,
 "Germany's National Security Council greenights an AI Safety Institute modeled after the UK's AISI": 1781093863.2189455,
+"Google Debuts Gemini Features Geared to Small Businesses": 1781119898.9219823,
 "Google's NotebookLM now runs its own cloud computer with code execution and agent-based research": 1781093863.2189455,
 "Mastercard Enables AI Agents to Pay Each Other": 1781109126.8189814,
+"Microsoft restricts Claude Fable for employees over data retention concerns": 1781119898.9219823,
 "OpenAI wants its biggest data center yet, and Nvidia would back the bill": 1781109126.8189814,
+"OpenAI's IPO slips as Altman tells staff to expect a public offering \"within the next year\"": 1781119898.9219823,
 "Save time and grow your business with new Gemini tools": 1781109126.8189814,
 "Top Japanese banks plot stablecoin roll out": 1781087485.3576393,
 "TradeStation expands into Europe": 1781093863.2189455
 },
-"updated": 1781109126
+"updated": 1781119898
 }
