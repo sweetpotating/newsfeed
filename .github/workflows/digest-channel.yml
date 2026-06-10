@@ -1,0 +1,75 @@
+name: AI News → Channel
+
+# Broadcasts the digest to the Telegram channel (one send per post reaches all
+# members — scales to unlimited subscribers). Independent of the bot workflow —
+# it keeps its own dedup state (state/seen-channel.json), so both targets get
+# the full digest. Manual runs: Actions -> this workflow -> "Run workflow".
+on:
+  schedule:
+    # 08:00 and 18:00 Singapore time (SGT = UTC+8) => 00:00 and 10:00 UTC.
+    - cron: "0 0,10 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only (do not send to Telegram)"
+        type: boolean
+        default: false
+      lookback:
+        description: "Lookback window in hours"
+        type: string
+        default: "24"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-news-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Broadcast digest to channel
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AINEWS_TARGET: channel
+          AINEWS_STATE_FILE: state/seen-channel.json
+          # A repo secret overrides this baked-in channel id.
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID || '-1003715197140' }}
+          AINEWS_LOOKBACK_HOURS: ${{ github.event.inputs.lookback || '24' }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python -m ainews --target channel --dry-run --verbose
+          else
+            python -m ainews --target channel --verbose
+          fi
+
+      - name: Commit updated state
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          if [[ -n "$(git status --porcelain state/)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state/
+            git commit -m "chore: update AI news channel dedup state"
+            for i in 1 2 3 4; do
+              git push && break || sleep $((2 ** i))
+              git pull --rebase --autostash || true
+            done
+          else
+            echo "No state changes to commit."
+          fi

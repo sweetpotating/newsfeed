@@ -230,6 +230,28 @@ def test_channel_failure_does_not_drop_subscribers(tmp_path, monkeypatch):
     assert reloaded.has("111")          # channel failure never removes a sub
 
 
+def test_target_channel_only_excludes_subscribers(tmp_path, monkeypatch):
+    subs = SubscriberStore(str(tmp_path / "subs.json"))
+    subs.add(111)
+    subs.save()
+    client, _ = _run_digest_with(
+        monkeypatch, tmp_path,
+        {"TELEGRAM_CHANNEL_ID": "@c", "AINEWS_TARGET": "channel"},
+        lambda: FanoutClient())
+    assert {cid for cid, _ in client.delivered} == {"@c"}   # no DM to 111
+
+
+def test_target_bot_only_excludes_channel(tmp_path, monkeypatch):
+    subs = SubscriberStore(str(tmp_path / "subs.json"))
+    subs.add(111)
+    subs.save()
+    client, _ = _run_digest_with(
+        monkeypatch, tmp_path,
+        {"TELEGRAM_CHANNEL_ID": "@c", "AINEWS_TARGET": "bot"},
+        lambda: FanoutClient())
+    assert {cid for cid, _ in client.delivered} == {"111"}  # channel skipped
+
+
 def test_digest_fans_out_and_drops_dead(tmp_path, monkeypatch):
     seen = tmp_path / "seen.json"
     subs_path = tmp_path / "subs.json"

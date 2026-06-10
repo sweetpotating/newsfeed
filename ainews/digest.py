@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -94,8 +95,17 @@ def run(argv: List[str] | None = None) -> int:
     parser.add_argument("--sync-only", action="store_true",
                         help="Only process /start and /stop subscribers, then "
                              "exit. Does not fetch feeds or send a digest.")
+    parser.add_argument("--target", choices=["all", "bot", "channel"],
+                        default=None,
+                        help="Where to deliver: 'bot' = DM subscribers (+owner "
+                             "chat), 'channel' = the broadcast channel, 'all' = "
+                             "both. Defaults to AINEWS_TARGET or 'all'.")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
+
+    target = (args.target or os.environ.get("AINEWS_TARGET") or "all").lower()
+    use_bot = target in ("all", "bot")
+    use_channel = target in ("all", "channel")
 
     logging.basicConfig(
         level=logging.DEBUG if args.verbose else logging.INFO,
@@ -115,8 +125,10 @@ def run(argv: List[str] | None = None) -> int:
     client = None
     if not args.dry_run:
         client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
-        # Welcome new /start chats and drop /stop chats before delivering.
-        sync_subscribers(client, subs, cfg)
+        # Subscriber processing is a bot concern; skip it for channel-only runs.
+        if use_bot or args.sync_only:
+            # Welcome new /start chats and drop /stop chats before delivering.
+            sync_subscribers(client, subs, cfg)
         if args.sync_only:
             if subs.dirty:
                 subs.save()
@@ -160,14 +172,17 @@ def run(argv: List[str] | None = None) -> int:
         return 0
 
     # Cache this batch so /latest can replay it on demand (no refetch, no cost).
-    save_last_digest(cfg.last_digest_file,
-                     [(text, photo) for _, text, photo in posts])
+    # /latest is a bot feature, so only bot-facing runs refresh the cache.
+    if use_bot:
+        save_last_digest(cfg.last_digest_file,
+                         [(text, photo) for _, text, photo in posts])
 
     # A channel is a single broadcast target that reaches all its members with
     # one send (so it scales without a per-member loop). DM recipients are the
-    # subscriber list plus the optional owner chat.
-    channel = cfg.channel_id
-    dm_recipients = _recipients(cfg, subs)
+    # subscriber list plus the optional owner chat. The --target flag selects
+    # which of these this run delivers to.
+    channel = cfg.channel_id if use_channel else ""
+    dm_recipients = _recipients(cfg, subs) if use_bot else []
     if not channel and not dm_recipients:
         log.warning(
             "Nobody to send to: no channel, no subscribers and no "

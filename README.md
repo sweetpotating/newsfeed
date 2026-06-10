@@ -86,11 +86,19 @@ secret**, add:
   at [console.anthropic.com](https://console.anthropic.com). Without it the bot
   still works and shows the feed's own blurb instead of takeaways.
 
-### 4. Enable the workflow
-The digest workflow [`/.github/workflows/digest.yml`](.github/workflows/digest.yml)
-runs at **08:00 and 18:00 Singapore time**. To test it now: **Actions → AI News
-Digest → Run workflow** (tick *dry run* first if you just want to preview in the
-logs).
+### 4. Enable the workflows
+Delivery is split into two independently-controllable workflows, each running
+at **08:00 and 18:00 Singapore time** and runnable on demand:
+
+- [**AI News → Bot Subscribers**](.github/workflows/digest-bot.yml) — pushes to
+  DM subscribers (+ `TELEGRAM_CHAT_ID`). Own dedup state: `state/seen-bot.json`.
+- [**AI News → Channel**](.github/workflows/digest-channel.yml) — broadcasts to
+  the channel. Own dedup state: `state/seen-channel.json`.
+
+Because each target keeps **separate dedup state**, both deliver the *same* full
+digest without consuming each other's articles. Run either alone from
+**Actions → (workflow) → Run workflow** (tick *dry run* to preview in logs).
+Locally, pick a target with `python -m ainews --target bot|channel|all`.
 
 > The workflows push the updated `state/` files back. That requires
 > **Settings → Actions → General → Workflow permissions → Read and write
@@ -199,6 +207,7 @@ git-ignored). Then `set -a; . ./.env; set +a` before running.
 | `--max-items N` | Cap how many articles are sent per run (default 10). |
 | `--no-state` | Ignore the dedup file (always treat everything as new). |
 | `--sync-only` | Process `/start` & `/stop` subscribers and exit (no digest). |
+| `--target {all,bot,channel}` | Deliver to DM subscribers, the channel, or both (default `all`). |
 | `-v` / `--verbose` | Debug logging. |
 
 ---
