@@ -87,13 +87,18 @@ secret**, add:
   still works and shows the feed's own blurb instead of takeaways.
 
 ### 4. Enable the workflows
-Delivery is split into two independently-controllable workflows, each running
-at **08:00 and 18:00 Singapore time** and runnable on demand:
+Delivery is split into two independently-controllable workflows, each on its
+own schedule and runnable on demand:
 
 - [**AI News → Bot Subscribers**](.github/workflows/digest-bot.yml) — pushes to
-  DM subscribers (+ `TELEGRAM_CHAT_ID`). Own dedup state: `state/seen-bot.json`.
+  DM subscribers (+ `TELEGRAM_CHAT_ID`) **twice a day (08:00 & 18:00 SGT)**,
+  top 10. Own dedup state: `state/seen-bot.json`.
 - [**AI News → Channel**](.github/workflows/digest-channel.yml) — broadcasts to
-  the channel. Own dedup state: `state/seen-channel.json`.
+  the channel **hourly**, top 5 of that hour. Own dedup state:
+  `state/seen-channel.json`.
+
+Both filters skip exact repeats *and* **near-duplicate headlines** — the same
+story covered by a second outlet within 24h is shared only once.
 
 Because each target keeps **separate dedup state**, both deliver the *same* full
 digest without consuming each other's articles. Run either alone from

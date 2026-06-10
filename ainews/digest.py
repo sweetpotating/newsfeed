@@ -26,6 +26,7 @@ from .formatter import MAX_CAPTION_LEN, MAX_MSG_LEN, render_post
 from .lastdigest import save_last_digest
 from .models import Article
 from .ranker import rank
+from .similar import is_similar_to_any, title_tokens
 from .sources import all_feeds
 from .state import SeenStore
 from .subscribe import is_unreachable, sync_subscribers
@@ -75,9 +76,29 @@ def select_articles(cfg: Config, store: SeenStore,
     if first_run:
         log.info("First run: empty state, capping starter digest.")
 
-    # Rank by relevance (platforms & agentic first, then recency) and keep the
-    # top N so a one-post-per-article digest doesn't flood the chat.
-    return rank(fresh, cfg.max_items)
+    # Rank by relevance (platforms & agentic first, then recency), then walk
+    # the ranking and keep the top N — skipping stories that are
+    # near-duplicates of something shared in the last 24h, or of a
+    # higher-ranked pick in this same batch (same story, different outlet).
+    ranked = rank(fresh, len(fresh))
+    recent = store.recent_title_tokens()
+    picked: List[Article] = []
+    skipped = 0
+    for art in ranked:
+        toks = title_tokens(art.title)
+        if (is_similar_to_any(toks, recent)
+                or is_similar_to_any(toks, (title_tokens(p.title)
+                                            for p in picked))):
+            skipped += 1
+            log.debug("Skipping near-duplicate story: %r", art.title)
+            continue
+        picked.append(art)
+        if len(picked) >= cfg.max_items:
+            break
+    if skipped:
+        log.info("Skipped %d near-duplicate stor%s.",
+                 skipped, "y" if skipped == 1 else "ies")
+    return picked
 
 
 def run(argv: List[str] | None = None) -> int:
@@ -196,6 +217,7 @@ def run(argv: List[str] | None = None) -> int:
     log.info("Delivering %d post(s) to %s%d DM recipient(s).", len(posts),
              "channel + " if channel else "", len(dm_recipients))
     sent_uids = []
+    sent_titles = []
     for art, text, photo in posts:
         delivered = False
         # Broadcast to the channel once; reaches every member.
@@ -224,6 +246,7 @@ def run(argv: List[str] | None = None) -> int:
             time.sleep(cfg.send_delay)
         if delivered:
             sent_uids.append(art.uid)
+            sent_titles.append(art.title)
     log.info("Sent %d/%d post(s)%s to %d DM recipient(s).",
              len(sent_uids), len(posts),
              " to channel" if channel else "", len(dm_recipients))
@@ -234,7 +257,9 @@ def run(argv: List[str] | None = None) -> int:
 
     if not args.no_state and sent_uids:
         # Only mark what actually went out, so a failed send retries next run.
+        # Titles feed the 24h near-duplicate filter for future runs.
         store.mark(sent_uids)
+        store.mark_titles(sent_titles)
         store.save()
         log.info("State updated: %s", cfg.state_file)
     return 0

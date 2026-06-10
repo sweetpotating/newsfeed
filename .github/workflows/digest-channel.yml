@@ -1,13 +1,16 @@
 name: AI News → Channel
 
 # Broadcasts the digest to the Telegram channel (one send per post reaches all
-# members — scales to unlimited subscribers). Independent of the bot workflow —
-# it keeps its own dedup state (state/seen-channel.json), so both targets get
-# the full digest. Manual runs: Actions -> this workflow -> "Run workflow".
+# members — scales to unlimited subscribers). Runs hourly with the top 5
+# stories of that hour; near-duplicates of anything shared in the last 24h are
+# skipped. Independent of the bot workflow — it keeps its own dedup state
+# (state/seen-channel.json). Manual runs: Actions -> this workflow -> "Run
+# workflow".
 on:
   schedule:
-    # 08:00 and 18:00 Singapore time (SGT = UTC+8) => 00:00 and 10:00 UTC.
-    - cron: "0 0,10 * * *"
+    # Hourly, on the hour (UTC). GitHub cron is best-effort, so a run may
+    # start a few minutes late; the dedup state makes that harmless.
+    - cron: "0 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -48,6 +51,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AINEWS_TARGET: channel
           AINEWS_STATE_FILE: state/seen-channel.json
+          # Top 5 per hourly run keeps the channel lively but not spammy.
+          AINEWS_MAX_ITEMS: "5"
           # A repo secret overrides this baked-in channel id.
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID || '-1003715197140' }}
           AINEWS_LOOKBACK_HOURS: ${{ github.event.inputs.lookback || '24' }}
