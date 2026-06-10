@@ -38,6 +38,7 @@ class Config:
     timeout: int = 20
     state_file: str = "state/seen.json"
     subscriber_file: str = "state/subscribers.json"
+    last_digest_file: str = "state/last_digest.json"
     state_ttl_days: int = 45
 
     # AI summaries (top-3 takeaways).
@@ -65,6 +66,10 @@ class Config:
                 "AINEWS_SUBSCRIBER_FILE", "state/subscribers.json"
             ).strip()
             or "state/subscribers.json",
+            last_digest_file=os.environ.get(
+                "AINEWS_LAST_DIGEST_FILE", "state/last_digest.json"
+            ).strip()
+            or "state/last_digest.json",
             state_ttl_days=_int("AINEWS_STATE_TTL_DAYS", 45),
             anthropic_api_key=os.environ.get("ANTHROPIC_API_KEY", "").strip(),
             summary_model=os.environ.get("AINEWS_SUMMARY_MODEL", "claude-haiku-4-5").strip()

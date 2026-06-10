@@ -22,6 +22,7 @@ from .classifier import classify
 from .config import Config
 from .fetcher import fetch_all
 from .formatter import MAX_CAPTION_LEN, MAX_MSG_LEN, render_post
+from .lastdigest import save_last_digest
 from .models import Article
 from .ranker import rank
 from .sources import all_feeds
@@ -115,7 +116,7 @@ def run(argv: List[str] | None = None) -> int:
     if not args.dry_run:
         client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
         # Welcome new /start chats and drop /stop chats before delivering.
-        sync_subscribers(client, subs)
+        sync_subscribers(client, subs, cfg)
         if args.sync_only:
             if subs.dirty:
                 subs.save()
@@ -157,6 +158,10 @@ def run(argv: List[str] | None = None) -> int:
             img = f"  [photo: {photo}]" if photo else "  [no photo]"
             print(f"\n===== POST {i}/{len(posts)} (score={art.score:.1f}){img} =====\n{text}")
         return 0
+
+    # Cache this batch so /latest can replay it on demand (no refetch, no cost).
+    save_last_digest(cfg.last_digest_file,
+                     [(text, photo) for _, text, photo in posts])
 
     recipients = _recipients(cfg, subs)
     if not recipients:

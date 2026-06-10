@@ -2,6 +2,8 @@ import json
 
 from ainews import digest
 from ainews.classifier import classify
+from ainews.config import Config
+from ainews.lastdigest import load_last_digest, save_last_digest
 from ainews.models import Article
 from ainews.subscribe import is_unreachable, sync_subscribers
 from ainews.subscribers import SubscriberStore
@@ -12,7 +14,8 @@ class FakeClient:
 
     def __init__(self, updates):
         self._updates = updates
-        self.sent = []  # (chat_id, text)
+        self.sent = []   # (chat_id, text)
+        self.posts = []  # (chat_id, text, photo)
 
     def get_updates(self, offset=0, limit=100):
         # Honour the offset like Telegram does: only return >= offset.
@@ -22,15 +25,27 @@ class FakeClient:
         self.sent.append((chat_id, text))
         return {"ok": True}
 
+    def send_post(self, text, photo_url=None, chat_id=None):
+        self.posts.append((chat_id, text, photo_url))
+        return {"ok": True}
+
+
+def _cfg(tmp_path, **over):
+    return Config(send_delay=0.0,
+                  last_digest_file=str(tmp_path / "last_digest.json"), **over)
+
+
+def _cmd(update_id, chat_id, text, **chat):
+    return {"update_id": update_id,
+            "message": {"chat": {"id": chat_id, **chat}, "text": text}}
+
 
 def _start(update_id, chat_id, **chat):
-    return {"update_id": update_id,
-            "message": {"chat": {"id": chat_id, **chat}, "text": "/start"}}
+    return _cmd(update_id, chat_id, "/start", **chat)
 
 
 def _stop(update_id, chat_id):
-    return {"update_id": update_id,
-            "message": {"chat": {"id": chat_id}, "text": "/stop"}}
+    return _cmd(update_id, chat_id, "/stop")
 
 
 def test_store_roundtrip(tmp_path):
@@ -63,9 +78,8 @@ def test_remove_and_dirty(tmp_path):
 
 def test_sync_adds_and_welcomes(tmp_path):
     store = SubscriberStore(str(tmp_path / "s.json"))
-    client = FakeClient([_start(10, 111, first_name="Bo"),
-                         _start(11, 222)])
-    added, removed = sync_subscribers(client, store)
+    client = FakeClient([_start(10, 111, first_name="Bo"), _start(11, 222)])
+    added, removed = sync_subscribers(client, store, _cfg(tmp_path))
     assert (added, removed) == (2, 0)
     assert store.has("111") and store.has("222")
     assert store.offset == 11
@@ -77,7 +91,7 @@ def test_sync_offset_skips_processed(tmp_path):
     store = SubscriberStore(str(tmp_path / "s.json"))
     store.set_offset(10)              # already processed up to update 10
     client = FakeClient([_start(10, 111), _start(11, 222)])
-    added, _ = sync_subscribers(client, store)
+    added, _ = sync_subscribers(client, store, _cfg(tmp_path))
     assert added == 1                 # only update 11 is new
     assert store.has("222") and not store.has("111")
 
@@ -86,9 +100,55 @@ def test_sync_stop_removes(tmp_path):
     store = SubscriberStore(str(tmp_path / "s.json"))
     store.add(333)
     client = FakeClient([_stop(20, 333)])
-    added, removed = sync_subscribers(client, store)
+    added, removed = sync_subscribers(client, store, _cfg(tmp_path))
     assert (added, removed) == (0, 1)
     assert not store.has("333")
+
+
+def test_sync_start_when_already_subscribed(tmp_path):
+    store = SubscriberStore(str(tmp_path / "s.json"))
+    store.add(444)
+    client = FakeClient([_start(30, 444)])
+    added, _ = sync_subscribers(client, store, _cfg(tmp_path))
+    assert added == 0                              # not added twice
+    assert len(client.sent) == 1                   # but still got a reply
+
+
+def test_latest_replays_cached_digest(tmp_path):
+    cfg = _cfg(tmp_path)
+    save_last_digest(cfg.last_digest_file,
+                     [("Post one", "https://img/1.jpg"), ("Post two", None)])
+    store = SubscriberStore(str(tmp_path / "s.json"))
+    store.add(555)
+    client = FakeClient([_cmd(40, 555, "/latest")])
+    sync_subscribers(client, store, cfg)
+    # Both cached posts were re-sent to the requester via send_post.
+    assert [(c, t) for c, t, _ in client.posts] == [
+        ("555", "Post one"), ("555", "Post two")]
+    assert client.posts[0][2] == "https://img/1.jpg"
+
+
+def test_news_alias_and_empty_cache(tmp_path):
+    cfg = _cfg(tmp_path)   # no cache written
+    store = SubscriberStore(str(tmp_path / "s.json"))
+    client = FakeClient([_cmd(41, 666, "/news")])
+    sync_subscribers(client, store, cfg)
+    assert client.posts == []                       # nothing to replay
+    assert len(client.sent) == 1                     # got a "no digest yet" note
+
+
+def test_help_command(tmp_path):
+    store = SubscriberStore(str(tmp_path / "s.json"))
+    client = FakeClient([_cmd(42, 777, "/help")])
+    sync_subscribers(client, store, _cfg(tmp_path))
+    assert len(client.sent) == 1 and client.sent[0][0] == "777"
+
+
+def test_lastdigest_roundtrip(tmp_path):
+    path = str(tmp_path / "ld.json")
+    save_last_digest(path, [("a", None), ("b", "http://x/y.png")])
+    assert load_last_digest(path) == [("a", None), ("b", "http://x/y.png")]
+    assert load_last_digest(str(tmp_path / "missing.json")) == []
 
 
 def test_is_unreachable():
@@ -121,6 +181,7 @@ def test_digest_fans_out_and_drops_dead(tmp_path, monkeypatch):
     monkeypatch.setenv("TELEGRAM_CHAT_ID", "999")        # owner, always included
     monkeypatch.setenv("AINEWS_STATE_FILE", str(seen))
     monkeypatch.setenv("AINEWS_SUBSCRIBER_FILE", str(subs_path))
+    monkeypatch.setenv("AINEWS_LAST_DIGEST_FILE", str(tmp_path / "ld.json"))
     monkeypatch.setenv("AINEWS_SUMMARIZE", "0")
     monkeypatch.setenv("AINEWS_SEND_DELAY_MS", "0")
 
@@ -153,3 +214,6 @@ def test_digest_fans_out_and_drops_dead(tmp_path, monkeypatch):
     # The article was marked seen (it reached at least one recipient).
     ids = json.loads(seen.read_text())["ids"]
     assert art.uid in ids
+
+    # The batch was cached for /latest replay.
+    assert load_last_digest(str(tmp_path / "ld.json"))

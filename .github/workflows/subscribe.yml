@@ -1,12 +1,13 @@
 name: AI News Subscribers
 
-# Lightweight poll that turns the bot link into a real subscribe button:
-# anyone who sends /start to the bot is added (and welcomed); /stop removes
-# them. This runs often so a new subscriber is welcomed promptly instead of
-# waiting for the next twice-daily digest. Lower/raise the interval to taste.
+# Lightweight poll that turns the bot link into a real subscribe button and
+# handles on-demand commands (/start, /stop, /latest, /help). It runs often so
+# new subscribers are welcomed and /latest requests answered promptly, without
+# waiting for the next twice-daily digest. Raise the interval to use fewer
+# Actions minutes, or lower it for snappier command replies.
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
+    - cron: "*/15 * * * *"   # every 15 minutes
   workflow_dispatch:
 
 # Commit the updated subscriber list back to the repo.

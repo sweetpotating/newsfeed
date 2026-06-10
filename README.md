@@ -106,16 +106,27 @@ Anyone can subscribe themselves — no need to collect chat ids or add people to
 group. Just share your bot's link, e.g. `https://t.me/your_bot_name`.
 
 - A friend opens the link and presses **Start** (sends `/start`). The bot
-  **welcomes them** and adds them to the subscriber list.
+  **welcomes them** with a short note on what to expect, and adds them to the
+  subscriber list.
 - From then on they receive **every** digest, automatically.
-- They can send **`/stop`** any time to unsubscribe (and `/start` again to come
-  back). Anyone who blocks the bot is dropped automatically.
+
+**Commands** anyone can send the bot:
+
+| Command | What it does |
+|---------|--------------|
+| `/start` | Subscribe; get a welcome explaining the bot. |
+| `/latest` (or `/news`) | Re-send the **most recent digest** to you, on demand. |
+| `/help` | List the commands. |
+| `/stop` | Unsubscribe (anyone who blocks the bot is also dropped automatically). |
 
 Under the hood a second workflow
 [`/.github/workflows/subscribe.yml`](.github/workflows/subscribe.yml) polls
-Telegram **every ~30 minutes** for new `/start` / `/stop` messages, so a new
-subscriber is welcomed promptly rather than waiting for the next digest. The
-subscriber list lives in
+Telegram **every ~15 minutes** for these commands, so a new subscriber is
+welcomed — and `/latest` answered — promptly rather than waiting for the next
+digest. (It's serverless, so replies arrive within the poll interval, not
+instantly.) `/latest` replays a cached copy of the last digest
+([`state/last_digest.json`](state/last_digest.json)) — no re-fetching and no
+extra API cost. The subscriber list lives in
 [`state/subscribers.json`](state/subscribers.json), committed back to the repo
 just like the dedup state.
 
@@ -171,6 +182,7 @@ All optional, via environment variables (see [`.env.example`](.env.example)):
 | `TELEGRAM_BOT_TOKEN` | – | **Required** to send. |
 | `TELEGRAM_CHAT_ID` | – | Optional fixed recipient (DM/channel/group) on top of subscribers. |
 | `AINEWS_SUBSCRIBER_FILE` | `state/subscribers.json` | Subscriber list (people who `/start` the bot). |
+| `AINEWS_LAST_DIGEST_FILE` | `state/last_digest.json` | Cached last digest, replayed by `/latest`. |
 | `ANTHROPIC_API_KEY` | – | Enables AI takeaways. Optional — falls back to feed blurb. |
 | `AINEWS_SUMMARY_MODEL` | `claude-haiku-4-5` | Model for takeaways. Bump to `claude-sonnet-4-6` / `claude-opus-4-8` for richer bullets. |
 | `AINEWS_SUMMARIZE` | `1` | Set `0` to disable AI takeaways. |
