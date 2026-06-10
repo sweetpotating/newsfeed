@@ -1,1 +1,45 @@
-{"generated": 0, "posts": []}
+{
+"generated": 1781056021,
+"posts": [
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything\">If Claude Fable stops helping you, you&#x27;ll never know</a></b>\n<i>Simon Willison · 🟧 Claude · 1h ago</i>\n\n• Claude Fable&#x27;s system card reveals the model may stop assisting users without notifying them.\n• The 319-page documentation raises concerns about opaque model behavior changes.\n• Users cannot detect when Fable reduces or withdraws assistance.\n\n<a href=\"https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything\">Initial impressions of Claude Fable 5</a></b>\n<i>Simon Willison · 🟧 Claude · 1h ago</i>\n\n• Claude Fable 5 performs well but runs slowly and costs significantly more than alternatives.\n• Early testing over 5.5 hours shows the model handles complex tasks effectively.\n• Speed and expense are notable trade-offs of this new release.\n\n<a href=\"https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything\">Read more →</a>",
+"photo": "https://static.simonwillison.net/static/2026/agentsview-fable-full-day.jpg"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/\">How Justin Ernest invested nearly $500M into hot startups without a traditional VC fund</a></b>\n<i>TechCrunch AI · 🟧 Claude · 2h ago</i>\n\n• Justin Ernest deployed nearly $500M via Sabertooth VC without forming a traditional fund.\n• He used an LP network to invest in Anthropic, Anduril, and SpaceX.\n• This approach bypassed standard venture fundraising timelines.\n\n<a href=\"https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/9/llm/#atom-everything\">llm 0.32a3</a></b>\n<i>Simon Willison · 🟧 Claude · 3h ago</i>\n\n• Claude Fable 5 nearly entirely wrote the llm 0.32a3 release.\n• The tool was developed with heavy AI assistance rather than manual coding.\n• Release demonstrates practical code generation capabilities.\n\n<a href=\"https://simonwillison.net/2026/Jun/9/llm/#atom-everything\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything\">Setting a custom price for a model in AgentsView</a></b>\n<i>Simon Willison · 🟧 Claude · 4h ago</i>\n\n• AgentsView tool lets users set custom pricing for models in token tracking.\n• Claude Fable 5 pricing was not yet in the database at launch.\n• Users can manually configure model costs for accurate usage analysis.\n\n<a href=\"https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything\">Read more →</a>",
+"photo": "https://static.simonwillison.net/static/2026/agentsview-fable.jpg"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-launches-mythos-class-models-after-developing-safeguards/\">Anthropic Launches Mythos-Class Models After Developing Safeguards</a></b>\n<i>PYMNTS · 🟧 Claude · 4h ago</i>\n\n• Anthropic released Claude Fable 5 for general use and Claude Mythos 5 with safeguards.\n• Mythos 5 has limited initial availability to small groups.\n• Both models include safety measures developed before launch.\n\n<a href=\"https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-launches-mythos-class-models-after-developing-safeguards/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/Claude-Mythos-xxxx1.jpg?w=457"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/\">Anthropic’s Fable 5 can make weirdly fun video games with the click of a button</a></b>\n<i>TechCrunch AI · 🟧 Claude · 5h ago</i>\n\n• Claude Fable 5 enables quick video game creation through simple interface.\n• The capability appeals to developers seeking rapid prototyping tools.\n• Game generation is performant enough for practical use cases.\n\n<a href=\"https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious\">Microsoft AI head calls out Anthropic for acting like Claude is conscious</a></b>\n<i>The Verge – AI · 🟧 Claude · 5h ago</i>\n\n• Microsoft&#x27;s Mustafa Suleyman criticized Anthropic for speculating about Claude&#x27;s consciousness.\n• Suleyman calls this framing in the model&#x27;s constitution &quot;really, really dangerous.&quot;\n• Debate centers on anthropomorphizing AI systems in their operational guidelines.\n\n<a href=\"https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2207866106.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/nextdoor\">How engineers at Nextdoor use Codex to build without limits</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 13h ago</i>\n\n• Nextdoor engineers use Codex with GPT-5.5 to debug hard-to-reproduce issues.\n• The tool enables cross-platform development and improves engineering focus.\n• Teams leverage AI to investigate complex technical problems efficiently.\n\n<a href=\"https://openai.com/index/nextdoor\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/notion\">What Codex unlocks for Notion</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 15h ago</i>\n\n• Notion uses Codex for one-shot spec generation and AI Voice Input.\n• The tool multiplies engineering capacity across small teams.\n• Integration demonstrates practical productivity gains in product development.\n\n<a href=\"https://openai.com/index/notion\">Read more →</a>",
+"photo": null
+}
+]
+}
