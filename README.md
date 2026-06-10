@@ -64,8 +64,11 @@ feeds ─▶ fetch (concurrent, timeouts, +image) ─▶ normalise ─▶ drop a
 1. In Telegram, message [@BotFather](https://t.me/BotFather) → `/newbot` →
    follow prompts. Copy the **bot token** it gives you.
 
-### 2. Choose where the digest goes (`TELEGRAM_CHAT_ID`)
-Pick one:
+### 2. Choose where the digest goes (`TELEGRAM_CHAT_ID`) — optional
+With subscriptions enabled (see [Share it](#share-it-let-people-subscribe-via-your-bot-link)),
+you can skip this entirely and let people `/start` the bot. If you also want a
+fixed destination (your own DM, a channel, or a group), set `TELEGRAM_CHAT_ID`
+to one of:
 - **Personal chat:** message [@userinfobot](https://t.me/userinfobot); it
   replies with your numeric id. (Also send your new bot any message first so it
   is allowed to DM you.)
@@ -78,21 +81,49 @@ Pick one:
 In the repo: **Settings → Secrets and variables → Actions → New repository
 secret**, add:
 - `TELEGRAM_BOT_TOKEN`
-- `TELEGRAM_CHAT_ID`
+- `TELEGRAM_CHAT_ID` *(optional — see step 2)*
 - `ANTHROPIC_API_KEY` *(optional)* — enables the 3-bullet AI takeaways. Get one
   at [console.anthropic.com](https://console.anthropic.com). Without it the bot
   still works and shows the feed's own blurb instead of takeaways.
 
 ### 4. Enable the workflow
-The workflow [`/.github/workflows/digest.yml`](.github/workflows/digest.yml)
-runs **every 3 hours**. To test it now: **Actions → AI News Digest → Run
-workflow** (tick *dry run* first if you just want to preview in the logs).
+The digest workflow [`/.github/workflows/digest.yml`](.github/workflows/digest.yml)
+runs at **08:00 and 18:00 Singapore time**. To test it now: **Actions → AI News
+Digest → Run workflow** (tick *dry run* first if you just want to preview in the
+logs).
 
-> The workflow needs to push the updated `state/seen.json` back. That requires
+> The workflows push the updated `state/` files back. That requires
 > **Settings → Actions → General → Workflow permissions → Read and write
 > permissions**.
 
 That's it — you'll start receiving digests. 🎉
+
+---
+
+## Share it: let people subscribe via your bot link
+
+Anyone can subscribe themselves — no need to collect chat ids or add people to a
+group. Just share your bot's link, e.g. `https://t.me/your_bot_name`.
+
+- A friend opens the link and presses **Start** (sends `/start`). The bot
+  **welcomes them** and adds them to the subscriber list.
+- From then on they receive **every** digest, automatically.
+- They can send **`/stop`** any time to unsubscribe (and `/start` again to come
+  back). Anyone who blocks the bot is dropped automatically.
+
+Under the hood a second workflow
+[`/.github/workflows/subscribe.yml`](.github/workflows/subscribe.yml) polls
+Telegram **every ~30 minutes** for new `/start` / `/stop` messages, so a new
+subscriber is welcomed promptly rather than waiting for the next digest. The
+subscriber list lives in
+[`state/subscribers.json`](state/subscribers.json), committed back to the repo
+just like the dedup state.
+
+> New subscribers receive digests sent **after** they join (not a backlog) —
+> the bot only sends each article once, to everyone currently subscribed.
+
+You can run the poll on demand too: **Actions → AI News Subscribers → Run
+workflow**, or locally with `python -m ainews --sync-only`.
 
 ---
 
@@ -126,6 +157,7 @@ git-ignored). Then `set -a; . ./.env; set +a` before running.
 | `--lookback N` | Only include items from the last `N` hours (default 24). |
 | `--max-items N` | Cap how many articles are sent per run (default 10). |
 | `--no-state` | Ignore the dedup file (always treat everything as new). |
+| `--sync-only` | Process `/start` & `/stop` subscribers and exit (no digest). |
 | `-v` / `--verbose` | Debug logging. |
 
 ---
@@ -137,7 +169,8 @@ All optional, via environment variables (see [`.env.example`](.env.example)):
 | Variable | Default | Purpose |
 |----------|---------|---------|
 | `TELEGRAM_BOT_TOKEN` | – | **Required** to send. |
-| `TELEGRAM_CHAT_ID` | – | **Required** to send. |
+| `TELEGRAM_CHAT_ID` | – | Optional fixed recipient (DM/channel/group) on top of subscribers. |
+| `AINEWS_SUBSCRIBER_FILE` | `state/subscribers.json` | Subscriber list (people who `/start` the bot). |
 | `ANTHROPIC_API_KEY` | – | Enables AI takeaways. Optional — falls back to feed blurb. |
 | `AINEWS_SUMMARY_MODEL` | `claude-haiku-4-5` | Model for takeaways. Bump to `claude-sonnet-4-6` / `claude-opus-4-8` for richer bullets. |
 | `AINEWS_SUMMARIZE` | `1` | Set `0` to disable AI takeaways. |
@@ -152,7 +185,7 @@ All optional, via environment variables (see [`.env.example`](.env.example)):
 
 ### Cost of AI takeaways
 One batched call per run on **Haiku 4.5** (the default) for ~10 articles is a
-fraction of a US cent. Running every 3 hours that's roughly a few cents a month.
+fraction of a US cent. Running twice a day that's well under a cent a month.
 Switching `AINEWS_SUMMARY_MODEL` to Sonnet or Opus improves bullet quality at
 proportionally higher cost. No key set → no cost, blurb fallback.
 

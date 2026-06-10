@@ -37,6 +37,7 @@ class Config:
     max_per_feed: int = 8
     timeout: int = 20
     state_file: str = "state/seen.json"
+    subscriber_file: str = "state/subscribers.json"
     state_ttl_days: int = 45
 
     # AI summaries (top-3 takeaways).
@@ -60,6 +61,10 @@ class Config:
             timeout=_int("AINEWS_TIMEOUT", 20),
             state_file=os.environ.get("AINEWS_STATE_FILE", "state/seen.json").strip()
             or "state/seen.json",
+            subscriber_file=os.environ.get(
+                "AINEWS_SUBSCRIBER_FILE", "state/subscribers.json"
+            ).strip()
+            or "state/subscribers.json",
             state_ttl_days=_int("AINEWS_STATE_TTL_DAYS", 45),
             anthropic_api_key=os.environ.get("ANTHROPIC_API_KEY", "").strip(),
             summary_model=os.environ.get("AINEWS_SUMMARY_MODEL", "claude-haiku-4-5").strip()
@@ -70,14 +75,12 @@ class Config:
         )
 
     def require_telegram(self) -> None:
-        missing = []
+        # The bot token is always required to talk to Telegram. A chat id is
+        # optional now: delivery is driven by the subscriber list, with
+        # TELEGRAM_CHAT_ID acting as an always-on extra recipient (e.g. the
+        # owner's own chat or a channel) when set.
         if not self.bot_token:
-            missing.append("TELEGRAM_BOT_TOKEN")
-        if not self.chat_id:
-            missing.append("TELEGRAM_CHAT_ID")
-        if missing:
             raise RuntimeError(
-                "Missing required environment variable(s): "
-                + ", ".join(missing)
-                + ". Set them (or use --dry-run to preview without sending)."
+                "Missing required environment variable TELEGRAM_BOT_TOKEN. "
+                "Set it (or use --dry-run to preview without sending)."
             )

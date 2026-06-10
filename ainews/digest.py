@@ -26,6 +26,8 @@ from .models import Article
 from .ranker import rank
 from .sources import all_feeds
 from .state import SeenStore
+from .subscribe import is_unreachable, sync_subscribers
+from .subscribers import SubscriberStore
 from .summarizer import summarize
 from .telegram import TelegramClient
 
@@ -39,6 +41,15 @@ def _dedupe(articles: List[Article]) -> List[Article]:
         if a.uid not in by_uid:
             by_uid[a.uid] = a
     return list(by_uid.values())
+
+
+def _recipients(cfg: Config, subs: SubscriberStore) -> List[str]:
+    """All chat ids to deliver to: every subscriber, plus the configured
+    TELEGRAM_CHAT_ID (owner/channel) when set and not already subscribed."""
+    recipients = subs.chat_ids()
+    if cfg.chat_id and cfg.chat_id not in recipients:
+        recipients = recipients + [cfg.chat_id]
+    return recipients
 
 
 def select_articles(cfg: Config, store: SeenStore,
@@ -79,6 +90,9 @@ def run(argv: List[str] | None = None) -> int:
                         help="Override the max number of items in the digest.")
     parser.add_argument("--no-state", action="store_true",
                         help="Do not read or write the dedup state file.")
+    parser.add_argument("--sync-only", action="store_true",
+                        help="Only process /start and /stop subscribers, then "
+                             "exit. Does not fetch feeds or send a digest.")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -95,6 +109,20 @@ def run(argv: List[str] | None = None) -> int:
     if not args.dry_run:
         cfg.require_telegram()
 
+    # The subscriber list drives delivery; processing it needs a live client.
+    subs = SubscriberStore(cfg.subscriber_file)
+    client = None
+    if not args.dry_run:
+        client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
+        # Welcome new /start chats and drop /stop chats before delivering.
+        sync_subscribers(client, subs)
+        if args.sync_only:
+            if subs.dirty:
+                subs.save()
+                log.info("Subscribers updated: %s", cfg.subscriber_file)
+            log.info("Sync complete: %d subscriber(s).", subs.count())
+            return 0
+
     # An empty/no-op store when --no-state, so nothing is read or written.
     store = SeenStore(
         cfg.state_file if not args.no_state else "/dev/null",
@@ -104,6 +132,8 @@ def run(argv: List[str] | None = None) -> int:
     articles = select_articles(cfg, store, lookback)
     if not articles:
         log.info("No new articles within the last %dh. Nothing to send.", lookback)
+        if subs.dirty:
+            subs.save()
         return 0
 
     # Generate 3 takeaways per article (best-effort — degrades to feed blurb).
@@ -128,18 +158,42 @@ def run(argv: List[str] | None = None) -> int:
             print(f"\n===== POST {i}/{len(posts)} (score={art.score:.1f}){img} =====\n{text}")
         return 0
 
-    client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
-    sent = 0
+    recipients = _recipients(cfg, subs)
+    if not recipients:
+        log.warning(
+            "Nobody to send to: no subscribers and no TELEGRAM_CHAT_ID set. "
+            "Share your bot link so people can /start to subscribe."
+        )
+        if subs.dirty:
+            subs.save()
+        return 0
+
+    log.info("Delivering to %d recipient(s).", len(recipients))
     sent_uids = []
     for art, text, photo in posts:
-        try:
-            client.send_post(text, photo_url=photo)
-            sent += 1
+        delivered = False
+        for cid in list(recipients):
+            try:
+                client.send_post(text, photo_url=photo, chat_id=cid)
+                delivered = True
+            except RuntimeError as exc:
+                # Drop chats that blocked the bot / no longer exist so we stop
+                # retrying them; log anything else as a transient failure.
+                if is_unreachable(exc) and subs.remove(cid):
+                    recipients.remove(cid)
+                    log.info("Dropped unreachable subscriber %s (%s)", cid, exc)
+                else:
+                    log.warning("Failed to send %r to %s: %s",
+                                art.title[:50], cid, exc)
+            time.sleep(cfg.send_delay)
+        if delivered:
             sent_uids.append(art.uid)
-        except RuntimeError as exc:
-            log.warning("Failed to send post for %r: %s", art.title[:60], exc)
-        time.sleep(cfg.send_delay)
-    log.info("Sent %d/%d post(s) to Telegram.", sent, len(posts))
+    log.info("Sent %d/%d post(s) to %d recipient(s).",
+             len(sent_uids), len(posts), len(recipients))
+
+    if subs.dirty:
+        subs.save()
+        log.info("Subscribers updated: %s", cfg.subscriber_file)
 
     if not args.no_state and sent_uids:
         # Only mark what actually went out, so a failed send retries next run.

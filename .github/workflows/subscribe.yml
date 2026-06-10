@@ -1,0 +1,56 @@
+name: AI News Subscribers
+
+# Lightweight poll that turns the bot link into a real subscribe button:
+# anyone who sends /start to the bot is added (and welcomed); /stop removes
+# them. This runs often so a new subscriber is welcomed promptly instead of
+# waiting for the next twice-daily digest. Lower/raise the interval to taste.
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch:
+
+# Commit the updated subscriber list back to the repo.
+permissions:
+  contents: write
+
+# Share the digest's concurrency group so the two workflows never call
+# getUpdates or touch the state files at the same time.
+concurrency:
+  group: ai-news-digest
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Process subscribers
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python -m ainews --sync-only --verbose
+
+      - name: Commit subscriber list
+        run: |
+          if [[ -n "$(git status --porcelain state/)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state/
+            git commit -m "chore: update AI news subscriber list"
+            for i in 1 2 3 4; do
+              git push && break || sleep $((2 ** i))
+              git pull --rebase --autostash || true
+            done
+          else
+            echo "No subscriber changes to commit."
+          fi
