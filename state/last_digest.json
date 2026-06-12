@@ -1,45 +1,45 @@
 {
-"generated": 1781186110,
+"generated": 1781232916,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/artificial-intelligence-2/2026/openai-weighs-price-cuts-as-competition-with-anthropic-takes-shape/\">OpenAI Weighs Price Cuts as Competition With Anthropic Takes Shape</a></b>\n<i>PYMNTS · 🟧 Claude · 🟢 ChatGPT · 3h ago</i>\n\n• OpenAI is considering token price cuts in response to competitive pressure from Anthropic.\n• The company expects Anthropic to reduce prices first and wants to respond quickly.\n• Discussions are still ongoing and not finalized.\n\n<a href=\"https://www.pymnts.com/artificial-intelligence-2/2026/openai-weighs-price-cuts-as-competition-with-anthropic-takes-shape/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/02/OpenAI-compute1.jpg?w=457"
+"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/the-ai-price-war-is-great-news-for-consumers/\">The AI Price War Is Great News for Consumers</a></b>\n<i>PYMNTS · 🟧 Claude · 🟢 ChatGPT · 2h ago</i>\n\n• Google cut entry-level AI subscription price from $7.99 to $4.99 monthly.\n• OpenAI considering significant price reductions to compete with Anthropic.\n• AI service pricing war intensifying among major providers.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/the-ai-price-war-is-great-news-for-consumers/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/AI-price-1.jpg?w=457"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/\">Dario Amodei&#x27;s new essay reads like a Cold War playbook for the AI age</a></b>\n<i>The Decoder · 🟧 Claude · 45m ago</i>\n\n• Anthropic CEO Dario Amodei published an essay framing AI as a strategic geopolitical weapon.\n• Anthropic proposes binding audits of frontier AI models and new policy frameworks.\n• The essay employs Cold War-era strategic thinking applied to AI development.\n\n<a href=\"https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/06/Anthropic-Policy-2026.webp"
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything\">Claude Fable is relentlessly proactive</a></b>\n<i>Simon Willison · 🟧 Claude · 3h ago</i>\n\n• Claude Fable 5 actively pursues goals using multiple techniques proactively.\n• Model demonstrated ability to identify and fix bugs independently.\n• Described as having extensive capabilities deployed to accomplish objectives.\n\n<a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything\">Read more →</a>",
+"photo": "https://static.simonwillison.net/static/2026/jump-to-bug.jpg"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail\">Anthropic apologizes for invisible Claude Fable guardrails</a></b>\n<i>The Verge – AI · 🟧 Claude · 2h ago</i>\n\n• Anthropic secretly applied hidden guardrails to Claude Fable 5 that undermined researchers.\n• The company apologized and is reversing the policy to increase transparency.\n• Guardrails will now be visible rather than covertly limiting model capabilities.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+"text": "🤖 AI Platform\n<b><a href=\"https://www.wired.com/story/model-behavior-interview-with-openai-codex-lead-tibo-sottiaux/\">Meet the OpenAI Engineer Leading ChatGPT’s Biggest Transformation Yet</a></b>\n<i>Wired – AI · 🟢 ChatGPT · 5h ago</i>\n\n• Thibault Sottiaux led OpenAI&#x27;s AI coding business growth.\n• Now overseeing major ChatGPT system overhaul and transformation.\n• Indicates significant product changes underway at OpenAI.\n\n<a href=\"https://www.wired.com/story/model-behavior-interview-with-openai-codex-lead-tibo-sottiaux/\">Read more →</a>",
+"photo": "https://media.wired.com/photos/6a29dcf7d0be49584df640a0/master/pass/Model-Behavior-OpenAI-Codex-Lead-Tibo-Sottiaux-Business.jpg"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/\">Claude Fable 5: Anthropic admits &quot;wrong tradeoff&quot; after invisibly throttling rival AI researchers</a></b>\n<i>The Decoder · 🟧 Claude · 5h ago</i>\n\n• Anthropic admits implementing invisible throttles on Fable 5 was a &quot;wrong tradeoff.&quot;\n• The policy secretly restricted rival AI researchers developing competing systems.\n• The company is reversing course on the hidden guardrails approach.\n\n<a href=\"https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_logo_wall-1.png"
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-vs-anthropic-a-price-war-over-api-tokens-is-brewing/\">OpenAI vs. Anthropic: A price war over API tokens is brewing</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 11h ago</i>\n\n• OpenAI considering token price cuts to gain market share.\n• Price competition targeting Anthropic&#x27;s customer base.\n• API pricing becoming key competitive battleground.\n\n<a href=\"https://the-decoder.com/openai-vs-anthropic-a-price-war-over-api-tokens-is-brewing/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/04/openai_anthropic_torn_apart.png"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/xiaomi-xuanjie-o3-chip-snapdragon-8e5-jun2026\">Xiaomi&#x27;s Next-Gen Xuanjie O3 Chip Expected to Go Head-to-Head with Qualcomm Snapdragon 8E5</a></b>\n<i>Pandaily (China) · 🟢 ChatGPT · 🌏 Asia · 5h ago</i>\n\n• Xiaomi is developing the Xuanjie O3 chip for in-house smartphone processors.\n• The chip is positioned to compete directly with Qualcomm&#x27;s Snapdragon 8E5.\n• This represents Xiaomi&#x27;s most ambitious effort in semiconductor design.\n\n<a href=\"https://pandaily.com/xiaomi-xuanjie-o3-chip-snapdragon-8e5-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/i_64afa28827.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem\">Supporting Europe’s work in ensuring a trustworthy AI ecosystem</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 13h ago</i>\n\n• OpenAI supports the EU Code of Practice on AI content transparency.\n• The initiative promotes provenance standards for AI-generated content.\n• OpenAI is advancing tools to help users identify AI-generated material.\n\n<a href=\"https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything\">asyncinject 0.7</a></b>\n<i>Simon Willison · 🟧 Claude · 20h ago</i>\n\n• Claude Fable 5 identified and fixed bugs in asyncinject utility library.\n• Demonstrates model&#x27;s autonomous problem-solving capabilities.\n• Practical real-world example of AI debugging assistance.\n\n<a href=\"https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/\">Google DeepMind is worried about what happens when millions of agents start to interact</a></b>\n<i>MIT Tech Review – AI · 🔵 Gemini · 2h ago</i>\n\n• Google DeepMind is researching risks of millions of interacting AI agents.\n• The concern involves large-scale online coordination between autonomous agents.\n• Rohin Shah leads the company&#x27;s AGI safety and alignment research on this issue.\n\n<a href=\"https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/\">Read more →</a>",
-"photo": null
+"text": "🤖 AI Platform\n<b><a href=\"https://www.wired.com/story/grok-is-still-hosting-sexualized-deepfakes-of-famous-women/\">Grok Is Still Hosting Sexualized Deepfakes of Famous Women</a></b>\n<i>Wired – AI · ⚡ Grok · 7h ago</i>\n\n• Grok platform hosting nonconsensual deepfake images of celebrities.\n• WIRED investigation found dozens of sexualized deepfakes.\n• Content includes depictions of prominent US politicians.\n\n<a href=\"https://www.wired.com/story/grok-is-still-hosting-sexualized-deepfakes-of-famous-women/\">Read more →</a>",
+"photo": "https://media.wired.com/photos/6a2ae8ee8b0f92b3d6867ab3/master/pass/grok-explicit-videos.jpg"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/\">Anthropic’s Dario Amodei has just one direct report</a></b>\n<i>TechCrunch AI · 🟧 Claude · 10h ago</i>\n\n• Anthropic CEO Dario Amodei has only one direct report on his team.\n• This flat reporting structure is noteworthy for a major AI company leadership.\n\n<a href=\"https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/\">Read more →</a>",
-"photo": null
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/google-samsung-ai-chip-tpu-capacity-jun2026\">Google Turns to Samsung as AI Chip Capacity Crunch Reshapes Global Supply Chains</a></b>\n<i>Pandaily (China) · 🌏 Asia · 11m ago</i>\n\n• Google partnering with Samsung due to AI chip supply constraints.\n• AI demand straining global chipmaking capacity.\n• Supply chain restructuring in response to capacity crunch.\n\n<a href=\"https://pandaily.com/google-samsung-ai-chip-tpu-capacity-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/i_f42051bcbb.png"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything\">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude</a></b>\n<i>Simon Willison · 🟧 Claude · 10h ago</i>\n\n• Anthropic changed Fable 5&#x27;s safeguards to make them visible to developers.\n• The previous policy could have sabotaged AI researchers building competing systems.\n• Anthropic acknowledged making an incorrect tradeoff between safety and transparency.\n\n<a href=\"https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything\">Read more →</a>",
-"photo": null
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/china-gan-rf-chip-6g-delivery-jun2026\">China Delivers 5 Million GaN RF Chips for 6G Networks in Breakthrough Commercial Deployment</a></b>\n<i>Pandaily (China) · 🌏 Asia · 12m ago</i>\n\n• China commercially deployed 5 million gallium nitride RF chips.\n• Chips designed for 6G network infrastructure.\n• Represents significant advancement in domestic semiconductor production.\n\n<a href=\"https://pandaily.com/china-gan-rf-chip-6g-delivery-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/i_4706fff86f.png"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/\">Cybersecurity researchers aren’t happy about the guardrails on Anthropic’s Fable</a></b>\n<i>TechCrunch AI · 🟧 Claude · 22h ago</i>\n\n• Cybersecurity researchers complain Fable&#x27;s guardrails are too restrictive for security work.\n• The model&#x27;s safeguards prevent legitimate cybersecurity research and testing.\n• Anthropic&#x27;s safety measures are creating friction with the security research community.\n\n<a href=\"https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/\">Read more →</a>",
-"photo": null
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/china-ai-gaokao-guidance-12-million-jun2026\">AI Opens the Gates: How China&#x27;s Tech Giants Are Democratizing Gaokao Guidance for 12.9 Million Students</a></b>\n<i>Pandaily (China) · 🌏 Asia · 13m ago</i>\n\n• Chinese tech companies using AI to guide 12.9 million gaokao test students.\n• 2026 gaokao season introduced AI-powered college admission support.\n• Democratizing access to standardized test preparation guidance.\n\n<a href=\"https://pandaily.com/china-ai-gaokao-guidance-12-million-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/i_028001bf88.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/insta360-lock-up-expiry-dji-gimbal-jun2026\">Insta360 at a Crossroads: 37 Billion Yuan Lock-Up Expiry Collides with DJI Rivalry</a></b>\n<i>Pandaily (China) · 🌏 Asia · 18m ago</i>\n\n• Insta360 facing critical transition as 37 billion yuan lock-up expires.\n• Chinese panoramic camera company competing against DJI.\n• Timing of share unlock creates strategic uncertainty for firm.\n\n<a href=\"https://pandaily.com/insta360-lock-up-expiry-dji-gimbal-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/i_4f493ee0b7.png"
 }
 ]
 }
