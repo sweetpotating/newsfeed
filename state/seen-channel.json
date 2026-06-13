@@ -11,6 +11,7 @@
 "04939c47c4fceca7": 1780546022.2009194,
 "050adf60352295ca": 1780460052.232712,
 "064fbfebbeee529a": 1780716939.0187893,
+"06ad1b221a8f5a20": 1781391585.9750335,
 "06b05fcfc17036d7": 1781319145.85495,
 "06c62bed53e70970": 1781056052.3985715,
 "070173a3584f989b": 1781196596.670756,
@@ -409,6 +410,7 @@
 "Alibaba Reportedly Bids $1.5 Billion for Fresh Food Delivery Platform Pupu Supermarket": 1781351550.177799,
 "Amazon Adds AI Image Search to Its Shopping App": 1781220241.4227786,
 "Amazon CEO reportedly raised Anthropic model concerns before government crackdown": 1781378274.1157691,
+"Amazon security research reportedly led to the White House\u2019s Anthropic Fable ban": 1781391585.9750373,
 "Amazon, Walmart and Target Clash in June Sales Events": 1781305978.0193994,
 "Andrew Yang thinks the next big startup opportunity is lowering the cost of living": 1781333738.1542208,
 "Anthropic Says It\u2019s Taking Claude Fable 5 Offline to Comply With US Government Order": 1781319145.8549566,
@@ -440,7 +442,6 @@
 "Google Turns to Samsung as AI Chip Capacity Crunch Reshapes Global Supply Chains": 1781234729.332447,
 "Google files first joint lawsuit with FBI over Chinese AI scam network, OpenAI blocks PRC influence clusters": 1781280870.8236086,
 "Google sues Chinese cybercrime network that used Gemini to automate scams": 1781299651.0485785,
-"Grok Is Still Hosting Sexualized Deepfakes of Famous Women": 1781215074.9796095,
 "HDC 2026 Showcases HarmonyOS 7's Five-Dimensional Upgrade and Surging Ecosystem Innovation": 1781333738.1542208,
 "How Preply combines AI and human tutors to personalize learning": 1781266498.4478133,
 "Huawei's HarmonyOS 7 Developer Beta Debuts With Full Agent Architecture Overhaul": 1781364600.770675,
@@ -449,7 +450,6 @@
 "Kimi and State-Owned Bank Launch World's First AI-Native Credit Card": 1781319145.8549566,
 "Like US models, Chinese AI is learning to \u2018game\u2019 safety tests, research lab says": 1781333738.1542208,
 "McDonald\u2019s Fired Its AI. Now It\u2019s Back With Google\u2019s.": 1781378274.1157691,
-"Meet the OpenAI Engineer Leading ChatGPT's Biggest Transformation Yet": 1781215074.9796095,
 "Meta Employees Absolutely Hate Mark Zuckerberg\u2019s Plan for a Companywide AI Hackathon": 1781371079.1274347,
 "Meta shifts from \"tokenmaxxing\" to token managing as internal AI costs reportedly hit billions": 1781344497.9868886,
 "Meta\u2019s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it": 1781305978.0193994,
@@ -461,13 +461,10 @@
 "NVIDIA Denies Allegations of Restricted Chips Flowing Into China Through Latin America": 1781351550.177799,
 "New AI model called \"Count Anything\" does exactly what it says, and that's harder than it sounds": 1781371079.1274347,
 "New OpenAI Academy courses for the next era of work": 1781299651.0485785,
-"Nobody Told the ERP That Blockchain Won": 1781215074.9796095,
-"OpenAI Plans Ona Purchase to Transform Coding Agents": 1781215074.9796095,
 "OpenAI WebRTC Audio Session, now with document context": 1781319145.8549566,
 "OpenAI buys Ona to push Codex toward long-running, autonomous coding tasks": 1781266498.4478133,
 "OpenAI faces investigation from state attorneys general": 1781371079.1274347,
 "OpenAI kicks off the AI price wars with flexible rate-limit resets for its Codex coding agent": 1781290877.8108664,
-"Our new community investments in Virginia support local jobs and expand energy affordability.": 1781215074.9796095,
 "Out of the shadows: Huawei\u2019s \u2018chip queen\u2019 steps back into the spotlight with scaling law": 1781319145.8549566,
 "Over half of Americans fear losing both their jobs and their independent thinking to AI, survey finds": 1781290877.8108664,
 "POP MART\u2019s LABUBU makes a surprise appearance at the 2026 FIFA World Cup opening ceremony": 1781234729.332447,
@@ -490,5 +487,5 @@
 "olmo-eval: An evaluation workbench for the model development loop": 1781280870.8236086,
 "\u2018Tell Him He\u2019s a Piece of Shit\u2019: Meta\u2019s New AI Unit Is a Total Mess": 1781299651.0485785
 },
-"updated": 1781384969
+"updated": 1781391585
 }
