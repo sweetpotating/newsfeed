@@ -222,6 +222,7 @@
 "8b734631dc47b7f2": 1781215074.979604,
 "8b8460fde5988b3f": 1780373057.9135816,
 "8c810ea5d0c79d2f": 1780409098.955187,
+"8d1ea2dc447e3cd2": 1781451984.821536,
 "8d796b44eab9a2e0": 1780409098.955187,
 "8df6ed3884e86594": 1781167249.6355073,
 "8f817d7d7aec9bbb": 1781351550.1777933,
@@ -475,6 +476,7 @@
 "Meta shifts from \"tokenmaxxing\" to token managing as internal AI costs reportedly hit billions": 1781344497.9868886,
 "Meta\u2019s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it": 1781305978.0193994,
 "Microsoft CEO Satya Nadella admits he's a token-maxer, too: \"It's addictive\"": 1781358513.0155497,
+"Microsoft Research's Mirage gives video generation a persistent spatial memory that doesn't forget what's around the corner": 1781451984.821539,
 "Microsoft's SkillOpt boosts GPT-5.5 by using nothing but a trained Markdown file": 1781358513.0155497,
 "Mistral Seeks $3.5 Billion to Build European AI Infrastructure": 1781305978.0193994,
 "Moonshot's open model Kimi K2.7 Code undercuts GPT-5.5 and Claude by up to 12x on price per token": 1781344497.9868886,
@@ -506,5 +508,5 @@
 "olmo-eval: An evaluation workbench for the model development loop": 1781280870.8236086,
 "\u2018Tell Him He\u2019s a Piece of Shit\u2019: Meta\u2019s New AI Unit Is a Total Mess": 1781299651.0485785
 },
-"updated": 1781445075
+"updated": 1781451984
 }
