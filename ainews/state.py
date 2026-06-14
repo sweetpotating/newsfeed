@@ -71,6 +71,13 @@ class SeenStore:
         cutoff = time.time() - window_seconds
         return [title_tokens(t) for t, ts in self._titles.items() if ts >= cutoff]
 
+    def recent_titles(
+        self, window_seconds: int = TITLE_MATCH_WINDOW_SECONDS
+    ) -> List[str]:
+        """Raw titles sent within the window (for semantic dedup)."""
+        cutoff = time.time() - window_seconds
+        return [t for t, ts in self._titles.items() if ts >= cutoff]
+
     def prune(self) -> None:
         cutoff = time.time() - self.ttl_seconds
         self._seen = {k: v for k, v in self._seen.items() if v >= cutoff}

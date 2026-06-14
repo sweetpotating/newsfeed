@@ -25,6 +25,7 @@ class Article:
     platforms: List[str] = field(default_factory=list)
     image_url: Optional[str] = None     # best image pulled from the feed entry
     takeaways: List[str] = field(default_factory=list)  # AI-generated, may be empty
+    also_in: List[str] = field(default_factory=list)     # other outlets on the same story
     score: float = 0.0                  # relevance score, set during ranking
 
     @property

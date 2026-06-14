@@ -26,7 +26,8 @@ from .formatter import MAX_CAPTION_LEN, MAX_MSG_LEN, render_post
 from .lastdigest import save_last_digest
 from .models import Article
 from .ranker import rank
-from .similar import is_similar_to_any, title_tokens
+from .cluster import cluster_duplicates
+from .similar import first_similar_index, is_similar_to_any, title_tokens
 from .sources import all_feeds
 from .state import SeenStore
 from .subscribe import is_unreachable, sync_subscribers
@@ -76,29 +77,74 @@ def select_articles(cfg: Config, store: SeenStore,
     if first_run:
         log.info("First run: empty state, capping starter digest.")
 
-    # Rank by relevance (platforms & agentic first, then recency), then walk
-    # the ranking and keep the top N — skipping stories that are
-    # near-duplicates of something shared in the last 24h, or of a
-    # higher-ranked pick in this same batch (same story, different outlet).
+    # Rank everything, then de-duplicate in two passes:
+    #   1) lexical — skip headlines that overlap a story shared in the last 24h
+    #      or a higher-ranked pick this run (cheap, always on);
+    #   2) semantic — Claude groups same-story items that are worded too
+    #      differently for word overlap to catch (optional, graceful).
+    # Dropped duplicates lend their outlet name to the kept story ("also
+    # covered by …") and are marked seen so they don't resurface next run.
     ranked = rank(fresh, len(fresh))
-    recent = store.recent_title_tokens()
-    picked: List[Article] = []
-    skipped = 0
+    recent_tokens = store.recent_title_tokens()
+    pool: List[Article] = []
+    pool_tokens: List = []
+    dropped_uids: List[str] = []
+    # Consider a few times the final count so the semantic pass has room to work.
+    pool_cap = max(cfg.max_items * 3, 15)
+
     for art in ranked:
         toks = title_tokens(art.title)
-        if (is_similar_to_any(toks, recent)
-                or is_similar_to_any(toks, (title_tokens(p.title)
-                                            for p in picked))):
-            skipped += 1
-            log.debug("Skipping near-duplicate story: %r", art.title)
+        if is_similar_to_any(toks, recent_tokens):
+            dropped_uids.append(art.uid)            # already shared recently
             continue
-        picked.append(art)
-        if len(picked) >= cfg.max_items:
+        dup_idx = first_similar_index(toks, pool_tokens)
+        if dup_idx is not None:
+            pool[dup_idx].also_in.append(art.source)
+            dropped_uids.append(art.uid)
+            continue
+        pool.append(art)
+        pool_tokens.append(toks)
+        if len(pool) >= pool_cap:
             break
-    if skipped:
-        log.info("Skipped %d near-duplicate stor%s.",
-                 skipped, "y" if skipped == 1 else "ies")
+
+    if cfg.anthropic_api_key and len(pool) > 1:
+        rep_of, stale = cluster_duplicates(
+            pool, store.recent_titles(), cfg.anthropic_api_key,
+            cfg.summary_model, timeout=max(cfg.timeout, 60))
+        survivors: List[Article] = []
+        kept: dict = {}                              # pool index -> kept Article
+        for i, art in enumerate(pool):
+            if i in stale:
+                dropped_uids.append(art.uid)
+                continue
+            root = _resolve_rep(i, rep_of)
+            if root != i:
+                rep = kept.get(root)
+                if rep is not None:                  # fold into the kept story
+                    rep.also_in.append(art.source)
+                    rep.also_in.extend(art.also_in)  # carry its outlets over
+                dropped_uids.append(art.uid)
+                continue
+            survivors.append(art)
+            kept[i] = art
+        pool = survivors
+
+    picked = pool[: cfg.max_items]
+    dropped = len(dropped_uids)
+    if dropped:
+        log.info("De-duplicated %d stor%s before sending.",
+                 dropped, "y" if dropped == 1 else "ies")
+        store.mark(dropped_uids)        # don't reconsider these duplicates
     return picked
+
+
+def _resolve_rep(i: int, rep_of: dict) -> int:
+    """Follow the representative chain to the cluster's root index."""
+    seen = set()
+    while i in rep_of and i not in seen:
+        seen.add(i)
+        i = rep_of[i]
+    return i
 
 
 def run(argv: List[str] | None = None) -> int:

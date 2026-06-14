@@ -10,7 +10,7 @@ same story and we should only share it once.
 from __future__ import annotations
 
 import re
-from typing import FrozenSet, Iterable
+from typing import FrozenSet, Iterable, List, Optional
 
 # Words too common in headlines to signal story identity.
 _STOPWORDS = {
@@ -60,3 +60,12 @@ def is_similar(a: FrozenSet[str], b: FrozenSet[str],
 def is_similar_to_any(tokens: FrozenSet[str],
                       seen: Iterable[FrozenSet[str]]) -> bool:
     return any(is_similar(tokens, s) for s in seen)
+
+
+def first_similar_index(tokens: FrozenSet[str],
+                        seen: List[FrozenSet[str]]) -> Optional[int]:
+    """Index of the first token set similar to ``tokens``, else None."""
+    for i, s in enumerate(seen):
+        if is_similar(tokens, s):
+            return i
+    return None

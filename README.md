@@ -82,7 +82,8 @@ In the repo: **Settings → Secrets and variables → Actions → New repository
 secret**, add:
 - `TELEGRAM_BOT_TOKEN`
 - `TELEGRAM_CHAT_ID` *(optional — see step 2)*
-- `ANTHROPIC_API_KEY` *(optional)* — enables the 3-bullet AI takeaways. Get one
+- `ANTHROPIC_API_KEY` *(optional)* — enables the 3-bullet AI takeaways **and
+  the semantic de-duplication pass**. Get one
   at [console.anthropic.com](https://console.anthropic.com). Without it the bot
   still works and shows the feed's own blurb instead of takeaways.
 
@@ -97,8 +98,18 @@ own schedule and runnable on demand:
   the channel **hourly**, top 5 of that hour. Own dedup state:
   `state/seen-channel.json`.
 
-Both filters skip exact repeats *and* **near-duplicate headlines** — the same
-story covered by a second outlet within 24h is shared only once.
+**De-duplication (less repeated news).** Each target skips exact repeats and
+near-duplicates of anything shared in the **last 24h**, in two passes:
+1. **Lexical** — word-overlap on headlines (always on, no API needed).
+2. **Semantic** — when `ANTHROPIC_API_KEY` is set, Claude groups stories that
+   report the *same event* but are worded too differently for word overlap to
+   catch (e.g. "US forces Anthropic to suspend Fable" vs "Anthropic cuts off
+   Fable access following government order"). Degrades gracefully to lexical if
+   the key/SDK is missing or the call fails.
+
+When a story is covered by several outlets, only the best-ranked one is sent,
+tagged with **“📰 Also covered by: …”** — so readers see at a glance which
+stories the whole industry is converging on.
 
 Because each target keeps **separate dedup state**, both deliver the *same* full
 digest without consuming each other's articles. Run either alone from
@@ -228,7 +239,7 @@ All optional, via environment variables (see [`.env.example`](.env.example)):
 | `TELEGRAM_CHANNEL_ID` | – | Optional channel to broadcast to (one send per post, unlimited members). |
 | `AINEWS_SUBSCRIBER_FILE` | `state/subscribers.json` | Subscriber list (people who `/start` the bot). |
 | `AINEWS_LAST_DIGEST_FILE` | `state/last_digest.json` | Cached last digest, replayed by `/latest`. |
-| `ANTHROPIC_API_KEY` | – | Enables AI takeaways. Optional — falls back to feed blurb. |
+| `ANTHROPIC_API_KEY` | – | Enables AI takeaways + semantic dedup. Optional — falls back to lexical/blurb. |
 | `AINEWS_SUMMARY_MODEL` | `claude-haiku-4-5` | Model for takeaways. Bump to `claude-sonnet-4-6` / `claude-opus-4-8` for richer bullets. |
 | `AINEWS_SUMMARIZE` | `1` | Set `0` to disable AI takeaways. |
 | `AINEWS_PHOTOS` | `1` | `1` = attach the article image to each post; `0` = text only. |

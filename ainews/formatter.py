@@ -98,6 +98,21 @@ def _meta_badges(article: Article) -> List[str]:
     return meta
 
 
+def _also_covered_by(article: Article, limit: int = 3) -> List[str]:
+    """Distinct other outlets that covered the same story (excludes the
+    primary source), capped — a signal of how widely a story is reported."""
+    out: List[str] = []
+    seen = {article.source.strip().lower()}
+    for src in article.also_in:
+        s = src.strip()
+        if s and s.lower() not in seen:
+            seen.add(s.lower())
+            out.append(s)
+        if len(out) >= limit:
+            break
+    return out
+
+
 def render_post(article: Article, max_len: int = MAX_MSG_LEN) -> str:
     """Render a single article as one rich HTML post.
 
@@ -129,6 +144,12 @@ def render_post(article: Article, max_len: int = MAX_MSG_LEN) -> str:
         # No AI takeaways — fall back to the feed blurb.
         lines.append("")
         lines.append(escape(article.summary))
+
+    others = _also_covered_by(article)
+    if others:
+        lines.append("")
+        lines.append("📰 <i>Also covered by: " + escape(", ".join(others))
+                     + "</i>")
 
     lines.append("")
     lines.append(f'<a href="{link}">Read more →</a>')
