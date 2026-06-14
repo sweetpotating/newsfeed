@@ -172,6 +172,7 @@
 "706cdf918a91c945": 1780373057.9135816,
 "70d090b85f52e90e": 1780745274.2853599,
 "7101246057acdf0a": 1781206327.5308895,
+"71b032661311b667": 1781437976.215148,
 "726967e94ff5f58c": 1780891575.1607192,
 "726f92325398983b": 1780199856.480818,
 "736b75cd56d60d72": 1781371079.1274276,
@@ -242,6 +243,7 @@
 "956c103d6b304eb5": 1781351550.1777933,
 "96b540e3b0c6f40a": 1781280870.8235996,
 "985bd82f724ee08e": 1780832953.3630493,
+"98f27eb8126278a1": 1781437976.215148,
 "98f80f6100527f47": 1781087485.3576343,
 "98fc7c9badbd21b2": 1781319145.85495,
 "99dcfb745d3c715a": 1781148346.4489517,
@@ -266,6 +268,7 @@
 "a4571c0bac78ec2a": 1781266498.4477718,
 "a4dddd31bd8a6d23": 1781093863.2189386,
 "a5248089087a3e88": 1781333738.1542149,
+"a5e0544e8a5801e8": 1781437970.822047,
 "a669f4f05995e40c": 1780927681.6548364,
 "a69990b153360435": 1781252411.0283294,
 "a76b8ab02b2d55ff": 1780460052.232712,
@@ -464,6 +467,7 @@
 "KPMG pulls report on AI usage due to apparent hallucinations": 1781384969.5357718,
 "Kimi and State-Owned Bank Launch World's First AI-Native Credit Card": 1781319145.8549566,
 "Like US models, Chinese AI is learning to \u2018game\u2019 safety tests, research lab says": 1781333738.1542208,
+"Mapping SQLite result columns back to their source `table.column`": 1781437976.2151525,
 "McDonald\u2019s Fired Its AI. Now It\u2019s Back With Google\u2019s.": 1781378274.1157691,
 "Meta Employees Absolutely Hate Mark Zuckerberg\u2019s Plan for a Companywide AI Hackathon": 1781371079.1274347,
 "Meta reportedly moves to unwind $2B Manus deal after Beijing\u2019s demand": 1781396139.061608,
@@ -475,6 +479,7 @@
 "Moonshot's open model Kimi K2.7 Code undercuts GPT-5.5 and Claude by up to 12x on price per token": 1781344497.9868886,
 "My yard is dying, so I made an app for that": 1781358513.0155497,
 "NVIDIA Denies Allegations of Restricted Chips Flowing Into China Through Latin America": 1781351550.177799,
+"Natural diamond firms turn to blockchain traceability amid lab-grown competition": 1781437976.2151525,
 "New AI model called \"Count Anything\" does exactly what it says, and that's harder than it sounds": 1781371079.1274347,
 "New OpenAI Academy courses for the next era of work": 1781299651.0485785,
 "OpenAI WebRTC Audio Session, now with document context": 1781319145.8549566,
@@ -502,5 +507,5 @@
 "olmo-eval: An evaluation workbench for the model development loop": 1781280870.8236086,
 "\u2018Tell Him He\u2019s a Piece of Shit\u2019: Meta\u2019s New AI Unit Is a Total Mess": 1781299651.0485785
 },
-"updated": 1781429149
+"updated": 1781437976
 }
