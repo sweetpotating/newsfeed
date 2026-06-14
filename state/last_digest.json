@@ -1,45 +1,45 @@
 {
-"generated": 1781405943,
+"generated": 1781437897,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/\">Google Research&#x27;s Gemini-SQL2 tops text-to-SQL benchmarks by a wide margin</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 🔵 Gemini · 14h ago</i>\n\n• Gemini-SQL2 achieves 80.04% accuracy on BIRD benchmark, outperforming OpenAI and Anthropic competitors.\n• Google built text-to-SQL system on Gemini 3.1 Pro to convert natural language into executable queries.\n• Technology could enhance natural language data features across Google&#x27;s products.\n\n<a href=\"https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/02/google_gemini_logo_wall.png"
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/\">AI coding agents find the right file but miss the exact lines that matter, study shows</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 2h ago</i>\n\n• AI coding agents successfully locate target files but fail to identify most critical lines within them.\n• SWE-Explore benchmark separates code search from repair, revealing context insufficiency as core limitation.\n• Even top models struggle without adequate surrounding code context to execute accurate fixes.\n\n<a href=\"https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/06/swe-explore-nano-banana-pro.jpg"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/\">OpenAI faces investigation from state attorneys general</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 10h ago</i>\n\n• Multiple state attorneys general are investigating OpenAI over unspecified practices.\n• Investigation covers ad policies and health data handling among other issues.\n• Specific states involved and detailed allegations remain unclear.\n\n<a href=\"https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/zhipu-ai-glm-5-dot-2-open-source-mit-jun2026\">Zhipu AI Open-Sources GLM-5.2 With 1 Million Token Context</a></b>\n<i>Pandaily (China) · 🟧 Claude · 🌏 Asia · 3h ago</i>\n\n• Zhipu AI releases GLM-5.2 under MIT license with 1 million token context window.\n• Release directly responds to US export restrictions targeting Anthropic and other AI models.\n• Open-source move challenges restricted Western AI models in global market.\n\n<a href=\"https://pandaily.com/zhipu-ai-glm-5-dot-2-open-source-mit-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_4_a48999fb35.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/kpmg-fabricated-ai-case-studies-in-a-report-designed-to-sell-clients-on-ai-adoption/\">KPMG fabricated AI case studies in a report designed to sell clients on AI adoption</a></b>\n<i>The Decoder · 2h ago</i>\n\n• KPMG published AI adoption report containing fabricated case studies from UBS, NHS, and others.\n• Report demonstrates risk of consulting firms spreading unverified AI claims to business clients.\n• GPTZero CEO warns of &quot;secondary hallucinations&quot; when trusted institutions amplify AI-generated misinformation.\n\n📰 <i>Also covered by: TechCrunch AI</i>\n\n<a href=\"https://the-decoder.com/kpmg-fabricated-ai-case-studies-in-a-report-designed-to-sell-clients-on-ai-adoption/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/06/kpmg_logo.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.scmp.com/business/article/3357053/hong-kong-commercial-landlords-may-bet-investment-curb-tenant-loss-ai-analysts?utm_source=rss_feed\">Hong Kong commercial landlords may bet on investment to curb tenant loss from AI: analysts</a></b>\n<i>SCMP – Tech · 🌏 Asia · 3h ago</i>\n\n• AI adoption by Hong Kong firms accelerates migration to newer office buildings with better infrastructure.\n• Older office assets face tenant loss pressure as companies upgrade to AI-compatible workspaces.\n• Commercial landlords face investment burden to retain tenants amid AI-driven workplace changes.\n\n<a href=\"https://www.scmp.com/business/article/3357053/hong-kong-commercial-landlords-may-bet-investment-curb-tenant-loss-ai-analysts?utm_source=rss_feed\">Read more →</a>",
+"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/14/5b0f6ec9-6d6e-4222-986d-ae48b2dffb72_e2756e10.jpg?itok=1-beTFJf&v=1781425365"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/didi-drops-chuxing-rebrand-app-8-dot-0-jun2026\">DiDi Rebrands: Drops &#x27;Chuxing&#x27; From App Name as Platform Strategy Expands</a></b>\n<i>Pandaily (China) · 🌏 Asia · 3h ago</i>\n\n• DiDi removes &#x27;Chuxing&#x27; from brand name and launches App 8.0 with four-pillar structure.\n• Platform integrates with WeChat&#x27;s AI ecosystem as part of broader strategy expansion.\n• Rebrand signals shift beyond ride-hailing into diversified service offerings.\n\n<a href=\"https://pandaily.com/didi-drops-chuxing-rebrand-app-8-dot-0-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_10_08291f24ab.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/ubtech-u1-humanoid-companion-robot-preorder-jun2026\">UBTECH&#x27;s U1 Humanoid Companion Robot Nears 4,000 Pre-Orders in 10 Days</a></b>\n<i>Pandaily (China) · 🌏 Asia · 3h ago</i>\n\n• UBTECH&#x27;s U1 humanoid robot achieves nearly 4,000 pre-orders within 10 days of launch.\n• Pre-orders accumulate over 10 million yuan in deposits, indicating strong consumer interest.\n• Full-size companion robot demonstrates commercial viability for humanoid market.\n\n<a href=\"https://pandaily.com/ubtech-u1-humanoid-companion-robot-preorder-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_6_4fab625083.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.scmp.com/tech/big-tech/article/3357008/chinas-ai-hundred-model-war-shifts-enterprise-value-jpmorgan-says?utm_source=rss_feed\">China’s AI ‘hundred model’ war shifts to enterprise value, JPMorgan says</a></b>\n<i>SCMP – Tech · 🌏 Asia · 7h ago</i>\n\n• Chinese AI companies shift competitive focus from technical specs to measurable business value delivery.\n• AI landscape consolidates as monetization becomes primary driver among &#x27;hundred models&#x27; competitors.\n• Enterprise value creation replaces raw performance as differentiator in China&#x27;s AI market.\n\n<a href=\"https://www.scmp.com/tech/big-tech/article/3357008/chinas-ai-hundred-model-war-shifts-enterprise-value-jpmorgan-says?utm_source=rss_feed\">Read more →</a>",
+"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/13/eed536ec-f6e9-4898-aeb9-a0df63944196_02dee48b.jpg?itok=J8mlwOY6&v=1781346871"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/\">Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand</a></b>\n<i>TechCrunch AI · 11h ago</i>\n\n• Meta begins unwinding its $2 billion Manus acquisition following Beijing&#x27;s reversal demand.\n• Chinese government order forces US tech company to dismantle major AI robotics investment.\n• Deal reversal reflects escalating US-China tech restrictions and deal scrutiny.\n\n<a href=\"https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/\">Microsoft&#x27;s SkillOpt boosts GPT-5.5 by using nothing but a trained Markdown file</a></b>\n<i>The Decoder · 🟢 ChatGPT · 14h ago</i>\n\n• Microsoft&#x27;s SkillOpt optimizes AI instructions via a trained Markdown file without model retraining.\n• Method boosts GPT-5.5 performance by approximately 23 points on procedural tasks.\n• Approach developed by Microsoft and three Chinese universities using training principles.\n\n<a href=\"https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/06/skillopt-markdown-neural-training-nano-banana-pro.jpg"
+"text": "🌐 AI Industry\n<b><a href=\"https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything\">Publishing WASM wheels to PyPI for use with Pyodide</a></b>\n<i>Simon Willison · 11h ago</i>\n\n• Pyodide 314.0 now enables publishing Python packages as WASM wheels directly to PyPI.\n• PEP 783 defines PyEmscripten platform standard for cross-platform Python WASM distribution.\n• Update simplifies browser-based Python deployment through official package repository.\n\n<a href=\"https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything\">Read more →</a>",
+"photo": "https://static.simonwillison.net/static/2026/luau-wasm.jpg"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing\">My yard is dying, so I made an app for that</a></b>\n<i>The Verge – AI · 🔵 Gemini · 13h ago</i>\n\n• User built a functional app using Gemini from a lengthy natural language prompt.\n• Generated app included bugs but provided automated fix mechanism within interface.\n• Demonstrates Gemini&#x27;s capability to create working software from conversational input.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268530_SUMMER_UPGRADE_WEEK_VIBECODING_BACKYARD_ADemidova.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/wechat-ai-agent-platform-vs-user-side-agent-jun2026\">WeChat Is Building an AI Agent Too — But Whose Interests Will It Really Serve?</a></b>\n<i>Pandaily (China) · 🌏 Asia · 48m ago</i>\n\n• Tencent is developing built-in AI Agent for WeChat platform.\n• Industry debates whether this represents innovation or defensive strategy for the platform.\n• Questions remain about prioritizing genuine user benefits versus platform interests.\n\n<a href=\"https://pandaily.com/wechat-ai-agent-platform-vs-user-side-agent-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/img_new2_f2a297e73a.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/aiva-ai-defined-vehicle-embodied-intelligence-jun2026\">AI Grew Four Wheels in 2026: How AIVA Is Redefining the Automobile as an Embodied Intelligence Entity</a></b>\n<i>Pandaily (China) · 🌏 Asia · 49m ago</i>\n\n• Chinese startup Saidou Technology launched AIVA, an AI-first vehicle brand.\n• AIVA prioritizes artificial intelligence before hardware in development approach.\n• Marks shift away from traditional hardware-centric automotive development models.\n\n<a href=\"https://pandaily.com/aiva-ai-defined-vehicle-embodied-intelligence-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/img_new1_7b958abe6b.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/glass-core-substrate-chip-packaging-commercialization-jun2026\">Glass Core Substrates Are Booming: How Far Are They From True Commercialization in Chip Packaging?</a></b>\n<i>Pandaily (China) · 🌏 Asia · 49m ago</i>\n\n• Glass core substrates are emerging in advanced semiconductor packaging technology.\n• Industry experts debate timeline for large-scale commercialization of the technology.\n• Technology adoption depends on overcoming manufacturing and cost challenges.\n\n<a href=\"https://pandaily.com/glass-core-substrate-chip-packaging-commercialization-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/img_article_13_4a9608e52f.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/changxin-memory-cxmt-supply-chain-winner-jun2026\">Critical Memory Material Supply Disrupted: ChangXin Memory Technologies Emerges as Unexpected Winner</a></b>\n<i>Pandaily (China) · 🌏 Asia · 49m ago</i>\n\n• Critical memory material supply disruptions are affecting semiconductor industry.\n• China&#x27;s ChangXin Memory Technologies benefits from shifting global supply chain.\n• CXMT position strengthens amid broader supply chain restructuring.\n\n<a href=\"https://pandaily.com/changxin-memory-cxmt-supply-chain-winner-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/img_article_6_65bddbc64b.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/huawei-harmonyos-7-launch-hdc-2026-ai-agent-jun2026\">Huawei Unveils HarmonyOS 7: AI Agents Reshape the OS as Xiaoyi Becomes the System&#x27;s Intelligent Core</a></b>\n<i>Pandaily (China) · 🌏 Asia · 49m ago</i>\n\n• Huawei launched HarmonyOS 7 with AI agent Xiaoyi as system core.\n• Xiaoyi integrates over 2,100 system capabilities and 2,000+ skills into OS.\n• Shift from app-centric design to intent-driven interaction model.\n\n<a href=\"https://pandaily.com/huawei-harmonyos-7-launch-hdc-2026-ai-agent-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/img_article_4_d1343e620c.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.scmp.com/business/commodities/article/3356999/natural-diamond-firms-turn-blockchain-traceability-amid-lab-grown-competition?utm_source=rss_feed\">Natural diamond firms turn to blockchain traceability amid lab-grown competition</a></b>\n<i>SCMP – Tech · 🌏 Asia · 1h ago</i>\n\n• Natural diamond industry launching blockchain traceability system amid lab-grown competition.\n• Traceability aims to build customer trust and establish diamond provenance.\n• Initiative expected to boost sales as traditional diamond pricing declines.\n\n<a href=\"https://www.scmp.com/business/commodities/article/3356999/natural-diamond-firms-turn-blockchain-traceability-amid-lab-grown-competition?utm_source=rss_feed\">Read more →</a>",
-"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/13/53c22c64-6347-4ee8-9729-61b7cd602828_6e453b69.jpg?itok=r9JucUle&v=1781339291"
+"text": "🌐 AI Industry\n<b><a href=\"https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything\">luau-wasm 0.1a0</a></b>\n<i>Simon Willison · 12h ago</i>\n\n• luau-wasm 0.1a0 release enables Lua programming language compilation to WebAssembly.\n• Package supports Pyodide compatibility following new WASM wheel publishing standards.\n• Early alpha release expands language support for browser-based runtime environments.\n\n<a href=\"https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything\">Read more →</a>",
+"photo": null
 }
 ]
 }
