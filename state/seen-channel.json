@@ -241,6 +241,7 @@
 "9369b012d27d9216": 1780832953.3630493,
 "93adf2b6baaadefb": 1781378274.1157644,
 "944dd86b3cacec94": 1780140095.4417198,
+"94881161d279dfdd": 1781464698.4625516,
 "94beef44b7dce6c2": 1781344497.9868844,
 "9566de173812bfa3": 1780577130.4690835,
 "956c103d6b304eb5": 1781351550.1777933,
@@ -441,12 +442,11 @@
 "Anthropic Vertical Software Rollout Threatens Enterprise AI Builders": 1781299651.0485785,
 "Anthropic cuts off Fable 5 and Mythos 5 access following government order": 1781358513.0155497,
 "Anthropic shuts down Fable, Mythos models following Trump admin directive": 1781333738.1542208,
-"Anthropic's Claude Fable 5 costs twice as much for 5.7 percent more performance": 1781290877.8108664,
 "Anthropic\u2019s safety warnings may have just backfired \u2014 the government has pulled the plug on its most powerful AI": 1781319145.8549566,
 "Apple\u2019s new AI photo editing tools mostly work, for better and worse": 1781364600.770675,
 "As AI companies race to go public, who else is along for the ride?": 1781457318.76053,
-"ChatGPT Reaches 1 Billion Users as the AI Economy Takes Shape": 1781290877.8108664,
 "China Didn\u2019t Make Americans Hate Data Centers": 1781299651.0485785,
+"China may have accessed Mythos": 1781464698.4625542,
 "China\u2019s AI \u2018hundred model\u2019 war shifts to enterprise value, JPMorgan says": 1781414880.5693886,
 "Chinese cybercrime operation that used AI to scam \u2018hundreds of thousands of victims\u2019 sued by Google": 1781378274.1157691,
 "Claude Fable 5 outpaces GPT-5.5 by 13 points on FrontierMath's toughest problems": 1781351550.177799,
@@ -485,14 +485,11 @@
 "New OpenAI Academy courses for the next era of work": 1781299651.0485785,
 "OpenAI WebRTC Audio Session, now with document context": 1781319145.8549566,
 "OpenAI faces investigation from state attorneys general": 1781371079.1274347,
-"OpenAI kicks off the AI price wars with flexible rate-limit resets for its Codex coding agent": 1781290877.8108664,
 "Out of the shadows: Huawei\u2019s \u2018chip queen\u2019 steps back into the spotlight with scaling law": 1781319145.8549566,
-"Over half of Americans fear losing both their jobs and their independent thinking to AI, survey finds": 1781290877.8108664,
 "Prime Day Is Now a Weather System": 1781344497.9868886,
 "Publishing WASM wheels to PyPI for use with Pyodide": 1781396139.061608,
 "SpaceX IPO: Live updates on everything you need to know": 1781378274.1157691,
 "SpaceX is now a public company valued for its AI potential, so what comes next?": 1781378274.1157691,
-"SpaceX, Anthropic, and OpenAI\u2019s hot IPO summer": 1781290877.8108664,
 "Statement on the US government directive to suspend access to Fable 5 and Mythos 5": 1781364600.770675,
 "Target Uses NBCUniversal\u2019s Shoppable TV to Pitch Summer Products": 1781371079.1274347,
 "The future of Hollywood isn\u2019t feeding prompts into vanilla gen AI models": 1781364600.770675,
@@ -505,5 +502,5 @@
 "luau-wasm 0.1a0": 1781396139.061608,
 "\u2018Tell Him He\u2019s a Piece of Shit\u2019: Meta\u2019s New AI Unit Is a Total Mess": 1781299651.0485785
 },
-"updated": 1781457318
+"updated": 1781464698
 }
