@@ -1,45 +1,45 @@
 {
-"generated": 1781437897,
+"generated": 1781494378,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/\">AI coding agents find the right file but miss the exact lines that matter, study shows</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 2h ago</i>\n\n• AI coding agents successfully locate target files but fail to identify most critical lines within them.\n• SWE-Explore benchmark separates code search from repair, revealing context insufficiency as core limitation.\n• Even top models struggle without adequate surrounding code context to execute accurate fixes.\n\n<a href=\"https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/06/swe-explore-nano-banana-pro.jpg"
+"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-suspends-mythos-access-following-government-security-concerns/\">Anthropic Suspends Mythos Access Following Government Security Concerns</a></b>\n<i>PYMNTS · 🟧 Claude · 4h ago</i>\n\n• Anthropic disabled access to Fable 5 and Mythos 5 models after U.S. government export control directive citing national security.\n• Move follows government directive with unspecified security rationale affecting model availability.\n• Restriction impacts international access to Anthropic&#x27;s AI models.\n\n📰 <i>Also covered by: The Verge – AI</i>\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-suspends-mythos-access-following-government-security-concerns/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/04/Anthropic-Claude-Mythos-banks.jpg?w=457"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/zhipu-ai-glm-5-dot-2-open-source-mit-jun2026\">Zhipu AI Open-Sources GLM-5.2 With 1 Million Token Context</a></b>\n<i>Pandaily (China) · 🟧 Claude · 🌏 Asia · 3h ago</i>\n\n• Zhipu AI releases GLM-5.2 under MIT license with 1 million token context window.\n• Release directly responds to US export restrictions targeting Anthropic and other AI models.\n• Open-source move challenges restricted Western AI models in global market.\n\n<a href=\"https://pandaily.com/zhipu-ai-glm-5-dot-2-open-source-mit-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/article_4_a48999fb35.png"
+"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openais-impact-on-users-facing-state-ag-scrutiny/\">OpenAI’s Impact on Users Facing State AG Scrutiny</a></b>\n<i>PYMNTS · 🟢 ChatGPT · 5h ago</i>\n\n• State attorneys general subpoenaed OpenAI on June 12 to investigate its activities and user impact.\n• Multi-state investigation seeks information on OpenAI&#x27;s operational and user-facing practices.\n• Regulatory scrutiny targets major AI startup&#x27;s business practices and effects on users.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openais-impact-on-users-facing-state-ag-scrutiny/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/OpenAI-investigation-1.jpg?w=457"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/kpmg-fabricated-ai-case-studies-in-a-report-designed-to-sell-clients-on-ai-adoption/\">KPMG fabricated AI case studies in a report designed to sell clients on AI adoption</a></b>\n<i>The Decoder · 2h ago</i>\n\n• KPMG published AI adoption report containing fabricated case studies from UBS, NHS, and others.\n• Report demonstrates risk of consulting firms spreading unverified AI claims to business clients.\n• GPTZero CEO warns of &quot;secondary hallucinations&quot; when trusted institutions amplify AI-generated misinformation.\n\n📰 <i>Also covered by: TechCrunch AI</i>\n\n<a href=\"https://the-decoder.com/kpmg-fabricated-ai-case-studies-in-a-report-designed-to-sell-clients-on-ai-adoption/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/06/kpmg_logo.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.scmp.com/business/article/3357053/hong-kong-commercial-landlords-may-bet-investment-curb-tenant-loss-ai-analysts?utm_source=rss_feed\">Hong Kong commercial landlords may bet on investment to curb tenant loss from AI: analysts</a></b>\n<i>SCMP – Tech · 🌏 Asia · 3h ago</i>\n\n• AI adoption by Hong Kong firms accelerates migration to newer office buildings with better infrastructure.\n• Older office assets face tenant loss pressure as companies upgrade to AI-compatible workspaces.\n• Commercial landlords face investment burden to retain tenants amid AI-driven workplace changes.\n\n<a href=\"https://www.scmp.com/business/article/3357053/hong-kong-commercial-landlords-may-bet-investment-curb-tenant-loss-ai-analysts?utm_source=rss_feed\">Read more →</a>",
-"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/14/5b0f6ec9-6d6e-4222-986d-ae48b2dffb72_e2756e10.jpg?itok=1-beTFJf&v=1781425365"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/didi-drops-chuxing-rebrand-app-8-dot-0-jun2026\">DiDi Rebrands: Drops &#x27;Chuxing&#x27; From App Name as Platform Strategy Expands</a></b>\n<i>Pandaily (China) · 🌏 Asia · 3h ago</i>\n\n• DiDi removes &#x27;Chuxing&#x27; from brand name and launches App 8.0 with four-pillar structure.\n• Platform integrates with WeChat&#x27;s AI ecosystem as part of broader strategy expansion.\n• Rebrand signals shift beyond ride-hailing into diversified service offerings.\n\n<a href=\"https://pandaily.com/didi-drops-chuxing-rebrand-app-8-dot-0-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/article_10_08291f24ab.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/ubtech-u1-humanoid-companion-robot-preorder-jun2026\">UBTECH&#x27;s U1 Humanoid Companion Robot Nears 4,000 Pre-Orders in 10 Days</a></b>\n<i>Pandaily (China) · 🌏 Asia · 3h ago</i>\n\n• UBTECH&#x27;s U1 humanoid robot achieves nearly 4,000 pre-orders within 10 days of launch.\n• Pre-orders accumulate over 10 million yuan in deposits, indicating strong consumer interest.\n• Full-size companion robot demonstrates commercial viability for humanoid market.\n\n<a href=\"https://pandaily.com/ubtech-u1-humanoid-companion-robot-preorder-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/article_6_4fab625083.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.scmp.com/tech/big-tech/article/3357008/chinas-ai-hundred-model-war-shifts-enterprise-value-jpmorgan-says?utm_source=rss_feed\">China’s AI ‘hundred model’ war shifts to enterprise value, JPMorgan says</a></b>\n<i>SCMP – Tech · 🌏 Asia · 7h ago</i>\n\n• Chinese AI companies shift competitive focus from technical specs to measurable business value delivery.\n• AI landscape consolidates as monetization becomes primary driver among &#x27;hundred models&#x27; competitors.\n• Enterprise value creation replaces raw performance as differentiator in China&#x27;s AI market.\n\n<a href=\"https://www.scmp.com/tech/big-tech/article/3357008/chinas-ai-hundred-model-war-shifts-enterprise-value-jpmorgan-says?utm_source=rss_feed\">Read more →</a>",
-"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/13/eed536ec-f6e9-4898-aeb9-a0df63944196_02dee48b.jpg?itok=J8mlwOY6&v=1781346871"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/\">Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand</a></b>\n<i>TechCrunch AI · 11h ago</i>\n\n• Meta begins unwinding its $2 billion Manus acquisition following Beijing&#x27;s reversal demand.\n• Chinese government order forces US tech company to dismantle major AI robotics investment.\n• Deal reversal reflects escalating US-China tech restrictions and deal scrutiny.\n\n<a href=\"https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/introducing-openai-partner-network\">Introducing the OpenAI Partner Network</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 10h ago</i>\n\n• OpenAI launched Partner Network with $150M investment to accelerate enterprise AI adoption.\n• Program targets deployment and transformation through global partner ecosystem.\n• Initiative focuses on enterprise-level AI implementation and adoption scaling.\n\n<a href=\"https://openai.com/index/introducing-openai-partner-network\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything\">Publishing WASM wheels to PyPI for use with Pyodide</a></b>\n<i>Simon Willison · 11h ago</i>\n\n• Pyodide 314.0 now enables publishing Python packages as WASM wheels directly to PyPI.\n• PEP 783 defines PyEmscripten platform standard for cross-platform Python WASM distribution.\n• Update simplifies browser-based Python deployment through official package repository.\n\n<a href=\"https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything\">Read more →</a>",
-"photo": "https://static.simonwillison.net/static/2026/luau-wasm.jpg"
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/deepseek-v4-huawei-ascend-950dt-co-designed-chip-jun2026\">DeepSeek V4 and Huawei Ascend 950DT: The Co-Designed Chip That Cut AI Inference Costs by 75%</a></b>\n<i>Pandaily (China) · 🐳 DeepSeek · 🌏 Asia · 45m ago</i>\n\n• DeepSeek V4 and Huawei Ascend 950DT co-designed chip cuts AI inference costs by 75%.\n• Collaboration between Chinese companies produces significant cost reduction in AI computing.\n• Breakthrough demonstrates cost efficiency gains in AI accelerator hardware.\n\n<a href=\"https://pandaily.com/deepseek-v4-huawei-ascend-950dt-co-designed-chip-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_1_2d1acf2a08.png"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything\">luau-wasm 0.1a0</a></b>\n<i>Simon Willison · 12h ago</i>\n\n• luau-wasm 0.1a0 release enables Lua programming language compilation to WebAssembly.\n• Package supports Pyodide compatibility following new WASM wheel publishing standards.\n• Early alpha release expands language support for browser-based runtime environments.\n\n<a href=\"https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything\">Read more →</a>",
-"photo": null
+"text": "🌐 AI Industry\n<b><a href=\"https://technode.com/2026/06/15/baidus-apollo-go-begins-swiss-road-tests-with-postbus-autonomous-service/\">Baidu’s Apollo Go begins Swiss road tests With PostBus autonomous service</a></b>\n<i>TechNode (China) · 🌏 Asia · 12m ago</i>\n\n• Baidu&#x27;s Apollo Go autonomous service began road testing in Switzerland with PostBus.\n• Driverless service AmiGo targets commercial operations by 2027 in Swiss market.\n• Partnership marks expansion of Chinese autonomous driving technology into European market.\n\n<a href=\"https://technode.com/2026/06/15/baidus-apollo-go-begins-swiss-road-tests-with-postbus-autonomous-service/\">Read more →</a>",
+"photo": "https://i0.wp.com/technode.com/wp-content/uploads/2026/06/Apollo-go-Switzerland.png?fit=1024%2C645&amp;ssl=1"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/harmonyos-agent-os-hdc-2026-xiaoyi-celina-jun2026\">HDC 2026: HarmonyOS Transforms Into an Agent-First Operating System</a></b>\n<i>Pandaily (China) · 🌏 Asia · 45m ago</i>\n\n• Huawei restructured HarmonyOS into agent-first architecture at HDC 2026.\n• Operating system shift represents major transformation since HarmonyOS inception.\n• Redesign prioritizes AI agents as core OS functionality.\n\n<a href=\"https://pandaily.com/harmonyos-agent-os-hdc-2026-xiaoyi-celina-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_5_c2f829fa6c.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/dji-insta360-luna-ultra-patent-war-jun2026\">Total War: DJI and Insta360 Battle on Products, Patents, and Two Continents</a></b>\n<i>Pandaily (China) · 🌏 Asia · 45m ago</i>\n\n• DJI and Insta360 engaged in escalating conflict over products, patents, and operations.\n• Chinese camera hardware companies competing across product launches and patent disputes.\n• Rivalry extends across two continents with simultaneous competitive fronts.\n\n<a href=\"https://pandaily.com/dji-insta360-luna-ultra-patent-war-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_4_8d3a801456.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/china-optical-chip-golden-window-high-end-jun2026\">China Optical Chip Industry Faces a Golden Window for High-End Upgrades</a></b>\n<i>Pandaily (China) · 🌏 Asia · 45m ago</i>\n\n• China&#x27;s optical chip industry approaching critical window for high-end manufacturing breakthroughs.\n• Industry executives identify current period as optimal timing for advancing capabilities.\n• Market demand driving opportunity for domestic high-end chip production.\n\n<a href=\"https://pandaily.com/china-optical-chip-golden-window-high-end-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_3_e95068663a.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/alibaba-tencent-baidu-gaokao-ai-agent-battle-jun2026\">Alibaba, Tencent, and Baidu Turn Gaokao Guidance Into an AI Agent Battleground</a></b>\n<i>Pandaily (China) · 🌏 Asia · 45m ago</i>\n\n• Alibaba, Tencent, and Baidu competing with AI agents for Gaokao guidance services.\n• Three tech giants converged on college application guidance market using AI.\n• Competition targets Chinese high school students&#x27; university entrance exam guidance.\n\n<a href=\"https://pandaily.com/alibaba-tencent-baidu-gaokao-ai-agent-battle-jun2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_2_3b9783589a.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://technode.com/2026/06/15/ant-group-said-to-be-preparing-ai-version-of-alipay-for-public-launch/\">Ant Group said to be preparing AI version of Alipay for public launch</a></b>\n<i>TechNode (China) · 🌏 Asia · 1h ago</i>\n\n• Ant Group testing AI-powered Alipay version for public launch with redesigned interface.\n• New version enables native AI interface with intelligent features replacing original interaction model.\n• Upgrade transforms payment app into AI-first platform with enhanced capabilities.\n\n<a href=\"https://technode.com/2026/06/15/ant-group-said-to-be-preparing-ai-version-of-alipay-for-public-launch/\">Read more →</a>",
+"photo": "https://i0.wp.com/technode.com/wp-content/uploads/2018/09/alipay-logo-cover.jpg?fit=1024%2C589&amp;ssl=1"
 }
 ]
 }
