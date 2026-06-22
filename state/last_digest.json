@@ -1,45 +1,45 @@
 {
-"generated": 1782099238,
+"generated": 1782141494,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/samsung-electronics-chatgpt-codex-deployment\">Samsung Electronics brings ChatGPT and Codex to employees</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 4h ago</i>\n\n• Samsung Electronics deployed ChatGPT Enterprise and Codex to employees globally in one of OpenAI&#x27;s largest enterprise rollouts.\n• The rollout marks major corporate adoption of OpenAI&#x27;s AI tools for internal business use.\n• Samsung is among the first large tech companies to deploy both ChatGPT and Codex at enterprise scale.\n\n<a href=\"https://openai.com/index/samsung-electronics-chatgpt-codex-deployment\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/\">How Anthropic may have talked itself into an AI export ban</a></b>\n<i>Ars Technica – AI · 🟧 Claude · 🟢 ChatGPT · 1h ago</i>\n\n• Anthropic&#x27;s public warnings about AI dangers may have influenced U.S. export restrictions on its models.\n• The company emphasized risks more than OpenAI, potentially affecting regulatory treatment.\n• Stricter messaging on AI safety can have unintended consequences for business access.\n\n<a href=\"https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/\">Read more →</a>",
+"photo": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/lock-anthropic-1152x648.jpg"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.scmp.com/tech/article/3357926/china-ai-ready-match-anthropics-fable-5-musk-zhipus-tang-clash-over-glm-52-rise?utm_source=rss_feed\">Is China AI ready to match Anthropic’s Fable 5? Musk, Zhipu’s Tang clash over GLM-5.2 rise</a></b>\n<i>SCMP – Tech · 🟧 Claude · 🌏 Asia · 3h ago</i>\n\n• Chinese startup Zhipu AI claims its GLM-5.2 model could match Anthropic&#x27;s Claude by year-end.\n• Founder disputes Elon Musk&#x27;s assessment of the model&#x27;s capabilities.\n• Competition in frontier AI models is accelerating globally.\n\n<a href=\"https://www.scmp.com/tech/article/3357926/china-ai-ready-match-anthropics-fable-5-musk-zhipus-tang-clash-over-glm-52-rise?utm_source=rss_feed\">Read more →</a>",
+"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/22/5e4555aa-a85b-480e-88f7-13397906f522_ded06094.jpg?itok=YC7xPtEj&v=1782120080"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/\">Getty Images strikes multi-year deal to put licensed photos in ChatGPT search</a></b>\n<i>The Decoder · 🟢 ChatGPT · 2m ago</i>\n\n• OpenAI and Getty Images signed a multi-year licensing deal for photo content in ChatGPT search.\n• Getty Images gains compensation for its licensed image library use.\n• Content licensing agreements are becoming standard for AI training partnerships.\n\n<a href=\"https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/06/openai_glitchy_blip.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/google-deepmind-and-a24-team-up-on-ai-filmmaking-research/\">Google Deepmind and A24 team up on AI filmmaking research</a></b>\n<i>The Decoder · 🔵 Gemini · 14m ago</i>\n\n• Google Deepmind and film studio A24 launched a long-term AI filmmaking research partnership.\n• Google is investing approximately $75 million in A24.\n• AI capabilities are expanding into professional film production and creative workflows.\n\n<a href=\"https://the-decoder.com/google-deepmind-and-a24-team-up-on-ai-filmmaking-research/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2025/05/gogole_veo3_example-e1748160731935.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/\">Sakana AI&#x27;s Fugu orchestrates multiple LLMs to match Anthropic&#x27;s Fable and Mythos benchmarks</a></b>\n<i>The Decoder · 🟧 Claude · 6h ago</i>\n\n• Sakana AI released Fugu, which coordinates multiple AI models to compete with top performers.\n• The system aims to reduce dependence on single AI providers.\n• Orchestration approaches offer alternatives to building monolithic frontier models.\n\n<a href=\"https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/\">Read more →</a>",
+"photo": "http://the-decoder.com/wp-content/uploads/2026/06/sakana_fugu_demo_cube.mp4"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/domestic-ai-fallback-claude-block-20260622\">Claude Fable 5 Blocked for Non-US Users: Why Domestic AI Is the Only Safe Bet for China</a></b>\n<i>Pandaily (China) · 🟧 Claude · 🌏 Asia · 7h ago</i>\n\n• U.S. government blocked non-US access to Anthropic&#x27;s Claude model via executive action.\n• Export controls signal escalating AI competition and strategic AI nationalism.\n• China is emphasizing domestic AI development as a response to restrictions.\n\n<a href=\"https://pandaily.com/domestic-ai-fallback-claude-block-20260622\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article2_img_249c2c7b50.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://huggingface.co/blog/PaddlePaddle/pp-ocrv6\">PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters</a></b>\n<i>Hugging Face Blog · 📣 Official · 1h ago</i>\n\n• Baidu released PP-OCRv6, an optical character recognition model supporting 50 languages.\n• Model sizes range from 1.5M to 34.5M parameters for different use cases.\n• Open-source OCR models are becoming more capable and multilingual.\n\n<a href=\"https://huggingface.co/blog/PaddlePaddle/pp-ocrv6\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/googles-nobel-winning-ai-expert-departing-for-anthropic/\">Google’s Nobel-Winning AI Expert Departing for Anthropic</a></b>\n<i>PYMNTS · 🟧 Claude · 🔵 Gemini · 4h ago</i>\n\n• John Jumper, Nobel Prize-winning AI scientist, left Google DeepMind after 9 years to join Anthropic.\n• Jumper&#x27;s move signals confidence in Anthropic as a competitive AI research organization.\n• The departure represents a significant talent shift from Google to a rival AI safety-focused company.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/googles-nobel-winning-ai-expert-departing-for-anthropic/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/Nobel-Deepmind-Anthropic-2.jpg?w=457"
+"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/dun-bradstreet-adds-agentic-ai-to-compliance-workflows/\">Dun &amp; Bradstreet Adds Agentic AI to Compliance Workflows</a></b>\n<i>PYMNTS · 9m ago</i>\n\n• Dun &amp; Bradstreet deployed agentic AI for compliance workflow automation.\n• Company claims 70-90% reduction in processing times for compliance tasks.\n• Agentic AI is being applied to enterprise risk and compliance operations.\n\n📰 <i>Also covered by: Finextra</i>\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/dun-bradstreet-adds-agentic-ai-to-compliance-workflows/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/Dun-Bradstreet-agentic-AI.jpeg?w=457"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/white-house-says-anthropic-no-longer-security-threat/\">White House Says Anthropic No Longer Security Threat</a></b>\n<i>PYMNTS · 🟧 Claude · 6h ago</i>\n\n• Trump administration no longer considers Anthropic a national security threat.\n• The White House previously ordered Anthropic to seek approval for foreign individual and company access.\n• Anthropic&#x27;s status shift suggests normalized regulatory stance toward the AI startup.\n\n📰 <i>Also covered by: TechCrunch AI</i>\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/white-house-says-anthropic-no-longer-security-threat/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/Anthropic-Trump-1.jpg?w=457"
+"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-ops-in-months/\">Five Eyes intelligence alliance says frontier AI models could reshape offensive cyber ops in months</a></b>\n<i>The Decoder · 42m ago</i>\n\n• Five Eyes intelligence agencies warn frontier AI models could transform offensive cyber operations within months.\n• Intelligence communities view advanced AI as an imminent threat to national security.\n• Governments are escalating concerns about AI capabilities for cyberwarfare.\n\n<a href=\"https://the-decoder.com/five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-ops-in-months/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/06/fable_5_logo-scaled.webp"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/microsoft-deepseek-token-cost-ai-jun2026\">Microsoft Can&#x27;t Afford Unlimited Token Either — Enter DeepSeek</a></b>\n<i>Pandaily (China) · 🐳 DeepSeek · 🌏 Asia · 52m ago</i>\n\n• Microsoft&#x27;s Copilot Cowork shifted to usage-based pricing due to rising token costs.\n• Microsoft is adopting DeepSeek V4, an open-source alternative, to reduce AI inference expenses.\n• Major cloud providers face profitability challenges with unlimited token-based AI services.\n\n<a href=\"https://pandaily.com/microsoft-deepseek-token-cost-ai-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/deepseek_1861a42ff0.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/beijing-ai-surgery-ecosystem-jun2026\">One Surgery and Beijing&#x27;s AI Ambition: From Lab to Technological Singularity</a></b>\n<i>Pandaily (China) · 🌏 Asia · 49m ago</i>\n\n• Beijing aims to establish itself as the world&#x27;s AI capital through robotics and embodied AI.\n• China targets a trillion-yuan AI industry through integrated applications like robotic surgery.\n• Beijing&#x27;s AI ecosystem strategy emphasizes practical deployment across multiple technology domains.\n\n<a href=\"https://pandaily.com/beijing-ai-surgery-ecosystem-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/beijing_ai_surgery_3d00e76395.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/bytedance-seed-spatialtree-cvpr2026-jun2026\">CVPR 2026 Accepts ByteDance Seed&#x27;s SpatialTree: A New Framework for MLLM Spatial Intelligence</a></b>\n<i>Pandaily (China) · 🌏 Asia · 49m ago</i>\n\n• ByteDance Seed&#x27;s SpatialTree framework was accepted to CVPR 2026, a top computer vision conference.\n• SpatialTree improves how multimodal large language models understand spatial reasoning.\n• The research represents Chinese AI advances in a core foundation model capability.\n\n<a href=\"https://pandaily.com/bytedance-seed-spatialtree-cvpr2026-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/bytedance_spatialtree_fa21958f07.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/zhongxing-10-satellite-15-years-jun2026\">China&#x27;s Zhongxing-10 Satellite Surpasses 15 Years in Orbit, Outliving Design Life</a></b>\n<i>Pandaily (China) · 🌏 Asia · 49m ago</i>\n\n• China&#x27;s Zhongxing-10 satellite has operated 15+ years, exceeding its design lifespan.\n• The DFH-4 platform demonstrates reliability for Chinese space-based communications infrastructure.\n• Extended operational life reduces costs and extends satellite network capacity.\n\n<a href=\"https://pandaily.com/zhongxing-10-satellite-15-years-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/zhongxing_satellite_6cf38f1ecf.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/boruikang-bci-ipo-china-jun2026\">Boruikang Files for IPO as China&#x27;s First Brain-Computer Interface Public Company</a></b>\n<i>Pandaily (China) · 🌏 Asia · 49m ago</i>\n\n• Boruikang filed for IPO on China&#x27;s STAR Market as the first public brain-computer interface company.\n• The company developed the world&#x27;s first approved invasive BCI medical device.\n• IPO funds will support R&amp;D and commercialization of invasive neural interface technology.\n\n<a href=\"https://pandaily.com/boruikang-bci-ipo-china-jun2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/boruikang_bci_2ef3ca9b7b.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.scmp.com/tech/article/3357858/zhipu-ai-market-cap-tops-hk1-trillion-shares-glm-52-developer-soar?utm_source=rss_feed\">Zhipu AI market cap tops HK$1 trillion as shares of GLM-5.2 developer soar</a></b>\n<i>SCMP – Tech · 🌏 Asia · 1h ago</i>\n\n• Zhipu AI&#x27;s Hong Kong market cap exceeded HK$1 trillion (US$128 billion) on Monday.\n• The AI company develops GLM-5.2 model and competes directly with American AI firms.\n• Market valuation surge reflects investor confidence in China&#x27;s indigenous AI capabilities.\n\n<a href=\"https://www.scmp.com/tech/article/3357858/zhipu-ai-market-cap-tops-hk1-trillion-shares-glm-52-developer-soar?utm_source=rss_feed\">Read more →</a>",
-"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/22/d367f324-b3df-4cde-bad6-7085e8290929_bd9a8a60.jpg?itok=wpEOxyGA&v=1782095518"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://technode.com/2026/06/22/bytedance-owned-picos-project-swan-leak-reveals-vision-pro-like-design-and-external-module/\">ByteDance-owned Pico’s Project Swan leak reveals Vision Pro-like design and external module</a></b>\n<i>TechNode (China) · 🌏 Asia · 1h ago</i>\n\n• ByteDance-owned Pico leaked Project Swan, a next-generation mixed-reality headset design.\n• The headset features a rear head strap design similar to Apple&#x27;s Vision Pro.\n• The leak reveals ByteDance&#x27;s competitive push in spatial computing hardware against Apple.\n\n<a href=\"https://technode.com/2026/06/22/bytedance-owned-picos-project-swan-leak-reveals-vision-pro-like-design-and-external-module/\">Read more →</a>",
-"photo": "https://i0.wp.com/technode.com/wp-content/uploads/2025/10/bytedance-0-cb0d883e8d2c1c45bafb93eb7cd64468.png?fit=1024%2C683&amp;ssl=1"
+"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/cryptocurrency/2026/andrew-cuomo-chairing-okx-intercontinental-exchange-blockchain-project/\">Andrew Cuomo Chairing OKX-Intercontinental Exchange Blockchain Project</a></b>\n<i>PYMNTS · 1h ago</i>\n\n• OKX and Intercontinental Exchange launched a regulated U.S. broker-dealer joint venture.\n• The venture allows OKX to serve American and international clients through regulated channels.\n• Cryptocurrency exchange is establishing traditional financial infrastructure partnerships.\n\n<a href=\"https://www.pymnts.com/cryptocurrency/2026/andrew-cuomo-chairing-okx-intercontinental-exchange-blockchain-project/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2024/09/OKX.jpg?w=457"
 }
 ]
 }
