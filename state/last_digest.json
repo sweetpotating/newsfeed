@@ -1,45 +1,45 @@
 {
-"generated": 1782141494,
+"generated": 1782182407,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/\">How Anthropic may have talked itself into an AI export ban</a></b>\n<i>Ars Technica – AI · 🟧 Claude · 🟢 ChatGPT · 1h ago</i>\n\n• Anthropic&#x27;s public warnings about AI dangers may have influenced U.S. export restrictions on its models.\n• The company emphasized risks more than OpenAI, potentially affecting regulatory treatment.\n• Stricter messaging on AI safety can have unintended consequences for business access.\n\n<a href=\"https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/\">Read more →</a>",
-"photo": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/lock-anthropic-1152x648.jpg"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.scmp.com/tech/article/3357926/china-ai-ready-match-anthropics-fable-5-musk-zhipus-tang-clash-over-glm-52-rise?utm_source=rss_feed\">Is China AI ready to match Anthropic’s Fable 5? Musk, Zhipu’s Tang clash over GLM-5.2 rise</a></b>\n<i>SCMP – Tech · 🟧 Claude · 🌏 Asia · 3h ago</i>\n\n• Chinese startup Zhipu AI claims its GLM-5.2 model could match Anthropic&#x27;s Claude by year-end.\n• Founder disputes Elon Musk&#x27;s assessment of the model&#x27;s capabilities.\n• Competition in frontier AI models is accelerating globally.\n\n<a href=\"https://www.scmp.com/tech/article/3357926/china-ai-ready-match-anthropics-fable-5-musk-zhipus-tang-clash-over-glm-52-rise?utm_source=rss_feed\">Read more →</a>",
-"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/22/5e4555aa-a85b-480e-88f7-13397906f522_ded06094.jpg?itok=YC7xPtEj&v=1782120080"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/\">Getty Images strikes multi-year deal to put licensed photos in ChatGPT search</a></b>\n<i>The Decoder · 🟢 ChatGPT · 2m ago</i>\n\n• OpenAI and Getty Images signed a multi-year licensing deal for photo content in ChatGPT search.\n• Getty Images gains compensation for its licensed image library use.\n• Content licensing agreements are becoming standard for AI training partnerships.\n\n<a href=\"https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/06/openai_glitchy_blip.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/google-deepmind-and-a24-team-up-on-ai-filmmaking-research/\">Google Deepmind and A24 team up on AI filmmaking research</a></b>\n<i>The Decoder · 🔵 Gemini · 14m ago</i>\n\n• Google Deepmind and film studio A24 launched a long-term AI filmmaking research partnership.\n• Google is investing approximately $75 million in A24.\n• AI capabilities are expanding into professional film production and creative workflows.\n\n<a href=\"https://the-decoder.com/google-deepmind-and-a24-team-up-on-ai-filmmaking-research/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2025/05/gogole_veo3_example-e1748160731935.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/\">Sakana AI&#x27;s Fugu orchestrates multiple LLMs to match Anthropic&#x27;s Fable and Mythos benchmarks</a></b>\n<i>The Decoder · 🟧 Claude · 6h ago</i>\n\n• Sakana AI released Fugu, which coordinates multiple AI models to compete with top performers.\n• The system aims to reduce dependence on single AI providers.\n• Orchestration approaches offer alternatives to building monolithic frontier models.\n\n<a href=\"https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/\">Read more →</a>",
-"photo": "http://the-decoder.com/wp-content/uploads/2026/06/sakana_fugu_demo_cube.mp4"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/domestic-ai-fallback-claude-block-20260622\">Claude Fable 5 Blocked for Non-US Users: Why Domestic AI Is the Only Safe Bet for China</a></b>\n<i>Pandaily (China) · 🟧 Claude · 🌏 Asia · 7h ago</i>\n\n• U.S. government blocked non-US access to Anthropic&#x27;s Claude model via executive action.\n• Export controls signal escalating AI competition and strategic AI nationalism.\n• China is emphasizing domestic AI development as a response to restrictions.\n\n<a href=\"https://pandaily.com/domestic-ai-fallback-claude-block-20260622\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/article2_img_249c2c7b50.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://huggingface.co/blog/PaddlePaddle/pp-ocrv6\">PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters</a></b>\n<i>Hugging Face Blog · 📣 Official · 1h ago</i>\n\n• Baidu released PP-OCRv6, an optical character recognition model supporting 50 languages.\n• Model sizes range from 1.5M to 34.5M parameters for different use cases.\n• Open-source OCR models are becoming more capable and multilingual.\n\n<a href=\"https://huggingface.co/blog/PaddlePaddle/pp-ocrv6\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything\">Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code</a></b>\n<i>Simon Willison · 🟧 Claude · 2h ago</i>\n\n• Moebius 0.2B image inpainting model has been ported to run directly in web browsers using Claude Code.\n• The lightweight model achieves performance comparable to 10B-parameter models while maintaining small size.\n• Image inpainting removes marked regions and generates plausible content to fill those spaces.\n\n<a href=\"https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/dun-bradstreet-adds-agentic-ai-to-compliance-workflows/\">Dun &amp; Bradstreet Adds Agentic AI to Compliance Workflows</a></b>\n<i>PYMNTS · 9m ago</i>\n\n• Dun &amp; Bradstreet deployed agentic AI for compliance workflow automation.\n• Company claims 70-90% reduction in processing times for compliance tasks.\n• Agentic AI is being applied to enterprise risk and compliance operations.\n\n📰 <i>Also covered by: Finextra</i>\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/dun-bradstreet-adds-agentic-ai-to-compliance-workflows/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/Dun-Bradstreet-agentic-AI.jpeg?w=457"
+"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/cybersecurity/fraud-prevention/2026/claude-users-could-face-new-id-checks-anthropic-says/\">Claude Users Could Face New ID Checks</a></b>\n<i>PYMNTS · 🟧 Claude · 4h ago</i>\n\n• Anthropic will require some Claude users to verify identity using government-issued IDs and potentially selfies.\n• Identity verification policy targets specific consumer use cases, not all users.\n• Move addresses regulatory or compliance requirements for certain user activities.\n\n<a href=\"https://www.pymnts.com/cybersecurity/fraud-prevention/2026/claude-users-could-face-new-id-checks-anthropic-says/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/03/Anthropic-consumers-Claude-1.jpg?w=457"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-ops-in-months/\">Five Eyes intelligence alliance says frontier AI models could reshape offensive cyber ops in months</a></b>\n<i>The Decoder · 42m ago</i>\n\n• Five Eyes intelligence agencies warn frontier AI models could transform offensive cyber operations within months.\n• Intelligence communities view advanced AI as an imminent threat to national security.\n• Governments are escalating concerns about AI capabilities for cyberwarfare.\n\n<a href=\"https://the-decoder.com/five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-ops-in-months/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/06/fable_5_logo-scaled.webp"
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/\">OpenAI launches new initiative to help find and patch open-source bugs</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI launched a new initiative focused on finding and patching bugs in open-source software.\n• Program targets security vulnerabilities across the open-source community.\n• Effort aims to improve overall software security ecosystem health.\n\n📰 <i>Also covered by: Wired – AI</i>\n\n<a href=\"https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/\">Read more →</a>",
+"photo": null
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/cryptocurrency/2026/andrew-cuomo-chairing-okx-intercontinental-exchange-blockchain-project/\">Andrew Cuomo Chairing OKX-Intercontinental Exchange Blockchain Project</a></b>\n<i>PYMNTS · 1h ago</i>\n\n• OKX and Intercontinental Exchange launched a regulated U.S. broker-dealer joint venture.\n• The venture allows OKX to serve American and international clients through regulated channels.\n• Cryptocurrency exchange is establishing traditional financial infrastructure partnerships.\n\n<a href=\"https://www.pymnts.com/cryptocurrency/2026/andrew-cuomo-chairing-okx-intercontinental-exchange-blockchain-project/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2024/09/OKX.jpg?w=457"
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/patch-the-planet\">Patch the Planet: a Daybreak initiative to support open source maintainers</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 16h ago</i>\n\n• OpenAI&#x27;s Patch the Planet (Daybreak initiative) supports open-source maintainers with AI-powered vulnerability detection.\n• Tool combines AI analysis with expert review for bug validation and fixes.\n• Initiative helps maintainers who lack resources to address security issues independently.\n\n<a href=\"https://openai.com/index/patch-the-planet\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/daybreak-securing-the-world\">Daybreak: Tools for securing every organization in the world</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 16h ago</i>\n\n• OpenAI released Daybreak tools including Codex Security and GPT-5.5-Cyber for vulnerability management.\n• Tools enable organizations to find, validate, and patch security issues at scale.\n• GPT-5.5-Cyber is a new model specifically trained for cybersecurity tasks.\n\n<a href=\"https://openai.com/index/daybreak-securing-the-world\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/\">Three things to watch amid Anthropic’s latest feud with the government</a></b>\n<i>MIT Tech Review – AI · 🟧 Claude · 8h ago</i>\n\n• Anthropic has engaged in a government dispute beginning in April.\n• Multiple critical issues merit attention regarding company-regulator relationship.\n• Conflict has potential implications for broader AI policy and regulation.\n\n<a href=\"https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/\">Anthropic and Micron want to co-design AI memory architecture</a></b>\n<i>The Decoder · 🟧 Claude · 9h ago</i>\n\n• Micron invested in Anthropic&#x27;s Series H funding round and secured multi-year memory supply deal.\n• Anthropic leadership identifies memory as critical infrastructure for Claude training and deployment.\n• Deal structure reflects growing importance of custom hardware for large-scale AI operations.\n\n<a href=\"https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/06/micron_logo.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/\">Google makes Interactions API the default interface for Gemini models and agents</a></b>\n<i>The Decoder · 🔵 Gemini · 8h ago</i>\n\n• Google replaced generateContent API with Interactions API as default Gemini interface.\n• New API uses simplified typed-step schema instead of role-based message structures.\n• All future agent features will launch exclusively through the Interactions API.\n\n<a href=\"https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/04/google_gemini_optical_trick.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/ai-healthcare-internet-giants-20260622\">AI Healthcare Fills with Internet Giants: ByteDance, Tencent, JD Health, and Ant Group Go All In</a></b>\n<i>Pandaily (China) · 🌏 Asia · 22m ago</i>\n\n• China&#x27;s largest internet companies (ByteDance, Tencent, JD Health, Ant Group) are heavily investing in AI healthcare.\n• Wave of investment represents major capital deployment into healthcare AI applications.\n• Reflects competitive positioning among China&#x27;s tech giants in emerging AI sectors.\n\n<a href=\"https://pandaily.com/ai-healthcare-internet-giants-20260622\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_b2_5_img_afdec6a0ae.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/chinese-synthetic-diamond-ai-chip-cooling-20260622\">China&#x27;s Synthetic Diamond Finds Its Biggest Opportunity Yet: Cooling AI Chips</a></b>\n<i>Pandaily (China) · 🌏 Asia · 22m ago</i>\n\n• Synthetic diamond is becoming critical thermal material for cooling high-power AI chips exceeding 1,000W.\n• China produces 95% of world&#x27;s synthetic diamonds, positioning it as essential supplier.\n• AI chip thermal demands create new market opportunity for synthetic diamond manufacturers.\n\n<a href=\"https://pandaily.com/chinese-synthetic-diamond-ai-chip-cooling-20260622\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article_b2_4_img_5c2bd34417.png"
 }
 ]
 }
