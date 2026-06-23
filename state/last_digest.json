@@ -1,45 +1,45 @@
 {
-"generated": 1782182407,
+"generated": 1782217792,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything\">Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code</a></b>\n<i>Simon Willison · 🟧 Claude · 2h ago</i>\n\n• Moebius 0.2B image inpainting model has been ported to run directly in web browsers using Claude Code.\n• The lightweight model achieves performance comparable to 10B-parameter models while maintaining small size.\n• Image inpainting removes marked regions and generates plausible content to fill those spaces.\n\n<a href=\"https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/\">OpenAI says new GPT-5.5-Cyber outperforms Anthropic&#x27;s Mythos on cybersecurity benchmark</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 1h ago</i>\n\n• OpenAI launched GPT-5.5-Cyber model outperforming Anthropic&#x27;s Mythos on cybersecurity benchmarks.\n• Daybreak initiative expands with Codex Security plugin and 25+ security firm partner network.\n• Focus shifts from vulnerability detection to automated patching capabilities.\n\n<a href=\"https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/04/openai_logo_orange.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/omio\">How Omio is building the future of conversational travel</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 12h ago</i>\n\n• Omio uses OpenAI to power conversational travel booking experiences.\n• Integration accelerates product development and enables AI-native company transformation.\n• Conversational interface improves user interaction in travel booking process.\n\n<a href=\"https://openai.com/index/omio\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/cybersecurity/fraud-prevention/2026/claude-users-could-face-new-id-checks-anthropic-says/\">Claude Users Could Face New ID Checks</a></b>\n<i>PYMNTS · 🟧 Claude · 4h ago</i>\n\n• Anthropic will require some Claude users to verify identity using government-issued IDs and potentially selfies.\n• Identity verification policy targets specific consumer use cases, not all users.\n• Move addresses regulatory or compliance requirements for certain user activities.\n\n<a href=\"https://www.pymnts.com/cybersecurity/fraud-prevention/2026/claude-users-could-face-new-id-checks-anthropic-says/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/03/Anthropic-consumers-Claude-1.jpg?w=457"
+"text": "🤖 AI Platform\n<b><a href=\"https://www.scmp.com/tech/big-tech/article/3358077/deepseeks-harness-team-races-recruit-talent-booming-ai-agent-market?utm_source=rss_feed\">DeepSeek’s Harness team races to recruit talent in booming AI agent market</a></b>\n<i>SCMP – Tech · 🐳 DeepSeek · 🌏 Asia · 29m ago</i>\n\n• DeepSeek&#x27;s new Harness team rapidly expands to compete in booming AI agent market.\n• Company transforms foundational language models into autonomous agent products.\n• Chinese startup joins global race for autonomous AI product development.\n\n<a href=\"https://www.scmp.com/tech/big-tech/article/3358077/deepseeks-harness-team-races-recruit-talent-booming-ai-agent-market?utm_source=rss_feed\">Read more →</a>",
+"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/23/bd5381ad-59f7-4842-8037-a3b3740710b1_286fd9a1.jpg?itok=tVdGKrij&v=1782210047"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/\">OpenAI launches new initiative to help find and patch open-source bugs</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI launched a new initiative focused on finding and patching bugs in open-source software.\n• Program targets security vulnerabilities across the open-source community.\n• Effort aims to improve overall software security ecosystem health.\n\n📰 <i>Also covered by: Wired – AI</i>\n\n<a href=\"https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/\">Read more →</a>",
+"text": "💳 Agentic Commerce\n<b><a href=\"https://www.pymnts.com/news/acquiring/2026/backbase-acquires-kasisto-to-promote-agentic-banking/\">Backbase Acquires Kasisto for Agentic Banking</a></b>\n<i>PYMNTS · 58m ago</i>\n\n• Backbase acquired Kasisto, a banking-focused AI firm.\n• Deal brings agentic AI platform and financial services intelligence to Backbase.\n• Acquisition positions Backbase in autonomous banking agent market.\n\n<a href=\"https://www.pymnts.com/news/acquiring/2026/backbase-acquires-kasisto-to-promote-agentic-banking/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/Backbase-Kasisto-acquisitions.jpeg?w=457"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/bytedances-seedance-2-5-breaks-the-30-second-barrier-for-ai-video-generation/\">ByteDance&#x27;s Seedance 2.5 breaks the 30-second barrier for AI video generation</a></b>\n<i>The Decoder · 14m ago</i>\n\n• ByteDance&#x27;s Seedance 2.5 video model launches early July.\n• Model breaks 30-second barrier for AI video generation.\n• Announced at Volcano Engine FORCE conference with four additional new models.\n\n<a href=\"https://the-decoder.com/bytedances-seedance-2-5-breaks-the-30-second-barrier-for-ai-video-generation/\">Read more →</a>",
+"photo": "http://the-decoder.com/wp-content/uploads/2026/06/Seedance-2.5-example-1.mp4"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/cursor-announces-its-own-ai-model-a-new-git-platform-and-a-mobile-app/\">Cursor announces its own AI model, a new Git platform, and a mobile app</a></b>\n<i>The Decoder · 17m ago</i>\n\n• Cursor trained its own in-house AI model.\n• Company announced new Git platform and mobile app products.\n• Cursor expands developer tools beyond code completion.\n\n<a href=\"https://the-decoder.com/cursor-announces-its-own-ai-model-a-new-git-platform-and-a-mobile-app/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2024/08/cursor_AI_logo.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110227/10x-banking-reaches-ebitda-positive?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">10x Banking reaches Ebitda positive</a></b>\n<i>Finextra · 17m ago</i>\n\n• 10x Banking achieved Ebitda positive status in H1 2026.\n• Cloud-native platform powers major banks including Westpac and Chase UK.\n• Strong financial momentum reported after profitability milestone.\n\n<a href=\"https://www.finextra.com/pressarticle/110227/10x-banking-reaches-ebitda-positive?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/patch-the-planet\">Patch the Planet: a Daybreak initiative to support open source maintainers</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 16h ago</i>\n\n• OpenAI&#x27;s Patch the Planet (Daybreak initiative) supports open-source maintainers with AI-powered vulnerability detection.\n• Tool combines AI analysis with expert review for bug validation and fixes.\n• Initiative helps maintainers who lack resources to address security issues independently.\n\n<a href=\"https://openai.com/index/patch-the-planet\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110226/quint-hires-former-tide-cceo-and-revolut-coo-laurnce-krieger-to-advise-on-ma?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Quint hires former Tide CCEO and Revolut COO Laurnce Krieger to advise on M&amp;A</a></b>\n<i>Finextra · 20m ago</i>\n\n• Quint hired Laurence Krieger, former Tide CCEO and Revolut COO, as M&amp;A advisor.\n• Addition brings experienced fintech consolidation expertise to Quint Group.\n• Hire signals Quint&#x27;s strategic focus on mergers and acquisitions.\n\n<a href=\"https://www.finextra.com/pressarticle/110226/quint-hires-former-tide-cceo-and-revolut-coo-laurnce-krieger-to-advise-on-ma?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/daybreak-securing-the-world\">Daybreak: Tools for securing every organization in the world</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 16h ago</i>\n\n• OpenAI released Daybreak tools including Codex Security and GPT-5.5-Cyber for vulnerability management.\n• Tools enable organizations to find, validate, and patch security issues at scale.\n• GPT-5.5-Cyber is a new model specifically trained for cybersecurity tasks.\n\n<a href=\"https://openai.com/index/daybreak-securing-the-world\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110225/goldensource-releases-ai-platform?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">GoldenSource releases AI platform</a></b>\n<i>Finextra · 22m ago</i>\n\n• GoldenSource launched GoldenSource Scout AI platform.\n• Platform designed to address AI trust gap for financial services firms.\n• Product enables financial institutions to deploy AI more confidently.\n\n<a href=\"https://www.finextra.com/pressarticle/110225/goldensource-releases-ai-platform?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/\">Three things to watch amid Anthropic’s latest feud with the government</a></b>\n<i>MIT Tech Review – AI · 🟧 Claude · 8h ago</i>\n\n• Anthropic has engaged in a government dispute beginning in April.\n• Multiple critical issues merit attention regarding company-regulator relationship.\n• Conflict has potential implications for broader AI policy and regulation.\n\n<a href=\"https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/\">Anthropic and Micron want to co-design AI memory architecture</a></b>\n<i>The Decoder · 🟧 Claude · 9h ago</i>\n\n• Micron invested in Anthropic&#x27;s Series H funding round and secured multi-year memory supply deal.\n• Anthropic leadership identifies memory as critical infrastructure for Claude training and deployment.\n• Deal structure reflects growing importance of custom hardware for large-scale AI operations.\n\n<a href=\"https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/06/micron_logo.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/\">Google makes Interactions API the default interface for Gemini models and agents</a></b>\n<i>The Decoder · 🔵 Gemini · 8h ago</i>\n\n• Google replaced generateContent API with Interactions API as default Gemini interface.\n• New API uses simplified typed-step schema instead of role-based message structures.\n• All future agent features will launch exclusively through the Interactions API.\n\n<a href=\"https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/04/google_gemini_optical_trick.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/ai-healthcare-internet-giants-20260622\">AI Healthcare Fills with Internet Giants: ByteDance, Tencent, JD Health, and Ant Group Go All In</a></b>\n<i>Pandaily (China) · 🌏 Asia · 22m ago</i>\n\n• China&#x27;s largest internet companies (ByteDance, Tencent, JD Health, Ant Group) are heavily investing in AI healthcare.\n• Wave of investment represents major capital deployment into healthcare AI applications.\n• Reflects competitive positioning among China&#x27;s tech giants in emerging AI sectors.\n\n<a href=\"https://pandaily.com/ai-healthcare-internet-giants-20260622\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/article_b2_5_img_afdec6a0ae.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/chinese-synthetic-diamond-ai-chip-cooling-20260622\">China&#x27;s Synthetic Diamond Finds Its Biggest Opportunity Yet: Cooling AI Chips</a></b>\n<i>Pandaily (China) · 🌏 Asia · 22m ago</i>\n\n• Synthetic diamond is becoming critical thermal material for cooling high-power AI chips exceeding 1,000W.\n• China produces 95% of world&#x27;s synthetic diamonds, positioning it as essential supplier.\n• AI chip thermal demands create new market opportunity for synthetic diamond manufacturers.\n\n<a href=\"https://pandaily.com/chinese-synthetic-diamond-ai-chip-cooling-20260622\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/article_b2_4_img_5c2bd34417.png"
+"text": "🌐 AI Industry\n<b><a href=\"https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/\">How to burst the AI bubble: Strike at its roots</a></b>\n<i>Ars Technica – AI · 29m ago</i>\n\n• Cory Doctorow discusses new book on life after AI disruption.\n• Author explores AI bubble concerns and systemic vulnerabilities.\n• Tech journalist examines long-term societal impacts of AI adoption.\n\n<a href=\"https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/\">Read more →</a>",
+"photo": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/cory3-1152x648-1782115421.jpg"
 }
 ]
 }
