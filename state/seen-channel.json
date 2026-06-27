@@ -816,6 +816,7 @@
 "d484de5576e8df56": 1781056052.3985715,
 "d51a08c89f9777ea": 1780058919.7802155,
 "d531aa2edaa24007": 1781820111.7934895,
+"d5564c7191eb8c12": 1782583057.4829674,
 "d56613b624eded83": 1780497674.104431,
 "d592d63f971c8bcd": 1780891575.1607192,
 "d5c35925406ed940": 1781989889.4550786,
@@ -835,6 +836,7 @@
 "d7a7562ea677527e": 1781220241.4227736,
 "d7d363d3fbba0606": 1781167249.6355073,
 "d7ea7272d5345933": 1781344497.9868844,
+"d7f52bd5ebbe52c9": 1782583057.4829674,
 "d843755b1b33fdbf": 1782407305.4474802,
 "d8e79b6778d4e87b": 1781364600.7706692,
 "d908ca41adb58180": 1781913892.6969283,
@@ -984,11 +986,9 @@
 "titles": {
 "400 Newspapers Sue Microsoft and OpenAI, Alleging Content Theft for AI": 1782417105.9707737,
 "5 ways Google parents are using Gemini": 1782429187.3562279,
-"5 ways to learn with study notebooks in the Gemini app": 1782407317.6013155,
 "AI Face Aversion Goes Viral as 22 Billion Yuan AI Manga Market Hits Growth Ceiling": 1782456678.4024093,
 "AI startup Lindy ditched Claude entirely for Deepseek, saving millions as cost pressure mounts on Anthropic": 1782490308.886939,
 "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction": 1782506608.6367092,
-"Airwallex Focuses on Agentic Commerce as Valuation Hits $11 Billion": 1782407317.6013155,
 "Alibaba's TRAE Work Adds Design Mode, Closing the Loop From Requirements to Code": 1782469202.415963,
 "An AI model programmed nonstop for 19 days on a single MirrorCode task that cost $2,600 to run": 1782498451.8740263,
 "Anthropic Accuses Alibaba Of Running 29 Million Fake Queries to Clone Claude": 1782518456.9626682,
@@ -996,6 +996,8 @@
 "Anthropic doesn't need junior engineers anymore thanks to AI and warns of an economic shock when other industries follow": 1782479243.6577199,
 "Anthropic says Alibaba must be punished for largest Claude cloning attack": 1782417105.9707737,
 "Anthropic&#8217;s Mythos mess is only getting worse": 1782498451.8740263,
+"Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions": 1782583057.4829714,
+"Apple Vision Pro exec is reportedly leaving for OpenAI": 1782583057.4829714,
 "Apple price hikes may hit iPhone next as memory, storage costs soar: analysts": 1782479243.6577199,
 "As China\u2019s tech firms adapt to AI era, workers worry they\u2019ll be \u2018optimised\u2019 out of a job": 1782535696.884232,
 "BIS warns of stablecoin 'structural flaws'": 1782429187.3562279,
@@ -1011,7 +1013,6 @@
 "China\u2019s Zhipu AI sparks new \u2018DeepSeek moment\u2019 with cost-effective coding model": 1782456678.4024093,
 "Commercial Space Sector Poised for Second Takeoff on Reusable Rockets and Constellation Demand": 1782554458.660709,
 "DeepSeek Transforms From Idealism to Aggressive Expansion with $7B Funding and Massive Hiring": 1782554458.660709,
-"DeepSeek hiring spree: Chinese AI firm seeks newcomers as it pursues AGI": 1782407317.6013155,
 "DraftKings Brings $11 Billion Prediction Market Into Flagship App": 1782511680.6746294,
 "ECB Scraps 40 Outdated Supervisory Guides to Boost European Bank Lending": 1782490308.886939,
 "EU and White House Met on Anthropic Access Following Ban": 1782417105.9707737,
@@ -1032,7 +1033,6 @@
 "MediaTek Emerges as Major Challenger in Optical Interconnect Chip Market": 1782554458.660709,
 "Medicare\u2019s AI Pilot Proves Approvals Are Easy. Payments Are Hard.": 1782422869.0964978,
 "Mercedes-Benz reportedly expands job cuts in China to R&D and manufacturing": 1782456678.4024093,
-"Most major AI chatbots still lean left on political questions, even \"anti-woke\" models are no exception": 1782407317.6013155,
 "NYT slams Microsoft for building copyright-infringing supercomputer for OpenAI": 1782506608.6367092,
 "Nimble Brands Beat Sponsors in World Cup Marketing Battle": 1782511680.6746294,
 "OpenAI Weighs Delay of IPO as Tech Stock Volatility Rattles Advisers": 1782442210.240163,
@@ -1063,7 +1063,6 @@
 "UBTECH Sells 5,000 Companion Robots in Two Weeks, Eyes Consumer Market Breakthrough": 1782479243.6577199,
 "Wedbush Says Missing ROI Metrics Threaten Further Enterprise AI Deployment": 1782546336.8953507,
 "What happened after 2,000 people tried to hack my AI assistant": 1782546336.8953507,
-"Which tokens does a hybrid model predict better?": 1782407317.6013155,
 "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data": 1782442210.240163,
 "Why Hong Kong\u2019s bilingualism is uniquely indispensable in the AI era": 1782429187.3562279,
 "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)": 1782498451.8740263,
@@ -1073,5 +1072,5 @@
 "vivo Launches X Fold6 With Custom AI Chip and OS, Turning Foldable Into an AI Workstation": 1782546336.8953507,
 "\u2018Digital ID cards\u2019: China moves to regulate AI agents with unified identity system": 1782561967.6886725
 },
-"updated": 1782576060
+"updated": 1782583057
 }
