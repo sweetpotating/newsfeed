@@ -123,6 +123,7 @@
 "1dccd30c092ac1ac": 1780804920.4817452,
 "1de361afe4001ad7": 1782345918.6102283,
 "1df0ea888594e496": 1781785229.0090559,
+"1dfee5e22618a25f": 1782570319.830102,
 "1e36f1dec001b504": 1781889292.0951767,
 "1e5a3f1eed22661e": 1781538416.848883,
 "1e6a44cf27f1659e": 1782561967.6886673,
@@ -536,6 +537,7 @@
 "8c810ea5d0c79d2f": 1780409098.955187,
 "8ce721ddf70ebaf4": 1782469202.4159558,
 "8d1ea2dc447e3cd2": 1781451984.821536,
+"8d619b521f889a5a": 1782570311.750658,
 "8d796b44eab9a2e0": 1780409098.955187,
 "8daf22f1422c5a8f": 1781733402.3188076,
 "8df6ed3884e86594": 1781167249.6355073,
@@ -631,6 +633,7 @@
 "a3e950ea324d47ac": 1782012900.4236944,
 "a43ff3387d229cec": 1781538416.848883,
 "a4571c0bac78ec2a": 1781266498.4477718,
+"a481cacc80ad9dbc": 1782570319.830102,
 "a4bb3a8c6d19348c": 1782511680.6746233,
 "a4dc9e95a5099590": 1782456678.4024029,
 "a4dddd31bd8a6d23": 1781093863.2189386,
@@ -752,6 +755,7 @@
 "c2958a4bc7d6078d": 1782141611.2030983,
 "c34ff296f0fbefc8": 1780058919.7802155,
 "c3528f070b8c3767": 1781008752.0030005,
+"c38b588a32a7b48a": 1782570319.830102,
 "c4222909f172df6f": 1780546022.2009194,
 "c43588fe62ba5a49": 1780716939.0187893,
 "c439767d3134af1b": 1781989889.4550786,
@@ -976,7 +980,6 @@
 "ff6db6267f18b781": 1781119898.9219766
 },
 "titles": {
-"2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit": 1782396924.5721378,
 "400 Newspapers Sue Microsoft and OpenAI, Alleging Content Theft for AI": 1782417105.9707737,
 "5 ways Google parents are using Gemini": 1782429187.3562279,
 "5 ways to learn with study notebooks in the Gemini app": 1782407317.6013155,
@@ -1004,8 +1007,6 @@
 "China's 'Lingsheng' Supercomputer Returns to World No. 1 After Nine-Year Gap": 1782479243.6577199,
 "China's AI Giants Shift From Traffic Bubbles to Real Capabilities as Subsidy Era Ends": 1782535696.884232,
 "China\u2019s Zhipu AI sparks new \u2018DeepSeek moment\u2019 with cost-effective coding model": 1782456678.4024093,
-"China\u2019s cybersecurity industry needs its own Mythos model, 360 founder warns": 1782396924.5721378,
-"Chinese physical AI start-up proposes new paradigm that bypasses OpenAI, Meta road maps": 1782396924.5721378,
 "Commercial Space Sector Poised for Second Takeoff on Reusable Rockets and Constellation Demand": 1782554458.660709,
 "DeepSeek Transforms From Idealism to Aggressive Expansion with $7B Funding and Massive Hiring": 1782554458.660709,
 "DeepSeek hiring spree: Chinese AI firm seeks newcomers as it pursues AGI": 1782407317.6013155,
@@ -1019,12 +1020,11 @@
 "Forget the score, MWC Shanghai\u2019s humanoid robot penalty shootout put embodied AI to the test": 1782456678.4024093,
 "GigSafe Taps U.S. Bank to Deliver Instant Payments to Delivery Drivers": 1782518456.9626682,
 "Google Tells News Publishers to Share Content for AI Training or Lose Fees": 1782442210.240163,
-"Grok AI is reportedly a porn platform now, with over half its traffic tied to adult content": 1782396924.5721378,
 "Growth agenda: Hong Kong vows stronger exchange with reforms, bond futures and gold push": 1782546336.8953507,
 "Here's how Gemini can help you avoid jetlag.": 1782506608.6367092,
 "How Qatar Became FIFA\u2019s Technology Test Lab": 1782469202.415963,
 "It\u2019s not about Anthropic vs. OpenAI anymore": 1782498451.8740263,
-"JPMorgan Names 2 Potential CEO Successors as Co-Presidents": 1782396924.5721378,
+"J.P. Morgan sees a pile of red flags in the AI market": 1782570319.830107,
 "Linux Foundation and 20 tech giants launch Akrites to fix open-source flaws before AI-powered attacks hit": 1782469202.415963,
 "MediaTek Emerges as Major Challenger in Optical Interconnect Chip Market": 1782554458.660709,
 "Medicare\u2019s AI Pilot Proves Approvals Are Easy. Payments Are Hard.": 1782422869.0964978,
@@ -1052,6 +1052,8 @@
 "Swiss Watchdog FINMA Builds Generative AI to Police Crypto Markets": 1782490308.886939,
 "The Chinese County Producing Half the World's Eyeglass Lenses Now Uses Lithography Machines": 1782479243.6577199,
 "The World Cup Has Become the World\u2019s Largest Pop-Up Store": 1782561967.6886725,
+"The companies most likely to automate your job are now funding a $1 billion program to retrain you": 1782570319.830107,
+"The fittest founder in the room got cancer. Here\u2019s how he used AI to fight back.": 1782570319.830107,
 "This Week in Stablecoins: Building Toward T+0 Settlement": 1782511680.6746294,
 "Trump Threatens 100% Tariffs if European Countries Tax US Tech Firms": 1782518456.9626682,
 "Try these 3 Google AI tools to help find your next job.": 1782417105.9707737,
@@ -1067,5 +1069,5 @@
 "vivo Launches X Fold6 With Custom AI Chip and OS, Turning Foldable Into an AI Workstation": 1782546336.8953507,
 "\u2018Digital ID cards\u2019: China moves to regulate AI agents with unified identity system": 1782561967.6886725
 },
-"updated": 1782561967
+"updated": 1782570319
 }
