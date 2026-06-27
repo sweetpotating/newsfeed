@@ -75,6 +75,7 @@
 "11bd223a066222da": 1780199856.480818,
 "11d9e55cd1a24782": 1782506596.9978206,
 "125a57f34f5d8065": 1782269125.2013867,
+"126023da17226075": 1782593789.3768353,
 "12ceb5f0dc7b30a8": 1781652017.4031606,
 "133a88e022ba030e": 1781371079.1274276,
 "13552978c86e00ff": 1780832953.3630493,
@@ -985,7 +986,6 @@
 "ff6db6267f18b781": 1781119898.9219766
 },
 "titles": {
-"400 Newspapers Sue Microsoft and OpenAI, Alleging Content Theft for AI": 1782417105.9707737,
 "5 ways Google parents are using Gemini": 1782429187.3562279,
 "AI Face Aversion Goes Viral as 22 Billion Yuan AI Manga Market Hits Growth Ceiling": 1782456678.4024093,
 "AI startup Lindy ditched Claude entirely for Deepseek, saving millions as cost pressure mounts on Anthropic": 1782490308.886939,
@@ -995,7 +995,6 @@
 "Anthropic Accuses Alibaba Of Running 29 Million Fake Queries to Clone Claude": 1782518456.9626682,
 "Anthropic Thinks Its Own Success Is Key to Making AI Safe": 1782442210.240163,
 "Anthropic doesn't need junior engineers anymore thanks to AI and warns of an economic shock when other industries follow": 1782479243.6577199,
-"Anthropic says Alibaba must be punished for largest Claude cloning attack": 1782417105.9707737,
 "Anthropic&#8217;s Mythos mess is only getting worse": 1782498451.8740263,
 "Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions": 1782583057.4829714,
 "Apple Vision Pro exec is reportedly leaving for OpenAI": 1782583057.4829714,
@@ -1016,7 +1015,6 @@
 "DeepSeek Transforms From Idealism to Aggressive Expansion with $7B Funding and Massive Hiring": 1782554458.660709,
 "DraftKings Brings $11 Billion Prediction Market Into Flagship App": 1782511680.6746294,
 "ECB Scraps 40 Outdated Supervisory Guides to Boost European Bank Lending": 1782490308.886939,
-"EU and White House Met on Anthropic Access Following Ban": 1782417105.9707737,
 "Europe Is Fed Up and Wants Its Own AI": 1782490308.886939,
 "FCA Sees Tests Ahead as Pay Later Law Goes Into Effect": 1782422869.0964978,
 "FCA admits TREX to regulatory sandbox, tests advanced climate risk modelling": 1782469202.415963,
@@ -1041,7 +1039,6 @@
 "OpenAI poaches Uber India chief to lead its biggest market outside the U.S.": 1782498451.8740263,
 "OpenAI will delay GPT-5.6 after Trump administration request": 1782429187.3562279,
 "OpenAI's GPT-5.6 Sol launches to rival Claude Mythos under government access rules it calls unsustainable": 1782506608.6367092,
-"Our latest Google Finance upgrades, including a new app": 1782417105.9707737,
 "Patronus AI lands $50M to build \u2018digital worlds\u2019 that stress-test AI agents": 1782422869.0964978,
 "QI Tech and Bettr expand credit access for e-commerce merchants and consumers in Brazil": 1782561967.6886725,
 "Quoting Dean W. Ball": 1782518456.9626682,
@@ -1053,6 +1050,7 @@
 "Scaled Cognition Raises $100 Million to Address AI Hallucinations": 1782422869.0964978,
 "Smarsh collaborates with AWS to deliver compliant AI adoption in regulated industries": 1782469202.415963,
 "Smart Glasses Finally Escape the 'Next Year Is the Year' Trap as Rokid Sees 800% Sales Surge": 1782535696.884232,
+"SoftBank\u2019s CEO isn\u2019t the only one with questions about Elon Musk\u2019s orbital data center hype": 1782593789.376839,
 "South Korea plans to train entire military as \"drone warriors\"": 1782546336.8953507,
 "Swiss Watchdog FINMA Builds Generative AI to Police Crypto Markets": 1782490308.886939,
 "The Chinese County Producing Half the World's Eyeglass Lenses Now Uses Lithography Machines": 1782479243.6577199,
@@ -1061,7 +1059,6 @@
 "The fittest founder in the room got cancer. Here\u2019s how he used AI to fight back.": 1782570319.830107,
 "This Week in Stablecoins: Building Toward T+0 Settlement": 1782511680.6746294,
 "Trump Threatens 100% Tariffs if European Countries Tax US Tech Firms": 1782518456.9626682,
-"Try these 3 Google AI tools to help find your next job.": 1782417105.9707737,
 "UBTECH Sells 5,000 Companion Robots in Two Weeks, Eyes Consumer Market Breakthrough": 1782479243.6577199,
 "Wedbush Says Missing ROI Metrics Threaten Further Enterprise AI Deployment": 1782546336.8953507,
 "What happened after 2,000 people tried to hack my AI assistant": 1782546336.8953507,
@@ -1074,5 +1071,5 @@
 "vivo Launches X Fold6 With Custom AI Chip and OS, Turning Foldable Into an AI Workstation": 1782546336.8953507,
 "\u2018Digital ID cards\u2019: China moves to regulate AI agents with unified identity system": 1782561967.6886725
 },
-"updated": 1782588128
+"updated": 1782593789
 }
