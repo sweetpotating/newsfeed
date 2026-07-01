@@ -1,45 +1,45 @@
 {
-"generated": 1782874266,
+"generated": 1782908991,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/\">Trump drops restrictions on Anthropic’s Mythos and Fable models</a></b>\n<i>TechCrunch AI · 🟧 Claude · 35m ago</i>\n\n• Trump administration lifted export controls on Anthropic&#x27;s Fable and Mythos models.\n• Anthropic will restore access to Fable beginning July 1.\n• Restrictions on these AI models were previously blocking international availability.\n\n📰 <i>Also covered by: Wired – AI, The Verge – AI</i>\n\n<a href=\"https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users/\">Hidden code in Claude Code secretly flagged Chinese users</a></b>\n<i>The Decoder · 🟧 Claude · 1h ago</i>\n\n• Anthropic is removing hidden monitoring code in Claude Code that flagged Chinese users after social media backlash.\n• The undisclosed feature raises transparency concerns about how AI tools monitor users based on geography.\n• The removal signals Anthropic is addressing user privacy and trust issues in its developer products.\n\n<a href=\"https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2025/11/prompt_injections_claude.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/claude-sonnet-5-continues-anthropics-pattern-of-hiding-price-increases-behind-unchanged-token-rates/\">Claude Sonnet 5 continues Anthropic&#x27;s pattern of hiding price increases behind unchanged token rates</a></b>\n<i>The Decoder · 🟧 Claude · 1h ago</i>\n\n• Claude Sonnet 5 consumes 40% more tokens per task than its predecessor, nearly doubling effective costs.\n• Token rates remain unchanged while actual expenses rise, obscuring true price increases from users.\n• Sonnet 5 ranks fifth in Artificial Analysis benchmarks, outperforming the pricier Opus 4.8 on some agent tasks.\n\n<a href=\"https://the-decoder.com/claude-sonnet-5-continues-anthropics-pattern-of-hiding-price-increases-behind-unchanged-token-rates/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/fable_5_anthropic_money-scaled.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/\">Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival</a></b>\n<i>Wired – AI · 🟧 Claude · 2h ago</i>\n\n• A researcher used Claude Opus 4.7 to break into Front Gate ticketing and issue unauthorized festival tickets.\n• The vulnerability affected ticketing for major US festivals including Lollapalooza and Bonnaroo.\n• The exploit highlights security risks when AI systems assist in finding web application vulnerabilities.\n\n<a href=\"https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/\">Read more →</a>",
+"photo": "https://media.wired.com/photos/6a43054548c440f683e2b417/master/pass/AI-Found-Way-to-Hack-Ticketing-System-Security.jpg"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropics-fable-5-is-back-worldwide-after-a-two-week-government-ban-over-a-jailbreak/\">Anthropic&#x27;s Fable 5 is back worldwide after a two-week government ban over a jailbreak</a></b>\n<i>The Decoder · 🟧 Claude · 4h ago</i>\n\n• Anthropic&#x27;s Fable 5 returned globally after a two-week US government ban over a jailbreak vulnerability.\n• Amazon researchers discovered the exploit, but Anthropic said smaller models like Claude Haiku 4.5 could replicate it.\n• Anthropic deployed a new safety classifier to block the jailbreak technique across models.\n\n<a href=\"https://the-decoder.com/anthropics-fable-5-is-back-worldwide-after-a-two-week-government-ban-over-a-jailbreak/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/anthropic_logoreihe.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/\">OpenAI paper reveals three GPT-5.6 Pro models, breaking with single top-tier strategy</a></b>\n<i>The Decoder · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI&#x27;s benchmark paper hints at three GPT-5.6 Pro model variants, marking ChatGPT Pro&#x27;s first major structural change.\n• Multiple Pro tiers would depart from OpenAI&#x27;s current single top-tier strategy.\n• The shift suggests OpenAI is segmenting its premium offering across different use cases or performance levels.\n\n<a href=\"https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/06/openai_gpt56_sol.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home\">Google built a great smart speaker, but Gemini isn’t ready for it</a></b>\n<i>The Verge – AI · 🔵 Gemini · 29m ago</i>\n\n• Google built a capable smart speaker but Gemini AI integration isn&#x27;t ready for market deployment.\n• Smart speakers lack compelling use cases beyond music and controls, and AI was supposed to change that.\n• Google&#x27;s hardware-software mismatch shows tension between product timelines and AI maturity requirements.\n\n<a href=\"https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268614_Google_Home_Speaker_JTuohy_0009.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/deepseek-record-funding-domestic-compute-agi-jul2026\">DeepSeek Raises $7B in Record-Breaking China AI Funding Round, Targets Domestic Computing Infrastructure</a></b>\n<i>Pandaily (China) · 🐳 DeepSeek · 🌏 Asia · 4h ago</i>\n\n• DeepSeek raised $7 billion, a record for Chinese AI funding, to develop domestic computing infrastructure.\n• Funds target AI chip development, hiring acceleration, and AGI research.\n• The investment reflects China&#x27;s strategic focus on reducing reliance on foreign semiconductor and AI technology.\n\n<a href=\"https://pandaily.com/deepseek-record-funding-domestic-compute-agi-jul2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/deepseek_img_4cad0bf835.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/\">The DeepMind trio who built a poker AI are now making money for quant hedge funds</a></b>\n<i>TechCrunch AI · 🔵 Gemini · 15h ago</i>\n\n• EquiLibre Technologies, founded by three ex-DeepMind researchers, is now valued at over $500 million.\n• The Prague-based AI lab built poker AI and now applies it to quantitative hedge fund trading.\n• Former game-AI expertise is transferring to financial markets and algorithmic trading applications.\n\n<a href=\"https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-cuts-ai-agent-costs-with-claude-sonnet-5-rollout/\">Anthropic Cuts AI Agent Costs With Claude Sonnet 5 Rollout</a></b>\n<i>PYMNTS · 🟧 Claude · 2h ago</i>\n\n• Claude Sonnet 5 now offers autonomous agent capabilities previously requiring larger, costlier models.\n• Sonnet 5 becomes default model for Anthropic&#x27;s Free and Pro tiers.\n• New model reduces costs for AI agents that can plan, use tools, and run independently.\n\n📰 <i>Also covered by: Simon Willison, TechCrunch AI, The Decoder</i>\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-cuts-ai-agent-costs-with-claude-sonnet-5-rollout/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/Anthropic-Claude-Sonnet-5-x.jpg?w=457"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything\">Quoting Anthropic</a></b>\n<i>Simon Willison · 🟧 Claude · 2h ago</i>\n\n• Department of Commerce removed export controls on Claude Fable 5 and Mythos 5.\n• Anthropic began restoring access to these models immediately following the decision.\n• Export restrictions on advanced AI models have been lifted.\n\n<a href=\"https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110312/sumup-launches-consumer-personal-accounts?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">SumUp launches consumer personal accounts</a></b>\n<i>Finextra · just now</i>\n\n• SumUp launched consumer personal accounts, expanding beyond its core merchant payment business.\n• The move marks SumUp&#x27;s biggest consumer offering expansion to date.\n• SumUp serves over four million merchants globally and is diversifying revenue streams.\n\n<a href=\"https://www.finextra.com/pressarticle/110312/sumup-launches-consumer-personal-accounts?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/\">Claude Science is Anthropic’s newest flagship product</a></b>\n<i>MIT Tech Review – AI · 🟧 Claude · 5h ago</i>\n\n• Anthropic launched Claude Science as flagship product for scientific research support.\n• Designed to assist researchers similarly to how Claude Code supports software engineering.\n• Product targets pharmaceutical, biotech, and academic research communities.\n\n📰 <i>Also covered by: The Decoder</i>\n\n<a href=\"https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110311/finova-acquires-cubit-labs-to-accelerate-its-future-of-lending-strategy?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Finova acquires Cubit Labs to accelerate its future of lending strategy</a></b>\n<i>Finextra · just now</i>\n\n• Finova acquired Cubit Labs, an AI company focused on mortgage and lending software workflows.\n• Cubit Labs specializes in intermediary workflow automation and compliance tools.\n• The acquisition supports Finova&#x27;s strategy to integrate AI into its lending and savings platform.\n\n<a href=\"https://www.finextra.com/pressarticle/110311/finova-acquires-cubit-labs-to-accelerate-its-future-of-lending-strategy?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/\">Gemini Spark updates: macOS launch, connected apps and more</a></b>\n<i>Google – Gemini · 🔵 Gemini · 📣 Official · 5h ago</i>\n\n• Google expanded Gemini Spark to macOS platform.\n• Added connected apps integration to Gemini Spark.\n• Tool can now monitor events like internship listings across the web.\n\n<a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/\">Read more →</a>",
-"photo": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Spark.max-600x600.format-webp.webp"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/how-chatgpt-adoption-has-expanded\">How ChatGPT adoption has expanded</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 17h ago</i>\n\n• OpenAI Signals data shows ChatGPT adoption growing globally across regions and languages.\n• Users are increasing usage frequency and exploring more model capabilities.\n• Growth is distributed across multiple regions and language communities.\n\n<a href=\"https://openai.com/index/how-chatgpt-adoption-has-expanded\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/san-franciscos-ai-boom-is-pricing-out-six-figure-tech-workers-who-cant-find-rent-under-5000/\">San Francisco&#x27;s AI boom is pricing out six-figure tech workers who can&#x27;t find rent under $5,000</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 11h ago</i>\n\n• San Francisco median rent is $3,827 with homes averaging $1.7 million amid AI boom.\n• Couples earning $365,000 annually struggle to find rentals under $5,000.\n• Potential OpenAI and Anthropic IPOs could further inflate local housing costs.\n\n<a href=\"https://the-decoder.com/san-franciscos-ai-boom-is-pricing-out-six-figure-tech-workers-who-cant-find-rent-under-5000/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/06/sf_money-3.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything\">Nano Banana 2 Lite</a></b>\n<i>Simon Willison · 🔵 Gemini · 4h ago</i>\n\n• Google released Gemini 3.1 Flash Lite, marketed as fastest and cheapest Gemini image model.\n• Model optimized for speed and cost at scale for image tasks.\n• Available through Google&#x27;s API under &#x27;gemini-3.1-flash-lite-image&#x27; identifier.\n\n📰 <i>Also covered by: Google DeepMind, Google – Gemini, The Decoder</i>\n\n<a href=\"https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything\">Read more →</a>",
-"photo": "https://static.simonwillison.net/static/2026/nano-banana-2-lite-raccoon.jpg"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.scmp.com/opinion/world-opinion/article/3357399/why-ai-future-wont-be-decided-algorithms-and-chatbots?utm_source=rss_feed\">Why the AI future won’t be decided by algorithms and chatbots</a></b>\n<i>SCMP – Tech · 🟢 ChatGPT · 🔵 Gemini · 🐳 DeepSeek · 🌏 Asia · 14h ago</i>\n\n• AI race outcomes will not be determined solely by algorithms and chatbot models.\n• Discussion expands beyond software to broader factors in AI competition.\n• Government strategies and investment focus on more than just model performance.\n\n<a href=\"https://www.scmp.com/opinion/world-opinion/article/3357399/why-ai-future-wont-be-decided-algorithms-and-chatbots?utm_source=rss_feed\">Read more →</a>",
-"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/30/5129fa06-cd11-4a0a-a4d0-e03f3599bd84_ea70e033.jpg?itok=09r2WqeY&v=1782790427"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/\">OpenAI reportedly cut response costs for guest ChatGPT users by more than half</a></b>\n<i>The Decoder · 🟢 ChatGPT · 9h ago</i>\n\n• OpenAI cut inference costs for ChatGPT by more than half through optimization.\n• GPU requirements dropped to a few hundred at times from higher baseline.\n• Cost reductions applied to guest ChatGPT users across the platform.\n\n<a href=\"https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_background_dark.png"
 }
 ]
 }
