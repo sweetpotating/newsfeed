@@ -344,6 +344,7 @@
 "43612ec69d264a07": 1781478250.7200637,
 "436a674e3bf2eef7": 1781133766.412285,
 "43d18668291f88e3": 1782442198.4312043,
+"446caa0fa854eb4b": 1783123224.205146,
 "44c5ff5a522e5dc2": 1782960325.483398,
 "44f0065af7e73b7a": 1780199856.480818,
 "454950bda4a65309": 1782683938.7776415,
@@ -1298,11 +1299,9 @@
 "titles": {
 "36% of Small Businesses Turn to FinTechs for Cross-Border Payments": 1783112329.8143446,
 "A behind-the-scenes look at Midjourney\u2019s medical scanner leaves many questions unanswered": 1783083208.6012392,
-"AI Shopping Assistants Jump to the Top of Retail Budgets": 1782947344.3410711,
 "AI computing stock panic over Meta cloud rumour \u2018erroneous\u2019, analysts say": 1783065510.4559004,
 "Achieving operational excellence with AI": 1783030357.8829188,
 "Alibaba Orders Employees to Remove All Anthropic Products, Ban Effective July 10": 1783075132.8061225,
-"Alibaba and Ant Subsidiary Pay $600 Million to Settle DOJ Illegal Sales Claims": 1782947344.3410711,
 "Alibaba\u2019s Elements Claw AI agent unearths 4 new superconductors": 1783091176.5116441,
 "Amazon Ready to Launch Satellite Broadband Service This Year": 1783036875.3589885,
 "Amazon and Walmart\u2019s Summer Sale Wars Deliver a Win, With Fine Print": 1783019827.3936384,
@@ -1318,7 +1317,6 @@
 "China\u2019s Domestic AI in the First Half of 2026: From Compute Substitution to Training Closure": 1783053484.293304,
 "Chinese Tech Giants Race to Match Claude Code as Alibaba, Tencent, and ByteDance Join the Fray": 1782994174.2740366,
 "Claude Code's complicated China problem involves bans on both sides of the Pacific": 1783099175.439928,
-"Cloudflare Arms Website Owners in Fight Against AI Crawlers": 1782947344.3410711,
 "Companies Trust AI\u2019s Advice but Not Its Actions": 1783030357.8829188,
 "Crypto platform Tothemoon secures MiCA licence in Cyprus": 1782986272.0238962,
 "Easing Gas Prices Boost Consumer Sentiment for July Fourth": 1783099175.439928,
@@ -1355,7 +1353,6 @@
 "Morphic launches RGLTD for digital assets": 1782994174.2740366,
 "NCI and DataExpert launch crypto compliance training programme": 1782986272.0238962,
 "Nike Digital Drops 12% as Brands Rebalance D2C and Wholesale": 1783030357.8829188,
-"OCBC adds AI-powered financial advisor avatars to app": 1782947344.3410711,
 "Ondo Finance launches custodial tokenised securities in the US": 1783030357.8829188,
 "Open Source AI Gap Map": 1783116485.1561308,
 "OpenAI reportedly offers the Trump administration a five percent stake in the company": 1782994174.2740366,
@@ -1367,7 +1364,6 @@
 "Security vulnerability reports have exploded since AI models started hunting for bugs": 1783099175.439928,
 "Sen. Warner Demands DOJ Probe Into Homeland Security Network Breach": 1783025980.4296288,
 "SmartCore Secures Millions in Funding for Silicon Photonics AI Chip Interconnect Breakthrough": 1782974202.2501867,
-"SoFi buys AI-based investing startup Composer": 1782947344.3410711,
 "Square adds ChatGPT and Claude integrations": 1783025980.4296288,
 "Standard Chartered gives institutional clients access to USDC minting and redemption": 1783036875.3589885,
 "Starling to axe 130 jobs as part of automation drive": 1783083208.6012392,
@@ -1394,8 +1390,9 @@
 "Xiaohongshu reportedly launches internal Darwin project to develop new products": 1782974202.2501867,
 "Xiaomi launches crowdfunding for its first smart storage device": 1782974202.2501867,
 "Yep, we\u2019re using OpenClaw to date now": 1783005054.7635581,
+"ZEN.COM Launches Mastercard Click to Pay Across Europe and Singapore": 1783123224.2051506,
 "Zhipu AI releases harness for GLM-5.2 model as Chinese firm takes aim at Anthropic": 1782994174.2740366,
 "geoSurge Raises $12 Million to Help Brands Secure AI Visibility": 1783105913.0247188
 },
-"updated": 1783116485
+"updated": 1783123224
 }
