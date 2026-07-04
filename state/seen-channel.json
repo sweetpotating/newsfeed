@@ -1273,6 +1273,7 @@
 "fa32c5ce3f1e2d53": 1781093863.2189386,
 "fa67379f30b1db74": 1781903105.088418,
 "fa9c56600192c71c": 1783036875.3589826,
+"faac0bdc9c6930d4": 1783150859.2037573,
 "fac9bed74e5de7c4": 1782156119.7045648,
 "fae173f5fba9c3cb": 1780546022.2009194,
 "fae356478917768b": 1781785229.0090559,
@@ -1317,7 +1318,6 @@
 "Anthropic wants to develop its own drugs": 1783091176.5116441,
 "CAS Institute of Software Launches Reasoning Lens, Making AI Model Thinking Processes Visible": 1783053484.293304,
 "Can Cursor Remain a Platform for OpenAI and Anthropic\u2019s Models Inside SpaceX?": 1783019827.3936384,
-"China\u2019s AI-defined vehicles make smart motoring human-centred": 1782974202.2501867,
 "China\u2019s ByteDance discovers new scaling law that could sustain AI boom": 1783116485.1561308,
 "China\u2019s Domestic AI in the First Half of 2026: From Compute Substitution to Training Closure": 1783053484.293304,
 "Chinese Tech Giants Race to Match Claude Code as Alibaba, Tencent, and ByteDance Join the Fray": 1782994174.2740366,
@@ -1335,7 +1335,6 @@
 "Hit party game Party Animals heads to mobile, bringing furry chaos to smartphones": 1783065510.4559004,
 "How a small Portuguese university city is building hard-tech startups": 1783065510.4559004,
 "IMF issues tokenisation warning": 1783091176.5116441,
-"Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office": 1782974202.2501867,
 "Infinite and Sardine launch two-way integration": 1783014083.58462,
 "Inside CXMT\u2019s US$4.3b IPO: soaring profits meet US export threat and high-stakes HBM race": 1782986272.0238962,
 "Inside Huaqiangbei's AI Hardware Boom: Four Kings and Budget Products Conquering the Mass Market": 1783112329.8143446,
@@ -1353,6 +1352,7 @@
 "Meta Is Charging a Subscription for Smart Glasses Features. Welcome to the New Era of Consumer Tech": 1782986272.0238962,
 "Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents": 1783112329.8143446,
 "Microsoft launches its own AI deployment company with $2.5 billion commitment": 1783005054.7635581,
+"Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code": 1783150859.2037609,
 "Monetary Authority of Singapore and banks team on safeguards for AI agents": 1783083208.6012392,
 "Morphic launches RGLTD for digital assets": 1782994174.2740366,
 "NCI and DataExpert launch crypto compliance training programme": 1782986272.0238962,
@@ -1365,7 +1365,6 @@
 "Regions Bank Accelerates Capital Markets Push With Frazer Lanier Acquisition": 1783019827.3936384,
 "Security vulnerability reports have exploded since AI models started hunting for bugs": 1783099175.439928,
 "Sen. Warner Demands DOJ Probe Into Homeland Security Network Breach": 1783025980.4296288,
-"SmartCore Secures Millions in Funding for Silicon Photonics AI Chip Interconnect Breakthrough": 1782974202.2501867,
 "Square adds ChatGPT and Claude integrations": 1783025980.4296288,
 "Standard Chartered gives institutional clients access to USDC minting and redemption": 1783036875.3589885,
 "Starling to axe 130 jobs as part of automation drive": 1783083208.6012392,
@@ -1388,12 +1387,10 @@
 "WBS and Quai Digital extend fractional dealing partnership": 1783065510.4559004,
 "WealthArc adds crypto assets to its data platform": 1782994174.2740366,
 "XPENG MONA L03 Unveiled with Pre-Sales Starting at RMB 143,800": 1783053484.293304,
-"Xiaohongshu reportedly launches internal Darwin project to develop new products": 1782974202.2501867,
-"Xiaomi launches crowdfunding for its first smart storage device": 1782974202.2501867,
 "Yep, we\u2019re using OpenClaw to date now": 1783005054.7635581,
 "ZEN.COM Launches Mastercard Click to Pay Across Europe and Singapore": 1783123224.2051506,
 "Zhipu AI releases harness for GLM-5.2 model as Chinese firm takes aim at Anthropic": 1782994174.2740366,
 "geoSurge Raises $12 Million to Help Brands Secure AI Visibility": 1783105913.0247188
 },
-"updated": 1783139452
+"updated": 1783150859
 }
