@@ -296,6 +296,7 @@
 "36d464e56d9c3393": 1781234729.3324416,
 "370545c659b8820a": 1780891575.1607192,
 "373df63f1108525d": 1783019827.3936331,
+"376e01b1140b0272": 1783296843.2895346,
 "3772517619621337": 1782736063.212275,
 "3791f88565f8f496": 1783191743.2873638,
 "37d83991a93a1f97": 1780804920.4817452,
@@ -362,6 +363,7 @@
 "4600462b11c1a928": 1781133766.412285,
 "4606be9b94599d04": 1781889292.0951767,
 "4637fd5c9a6c32f2": 1782904798.7962394,
+"4667ff8f379ce862": 1783296843.2895346,
 "46725ec6a138bd95": 1781429149.366827,
 "46aa995e5d9ff35b": 1783099175.4399211,
 "4735f03612b2c8e7": 1781932110.6044931,
@@ -727,6 +729,7 @@
 "8ce721ddf70ebaf4": 1782469202.4159558,
 "8d1ea2dc447e3cd2": 1781451984.821536,
 "8d2a2a5af1a62955": 1782994174.2740297,
+"8d37a34a5b16fff3": 1783296843.2895346,
 "8d619b521f889a5a": 1782570311.750658,
 "8d769de374f99145": 1782925783.0689552,
 "8d796b44eab9a2e0": 1780409098.955187,
@@ -1098,6 +1101,7 @@
 "d419813fee26c57a": 1783139446.1428735,
 "d4808b99a7790ee0": 1781849550.421243,
 "d484de5576e8df56": 1781056052.3985715,
+"d4e35ffd10d7daf3": 1783296843.2895346,
 "d51a08c89f9777ea": 1780058919.7802155,
 "d531aa2edaa24007": 1781820111.7934895,
 "d5564c7191eb8c12": 1782583057.4829674,
@@ -1347,6 +1351,7 @@
 "ff7a5e3ef1229fbc": 1782642234.7571275
 },
 "titles": {
+"49% of Young Adults Living With Parents as Costs Climb": 1783296843.2895396,
 "74 Yuan for 3 Hours: Embodied AI Robots Begin Entering Chinese Homes for Household Chores": 1783139452.1709895,
 "A 26,000-student study shows AI's hidden learning cost takes two full years to surface": 1783159421.6407995,
 "AI Glasses Face the Impossible Triangle: Cost, Performance, Battery Life in Chip Design": 1783221819.6283045,
@@ -1367,6 +1372,8 @@
 "Citi CEO says 2 AI races are shaping future of banking": 1783253493.203205,
 "Claude Code and Fable 5 ported the 2003 PC game Command & Conquer to native iOS in \"a few hours\"": 1783267360.9199178,
 "Crypto Use Among Rogue States Jumped Eightfold in 2025": 1783292405.859059,
+"Cr\u00e9dit Agricole buys Worldline out of merchant payments JV": 1783296843.2895396,
+"Financial platform for immigrants LemFi buys Wealth8": 1783296843.2895396,
 "From Gigabit to 10-Gigabit: Huawei AI-FAN Architecture Drives Broadband Home Upgrade": 1783166587.5612748,
 "From Models to Workflows: A Review of Image and Video Generation Models in H1 2026": 1783246015.9605606,
 "Fu Cong Team and Xiamen University Propose ManCAR: Manifold-Constrained Adaptive Reasoning Boosts Recommendation by 46%": 1783166587.5612748,
@@ -1384,6 +1391,7 @@
 "Peking University and CAS Develop World's First Neurodynamic Chip Based on Phase-Change Memristors": 1783221819.6283045,
 "Prediction Markets Score Thanks to World Cup\u2019s Popularity": 1783292405.859059,
 "Semiconductor Prices Skyrocket as AI Demand Fuels Industry-Wide Chip Shortage": 1783175097.5209482,
+"Tesla Pumps Brakes on In-House AI Usage": 1783296843.2895396,
 "The Weekender: The Star-Spangled Receipt": 1783159421.6407995,
 "The fanfiction community is at war with AI \u2014 and itself": 1783166587.5612748,
 "Tsinghua Special Scholarship Winner Gu Yuxian Joins DeepSeek Ahead of V4 Launch": 1783246015.9605606,
@@ -1391,8 +1399,7 @@
 "What is Mistral AI? Everything to know about the OpenAI competitor": 1783180624.5750594,
 "When Huawei's Sports Algorithm License Was Revoked: How a Five-Person Cross-Border Team Built a Replacement in 8 Months": 1783246015.9605606,
 "White House Adviser Says Trump Won\u2019t Create \u2018FDA for AI\u2019": 1783288616.7181213,
-"ZEN.COM Launches Mastercard Click to Pay Across Europe and Singapore": 1783123224.2051506,
 "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)": 1783221819.6283045
 },
-"updated": 1783292405
+"updated": 1783296843
 }
