@@ -1,45 +1,45 @@
 {
-"generated": 1783650275,
+"generated": 1783686114,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/\">Fidji Simo steps down from OpenAI’s no. 2 role</a></b>\n<i>TechCrunch AI · 🟧 Claude · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI&#x27;s No. 2 executive Fidji Simo is stepping down after extended medical leave.\n• Leadership change occurs as OpenAI pursues IPO and competes with Anthropic in enterprise.\n• Departure creates executive vacuum at critical time for the company.\n\n📰 <i>Also covered by: The Verge – AI, Wired – AI</i>\n\n<a href=\"https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/deutsche-telekom\">How Deutsche Telekom is rewiring telecommunications with AI</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 5h ago</i>\n\n• Deutsche Telekom is implementing OpenAI technology across customer service, employee workflows, and network operations.\n• The telco is positioning itself as AI-native, integrating AI into voice and telecommunications infrastructure.\n• The transformation aims to reshape how traditional telecom services operate and deliver customer value.\n\n<a href=\"https://openai.com/index/deutsche-telekom\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/former-fed-chief-ben-bernanke-joins-anthropic-watchdog-group/\">Former Fed Chief Ben Bernanke Joins Anthropic’s Watchdog Group</a></b>\n<i>PYMNTS · 🟧 Claude · 4h ago</i>\n\n• Former Fed Chair Ben Bernanke joined Anthropic&#x27;s independent Long-Term Benefit Trust oversight body.\n• Trust holds Anthropic accountable to responsible AI development mission.\n• High-profile governance figure signals external accountability structure.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/former-fed-chief-ben-bernanke-joins-anthropic-watchdog-group/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/Anthropic.jpeg?w=457"
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/bun-ditches-zig-for-rust-with-help-from-claude-fable-5-writes-over-a-million-lines-of-code-in-11-days/\">Bun ditches Zig for Rust with help from Claude Fable 5, writes over a million lines of code in 11 days</a></b>\n<i>The Decoder · 🟧 Claude · 1h ago</i>\n\n• Bun rewrote its entire JavaScript tool from Zig to Rust using Claude Fable 5&#x27;s assistance.\n• The conversion generated over one million lines of code in just 11 days.\n• This demonstrates Fable 5&#x27;s capability to handle massive, complex code migration projects.\n\n<a href=\"https://the-decoder.com/bun-ditches-zig-for-rust-with-help-from-claude-fable-5-writes-over-a-million-lines-of-code-in-11-days/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/claude_logo_money.png"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/\">Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic</a></b>\n<i>TechCrunch AI · 🟧 Claude · 4h ago</i>\n\n• Elon Musk pledged not to &quot;cut off&quot; Anthropic if it uses his infrastructure.\n• Musk offered to host Anthropic&#x27;s models with $40 billion revenue stakes involved.\n• Statement addresses trust concerns about relying on Musk&#x27;s platform.\n\n<a href=\"https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/\">Meta&#x27;s Muse Spark 1.1 API pricing squeezes OpenAI and Anthropic as the AI price war heats up</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · ⚡ Grok · 19h ago</i>\n\n• Meta launched Muse Spark 1.1 API at $4.25 per million output tokens, undercutting competitors.\n• Pricing is lower than Grok 4.5 and significantly cheaper than Anthropic or OpenAI offerings.\n• The move intensifies price competition in the AI API market.\n\n<a href=\"https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/\">Read more →</a>",
+"photo": "http://the-decoder.com/wp-content/uploads/2026/07/muse_spark_computer_use.mp4"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/\">GPT-5.6 Sol nearly matches Fable 5 on aggregated benchmarks at one-third the cost</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 17h ago</i>\n\n• OpenAI&#x27;s GPT-5.6 Sol scores 59 points on benchmarks, nearly matching Claude Fable 5&#x27;s 60.\n• Sol costs $1.04 per task, roughly one-third the price of Fable 5.\n• Sol outperforms competitors in agentic coding tasks while maintaining cost advantage.\n\n<a href=\"https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/openai_sol.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/\">Anthropic Wants You to Pay Up for Claude Fable 5</a></b>\n<i>Wired – AI · 🟧 Claude · 17h ago</i>\n\n• Anthropic is introducing usage-based fees for Claude Fable 5 access among Claude subscribers.\n• The shift signals the end of fixed-price AI subscription models.\n• Premium consumers must now pay beyond base subscription to access the best model.\n\n<a href=\"https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/\">Read more →</a>",
+"photo": "https://media.wired.com/photos/6a4ece7dd12b964679cc8452/master/pass/business_claude_price_increase.jpg"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage\">Say hello to Claude Wrapped</a></b>\n<i>The Verge – AI · 🟧 Claude · 22h ago</i>\n\n• Anthropic launched a &quot;reflect&quot; feature for Claude, showing year-in-review analysis of user interactions.\n• The feature mirrors the popularity of Spotify Wrapped and similar annual recaps.\n• Claude users can now see aggregated insights into their chat history and usage patterns.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Claude-Reflect-graph-blog.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/\">OpenAI may have made a fatal misstep in copyright fight with news orgs</a></b>\n<i>Ars Technica – AI · 🟢 ChatGPT · 17h ago</i>\n\n• OpenAI faces potential sanctions for hiding and deleting ChatGPT logs in the NYT copyright lawsuit.\n• The action violates discovery obligations, complicating OpenAI&#x27;s legal position.\n• Evidence handling issues could undermine OpenAI&#x27;s defense in copyright disputes.\n\n<a href=\"https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/\">Read more →</a>",
+"photo": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2270682238-1152x648.jpg"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jul/9/llm/#atom-everything\">llm 0.31.1</a></b>\n<i>Simon Willison · 🟢 ChatGPT · 20h ago</i>\n\n• llm 0.31.1 fixed a bug affecting OpenAI Chat Completion endpoints with empty tool arguments.\n• The fix resolves JSON errors from some providers when tools have no parameters.\n• The release improves compatibility across different OpenAI endpoint implementations.\n\n<a href=\"https://simonwillison.net/2026/Jul/9/llm/#atom-everything\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Jul/10/openai/#atom-everything\">Quoting OpenAI</a></b>\n<i>Simon Willison · 🟢 ChatGPT · 1h ago</i>\n\n• OpenAI&#x27;s new work feature separates cloud and desktop functionality.\n• Cloud conversations don&#x27;t sync to desktop; local files stay on-device.\n• Privacy controls limit cross-platform data access for users.\n\n<a href=\"https://simonwillison.net/2026/Jul/10/openai/#atom-everything\">Read more →</a>",
-"photo": null
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/\">OpenAI finds roughly 30 percent of popular AI coding test is broken</a></b>\n<i>The Decoder · 🟢 ChatGPT · 22h ago</i>\n\n• OpenAI found approximately 30 percent of SWE-Bench Pro tasks are broken or flawed.\n• The company withdrew its endorsement of the benchmark used to measure AI coding abilities.\n• This raises questions about the reliability of other widely-used AI evaluation benchmarks.\n\n<a href=\"https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/openai_logo_vis-1.png"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/\">OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI designated GPT-5.6 as preferred model for Microsoft Copilot 365.\n• Partnership continues despite speculation about OpenAI and Microsoft relationship tensions.\n• New model family will power Microsoft&#x27;s workplace productivity suite.\n\n📰 <i>Also covered by: OpenAI News</i>\n\n<a href=\"https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/\">OpenAI launches its new family of models with GPT-5.6</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 4h ago</i>\n\n• OpenAI released new GPT-5.6 model family with improvements across areas.\n• Cybersecurity is listed among upgraded capabilities.\n• New models represent latest advancement in company&#x27;s product line.\n\n📰 <i>Also covered by: OpenAI News, Simon Willison, The Verge – AI</i>\n\n<a href=\"https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/\">OpenAI is shutting down Atlas, but its AI browser ambitions are still growing</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 4h ago</i>\n\n• OpenAI is shutting down its Atlas AI browser product.\n• Browsing features are being moved to desktop app and Chrome extension.\n• Company abandoning standalone browser but retaining agentic web capabilities.\n\n📰 <i>Also covered by: The Verge – AI</i>\n\n<a href=\"https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/\">OpenAI wants its new tool to do your work for you and with you</a></b>\n<i>Ars Technica – AI · 🟢 ChatGPT · 4h ago</i>\n\n• OpenAI rebranded Codex with ability to work independently for extended periods.\n• New tool can run workflows &quot;for hours if needed&quot; with minimal intervention.\n• Focus on autonomous task execution for workplace productivity.\n\n📰 <i>Also covered by: OpenAI News</i>\n\n<a href=\"https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/\">Read more →</a>",
-"photo": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/gptwork-1152x648-1783630571.webp"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/bio-bug-bounty\">GPT-5.5 Bio Bug Bounty</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 16h ago</i>\n\n• OpenAI launched a bug bounty program focused on AI safety in biological domain.\n• Program incentivizes security research on GPT-5.5 model.\n• Details about scope and rewards available from OpenAI.\n\n<a href=\"https://openai.com/index/bio-bug-bounty\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/\">Anthropic found a hidden space where Claude puzzles over concepts</a></b>\n<i>MIT Tech Review – AI · 🟧 Claude · 6h ago</i>\n\n• Anthropic discovered hidden conceptual reasoning spaces within Claude&#x27;s computations.\n• Technique reveals clearer visibility into LLM internal decision-making processes.\n• Findings reveal both mundane and concerning patterns in model reasoning.\n\n<a href=\"https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/\">Read more →</a>",
-"photo": "https://wp.technologyreview.com/wp-content/uploads/2026/07/Screenshot-2026-07-09-at-20.29.29.png?w=180"
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/global-ai-cost-efficiency-shift-deepseek-zhipu-qwen-jul2026\">Global AI Market Shift: Why Developers Are Choosing Cost-Efficient Models</a></b>\n<i>Pandaily (China) · 🟣 Qwen · 🐳 DeepSeek · 🌏 Asia · 9h ago</i>\n\n• Cost-efficient models from DeepSeek, Zhipu AI, and Qwen captured over 20% of OpenRouter&#x27;s token share.\n• Developers are systematically switching to cheaper alternatives from Chinese AI providers.\n• Market preferences show structural shift toward price-conscious AI infrastructure choices.\n\n<a href=\"https://pandaily.com/global-ai-cost-efficiency-shift-deepseek-zhipu-qwen-jul2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article2_3111ff8807.png"
 }
 ]
 }
