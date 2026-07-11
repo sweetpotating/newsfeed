@@ -244,6 +244,7 @@
 "2433837a332c704a": 1781078265.7462046,
 "243c7ccb08817f27": 1782083261.0937996,
 "24767025dcf6fa80": 1782947344.3410656,
+"24b1defa67998b7a": 1783792253.7745793,
 "24b8bb5348124056": 1782255891.2172763,
 "24bd82220df5b2ea": 1783585772.3288713,
 "24ef5560a1e825ee": 1782819686.271629,
@@ -1352,6 +1353,7 @@
 "d30447cdf6e9c44b": 1782479243.6577134,
 "d32967dfba8ea602": 1782099571.1089141,
 "d330e0c6f5608b04": 1783116485.1561239,
+"d38b079a7f514e08": 1783792250.2839422,
 "d39143a403054465": 1782469202.4159558,
 "d39f24aa3d4e2c1d": 1781591398.4270093,
 "d3d829963b76bd31": 1781517454.6410766,
@@ -1688,8 +1690,6 @@
 "An AI Told Millions Norway Won. The Match Hadn\u2019t Started": 1783631934.5046206,
 "Anthropic Wants You to Pay Up for Claude Fable 5": 1783625801.7678213,
 "Anthropic found a hidden space where Claude puzzles over concepts": 1783631934.5046206,
-"Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits": 1783617491.0068417,
-"Anthropic\u2019s new Claude feature is quietly selling you on AI": 1783617491.0068417,
 "Apple sues OpenAI for allegedly stealing hardware secrets": 1783720605.793619,
 "Arab African International Bank names technology head": 1783727998.4375336,
 "Axos Aims to Expand AI-Powered Financial Services With Arc Acquisition": 1783625801.7678213,
@@ -1732,7 +1732,6 @@
 "Kimi Launches AI-Native Credit Card: Moonshot AI Partners With Agricultural Bank of China and American Express": 1783764665.9374146,
 "Lendable raises $670m for global expansion": 1783678801.0683224,
 "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts": 1783750147.6141236,
-"Meta's Muse Spark 1.1 API pricing squeezes OpenAI and Anthropic as the AI price war heats up": 1783617491.0068417,
 "Meta's Muse Spark 1.1 outperforms GLM-5.2 in coding and costs slightly less": 1783759425.3927634,
 "MiniMax CEO forgoes salary until \u2018AGI achieved\u2019 as firm seeks US$2b amid 80% stock plunge": 1783665597.0516264,
 "Nepal's MBL selects ZIGRAM for AML": 1783678801.0683224,
@@ -1744,7 +1743,6 @@
 "OpenAI Launches ChatGPT Agent That Executes Complex Workflows": 1783631934.5046206,
 "OpenAI admits it \"didn't get everything quite right\" with ChatGPT Work launch and scrambles to fix UX and costs": 1783759425.3927634,
 "OpenAI bets on families as ChatGPT goes deeper into households": 1783781271.2563741,
-"OpenAI rolls out GPT-5.6 after government green light \u2014 and announces \u2018ChatGPT Work\u2019": 1783617491.0068417,
 "OpenAI says GPT 5.6 is the \u2018preferred model\u2019 for Microsoft Copilot 365 amid breakup chatter": 1783650593.0312824,
 "OpenAI staffer maps out which of GPT-5.6 Sol's five reasoning levels fits which task complexity": 1783707587.6004803,
 "OpenAI\u2019s Head of Safety Is Leaving the Company": 1783740276.8238888,
@@ -1759,6 +1757,7 @@
 "Shein receives approval for Hong Kong IPO from Chinese regulators": 1783727998.4375336,
 "Stablecoin Adoption Runs Into the Treasury Back Office": 1783720605.793619,
 "Tencent moves to buy majority stake in Manus after Beijing forced Meta to unwind its $2 billion deal": 1783724296.0242717,
+"Terrorist groups are using every major AI chatbot for attack planning and weapons development": 1783792253.774582,
 "The ChatGPT browser is already dead": 1783631934.5046206,
 "The Fed wants AI investor Marc Andreessen to help figure out if AI can tame inflation": 1783688898.1246085,
 "The Weekender: Honey, I Shrunk the Unicorn": 1783759425.3927634,
@@ -1769,8 +1768,7 @@
 "Why Decentralized Systems Can\u2019t Clear the CFO Sniff Test": 1783707587.6004803,
 "Would you host part of an AI data center in your home?": 1783727998.4375336,
 "Zhipu AI and DeepSeek: Breaking Into the US Market Through Cost-Effectiveness": 1783650593.0312824,
-"llm 0.31.1": 1783617491.0068417,
 "logicalqubit Launches Quantum Cloud for All Industries, as First Quantum Computing Companies Begin Harvesting": 1783740276.8238888
 },
-"updated": 1783781271
+"updated": 1783792253
 }
