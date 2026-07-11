@@ -1279,6 +1279,7 @@
 "c6c2e6dc277d4175": 1781517441.329009,
 "c6e7019fe51eabd0": 1783631921.498071,
 "c71f854be1a8bcbe": 1781128569.0190413,
+"c74d6a2edcd74641": 1783781271.256371,
 "c78b574e05333dd1": 1782773509.250103,
 "c7b37ff394833ea5": 1780199856.480818,
 "c7b6e0d15e340e1a": 1781700720.719158,
@@ -1691,7 +1692,6 @@
 "Anthropic\u2019s new Claude feature is quietly selling you on AI": 1783617491.0068417,
 "Apple sues OpenAI for allegedly stealing hardware secrets": 1783720605.793619,
 "Arab African International Bank names technology head": 1783727998.4375336,
-"Aria raises \u20ac7m and launches \u20ac240m debt facility to scale invoice financing": 1783608352.8692749,
 "Axos Aims to Expand AI-Powered Financial Services With Arc Acquisition": 1783625801.7678213,
 "Banks Turn Stablecoin Safety Into a Selling Point": 1783631934.5046206,
 "Banyan Software acquires stake in WIZE": 1783678801.0683224,
@@ -1718,7 +1718,6 @@
 "Former Fed Chief Ben Bernanke Joins Anthropic\u2019s Watchdog Group": 1783638426.1301808,
 "GPT-5.5 Bio Bug Bounty": 1783625801.7678213,
 "GPT-5.6 Sol nearly matches Fable 5 on aggregated benchmarks at one-third the cost": 1783625801.7678213,
-"Game-changer? Why China is finally letting its AI firms buy the Nvidia H200": 1783608352.8692749,
 "Global AI Market Shift: Why Developers Are Choosing Cost-Efficient Models": 1783665597.0516264,
 "Greg Brockman Takes Over OpenAI Product Business After Fidji Simo\u2019s Departure": 1783740276.8238888,
 "Here\u2019s how to make study notebooks in the Gemini app.": 1783714704.7630281,
@@ -1744,6 +1743,7 @@
 "Open source AI matters more than ever, according to Hugging Face\u2019s Clem Delangue": 1783714704.7630281,
 "OpenAI Launches ChatGPT Agent That Executes Complex Workflows": 1783631934.5046206,
 "OpenAI admits it \"didn't get everything quite right\" with ChatGPT Work launch and scrambles to fix UX and costs": 1783759425.3927634,
+"OpenAI bets on families as ChatGPT goes deeper into households": 1783781271.2563741,
 "OpenAI rolls out GPT-5.6 after government green light \u2014 and announces \u2018ChatGPT Work\u2019": 1783617491.0068417,
 "OpenAI says GPT 5.6 is the \u2018preferred model\u2019 for Microsoft Copilot 365 amid breakup chatter": 1783650593.0312824,
 "OpenAI staffer maps out which of GPT-5.6 Sol's five reasoning levels fits which task complexity": 1783707587.6004803,
@@ -1754,13 +1754,10 @@
 "Retail\u2019s Best Customer Now Arrives From ChatGPT": 1783714704.7630281,
 "Revolut recruits JP Morgan exec to lead European operations": 1783750147.6141236,
 "Robot Dogs, Teslas, and Rescue Helicopters: The UN AI Summit Was a Lot": 1783665597.0516264,
-"Say hello to Claude Wrapped": 1783608352.8692749,
 "Second-Generation Doubao Phone Coming: Nubia and ByteDance AI Agent Smartphone Nears Launch at WAIC": 1783764665.9374146,
 "Shanghai Low-Altitude Unicorn Volant Aerotech Secures $66 Billion in Orders for eVTOL Aircraft": 1783740276.8238888,
 "Shein receives approval for Hong Kong IPO from Chinese regulators": 1783727998.4375336,
-"Sony Gets Conditional OK for US-Based Stablecoin Bank": 1783608352.8692749,
 "Stablecoin Adoption Runs Into the Treasury Back Office": 1783720605.793619,
-"States Expand Guardrails on AI Use in Health Insurance Decisions": 1783608352.8692749,
 "Tencent moves to buy majority stake in Manus after Beijing forced Meta to unwind its $2 billion deal": 1783724296.0242717,
 "The ChatGPT browser is already dead": 1783631934.5046206,
 "The Fed wants AI investor Marc Andreessen to help figure out if AI can tame inflation": 1783688898.1246085,
@@ -1775,5 +1772,5 @@
 "llm 0.31.1": 1783617491.0068417,
 "logicalqubit Launches Quantum Cloud for All Industries, as First Quantum Computing Companies Begin Harvesting": 1783740276.8238888
 },
-"updated": 1783775167
+"updated": 1783781271
 }
