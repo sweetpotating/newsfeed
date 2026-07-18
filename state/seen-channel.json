@@ -268,6 +268,7 @@
 "1fd05939819ce74b": 1783498635.1885035,
 "1ff47c3459649d74": 1782255891.2172763,
 "202c35d975091b11": 1783720605.7936113,
+"20b6ade3b33e1f95": 1784369687.5784178,
 "20dd405bc0554eaa": 1782986272.0238905,
 "20e226947a3ad968": 1782546336.895345,
 "20fef7f5b2d2cd6a": 1780832953.3630493,
@@ -490,6 +491,7 @@
 "3bf3b47d7dacae19": 1781333738.1542149,
 "3bf93647d72dd5ef": 1783857302.8535898,
 "3c14377a80b927ef": 1781753109.190061,
+"3c234bf22809a81d": 1784369687.5784178,
 "3c3da5c14b1f23bb": 1783688898.124602,
 "3c5ab5a6e498f7a6": 1784035295.1555674,
 "3c690c812db8d5d4": 1784357862.5979393,
@@ -1342,6 +1344,7 @@
 "a87106da7438fa4d": 1782561967.6886673,
 "a87162ca1af2ea49": 1783764665.9374082,
 "a875ec5ef364e53f": 1783498622.5644164,
+"a87a47c6039fb179": 1784369687.5784178,
 "a8800a606b81e387": 1783750147.614117,
 "a88300217e74eed4": 1782546336.895345,
 "a88663736fbe0de1": 1783900065.8633845,
@@ -2044,6 +2047,7 @@
 "China\u2019s AI Stack Is No Longer Catching Up \u2014 It\u2019s Setting the Pace": 1784266598.4397721,
 "China\u2019s Xi Jinping addresses World AI Conference as US tech rivalry heats up": 1784254111.3424459,
 "China\u2019s tech giants fuel the rise of AI tokens as a new corporate currency": 1784350177.1972299,
+"Chinese chip start-up Biren bets on light-based \u2018supernodes\u2019 to match Nvidia": 1784369687.5784605,
 "Citadel Securities Takes $400 Million Stake in Crypto.com": 1784242385.611787,
 "Citizens Bank Mobilizes AI to Target $450 Million Operational Savings by 2028": 1784231932.3569303,
 "Claude can now use your 1Password credentials for you": 1784213780.2392163,
@@ -2073,6 +2077,7 @@
 "HSBC joins digital gilt pilot as investor depository": 1784246058.9777923,
 "Here\u2019s Why Anthropic Is Pushing States to Regulate AI Faster": 1784231932.3569303,
 "How Cars24 scales conversations and builds faster with OpenAI": 1784218511.5224488,
+"How Google\u2019s New Gemini Rates Work and How to Track Your Usage": 1784369687.5784605,
 "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product": 1784218511.5224488,
 "Instacart Acquires Arpalus to Move Intelligence In Store": 1784254111.3424459,
 "It's official: EU will force Google to share search data and open up AI on Android": 1784235874.3080494,
@@ -2101,6 +2106,7 @@
 "PayPal Board Calls $53 Billion Stripe-Advent Bid Inadequate": 1784289891.7610505,
 "PayPal launches Pay in 30 days for UK shoppers": 1784204251.4013357,
 "Please Stop Making Me Opt Out of AI": 1784199235.6441336,
+"Prompt Injection Attacks Are Thwarting AI Hacking Agents": 1784369687.5784605,
 "Quoting Thibault Sottiaux": 1784224916.9528725,
 "Regions Bank\u2019s Mobile Upgrade Drives Digital Transactions to 80%": 1784332051.3770154,
 "San Francisco Demands Apple and Google Delete AI \u2018Nudify\u2019 Apps From App Stores": 1784282852.3920236,
@@ -2140,5 +2146,5 @@
 "Zuckerberg's plan to sell excess AI compute could finds its first big customer in Anthropic": 1784324778.7116945,
 "nascheme/quixote": 1784357862.597943
 },
-"updated": 1784364543
+"updated": 1784369687
 }
