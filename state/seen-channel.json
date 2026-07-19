@@ -1752,6 +1752,7 @@
 "dd1336ad1965761b": 1783556255.84532,
 "dd165d96a2ddb010": 1784289879.7689555,
 "dd4421966f86e58f": 1783468448.2744386,
+"dd79aea2a3dfcd2f": 1784479929.721355,
 "dd7a647f417e2602": 1783720591.996993,
 "ddc8f2f58110ae4d": 1784099488.3322227,
 "dde9e9dd85872a91": 1784379722.7665584,
@@ -2035,7 +2036,7 @@
 "Agility Robotics plants its flag in Tesla\u2019s backyard": 1784321280.6341145,
 "Alibaba targets Nvidia\u2019s dominant software ecosystem with open-source AI stack": 1784375414.5916913,
 "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\"": 1784466267.7245903,
-"B2B payments fintech Pliant targets US via Coastal partnership": 1784304648.8911052,
+"Amazon Web Services bets on 'one-person unicorns' with new accelerator for Chinese founders": 1784479929.721359,
 "ByteDance Doubao Phone Gen 2 Hands-On: Nubia NaviX Ultra Runs Douyin and Luckin as AI Agents Queue Up to Work": 1784426925.8402653,
 "CXMT Targets Trillion-Yuan Market Cap: China DRAM Leader Carries the Flag for Memory Chip Localization Against Samsung and SK Hynix": 1784339865.8106458,
 "California Tightens Scrutiny of AI Hiring Tools Amid Reports of Racial Bias": 1784311224.8115358,
@@ -2053,9 +2054,7 @@
 "Databricks hits $188B valuation, extending its run as AI\u2019s favorite second act": 1784328181.873141,
 "Dave Eggers told OpenAI staff that ChatGPT was \u2018silencing an entire generation\u2019": 1784411058.9881992,
 "Ethics Battle Freezes Clarity Act Ahead of Senate Recess": 1784332051.3770154,
-"FIS and Anthropic extend partnership": 1784304648.8911052,
 "Fifth Third Sees Comerica Merger Wins Ahead of Labor Day Conversion": 1784332051.3770154,
-"Fine-tune video and image models at scale with NVIDIA NeMo Automodel and \ud83e\udd17 Diffusers": 1784304648.8911052,
 "Fudan University Quantum Flash Technology Hits Theoretical Limit: Room-Temperature Single-Electron Storage Published in Science": 1784324778.7116945,
 "GPT-5.6 is deleting user files when given full access, and OpenAI says it shouldn't but did": 1784321280.6341145,
 "Google Deepmind argues video generators already contain the world models computer vision has been missing": 1784456559.5290334,
@@ -2068,7 +2067,6 @@
 "Moonshot's Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math": 1784456559.5290334,
 "Neil Rimer thinks the AI money is coming back out": 1784350177.1972299,
 "Netflix's 300 AI productions show how fast the technology is spreading through entertainment": 1784316092.5134768,
-"New Pharmacy Benefit Manager Rules Shift Focus to Verifiable Accountability": 1784304648.8911052,
 "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all": 1784472619.9372685,
 "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost": 1784375414.5916913,
 "Patreon stops asking AI bots not to scrape \u2014 and starts blocking them": 1784316092.5134768,
@@ -2082,7 +2080,6 @@
 "The apps, gadgets, and tools every reader needs": 1784379722.7665625,
 "TikTok is testing an AI likeness detection tool": 1784324778.7116945,
 "To Make Chips, First Build a Vacuum World: How Extreme Vacuum Technology Enables Modern Semiconductor Manufacturing": 1784448445.3246884,
-"Truist Bets on Digital Engagement to Deepen Banking Ties": 1784304648.8911052,
 "Trump Media to sell traders instant access to market moving Truth Social posts": 1784311224.8115358,
 "VC Firm Lakestar Raises $300 Million to Fund European Tech Sovereignty": 1784311224.8115358,
 "Vertu wants executives to pay $6,880 for an AI agent \u2014 here\u2019s how it actually performs": 1784332051.3770154,
@@ -2098,5 +2095,5 @@
 "nascheme/quixote": 1784357862.597943,
 "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019": 1784476364.003542
 },
-"updated": 1784476364
+"updated": 1784479929
 }
