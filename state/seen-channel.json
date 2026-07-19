@@ -832,6 +832,7 @@
 "681629b2c9b43522": 1783994297.526478,
 "681d1d98a20913ab": 1781008752.0030005,
 "683c0d7bec939f41": 1783513549.845009,
+"6847fbc679df6774": 1784497524.105693,
 "684a2647fa1cae5f": 1783116485.1561239,
 "687180cc35fad490": 1782326894.7298865,
 "687691017f4c9653": 1783314411.0596492,
@@ -2034,8 +2035,6 @@
 "AI Phones Are Not Competing on Models: The Real Battle Is Over the User Entry Point, and Super Apps Hold the Key": 1784448445.3246884,
 "AI chatbots reading X-rays can be dangerously confident even when they're wrong": 1784448445.3246884,
 "AI text detectors struggle when language models mimic an author's style": 1784456559.5290334,
-"AI-driven memory crunch jolts India\u2019s smartphone market": 1784321280.6341145,
-"Agility Robotics plants its flag in Tesla\u2019s backyard": 1784321280.6341145,
 "Alibaba targets Nvidia\u2019s dominant software ecosystem with open-source AI stack": 1784375414.5916913,
 "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\"": 1784466267.7245903,
 "Amazon Web Services bets on 'one-person unicorns' with new accelerator for Chinese founders": 1784479929.721359,
@@ -2051,15 +2050,12 @@
 "Chinese chip start-up Biren bets on light-based \u2018supernodes\u2019 to match Nvidia": 1784369687.5784605,
 "Claude Code uses Bun written in Rust now": 1784439979.0832555,
 "Claude make Fable 5 permanent": 1784357862.597943,
-"Consumer Sentiment Jumped 10% in July Before Gas Price Hikes": 1784321280.6341145,
 "Databricks hits $188B valuation, extending its run as AI\u2019s favorite second act": 1784328181.873141,
 "Dave Eggers told OpenAI staff that ChatGPT was \u2018silencing an entire generation\u2019": 1784411058.9881992,
 "Ethics Battle Freezes Clarity Act Ahead of Senate Recess": 1784332051.3770154,
 "Fifth Third Sees Comerica Merger Wins Ahead of Labor Day Conversion": 1784332051.3770154,
 "Fudan University Quantum Flash Technology Hits Theoretical Limit: Room-Temperature Single-Electron Storage Published in Science": 1784324778.7116945,
-"GPT-5.6 is deleting user files when given full access, and OpenAI says it shouldn't but did": 1784321280.6341145,
 "Google Deepmind argues video generators already contain the world models computer vision has been missing": 1784456559.5290334,
-"Google-backed satellites for wildfire detection launch as smoke chokes US, Canada": 1784321280.6341145,
 "Hong Kong Cyberport Is Becoming the Springboard for Chinese AI Going Global: From Computing Power to Standards to Markets": 1784426925.8402653,
 "How Chinese tech giants from Ant to Tencent use AI agents to win over enterprise clients": 1784466267.7245903,
 "How Google\u2019s New Gemini Rates Work and How to Track Your Usage": 1784369687.5784605,
@@ -2080,6 +2076,7 @@
 "To Make Chips, First Build a Vacuum World: How Extreme Vacuum Technology Enables Modern Semiconductor Manufacturing": 1784448445.3246884,
 "Vertu wants executives to pay $6,880 for an AI agent \u2014 here\u2019s how it actually performs": 1784332051.3770154,
 "WAIC 2026: Six Trends We Observed at the World AI Conference as Industry Shifts From Models to Systems": 1784364543.8202267,
+"What to watch for after Jensen Huang\u2019s Japan visit": 1784497524.1056967,
 "Will AI fix prior authorization\u2014or make it worse?": 1784375414.5916913,
 "World First Robot Phone Dances at WAIC: Honor Robot Phone Debuts With 4DoF Mechanical Gimbal and Proactive AI That Moves": 1784426925.8402653,
 "World Lightest AI Glasses at 14.9g Go on Sale: Moonix Focuses on Memory Recording With 16-Hour Battery and 39 Interchangeable Frames": 1784339865.8106458,
@@ -2089,5 +2086,5 @@
 "nascheme/quixote": 1784357862.597943,
 "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019": 1784476364.003542
 },
-"updated": 1784491669
+"updated": 1784497524
 }
