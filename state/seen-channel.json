@@ -1104,6 +1104,7 @@
 "8bc914acac17b1ac": 1782030304.1347046,
 "8bde9d55d36f4678": 1782165555.541808,
 "8c4aca87a293bb29": 1783332420.9412518,
+"8c6d3898ea9449a5": 1784472615.799563,
 "8c7ef7001386d0d5": 1783638414.0974386,
 "8ccf642c8d963c98": 1783523692.5269437,
 "8ce721ddf70ebaf4": 1782469202.4159558,
@@ -1622,6 +1623,7 @@
 "cfa212dead722956": 1781733402.3188076,
 "cfa93e08c59e455f": 1784199235.6441264,
 "cfac85f86932f67e": 1784109402.5507708,
+"cfe40991cd8f952b": 1784472619.937265,
 "d03b09be0b1ce904": 1781632800.586074,
 "d03cbb38a2adfa6a": 1784213780.2392116,
 "d05924c46293117b": 1784048930.1455443,
@@ -2023,8 +2025,6 @@
 "ffebddc9265a4c46": 1784042416.6978908
 },
 "titles": {
-"A scorecard for the AI age": 1784298529.7767017,
-"AI Firm Databricks Closes in on $188 Billion Valuation This Summer": 1784298529.7767017,
 "AI Is Coming for Your Job Title": 1784364543.8202267,
 "AI Mania Is Eviscerating Global Decision-Making": 1784439979.0832555,
 "AI Phones Are Not Competing on Models: The Real Battle Is Over the User Entry Point, and Super Apps Hold the Key": 1784448445.3246884,
@@ -2034,9 +2034,7 @@
 "Agility Robotics plants its flag in Tesla\u2019s backyard": 1784321280.6341145,
 "Alibaba targets Nvidia\u2019s dominant software ecosystem with open-source AI stack": 1784375414.5916913,
 "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\"": 1784466267.7245903,
-"Apple Demands Documents From Former Employees Now at OpenAI": 1784298529.7767017,
 "B2B payments fintech Pliant targets US via Coastal partnership": 1784304648.8911052,
-"BBVA becomes first Spanish bank to launch Swift\u2019s new global retail payments scheme": 1784298529.7767017,
 "ByteDance Doubao Phone Gen 2 Hands-On: Nubia NaviX Ultra Runs Douyin and Luckin as AI Agents Queue Up to Work": 1784426925.8402653,
 "CXMT Targets Trillion-Yuan Market Cap: China DRAM Leader Carries the Flag for Memory Chip Localization Against Samsung and SK Hynix": 1784339865.8106458,
 "California Tightens Scrutiny of AI Hiring Tools Amid Reports of Racial Bias": 1784311224.8115358,
@@ -2070,12 +2068,12 @@
 "Neil Rimer thinks the AI money is coming back out": 1784350177.1972299,
 "Netflix's 300 AI productions show how fast the technology is spreading through entertainment": 1784316092.5134768,
 "New Pharmacy Benefit Manager Rules Shift Focus to Verifiable Accountability": 1784304648.8911052,
+"Nonprofit Current AI is racing to build the World Wide Web of AI, free for all": 1784472619.9372685,
 "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost": 1784375414.5916913,
 "Patreon stops asking AI bots not to scrape \u2014 and starts blocking them": 1784316092.5134768,
 "Prompt Injection Attacks Are Thwarting AI Hacking Agents": 1784369687.5784605,
 "Regions Bank\u2019s Mobile Upgrade Drives Digital Transactions to 80%": 1784332051.3770154,
 "SQLite Query Explainer": 1784411058.9881992,
-"Standard Chartered picks Broadcom for private cloud infrastructure": 1784298529.7767017,
 "Tencent WorkBuddy APP Launches on HarmonyOS, iOS, and Android Simultaneously: Cross-Platform AI Work Agent Goes Mobile": 1784364543.8202267,
 "The $100 Million CFO Rewrites the Rules on Legal Spend": 1784316092.5134768,
 "The Pentagon's new AI playbook treats slow adoption as a bigger risk than \"imperfect alignment\"": 1784364543.8202267,
@@ -2098,5 +2096,5 @@
 "Zuckerberg's plan to sell excess AI compute could finds its first big customer in Anthropic": 1784324778.7116945,
 "nascheme/quixote": 1784357862.597943
 },
-"updated": 1784466267
+"updated": 1784472619
 }
