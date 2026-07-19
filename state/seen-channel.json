@@ -736,6 +736,7 @@
 "5c34e9fea498ff2a": 1783908737.5344217,
 "5c61c28c3e4812e3": 1781396139.061602,
 "5c8332d4091eee10": 1784142187.3679423,
+"5c963f53ffe97aab": 1784487477.8727531,
 "5cb326cb05dba24e": 1784231932.3569252,
 "5cde68481e6254a2": 1781445075.020419,
 "5d72f3c952a7ddd9": 1783159421.6407962,
@@ -2039,7 +2040,6 @@
 "Amazon Web Services bets on 'one-person unicorns' with new accelerator for Chinese founders": 1784479929.721359,
 "ByteDance Doubao Phone Gen 2 Hands-On: Nubia NaviX Ultra Runs Douyin and Luckin as AI Agents Queue Up to Work": 1784426925.8402653,
 "CXMT Targets Trillion-Yuan Market Cap: China DRAM Leader Carries the Flag for Memory Chip Localization Against Samsung and SK Hynix": 1784339865.8106458,
-"California Tightens Scrutiny of AI Hiring Tools Amid Reports of Racial Bias": 1784311224.8115358,
 "Changzhou says it is building China\u2019s first city-level clean-power token factory": 1784448445.3246884,
 "China AI summit hears Global South needs equal access to avoid digital divide": 1784385977.980872,
 "China MAZU AI Weather System to Reach 30 Countries: Fengyun Satellites, AI Models, and Radar Unite as Meteorological Infrastructure Goes Global": 1784448445.3246884,
@@ -2049,7 +2049,6 @@
 "Chinese chip start-up Biren bets on light-based \u2018supernodes\u2019 to match Nvidia": 1784369687.5784605,
 "Claude Code uses Bun written in Rust now": 1784439979.0832555,
 "Claude make Fable 5 permanent": 1784357862.597943,
-"Coca-Cola Unit Becomes 17th US Cyber Incident This Year": 1784311224.8115358,
 "Consumer Sentiment Jumped 10% in July Before Gas Price Hikes": 1784321280.6341145,
 "Databricks hits $188B valuation, extending its run as AI\u2019s favorite second act": 1784328181.873141,
 "Dave Eggers told OpenAI staff that ChatGPT was \u2018silencing an entire generation\u2019": 1784411058.9881992,
@@ -2062,6 +2061,7 @@
 "Hong Kong Cyberport Is Becoming the Springboard for Chinese AI Going Global: From Computing Power to Standards to Markets": 1784426925.8402653,
 "How Chinese tech giants from Ant to Tencent use AI agents to win over enterprise clients": 1784466267.7245903,
 "How Google\u2019s New Gemini Rates Work and How to Track Your Usage": 1784369687.5784605,
+"I hate that I don\u2019t hate this song made with Suno": 1784487477.872756,
 "Kimi: Threat or menace?": 1784400914.302878,
 "LLM clich\u00e9 highlighter": 1784316092.5134768,
 "Moonshot's Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math": 1784456559.5290334,
@@ -2080,11 +2080,8 @@
 "The apps, gadgets, and tools every reader needs": 1784379722.7665625,
 "TikTok is testing an AI likeness detection tool": 1784324778.7116945,
 "To Make Chips, First Build a Vacuum World: How Extreme Vacuum Technology Enables Modern Semiconductor Manufacturing": 1784448445.3246884,
-"Trump Media to sell traders instant access to market moving Truth Social posts": 1784311224.8115358,
-"VC Firm Lakestar Raises $300 Million to Fund European Tech Sovereignty": 1784311224.8115358,
 "Vertu wants executives to pay $6,880 for an AI agent \u2014 here\u2019s how it actually performs": 1784332051.3770154,
 "WAIC 2026: Six Trends We Observed at the World AI Conference as Industry Shifts From Models to Systems": 1784364543.8202267,
-"Watch. Comment. Buy. AI Powers Live Shopping\u2019s Encore": 1784311224.8115358,
 "WeRide Releases WITT Physical AI Foundation Model: Unifying Multimodal Scene Understanding With Minimum Physical Facts": 1784316092.5134768,
 "Will AI fix prior authorization\u2014or make it worse?": 1784375414.5916913,
 "World First Robot Phone Dances at WAIC: Honor Robot Phone Debuts With 4DoF Mechanical Gimbal and Proactive AI That Moves": 1784426925.8402653,
@@ -2095,5 +2092,5 @@
 "nascheme/quixote": 1784357862.597943,
 "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019": 1784476364.003542
 },
-"updated": 1784479929
+"updated": 1784487477
 }
