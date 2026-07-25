@@ -1836,6 +1836,7 @@
 "d1b54ba3d436138a": 1784699043.2088728,
 "d1d5ce0f14562fb1": 1783083208.6012318,
 "d1dc06e6e85fee70": 1784311224.811529,
+"d1dfa9e1bc95d891": 1784995507.9541068,
 "d20b4d73951817e7": 1783221819.6282988,
 "d215a27249f0e290": 1784152434.6679845,
 "d2259bb214ce9fb6": 1784328181.8731375,
@@ -2276,7 +2277,6 @@
 "400% Growth Gap: How Top Middle Market Companies Use Virtual Cards Differently": 1784880984.6524665,
 "AI Agents Fail 3 Out of 4 Real Job Tasks": 1784930420.4877937,
 "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems": 1784850944.2630444,
-"AI arms race in line for a reckoning after OpenAI hacking incident": 1784821900.033524,
 "AI firms want more data centers; Trump's EPA may give neighbors less say": 1784904614.1348314,
 "AI\u2019s Biggest Flex Isn\u2019t a Model. It\u2019s a Cap.": 1784850944.2630444,
 "AMD takes on Nvidia with its Helios AI rack-scale system": 1784844145.6213398,
@@ -2285,11 +2285,9 @@
 "Alexa Plus is getting an AI update to handle more complicated instructions": 1784850944.2630444,
 "Alibaba reportedly tests standalone Qwen Office product": 1784880984.6524665,
 "Alipay+ partners with Hong Kong's Hang Seng Bank for cross-border QR code payments": 1784890716.897967,
-"Amazon Revamping Prime Video to Spotlight AI": 1784821900.033524,
 "An AI Is About to Become a First-Time CEO": 1784833596.371351,
 "Anthropic releases Opus 5 with \u2018close\u2019 to Fable 5\u2019s capabilities": 1784916887.210628,
 "Anthropic updates Claude voice mode with more capable models": 1784840213.0644286,
-"Apple\u2019s OpenAI lawsuit is about who gets to define the post-smartphone era": 1784821900.033524,
 "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions": 1784910833.2397707,
 "AutoFlight Signs SF Express for Offshore eVTOL Operations, Accelerates Global Expansion With Indonesia Type Certification and Sea-to-Air Logistics Vision": 1784859093.0090337,
 "Billtrust launches AR Intelligence connection for Claude and Microsoft Copilot": 1784895699.2531457,
@@ -2314,7 +2312,6 @@
 "Flex Seeks Bank Charter to Scale Flexible Rent Payments": 1784957936.490578,
 "Forget Travel, WEX\u2019s Next Act Is B2B Payments": 1784844145.6213398,
 "Google just had its first negative cash flow quarter due to massive AI spending": 1784826896.069097,
-"Google\u2019s Gemini nears billion-user milestone": 1784821900.033524,
 "Honor Changes Logo: The Ring of Honor Brand Identity Signals an All-In AI Strategy as the Smartphone Maker Bets on Agent Phone Transformation": 1784973080.506863,
 "Honor confirms August launch for Robot Phone with 4DoF gimbal": 1784871921.4369617,
 "How AI guardrails are impeding the work of offensive cybersecurity researchers": 1784859093.0090337,
@@ -2326,6 +2323,7 @@
 "Johnson Noncommital on CFPB Funding in Confirmation Hearing": 1784859093.0090337,
 "Labor Dept. Data Shows Workers Getting Slight Pay Bump": 1784844145.6213398,
 "Leading digital assets firms pledge $15 million to establish Bitcoin Security Consortium": 1784890716.897967,
+"Librarians are hosting viral \u2018Avoiding AI\u2019 workshops for people who are fed up with Big Tech": 1784995507.9541104,
 "Lithic Says Everything Payments Assumes About Shopping Is About to Break": 1784880984.6524665,
 "Marqeta and zerohash make stablecoins spendable on cards": 1784934569.0258975,
 "Meta is making its AI chatbot more like an assistant": 1784916887.210628,
@@ -2366,7 +2364,6 @@
 "The World Cup\u2019s Other Final: Platforms, Pizzas and a Planet Hitting \u2018Buy Now\u2019": 1784973080.506863,
 "The tech-broification of American science has officially begun": 1784904614.1348314,
 "This Week in Stablecoins: Visa, Goldman and Samsung Raise the Stakes": 1784966314.2079785,
-"Top Democrat Unveils Broad AI Agenda With Focus on Financial Risk and Cybersecurity": 1784821900.033524,
 "Trulioo Debuts AI Agent to Determine Beneficial Ownership": 1784844145.6213398,
 "Verifone patents tech that lets payment terminals detect tampering": 1784850944.2630444,
 "Verizon Lands $1 Billion Google Deal as AI Infrastructure Demand Soars": 1784924163.2012475,
@@ -2381,5 +2378,5 @@
 "Zhuhai Semiconductor Veterans Pioneer Space Solar Cells: Hongjun New Energy HJT Modules Pass In-Orbit Verification on Computing Satellite Mission": 1784973080.506863,
 "\u2018AI communism\u2019, rogue models, and the why Kimi K3 spooked Wall Street": 1784916887.210628
 },
-"updated": 1784991484
+"updated": 1784995507
 }
