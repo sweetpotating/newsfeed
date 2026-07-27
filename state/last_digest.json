@@ -1,45 +1,45 @@
 {
-"generated": 1785118922,
+"generated": 1785156752,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/\">Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 9h ago</i>\n\n• Hugging Face CEO calls for radical transparency in response to OpenAI autonomous agent cyberattack.\n• First reported autonomous agent cyberattack signals new security threat category.\n• Attack severity prompts call for unprecedented industry response measures.\n\n<a href=\"https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\">Nvidia, Microsoft launch open AI security alliance – without OpenAI, Google, or Anthropic</a></b>\n<i>The Verge – AI · 🟧 Claude · 🟢 ChatGPT · 46m ago</i>\n\n• Nvidia and Microsoft launched Open Secure AI Alliance with IBM and SpaceX to build open-source AI security tools.\n• Alliance excludes OpenAI, Google, and Anthropic despite focus on frontier model defense.\n• Initiative argues open tools are necessary for effective AI security at scale.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/\">Shared Claude chats were reportedly showing up in search engines</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 5h ago</i>\n\n• Anthropic&#x27;s Claude shared conversations appeared in Google search results due to missing noindex tags.\n• Some exposed chats contained sensitive data like crypto keys and legal questions.\n• OpenAI encountered identical indexing issue previously.\n\n<a href=\"https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/claude_logo.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/cas-zhijing-social-intelligence-model-jul2026\">Chinese Academy of Sciences ZhiJing Zing Social Intelligence Model Tackles AI Most Embarrassing Weakness: AI System That Understands Social Context, Emotions, and Unspoken Signals</a></b>\n<i>Pandaily (China) · 🟢 ChatGPT · 🌏 Asia · 4h ago</i>\n\n• Chinese Academy of Sciences released ZhiJing social intelligence model addressing AI&#x27;s weakness in understanding social context.\n• Zing model reportedly outperforms GPT-4.5 on social cognition benchmarks.\n• System uses FLARE self-evolving training and OPD distillation techniques.\n\n<a href=\"https://pandaily.com/cas-zhijing-social-intelligence-model-jul2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article2_d99ebd42f9.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\">How AI is expanding what people do at work</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 9h ago</i>\n\n• OpenAI research shows ChatGPT users expanding tasks across job roles.\n• AI tools reshaping traditional job boundaries and worker responsibilities.\n• Study documents how AI enables workers to take on broader responsibilities.\n\n<a href=\"https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-reportedly-suspends-funding-round-ahead-of-ipo/\">DeepSeek Reportedly Suspends Funding Round Ahead of IPO</a></b>\n<i>PYMNTS · 🐳 DeepSeek · 2h ago</i>\n\n• DeepSeek paused funding round ahead of planned IPO.\n• Decision follows viral comments on AI competition between US and China.\n• Timing suggests company prioritizing public market entry over private capital.\n\n📰 <i>Also covered by: SCMP – Tech</i>\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-reportedly-suspends-funding-round-ahead-of-ipo/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/07/DeepSeek-funding-1.jpg?w=457"
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/deepseek-to-kimi-ai-investment-logic-jul2026\">From DeepSeek to Kimi K3: 18 Months That Changed AI Investment Logic as Jevons Paradox Reaffirms Compute Is King</a></b>\n<i>Pandaily (China) · 🐳 DeepSeek · 🌏 Asia · 10h ago</i>\n\n• AI investment focus shifted from efficiency gains to compute arms race in 18 months.\n• Google increased CapEx to $200B; cloud industry CapEx projected at $800B by 2026.\n• Jevons Paradox suggests increased compute capacity drives higher overall AI spending.\n\n<a href=\"https://pandaily.com/deepseek-to-kimi-ai-investment-logic-jul2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/article1_65c485c532.png"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://www.scmp.com/tech/big-tech/article/3361926/chinas-cxmt-shares-rise-472-star-market-debut-valuing-dram-maker-us489-billion?utm_source=rss_feed\">CXMT shares rise 472% as DRAM maker becomes largest China-listed firm by total market cap</a></b>\n<i>SCMP – Tech · 🌏 Asia · 35m ago</i>\n\n• CXMT DRAM chip maker surged 472% on Shanghai debut.\n• Hefei-based company became largest China-listed firm by market cap at 3.31 trillion yuan.\n• Stock rally reflects strong investor demand for Chinese semiconductor manufacturers.\n\n<a href=\"https://www.scmp.com/tech/big-tech/article/3361926/chinas-cxmt-shares-rise-472-star-market-debut-valuing-dram-maker-us489-billion?utm_source=rss_feed\">Read more →</a>",
-"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/27/9fa2c8bf-74b9-4a62-b32f-3d5bedb9f929_f330dada.jpg?itok=YdYDkPz3&v=1785116789"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/\">Are brain waves the next unlock for physical AI?</a></b>\n<i>TechCrunch AI · 2h ago</i>\n\n• Physical AI models now require multiple camera angles and dense annotations.\n• Brain wave readings emerging as next training data frontier for robotics.\n• Move reflects increasing sophistication demanded for autonomous physical systems.\n\n<a href=\"https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://huggingface.co/blog/nvidia/cosmos-h-dreams\">NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics</a></b>\n<i>Hugging Face Blog · 📣 Official · 3h ago</i>\n\n• Nvidia released Cosmos-H-Dreams for real-time generative simulation in surgical robotics.\n• System enables real-time simulation capabilities for surgical applications.\n• Advances robotic surgery through generative modeling technology.\n\n<a href=\"https://huggingface.co/blog/nvidia/cosmos-h-dreams\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/newsarticle/48145/insurtech-corgi-hits-4-billion-valuation-on-latest-raise?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Insurtech Corgi hits $4 billion valuation on latest raise</a></b>\n<i>Finextra · 2h ago</i>\n\n• Corgi AI insurance platform reached $4 billion valuation.\n• Company raised fourth funding round this year.\n• Valuation jump reflects investor appetite for AI-powered insurance solutions.\n\n<a href=\"https://www.finextra.com/newsarticle/48145/insurtech-corgi-hits-4-billion-valuation-on-latest-raise?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/\">METR introduces a new metric to calculate exactly when AI agents become more expensive than humans</a></b>\n<i>The Decoder · 24m ago</i>\n\n• METR introduced expenditure horizon metric measuring when AI agents become cheaper than humans.\n• Early NanoGPT speedrun results show underwhelming cost-effectiveness for current models.\n• Metric has limitations but could shift with next-generation models.\n\n<a href=\"https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/METR-Expenditure-Horizon-1.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/\">The path to artificial superintelligence</a></b>\n<i>MIT Tech Review – AI · 52m ago</i>\n\n• Healthcare systems could use multiple specialized AI agents for different tasks like scheduling and pharmacy.\n• Multi-agent systems face coordination challenges with distinct knowledge and objectives.\n• Different domains require distributed AI expertise within healthcare workflows.\n\n<a href=\"https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/\">Read more →</a>",
+"photo": "https://wp.technologyreview.com/wp-content/uploads/2026/07/CREA-1571-MIT-tech-review-Misc-1200x675-option-2.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110496/embat-expands-into-global-banking?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Embat expands into global banking</a></b>\n<i>Finextra · 1h ago</i>\n\n• Embat expanded treasury management platform into global banking with new product.\n• Platform consolidates cash management, payments, collections, FX hedging, and reconciliation.\n• Creates unified workflow across treasury and banking functions.\n\n<a href=\"https://www.finextra.com/pressarticle/110496/embat-expands-into-global-banking?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/partnerships/2026/robinhood-eyes-crypto-com-to-expand-role-on-prediction-market-stage/\">Robinhood Eyes Crypto.com to Expand Role on Prediction Market Stage</a></b>\n<i>PYMNTS · 2h ago</i>\n\n• Robinhood in talks with Crypto.com to expand prediction market presence.\n• Partnership would expand Robinhood&#x27;s footprint in prediction markets.\n• Deal reflects growing intersection of traditional finance and crypto platforms.\n\n<a href=\"https://www.pymnts.com/partnerships/2026/robinhood-eyes-crypto-com-to-expand-role-on-prediction-market-stage/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2025/03/Robinhood-1.jpg?w=457"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/tech-giants-724-billion-ai-bill-sparks-investor-worry/\">Tech Giants’ $724 Billion AI Bill Sparks Investor Worry</a></b>\n<i>PYMNTS · 2h ago</i>\n\n• Alphabet reported 82% cloud computing revenue growth.\n• Investors concerned about surge in AI spending despite strong cloud results.\n• Tech giants&#x27; record AI investment raising valuation questions among markets.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/tech-giants-724-billion-ai-bill-sparks-investor-worry/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/07/Google-Alphabet-AI-spending-1.jpg?w=457"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/big-tech/2026/tech-titans-slash-140k-jobs-as-ai-spending-soars/\">Tech Titans Slash 140K Jobs as AI Spending Soars</a></b>\n<i>PYMNTS · 3h ago</i>\n\n• US tech companies cut nearly 140,000 jobs this year.\n• Layoffs account for over one-third of announced US job cuts.\n• Job reductions coincide with record artificial intelligence spending by tech giants.\n\n<a href=\"https://www.pymnts.com/big-tech/2026/tech-titans-slash-140k-jobs-as-ai-spending-soars/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/07/tech-layoffs-Amazon-Oracle-Meta-and-Microsoft-1.jpg?w=457"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/cryptocurrency/2026/bitmart-becomes-2nd-crypto-exchange-to-close-in-3-days/\">BitMart Becomes 2nd Crypto Exchange to Close in 3 Days</a></b>\n<i>PYMNTS · 4h ago</i>\n\n• BitMart cryptocurrency exchange announced closure.\n• Second crypto exchange to shut down within three days.\n• Closures reflect ongoing market consolidation and regulatory pressures in sector.\n\n<a href=\"https://www.pymnts.com/cryptocurrency/2026/bitmart-becomes-2nd-crypto-exchange-to-close-in-3-days/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/07/BitMart-1.jpg?w=457"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/cryptocurrency/2026/eus-new-mica-rules-could-mean-more-crypto-mergers/\">EU’s New MiCA Rules Could Mean More Crypto Mergers</a></b>\n<i>PYMNTS · 4h ago</i>\n\n• EU&#x27;s MiCA rules could accelerate cryptocurrency sector mergers.\n• New regulation increases compliance costs for crypto companies.\n• Ownership consolidation expected as firms navigate stricter digital asset requirements.\n\n<a href=\"https://www.pymnts.com/cryptocurrency/2026/eus-new-mica-rules-could-mean-more-crypto-mergers/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/07/MiCA-EU-bitcoin-1.jpg?w=457"
+"text": "🌐 AI Industry\n<b><a href=\"https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/\">Closing the data loop in AI-driven drug discovery</a></b>\n<i>MIT Tech Review – AI · 1h ago</i>\n\n• Drug discovery costs doubled every nine years since 1950s under Eroom&#x27;s Law pressure.\n• Industry faces high costs and risks with growing first-mover advantage competition.\n• AI tools aim to address pharma development cost and timeline challenges.\n\n<a href=\"https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/\">Read more →</a>",
+"photo": "https://wp.technologyreview.com/wp-content/uploads/2026/06/iStock-2247435323_f6bf40.jpg"
 }
 ]
 }
