@@ -383,6 +383,7 @@
 "29179cd02a547c8d": 1784004812.1650407,
 "2927ac26c26a5464": 1783707587.6004736,
 "2937d9804b24ace9": 1783105913.024711,
+"29411267b99580de": 1785596123.567791,
 "295072fa94e8dfc3": 1785456611.838832,
 "296256cdf6cc9c5d": 1784066018.496296,
 "296d1cebed4c357b": 1781724122.5498989,
@@ -1515,6 +1516,7 @@
 "9f863558f6e860ae": 1784090875.6760364,
 "9f895a14b57a050a": 1782994161.1313965,
 "9fe78a915c94580f": 1784890716.897957,
+"a004f22d0b6ecb7a": 1785596123.567791,
 "a010c543b5ab4c0a": 1782768058.845019,
 "a02cba9f26cdfef9": 1784804724.5838394,
 "a048c96e798706be": 1782396924.5721319,
@@ -2410,8 +2412,10 @@
 },
 "titles": {
 "7 States\u2019 Water Systems Hit by Cyberattacks Likely Tied to Iran": 1785580617.1648247,
+"A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot": 1785596123.5677953,
 "AI Gives Cybersecurity a Backlog CFOs and CISOs Can\u2019t Patch Away": 1785535706.9855354,
 "AI Slop Melodramas Are Taking Over X\u2014and Their Creators Are Cashing In": 1785510899.8318715,
+"AI coding agents can modernize research software but can't judge if the science is right": 1785596123.5677953,
 "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off": 1785518657.4538763,
 "AI scammers outperform humans when it comes to building trust": 1785585555.3729944,
 "AI startup admits tattoo-for-interview stunt was \u201creckless\u201d": 1785525373.0098417,
@@ -2434,8 +2438,6 @@
 "DeepSeek puts V4-Flash API into public beta": 1785484034.9302588,
 "Disrupting a Criminal Scam Operation": 1785518657.4538763,
 "EU pools up to \u20ac30 billion for AI gigafactories while US tech giants casually spend 20 times more": 1785563424.6371112,
-"Ecommpay brings full stack acquiring to PayControl": 1785419177.0116167,
-"Equals to acquire OFX": 1785419177.0116167,
 "Everyone Is Freaking Out About OpenAI and Anthropic\u2019s Race for Dominance": 1785445315.8421018,
 "Ex-OpenAI researcher bets $100 billion will flow into training data because scaling alone won't cut it": 1785439026.5405033,
 "FTC Puts Digital Health\u2019s Growth Playbook on Trial": 1785452430.97396,
@@ -2470,8 +2472,6 @@
 "LinkedIn\u2019s Feed Is 41% Fake and the Cleanup Starts Now": 1785531521.5828917,
 "Lloyds Banking Group and Caixabank complete tokenised deposit transactions through Project Agor\u00e1": 1785493992.7349062,
 "Mastercard and National Bank of Egypt launch Egypt\u2019s first USD corporate debit card": 1785493992.7349062,
-"Method unveils Portfolio Intelligence for lenders": 1785419177.0116167,
-"Microsoft AI bets on cheap specialist models instead of chasing the frontier": 1785419177.0116167,
 "NatWest appoints LSEG's Triona O\u2019Keeffe chief data and analytics officer": 1785456611.8388398,
 "New Deepseek Flash model matches OpenAI's GPT-5.6 Luna at roughly 60 percent lower cost": 1785518657.4538763,
 "New York sues Kalshi for 'illegal gambling operation'": 1785580617.1648247,
@@ -2508,7 +2508,6 @@
 "UniCredit, Accenture, and IBM join forces for pan-European banking expansion": 1785502340.3934293,
 "Unitree Robotics moves closer to Shanghai STAR Market IPO": 1785484034.9302588,
 "Univ\u00e9 builds an AI-ready workforce": 1785493992.7349062,
-"Unlimit scores MiCA licence": 1785419177.0116167,
 "Video AI: MiniMax challenges ByteDance with low price, open weights for new H3 model": 1785493992.7349062,
 "Western Union Pursues AI Savings as Falling Migration Hits Revenue": 1785471533.1896365,
 "What a visit to China\u2019s AI labs reveals about the battle for global soft power": 1785580617.1648247,
@@ -2518,5 +2517,5 @@
 "llm-mcp-client 0.1a0": 1785563424.6371112,
 "smevals - a small eval suite for evaluating models, prompts, and harnesses": 1785535706.9855354
 },
-"updated": 1785591523
+"updated": 1785596123
 }
