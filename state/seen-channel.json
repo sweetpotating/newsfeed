@@ -472,6 +472,7 @@
 "31933a1b133d9acf": 1781753109.190061,
 "31a3db5570a0997e": 1783406493.706054,
 "31a4edd176c1b7b0": 1784135498.0115051,
+"31eb143b1594d590": 1785585555.3729916,
 "31eed5bd599a08a6": 1782777567.2801285,
 "3206d15b3cf28083": 1783391765.3901253,
 "3209d250e3e9a4df": 1783650580.4138052,
@@ -711,6 +712,7 @@
 "4a26fcd3f060cb16": 1785303968.911569,
 "4a36a177e5cee6b1": 1785333398.3644307,
 "4a4ad2398820bb0d": 1782326894.7298865,
+"4a4b1613ef57d268": 1785585555.3729916,
 "4a4f835b1630fd40": 1783967374.998574,
 "4a94e64db0fdd119": 1784048944.1192217,
 "4ae26543a294b5d3": 1783065510.4558933,
@@ -2413,16 +2415,15 @@
 "titles": {
 "7 States\u2019 Water Systems Hit by Cyberattacks Likely Tied to Iran": 1785580617.1648247,
 "AI Gives Cybersecurity a Backlog CFOs and CISOs Can\u2019t Patch Away": 1785535706.9855354,
-"AI Scammers Are Better at Building Trust Than Humans": 1785409362.824311,
 "AI Slop Melodramas Are Taking Over X\u2014and Their Creators Are Cashing In": 1785510899.8318715,
 "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off": 1785518657.4538763,
+"AI scammers outperform humans when it comes to building trust": 1785585555.3729944,
 "AI startup admits tattoo-for-interview stunt was \u201creckless\u201d": 1785525373.0098417,
 "Advancing the price-performance frontier with GPT\u20115.6": 1785456611.8388398,
 "Amazon Contends With Unplanned Overspending on AI": 1785426485.9854505,
 "Amex GBT Empowers Claude to Book Corporate Travel": 1785445315.8421018,
 "Appli signs Connect Credit Union": 1785510899.8318715,
 "AutoNation CEO Bets Affordability and Resilient Buyers Will Fuel Rebound": 1785542236.5183363,
-"BNPL fintech Cashea raises $100 million": 1785409362.824311,
 "Banking Associations Unite to Fight Oregon Rate Cap Law": 1785439026.5405033,
 "ByteDance Grows More Adaptable: Feishu Product Team Merges Into Doubao and GTM Shifts to Volcano Engine as ByteDance Reorganizes Around AI": 1785552137.7093759,
 "ByteDance launches Seedance 2.5 video-generation model": 1785484034.9302588,
@@ -2452,6 +2453,7 @@
 "GPU Management: Why Idle GPUs Are the New Grounded Aircraft": 1785426485.9854505,
 "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration": 1785426485.9854505,
 "Gemini Spark now integrates with Chrome": 1785445315.8421018,
+"German court rules AI music generator Suno violated copyrights, rejects fair use defense": 1785585555.3729944,
 "Global Regulatory Changes Slow Apple\u2019s Services Growth": 1785531521.5828917,
 "Google DeepMind\u2019s new AI model can control a robot\u2019s entire body": 1785432083.3153658,
 "Google Earth&#8217;s AI deepfake tool only lasted one day": 1785525373.0098417,
@@ -2473,7 +2475,6 @@
 "Mastercard and National Bank of Egypt launch Egypt\u2019s first USD corporate debit card": 1785493992.7349062,
 "Method unveils Portfolio Intelligence for lenders": 1785419177.0116167,
 "Microsoft AI bets on cheap specialist models instead of chasing the frontier": 1785419177.0116167,
-"Moonshot AI\u2019s Kimi K3 reaches enterprise users through Fireworks on Microsoft Foundry": 1785409362.824311,
 "NatWest appoints LSEG's Triona O\u2019Keeffe chief data and analytics officer": 1785456611.8388398,
 "New Deepseek Flash model matches OpenAI's GPT-5.6 Luna at roughly 60 percent lower cost": 1785518657.4538763,
 "New York sues Kalshi for 'illegal gambling operation'": 1785580617.1648247,
@@ -2484,7 +2485,6 @@
 "OpenAI Reaches 1 Billion Active Users as AI Becomes Daily Habit": 1785552137.7093759,
 "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions": 1785580617.1648247,
 "OpenAI reportedly finds evidence that more of its agents ran amok": 1785542236.5183363,
-"OpenAI\u2019s Hacking Debacle Was a Human Mistake": 1785409362.824311,
 "Oxide and Friends: The Open Weight Revolution with Simon Willison": 1785535706.9855354,
 "Reddit keeps its strange DMCA fight over Google search results alive": 1785535706.9855354,
 "Revolut offers customers free ChatGPT Go access": 1785456611.8388398,
@@ -2519,8 +2519,7 @@
 "llm 0.32rc2": 1785471533.1896365,
 "llm-chat-completions-server 0.1a0": 1785471533.1896365,
 "llm-mcp-client 0.1a0": 1785563424.6371112,
-"smevals - a small eval suite for evaluating models, prompts, and harnesses": 1785535706.9855354,
-"zerohash Launches Agentic Finance Tools for Platforms": 1785409362.824311
+"smevals - a small eval suite for evaluating models, prompts, and harnesses": 1785535706.9855354
 },
-"updated": 1785580617
+"updated": 1785585555
 }
