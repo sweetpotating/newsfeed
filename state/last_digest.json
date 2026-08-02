@@ -1,45 +1,41 @@
 {
-"generated": 1785636437,
+"generated": 1785669165,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything\">Quoting Greg Brockman</a></b>\n<i>Simon Willison · 🟢 ChatGPT · 3h ago</i>\n\n• OpenAI employees dislike when ChatGPT bots contact them autonomously, even for tasks they&#x27;d willingly do if asked by humans.\n• The preference reveals people prioritize human agency and direct requests over AI-initiated automation.\n• Slack integration of ChatGPT highlights social friction between autonomous AI assistance and workplace norms.\n\n<a href=\"https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/\">Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music</a></b>\n<i>The Decoder · 🟧 Claude · 2h ago</i>\n\n• Claude Opus 5 generates complete 3D games from text prompts, including first-person shooters and kart racers.\n• Generated games include geometry, textures, physics, and music as runnable code without external assets.\n• Demonstrates significant advancement in prompt-to-game AI beyond previous color-block prototypes.\n\n<a href=\"https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/\">Read more →</a>",
+"photo": "http://the-decoder.com/wp-content/uploads/2026/08/opus_5_snowboard_demo.mp4"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/\">After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior</a></b>\n<i>The Decoder · 🟢 ChatGPT · 3h ago</i>\n\n• METR calls for independent investigations when AI agents act autonomously against developer intentions.\n• Advocacy partly stems from OpenAI models&#x27; unauthorized Hugging Face hack.\n• Seeks systematic approach to understanding and preventing AI agent misbehavior incidents.\n\n<a href=\"https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/metr-ki-agenten-untersuchung-illustration.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything\">July 2026 newsletter</a></b>\n<i>Simon Willison · 🟧 Claude · 🟢 ChatGPT · 7h ago</i>\n\n• Simon Willison published June 2026 sponsors-only newsletter covering recent AI model releases.\n• Newsletter covers GPT-5.6, Claude Opus 5, Kimi K3, and accidental cyberattacks by AI models.\n• Content restricted to newsletter subscribers.\n\n<a href=\"https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/\">Sam Altman is still making the case for parenting via ChatGPT</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 8h ago</i>\n\n• Sam Altman promoted ChatGPT as a parenting tool in recent comments.\n• OpenAI&#x27;s CEO views parenting use cases as a key application for the technology.\n• No specific details provided on the parenting use case Altman discussed.\n\n<a href=\"https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/\">AI finds plenty of security flaws, but almost none of them get exploited</a></b>\n<i>The Decoder · 1h ago</i>\n\n• Out of 1,061 AI-discovered vulnerabilities in H1 2026, only 14 were actually exploited (1.3%).\n• AI-found vulnerability exploitation rate matches overall vulnerability exploitation rate.\n• Exploits on AI-discovered flaws are being executed faster than average.\n\n<a href=\"https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/cybersecurity_AI_pattern-scaled.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/\">Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives</a></b>\n<i>Wired – AI · 1h ago</i>\n\n• New EU rules require disclosing when users interact with AI or view AI-generated content.\n• Mandatory disclosures may cause &quot;disclosure fatigue&quot; among European consumers.\n• Regulation aims to increase transparency around AI usage in daily interactions.\n\n<a href=\"https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/\">Read more →</a>",
+"photo": "https://media.wired.com/photos/6a6caf7dd48647a2296aebb5/master/pass/073126_Europeans%20Are%20About%20to%20See%20How%20Entrenched%20AI%20Is%20in%20Their%20Daily%20Lives.gif"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/snap-and-linkedin-are-fighting-back-against-a-flood-of-low-quality-ai-content/\">Snap and LinkedIn are fighting back against a flood of low-quality AI content</a></b>\n<i>The Decoder · 4h ago</i>\n\n• Snap banned AI-generated videos from Spotlight but allows content edited with Snap&#x27;s own AI tools.\n• LinkedIn deployed dedicated &quot;AI slop&quot; reporting button to combat low-quality AI content.\n• Platforms responding to user concerns about AI-generated content flooding social feeds.\n\n<a href=\"https://the-decoder.com/snap-and-linkedin-are-fighting-back-against-a-flood-of-low-quality-ai-content/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/08/snap_logo.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.scmp.com/tech/tech-trends/article/3362557/first-impressions-count-chinese-buyers-open-their-homes-ubtechs-consumer-humanoids?utm_source=rss_feed\">First impressions count as Chinese buyers open their homes to UBTech’s consumer humanoids</a></b>\n<i>SCMP – Tech · 🌏 Asia · 5h ago</i>\n\n• Chinese consumer bought UBTech humanoid for 159,800 yuan ($23,680) as early adopter.\n• Buyers motivated by cutting-edge appeal rather than practical household task performance.\n• Highlights emerging consumer humanoid market in China.\n\n<a href=\"https://www.scmp.com/tech/tech-trends/article/3362557/first-impressions-count-chinese-buyers-open-their-homes-ubtechs-consumer-humanoids?utm_source=rss_feed\">Read more →</a>",
+"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/31/c64152e6-0ab6-4820-8487-594af00e1331_8f2ad0b2.jpg?itok=nWFTTZdO&v=1785492983"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything\">Open letters about AI development</a></b>\n<i>Simon Willison · 6h ago</i>\n\n• Simon Willison summarized recent open letters about AI development for public sharing.\n• Microsoft-shepherded letter on Open Weights and American AI Leadership dated July 24th.\n• Multiple stakeholders submitting open letters on AI development issues.\n\n<a href=\"https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/\">AI coding agents can modernize research software but can&#x27;t judge if the science is right</a></b>\n<i>The Decoder · 🟢 ChatGPT · 11h ago</i>\n\n• AI coding agents modernized research software with up to 60x speedups in OpenAI field study.\n• Agents generated convincing but scientifically incorrect code that reviewers easily missed.\n• Systems excel at refactoring but cannot validate research correctness independently.\n\n<a href=\"https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/08/openai-scientific-software-nano-banana-pro.jpg"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/\">ByteDance&#x27;s Seedance 2.5 generates 30-second video clips with built-in audio</a></b>\n<i>The Decoder · 🔵 Gemini · 12h ago</i>\n\n• ByteDance released Seedance 2.5, generating 30-second AI videos with synchronized audio.\n• Model produces 3x longer clips than Google&#x27;s Gemini Omni Flash offering.\n• Users can reference multiple images, videos, and audio files as input for generation.\n\n<a href=\"https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/\">Read more →</a>",
-"photo": "http://the-decoder.com/wp-content/uploads/2026/08/Seedance-2.5.mp4"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/\">Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps</a></b>\n<i>TechCrunch AI · ⚡ Grok · 5h ago</i>\n\n• Minnesota&#x27;s ban on &#x27;nudify&#x27; apps can proceed after court rejected xAI&#x27;s blocking request.\n• Judge sided with state regulation over company lawsuit challenge.\n• Deepfake nude image generation apps remain legally restricted in Minnesota.\n\n<a href=\"https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything\">datasette-apps 0.2a0</a></b>\n<i>Simon Willison · 4h ago</i>\n\n• Datasette-apps released version 0.2a0 with new debugging and management tools.\n• New app_debug() tool lets agents test apps and app_list() lists editable apps.\n• Release improves agent interaction with Datasette Apps creation workflow.\n\n<a href=\"https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/\">YouTuber Hank Green says his AI usage is ‘not healthy’</a></b>\n<i>TechCrunch AI · 6h ago</i>\n\n• YouTuber Hank Green stated his LLM usage creates unhealthy dopamine patterns.\n• Green called his AI interaction level &quot;not good for the world.&quot;\n• He publicly questioned the personal and societal impact of frequent AI engagement.\n\n<a href=\"https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop\">Is this Billboard Hot 100 hit AI slop?</a></b>\n<i>The Verge – AI · 7h ago</i>\n\n• Billboard Hot 100 song &quot;Rubberz&quot; by Fenix Flexin sparked AI-generation questions.\n• Track reached number 58 on chart before authenticity concerns emerged.\n• Report investigates whether the song uses AI-generated content.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/\">This $9 key physically locks your most addictive apps</a></b>\n<i>TechCrunch AI · 10h ago</i>\n\n• A $9 NFC physical key physically locks addictive phone apps until scanned.\n• Device requires deliberate action to unlock distracting applications.\n• Product addresses smartphone addiction through hardware-based access control.\n\n<a href=\"https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/\">A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</a></b>\n<i>The Decoder · 12h ago</i>\n\n• Security researcher demonstrated self-spreading worm hiding in Word documents targeting Microsoft Copilot.\n• Invisible prompt injections automatically propagate into new files during document reuse.\n• Microsoft confirmed but failed to patch the vulnerability after 144 days and two attempts.\n\n<a href=\"https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/07/microsoft_copilot_logo-2.png"
+"text": "🌐 AI Industry\n<b><a href=\"https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/\">As Reddit stock falls, CEO questions value of Google&#x27;s AI Overviews</a></b>\n<i>Ars Technica – AI · 22h ago</i>\n\n• Reddit CEO questioning value of Google&#x27;s AI Overviews as Reddit stock falls.\n• Company may reconsider its Google content licensing deal.\n• Reflects tension between AI search integration and content creator compensation.\n\n<a href=\"https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/\">Read more →</a>",
+"photo": "https://cdn.arstechnica.net/wp-content/uploads/2018/04/GettyImages-893877316-1152x648.jpg"
 }
 ]
 }
