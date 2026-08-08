@@ -705,6 +705,7 @@
 "48156c41011388a8": 1785344993.4257286,
 "48258f0becde56a9": 1785930892.824714,
 "4841ef07267b1beb": 1783908749.856272,
+"486c32267911b74e": 1786202640.0984123,
 "4875ae35a525aa3a": 1785246702.8207216,
 "4879819590782b03": 1785493992.734899,
 "487d33c30af03321": 1783707587.6004736,
@@ -2519,6 +2520,7 @@
 "Alibaba Reportedly Plans Revenue-Sharing Terms for Next Qwen Model": 1786086373.5734777,
 "Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins": 1786096547.0451047,
 "Anthropic loosens Fable 5's biology restrictions but keeps the guardrails on for virology and toxicology": 1786124628.9917257,
+"Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals": 1786202640.0984156,
 "Anthropic will design its own hardware to power Claude": 1786063096.1226757,
 "BNPL May Face a State-by-State Licensing Challenge": 1786121256.7800126,
 "BYD and Sinopec Convert Shanghai Gas Station into Fast-Charging Site": 1786086373.5734777,
@@ -2604,5 +2606,5 @@
 "Xpeng Says G9L Testing Covers 26 Countries and 6.74 Million Kilometers": 1786102875.4010623,
 "xAI's Imagine Image 2.0 lands just behind OpenAI's GPT-Image-2 in Arena benchmarks": 1786177990.3633096
 },
-"updated": 1786199181
+"updated": 1786202640
 }
