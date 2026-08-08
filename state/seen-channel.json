@@ -2362,6 +2362,7 @@
 "f40802b50e874156": 1783378942.5884252,
 "f408a31381646dd1": 1784246058.977786,
 "f4179c76e5fe405e": 1783938015.6057222,
+"f43ad033701ae487": 1786231356.7736852,
 "f447f7efacf4a5d6": 1785159368.2990437,
 "f44be8f4b5427fb0": 1783391765.3901253,
 "f45a30db73b78931": 1784794901.7396789,
@@ -2502,6 +2503,7 @@
 "Anthropic loosens Fable 5's biology restrictions but keeps the guardrails on for virology and toxicology": 1786124628.9917257,
 "Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals": 1786202640.0984156,
 "Anthropic will design its own hardware to power Claude": 1786063096.1226757,
+"Auto mode is now the default in Claude Code for Pro, Max, and Team plans": 1786231356.7736878,
 "BNPL May Face a State-by-State Licensing Challenge": 1786121256.7800126,
 "BYD and Sinopec Convert Shanghai Gas Station into Fast-Charging Site": 1786086373.5734777,
 "Backed by DeepSeek, Unitree IPO tests investor appetite for China\u2019s AI robotics boom": 1786080967.8210485,
@@ -2588,5 +2590,5 @@
 "Xpeng Says G9L Testing Covers 26 Countries and 6.74 Million Kilometers": 1786102875.4010623,
 "xAI's Imagine Image 2.0 lands just behind OpenAI's GPT-Image-2 in Arena benchmarks": 1786177990.3633096
 },
-"updated": 1786227727
+"updated": 1786231356
 }
