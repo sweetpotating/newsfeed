@@ -2493,6 +2493,7 @@
 "e8ed472a99afc537": 1783083208.6012318,
 "e902163883d11b0f": 1784758258.9054244,
 "e90cea3cfd6ce012": 1784648360.725539,
+"e926b60401dbf7d2": 1786736629.2254205,
 "e93cc42f81a0b3cd": 1785951992.5027401,
 "e9522ceb95bc83be": 1784090875.6760364,
 "e95928bf42d6597c": 1784311224.811529,
@@ -2767,7 +2768,6 @@
 "AI Just Made Retail\u2019s Long Tail Pay Off": 1786650852.9283204,
 "AI Starts Designing Chips: EDA Giants Synopsys, Cadence, and Siemens EDA Open the Agentic AI War \u2014 Chinese Vendors See a Golden Window": 1786704823.2852075,
 "AI Turns Sports\u2019 Dead Air Into a Selling Season": 1786729701.1914737,
-"AI coding startup Cognition reportedly already in talks to raise at $40B valuation": 1786560895.2954564,
 "AI demand drives triple-digit profit growth for Chinese chip foundries SMIC, Hua Hong": 1786625841.5133545,
 "Adyen Ties Loyalty to Payments as In-Person Volume Climbs 28%": 1786657144.2569602,
 "Airwallex partners Affirm for US BNPL roll out": 1786650852.9283204,
@@ -2779,6 +2779,7 @@
 "Anthropic brings Claude Cowork to its Chrome extension, adding skills and plugins to the browser": 1786618884.9912977,
 "Anthropic in talks to purchase Decart AI": 1786625841.5133545,
 "Anthropic set AI agents loose on the same task. They started a turf war.": 1786647314.8341324,
+"Apple Teams Up With Alibaba to Bring Apple Intelligence to China": 1786736629.2254252,
 "Apple trained its own AI model for China with help from Alibaba": 1786701286.5869114,
 "BYD-Backed Deep-Sea Robot Maker Shenhai Zhiren Raises 500 Million Yuan, Debuts Underwater Agent Model SEAgent 1.0": 1786707618.6067176,
 "Bank of America Targets India Credit Boom in Jio Credit Joint Venture": 1786564715.7949271,
@@ -2818,7 +2819,6 @@
 "DraftKings Shows Rewards in Dollars to Simplify Redemption": 1786584307.3151224,
 "Embodied AI's 'DeepSeek Moment': X Square Robot Out-Sorts Figure 03 With Hardware 70% Cheaper": 1786608951.8228314,
 "Fable 5's slow adoption suggests corporate willingness to pay for frontier AI has hit a ceiling": 1786618884.9912977,
-"Federal Intelligence Chief Says AI Agents Need Birth Certificates": 1786560895.2954564,
 "Figure\u2019s Blockchain Marketplace Tops $1 Billion Weekly Loan Applications After Record Q2": 1786670664.8675187,
 "FinTech Navi Targets $2 Billion Valuation in India IPO": 1786630933.485863,
 "FinTechs Muscle Into Banks\u2019 Trade Finance Turf": 1786636449.541774,
@@ -2829,7 +2829,6 @@
 "French taxpayers' data stolen in cyberattack": 1786701286.5869114,
 "Frontier AI Threats Drive Companies to Boost Security Budgets": 1786726132.377609,
 "GLM-5.3 Arrives Hours After Tang Jie's 'sooooooon' \u2014 Zhipu's Coding and Security Model Doubles SWE-Marathon, Tops CyberGym": 1786701286.5869114,
-"Gemini App Hits 1 Billion Users Faster Than Any Other Google Product": 1786560895.2954564,
 "HongShan invests in ZXMOTO as Chinese motorcycle maker targets global racing": 1786687776.1913295,
 "Honor Launches Robot Phone with Gimbal Camera and AI Agent Features": 1786601547.813323,
 "Housecall Pro Brings Klarna Payment Tools to Home Service Pros": 1786574079.8503983,
@@ -2879,7 +2878,6 @@
 "Retail Spending Pause Shows Consumers Picking Their Spots": 1786722309.716131,
 "Revolut reduces WeWork access for premium members": 1786577695.7495387,
 "Rich Chinese embrace domestic high-end EVs as tech and driving experience eclipse prestige": 1786695034.0792522,
-"Rogue AI Agents Aren\u2019t Evil. They\u2019re Just Eager to Please": 1786560895.2954564,
 "S&P 500 Companies Claim First Payouts From $100 Billion Tariff Refund Wave": 1786653366.2393105,
 "S&P Global data integrated into Microsoft 365 Copilot": 1786577695.7495387,
 "SEC Cancels Planned Meeting on Registration Exemptions for Crypto Tokens": 1786729701.1914737,
@@ -2889,7 +2887,6 @@
 "Sionic Debuts Instant Bank Pay Via Microsoft Marketplace": 1786564715.7949271,
 "SoFi Teaches Its AI Coach to Read the Financial Room": 1786695034.0792522,
 "Some Claude users are mad that Anthropic\u2019s new watermarks will catch them cheating at their jobs, classes": 1786574079.8503983,
-"SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price": 1786560895.2954564,
 "Stablecoin Competition Moves From Issuing Tokens to Owning Distribution": 1786733063.8050208,
 "State of Open Models: Summer 2026 Observations": 1786733063.8050208,
 "States Put Big Tech\u2019s AI Advantage Under New Scrutiny": 1786608951.8228314,
@@ -2931,5 +2928,5 @@
 "llm-gemini 0.33": 1786680154.053737,
 "sqlite-utils 4.2.1": 1786670664.8675187
 },
-"updated": 1786733063
+"updated": 1786736629
 }
