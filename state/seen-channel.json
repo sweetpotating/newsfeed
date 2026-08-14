@@ -1,6 +1,7 @@
 {
 "ids": {
 "001aaf20101f3acb": 1786570791.002958,
+"002414f111822d4b": 1786742384.2290409,
 "00332ee84241d06c": 1783764665.9374082,
 "00354998a02aefa8": 1785196707.940706,
 "005288739914ac56": 1785227098.7900755,
@@ -894,6 +895,7 @@
 "534111f17c9af9c4": 1783597958.170984,
 "535052a7e57ea327": 1784930420.4877868,
 "5370c5702481a955": 1785571883.9040565,
+"5370dfb197e9872e": 1786742384.2290409,
 "537cc03159f6c778": 1784242385.6117792,
 "53a008fa0d37e28f": 1784576254.1926725,
 "53a26a631d357495": 1783631934.5046153,
@@ -2792,7 +2794,6 @@
 "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT": 1786680154.053737,
 "Citi Plans to Acquire Kard to Deliver More Personalized Rewards": 1786670664.8675187,
 "Claude Code now runs daily maintenance on Anthropic's software with a 46 percent merge rate": 1786711987.6665337,
-"Coalition for Health AI Mounts Effort Against Cyberattacks": 1786567780.9722512,
 "CodeRabbit Raises $143 Million at $1.5 Billion Valuation to Govern AI-Generated Code": 1786647314.8341324,
 "Companies Want to Own Their AI, Not Rent It": 1786577695.7495387,
 "Creditspring expands access to responsible credit with new FCA credit broking permission": 1786615087.7436452,
@@ -2803,7 +2804,6 @@
 "Debit Is Becoming Gen Z\u2019s Money Management App": 1786608951.8228314,
 "DeepSeek Harness Hands-On: Four Work Modes, 'Model + Harness = Agent', and the Most Ambitious Agent Open Source of the Year": 1786680154.053737,
 "DeepSeek Introduces Peak-Hour Pricing That Quadruples Current Levels": 1786650852.9283204,
-"DeepSeek Targets Agentic Coding Market With New Team": 1786567780.9722512,
 "DeepSeek V4 Pro 0813 (on OpenRouter)": 1786584307.3151224,
 "DeepSeek V4 Pro API Update Adds Responses API Support": 1786601547.813323,
 "DeepSeek's 'Black Whale' Surfaces: Harness Developer Preview Open-Sourced Under MIT \u2014 Everything Is a Plugin": 1786680154.053737,
@@ -2818,7 +2818,6 @@
 "First Fuel Loading Begins at Tianwan Unit 7 \u2014 CNNC Implants the 'Energy Heart' of a 900MW-Plus Nuclear Base": 1786608951.8228314,
 "Flagstone adds dollar and euro savings options for UK SMEs that keep cash in foreign currencies": 1786615087.7436452,
 "Flock is tightening its rules in response to a growing surveillance backlash": 1786630933.485863,
-"Flywire and Trustly Bring Open Banking Partnership to US": 1786567780.9722512,
 "French taxpayers' data stolen in cyberattack": 1786701286.5869114,
 "Frontier AI Threats Drive Companies to Boost Security Budgets": 1786726132.377609,
 "GLM-5.3 Arrives Hours After Tang Jie's 'sooooooon' \u2014 Zhipu's Coding and Security Model Doubles SWE-Marathon, Tops CyberGym": 1786701286.5869114,
@@ -2832,7 +2831,6 @@
 "IBM partners with OpenAI to bolster enterprise AI push": 1786650852.9283204,
 "Insurance Regulators Get Schooled on AI Governance": 1786726132.377609,
 "Introducing Gemini 3.7 Flash": 1786643612.5331674,
-"Intuit Debuts AI Tools for Middle Market Companies": 1786567780.9722512,
 "JD.com\u2019s second-quarter profit climbs 15% as food-delivery losses narrow": 1786625841.5133545,
 "JPMorgan debanked Polymarket - FT": 1786716782.6312656,
 "Jobless Claims Tick Up Amid Summertime Slowdown": 1786657144.2569602,
@@ -2846,7 +2844,6 @@
 "Meta\u2019s \u2018open\u2019 AI, and a $250M deal gone very wrong": 1786729701.1914737,
 "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps": 1786636449.541774,
 "Microsoft\u2019s Clippy-like Mico character is no longer the face of Copilot": 1786660531.1057258,
-"N26 adds Wero payments to app": 1786567780.9722512,
 "Nanjing University and Renshine Publish Meter-Scale Perovskite Modules in Nature \u2014 22% Certified Efficiency With Field-Proven Gains Over Silicon": 1786664108.713612,
 "Nearly 4 in 10 CFOs See Gen AI Paying Off Within Two Years": 1786695034.0792522,
 "Netdania adds Fenics FX options data": 1786625841.5133545,
@@ -2855,6 +2852,7 @@
 "Nvidia\u2019s new $500B plan is risky but brilliant, especially for aging GPUs": 1786636449.541774,
 "Omni experts share what excites them most about the model.": 1786630933.485863,
 "One Dog\u2019s Cancer Vaccine Just Became a Real Company": 1786643612.5331674,
+"OpenAI Appoints Former Wiz Executive Dali Rajic as Chief Revenue Officer": 1786742384.2290447,
 "OpenAI CFO Sarah Friar Built an AI-Native Department. Mid-Market CFOs Can Start Smaller.": 1786660531.1057258,
 "OpenAI appoints Dali Rajic as Chief Revenue Officer": 1786639857.5222478,
 "OpenAI is losing its second executive this week": 1786650852.9283204,
@@ -2890,6 +2888,7 @@
 "Tencent Plans Larger Hy4 Model After Hy3 Usage Jumps 68-Fold": 1786601547.813323,
 "Terabytes of credentials leaked in massive supply-chain attack": 1786577695.7495387,
 "The Cloud Risk CFOs Aren\u2019t Measuring: What Happens When a Vendor Disappears?": 1786729701.1914737,
+"The Next Big Influencer Is This 4-Foot-Tall Robot From China": 1786742384.2290447,
 "The Safety Reckoning Inside OpenAI": 1786664108.713612,
 "The White House Is Going to Expand Its AI Policy": 1786570791.002966,
 "The new Instagram logo is the perfect embodiment of AI slop": 1786653366.2393105,
@@ -2919,5 +2918,5 @@
 "llm-gemini 0.33": 1786680154.053737,
 "sqlite-utils 4.2.1": 1786670664.8675187
 },
-"updated": 1786739103
+"updated": 1786742384
 }
