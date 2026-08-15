@@ -1771,6 +1771,7 @@
 "a7c17510d2ac71b7": 1786452676.4807894,
 "a7c68580e3295d12": 1783556255.84532,
 "a7cdb51ebcae374a": 1786680154.0537307,
+"a817ee13ae2766e0": 1786785580.0345967,
 "a8402b7985d32a11": 1786339234.1710243,
 "a84f48ef4f1d22a4": 1783083197.1731675,
 "a8502546296bd018": 1783857302.8535898,
@@ -2313,6 +2314,7 @@
 "dab11f4c41bbbc20": 1786739103.4008563,
 "dad7cfbe08c49ec4": 1786539374.0900314,
 "daf276358c92684f": 1783948604.6306467,
+"daff2c7c3469342a": 1786785580.0345967,
 "db792b0fa4bad36e": 1784180096.2233946,
 "db7b732dbacbb283": 1782915829.060614,
 "db8d2fe3609d2202": 1784035295.1555674,
@@ -2750,6 +2752,7 @@
 "Adyen Ties Loyalty to Payments as In-Person Volume Climbs 28%": 1786657144.2569602,
 "Airwallex partners Affirm for US BNPL roll out": 1786650852.9283204,
 "Alibaba adds commercial restrictions to open-weight Qwen3.8-Max AI model": 1786660531.1057258,
+"Amazon Can Use Your Twitch Content to Train Its AI\u2014Unless You Opt Out": 1786785580.0346005,
 "Amazon Wants Alexa to Own the Shopping List Before Walmart Ever Sees It": 1786657144.2569602,
 "American Express Expands Virtual Cards for Corporate and Business Travel Spending": 1786636449.541774,
 "Anthropic Could Seek $2 Trillion Valuation in Record IPO": 1786618884.9912977,
@@ -2794,6 +2797,7 @@
 "French taxpayers' data stolen in cyberattack": 1786701286.5869114,
 "Frontier AI Threats Drive Companies to Boost Security Budgets": 1786726132.377609,
 "GLM-5.3 Arrives Hours After Tang Jie's 'sooooooon' \u2014 Zhipu's Coding and Security Model Doubles SWE-Marathon, Tops CyberGym": 1786701286.5869114,
+"Global leaders must wake up to threat of unbridled AI adoption": 1786785580.0346005,
 "HongShan invests in ZXMOTO as Chinese motorcycle maker targets global racing": 1786687776.1913295,
 "How China\u2019s young managers grappled with billion-yuan mandates as AI shocks hit portfolios": 1786759853.7238734,
 "How kids feel about AI, in their own words": 1786660531.1057258,
@@ -2882,5 +2886,5 @@
 "llm-gemini 0.33": 1786680154.053737,
 "sqlite-utils 4.2.1": 1786670664.8675187
 },
-"updated": 1786782024
+"updated": 1786785580
 }
