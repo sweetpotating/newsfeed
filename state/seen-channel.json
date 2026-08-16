@@ -633,6 +633,7 @@
 "3c740f923fd98bf7": 1785183501.55516,
 "3c7527870ec63bf2": 1784570136.0764227,
 "3c95f277e69a6ef2": 1784758258.9054244,
+"3ca05d76284e68b7": 1786900481.2071302,
 "3caeed39fbed3c26": 1785290672.9942815,
 "3cb33a59de65c208": 1786346435.8671002,
 "3ce57b9e709cdf0a": 1786188165.2700164,
@@ -2695,6 +2696,7 @@
 "AI Turns Sports\u2019 Dead Air Into a Selling Season": 1786729701.1914737,
 "AI-generated books are flooding Amazon and tanking sales for human authors": 1786792471.9006538,
 "Amazon Can Use Your Twitch Content to Train Its AI\u2014Unless You Opt Out": 1786785580.0346005,
+"Anthropic CEO says AI backlash is \u2018fundamentally a crisis of trust\u2019": 1786900481.2071345,
 "Anthropic announces watermark detection API that will let third parties detect Claude's AI texts": 1786745802.4967387,
 "Anthropic shares more details about how Claude\u2019s new watermarks will work": 1786821464.8608336,
 "Anthropic's bio-weapons filter was down for nearly a year, exposing 133 million requests": 1786865146.7609262,
@@ -2705,13 +2707,11 @@
 "China\u2019s \u2018Cat\u2019, Honor of Kings great, reflects on his gaming career amid the esports explosion": 1786792471.9006538,
 "Don't classify. Hallucinate!": 1786745802.4967387,
 "Enterprise AI\u2019s Hottest Job Just Found Its Biggest Skeptic": 1786739103.4008608,
-"Frontier AI Threats Drive Companies to Boost Security Budgets": 1786726132.377609,
 "Global leaders must wake up to threat of unbridled AI adoption": 1786785580.0346005,
 "Have a laugh at AI\u2019s expense by roleplaying as a chatbot": 1786832115.2476523,
 "Home province of DeepSeek, Moonshot founders seeks to retain, attract future AI talent": 1786851772.5212831,
 "How China\u2019s young managers grappled with billion-yuan mandates as AI shocks hit portfolios": 1786759853.7238734,
 "I gave Tencent\u2019s WeChat AI agent control for 24 hours: where it excelled \u2013 and stumbled": 1786868507.029368,
-"Insurance Regulators Get Schooled on AI Governance": 1786726132.377609,
 "Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's numbers defy bubble warnings": 1786810637.4565797,
 "Italy\u2019s Cheese Bank Finds Climate Risk Has a Rind": 1786782024.562499,
 "Mastercard Offers Brazilian Acquirers 50% Payout and Services in Will Bank Dispute": 1786755302.394637,
@@ -2723,7 +2723,6 @@
 "Open-weight Chinese AI models gain foothold in Europe despite Brussels\u2019 trepidation": 1786764827.2289362,
 "OpenAI Appoints Former Wiz Executive Dali Rajic as Chief Revenue Officer": 1786742384.2290447,
 "OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups": 1786868507.029368,
-"OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline": 1786726132.377609,
 "Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data": 1786861799.2833254,
 "Platforms Use Payments Data to Push Deeper Into Merchant Credit": 1786745802.4967387,
 "Quoting Dario Amodei": 1786893351.709585,
@@ -2733,7 +2732,6 @@
 "Speed Becomes the Product as OpenAI and Google Sell Faster AI": 1786745802.4967387,
 "Stablecoin Competition Moves From Issuing Tokens to Owning Distribution": 1786733063.8050208,
 "State of Open Models: Summer 2026 Observations": 1786733063.8050208,
-"Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach": 1786726132.377609,
 "Suspecting court of using AI, man injected prompts in filings to try to win case": 1786729701.1914737,
 "Talks to sell PayPal to Stripe and Advent are heating up": 1786749348.940887,
 "The \"tragedy of the cognitive commons\" explains how rational AI adoption could destroy entire professions' expertise": 1786775253.8215692,
@@ -2742,8 +2740,7 @@
 "Top mathematicians say LLMs are strong calculators but poor creative thinkers": 1786897045.8082845,
 "When AI models aren't allowed to reflect on themselves, it changes their entire worldview": 1786883265.14175,
 "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery": 1786832115.2476523,
-"World Labs turns one real-world robot task into thousands of simulated variations for training": 1786782024.562499,
-"You can now turn off Google Gemini&#8217;s visible watermarks": 1786726132.377609
+"World Labs turns one real-world robot task into thousands of simulated variations for training": 1786782024.562499
 },
-"updated": 1786897045
+"updated": 1786900481
 }
