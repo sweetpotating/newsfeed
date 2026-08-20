@@ -1,45 +1,45 @@
 {
-"generated": 1787187109,
+"generated": 1787221346,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/offering-zero-data-retention-for-frontier-models\">Offering Zero Data Retention for frontier models</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 5h ago</i>\n\n• OpenAI offers Zero Data Retention for eligible API customers to protect user privacy.\n• Private Safety Processing enables advanced AI safety checks without storing customer data.\n• Feature addresses enterprise concerns about data handling with frontier AI models.\n\n📰 <i>Also covered by: TechCrunch AI</i>\n\n<a href=\"https://openai.com/index/offering-zero-data-retention-for-frontier-models\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/\">Binance now lets AI agents trade, but keeping them in check is largely up to users</a></b>\n<i>TechCrunch AI · 🟧 Claude · 🟢 ChatGPT · 52m ago</i>\n\n• Binance Agent OS enables AI agents to execute trades on the platform using ChatGPT, Claude Code, and Cursor.\n• User responsibility remains high for monitoring and controlling agent behavior on the platform.\n• Binance has integrated multiple AI coding models into its trading infrastructure.\n\n<a href=\"https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/\">Cognition CEO denies report that SpaceX tried to acquire the startup</a></b>\n<i>TechCrunch AI · 🟧 Claude · 🟢 ChatGPT · 3h ago</i>\n\n• Cognition CEO denied report that SpaceX attempted to acquire the AI coding startup.\n• SpaceX already acquired Cursor and is building enterprise AI capabilities.\n• Move reflects competitive race between SpaceX, OpenAI, and Anthropic for AI dominance.\n\n<a href=\"https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/coze-desktop-client-cloud-drive-two-way-sync-agent-local-workflow-bytedance-aug2026\">Coze Finally Gets a Desktop Client: Two-Way Cloud Drive Sync Closes AI Office&#x27;s &#x27;Last Mile&#x27;</a></b>\n<i>Pandaily (China) · 🟧 Claude · 🟢 ChatGPT · 🌏 Asia · 1h ago</i>\n\n• Coze launched a desktop client with two-way cloud drive sync to enable local file access for AI agents.\n• Desktop client adds screenshot capture and local Codex CLI and Claude Code recognition for multi-agent collaboration.\n• Release addresses the final gap in Coze&#x27;s AI office workflow by connecting agents to local computer systems.\n\n<a href=\"https://pandaily.com/coze-desktop-client-cloud-drive-two-way-sync-agent-local-workflow-bytedance-aug2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/img3_07505ea1b1.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/\">Anthropic&#x27;s most capable model, codenamed &quot;Model 2,&quot; is for internal use only</a></b>\n<i>The Decoder · 🟧 Claude · 17m ago</i>\n\n• Anthropic has developed an unpublished model codenamed Model 2 that exceeds all publicly available Claude versions.\n• Model 2 remains restricted to internal use only and has not been released to the public.\n• Anthropic maintains a more capable version of Claude than any customer-facing product.\n\n<a href=\"https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_logo_wall-1.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/minimax-design-video-model-workflow-codex-agent-h3-canvas-aug2026\">MiniMax Design Arrives: The Video Model Has Its Own Codex</a></b>\n<i>Pandaily (China) · 🟢 ChatGPT · 🌏 Asia · 1h ago</i>\n\n• MiniMax launched MiniMax Design, a production workflow built around its H3 video generation model.\n• Design platform enables continuous editing, collaboration, and delivery of AI-generated video content.\n• System functions as a Codex-equivalent tool specifically designed for video model outputs.\n\n<a href=\"https://pandaily.com/minimax-design-video-model-workflow-codex-agent-h3-canvas-aug2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/img2_d37d2ea8ee.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/\">OpenAI builds safety system that catches misuse without storing customer data</a></b>\n<i>The Decoder · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI developed a safety system that detects model misuse without retaining customer data.\n• System allows enterprise customers to use advanced AI models with data privacy protections.\n• Approach balances security monitoring with customer confidentiality requirements.\n\n<a href=\"https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/openai_chatgpt_pattern_logo.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/\">Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks</a></b>\n<i>Wired – AI · 🟧 Claude · 17h ago</i>\n\n• Anthropic introduced invisible watermarks in AI-generated content to comply with EU regulations.\n• Researchers found workarounds to bypass the watermarks within hours of announcement.\n• Watermark effectiveness and durability remain questionable against technical circumvention.\n\n<a href=\"https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/\">Read more →</a>",
+"photo": "https://media.wired.com/photos/6a85ca54d0110f6d404e46bf/master/pass/081926_AI-Watermark-Removal.jpg"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/\">Researchers say OpenAI revoked their access to limited cyber program</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 15h ago</i>\n\n• OpenAI revoked researcher access to its Trusted Access for Cyber program.\n• Program aimed to give cybersecurity researchers better models to identify and report vulnerabilities faster.\n• Action limits trusted researchers&#x27; ability to participate in vulnerability disclosure workflow.\n\n<a href=\"https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/\">smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</a></b>\n<i>Simon Willison · 🟧 Claude · 1h ago</i>\n\n• smolvm provides a sandbox environment for running untrusted Python and JavaScript code securely.\n• Claude evaluated the sandbox tool&#x27;s capabilities and security features.\n• Fast, secure sandbox for executing potentially dangerous code without system compromise.\n\n<a href=\"https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/\">OpenAI fixes Codex bug that deleted real user files without permission</a></b>\n<i>The Decoder · 🟢 ChatGPT · 16h ago</i>\n\n• OpenAI patched Codex after GPT-5.6 Sol deleted user files without authorization.\n• Bug involved cleanup commands meant for temporary folders inadvertently wiping home directories.\n• Patch requires deletion target verification and prevents accidental full-access mode triggering.\n\n<a href=\"https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/07/openai_sol.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110691/yomo-secures-initial-banking-licence-in-egypt?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Yomo secures initial banking licence in Egypt</a></b>\n<i>Finextra · just now</i>\n\n• Commercial International Bank Egypt received preliminary central bank approval to establish yomo digital bank.\n• Approval aligns with Egypt&#x27;s digital banking regulatory framework established in 2023.\n• Move represents expansion of digital banking infrastructure in Egyptian financial sector.\n\n<a href=\"https://www.finextra.com/pressarticle/110691/yomo-secures-initial-banking-licence-in-egypt?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/\">Conceptual integrity and counting lines of code</a></b>\n<i>Simon Willison · 🟧 Claude · 2h ago</i>\n\n• Episode focused on how AI is changing software development practices and workflows.\n• Discussion included perspectives on conceptual integrity in code and measuring code quality.\n• Highlights from Talking Postgres podcast with Claire Giordano transcribed and summarized.\n\n<a href=\"https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/newsarticle/48274/eib-launches-fintech-fund-in-poland?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">EIB launches fintech fund in Poland</a></b>\n<i>Finextra · 3m ago</i>\n\n• European Investment Fund and Bank Gospodarstwa Krajowego launched €30m fintech venture capital fund in Poland.\n• Fund focuses on fintech investment opportunities in the Polish market.\n• Partnership combines European and Polish development banking resources for startup financing.\n\n<a href=\"https://www.finextra.com/newsarticle/48274/eib-launches-fintech-fund-in-poland?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/\">Start the semester with one year of Gemini, on us</a></b>\n<i>Google – Gemini · 🔵 Gemini · 📣 Official · 5h ago</i>\n\n• Google offering one year of free Gemini access to students for the semester.\n• Promotion targets student audience to expand Gemini adoption among learners.\n• Claim-based redemption program for eligible student subscribers.\n\n<a href=\"https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/\">Read more →</a>",
-"photo": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/BTS_gemini_hero_withcopy.max-600x600.format-webp.webp"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/\">Google packs Search and Gemini with new AI study tools</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 🔵 Gemini · 5h ago</i>\n\n• Google added new AI study tools to Search and Gemini for students.\n• Features designed to compete with OpenAI for student-focused AI assistant usage.\n• Expansion part of Google&#x27;s strategy to position Gemini as primary learning assistant.\n\n<a href=\"https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openai-cfo-tells-employees-public-debut-coming-by-2027/\">OpenAI CFO Tells Employees Public Debut Coming by 2027</a></b>\n<i>PYMNTS · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI CFO told employees the company will go public by 2027.\n• IPO could happen sooner if business continues current growth trajectory.\n• Public debut planned as company faces competition and prepares for expansion.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openai-cfo-tells-employees-public-debut-coming-by-2027/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/08/OpenAI-IPO-in-2027-1.jpg?w=457"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/replit\">Replit expands access to software creation with GPT-5.6 Luna</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 17h ago</i>\n\n• Replit launched Free Mode powered by GPT-5.6 Luna to remove token cost barriers.\n• Anyone can now create working software through Replit without payment concerns.\n• Democratizes access to AI-powered software development for broader user base.\n\n<a href=\"https://openai.com/index/replit\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai\">OpenAI hit the brakes. Now what?</a></b>\n<i>The Verge – AI · 🟧 Claude · 🟢 ChatGPT · 7h ago</i>\n\n• OpenAI slowed AI development pace while tightening safety measures and systems.\n• Slowdown occurs amid upcoming IPO, competition from Anthropic, and Chinese rivals.\n• Strategic shift prioritizes responsible development over speed despite market pressures.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/\">Waymo is bringing Gemini into its custom Ojai vehicles.</a></b>\n<i>Google – Gemini · 🔵 Gemini · 📣 Official · 7h ago</i>\n\n• Waymo integrating Gemini into custom-built Ojai autonomous vehicles for rides.\n• Gemini provides personalized and helpful passenger assistance in Waymo cars.\n• Partnership brings conversational AI capabilities to Waymo&#x27;s autonomous vehicle experience.\n\n<a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/\">Read more →</a>",
-"photo": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Ojai_vehicles_social.max-600x600.format-webp.webp"
 }
 ]
 }
