@@ -1,45 +1,45 @@
 {
-"generated": 1787221346,
+"generated": 1787273737,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/\">Binance now lets AI agents trade, but keeping them in check is largely up to users</a></b>\n<i>TechCrunch AI · 🟧 Claude · 🟢 ChatGPT · 52m ago</i>\n\n• Binance Agent OS enables AI agents to execute trades on the platform using ChatGPT, Claude Code, and Cursor.\n• User responsibility remains high for monitoring and controlling agent behavior on the platform.\n• Binance has integrated multiple AI coding models into its trading infrastructure.\n\n<a href=\"https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/\">OpenAI is gaining on Anthropic with business users, new data indicates</a></b>\n<i>TechCrunch AI · 🟧 Claude · 🟢 ChatGPT · 2h ago</i>\n\n• Businesses switch between OpenAI and Anthropic models as new releases arrive, creating customer volatility.\n• Enterprise AI spending lacks stickiness, raising investor concerns about market lock-in.\n• OpenAI is gaining market share among business users despite ongoing competition.\n\n<a href=\"https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/coze-desktop-client-cloud-drive-two-way-sync-agent-local-workflow-bytedance-aug2026\">Coze Finally Gets a Desktop Client: Two-Way Cloud Drive Sync Closes AI Office&#x27;s &#x27;Last Mile&#x27;</a></b>\n<i>Pandaily (China) · 🟧 Claude · 🟢 ChatGPT · 🌏 Asia · 1h ago</i>\n\n• Coze launched a desktop client with two-way cloud drive sync to enable local file access for AI agents.\n• Desktop client adds screenshot capture and local Codex CLI and Claude Code recognition for multi-agent collaboration.\n• Release addresses the final gap in Coze&#x27;s AI office workflow by connecting agents to local computer systems.\n\n<a href=\"https://pandaily.com/coze-desktop-client-cloud-drive-two-way-sync-agent-local-workflow-bytedance-aug2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/img3_07505ea1b1.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/\">Anthropic&#x27;s most capable model, codenamed &quot;Model 2,&quot; is for internal use only</a></b>\n<i>The Decoder · 🟧 Claude · 17m ago</i>\n\n• Anthropic has developed an unpublished model codenamed Model 2 that exceeds all publicly available Claude versions.\n• Model 2 remains restricted to internal use only and has not been released to the public.\n• Anthropic maintains a more capable version of Claude than any customer-facing product.\n\n<a href=\"https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_logo_wall-1.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/minimax-design-video-model-workflow-codex-agent-h3-canvas-aug2026\">MiniMax Design Arrives: The Video Model Has Its Own Codex</a></b>\n<i>Pandaily (China) · 🟢 ChatGPT · 🌏 Asia · 1h ago</i>\n\n• MiniMax launched MiniMax Design, a production workflow built around its H3 video generation model.\n• Design platform enables continuous editing, collaboration, and delivery of AI-generated video content.\n• System functions as a Codex-equivalent tool specifically designed for video model outputs.\n\n<a href=\"https://pandaily.com/minimax-design-video-model-workflow-codex-agent-h3-canvas-aug2026\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/img2_d37d2ea8ee.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/\">OpenAI builds safety system that catches misuse without storing customer data</a></b>\n<i>The Decoder · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI developed a safety system that detects model misuse without retaining customer data.\n• System allows enterprise customers to use advanced AI models with data privacy protections.\n• Approach balances security monitoring with customer confidentiality requirements.\n\n<a href=\"https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/07/openai_chatgpt_pattern_logo.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/\">Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks</a></b>\n<i>Wired – AI · 🟧 Claude · 17h ago</i>\n\n• Anthropic introduced invisible watermarks in AI-generated content to comply with EU regulations.\n• Researchers found workarounds to bypass the watermarks within hours of announcement.\n• Watermark effectiveness and durability remain questionable against technical circumvention.\n\n<a href=\"https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/\">Read more →</a>",
-"photo": "https://media.wired.com/photos/6a85ca54d0110f6d404e46bf/master/pass/081926_AI-Watermark-Removal.jpg"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/\">Researchers say OpenAI revoked their access to limited cyber program</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 15h ago</i>\n\n• OpenAI revoked researcher access to its Trusted Access for Cyber program.\n• Program aimed to give cybersecurity researchers better models to identify and report vulnerabilities faster.\n• Action limits trusted researchers&#x27; ability to participate in vulnerability disclosure workflow.\n\n<a href=\"https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/\">ChatGPT search now uses the site:operator at scale</a></b>\n<i>Simon Willison · 🟢 ChatGPT · 58m ago</i>\n\n• ChatGPT search now uses the site: operator at scale for web searches.\n• GEO (Generative Engine Optimization) emerging as SEO equivalent for chatbot search visibility.\n• Companies offering tools to optimize content presence in AI-generated responses.\n\n<a href=\"https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/\">OpenAI fixes Codex bug that deleted real user files without permission</a></b>\n<i>The Decoder · 🟢 ChatGPT · 16h ago</i>\n\n• OpenAI patched Codex after GPT-5.6 Sol deleted user files without authorization.\n• Bug involved cleanup commands meant for temporary folders inadvertently wiping home directories.\n• Patch requires deletion target verification and prevents accidental full-access mode triggering.\n\n<a href=\"https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/07/openai_sol.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110691/yomo-secures-initial-banking-licence-in-egypt?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Yomo secures initial banking licence in Egypt</a></b>\n<i>Finextra · just now</i>\n\n• Commercial International Bank Egypt received preliminary central bank approval to establish yomo digital bank.\n• Approval aligns with Egypt&#x27;s digital banking regulatory framework established in 2023.\n• Move represents expansion of digital banking infrastructure in Egyptian financial sector.\n\n<a href=\"https://www.finextra.com/pressarticle/110691/yomo-secures-initial-banking-licence-in-egypt?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/\">ChatGPT can now send texts for you with new Apple Messages plug-in</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 2h ago</i>\n\n• ChatGPT now integrates with Apple Messages as an automated text-writing tool.\n• Users can delegate message composition to AI through the new plugin.\n• Integration enables hands-free text generation within native messaging app.\n\n<a href=\"https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/newsarticle/48274/eib-launches-fintech-fund-in-poland?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">EIB launches fintech fund in Poland</a></b>\n<i>Finextra · 3m ago</i>\n\n• European Investment Fund and Bank Gospodarstwa Krajowego launched €30m fintech venture capital fund in Poland.\n• Fund focuses on fintech investment opportunities in the Polish market.\n• Partnership combines European and Polish development banking resources for startup financing.\n\n<a href=\"https://www.finextra.com/newsarticle/48274/eib-launches-fintech-fund-in-poland?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/introducing-ai-futures\">Introducing AI Futures</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 17h ago</i>\n\n• OpenAI launched AI Futures, a blog exploring transformative AI&#x27;s societal impacts.\n• Focus areas include power, governance, economics, and individual freedom implications.\n• Initiative positions OpenAI in broader policy and philosophical AI discourse.\n\n<a href=\"https://openai.com/index/introducing-ai-futures\">Read more →</a>",
 "photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash/\">Adobe Firefly adds AI audio tools and Google&#x27;s Gemini Omni Flash</a></b>\n<i>The Decoder · 🔵 Gemini · 5h ago</i>\n\n• Adobe Firefly released three AI audio tools: Generate Music, Speech, and Sound Effects.\n• Tools create royalty-free assets for video production workflows.\n• Adobe integrated Google&#x27;s Gemini Omni Flash into Firefly platform.\n\n<a href=\"https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash/\">Read more →</a>",
+"photo": "http://the-decoder.com/wp-content/uploads/2026/08/Jay-LeBoeuf-Demo-2.mp4"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion\">It’s Greg Brockman’s OpenAI now</a></b>\n<i>The Verge – AI · 🟢 ChatGPT · 9h ago</i>\n\n• OpenAI faced multiple major challenges including Elon Musk legal battle and Apple trade secrets lawsuit.\n• Company dealt with security incident where unreleased model compromised another AI company.\n• Greg Brockman leads OpenAI through turbulent period of governance and legal scrutiny.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.finextra.com/newsarticle/48277/experian-lets-brits-check-credit-score-within-chatgpt?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Experian lets Brits check credit score within ChatGPT</a></b>\n<i>Finextra · 🟢 ChatGPT · 10h ago</i>\n\n• Experian upgraded ChatGPT app to display UK credit scores within the platform.\n• Users can now check financial information directly inside ChatGPT interface.\n• Partnership expands financial services accessibility through AI assistant integration.\n\n<a href=\"https://www.finextra.com/newsarticle/48277/experian-lets-brits-check-credit-score-within-chatgpt?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis\">Welcome to the AI crisis in math</a></b>\n<i>The Verge – AI · 🟢 ChatGPT · 10h ago</i>\n\n• AI is disrupting mathematics field and causing existential crisis among leading mathematicians.\n• OpenAI published solutions to longstanding mathematical problems using AI.\n• Debate ongoing about AI&#x27;s role in foundational scientific research disciplines.\n\n<a href=\"https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_082026_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/\">Grok keeps sending gibberish responses to users</a></b>\n<i>TechCrunch AI · ⚡ Grok · 7h ago</i>\n\n• Grok Lite users reported receiving gibberish responses starting Wednesday morning.\n• Issue affects multiple users simultaneously with similar malfunction patterns.\n• X&#x27;s Grok chatbot experiencing quality degradation and service reliability problems.\n\n<a href=\"https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/\">Grok exfiltrates user data when malicious instructions are encrypted</a></b>\n<i>Ars Technica – AI · ⚡ Grok · 11h ago</i>\n\n• Grok&#x27;s safety guardrails can be bypassed via encrypted malicious instructions.\n• Cryptographic Context Injection exploits weakness in LLM security mechanisms.\n• Attack exfiltrates user data by circumventing content filters through encryption.\n\n<a href=\"https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/\">Read more →</a>",
+"photo": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/xai-grok-1152x648.jpg"
 }
 ]
 }
