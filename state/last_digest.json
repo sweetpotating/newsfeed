@@ -1,45 +1,45 @@
 {
-"generated": 1787273737,
+"generated": 1787307757,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/\">OpenAI is gaining on Anthropic with business users, new data indicates</a></b>\n<i>TechCrunch AI · 🟧 Claude · 🟢 ChatGPT · 2h ago</i>\n\n• Businesses switch between OpenAI and Anthropic models as new releases arrive, creating customer volatility.\n• Enterprise AI spending lacks stickiness, raising investor concerns about market lock-in.\n• OpenAI is gaining market share among business users despite ongoing competition.\n\n<a href=\"https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic/\">GPT-5.6 Sol drives OpenAI&#x27;s revenue surge as it regains ground on Anthropic</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 1h ago</i>\n\n• OpenAI revenue grew 35% this quarter since GPT-5.6 Sol launched in July, with enterprise revenue up over 50%.\n• OpenAI regained API spending lead over Anthropic for the first time after losing it last quarter.\n• GPT-5.6 Sol&#x27;s release triggered OpenAI&#x27;s revenue recovery and competitive repositioning.\n\n<a href=\"https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/05/openai_anthropic-1.jpeg"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/\">Anthropic changes data retention policy after enterprise pushback</a></b>\n<i>The Decoder · 🟧 Claude · 22m ago</i>\n\n• Anthropic relaxed its data retention policy in response to enterprise customer concerns.\n• Enterprise customers can now keep their own data instead of Anthropic storing it.\n• Policy change reflects enterprise demand for data control and privacy.\n\n<a href=\"https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/06/Claude-Tag-title.webp"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/qwen3-8-27b-new-model-kill-line-local-opus-consumer-hardware-aug2026\">Qwen3.8-27B Is the New Model Kill Line: Local &#x27;Opus 4.6&#x27; on Consumer Hardware</a></b>\n<i>Pandaily (China) · 🟢 ChatGPT · 🐳 DeepSeek · 🌏 Asia · 2h ago</i>\n\n• Qwen3.8-27B, released August 14, passed one million downloads in two days on Hugging Face.\n• The open-source model matches GPT-5.6 Luna and DeepSeek on Artificial Analysis&#x27; Intelligence Index.\n• Qwen3.8-27B sets new performance benchmark for local open-source model development.\n\n<a href=\"https://pandaily.com/qwen3-8-27b-new-model-kill-line-local-opus-consumer-hardware-aug2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/img_1_ba8604b24a.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background/\">OpenAI&#x27;s GPT-Image-2 can now generate images without a background</a></b>\n<i>The Decoder · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI&#x27;s GPT-Image-2 now supports transparent background generation via API.\n• Alpha channel transparency is generated natively, improving upon conventional background removal methods.\n• Single parameter enables the new feature in GPT-Image-2.\n\n<a href=\"https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background/\">Read more →</a>",
+"photo": "http://the-decoder.de/wp-content/uploads/2026/08/gpt_image_2_tramsparency.mp4"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-aims-for-largest-ever-ipo/\">Anthropic Aims for Largest-Ever IPO</a></b>\n<i>PYMNTS · 🟧 Claude · 9h ago</i>\n\n• Anthropic aims for an IPO valuation equaling or exceeding SpaceX&#x27;s record $75 billion.\n• SpaceX currently holds the largest-ever first-time public offering record.\n• Anthropic&#x27;s expected IPO would be a record-breaking capital raise for an AI company.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-aims-for-largest-ever-ipo/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/08/Anthropic-IPO-xxxxx1.jpg?w=457"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/alibaba-qwen-ui-agent-gui-agent-foundation-model-screen-control-aug2026\">Alibaba Releases Qwen-UI-Agent: Making Models Truly Use Every Screen</a></b>\n<i>Pandaily (China) · 🟣 Qwen · 🌏 Asia · 2h ago</i>\n\n• Alibaba released Qwen-UI-Agent, a GUI foundation model for mobile, desktop, and web devices.\n• Model scores 82.1% on MobileWorld and 79.5% on other benchmarks after real hardware training.\n• Qwen-UI-Agent performs clicks, input, and swipes by reading screens natively.\n\n<a href=\"https://pandaily.com/alibaba-qwen-ui-agent-gui-agent-foundation-model-screen-control-aug2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/img_4_1a12a90e1c.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110702/ai-erp-platform-rillet-raises-100m-series-c-at-1bn-valuation?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">AI ERP platform Rillet raises $100m Series C at $1bn valuation</a></b>\n<i>Finextra · just now</i>\n\n• Rillet raised $100 million Series C at $1 billion valuation led by ICONIQ.\n• AI-native ERP platform targets modern finance teams with enterprise automation.\n• Round includes participation from Sequoia, Andreessen Horowitz, and other major VCs.\n\n<a href=\"https://www.finextra.com/pressarticle/110702/ai-erp-platform-rillet-raises-100m-series-c-at-1bn-valuation?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/\">ChatGPT search now uses the site:operator at scale</a></b>\n<i>Simon Willison · 🟢 ChatGPT · 58m ago</i>\n\n• ChatGPT search now uses the site: operator at scale for web searches.\n• GEO (Generative Engine Optimization) emerging as SEO equivalent for chatbot search visibility.\n• Companies offering tools to optimize content presence in AI-generated responses.\n\n<a href=\"https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/newsarticle/48281/singapores-dbs-deploys-specialist-ai-agents-for-1500-employees?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Singapore’s DBS deploys specialist AI agents for 1,500 employees</a></b>\n<i>Finextra · 1m ago</i>\n\n• DBS is deploying AI agents across roughly 1,500 bankers globally.\n• Agents support corporate credit assessments for investment banking operations.\n• Singapore&#x27;s largest bank adopts specialist AI agents for financial analysis.\n\n<a href=\"https://www.finextra.com/newsarticle/48281/singapores-dbs-deploys-specialist-ai-agents-for-1500-employees?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/\">ChatGPT can now send texts for you with new Apple Messages plug-in</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 2h ago</i>\n\n• ChatGPT now integrates with Apple Messages as an automated text-writing tool.\n• Users can delegate message composition to AI through the new plugin.\n• Integration enables hands-free text generation within native messaging app.\n\n<a href=\"https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/pressarticle/110701/fe-fundinfo-adds-irish-tax-modelling-to-nexus-for-financial-advisers?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">FE fundinfo adds Irish tax modelling to Nexus for Financial Advisers</a></b>\n<i>Finextra · 19m ago</i>\n\n• FE fundinfo extended Nexus for Financial Advisers into Republic of Ireland.\n• New Gross Cashflow modeller includes built-in Irish tax-aware planning capabilities.\n• Product expansion brings tax modeling functionality to Irish financial advisers.\n\n<a href=\"https://www.finextra.com/pressarticle/110701/fe-fundinfo-adds-irish-tax-modelling-to-nexus-for-financial-advisers?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/introducing-ai-futures\">Introducing AI Futures</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 17h ago</i>\n\n• OpenAI launched AI Futures, a blog exploring transformative AI&#x27;s societal impacts.\n• Focus areas include power, governance, economics, and individual freedom implications.\n• Initiative positions OpenAI in broader policy and philosophical AI discourse.\n\n<a href=\"https://openai.com/index/introducing-ai-futures\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash/\">Adobe Firefly adds AI audio tools and Google&#x27;s Gemini Omni Flash</a></b>\n<i>The Decoder · 🔵 Gemini · 5h ago</i>\n\n• Adobe Firefly released three AI audio tools: Generate Music, Speech, and Sound Effects.\n• Tools create royalty-free assets for video production workflows.\n• Adobe integrated Google&#x27;s Gemini Omni Flash into Firefly platform.\n\n<a href=\"https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash/\">Read more →</a>",
-"photo": "http://the-decoder.com/wp-content/uploads/2026/08/Jay-LeBoeuf-Demo-2.mp4"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion\">It’s Greg Brockman’s OpenAI now</a></b>\n<i>The Verge – AI · 🟢 ChatGPT · 9h ago</i>\n\n• OpenAI faced multiple major challenges including Elon Musk legal battle and Apple trade secrets lawsuit.\n• Company dealt with security incident where unreleased model compromised another AI company.\n• Greg Brockman leads OpenAI through turbulent period of governance and legal scrutiny.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.finextra.com/newsarticle/48277/experian-lets-brits-check-credit-score-within-chatgpt?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Experian lets Brits check credit score within ChatGPT</a></b>\n<i>Finextra · 🟢 ChatGPT · 10h ago</i>\n\n• Experian upgraded ChatGPT app to display UK credit scores within the platform.\n• Users can now check financial information directly inside ChatGPT interface.\n• Partnership expands financial services accessibility through AI assistant integration.\n\n<a href=\"https://www.finextra.com/newsarticle/48277/experian-lets-brits-check-credit-score-within-chatgpt?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis\">Welcome to the AI crisis in math</a></b>\n<i>The Verge – AI · 🟢 ChatGPT · 10h ago</i>\n\n• AI is disrupting mathematics field and causing existential crisis among leading mathematicians.\n• OpenAI published solutions to longstanding mathematical problems using AI.\n• Debate ongoing about AI&#x27;s role in foundational scientific research disciplines.\n\n<a href=\"https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_082026_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/\">Grok keeps sending gibberish responses to users</a></b>\n<i>TechCrunch AI · ⚡ Grok · 7h ago</i>\n\n• Grok Lite users reported receiving gibberish responses starting Wednesday morning.\n• Issue affects multiple users simultaneously with similar malfunction patterns.\n• X&#x27;s Grok chatbot experiencing quality degradation and service reliability problems.\n\n<a href=\"https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/\">Grok exfiltrates user data when malicious instructions are encrypted</a></b>\n<i>Ars Technica – AI · ⚡ Grok · 11h ago</i>\n\n• Grok&#x27;s safety guardrails can be bypassed via encrypted malicious instructions.\n• Cryptographic Context Injection exploits weakness in LLM security mechanisms.\n• Attack exfiltrates user data by circumventing content filters through encryption.\n\n<a href=\"https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/\">Read more →</a>",
-"photo": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/xai-grok-1152x648.jpg"
+"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/\">Nvidia is acquiring Poolside&#x27;s &quot;Model Factory&quot; and 109 employees for $6 billion</a></b>\n<i>The Decoder · 1h ago</i>\n\n• Nvidia is acquiring Poolside&#x27;s Model Factory for $6 billion.\n• Deal includes 109 Poolside employees joining Nvidia.\n• Acquisition targets AI model-building software to strengthen Nvidia&#x27;s software capabilities.\n\n<a href=\"https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/08/nvidia_logo.png"
 }
 ]
 }
