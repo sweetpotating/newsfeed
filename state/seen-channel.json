@@ -439,6 +439,7 @@
 "25f429896879d025": 1784167517.5279956,
 "2604eb0824057d6f": 1786507309.2580996,
 "2646b4679f3b792d": 1784527923.3909767,
+"26aa5348907510db": 1787390471.037583,
 "270215bf89004141": 1783650593.0312762,
 "2703d2cd9120e447": 1785922352.3508575,
 "27134903fd2a80f7": 1784332051.3770103,
@@ -2963,7 +2964,6 @@
 "fff760616e70bca1": 1785217303.3344367
 },
 "titles": {
-"45% Rise in Mobile Price Checks Shows Changes in Store Shopping": 1787214675.8705482,
 "7 Winning Indicators Lift Economic Outlook Out of 4-Year Slump": 1787253980.7525358,
 "83% of Financial Firms Rate ID Systems Highly Despite Customer Friction": 1787307832.4833655,
 "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView": 1787283901.3944767,
@@ -3000,7 +3000,6 @@
 "Baidu App Gets a Major Upgrade: Office Agent Now Free as Search Goes Interactive": 1787279028.429012,
 "Banks Add Branches as Physical Networks Lift Digital Sales": 1787273897.490682,
 "Banks Prepare Payments for AI Commerce": 1787307832.4833655,
-"Big Tech\u2019s AI Gatekeepers Could Draw Regulatory Scrutiny": 1787214675.8705482,
 "Binance now lets AI agents trade, but keeping them in check is largely up to users": 1787221430.229816,
 "Business Email Compromise Attack Hijacks Session Token to Steal Vendor Payments": 1787264459.5426333,
 "CFTC Readies Own Crypto Market Rules as Congress Stalls CLARITY Act": 1787273897.490682,
@@ -3019,11 +3018,9 @@
 "Debates over AI consciousness are a trap": 1787260939.3347895,
 "Deepseek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks": 1787340077.3722699,
 "EIB launches fintech fund in Poland": 1787221430.229816,
-"Enterprise AI Finds Its Firmest Footing in Security and Treasury": 1787214675.8705482,
 "European Consumers\u2019 Inflation Expectations Ease Despite Middle East War Uncertainty": 1787329539.6866307,
 "Experian Lets UK Consumers Check Credit Through ChatGPT": 1787224861.5656886,
 "FE fundinfo adds Irish tax modelling to Nexus for Financial Advisers": 1787304648.8927863,
-"FE fundinfo appoints chief product officer": 1787214675.8705482,
 "Fifth Third Backs Payload\u2019s Embedded Payments Expansion": 1787360093.3474658,
 "Former JPMorgan COO Matt Zames to Advise Social Security Administration on Modernization": 1787343549.586213,
 "From Atari to EVE Online: Building on 15 Years of AI Research in Games": 1787315696.9242985,
@@ -3036,7 +3033,6 @@
 "Grayscale Sees SEC Proposal Unleashing New Wave of US Token Offerings": 1787260939.3347895,
 "Grok exfiltrates user data when malicious instructions are encrypted": 1787233278.5534632,
 "How ChatGPT Work helps Stampli move ideas to market": 1787243274.3962812,
-"How Treasury Teams Are Turning ERP Investments Into Better Cash Decisions": 1787214675.8705482,
 "How mobility gives language models a deeper understanding of place": 1787340077.3722699,
 "Huatian Technology's Fan-Out Packaging Tackles the Chip Thermal-Failure Challenge": 1787304648.8927863,
 "Huawei unveils Pura X View, a wide-screen slab phone": 1787297871.47618,
@@ -3120,6 +3116,7 @@
 "What does \u201cfull-stack\u201d AI actually mean?": 1787329539.6866307,
 "Why Unitree became the first humanoid robot company to go public in China": 1787224861.5656886,
 "Working Capital Is Becoming a Priced Portfolio for CFOs": 1787264459.5426333,
+"World models that ignore human beliefs predict the wrong actions, new research shows": 1787390471.0375867,
 "X Weighs Paying Influencers and Creators in Stablecoins": 1787229385.4480865,
 "Xiaohongshu Quietly Open-Sources Its Own Large Model: Content Platforms Build Their Own Base": 1787304648.8927863,
 "Yomo secures initial banking licence in Egypt": 1787221430.229816,
@@ -3127,5 +3124,5 @@
 "llm 0.32.1": 1787347096.85361,
 "llm-openrouter 0.7": 1787347096.85361
 },
-"updated": 1787386907
+"updated": 1787390471
 }
