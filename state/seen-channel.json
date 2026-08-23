@@ -2848,6 +2848,7 @@
 "fbcbd3ea07cf48b5": 1785753440.995869,
 "fbdc7422842bb017": 1783979485.7092597,
 "fbf0aff44e36bd87": 1787221430.229809,
+"fc0f17557ab7491b": 1787519734.4622638,
 "fc1d93763e922f21": 1784167517.5279956,
 "fc28e2f3b0afd785": 1786063096.1226704,
 "fc3528d001b5387a": 1784740283.6917446,
@@ -2892,13 +2893,12 @@
 "fff760616e70bca1": 1785217303.3344367
 },
 "titles": {
-"AI Is Opening New Revenue Streams for Automakers": 1787343549.586213,
 "AI could make scientists do more work less well, not less work better, study argues": 1787476902.733204,
 "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter": 1787480240.3093657,
 "Alibaba to issue HK$80 billion in new shares for global AI push": 1787462605.6530015,
 "An AI boss fired its first employee but only after humans reminded it of its own rules": 1787491633.3154497,
-"Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense": 1787343549.586213,
 "Anthropic\u2019s Opus 4.6 is a smut-machine": 1787354268.175401,
+"Anthropic\u2019s best AI model struggles to attract users as cheaper tools thrive": 1787519734.462267,
 "Apollo Global Management Hit by Social Engineering Attack and Data Breach": 1787350664.655234,
 "Apple Cuts Vision Pro Roles to Focus on Smart Glasses Push": 1787360093.3474658,
 "Are humanoid robots the future? Chinese makers instead highlight practical design": 1787456696.4010303,
@@ -2906,7 +2906,6 @@
 "China\u2019s overlooked internet army is quietly embedding AI into everyday businesses": 1787483754.2624187,
 "Fifth Third Backs Payload\u2019s Embedded Payments Expansion": 1787360093.3474658,
 "Flock CEO calls for \u2018compromise\u2019 as surveillance company faces growing backlash": 1787501875.0599194,
-"Former JPMorgan COO Matt Zames to Advise Social Security Administration on Modernization": 1787343549.586213,
 "Frontier AI labs still won\u2019t say how they\u2019d contain a rogue model": 1787415395.9701872,
 "Harvard\u2019s $699 startup bootcamp offers AI avatars of its instructors": 1787436931.5198188,
 "How China's gray market sells Claude tokens at a fraction of the price": 1787473325.6052918,
@@ -2916,7 +2915,6 @@
 "Netflix tests language model as alternative to hand-built recommendation logic": 1787386907.5050497,
 "Nscale Targets $3 Billion IPO as AI Data Center Demand Soars": 1787360093.3474658,
 "Nvidia customers notified of AI-related price rises above 15%": 1787436931.5198188,
-"Nvidia just showed that the harness, not the AI model, is now the real hero": 1787343549.586213,
 "Nvidia partners with data center developer Cloverleaf": 1787354268.175401,
 "One AI Agent, 2,395 Payments. Still No Final Say": 1787354268.175401,
 "OpenAI says California should strengthen its AI safety bill": 1787418935.030716,
@@ -2935,5 +2933,5 @@
 "llm 0.33": 1787422843.9390368,
 "llm-openrouter 0.7": 1787347096.85361
 },
-"updated": 1787516146
+"updated": 1787519734
 }
