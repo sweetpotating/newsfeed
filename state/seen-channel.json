@@ -232,6 +232,7 @@
 "1422c24b44674115": 1787319625.329227,
 "1423fc08153418f4": 1787131669.485809,
 "145fbd552c757009": 1783724296.0242636,
+"14648a150255a634": 1787501875.0599158,
 "1472cbc5a80d190c": 1783908737.5344217,
 "148c4e225d76168e": 1784135509.5146048,
 "148ca79f4e01eee6": 1787070217.049341,
@@ -2926,6 +2927,7 @@
 "Deepseek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks": 1787340077.3722699,
 "European Consumers\u2019 Inflation Expectations Ease Despite Middle East War Uncertainty": 1787329539.6866307,
 "Fifth Third Backs Payload\u2019s Embedded Payments Expansion": 1787360093.3474658,
+"Flock CEO calls for \u2018compromise\u2019 as surveillance company faces growing backlash": 1787501875.0599194,
 "Former JPMorgan COO Matt Zames to Advise Social Security Administration on Modernization": 1787343549.586213,
 "Frontier AI labs still won\u2019t say how they\u2019d contain a rogue model": 1787415395.9701872,
 "Harvard\u2019s $699 startup bootcamp offers AI avatars of its instructors": 1787436931.5198188,
@@ -2946,19 +2948,15 @@
 "Pay, perks, equity: China\u2019s AI, chip firms lead way in offering rewards to lock in talent": 1787383577.1100426,
 "Psychological methods reveal major weaknesses in AI security testing": 1787383577.1100426,
 "Quoting Linus Torvalds": 1787433350.6469078,
-"Quoting Matt Webb": 1787326034.0022295,
 "Retailers Find Bigger Growth Selling Ads Around the Shopping Cart": 1787329539.6866307,
-"Robotics AI Firm Dexmal Seeks $3 Billion Valuation in New Funding Round": 1787326034.0022295,
 "Standard Chartered and HSBC Complete First Interbank Transaction on Swift\u2019s Blockchain-Based Ledger": 1787360093.3474658,
 "Stop Making TUIs": 1787329539.6866307,
 "Study explains why AI agents benefit from \"skills\" and when they fail": 1787401614.7398255,
 "The DOJ is investigating a16z. What does this mean for venture capital?": 1787332971.11731,
 "The Unlikely Place at the Center of China\u2019s AI Boom": 1787360093.3474658,
 "This Week in Stablecoins: Crypto That Never Touches the Customer": 1787336896.1135385,
-"US wants to force partner countries to choose between Washington and Beijing in the AI race": 1787326034.0022295,
 "Walmart Tap to Pay Rollout Begins Monday": 1787332971.11731,
 "Walmart finally lets customers make contactless payments": 1787329539.6866307,
-"Walmart to finally start accepting Apple Pay and Google Pay": 1787326034.0022295,
 "What does \u201cfull-stack\u201d AI actually mean?": 1787329539.6866307,
 "World models that ignore human beliefs predict the wrong actions, new research shows": 1787390471.0375867,
 "Your AI Notetaker Would Like a Word": 1787386907.5050497,
@@ -2966,5 +2964,5 @@
 "llm 0.33": 1787422843.9390368,
 "llm-openrouter 0.7": 1787347096.85361
 },
-"updated": 1787498165
+"updated": 1787501875
 }
