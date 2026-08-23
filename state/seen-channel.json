@@ -2200,6 +2200,7 @@
 "c3ddbbe3d5ae3fb0": 1786397775.8440819,
 "c3ec41310ae97e73": 1785535706.985528,
 "c3fad8f2d1192bbf": 1787257286.4810884,
+"c4191faf46d27703": 1787483751.078804,
 "c4291d3835a2de2b": 1784747142.852964,
 "c449c107dd39cf4d": 1786121256.780003,
 "c44c1de761464e01": 1784109414.1415582,
@@ -2240,6 +2241,7 @@
 "c7109024c7136e20": 1785419177.0116098,
 "c73053f2dcd582d6": 1784850944.2630367,
 "c7394743be1e2909": 1785922335.902302,
+"c7444a1b32895834": 1787483754.2624161,
 "c74d6a2edcd74641": 1783781271.256371,
 "c756139f0d5be843": 1783900072.0386174,
 "c759cc5236a59910": 1784685959.5625966,
@@ -2916,8 +2918,6 @@
 "fff760616e70bca1": 1785217303.3344367
 },
 "titles": {
-"83% of Financial Firms Rate ID Systems Highly Despite Customer Friction": 1787307832.4833655,
-"AI ERP platform Rillet raises $100m Series C at $1bn valuation": 1787307832.4833655,
 "AI Is Opening New Revenue Streams for Automakers": 1787343549.586213,
 "AI Jobs Are Booming for Gen Z, Not Everyone": 1787336896.1135385,
 "AI could make scientists do more work less well, not less work better, study argues": 1787476902.733204,
@@ -2931,11 +2931,10 @@
 "Apple Cuts Vision Pro Roles to Focus on Smart Glasses Push": 1787360093.3474658,
 "Are humanoid robots the future? Chinese makers instead highlight practical design": 1787456696.4010303,
 "As demand for Meta AI glasses explodes, it\u2019s harder to avoid creepy recordings": 1787311200.965103,
-"Banks Prepare Payments for AI Commerce": 1787307832.4833655,
 "CFTC Roundtable Exposes Regulatory Rift Over Prediction-Market Risks": 1787332971.11731,
 "Card Processors Add New Rails as Customers Go Global": 1787347096.85361,
+"China\u2019s overlooked internet army is quietly embedding AI into everyday businesses": 1787483754.2624187,
 "China\u2019s telecoms giants bet on \u2018token factories\u2019 as AI drives revenue growth": 1787319625.329232,
-"Credit Union Chatbot Adoption Jumps From 3% to 46%": 1787307832.4833655,
 "Data center opposition surged from 42 to 75 percent in just one year, survey finds": 1787336896.1135385,
 "Deepseek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks": 1787340077.3722699,
 "European Consumers\u2019 Inflation Expectations Ease Despite Middle East War Uncertainty": 1787329539.6866307,
@@ -2989,5 +2988,5 @@
 "llm 0.33": 1787422843.9390368,
 "llm-openrouter 0.7": 1787347096.85361
 },
-"updated": 1787480240
+"updated": 1787483754
 }
