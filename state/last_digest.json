@@ -1,45 +1,21 @@
 {
-"generated": 1788015178,
+"generated": 1788058709,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software/\">Anthropic wants to do for physical hardware what its Model Context Protocol did for software</a></b>\n<i>The Decoder · 🟧 Claude · 5h ago</i>\n\n• Anthropic launched Model Hardware Standard to give AI agents unified interface to physical devices like robots and lab instruments.\n• Integration time for hardware dropped from weeks to hours in early tests.\n• Claude sometimes failed to understand physical cause-and-effect relationships, requiring human oversight.\n\n<a href=\"https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software/\">Read more →</a>",
-"photo": "http://the-decoder.com/wp-content/uploads/2030/08/Anthropic-MHS.mp4"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/\">AI-generated videos are already displacing actors and livestreamers across China&#x27;s entertainment industry</a></b>\n<i>The Decoder · 1h ago</i>\n\n• 95 percent of 128,000 short dramas released in China&#x27;s Q1 2026 were AI-generated.\n• Some actors forced to surrender voice and likeness to AI tools before being fired.\n• AI-related labor disputes in entertainment are rising rapidly.\n\n📰 <i>Also covered by: SCMP – Tech</i>\n\n<a href=\"https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/08/china_flag_visual-1.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/\">Nvidia’s AI advantage is moving beyond the GPU</a></b>\n<i>TechCrunch AI · 1h ago</i>\n\n• Nvidia&#x27;s competitive advantage in data centers now extends beyond GPU hardware.\n• New systems improve efficiency through smarter traffic control rather than processor scaling alone.\n\n<a href=\"https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/\">Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft</a></b>\n<i>TechCrunch AI · 🟧 Claude · 8h ago</i>\n\n• Sony Music and Warner Bros. sued Anthropic for alleged intellectual property theft and illegal piracy.\n• The lawsuit is notably broad in scope, focusing on copyright infringement accusations.\n• The case highlights ongoing tension between music companies and AI developers over training data.\n\n📰 <i>Also covered by: The Verge – AI</i>\n\n<a href=\"https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/\">Google&#x27;s WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance</a></b>\n<i>The Decoder · 2h ago</i>\n\n• Google introduced WikiSkill, giving AI agents persistent memory across multiple runs.\n• Agents document failures and successes in wiki-like structure to improve future performance.\n• Framework allows agents to learn from past mistakes instead of starting fresh.\n\n<a href=\"https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/08/aigent_skills_generation.png"
+"text": "🌐 AI Industry\n<b><a href=\"https://www.scmp.com/business/article/3365657/jdcoms-us13b-expansion-could-test-hong-kongs-footfall-driven-retail-property-model?utm_source=rss_feed\">JD.com’s US$1.3b expansion could test Hong Kong’s footfall-driven retail property model</a></b>\n<i>SCMP – Tech · 🌏 Asia · 58m ago</i>\n\n• JD.com invested over $1.3 billion in Hong Kong property expansion.\n• The e-commerce expansion could challenge Hong Kong&#x27;s traditional footfall-driven retail model.\n• Analysts suggest the shift may reshape how the city&#x27;s premium retail locations are valued.\n\n<a href=\"https://www.scmp.com/business/article/3365657/jdcoms-us13b-expansion-could-test-hong-kongs-footfall-driven-retail-property-model?utm_source=rss_feed\">Read more →</a>",
+"photo": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/05a45f67-e50f-45e7-ad85-3e136acbac39_6418618b.jpg?itok=QEYyeUol&v=1787929666"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai\">Musicians-turned-detectives are hunting for AI grifters</a></b>\n<i>The Verge – AI · 2h ago</i>\n\n• Musicians are actively investigating and identifying AI-generated music derived from human artists&#x27; work.\n• Audio generative tools have become sophisticated enough to algorithmically replicate melodies and vocals.\n• Online platforms increasingly contain AI music based on unauthorized human artist training data.\n\n<a href=\"https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268714_finding_and_shaming_AI_grifters_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,85.33125,89.314310632479"
+"text": "🌐 AI Industry\n<b><a href=\"https://simonwillison.net/2026/Aug/29/hy4/\">Introducing Hy4 Preview</a></b>\n<i>Simon Willison · 3h ago</i>\n\n• Tencent released Hy4, a 770B-parameter open-weight language model without vision capabilities.\n• The model features 49B active parameters and 1M token context window.\n• Hy4 represents significant scaling up from its predecessor Hy3 released in July.\n\n<a href=\"https://simonwillison.net/2026/Aug/29/hy4/\">Read more →</a>",
+"photo": "https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/\">The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn</a></b>\n<i>Wired – AI · 4h ago</i>\n\n• AI industry leaders warn cybersecurity crisis arriving within months.\n• Hackers targeted over 100 US water systems.\n• ICE ordered robot dogs for operational use.\n\n<a href=\"https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/\">Read more →</a>",
-"photo": "https://media.wired.com/photos/6a921e363b3f20c2f80986f3/master/pass/Security-News-This-Week-The-AI-Cybersecurity-Apocalypse-Is-Coming.jpg"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.wired.com/story/how-to-run-your-own-local-llm/\">How to Run a Chatbot on Your Own Computer</a></b>\n<i>Wired – AI · 4h ago</i>\n\n• Running local language models on personal computers preserves data privacy.\n• Users can install large language models for private digital assistant functionality.\n\n<a href=\"https://www.wired.com/story/how-to-run-your-own-local-llm/\">Read more →</a>",
-"photo": "https://media.wired.com/photos/6a915ae02fa9a47ca7d480c1/master/pass/RunAChatbot.jpg"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research/\">LAION drops massive open video dataset with 10 million hours of footage for AI research</a></b>\n<i>The Decoder · 5h ago</i>\n\n• LAION released Big Video Dataset with 80 million videos totaling 10 million hours.\n• Models trained on BVD outperformed previous benchmark InternVid by up to 2.1 percentage points.\n• Dataset includes 55 million auto-described clips for AI research.\n\n<a href=\"https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2024/08/images_database_ai_generated_data_files_online_storage-1.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/cybersecurity/2026/malware-has-branding-department-toxicpanda-is-latest-star/\">Malware Has a Branding Department and ToxicPanda Is Its Latest Star</a></b>\n<i>PYMNTS · 6h ago</i>\n\n• ToxicPanda is Android banking Trojan capable of taking over phones and stealing financial credentials.\n• Malware variants increasingly use branded names for market differentiation.\n• ToxicPanda can initiate unauthorized financial transactions on compromised devices.\n\n<a href=\"https://www.pymnts.com/cybersecurity/2026/malware-has-branding-department-toxicpanda-is-latest-star/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/08/ToxicPanda-malware-cybersecurity-fraud.jpeg?w=457"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/\">AI Has Human Doctors Asking: What’s Left for Us?</a></b>\n<i>Wired – AI · 23h ago</i>\n\n• Recent research argues AI often outperforms human doctors at medical tasks.\n• Physicians expressing concern about diminishing clinical roles as AI capabilities expand.\n\n<a href=\"https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/\">Read more →</a>",
-"photo": "https://media.wired.com/photos/6a909d466b1fcc4b68700cd4/master/pass/Backchannel-AI-Doctors-Business-1267508918.jpg"
+"text": "🌐 AI Industry\n<b><a href=\"https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/\">“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z</a></b>\n<i>TechCrunch AI · 9h ago</i>\n\n• Vijay Pande left a16z&#x27;s $4 billion biotech practice to launch smaller AI-native VC fund VZVC.\n• He argues biology is transitioning from discovery science to engineering discipline.\n• He views smaller, focused bets as more effective than high-volume investment approach.\n\n<a href=\"https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/\">Read more →</a>",
+"photo": null
 }
 ]
 }
