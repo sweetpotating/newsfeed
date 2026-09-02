@@ -1,45 +1,45 @@
 {
-"generated": 1788315704,
+"generated": 1788357617,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Sep/1/claude-fable-5-1/\">Claude Fable 5.1 made me a really nice animated pelican</a></b>\n<i>Simon Willison · 🟧 Claude · 2h ago</i>\n\n• Claude Fable 5.1 announced by Anthropic as new standard for coding and problem-solving tasks.\n• Model achieves 52.6% score on scientific research benchmarks.\n• Fable 5.1 demonstrated generating animated content like pelicans.\n\n<a href=\"https://simonwillison.net/2026/Sep/1/claude-fable-5-1/\">Read more →</a>",
-"photo": "https://static.simonwillison.net/static/2026/fable-5.1-low.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1\">Anthropic launches Claude Fable 5.1 and says it&amp;#8217;s up to 45 percent cheaper for agentic work</a></b>\n<i>The Verge – AI · 🟧 Claude · 4h ago</i>\n\n• Claude Fable 5.1 and Mythos 5.1 launched with stronger performance than prior versions.\n• Fable 5.1 costs approximately 25-45% less for agentic work compared to previous models.\n• Anthropic addressed customer concerns about pricing, data retention, and safety policies.\n\n📰 <i>Also covered by: The Decoder, TechCrunch AI</i>\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-revises-enterprise-data-retention-policy-after-customer-pushback/\">Anthropic Revises Enterprise Data Retention Policy After Customer Pushback</a></b>\n<i>PYMNTS · 🟧 Claude · 4h ago</i>\n\n• Anthropic introduced Enterprise Frontier Safeguards following customer data retention complaints.\n• Policy change targets enterprise users&#x27; concerns about information storage and review practices.\n• New system announced September 1 to address business customer pushback.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-revises-enterprise-data-retention-policy-after-customer-pushback/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/06/Anthropic-model-theft-1.jpg?w=457"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/\">The latest AI news we announced in August 2026</a></b>\n<i>Google – Gemini · 🔵 Gemini · 📣 Official · 5h ago</i>\n\n• Google announced Gemini 3.7 Flash and new features in August 2026.\n• Google offering free one-year student plan for Gemini.\n• Announcement includes new Pixel phone integration with Gemini.\n\n<a href=\"https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/\">Read more →</a>",
-"photo": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.max-600x600.format-webp.webp"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others/\">Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others</a></b>\n<i>The Decoder · 🟧 Claude · 5h ago</i>\n\n• Anthropic launched API enabling regulators and media to detect Claude-generated text watermarks.\n• EU AI Act mandates invisible watermarks in AI-generated content.\n• Critics raise concerns about text quality impact and transparency trade-offs.\n\n<a href=\"https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/08/Claude-Watermark.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/\">OpenAI’s Astra model is on the way — and very good at breaking into computer systems</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 5h ago</i>\n\n• OpenAI developing Astra, a cyber-capable LLM with security implications.\n• Model demonstrates proficiency at breaking into computer systems.\n• OpenAI implementing safeguards before Astra release.\n\n📰 <i>Also covered by: OpenAI News, Wired – AI</i>\n\n<a href=\"https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://www.finextra.com/pressarticle/110783/juspay-pilots-offering-that-enables-brand-discovery-across-ai-platforms?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Juspay pilots offering that enables brand discovery across AI platforms</a></b>\n<i>Finextra · 🟧 Claude · 🟢 ChatGPT · 1h ago</i>\n\n• Juspay launched Breeze Universal, enabling brand discovery across AI platforms like ChatGPT and Claude.\n• The pilot integrates merchants&#x27; first-party surfaces with AI platforms for enhanced discoverability.\n• Payments technology company expands reach through AI platform partnerships.\n\n<a href=\"https://www.finextra.com/pressarticle/110783/juspay-pilots-offering-that-enables-brand-discovery-across-ai-platforms?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openai-brings-epic-health-records-to-chatgpt-for-clinicians/\">OpenAI Brings Epic Health Records to ChatGPT for Clinicians</a></b>\n<i>PYMNTS · 🟢 ChatGPT · 5h ago</i>\n\n• OpenAI integrated ChatGPT with Epic electronic health records system.\n• Clinicians can query patient information directly without manual data assembly.\n• Integration expands AI use in clinical healthcare workflows.\n\n📰 <i>Also covered by: OpenAI News, TechCrunch AI</i>\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openai-brings-epic-health-records-to-chatgpt-for-clinicians/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/04/ChatGPT-OpenAI-healthcare-1.jpg?w=457"
+"text": "🤖 AI Platform\n<b><a href=\"https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/\">MrBeast partners with Gemini to turn impossibly big ideas into reality</a></b>\n<i>Google – Gemini · 🔵 Gemini · 📣 Official · 1h ago</i>\n\n• MrBeast partnered with Google Gemini to execute large-scale projects.\n• Collaboration focuses on turning ambitious ideas into actionable reality.\n• Partnership details and specific scope are not detailed in the available information.\n\n<a href=\"https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/\">Read more →</a>",
+"photo": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MR.BEAST_Resize_16x9.max-600x600.format-webp.webp"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/\">Google’s Android update tackles motion sickness, accessibility, and more</a></b>\n<i>TechCrunch AI · 🔵 Gemini · 5h ago</i>\n\n• Google&#x27;s Android update adds motion sickness and accessibility features.\n• Some features use Gemini AI for improvements.\n• Google catching up to Apple&#x27;s existing iPhone feature offerings.\n\n<a href=\"https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/\">OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 1h ago</i>\n\n• Edelson PC filed 30 new lawsuits against OpenAI over Tumbler Ridge shooting.\n• Claims include aiding and abetting with Chris Lehane named in filings.\n• Evidence for allegations remains unconfirmed according to the report.\n\n<a href=\"https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://deepmind.google/blog/introducing-agentic-video-in-gemini/\">Introducing agentic video understanding with Gemini</a></b>\n<i>Google DeepMind · 🔵 Gemini · 📣 Official · 9h ago</i>\n\n• Google DeepMind introduced agentic video understanding capabilities with Gemini.\n• Feature enables AI agents to analyze and process video content.\n• Represents expansion of Gemini&#x27;s multimodal understanding abilities.\n\n📰 <i>Also covered by: Google – Gemini</i>\n\n<a href=\"https://deepmind.google/blog/introducing-agentic-video-in-gemini/\">Read more →</a>",
-"photo": null
+"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openai-says-new-model-meets-its-critical-cybersecurity-threshold/\">OpenAI Says New Model Meets Its ‘Critical’ Cybersecurity Threshold</a></b>\n<i>PYMNTS · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI&#x27;s Astra model is the first to meet its Critical cybersecurity threshold.\n• Testing completed after weeks of capability evaluation in early September.\n• Milestone marks significant security achievement for the upcoming AI model.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openai-says-new-model-meets-its-critical-cybersecurity-threshold/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/04/OpenAI-Lightcap-1.jpg?w=457"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Sep/1/codex-libreoffice/\">Codex bundles LibreOffice</a></b>\n<i>Simon Willison · 🟢 ChatGPT · 7h ago</i>\n\n• ChatGPT desktop app bundles full LibreOffice installation in local cache.\n• Codex runtime folder contains 1.7GB including Python installation and dependencies.\n• Discovery reveals significant local resource footprint of OpenAI&#x27;s desktop application.\n\n<a href=\"https://simonwillison.net/2026/Sep/1/codex-libreoffice/\">Read more →</a>",
-"photo": "https://static.simonwillison.net/static/2026/codex-primay-runtime.webp"
+"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack\">The rise of AI &amp;#8216;civilizations&amp;#8217; and the fall of corporate responsibility</a></b>\n<i>The Verge – AI · 🟢 ChatGPT · 18h ago</i>\n\n• Linguistic framing disputes how responsibility is assigned in AI incidents at Hugging Face.\n• Word choices like AI civilizations reshape accountability narratives in AI safety discussions.\n• OpenAI and AI tools&#x27; autonomous behavior raise questions about developer oversight.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318435/akrales_220309_4977_0232.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Sep/1/geojson/\">GeoJSON Map Viewer</a></b>\n<i>Simon Willison · 🟢 ChatGPT · 19h ago</i>\n\n• GeoJSON Map Viewer tool enables displaying and exporting map files as PNG images.\n• Simon Willison created tool for visualizing local political boundary maps.\n• GPT-5.6-Sol assisted in development of the geospatial visualization tool.\n\n<a href=\"https://simonwillison.net/2026/Sep/1/geojson/\">Read more →</a>",
+"photo": "https://static.simonwillison.net/static/2026/geojson-tool.webp"
+},
+{
+"text": "💳 Agentic Commerce\n<b><a href=\"https://www.pymnts.com/commerce/ecommerce/2026/agentic-payments-turn-bot-traffic-into-a-merchant-revenue-channel/\">Spreedly Sees Good Bots Becoming an Agentic Commerce Channel</a></b>\n<i>PYMNTS · 5h ago</i>\n\n• Spreedly recognizes bots as legitimate agentic commerce channel beyond fraud concerns.\n• Industry traditionally associated bots with credential stuffing and inventory hoarding abuse.\n• Perspective shift positions good bots as beneficial automation for commerce operations.\n\n<a href=\"https://www.pymnts.com/commerce/ecommerce/2026/agentic-payments-turn-bot-traffic-into-a-merchant-revenue-channel/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/09/SB2-Digital-Shift-Spreedly-Video-Interview-Adam-Hiatt.jpeg?w=457"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/google-deepminds-new-chief-says-frontier-ai-leadership-is-the-only-thing-that-matters/\">Google Deepmind&#x27;s new chief says frontier AI leadership is the only thing that matters</a></b>\n<i>The Decoder · 🔵 Gemini · 21h ago</i>\n\n• Google Deepmind&#x27;s new chief Koray Kavukcuoglu prioritizes frontier AI leadership exclusively.\n• He acknowledges current models are below frontier but expresses certainty of reaching it.\n• No concrete frontier AI progress announcements provided to substantiate claims.\n\n<a href=\"https://the-decoder.com/google-deepminds-new-chief-says-frontier-ai-leadership-is-the-only-thing-that-matters/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/06/google_logo_wall-2.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator\">Google Pics is like Canva, but with even more AI</a></b>\n<i>The Verge – AI · 🔵 Gemini · 22h ago</i>\n\n• Google Pics brings AI-powered design tools to Workspace for professional image creation.\n• Built on Gemini and Nano Banana models for accessible professional-grade editing.\n• Aims to simplify AI image generation and editing for business users.\n\n<a href=\"https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Google-Pics-rollout-hero.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://technode.com/2026/09/02/alibaba-upgrades-qwen38-max-with-new-0902-snapshot/\">Alibaba upgrades Qwen3.8-Max with a new 0902 snapshot</a></b>\n<i>TechNode (China) · 🟣 Qwen · 🌏 Asia · 6h ago</i>\n\n• Alibaba released Qwen3.8-Max-0902 snapshot with improved coding and task performance.\n• Update post-trained specifically for coding and collaborative work tasks.\n• Model available through Alibaba&#x27;s Qwen services and API channels.\n\n<a href=\"https://technode.com/2026/09/02/alibaba-upgrades-qwen38-max-with-new-0902-snapshot/\">Read more →</a>",
+"photo": "https://i0.wp.com/technode.com/wp-content/uploads/2025/10/qwen.png?fit=1024%2C576&amp;ssl=1"
 }
 ]
 }
