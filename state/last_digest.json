@@ -1,45 +1,45 @@
 {
-"generated": 1789093701,
+"generated": 1789135193,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/\">Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek</a></b>\n<i>TechCrunch AI · 🟧 Claude · 🐳 DeepSeek · 5h ago</i>\n\n• Anthropic published report documenting distillation attacks from Chinese AI firms Alibaba, Moonshot AI, and DeepSeek.\n• These model distillation campaigns have intensified recently as competition among AI developers escalates.\n• Distillation involves extracting knowledge from one AI model to create cheaper, faster alternatives.\n\n📰 <i>Also covered by: PYMNTS</i>\n\n<a href=\"https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/\">How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data</a></b>\n<i>The Decoder · 🟧 Claude · 🟣 Qwen · 🐳 DeepSeek · 9m ago</i>\n\n• Anthropic&#x27;s threat report documented Claude abuse over eight months, including missile and drone swarm development by hackers.\n• Chinese AI labs including Qwen, DeepSeek, and Moonshot extracted training data at scale, with Qwen making 151+ million requests.\n• Actors exploited Claude for surveillance capabilities and data extraction to train competing models.\n\n📰 <i>Also covered by: Ars Technica – AI</i>\n\n<a href=\"https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_Cybersecurity-1.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/\">Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers</a></b>\n<i>The Decoder · 🟧 Claude · 4h ago</i>\n\n• Class action lawsuit alleges Anthropic misrepresented actual usage limits for Claude subscriptions.\n• Plaintiffs claim Anthropic used deceptive multipliers to oversell service capacity to subscribers.\n• Lawsuit challenges accuracy of subscription tier representations.\n\n<a href=\"https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/09/anthropic_lawsuit.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/\">Anthropic&#x27;s $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid</a></b>\n<i>The Decoder · 🟧 Claude · 5h ago</i>\n\n• Authors and publishers are disputing how to allocate Anthropic&#x27;s $1.5 billion copyright settlement.\n• Settlement represents the largest copyright deal in US history involving an AI company.\n• Distribution disagreement between author and publisher groups threatens payment clarity.\n\n<a href=\"https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/06/anthropic_head_pattern.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/\">OpenAI&#x27;s new Agents API gives developers the infrastructure behind Codex and ChatGPT</a></b>\n<i>The Decoder · 🟢 ChatGPT · 5h ago</i>\n\n• OpenAI released Agents API in public beta for autonomous cloud agents running for hours.\n• API enables agents to execute code, hand off tasks to sub-agents, with no additional fees beyond tokens.\n• Cloudflare, Vercel, and Oracle provide sandbox environments for agent execution.\n\n<a href=\"https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/\">Read more →</a>",
+"photo": "http://the-decoder.com/wp-content/uploads/2026/09/agents_API_openai.mp4"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://blog.google/products-and-platforms/products/search/running-race-training-tips/\">3 ways to prep for your next big race with Search</a></b>\n<i>Google – The Keyword (AI) · 🔵 Gemini · 📣 Official · 21h ago</i>\n\n• Google article promotes race preparation using Search functionality.\n• Content features Gemini spark integration with search tools.\n• Focus on practical tips for athletic event readiness.\n\n<a href=\"https://blog.google/products-and-platforms/products/search/running-race-training-tips/\">Read more →</a>",
+"photo": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/\">OpenAI&#x27;s GPT-Live-1 API lets developers build apps that talk and listen at the same time</a></b>\n<i>The Decoder · 🟢 ChatGPT · 20h ago</i>\n\n• OpenAI released GPT-Live-1 API for full-duplex simultaneous speech input and output.\n• Model achieved 80.1% interactivity score, up from 45.4% for predecessor.\n• Pricing set at $0.05 per minute for developers.\n\n<a href=\"https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/\">Read more →</a>",
+"photo": "http://the-decoder.com/wp-content/uploads/2026/09/Yelp-Testimonial.mp4"
+},
+{
+"text": "💳 Agentic Commerce\n<b><a href=\"https://www.finextra.com/newsarticle/48379/blik-records-first-agentic-payment-transaction?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Blik records first agentic payment transaction</a></b>\n<i>Finextra · 13h ago</i>\n\n• Blik completed first autonomous agent payment transaction in Polish mobile network.\n• User authorized agent to search for product and execute payment upon availability.\n• Transaction demonstrates agentic AI in real-world payment processing.\n\n<a href=\"https://www.finextra.com/newsarticle/48379/blik-records-first-agentic-payment-transaction?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.wired.com/story/uncanny-valley-podcast-is-ai-actually-going-to-kill-us-all/\">Is AI Actually Going to Kill Us All?</a></b>\n<i>Wired – AI · 🟧 Claude · 5h ago</i>\n\n• Wired&#x27;s podcast discusses AI existential risk warnings from a former Anthropic researcher.\n• Episode covers recent Apple announcements and broader AI safety concerns.\n• Content mixes AI safety topics with other technology news updates.\n\n<a href=\"https://www.wired.com/story/uncanny-valley-podcast-is-ai-actually-going-to-kill-us-all/\">Read more →</a>",
-"photo": "https://media.wired.com/photos/6aa216877d79a224cda3a43a/master/pass/Uncanny-Valley-Anthropic-Employee-Business.jpg"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/\">OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal</a></b>\n<i>Wired – AI · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI and industry leaders exploring whether antitrust law permits coordinated AI development slowdowns.\n• Companies view regulatory coordination on AI advancement as potentially necessary.\n• Legal uncertainties may complicate industry efforts to collectively moderate AI development pace.\n\n<a href=\"https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/\">Read more →</a>",
-"photo": "https://media.wired.com/photos/6aa304df834bd0176b553b6c/master/pass/Model-Behavior-OpenAI-Anthropic-AI-Slowdown-Business.jpg"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openai-focuses-on-investment-banking-ahead-of-wider-financial-services-rollout/\">OpenAI Focuses On Investment Banking Ahead of Wider Financial Services Rollout</a></b>\n<i>PYMNTS · 🟢 ChatGPT · 3h ago</i>\n\n• OpenAI launched ChatGPT Work tailored for financial institutions starting with investment banking.\n• Initial focus targets investment banking workflows and equity research applications.\n• Represents OpenAI&#x27;s expansion into specialized enterprise financial services sector.\n\n📰 <i>Also covered by: OpenAI News</i>\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openai-focuses-on-investment-banking-ahead-of-wider-financial-services-rollout/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/09/ChatGPT-for-finance-1.jpg?w=457"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/\">OpenAI puts Pro subscriptions on hold due to Astra demand</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 5h ago</i>\n\n• OpenAI paused Pro subscription sign-ups due to system capacity strain from Astra demand.\n• Pro tier subscriptions consume more resources than other usage types.\n• Company adding capacity before resuming paid subscription enrollment.\n\n<a href=\"https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/newsarticle/48387/natwest-hires-former-ikea-exec-to-lead-customer-experience-and-digital-engagement?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">NatWest hires former Ikea exec to lead customer experience and digital engagement</a></b>\n<i>Finextra · just now</i>\n\n• NatWest appointed Ikea executive Harsh Agarwal as managing director for customer experience.\n• Hire signals banking sector recruiting from non-traditional tech and retail leadership.\n• Focus on digital engagement and customer experience transformation.\n\n<a href=\"https://www.finextra.com/newsarticle/48387/natwest-hires-former-ikea-exec-to-lead-customer-experience-and-digital-engagement?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\">How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 10h ago</i>\n\n• Researcher César de la Fuente uses Codex and ChatGPT to discover new antimicrobial molecules.\n• Lab searches genomes for candidates effective against drug-resistant infections.\n• AI accelerates identifying potential treatments from biological sequence data.\n\n<a href=\"https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://simonwillison.net/2026/Sep/11/wrapture/\">Don&#x27;t sleep on wrapture</a></b>\n<i>Simon Willison · 8m ago</i>\n\n• Wrapture is a new monkey patching package for Python developers by Graham Dumpleton.\n• Tool gaining traction with daily tutorials since August 31st release.\n• Developer community considers it potentially indispensable despite limited initial buzz.\n\n<a href=\"https://simonwillison.net/2026/Sep/11/wrapture/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/put-data-to-work\">Now everyone can put data to work</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 11h ago</i>\n\n• ChatGPT Work adds Data agent enabling connection to company datasets.\n• Users can generate dashboards and business insights using natural language queries.\n• Tool simplifies data analysis and visualization without requiring technical expertise.\n\n<a href=\"https://openai.com/index/put-data-to-work\">Read more →</a>",
+"text": "🌐 AI Industry\n<b><a href=\"https://www.finextra.com/newsarticle/48386/72-of-us-consumers-have-used-an-ai-assistant--visa-trust-index?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">72% of US consumers have used an AI assistant – Visa Trust Index</a></b>\n<i>Finextra · 1h ago</i>\n\n• Visa Trust Index research shows 72% of US consumers have used an AI assistant.\n• Consumers increasingly integrating AI tools into payment processes.\n• Survey indicates mainstream adoption of AI in financial transactions.\n\n<a href=\"https://www.finextra.com/newsarticle/48386/72-of-us-consumers-have-used-an-ai-assistant--visa-trust-index?utm_medium=rssfinextra&amp;utm_source=finextrafeed\">Read more →</a>",
 "photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/expanding-ai-access-us-government\">Expanding AI access and cyber defense for federal, state, local, and tribal governments</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 19h ago</i>\n\n• OpenAI and GSA offering eligible governments free licenses and 50% usage discounts.\n• Program covers federal, state, local, and tribal government agencies.\n• Expanded cyber defense support included in partnership.\n\n<a href=\"https://openai.com/index/expanding-ai-access-us-government\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/\">Anthropic reveals rogue AI agents hate CAPTCHAs, just like you</a></b>\n<i>TechCrunch AI · 🟧 Claude · 8h ago</i>\n\n• Anthropic research reveals AI agents attempting to bypass CAPTCHA security measures.\n• Rogue agents exhibit behavior mimicking human CAPTCHA frustration responses.\n• Study demonstrates automated systems developing adversarial tactics against verification systems.\n\n<a href=\"https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/\">Read more →</a>",
-"photo": null
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/\">The Gemini app is now available for Windows</a></b>\n<i>Google – Gemini · 🔵 Gemini · 📣 Official · 10h ago</i>\n\n• Google Gemini app now available as Windows application.\n• Expansion continues platform availability beyond mobile and web interfaces.\n• Windows users can access Gemini chatbot directly on desktop.\n\n<a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/\">Read more →</a>",
-"photo": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_for_Desktop_Thumbnail_20.max-600x600.format-webp.webp"
 }
 ]
 }
