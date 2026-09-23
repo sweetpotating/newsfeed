@@ -1,45 +1,45 @@
 {
-"generated": 1790131730,
+"generated": 1790174183,
 "posts": [
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/\">Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war</a></b>\n<i>Simon Willison · 🟧 Claude · 🟢 ChatGPT · ⚡ Grok · 3h ago</i>\n\n• Anthropic released Claude Opus 5.5 while OpenAI launched GPT-6 Sol and GPT-6 Luna on same day.\n• Multiple new model releases from competing AI labs signal intensifying competition.\n• New pricing pressures emerging across leading AI model providers.\n\n📰 <i>Also covered by: Ars Technica – AI, The Decoder, TechCrunch AI</i>\n\n<a href=\"https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/\">Read more →</a>",
-"photo": "https://static.simonwillison.net/static/2026/gpt-pelicans-grid.webp"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/\">Claude Opus 5.5 matches Fable 5.1 performance at lower cost and promises less &quot;Claudish&quot; writing</a></b>\n<i>The Decoder · 🟧 Claude · 🟢 ChatGPT · 9h ago</i>\n\n• Claude Opus 5.5 matches Fable 5.1 performance at 40% lower cost.\n• Anthropic benchmarks show Opus 5.5 outperforms OpenAI&#x27;s GPT-6 Astra on most tasks.\n• New model features less distinctive &#x27;Claudish&#x27; writing style.\n\n📰 <i>Also covered by: TechCrunch AI, The Verge – AI</i>\n\n<a href=\"https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/09/claude_55.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Sep/22/llm-anthropic/\">llm-anthropic 0.29</a></b>\n<i>Simon Willison · 🟧 Claude · 9h ago</i>\n\n• llm-anthropic tool updated to version 0.29 with Claude Opus 5.5 support.\n• Users can now invoke Opus 5.5 via command-line llm interface.\n\n<a href=\"https://simonwillison.net/2026/Sep/22/llm-anthropic/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense\">OpenAI extends cyber access to Ukraine for civilian defense</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 1h ago</i>\n\n• OpenAI extended its Daybreak cyber program to Ukraine to defend civilian infrastructure.\n• Program provides government access to AI-powered cybersecurity capabilities.\n• Addresses critical infrastructure protection needs in active conflict zone.\n\n<a href=\"https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy\">Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta</a></b>\n<i>The Verge – AI · 🟧 Claude · 10h ago</i>\n\n• Andreessen Horowitz launching startup academy with 10 partners including Anthropic and Google.\n• Program positions itself as pipeline for young talent to build Silicon Valley startups.\n• No traditional homework structure in new academy model.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK483_EDUCATION_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/\">Inside Basecamp Research, the AI startup turning evolution into training data</a></b>\n<i>The Decoder · 🟧 Claude · 44m ago</i>\n\n• Basecamp Research raised $140 million from Nvidia and Anthropic&#x27;s Anthology Fund.\n• Trains AI models on genetic data from rainforests, oceans, and hot springs for drug discovery.\n• Develops antibiotics and cell therapy tools using evolutionary biological material.\n\n<a href=\"https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/09/Basecamp-Research-title.png"
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/\">Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda</a></b>\n<i>TechCrunch AI · 🟧 Claude · 11h ago</i>\n\n• TechCrunch Disrupt 2026 features five AI safety-focused sessions on main stages.\n• Sessions include speakers from Anthropic, Nvidia, AWS, and other major AI organizations.\n• Early registration discount of up to $200 available until September 25.\n\n<a href=\"https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-and-openevidence-team-to-expand-reach-of-medical-ai/\">Anthropic and OpenEvidence Team to Expand Reach of Medical AI</a></b>\n<i>PYMNTS · 🟧 Claude · 3h ago</i>\n\n• Anthropic partnered with OpenEvidence to expand medical AI access globally.\n• Aims to bring AI clinical decision support to underserved regions lacking technology infrastructure.\n• Addresses healthcare disparities through AI-powered medical search capabilities.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-and-openevidence-team-to-expand-reach-of-medical-ai/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/03/AI-artificial-intelligence-heatlhcare-diagnostics.jpeg?w=457"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam\">OpenAI nabs key Patreon execs ahead of upcoming announcement</a></b>\n<i>The Verge – AI · 🟢 ChatGPT · 3h ago</i>\n\n• OpenAI hired three former Patreon executives including cofounder Sam Yam.\n• Yam will lead Creator Product strategy at OpenAI.\n• Positions OpenAI to develop creator-focused features and products.\n\n📰 <i>Also covered by: The Decoder</i>\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK326_PATREON_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/grab-openai-ai-skills-southeast-asia\">Grab and OpenAI bring practical AI skills to Southeast Asia</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 14h ago</i>\n\n• OpenAI and Grab launched GO Forward with AI program in Southeast Asia.\n• Trains 30,000 partners across region in practical AI skills.\n• Brings AI capability-building to major developing market.\n\n<a href=\"https://openai.com/index/grab-openai-ai-skills-southeast-asia\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/\">Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting</a></b>\n<i>Ars Technica – AI · 🟢 ChatGPT · 7h ago</i>\n\n• British Columbia sues OpenAI over ChatGPT&#x27;s alleged use in Tumbler Ridge shooting.\n• Lawsuit demands payment for new school construction.\n• Case links AI chatbot use to real-world violence incident.\n\n<a href=\"https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/\">Read more →</a>",
-"photo": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2260756748-1024x648.jpg"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://simonwillison.net/2026/Sep/22/llm/\">llm 0.36</a></b>\n<i>Simon Willison · 🟢 ChatGPT · 8h ago</i>\n\n• llm tool version 0.36 adds support for GPT-6 Sol and GPT-6 Luna models.\n• New feature allows model plugins to declare single-turn-only conversation support.\n• Tool now raises ConversationNotSupported exception for incompatible models.\n\n<a href=\"https://simonwillison.net/2026/Sep/22/llm/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/\">YouTube will let you build your own algorithm with AI</a></b>\n<i>TechCrunch AI · 🔵 Gemini · 6m ago</i>\n\n• YouTube users can now create custom feeds using natural language descriptions.\n• Gemini AI generates personalized feed based on user preferences.\n• Lets viewers build algorithms without technical configuration.\n\n<a href=\"https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/spacexai-grok-bot-gains-early-traction-ai-agent-push/\">SpaceXAI’s Grok Bot Gains Early Traction in AI Agent Push</a></b>\n<i>PYMNTS · ⚡ Grok · 5h ago</i>\n\n• SpaceXAI&#x27;s Grok Bot reached 418,000 weekly users about one month after launch.\n• Usage grew 24% in recent period, showing early demand for AI agents.\n• Bot demonstrates Grok&#x27;s trajectory in agent-based AI applications.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/spacexai-grok-bot-gains-early-traction-ai-agent-push/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2024/08/Grok-X-AI.jpg?w=457"
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/\">Alibaba launches Qwen Audio 3.1 with new models and slashes AI audio prices by up to 95 percent</a></b>\n<i>The Decoder · 🟣 Qwen · 2h ago</i>\n\n• Alibaba released Qwen-Audio-3.1 with five models for speech and audio tasks.\n• Cut AI audio service prices by up to 95 percent.\n• Improved multilingual recognition and automatic cleanup of speech artifacts.\n\n📰 <i>Also covered by: Pandaily (China)</i>\n\n<a href=\"https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/\">Read more →</a>",
+"photo": "http://the-decoder.com/wp-content/uploads/2026/09/cv36_plus.wav"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://openai.com/index/better-prompt-caching-for-gpt-6\">Better prompt caching for GPT-6</a></b>\n<i>OpenAI News · 📣 Official · 5h ago</i>\n\n• GPT-6 improves prompt caching with higher cache hit rates and new diagnostics.\n• Features include explicit breakpoints and controls to reduce latency and costs.\n• Enhancement aims to improve efficiency of cached prompt processing.\n\n<a href=\"https://openai.com/index/better-prompt-caching-for-gpt-6\">Read more →</a>",
-"photo": null
+"text": "🤖 AI Platform\n<b><a href=\"https://technode.com/2026/09/23/deepseek-dsec-agent-training-sandbox-infrastructure/\">DeepSeek details DSec sandbox infrastructure for agent training</a></b>\n<i>TechNode (China) · 🐳 DeepSeek · 🌏 Asia · 5h ago</i>\n\n• DeepSeek published DSec, a sandbox infrastructure platform for agent training.\n• Unifies function-call, container, microVM, and full-VM sandbox environments.\n• Enables large-scale AI agent development and testing.\n\n<a href=\"https://technode.com/2026/09/23/deepseek-dsec-agent-training-sandbox-infrastructure/\">Read more →</a>",
+"photo": "https://i0.wp.com/technode.com/wp-content/uploads/2026/07/deepseek-logo.png?fit=1024%2C405&amp;ssl=1"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/china-orbital-datacenter-in-orbit-ai-100gbps-laser-links\">China Assembles Orbital Datacenter Pieces: In-Orbit AI, Cloud-Native Sats and 100Gbps Laser Links</a></b>\n<i>Pandaily (China) · 🌏 Asia · 54m ago</i>\n\n• China deployed orbital datacenter infrastructure components across multiple satellite programs.\n• Systems include on-board AI compute, cloud-native software, and 100 Gbps laser links.\n• Initiative represents China&#x27;s push for space-based computing infrastructure.\n\n<a href=\"https://pandaily.com/china-orbital-datacenter-in-orbit-ai-100gbps-laser-links\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/china_orbital_datacenter_5e41371449.png"
+"text": "🤖 AI Platform\n<b><a href=\"https://pandaily.com/alibaba-qwen4-training-roadmap-5-10t-apsara-2026\">Alibaba Puts Qwen4 Family Into Training; Roadmap Points to 5–10T Qwen4.5 and Qwen5</a></b>\n<i>Pandaily (China) · 🟣 Qwen · 🌏 Asia · 6h ago</i>\n\n• Alibaba put Qwen 4 into training with roadmap for 5-10 trillion parameter models.\n• Plans Qwen 4.5 and Qwen 5 with recursive self-improvement capabilities.\n• Scaling next-generation model family toward much larger parameter counts.\n\n<a href=\"https://pandaily.com/alibaba-qwen4-training-roadmap-5-10t-apsara-2026\">Read more →</a>",
+"photo": "https://cms-image.pandaily.com/1/alibaba_qwen4_training_5fed56437e.png"
+},
+{
+"text": "💳 Agentic Commerce\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/agentic-commerce-needs-its-febreze-moment/\">Agentic Commerce Needs Its Febreze Moment</a></b>\n<i>PYMNTS · 6h ago</i>\n\n• Article discusses agentic commerce and comparison to consumer product innovation.\n• References Febreze as metaphor for solving practical problems.\n• Limited details available from provided summary.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/agentic-commerce-needs-its-febreze-moment/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/09/2026-Web-Hero-Image-KLW-NEXT-1200x780-09212.png?w=457"
 }
 ]
 }
