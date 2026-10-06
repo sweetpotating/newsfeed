@@ -22,6 +22,26 @@ Coverage is organised around what you asked for:
 3. **Agentic payments & agentic commerce** — payments/fintech feeds, surfaced
    by keyword (AP2, Agentic Commerce Protocol, x402, Visa Intelligent
    Commerce, Mastercard Agent Pay, Stripe agent toolkit, …).
+4. **✍️ Expert analysis** — every new post from ten hand-picked fintech and
+   payments newsletters, ranked ahead of regular news:
+
+   | Writer | Newsletter | Why |
+   |---|---|---|
+   | Simon Taylor | Brainfood (formerly Fintech Brainfood) | Agentic commerce, protocols, stablecoins |
+   | Jas Shah | Fintech: Under the Hood | Agentic commerce and the PSP stack |
+   | Lex Sokolin | Fintech Blueprint | AI agents, machine-to-machine money |
+   | Dwayne Gefferie | Payments Strategy Breakdown | Stripe/Adyen/Airwallex strategy |
+   | Jeremy Light | Agenda: Payments | Payment architecture; sceptical on agentic |
+   | Matt Jones | Payments Culture | Payments strategy |
+   | Geoffrey Barraclough | Business of Payments | PSP economics |
+   | Jason Mikula | Fintech Business Weekly | Risk and regulation |
+   | Nik Milanović | This Week in Fintech | Broad weekly fintech news |
+   | Alex Johnson | Fintech Takes | Broader fintech balance |
+
+   Their posts skip the "already covered" filter, so a deep dive on a story
+   still goes out after the news itself did. Brainfood and This Week in
+   Fintech are on beehiiv, which has no public RSS, so they're read from
+   their sitemaps instead (`kind="sitemap"` in `sources.py`).
 
 It runs **for free on GitHub Actions** — no server to maintain. State is
 committed back to the repo so each run knows what it already sent.

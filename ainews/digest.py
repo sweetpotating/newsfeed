@@ -94,6 +94,14 @@ def select_articles(cfg: Config, store: SeenStore,
 
     for art in ranked:
         toks = title_tokens(art.title)
+        if art.region == "expert":
+            # An expert's analysis is worth sending even when the news it
+            # discusses already went out (or another expert covered it too).
+            pool.append(art)
+            pool_tokens.append(toks)
+            if len(pool) >= pool_cap:
+                break
+            continue
         if is_similar_to_any(toks, recent_tokens):
             dropped_uids.append(art.uid)            # already shared recently
             continue
@@ -114,6 +122,10 @@ def select_articles(cfg: Config, store: SeenStore,
         survivors: List[Article] = []
         kept: dict = {}                              # pool index -> kept Article
         for i, art in enumerate(pool):
+            if art.region == "expert":       # never dropped as a duplicate
+                survivors.append(art)
+                kept[i] = art
+                continue
             if i in stale:
                 dropped_uids.append(art.uid)
                 continue

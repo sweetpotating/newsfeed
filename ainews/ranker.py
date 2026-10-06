@@ -14,6 +14,11 @@ from typing import List
 from .classifier import PLATFORM_ORDER
 from .models import CAT_AGENTIC, CAT_PLATFORM, Article
 
+# Larger than the gap between the best-scoring news item (agentic + every
+# platform + official + fresh ≈ 26.5) and the weakest expert post that is
+# still inside the lookback window (industry + 1-day-old ≈ 7).
+EXPERT_BOOST = 25.0
+
 
 def _recency_points(published) -> float:
     if published is None:
@@ -49,6 +54,11 @@ def score_article(a: Article) -> float:
     # First-party announcements are high signal.
     if a.region == "official":
         score += 2.0
+
+    # Hand-picked expert newsletters publish weekly or less, and the user wants
+    # every new post: rank them above any regular news item.
+    if a.region == "expert":
+        score += EXPERT_BOOST
 
     score += _recency_points(a.published)
     return score

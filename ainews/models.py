@@ -17,7 +17,7 @@ class Article:
     title: str
     link: str
     source: str
-    region: str = "global"          # global | asia | official
+    region: str = "global"          # global | asia | official | expert
     published: Optional[datetime] = None
     summary: str = ""
     uid: str = ""

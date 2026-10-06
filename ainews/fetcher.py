@@ -10,13 +10,16 @@ from __future__ import annotations
 import hashlib
 import logging
 import re
+import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
+from html import unescape
 from typing import List, Optional
 from urllib.parse import urlparse, urlunparse
 
 import feedparser
 import requests
+from dateutil import parser as dateparser
 
 from .models import Article
 from .sources import Feed
@@ -140,7 +143,110 @@ def _entry_to_article(entry, feed: Feed) -> Optional[Article]:
     )
 
 
+_SITEMAP_NS = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+_META_TAG_RE = re.compile(r"<meta\b[^>]*>", re.IGNORECASE)
+_ATTR_RE = re.compile(r'([\w:-]+)\s*=\s*(?:"([^"]*)"|\'([^\']*)\')')
+_HTML_TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>",
+                            re.IGNORECASE | re.DOTALL)
+# beehiiv serves every post at /p/<slug>; other sitemap URLs are tag pages,
+# author pages and the like.
+_POST_PATH = "/p/"
+
+
+def _parse_iso(value: Optional[str]) -> Optional[datetime]:
+    if not value:
+        return None
+    try:
+        dt = dateparser.isoparse(value.strip())
+    except (ValueError, OverflowError):
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+
+
+def _parse_sitemap(xml: bytes):
+    """Return ([(post_url, lastmod)], [child_sitemap_url]) from sitemap XML."""
+    root = ET.fromstring(xml)
+    posts, children = [], []
+    for node in root:
+        loc = (node.findtext(f"{_SITEMAP_NS}loc") or "").strip()
+        if not loc:
+            continue
+        if node.tag == f"{_SITEMAP_NS}sitemap":
+            children.append(loc)
+        elif _POST_PATH in urlparse(loc).path:
+            posts.append((loc, _parse_iso(node.findtext(f"{_SITEMAP_NS}lastmod"))))
+    return posts, children
+
+
+def _page_meta(html: str) -> dict:
+    """Map og:/article:/name meta keys to their content values."""
+    meta = {}
+    for tag in _META_TAG_RE.findall(html):
+        attrs = {k.lower(): (v1 if v1 is not None else v2)
+                 for k, v1, v2 in _ATTR_RE.findall(tag)}
+        key = (attrs.get("property") or attrs.get("name") or "").lower()
+        if key and "content" in attrs and key not in meta:
+            meta[key] = unescape(attrs["content"]).strip()
+    return meta
+
+
+def _get(url: str, timeout: int) -> requests.Response:
+    resp = requests.get(
+        url, timeout=timeout,
+        headers={"User-Agent": _USER_AGENT, "Cache-Control": "no-cache"},
+    )
+    resp.raise_for_status()
+    return resp
+
+
+def fetch_sitemap_feed(feed: Feed, timeout: int,
+                       max_per_feed: int) -> List[Article]:
+    """Read the newest posts of a site that has a sitemap but no RSS feed."""
+    try:
+        posts, children = _parse_sitemap(_get(feed.url, timeout).content)
+        for child in children[:5]:          # sitemap index -> child sitemaps
+            posts.extend(_parse_sitemap(_get(child, timeout).content)[0])
+    except (requests.RequestException, ET.ParseError) as exc:
+        log.warning("Failed to read sitemap for %s: %s", feed.name, exc)
+        return []
+
+    epoch = datetime.fromtimestamp(0, tz=timezone.utc)
+    posts.sort(key=lambda p: p[1] or epoch, reverse=True)
+
+    articles: List[Article] = []
+    for link, lastmod in posts[:max_per_feed]:
+        try:
+            html = _get(link, timeout).text
+        except requests.RequestException as exc:
+            log.warning("Failed to fetch %s post %s: %s", feed.name, link, exc)
+            continue
+        meta = _page_meta(html)
+        title = meta.get("og:title") or meta.get("twitter:title")
+        if not title:
+            m = _HTML_TITLE_RE.search(html)
+            title = unescape(m.group(1)).strip() if m else ""
+        if not title:
+            continue
+        published = (_parse_iso(meta.get("article:published_time"))
+                     or lastmod)
+        articles.append(Article(
+            title=_WS_RE.sub(" ", title),
+            link=link,
+            source=feed.name,
+            region=feed.region,
+            published=published,
+            summary=_clean_summary(meta.get("og:description")
+                                   or meta.get("description", "")),
+            uid=hashlib.sha1(_normalize_link(link).encode()).hexdigest()[:16],
+            image_url=meta.get("og:image") or None,
+        ))
+    log.info("Read %d post(s) from %s via sitemap.", len(articles), feed.name)
+    return articles
+
+
 def fetch_feed(feed: Feed, timeout: int, max_per_feed: int) -> List[Article]:
+    if feed.kind == "sitemap":
+        return fetch_sitemap_feed(feed, timeout, max_per_feed)
     # Fetch with requests so the timeout is actually enforced (feedparser's
     # built-in fetch has no reliable timeout), then parse the bytes.
     try:

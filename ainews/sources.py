@@ -14,9 +14,10 @@ Notes
 * Dead or rate-limited feeds are skipped gracefully by the fetcher, so it is
   safe to keep optimistic entries here.
 
-Region is used only for a small label in the digest:
+Region drives a small label in the digest:
   ``official`` = first-party lab blog, ``asia`` = Asia-focused, ``global`` =
-  international press.
+  international press, ``expert`` = hand-picked analyst newsletters (these
+  also rank first; see ``ranker.py``).
 """
 
 from __future__ import annotations
@@ -28,7 +29,10 @@ from dataclasses import dataclass
 class Feed:
     name: str
     url: str
-    region: str = "global"  # global | asia | official
+    region: str = "global"  # global | asia | official | expert
+    # "rss" for RSS/Atom; "sitemap" for sites without a public feed (beehiiv),
+    # where posts are listed from sitemap.xml and read from each post's page.
+    kind: str = "rss"
 
 
 # --- Official AI platform / lab feeds -------------------------------------
@@ -87,5 +91,43 @@ AGENTIC_FEEDS = [
 ]
 
 
+# --- Expert fintech & payments newsletters -----------------------------------
+# Long-form analysis (agentic commerce, PSP economics, payment architecture,
+# stablecoins). They publish weekly or less, so every new post is surfaced.
+EXPERT_FEEDS = [
+    # Agentic commerce, protocols, stablecoins.
+    Feed("Brainfood (Simon Taylor)",
+         "https://www.fintechbrainfood.com/sitemap.xml", "expert", "sitemap"),
+    # Agentic commerce and the PSP stack, from a product operator.
+    Feed("Fintech: Under the Hood (Jas Shah)",
+         "https://jasshah.substack.com/feed", "expert"),
+    # AI agents and machine-to-machine money; crypto/investor lens.
+    Feed("Fintech Blueprint (Lex Sokolin)",
+         "https://lex.substack.com/feed", "expert"),
+    # Strategy breakdowns of Stripe, Adyen, Airwallex and other PSPs.
+    Feed("Payments Strategy Breakdown (Dwayne Gefferie)",
+         "https://dwaynegefferie.substack.com/feed", "expert"),
+    # Payment architecture; a sceptical take on agentic payments.
+    Feed("Agenda: Payments (Jeremy Light)",
+         "https://jeremylight.substack.com/feed", "expert"),
+    # Payments strategy.
+    Feed("Payments Culture (Matt Jones)",
+         "https://www.paymentsculture.com/feed", "expert"),
+    # PSP economics: how paytech makes money.
+    Feed("Business of Payments (Geoffrey Barraclough)",
+         "https://businessofpayments.substack.com/feed", "expert"),
+    # Risk and regulation counterweight.
+    Feed("Fintech Business Weekly (Jason Mikula)",
+         "https://fintechbusinessweekly.substack.com/feed", "expert"),
+    # Broad weekly fintech news and deals.
+    Feed("This Week in Fintech (Nik Milanović)",
+         "https://www.thisweekinfintech.com/sitemap.xml", "expert", "sitemap"),
+    # Broader fintech balance.
+    Feed("Fintech Takes (Alex Johnson)",
+         "https://newsletter.fintechtakes.com/feed", "expert"),
+]
+
+
 def all_feeds() -> list[Feed]:
-    return [*OFFICIAL_FEEDS, *GLOBAL_FEEDS, *ASIA_FEEDS, *AGENTIC_FEEDS]
+    return [*OFFICIAL_FEEDS, *GLOBAL_FEEDS, *ASIA_FEEDS, *AGENTIC_FEEDS,
+            *EXPERT_FEEDS]

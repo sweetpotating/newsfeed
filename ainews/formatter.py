@@ -33,7 +33,8 @@ CATEGORY_TAG = {
     CAT_INDUSTRY: "🌐 AI Industry",
 }
 
-REGION_BADGE = {"asia": "🌏 Asia", "official": "📣 Official", "global": "🌍 Global"}
+REGION_BADGE = {"asia": "🌏 Asia", "official": "📣 Official", "global": "🌍 Global",
+                "expert": "✍️ Expert analysis"}
 
 
 def _time_ago(dt: datetime | None) -> str:
