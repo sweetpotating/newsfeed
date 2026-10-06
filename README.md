@@ -140,25 +140,33 @@ group. Just share your bot's link, e.g. `https://t.me/your_bot_name`.
 |---------|--------------|
 | `/start` | Subscribe; get a welcome explaining the bot. |
 | `/latest` (or `/news`) | Re-send the **most recent digest** to you, on demand. |
-| `/help` | List the commands. |
+| `/help` | List the commands. Any other message gets this reply too. |
 | `/stop` | Unsubscribe (anyone who blocks the bot is also dropped automatically). |
 
-Under the hood a second workflow
-[`/.github/workflows/subscribe.yml`](.github/workflows/subscribe.yml) polls
-Telegram **every ~15 minutes** for these commands, so a new subscriber is
-welcomed — and `/latest` answered — promptly rather than waiting for the next
-digest. (It's serverless, so replies arrive within the poll interval, not
-instantly.) `/latest` replays a cached copy of the last digest
-([`state/last_digest.json`](state/last_digest.json)) — no re-fetching and no
-extra API cost. The subscriber list lives in
-[`state/subscribers.json`](state/subscribers.json), committed back to the repo
-just like the dedup state.
+**Replies come within seconds.** The
+[**AI News Bot Listener**](.github/workflows/listener.yml) workflow keeps the
+bot online: it long-polls Telegram and answers each command as it arrives.
+A GitHub job can run for at most 6 hours, so each listener runs ~5.5h and then
+starts its successor (about a minute of handover, during which messages wait
+and are answered by the next run). An hourly schedule restarts it if that
+relay ever fails, and any push to the bot code starts it too. The repo is
+public, so these Actions minutes are free.
 
-> New subscribers receive digests sent **after** they join (not a backlog) —
-> the bot only sends each article once, to everyone currently subscribed.
+- `/latest` replays a cached copy of the last bot digest
+  ([`state/last_digest.json`](state/last_digest.json)); the listener pulls the
+  newest copy first. No re-fetching, no extra API cost, and it's rate-limited
+  to once a minute per person.
+- The listener is the only thing that reads bot commands or edits the
+  subscriber list ([`state/subscribers.json`](state/subscribers.json)), and it
+  commits changes straight away so the next digest includes new subscribers.
+  Telegram allows only one poller per bot, so the digest runs use `--no-sync`.
 
-You can run the poll on demand too: **Actions → AI News Subscribers → Run
-workflow**, or locally with `python -m ainews --sync-only`.
+> New subscribers receive digests sent **after** they join (not a backlog);
+> they can send `/latest` to see the most recent one immediately.
+
+Without the listener (e.g. locally), `python -m ainews --sync-only` processes
+pending commands once, and `python -m ainews.listener --minutes 60` listens
+for an hour.
 
 ---
 
@@ -223,6 +231,7 @@ git-ignored). Then `set -a; . ./.env; set +a` before running.
 | `--max-items N` | Cap how many articles are sent per run (default 10). |
 | `--no-state` | Ignore the dedup file (always treat everything as new). |
 | `--sync-only` | Process `/start` & `/stop` subscribers and exit (no digest). |
+| `--no-sync` | Don't read bot commands or edit the subscriber list (the listener does). |
 | `--target {all,bot,channel}` | Deliver to DM subscribers, the channel, or both (default `all`). |
 | `-v` / `--verbose` | Debug logging. |
 
@@ -300,6 +309,6 @@ offline, no network or API key needed.
   bullet depth varies by source. (Full-page fetching could be added later.)
 - **Images** come from the feed (`media:content`, enclosures, or the first
   `<img>` in the summary). If a feed exposes none, that article posts as text.
-- This is a **push-only feed**. Interactive commands (`/latest`, etc.) would
-  need an always-on bot process; the design intentionally favours the free,
-  serverless cron model.
+- GitHub runs scheduled workflows on a best-effort basis, so digests can start
+  a few minutes (occasionally hours) late. Bot commands don't depend on the
+  schedule: the always-on listener answers them.

@@ -1,7 +1,8 @@
 """Process incoming bot commands into the subscriber list and on-demand sends.
 
-The bot has no server, so instead of a webhook it long-polls Telegram's
-``getUpdates`` each run and handles a small set of commands:
+The bot has no server, so instead of a webhook it polls Telegram's
+``getUpdates`` — continuously in the always-on listener (``ainews.listener``),
+or once per run with ``--sync-only`` — and handles a small set of commands:
 
 * ``/start``  — subscribe (and get a welcome explaining what to expect)
 * ``/stop``   — unsubscribe
@@ -15,6 +16,7 @@ from __future__ import annotations
 
 import logging
 import time
+from typing import Callable, Optional, Tuple
 
 from .config import Config
 from .lastdigest import load_last_digest
@@ -102,9 +104,61 @@ def send_latest(client: TelegramClient, cfg: Config, chat_id: str) -> bool:
     return True
 
 
+def handle_update(client: TelegramClient, store: SubscriberStore, cfg: Config,
+                  upd: dict,
+                  on_latest: Optional[Callable[[str], None]] = None
+                  ) -> Tuple[int, int]:
+    """Apply one Telegram update. Returns (added, removed) subscriber counts.
+
+    ``on_latest`` replaces the default /latest handling (the always-on
+    listener uses it to refresh the digest cache and rate-limit replays).
+    """
+    member = upd.get("my_chat_member")
+    if isinstance(member, dict):
+        # The user blocked the bot (or left): stop sending to them.
+        status = (member.get("new_chat_member") or {}).get("status")
+        cid = str((member.get("chat") or {}).get("id", ""))
+        if cid and status in ("kicked", "left") and store.remove(cid):
+            log.info("Subscriber %s blocked the bot; removed.", cid)
+            return 0, 1
+        return 0, 0
+
+    msg = upd.get("message") or upd.get("channel_post")
+    if not isinstance(msg, dict):
+        return 0, 0
+    chat = msg.get("chat") or {}
+    chat_id = chat.get("id")
+    if chat_id is None:
+        return 0, 0
+    cid = str(chat_id)
+    text = (msg.get("text") or "").strip().lower()
+
+    if text.startswith("/start"):
+        if store.add(cid, first_name=chat.get("first_name", ""),
+                     username=chat.get("username", "")):
+            _safe_send(client, WELCOME, cid)
+            return 1, 0
+        _safe_send(client, ALREADY_SUBSCRIBED, cid)
+    elif text.startswith("/stop"):
+        if store.remove(cid):
+            _safe_send(client, GOODBYE, cid)
+            return 0, 1
+    elif text.startswith("/latest") or text.startswith("/news"):
+        if on_latest is not None:
+            on_latest(cid)
+        else:
+            send_latest(client, cfg, cid)
+    elif text.startswith("/help"):
+        _safe_send(client, HELP, cid)
+    elif text and chat.get("type") == "private":
+        # Anything else in a DM gets the command list rather than silence.
+        _safe_send(client, HELP, cid)
+    return 0, 0
+
+
 def sync_subscribers(client: TelegramClient, store: SubscriberStore,
                      cfg: Config) -> tuple[int, int]:
-    """Pull new updates and handle commands. Returns (added, removed)."""
+    """Pull pending updates once and handle them. Returns (added, removed)."""
     fetch_offset = store.offset + 1 if store.offset else 0
     try:
         updates = client.get_updates(offset=fetch_offset)
@@ -118,33 +172,9 @@ def sync_subscribers(client: TelegramClient, store: SubscriberStore,
         update_id = int(upd.get("update_id", 0))
         if update_id > max_update_id:
             max_update_id = update_id
-
-        msg = upd.get("message") or upd.get("channel_post")
-        if not isinstance(msg, dict):
-            continue
-        chat = msg.get("chat") or {}
-        chat_id = chat.get("id")
-        if chat_id is None:
-            continue
-        cid = str(chat_id)
-        text = (msg.get("text") or "").strip().lower()
-
-        if text.startswith("/start"):
-            if store.add(cid, first_name=chat.get("first_name", ""),
-                         username=chat.get("username", "")):
-                added += 1
-                _safe_send(client, WELCOME, cid)
-            else:
-                _safe_send(client, ALREADY_SUBSCRIBED, cid)
-        elif text.startswith("/stop"):
-            if store.remove(cid):
-                removed += 1
-                _safe_send(client, GOODBYE, cid)
-        elif text.startswith("/latest") or text.startswith("/news"):
-            send_latest(client, cfg, cid)
-        elif text.startswith("/help"):
-            _safe_send(client, HELP, cid)
-        # Anything else is ignored (no echo-spam on stray messages).
+        a, r = handle_update(client, store, cfg, upd)
+        added += a
+        removed += r
 
     if max_update_id:
         store.set_offset(max_update_id)

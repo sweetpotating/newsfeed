@@ -162,6 +162,9 @@ def run(argv: List[str] | None = None) -> int:
     parser.add_argument("--sync-only", action="store_true",
                         help="Only process /start and /stop subscribers, then "
                              "exit. Does not fetch feeds or send a digest.")
+    parser.add_argument("--no-sync", action="store_true",
+                        help="Don't read bot commands or modify the subscriber "
+                             "list (the always-on listener owns both).")
     parser.add_argument("--target", choices=["all", "bot", "channel"],
                         default=None,
                         help="Where to deliver: 'bot' = DM subscribers (+owner "
@@ -192,8 +195,9 @@ def run(argv: List[str] | None = None) -> int:
     client = None
     if not args.dry_run:
         client = TelegramClient(cfg.bot_token, cfg.chat_id, timeout=cfg.timeout)
-        # Subscriber processing is a bot concern; skip it for channel-only runs.
-        if use_bot or args.sync_only:
+        # Subscriber processing is a bot concern; skip it for channel-only runs
+        # and when the always-on listener is the one reading commands.
+        if (use_bot and not args.no_sync) or args.sync_only:
             # Welcome new /start chats and drop /stop chats before delivering.
             sync_subscribers(client, subs, cfg)
         if args.sync_only:
@@ -281,10 +285,13 @@ def run(argv: List[str] | None = None) -> int:
                 client.send_post(text, photo_url=photo, chat_id=cid)
                 delivered = True
             except RuntimeError as exc:
-                # Drop chats that blocked the bot / no longer exist so we stop
-                # retrying them; log anything else as a transient failure.
-                if is_unreachable(exc) and subs.remove(cid):
+                # Stop retrying chats that blocked the bot / no longer exist.
+                # With --no-sync the listener owns the subscriber list (and
+                # drops blockers itself), so only skip them for this run.
+                if is_unreachable(exc) and subs.has(cid):
                     dm_recipients.remove(cid)
+                    if not args.no_sync:
+                        subs.remove(cid)
                     log.info("Dropped unreachable subscriber %s (%s)", cid, exc)
                 else:
                     log.warning("Failed to send %r to %s: %s",

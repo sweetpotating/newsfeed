@@ -25,17 +25,22 @@ class TelegramClient:
         self.chat_id = chat_id
         self.timeout = timeout
 
-    def get_updates(self, offset: int = 0, limit: int = 100) -> list:
-        """Fetch pending bot updates (messages). Short poll, not long-polling.
+    def get_updates(self, offset: int = 0, limit: int = 100,
+                    poll_timeout: int = 0) -> list:
+        """Fetch pending bot updates (messages and block/unblock events).
 
-        Pass ``offset`` as ``last_update_id + 1`` to acknowledge everything up
-        to that point so the same update is never returned twice.
+        ``poll_timeout`` > 0 long-polls: Telegram holds the request open until
+        an update arrives or the timeout passes. Pass ``offset`` as
+        ``last_update_id + 1`` to acknowledge everything up to that point so
+        the same update is never returned twice.
         """
         url = API_BASE.format(token=self.token, method="getUpdates")
-        payload = {"timeout": 0, "limit": limit, "allowed_updates": ["message"]}
+        payload = {"timeout": poll_timeout, "limit": limit,
+                   "allowed_updates": ["message", "my_chat_member"]}
         if offset:
             payload["offset"] = offset
-        resp = requests.post(url, json=payload, timeout=self.timeout)
+        resp = requests.post(url, json=payload,
+                             timeout=self.timeout + poll_timeout)
         data = resp.json()
         if not data.get("ok"):
             raise RuntimeError(

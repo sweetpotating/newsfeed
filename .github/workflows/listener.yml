@@ -1,0 +1,68 @@
+name: AI News Bot Listener
+
+# Keeps the Telegram bot online so /start, /latest, /help and /stop are
+# answered within seconds (the digest workflows only run on a schedule).
+#
+# A GitHub job can run for at most 6 hours, so each run listens for ~5.5h and
+# then starts its successor ("relay"). The hourly schedule is only a safety
+# net that restarts the listener if a relay ever fails; while a listener is
+# running, a scheduled run just waits in the queue and is replaced by the
+# relay, so it may show up as "cancelled" — that's expected.
+on:
+  push:
+    branches: [claude/ai-news-telegram-bot-EBtjH]
+    paths:
+      - "ainews/**"
+      - ".github/workflows/listener.yml"
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # push subscriber-list changes
+  actions: write    # start the next listener run
+
+# Exactly one listener at a time: Telegram rejects two concurrent pollers on
+# the same bot. A newly queued run waits and takes over when this one ends.
+# Separate from the digest workflows' group so it never blocks a digest.
+concurrency:
+  group: ai-news-listener
+  cancel-in-progress: false
+
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Listen for bot commands
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          python -m ainews.listener --minutes 330 --git-sync --branch "$GITHUB_REF_NAME"
+
+      # Only relay after a clean run, so a broken setup (e.g. a bad token)
+      # can't restart itself in a tight loop; the schedule retries hourly.
+      - name: Start the next listener
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/listener.yml/dispatches" \
+            -d "{\"ref\":\"$GITHUB_REF_NAME\"}"

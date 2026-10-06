@@ -54,9 +54,9 @@ jobs:
           AINEWS_LOOKBACK_HOURS: ${{ github.event.inputs.lookback || '24' }}
         run: |
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            python -m ainews --target bot --dry-run --verbose
+            python -m ainews --target bot --no-sync --dry-run --verbose
           else
-            python -m ainews --target bot --verbose
+            python -m ainews --target bot --no-sync --verbose
           fi
 
       - name: Commit updated state
