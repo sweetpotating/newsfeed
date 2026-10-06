@@ -1,0 +1,55 @@
+name: AI News Announcements
+
+# Sends each new file in announcements/ to every bot subscriber, the owner
+# chat and the channel, exactly once (state/announced.json records what went
+# out). To announce something, add announcements/<date>-<topic>.html (Telegram
+# HTML) and push it.
+on:
+  push:
+    branches: [claude/ai-news-telegram-bot-EBtjH]
+    paths:
+      - "announcements/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-news-announce
+  cancel-in-progress: false
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send new announcements
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID || '-1003715197140' }}
+        run: python -m ainews.announce --verbose
+
+      - name: Record what was sent
+        run: |
+          if [[ -n "$(git status --porcelain state/)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state/announced.json
+            git commit -m "chore: record sent announcements"
+            for i in 1 2 3 4; do
+              git push && break || sleep $((2 ** i))
+              git pull --rebase --autostash || true
+            done
+          fi
