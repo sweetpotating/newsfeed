@@ -20,7 +20,7 @@ on:
 
 permissions:
   contents: write   # push subscriber-list changes
-  actions: write    # start the next listener run
+  actions: write    # start the next listener run and the digest workflows
 
 # Exactly one listener at a time: Telegram rejects two concurrent pollers on
 # the same bot. A newly queued run waits and takes over when this one ends.
@@ -49,10 +49,12 @@ jobs:
       - name: Listen for bot commands
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          # Lets the listener start the digest workflows on time (--schedule).
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          python -m ainews.listener --minutes 330 --git-sync --branch "$GITHUB_REF_NAME"
+          python -m ainews.listener --minutes 330 --git-sync --schedule --branch "$GITHUB_REF_NAME"
 
       # Only relay after a clean run, so a broken setup (e.g. a bad token)
       # can't restart itself in a tight loop; the schedule retries hourly.

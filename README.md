@@ -118,6 +118,18 @@ own schedule and runnable on demand:
   the channel **hourly**, top 5 of that hour. Own dedup state:
   `state/seen-channel.json`.
 
+**On-time delivery.** GitHub's own `schedule` trigger is best-effort: on free
+runners it started the 08:00/18:00 digests 3–9 hours late and the "hourly"
+channel only 4–6 times a day. So the always-on
+[listener](#share-it-let-people-subscribe-via-your-bot-link) acts as the clock
+(`ainews/clock.py`): at each due time it starts the workflow through the GitHub
+API, and the run begins within about a minute. A slot counts as done once *any*
+run of that workflow has started since its due time, so:
+- the listener never starts a slot twice, and catches up after a restart (the
+  channel within 55 minutes of its slot, the bot digest within 6 hours);
+- the workflows keep their `schedule` as a backup for when the listener is
+  down, but a late scheduled run skips itself if its slot already ran.
+
 **De-duplication (less repeated news).** Each target skips exact repeats and
 near-duplicates of anything shared in the **last 24h**, in two passes:
 1. **Lexical** — word-overlap on headlines (always on, no API needed).
@@ -329,6 +341,6 @@ offline, no network or API key needed.
   bullet depth varies by source. (Full-page fetching could be added later.)
 - **Images** come from the feed (`media:content`, enclosures, or the first
   `<img>` in the summary). If a feed exposes none, that article posts as text.
-- GitHub runs scheduled workflows on a best-effort basis, so digests can start
-  a few minutes (occasionally hours) late. Bot commands don't depend on the
-  schedule: the always-on listener answers them.
+- Timing depends on the always-on listener. If it's down (e.g. a failed
+  handover), digests fall back to GitHub's best-effort schedule, which can run
+  hours late, until the listener restarts (hourly) and catches up.

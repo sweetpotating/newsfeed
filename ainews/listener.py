@@ -26,6 +26,8 @@ import sys
 import time
 from typing import Callable, Dict, List, Optional
 
+from . import clock as clock_mod
+from .clock import Scheduler
 from .config import Config
 from .subscribe import _safe_send, handle_update, send_latest
 from .subscribers import SubscriberStore
@@ -84,8 +86,13 @@ def serve(client: TelegramClient, store: SubscriberStore, cfg: Config,
           minutes: float, repo: Optional[RepoSync] = None,
           poll_timeout: int = 50,
           clock: Callable[[], float] = time.monotonic,
-          sleep: Callable[[float], None] = time.sleep) -> None:
-    """Handle bot updates until ``minutes`` have elapsed."""
+          sleep: Callable[[float], None] = time.sleep,
+          scheduler: Optional[Scheduler] = None) -> None:
+    """Handle bot updates until ``minutes`` have elapsed.
+
+    With a ``scheduler``, also start the digest workflows on time; it is
+    checked at least once per long-poll (every ``poll_timeout`` seconds).
+    """
     deadline = clock() + minutes * 60
     last_latest: Dict[str, float] = {}
 
@@ -107,6 +114,11 @@ def serve(client: TelegramClient, store: SubscriberStore, cfg: Config,
     log.info("Listening for bot commands for %.0f minute(s); %d subscriber(s).",
              minutes, store.count())
     while clock() < deadline:
+        if scheduler is not None:
+            try:
+                scheduler.tick()
+            except Exception as exc:  # never let the clock stop the bot
+                log.warning("Scheduler tick failed: %s", exc)
         wait = int(max(1, min(poll_timeout, deadline - clock())))
         try:
             updates = client.get_updates(
@@ -157,6 +169,9 @@ def main(argv: Optional[List[str]] = None) -> int:
                              "(for GitHub Actions).")
     parser.add_argument("--branch", default=os.environ.get("GITHUB_REF_NAME", ""),
                         help="Branch to pull from and push to with --git-sync.")
+    parser.add_argument("--schedule", action="store_true",
+                        help="Also start the digest workflows on time "
+                             "(needs GH_TOKEN and GITHUB_REPOSITORY).")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -172,7 +187,13 @@ def main(argv: Optional[List[str]] = None) -> int:
     client = TelegramClient(cfg.bot_token, timeout=cfg.timeout)
     store = SubscriberStore(cfg.subscriber_file)
     repo = RepoSync(args.branch) if args.git_sync else None
-    serve(client, store, cfg, args.minutes, repo=repo)
+    scheduler = None
+    if args.schedule:
+        actions = clock_mod.from_env(args.branch or None)
+        if actions is None:
+            parser.error("--schedule needs GH_TOKEN, GITHUB_REPOSITORY and a branch")
+        scheduler = Scheduler(actions)
+    serve(client, store, cfg, args.minutes, repo=repo, scheduler=scheduler)
     return 0
 
 
