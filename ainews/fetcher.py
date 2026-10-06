@@ -10,6 +10,7 @@ from __future__ import annotations
 import hashlib
 import logging
 import re
+import subprocess
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
@@ -199,6 +200,56 @@ def _get(url: str, timeout: int) -> requests.Response:
     return resp
 
 
+# Substack (behind Cloudflare) answers 403 to bot-looking requests from cloud
+# IPs such as GitHub Actions — both by User-Agent and by the client's TLS
+# fingerprint. When a site refuses us, retry looking like a browser, then
+# with curl, whose TLS fingerprint isn't blocked.
+_BROWSER_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/126.0 Safari/537.36"),
+    "Accept": "application/rss+xml, application/xml, text/xml, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+
+def _curl(url: str, timeout: int) -> Optional[bytes]:
+    cmd = ["curl", "-sSL", "--compressed", "--max-time", str(timeout)]
+    for key, value in _BROWSER_HEADERS.items():
+        cmd += ["-H", f"{key}: {value}"]
+    cmd += ["-w", "\n%{http_code}", url]
+    try:
+        res = subprocess.run(cmd, capture_output=True, timeout=timeout + 5)
+    except (OSError, subprocess.TimeoutExpired):
+        return None
+    body, _, code = res.stdout.rpartition(b"\n")
+    if res.returncode != 0 or code.strip() != b"200":
+        return None
+    return body
+
+
+def _fetch_bytes(feed: Feed, timeout: int) -> bytes:
+    """Fetch a feed, falling back to browser-like requests when refused."""
+    try:
+        return _get(feed.url, timeout).content
+    except requests.HTTPError as exc:
+        if exc.response is None or exc.response.status_code != 403:
+            raise
+        first_error = exc
+    try:
+        resp = requests.get(feed.url, timeout=timeout, headers=_BROWSER_HEADERS)
+        resp.raise_for_status()
+        log.info("Fetched %s with browser headers after a 403.", feed.name)
+        return resp.content
+    except requests.RequestException:
+        pass
+    body = _curl(feed.url, timeout)
+    if body is not None:
+        log.info("Fetched %s with curl after a 403.", feed.name)
+        return body
+    raise first_error
+
+
 def fetch_sitemap_feed(feed: Feed, timeout: int,
                        max_per_feed: int) -> List[Article]:
     """Read the newest posts of a site that has a sitemap but no RSS feed."""
@@ -250,18 +301,13 @@ def fetch_feed(feed: Feed, timeout: int, max_per_feed: int) -> List[Article]:
     # Fetch with requests so the timeout is actually enforced (feedparser's
     # built-in fetch has no reliable timeout), then parse the bytes.
     try:
-        resp = requests.get(
-            feed.url,
-            timeout=timeout,
-            headers={"User-Agent": _USER_AGENT, "Cache-Control": "no-cache"},
-        )
-        resp.raise_for_status()
+        content = _fetch_bytes(feed, timeout)
     except requests.RequestException as exc:
         log.warning("Failed to fetch %s: %s", feed.name, exc)
         return []
 
     try:
-        parsed = feedparser.parse(resp.content)
+        parsed = feedparser.parse(content)
     except Exception as exc:  # feedparser is broad; never let it bubble up
         log.warning("Failed to parse %s: %s", feed.name, exc)
         return []

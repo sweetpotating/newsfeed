@@ -1,5 +1,7 @@
 from datetime import datetime, timedelta, timezone
 
+import pytest
+
 from ainews import digest, fetcher
 from ainews.classifier import classify
 from ainews.config import Config
@@ -146,3 +148,60 @@ def test_expert_badge_in_post():
     post = render_post(a)
     assert "✍️ Expert analysis" in post
     assert "Dwayne Gefferie" in post
+
+
+RSS = b"""<?xml version="1.0"?><rss version="2.0"><channel><title>T</title>
+<item><title>Agentic commerce needs a new PSP stack</title>
+<link>https://jasshah.substack.com/p/agentic</link>
+<pubDate>Mon, 05 Oct 2026 08:00:00 GMT</pubDate></item></channel></rss>"""
+
+
+class _HTTPResp:
+    def __init__(self, status, content=b""):
+        self.status_code = status
+        self.content = content
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise fetcher.requests.HTTPError(f"{self.status_code} Error",
+                                             response=self)
+
+
+SUBSTACK = Feed("Fintech: Under the Hood (Jas Shah)",
+                "https://jasshah.substack.com/feed", "expert")
+
+
+def _patch_get(monkeypatch, browser_status):
+    """First (bot) request gets 403; browser-header retry gets browser_status."""
+    def get(url, timeout=None, headers=None):
+        if headers is fetcher._BROWSER_HEADERS:
+            return _HTTPResp(browser_status, RSS if browser_status == 200 else b"")
+        return _HTTPResp(403)
+    monkeypatch.setattr(fetcher.requests, "get", get)
+
+
+def test_substack_403_retried_with_browser_headers(monkeypatch):
+    _patch_get(monkeypatch, browser_status=200)
+    monkeypatch.setattr(fetcher, "_curl", lambda *a: pytest.fail("not needed"))
+    arts = fetcher.fetch_feed(SUBSTACK, 5, 8)
+    assert [a.title for a in arts] == ["Agentic commerce needs a new PSP stack"]
+
+
+def test_substack_403_falls_back_to_curl(monkeypatch):
+    _patch_get(monkeypatch, browser_status=403)
+    monkeypatch.setattr(fetcher, "_curl", lambda url, timeout: RSS)
+    arts = fetcher.fetch_feed(SUBSTACK, 5, 8)
+    assert len(arts) == 1 and arts[0].region == "expert"
+
+
+def test_all_fallbacks_fail_feed_is_skipped(monkeypatch):
+    _patch_get(monkeypatch, browser_status=403)
+    monkeypatch.setattr(fetcher, "_curl", lambda url, timeout: None)
+    assert fetcher.fetch_feed(SUBSTACK, 5, 8) == []
+
+
+def test_non_403_errors_do_not_trigger_fallbacks(monkeypatch):
+    monkeypatch.setattr(fetcher.requests, "get",
+                        lambda *a, **k: _HTTPResp(404))
+    monkeypatch.setattr(fetcher, "_curl", lambda *a: pytest.fail("no fallback"))
+    assert fetcher.fetch_feed(SUBSTACK, 5, 8) == []
