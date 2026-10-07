@@ -169,6 +169,7 @@
 "16cf45570bb8bb27": 1791313272.7291653,
 "16e8369233877c89": 1791128194.980017,
 "17141b609b456123": 1788214686.2220583,
+"172d0640a3e0a8b8": 1791360091.3222437,
 "1740f40ed6619c78": 1789900064.299754,
 "1769dee7e63d34fe": 1789628593.0984766,
 "17b9ac3d9e5d1e6b": 1787668736.3146431,
@@ -462,6 +463,7 @@
 "3c6ff0ffeb735744": 1789310940.2864048,
 "3cbec84de8bf6155": 1791222239.5563254,
 "3d0fc2f54076a9e4": 1787480240.309363,
+"3d40013de0be7fe6": 1791360097.7130384,
 "3d48e529ad7a20b1": 1790105387.2141082,
 "3d7b42459746ed51": 1789649882.2650232,
 "3da27b4dbe2d5ac1": 1789969694.9627821,
@@ -785,6 +787,7 @@
 "66934dfe01692425": 1790729848.6548297,
 "66b8317e83e3e998": 1790887481.3211863,
 "66eabab6976f3ac7": 1788303384.3628638,
+"6708c0db7cb65f44": 1791360097.7130384,
 "6716a6a9a6dba00f": 1791356447.0127892,
 "671a9fed35e21548": 1788886826.0886958,
 "6758f87ca06e23fb": 1791316880.7900195,
@@ -1929,12 +1932,14 @@
 "Rothera goes live on Smartstream's Air to automate high-volume derivatives reconciliations": 1791274224.8517427,
 "Sam Altman says \u2018some bad things&#8217; will happen but AI is totally worth it": 1791222252.166789,
 "Scrimshaw Jukebox": 1791302483.5560873,
+"Shanghai AI Lab Open-Sources Intern-Decision, Small Models That Output Decisions, Not Text": 1791360097.713041,
 "Sharing AI progress in mathematics": 1791327649.3756077,
 "Sierra Summit 2026: Bring us your hard problems": 1791342074.1389406,
 "Sierra and Meta introduce Personal Agent Protocol": 1791336266.633857,
 "Singapore's Temasek warns of the \u2018biggest risk\u2019 facing markets right now": 1791352872.5343812,
 "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best": 1791334880.6941798,
 "Stripe to Power Small Business Underwriting With FedEx Supply Chain Data": 1791320465.5535884,
+"Tencent Rolls Out a Wave of Vertical AI Agents, From CraftBuddy to MusicBuddy, Inside Its Own Apps": 1791360097.713041,
 "The Agentic Commerce Liability Gap: Who Pays When the Agent Buys Wrong?": 1791338443.004702,
 "The Fed and PYMNTS Intelligence Agree: Stablecoins Have a Demand Problem": 1791324058.9346108,
 "The Story of Qwen: Alibaba\u2019s AI Models From 7B to 2.4T": 1791187683.5928926,
@@ -1960,5 +1965,5 @@
 "\u2018Artificial\u2019 Roasts AI\u2019s Creators\u2014and Sends a Dark Warning About Its Dangers": 1791313285.4749744,
 "\ud83e\udde0 Fintech Brainfood is now Brainfood": 1791274224.8517427
 },
-"updated": 1791356447
+"updated": 1791360097
 }
