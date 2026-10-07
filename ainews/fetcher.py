@@ -132,10 +132,21 @@ def _entry_to_article(entry, feed: Feed) -> Optional[Article]:
     if not link or not title:
         return None
     summary = getattr(entry, "summary", "") or getattr(entry, "description", "")
+    source = feed.name
+    if feed.kind == "gnews":
+        # Google News titles read "Headline - Outlet" and the description is
+        # just a list of links: credit the real outlet, drop the blurb.
+        outlet = (getattr(getattr(entry, "source", None), "title", "")
+                  or "").strip()
+        head, sep, tail = title.rpartition(" - ")
+        if sep and (not outlet or tail.strip() == outlet):
+            title, outlet = head.strip(), outlet or tail.strip()
+        source = outlet or source
+        summary = ""
     return Article(
         title=_WS_RE.sub(" ", title),
         link=link,
-        source=feed.name,
+        source=source,
         region=feed.region,
         published=_parse_date(entry),
         summary=_clean_summary(summary),
@@ -149,9 +160,6 @@ _META_TAG_RE = re.compile(r"<meta\b[^>]*>", re.IGNORECASE)
 _ATTR_RE = re.compile(r'([\w:-]+)\s*=\s*(?:"([^"]*)"|\'([^\']*)\')')
 _HTML_TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>",
                             re.IGNORECASE | re.DOTALL)
-# beehiiv serves every post at /p/<slug>; other sitemap URLs are tag pages,
-# author pages and the like.
-_POST_PATH = "/p/"
 
 
 def _parse_iso(value: Optional[str]) -> Optional[datetime]:
@@ -164,8 +172,12 @@ def _parse_iso(value: Optional[str]) -> Optional[datetime]:
     return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
 
 
-def _parse_sitemap(xml: bytes):
-    """Return ([(post_url, lastmod)], [child_sitemap_url]) from sitemap XML."""
+def _parse_sitemap(xml: bytes, post_path: str = "/p/"):
+    """Return ([(post_url, lastmod)], [child_sitemap_url]) from sitemap XML.
+
+    Only URLs whose path starts with ``post_path`` count as posts (beehiiv
+    serves posts at /p/<slug>); the rest are tag pages, author pages, etc.
+    """
     root = ET.fromstring(xml)
     posts, children = [], []
     for node in root:
@@ -174,7 +186,7 @@ def _parse_sitemap(xml: bytes):
             continue
         if node.tag == f"{_SITEMAP_NS}sitemap":
             children.append(loc)
-        elif _POST_PATH in urlparse(loc).path:
+        elif urlparse(loc).path.startswith(post_path):
             posts.append((loc, _parse_iso(node.findtext(f"{_SITEMAP_NS}lastmod"))))
     return posts, children
 
@@ -254,9 +266,11 @@ def fetch_sitemap_feed(feed: Feed, timeout: int,
                        max_per_feed: int) -> List[Article]:
     """Read the newest posts of a site that has a sitemap but no RSS feed."""
     try:
-        posts, children = _parse_sitemap(_get(feed.url, timeout).content)
+        posts, children = _parse_sitemap(_get(feed.url, timeout).content,
+                                         feed.path)
         for child in children[:5]:          # sitemap index -> child sitemaps
-            posts.extend(_parse_sitemap(_get(child, timeout).content)[0])
+            posts.extend(_parse_sitemap(_get(child, timeout).content,
+                                        feed.path)[0])
     except (requests.RequestException, ET.ParseError) as exc:
         log.warning("Failed to read sitemap for %s: %s", feed.name, exc)
         return []

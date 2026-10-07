@@ -42,6 +42,21 @@ Coverage is organised around what you asked for:
    still goes out after the news itself did. Brainfood and This Week in
    Fintech are on beehiiv, which has no public RSS, so they're read from
    their sitemaps instead (`kind="sitemap"` in `sources.py`).
+5. **Breaking-news watch** — company announcements that only go out as wire
+   press releases or on a company blog (e.g. Amex's agentic commerce
+   playbook, Sierra's Personal Agent Protocol) are caught by Google News
+   search feeds for agentic commerce, agent protocols, and the payment
+   networks + AI agents, plus Sierra's and Stripe's blogs, The Verge and
+   CNBC Tech (`WATCH_FEEDS` in `sources.py`).
+
+Headlines about agents *and* buying, paying or a standard ("open standard
+for AI agent interactions") count as agentic commerce, as do protocol names
+(Trusted Agent Protocol, Agent Pay, Personal Agent Protocol, …).
+
+**Quality bar.** Only stories about AI are sent (expert newsletters
+excepted), and bare release notes or quote posts are skipped, so a quiet
+hour sends fewer posts instead of general banking or crypto filler. Set
+`AINEWS_AI_ONLY=0` to turn this off.
 
 It runs **for free on GitHub Actions** — no server to maintain. State is
 committed back to the repo so each run knows what it already sent.
@@ -283,6 +298,7 @@ All optional, via environment variables (see [`.env.example`](.env.example)):
 | `ANTHROPIC_API_KEY` | – | Enables AI takeaways + semantic dedup. Optional — falls back to lexical/blurb. |
 | `AINEWS_SUMMARY_MODEL` | `claude-haiku-4-5` | Model for takeaways. Bump to `claude-sonnet-4-6` / `claude-opus-4-8` for richer bullets. |
 | `AINEWS_SUMMARIZE` | `1` | Set `0` to disable AI takeaways. |
+| `AINEWS_AI_ONLY` | `1` | Only send AI stories (expert newsletters excepted); `0` sends everything. |
 | `AINEWS_PHOTOS` | `1` | `1` = attach the article image to each post; `0` = text only. |
 | `AINEWS_SEND_DELAY_MS` | `1000` | Pause between per-article posts (rate-limit safety). |
 | `AINEWS_LOOKBACK_HOURS` | `24` | Time window for "new". |

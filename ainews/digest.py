@@ -19,7 +19,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from typing import List
 
-from .classifier import classify
+from .classifier import classify, is_ai_relevant, is_low_value
 from .config import Config
 from .fetcher import fetch_all
 from .formatter import MAX_CAPTION_LEN, MAX_MSG_LEN, render_post
@@ -65,6 +65,7 @@ def select_articles(cfg: Config, store: SeenStore,
     first_run = store.is_empty()
 
     fresh: List[Article] = []
+    off_topic = 0
     for art in articles:
         if store.is_seen(art.uid):
             continue
@@ -72,10 +73,17 @@ def select_articles(cfg: Config, store: SeenStore,
         # the time window when we have a date.
         if art.published is not None and art.published < cutoff:
             continue
-        fresh.append(classify(art))
+        classify(art)
+        if (cfg.ai_only and art.region != "expert"
+                and (is_low_value(art) or not is_ai_relevant(art))):
+            off_topic += 1
+            continue
+        fresh.append(art)
 
     if first_run:
         log.info("First run: empty state, capping starter digest.")
+    if off_topic:
+        log.info("Skipped %d off-topic or low-value item(s).", off_topic)
 
     # Rank everything, then de-duplicate in two passes:
     #   1) lexical — skip headlines that overlap a story shared in the last 24h

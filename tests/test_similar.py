@@ -79,7 +79,8 @@ def test_select_skips_recent_and_in_batch_duplicates(tmp_path, monkeypatch):
     ]
     monkeypatch.setattr(digest, "fetch_all", lambda *a, **k: list(feed))
 
-    cfg = Config(max_items=5)
+    # This test is about duplicates, not relevance: keep the quality bar off.
+    cfg = Config(max_items=5, ai_only=False)
     picked = digest.select_articles(cfg, store, lookback_hours=24)
     titles = [a.title for a in picked]
 

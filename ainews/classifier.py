@@ -54,7 +54,41 @@ _AGENTIC_KEYWORDS = [
     "agent toolkit",                 # Stripe agent toolkit
     "pay with ai", "shopping agent", "checkout agent",
     "agentic banking", "agentic finance",
+    # Standards for how agents identify themselves, sign in and buy.
+    "agent protocol",                # Personal / Trusted / Agent Payments …
+    "personal agent", "personal agents", "personal ai agent",
+    "universal commerce protocol", "machine payments protocol",
+    "agentic commerce experiences",  # Amex ACE
+    "agent purchase protection",     # Amex
 ]
+
+# A headline that mentions agents *and* buying, paying or a standard is about
+# agentic commerce even without the exact phrases above, e.g. "Meta and
+# Sierra announce open standard for AI agent interactions".
+_AGENT_WORD = re.compile(r"(?<!\w)(ai\s+)?agent(s|ic)?(?!\w)", re.IGNORECASE)
+_COMMERCE_WORD = re.compile(
+    r"(?<!\w)(shop|shopping|shopper|shoppers|checkout|purchase|purchases|buy|"
+    r"buying|buys|payment|payments|pay|merchant|merchants|commerce|retail|"
+    r"retailer|retailers|card|cards|cardholder|protocol|standard|standards)"
+    r"(?!\w)", re.IGNORECASE)
+
+# Signals that a story is about AI at all. Used to keep general fintech or
+# tech items (bank partnerships, charity savings accounts…) out of an AI feed.
+_AI_WORD = re.compile(
+    r"(?<!\w)(ai|a\.i\.|artificial intelligence|machine learning|llm|llms|"
+    r"large language models?|genai|generative|chatbots?|agents?|agentic|"
+    r"copilot|neural|deep learning|"
+    r"(foundation|frontier|ai|image|video|world|language|reasoning|"
+    r"open-weight|open|multimodal|embedding|diffusion) models?|"
+    r"computer use|robots?|robotics|humanoids?|"
+    r"mistral|llama|meta ai|hugging\s?face|perplexity|cohere|midjourney|"
+    r"stable diffusion|nano banana|nvidia|gpus?)(?!\w)",
+    re.IGNORECASE)
+
+# Titles that are bare package release notes ("datasette-atom 0.11a0") or
+# quote posts: low value in a news feed.
+_LOW_VALUE_TITLE = re.compile(
+    r"^([\w.\-]+\s+v?\d+(\.\d+)+[a-z0-9.]*|quoting\s.+)$", re.IGNORECASE)
 
 
 def _compile(words: List[str]) -> List[re.Pattern]:
@@ -77,8 +111,24 @@ def detect_platforms(text: str) -> List[str]:
     return [k for k in PLATFORM_ORDER if k in found]
 
 
-def is_agentic(text: str) -> bool:
-    return any(p.search(text) for p in _AGENTIC_PATS)
+def is_agentic(text: str, title: str = "") -> bool:
+    if any(p.search(text) for p in _AGENTIC_PATS):
+        return True
+    return bool(title and _AGENT_WORD.search(title)
+                and _COMMERCE_WORD.search(title))
+
+
+def is_ai_relevant(article: Article) -> bool:
+    """True if the story is about AI (platform, agentic, AI wording, or from
+    an AI lab's own blog)."""
+    if (article.platforms or article.category == CAT_AGENTIC
+            or article.region == "official"):
+        return True
+    return bool(_AI_WORD.search(f"{article.title}\n{article.summary}"))
+
+
+def is_low_value(article: Article) -> bool:
+    return bool(_LOW_VALUE_TITLE.match(article.title.strip()))
 
 
 def classify(article: Article) -> Article:
@@ -86,7 +136,7 @@ def classify(article: Article) -> Article:
     text = f"{article.title}\n{article.summary}"
     article.platforms = detect_platforms(text)
 
-    if is_agentic(text):
+    if is_agentic(text, article.title):
         article.category = CAT_AGENTIC
     elif article.platforms:
         article.category = CAT_PLATFORM

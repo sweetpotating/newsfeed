@@ -46,6 +46,9 @@ class Config:
     anthropic_api_key: str = ""
     summary_model: str = "claude-haiku-4-5"
     summarize: bool = True
+    # Only send stories that are about AI (expert newsletters excepted), and
+    # skip release-note style titles. Quiet hours send fewer posts, not filler.
+    ai_only: bool = True
 
     # Delivery: one Telegram message per article, image attached when available.
     photos: bool = True
@@ -77,6 +80,7 @@ class Config:
             summary_model=os.environ.get("AINEWS_SUMMARY_MODEL", "claude-haiku-4-5").strip()
             or "claude-haiku-4-5",
             summarize=_bool("AINEWS_SUMMARIZE", True),
+            ai_only=_bool("AINEWS_AI_ONLY", True),
             photos=_bool("AINEWS_PHOTOS", True),
             send_delay=float(_int("AINEWS_SEND_DELAY_MS", 1000)) / 1000.0,
         )

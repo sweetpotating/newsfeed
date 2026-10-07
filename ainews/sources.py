@@ -23,6 +23,7 @@ Region drives a small label in the digest:
 from __future__ import annotations
 
 from dataclasses import dataclass
+from urllib.parse import quote_plus
 
 
 @dataclass(frozen=True)
@@ -31,8 +32,21 @@ class Feed:
     url: str
     region: str = "global"  # global | asia | official | expert
     # "rss" for RSS/Atom; "sitemap" for sites without a public feed (beehiiv),
-    # where posts are listed from sitemap.xml and read from each post's page.
+    # where posts are listed from sitemap.xml and read from each post's page;
+    # "gnews" for a Google News search feed (RSS with outlet-suffixed titles).
     kind: str = "rss"
+    # For "sitemap": only URLs whose path starts with this are posts.
+    path: str = "/p/"
+
+
+def _gnews(name: str, query: str) -> Feed:
+    """A Google News search feed: catches press releases and coverage from
+    every outlet, including company newsrooms with no feed of their own."""
+    return Feed(f"Google News: {name}",
+                "https://news.google.com/rss/search?q="
+                + quote_plus(f"{query} when:1d")
+                + "&hl=en-US&gl=US&ceid=US:en",
+                "global", "gnews")
 
 
 # --- Official AI platform / lab feeds -------------------------------------
@@ -128,6 +142,31 @@ EXPERT_FEEDS = [
 ]
 
 
+# --- Breaking-news watch -----------------------------------------------------
+# Company announcements often go out only as wire press releases or on the
+# company's own blog (e.g. Amex's agentic commerce playbook on Business Wire,
+# Sierra's Personal Agent Protocol on sierra.ai), which none of the outlet
+# feeds above carry. Search feeds and first-party blogs close that gap.
+WATCH_FEEDS = [
+    _gnews("agentic commerce",
+           '"agentic commerce" OR "agentic payments" OR "agentic checkout"'),
+    _gnews("agent protocols",
+           '"agent protocol" OR "personal agent" OR "Agent Pay" '
+           'OR "Trusted Agent Protocol" OR "Agent Payments Protocol"'),
+    _gnews("payment networks & AI agents",
+           '("American Express" OR Amex OR Visa OR Mastercard OR Stripe '
+           'OR Adyen OR PayPal OR Airwallex) ("AI agent" OR "AI agents" '
+           'OR agentic)'),
+    _gnews("Sierra", '"Sierra" ("Bret Taylor" OR "AI agent" OR agents)'),
+    Feed("Sierra Blog", "https://sierra.ai/sitemap.xml", "official",
+         "sitemap", path="/blog/"),
+    Feed("Stripe Blog", "https://stripe.com/blog/feed.rss", "official"),
+    Feed("The Verge", "https://www.theverge.com/rss/index.xml", "global"),
+    Feed("CNBC Tech",
+         "https://www.cnbc.com/id/19854910/device/rss/rss.html", "global"),
+]
+
+
 def all_feeds() -> list[Feed]:
     return [*OFFICIAL_FEEDS, *GLOBAL_FEEDS, *ASIA_FEEDS, *AGENTIC_FEEDS,
-            *EXPERT_FEEDS]
+            *EXPERT_FEEDS, *WATCH_FEEDS]
