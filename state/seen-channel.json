@@ -341,6 +341,7 @@
 "28e49115520cb2b2": 1790074097.7825727,
 "29128fee57c3c23e": 1787592335.430023,
 "2936e971b325a75b": 1789511935.1512084,
+"2941596f9eee7c09": 1791424857.451241,
 "2943f19100563cde": 1791396082.1346407,
 "2958412a2c3c603a": 1788814867.7712224,
 "296d33defd03a1b2": 1789406868.181366,
@@ -835,6 +836,7 @@
 "667af819e7c193ca": 1790653645.6739786,
 "66934dfe01692425": 1790729848.6548297,
 "66b8317e83e3e998": 1790887481.3211863,
+"66cce0118cbdce13": 1791424866.5478206,
 "66eabab6976f3ac7": 1788303384.3628638,
 "6708c0db7cb65f44": 1791360097.7130384,
 "6716a6a9a6dba00f": 1791356447.0127892,
@@ -859,6 +861,7 @@
 "69aa5f6d13578721": 1788965944.3633256,
 "69d2a0148a2b0425": 1789537626.4272797,
 "69ee63928c7628b3": 1788568468.9347558,
+"69fc8dfd8369a07f": 1791424866.5478206,
 "6a46614e49f4e38f": 1787972454.4984426,
 "6a835402db7e7938": 1791370870.0140827,
 "6a91381a429232e7": 1790793952.6579113,
@@ -1690,6 +1693,7 @@
 "db1cbdd79c2b3a91": 1790037035.144175,
 "db5d4bcc2e5a3213": 1790209019.7400017,
 "db62b8bd04e21a26": 1789243374.4093957,
+"db6fb23ffff60022": 1791424866.5478206,
 "dbbac478a1a2e859": 1791399658.329792,
 "dbf508420cbb3e94": 1787682711.784565,
 "dc1dfe4078486edb": 1789259600.4625309,
@@ -1958,7 +1962,9 @@
 "AI could upend food delivery": 1791381649.7539427,
 "AI in Banking: How To Build a Resilient Foundation for the Future": 1791370870.0140886,
 "AI systems most at risk of cybersecurity attacks, PwC report shows": 1791414082.9642181,
+"AIR and Minds join Reap and Pivota on agent pay": 1791424866.5478253,
 "Advancing computer use with Ironclad": 1791313285.4749744,
+"After Amazon slammed the door, Meta rallies partners to welcome AI shoppers": 1791424866.5478253,
 "Agentic payments expose blind spots in fraud controls": 1791406853.3928611,
 "Albertsons expands OpenAI work, adding enterprise ChatGPT use": 1791342074.1389406,
 "Alchemy brings Mastercard Agent Pay to enable AI-powered purchases": 1791352872.5343812,
@@ -1979,6 +1985,7 @@
 "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action": 1791306079.681584,
 "Auto Dealers Pull Banking Into Their Operating Software": 1791334880.6941798,
 "BNP Paribas SS implements Proxymity's Vote Connect": 1791286939.244007,
+"ByteDance's Doubao App Lands on Huawei HarmonyOS PCs With Doubao-Seed-2.1 Pro and Turbo": 1791424866.5478253,
 "CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO": 1791286939.244007,
 "CFTC Moves to Build Federal Rulebook for Crypto Exchanges After Clarity Act Fails": 1791302483.5560873,
 "COSMIC shuts the door on AI code as GNOME debates letting bug reports in": 1791363661.6811292,
@@ -2145,5 +2152,5 @@
 "\u201cSoftware is over\u201d: Bold AI developer takes aim at Adobe with open source clones": 1791410488.5578687,
 "\ud83e\udde0 Fintech Brainfood is now Brainfood": 1791274224.8517427
 },
-"updated": 1791421289
+"updated": 1791424866
 }
