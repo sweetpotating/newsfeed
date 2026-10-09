@@ -1,45 +1,45 @@
 {
-"generated": 1791504121,
+"generated": 1791540117,
 "posts": [
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://www.thisweekinfintech.com/p/big-raise-big-launches-twif-china\">Big Raise, Big Launches | TWIF China</a></b>\n<i>This Week in Fintech (Nik Milanović) · ✍️ Expert analysis · 2m ago</i>\n\n• Headline lacks detail on specific funding or product launches mentioned.\n• No summary available to extract concrete takeaways.\n• Content unclear without additional context.\n\n<a href=\"https://www.thisweekinfintech.com/p/big-raise-big-launches-twif-china\">Read more →</a>",
-"photo": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/339a59d3-a106-4724-8ba4-9c4657cbcf2a/IMG_0009.jpeg?t=1791490190"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.fintechbrainfood.com/p/whop-neobanks\">🧠 When Everyone Can Build a Bank. Who Runs It? | Fintech Brainfood</a></b>\n<i>Brainfood (Simon Taylor) · ✍️ Expert analysis · 11h ago</i>\n\n• Whop simplifies neobank launches while Synapse illustrates operational complexity challenges.\n• Stablecoins and OCC trust charters could improve safety in next wave of fintech.\n• Banks face broader questions about governance as launch barriers fall.\n\n<a href=\"https://www.fintechbrainfood.com/p/whop-neobanks\">Read more →</a>",
-"photo": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/6f50d4c3-ac83-41b7-b7ba-dbf8151a05a3/bf-whop-thumbnail-ff007a.png?t=1791447160"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.thisweekinfintech.com/p/almost-every-fintech-is-now-a-phone-network-twif-uk-and-europe\">Almost Every Fintech Is Now a Phone Network | TWIF UK and Europe</a></b>\n<i>This Week in Fintech (Nik Milanović) · ✍️ Expert analysis · 12h ago</i>\n\n• Fintech companies increasingly bundle telecom services alongside banking offerings.\n• Direct integration of SIM cards into bank services represents new product convergence trend.\n• Adds complexity to traditional telco and fintech market boundaries.\n\n<a href=\"https://www.thisweekinfintech.com/p/almost-every-fintech-is-now-a-phone-network-twif-uk-and-europe\">Read more →</a>",
-"photo": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/66dee130-a15d-4d95-a24e-1fb52155f415/rebe-adelaida-zunQwMy5B6M-unsplash.jpg?t=1791411003"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/epics-ai-security-test-exposes-untraceable-patient-data-access/\">Epic’s AI Security Test Exposes Untraceable Patient Data Access</a></b>\n<i>PYMNTS · 🟧 Claude · 1h ago</i>\n\n• Epic Systems discovered MyChart configuration flaws allowing unaudited patient record access.\n• Security testing used Anthropic&#x27;s Claude model to identify vulnerabilities.\n• Audit trail gaps pose compliance and privacy risks in healthcare software.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/epics-ai-security-test-exposes-untraceable-patient-data-access/\">Read more →</a>",
-"photo": "https://www.pymnts.com/wp-content/uploads/2026/10/Epic-logo-data-breaches.png?w=457&quality=82"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner\">Anthropic launches free AI security scans for open-source projects</a></b>\n<i>The Verge – AI · 🟧 Claude · 2h ago</i>\n\n• Anthropic offers free security scans for open-source projects via OSS Scanner.\n• Service uses Anthropic&#x27;s strongest models at no cost for opted-in projects.\n• Addresses vulnerability detection gap in open-source software ecosystem.\n\n<a href=\"https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner\">Read more →</a>",
-"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/\">Claude can now generate animated explainer videos and live data dashboards from text prompts</a></b>\n<i>The Decoder · 🟧 Claude · 4h ago</i>\n\n• Claude gained ability to generate animated explainer videos from text via Motion feature.\n• Dashboards feature converts database sources into live dashboards from prompts.\n• Docs, Slides, Design features now available across all plan tiers.\n\n<a href=\"https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/08/claude_logo-1.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/\">Being mean to Claude can now get your account suspended under Anthropic&#x27;s new TOS</a></b>\n<i>The Decoder · 🟧 Claude · 4h ago</i>\n\n• Anthropic&#x27;s updated terms ban sustained abuse of Claude, treating model as entity deserving respect.\n• New policy tightens restrictions on propaganda, drone weaponization, and surveillance uses.\n• Reflects evolving approach to model treatment during interactions.\n\n📰 <i>Also covered by: The Verge – AI</i>\n\n<a href=\"https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/\">Read more →</a>",
-"photo": "https://the-decoder.com/wp-content/uploads/2026/10/claude_sad.png"
-},
-{
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/\">Anthropic changes usage policy to ban model abuse and election interference</a></b>\n<i>TechCrunch AI · 🟧 Claude · 5h ago</i>\n\n• Anthropic prohibits extreme repeated abuse of Claude while allowing ordinary criticism.\n• Updated policy addresses election interference, deceptive campaigns, weapons, and surveillance.\n• New restrictions follow pattern of tightening guardrails on model misuse.\n\n<a href=\"https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/sophos\">Sophos cuts threat investigation time by 96% with OpenAI Daybreak</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 3h ago</i>\n\n• Sophos reduced threat investigation time by 96% using OpenAI&#x27;s Daybreak model.\n• Daybreak automated 52% of managed detection and response cases.\n• Human oversight is maintained throughout the automated threat investigation process.\n\n<a href=\"https://openai.com/index/sophos\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html\">Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report</a></b>\n<i>CNBC Tech · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI reported roughly $50 billion annualized revenue as of late September.\n• Revenue disclosure triggered selloff in Nvidia, Oracle, CoreWeave and other AI stocks.\n• Market reacted negatively despite strong OpenAI financial performance.\n\n<a href=\"https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/\">Anthropic&#x27;s Claude Science creates the first complete ultraviolet map of the sky</a></b>\n<i>The Decoder · 🟧 Claude · 39m ago</i>\n\n• Claude Science created the first complete ultraviolet map of the entire sky.\n• AI agents automatically downloaded, calibrated, and processed data from multiple space missions.\n• Inpainting filled gaps in the ultraviolet survey data.\n\n<a href=\"https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/10/claude_sky_mapping.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/\">OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets</a></b>\n<i>The Decoder · 🟢 ChatGPT · 1h ago</i>\n\n• OpenAI identified and banned Russian and Iranian influence operations spreading disinformation.\n• Russian &quot;Dark Clark&quot; campaign targeted Latin America and reached politicians.\n• The operation received OpenAI&#x27;s highest category 5 out of 6 severity rating.\n\n<a href=\"https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/10/russian_influence_campaigns.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/oracle\">How Oracle turns days of work into minutes with ChatGPT and Codex</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 18h ago</i>\n\n• Oracle uses ChatGPT and Codex to automate workflows across recruiting, engineering, and operations.\n• Specialist knowledge is converted into fast, repeatable processes.\n• Implementation spans multiple departments to reduce manual work.\n\n<a href=\"https://openai.com/index/oracle\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/\">Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 3h ago</i>\n\n• Three fired OpenAI safety researchers dispute misconduct allegations in open letter.\n• Researchers warn dismissals create chilling effect on AI safety culture.\n• Incident raises questions about safety team independence and accountability.\n\n<a href=\"https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/pollo-ai\">Pollo AI turns creative ideas into campaigns with OpenAI</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 22h ago</i>\n\n• Pollo AI helps creators generate detailed images and cinematic video ads using OpenAI models.\n• Platform combines multiple AI models for comprehensive creative campaign production.\n• Transforms conceptual ideas into production-ready visual content.\n\n<a href=\"https://openai.com/index/pollo-ai\">Read more →</a>",
 "photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://openai.com/index/legalon-halves-codex-costs\">LegalOn halves Codex costs while maintaining development speed</a></b>\n<i>OpenAI News · 🟢 ChatGPT · 📣 Official · 22h ago</i>\n\n• LegalOn reduced daily Codex costs by 65% while maintaining development velocity.\n• Company strategically matched multiple AI models to specific development tasks.\n• Budget management optimization preserved engineering productivity.\n\n<a href=\"https://openai.com/index/legalon-halves-codex-costs\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/\">Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work</a></b>\n<i>MarkTechPost · 🔵 Gemini · 3h ago</i>\n\n• Google Cloud launched Gemini Agent as a single unified agent for enterprise tasks.\n• Agent performs question answering, knowledge work, media creation, and code execution.\n• Single prompt interface handles diverse business functions.\n\n📰 <i>Also covered by: The Verge – AI</i>\n\n<a href=\"https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/\">Read more →</a>",
+"photo": null
+},
+{
+"text": "💳 Agentic Commerce\n<b><a href=\"https://crossmint.com/announcement/agentic-cards-api-launch-visa-basistheory\">Agents in OpenClaw, Claude Code, Hermes, Zo Computer, and other agentic platforms can now securely pay using cardholders’ eligible Visa cards.</a></b>\n<i>Crossmint announcements · 🟧 Claude · 📣 Official</i>\n\n• Crossmint Agentic Cards API enables AI agents to securely make payments using Visa cards.\n• Integration works across multiple agentic platforms including OpenClaw and Claude Code.\n• Cardholder payments are processed through Visa&#x27;s Intelligent Commerce infrastructure.\n\n📰 <i>Also covered by: PR Newswire</i>\n\n<a href=\"https://crossmint.com/announcement/agentic-cards-api-launch-visa-basistheory\">Read more →</a>",
+"photo": "https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/6a1ec58559c085a48b2b91e0_Crossmint%20Visa%20BT%20Launch%20Image.png"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://technode.com/2026/10/09/ecosia-switches-from-mistral-to-open-weight-ai-models-including-qwen-glm-and-kimi/\">Ecosia switches from Mistral to open-weight AI models including Qwen, GLM and Kimi</a></b>\n<i>TechNode (China) · 🟣 Qwen · 🌏 Asia · 1h ago</i>\n\n• Ecosia switched from Mistral to open-weight AI models including Qwen, GLM, and Kimi.\n• Cost roughly halved while maintaining or improving result quality.\n• Partnership with Melious German AI platform enabled the model transition.\n\n<a href=\"https://technode.com/2026/10/09/ecosia-switches-from-mistral-to-open-weight-ai-models-including-qwen-glm-and-kimi/\">Read more →</a>",
+"photo": "https://i0.wp.com/technode.com/wp-content/uploads/2026/07/ai-for-all-sora.png?fit=1024%2C683&amp;ssl=1"
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/\">Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field</a></b>\n<i>The Decoder · 🟢 ChatGPT · 15h ago</i>\n\n• Association for Human Mathematics called for OpenAI boycott after 700+ AI-generated math papers released.\n• OpenAI retracted three papers due to errors the day after publication.\n• Fields Medalist Terence Tao warned about AI&#x27;s mass harvesting of mathematical work.\n\n📰 <i>Also covered by: TechCrunch AI</i>\n\n<a href=\"https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/10/openai_mathematics_controversy.png"
 }
 ]
 }
