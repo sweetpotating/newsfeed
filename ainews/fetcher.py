@@ -23,7 +23,7 @@ import requests
 from dateutil import parser as dateparser
 
 from .models import Article
-from .sources import Feed
+from .sources import Feed, is_trusted_domain
 
 log = logging.getLogger("ainews.fetcher")
 
@@ -136,8 +136,11 @@ def _entry_to_article(entry, feed: Feed) -> Optional[Article]:
     if feed.kind == "gnews":
         # Google News titles read "Headline - Outlet" and the description is
         # just a list of links: credit the real outlet, drop the blurb.
-        outlet = (getattr(getattr(entry, "source", None), "title", "")
-                  or "").strip()
+        src = getattr(entry, "source", None)
+        outlet = (getattr(src, "title", "") or "").strip()
+        if (not feed.any_source
+                and not is_trusted_domain(getattr(src, "href", "") or "")):
+            return None             # explainer blogs, SEO sites, unknowns
         head, sep, tail = title.rpartition(" - ")
         if sep and (not outlet or tail.strip() == outlet):
             title, outlet = head.strip(), outlet or tail.strip()

@@ -108,17 +108,68 @@ GNEWS = b"""<?xml version="1.0"?><rss version="2.0"><channel>
 </channel></rss>"""
 
 
+def _gnews_feed(any_source=False):
+    return Feed("Google News: x", "https://news.google.com/rss/search?q=x",
+                "global", "gnews", any_source=any_source)
+
+
 def test_google_news_entries_credit_the_real_outlet():
-    feed = Feed("Google News: x", "https://news.google.com/rss/search?q=x",
-                "global", "gnews")
     parsed = feedparser.parse(GNEWS)
-    arts = [fetcher._entry_to_article(e, feed) for e in parsed.entries]
-    assert arts[0].title == ("Meta joins companies to tame 'chaos' of doing "
-                             "business with AI bots")
-    assert arts[0].source == "CNBC"
-    assert arts[0].summary == ""                 # link-list blurb dropped
-    assert arts[1].title == "Amex launches agentic playbook - Stock Titan"
-    assert arts[1].source == "Stock Titan"
+    art = fetcher._entry_to_article(parsed.entries[0], _gnews_feed())
+    assert art.title == ("Meta joins companies to tame 'chaos' of doing "
+                         "business with AI bots")
+    assert art.source == "CNBC"
+    assert art.summary == ""                 # link-list blurb dropped
+
+
+def test_google_news_drops_untrusted_sites_unless_feed_allows_any():
+    parsed = feedparser.parse(GNEWS)
+    stock_titan = parsed.entries[1]          # not a recognised outlet
+    assert fetcher._entry_to_article(stock_titan, _gnews_feed()) is None
+    art = fetcher._entry_to_article(stock_titan, _gnews_feed(any_source=True))
+    assert art.title == "Amex launches agentic playbook - Stock Titan"
+    assert art.source == "Stock Titan"
+
+
+@pytest.mark.parametrize("url,ok", [
+    ("https://www.cnbc.com", True), ("https://finance.yahoo.com", True),
+    ("https://www.businesswire.com", True), ("https://www.stocktitan.net", False),
+    ("https://notcnbc.com", False), ("", False)])
+def test_trusted_domains(url, ok):
+    from ainews.sources import is_trusted_domain
+    assert is_trusted_domain(url) is ok
+
+
+@pytest.mark.parametrize("title", [
+    "REVERSIBLE Launches Agentic Affiliate Platform Connecting AI Shopping "
+    "to 700+ Premium Retailers",
+    "allow agents to buy from any online store using a single API",
+])
+def test_agent_commerce_startup_launches_rank_as_agentic(title):
+    assert _a(title).category == CAT_AGENTIC
+
+
+def test_duplicate_check_sends_blurbs(monkeypatch):
+    """The CNBC 'tame chaos' headline only matches the protocol story via
+    its blurb, so the semantic check must see blurbs."""
+    import json
+    import sys
+    import types
+    from ainews import cluster
+    sent = {}
+
+    class Msgs:
+        def create(self, **kw):
+            sent.update(json.loads(kw["messages"][0]["content"].split("\n\n", 1)[1]))
+            raise RuntimeError("stop after capturing the request")
+
+    fake = types.SimpleNamespace(Anthropic=lambda **k: types.SimpleNamespace(messages=Msgs()))
+    monkeypatch.setitem(sys.modules, "anthropic", fake)
+    arts = [_a("Meta joins companies to tame chaos of doing business with AI bots",
+               summary="Meta, Walmart and Sierra publish a personal agent protocol.")]
+    cluster.cluster_duplicates(arts, ["Introducing Personal Agent Protocol"],
+                               api_key="k", model="m")
+    assert "personal agent protocol" in sent["candidates"][0]["blurb"]
 
 
 def test_sitemap_path_prefix_skips_translations():

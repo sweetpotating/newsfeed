@@ -23,7 +23,7 @@ Region drives a small label in the digest:
 from __future__ import annotations
 
 from dataclasses import dataclass
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse
 
 
 @dataclass(frozen=True)
@@ -37,16 +37,63 @@ class Feed:
     kind: str = "rss"
     # For "sitemap": only URLs whose path starts with this are posts.
     path: str = "/p/"
+    # For "gnews": accept results from any site, not just trusted outlets.
+    # Only for narrow named-company searches, where small companies announce
+    # through press wires reposted on sites we'd otherwise drop.
+    any_source: bool = False
 
 
-def _gnews(name: str, query: str) -> Feed:
+# Google News search returns any site that matches, including vendor
+# explainer blogs ("How AI Agents Execute Payments: 6 Stages Explained").
+# Only keep results from recognised news outlets, wires and company
+# newsrooms. Subdomains match (e.g. finance.yahoo.com -> yahoo.com).
+TRUSTED_NEWS_DOMAINS = {
+    # Business & general news
+    "reuters.com", "bloomberg.com", "cnbc.com", "ft.com", "wsj.com",
+    "nytimes.com", "washingtonpost.com", "economist.com", "fortune.com",
+    "axios.com", "businessinsider.com", "marketwatch.com", "yahoo.com",
+    "cnn.com", "bbc.com", "bbc.co.uk", "theguardian.com", "apnews.com",
+    "barrons.com", "investing.com",
+    # Tech press
+    "theverge.com", "techcrunch.com", "venturebeat.com", "wired.com",
+    "theinformation.com", "arstechnica.com", "engadget.com", "zdnet.com",
+    "siliconangle.com", "thenextweb.com", "the-decoder.com", "semafor.com",
+    "cmswire.com", "geekwire.com", "404media.co",
+    # Payments & fintech trade press
+    "pymnts.com", "finextra.com", "americanbanker.com", "paymentsdive.com",
+    "thepaypers.com", "fintechfutures.com", "paymentsjournal.com",
+    "paymentweek.com", "bankingdive.com", "retaildive.com",
+    "digitalcommerce360.com", "coindesk.com", "theblock.co",
+    # Asia
+    "scmp.com", "techinasia.com", "asia.nikkei.com", "nikkei.com",
+    "straitstimes.com", "businesstimes.com.sg", "kr-asia.com",
+    # Press-release wires (company announcements)
+    "businesswire.com", "prnewswire.com", "globenewswire.com",
+    # Company newsrooms & blogs
+    "americanexpress.com", "visa.com", "mastercard.com", "stripe.com",
+    "adyen.com", "paypal.com", "paypal-corp.com", "airwallex.com",
+    "shopify.com", "sierra.ai", "openai.com", "anthropic.com",
+    "blog.google", "about.fb.com", "meta.com", "crossmint.com",
+    "reversible.com",
+}
+
+
+def is_trusted_domain(url: str) -> bool:
+    host = urlparse(url).netloc.lower().split(":")[0]
+    if host.startswith("www."):
+        host = host[4:]
+    return any(host == d or host.endswith("." + d)
+               for d in TRUSTED_NEWS_DOMAINS)
+
+
+def _gnews(name: str, query: str, any_source: bool = False) -> Feed:
     """A Google News search feed: catches press releases and coverage from
     every outlet, including company newsrooms with no feed of their own."""
     return Feed(f"Google News: {name}",
                 "https://news.google.com/rss/search?q="
                 + quote_plus(f"{query} when:1d")
                 + "&hl=en-US&gl=US&ceid=US:en",
-                "global", "gnews")
+                "global", "gnews", any_source=any_source)
 
 
 # --- Official AI platform / lab feeds -------------------------------------
@@ -158,6 +205,14 @@ WATCH_FEEDS = [
            'OR Adyen OR PayPal OR Airwallex) ("AI agent" OR "AI agents" '
            'OR agentic)'),
     _gnews("Sierra", '"Sierra" ("Bret Taylor" OR "AI agent" OR agents)'),
+    # Agent-commerce infrastructure startups. Crossmint's Agent Checkouts
+    # (25 Sep 2026) was only on its own site; Reversible Labs (8 Oct 2026)
+    # launched via a paid press wire reposted on local TV sites.
+    _gnews("agent commerce startups",
+           '"Crossmint" OR "REVERSIBLE Labs" OR "agentic affiliate"',
+           any_source=True),
+    Feed("Crossmint announcements", "https://www.crossmint.com/sitemap.xml",
+         "official", "sitemap", path="/announcement/"),
     Feed("Sierra Blog", "https://sierra.ai/sitemap.xml", "official",
          "sitemap", path="/blog/"),
     Feed("Stripe Blog", "https://stripe.com/blog/feed.rss", "official"),

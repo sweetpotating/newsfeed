@@ -1,0 +1,12 @@
+🏊 <b>Crossmint deep dive</b>
+<i>Agentic commerce · Deep dive</i>
+
+<b>What it is:</b> dev infrastructure company, not a consumer product. Started 2022 doing wallets/stablecoins/tokenization APIs, now extending into agent commerce. Founders: Rodri Fernández Touza (fintech, McKinsey) + Alfonso Gómez-Jordana (Google reCAPTCHA/Firebase, WhatsApp). Raised US$23.6m led by Ribbit Capital, with Franklin Templeton, Nyca, First Round, Lightspeed. <a href="https://fortune.com/crypto/2025/03/18/crossmint-24-million-ribbit-capital-franklin-templeton-developer-platform-fundraise/">Fortune</a>
+
+<b>How it works:</b> devs embed Crossmint's card-entry iframe → user creates an "order intent" (amount, merchant, expiry) → for eligible cards Crossmint mints scoped Visa Intelligent Commerce / Mastercard Agent Pay credentials, limit enforced by the network → Agent Checkouts then completes the purchase via merchant protocol, Shop Pay, or browser automation, pausing for your approval. Your real card funds it, normal rewards/chargeback rights stay. <a href="https://docs.crossmint.com/agents/overview">Docs</a>
+
+<b>The catch (this is the good stuff):</b> "any card, securely" has an asterisk. Network rails currently only cover Mastercard credit/debit + US-issued Visa (excluding business/prepaid/Chase/Fidelity). Other cards fall back to an encrypted-card mode where limits are enforced by the app's allowance handling, NOT the card network. So the trust story is much stronger on the Visa/MC path than the fallback. <a href="https://docs.crossmint.com/agents/cards/overview">Card docs</a>
+
+<b>Pricing:</b> Agent Checkouts announced at US$0.05 per execution, but that's not an all-in toolkit price - vaulting, failures, FX, processing all need a quote. <a href="https://www.crossmint.com/announcement/agent-checkouts">Announcement</a>
+
+<b>Vs protocols:</b> it's not a UCP/ACP/AP2 competitor - it's the glue vendor that sits above them, using protocols where they exist and browser automation where they don't. Vs Stripe/Link: Link is the consumer wallet, Crossmint can actually USE Link as an external card. They're complementary-ish.

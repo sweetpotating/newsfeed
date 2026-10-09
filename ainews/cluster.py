@@ -26,7 +26,8 @@ log = logging.getLogger("ainews.cluster")
 
 _SYSTEM = (
     "You de-duplicate an AI-news feed. You are given candidate articles (each "
-    "with an id, headline and source) and a list of headlines already shared "
+    "with an id, headline, source and short blurb) and a list of headlines "
+    "already shared "
     "in the last 24 hours. For each candidate decide whether it reports the "
     "SAME underlying story as (a) an already-shared headline, or (b) an earlier "
     "candidate in the list.\n\n"
@@ -108,7 +109,11 @@ def cluster_duplicates(articles: List[Article], recent_titles: List[str],
 
     payload = {
         "candidates": [
-            {"id": i, "headline": a.title, "source": a.source}
+            {"id": i, "headline": a.title, "source": a.source,
+             # The blurb lets the model match very different headlines for
+             # the same event (CNBC's "tame 'chaos' of doing business with
+             # AI bots" vs "Introducing Personal Agent Protocol").
+             "blurb": (a.summary or "")[:300]}
             for i, a in enumerate(articles)
         ],
         "recent_headlines": list(recent_titles)[:80],
