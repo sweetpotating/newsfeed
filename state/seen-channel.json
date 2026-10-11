@@ -872,6 +872,7 @@
 "6a91381a429232e7": 1790793952.6579113,
 "6ac8ff890941f100": 1788303372.41523,
 "6acca9d34f9d6f44": 1788246412.6812384,
+"6aeda23a3bdf4a4e": 1791745274.7381372,
 "6b11b2b68701d019": 1789469548.1872365,
 "6b47269ce6556352": 1791396082.1346407,
 "6b5a59b1d06d8f25": 1788532962.1271846,
@@ -1971,7 +1972,6 @@
 "AI agent makers are promising privacy \u2014 will they deliver?": 1791640859.496158,
 "AI agent teams waste massive tokens for barely measurable quality gains, research finds": 1791734464.1475837,
 "AI agents overstate their results and remain far from autonomous research, study finds": 1791727286.8104775,
-"AI disqualification yields new Nikon Small World in Motion winner": 1791572442.8390105,
 "AI glasses brand NIMO secures angel funding at RMB 1.5 billion valuation": 1791626467.3472767,
 "AI is automating coding. So why are software developer job postings on the rise?": 1791727286.8104775,
 "AI is changing how lawyers work \u2014 and putting the billable hour under pressure": 1791612081.98939,
@@ -1982,13 +1982,10 @@
 "Anchorage Buys Routable | Exits & Deep Reads": 1791720080.1155746,
 "Ant Group's LingGuang 2.0 Enters Limited Beta as a Personal Agent With Long-Term Memory": 1791705642.9848115,
 "Anthropic Says Its A.I. Agents Attempted to Access a Range of Government Sites": 1791597649.0479143,
-"Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows": 1791572442.8390105,
 "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe": 1791662468.9776332,
 "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server": 1791712870.660179,
 "As AI mass-produces historical dramas in China, where are the boundaries?": 1791626467.3472767,
-"Asana cuts model costs 76x in browser tests with GPT-6.1 Sol": 1791572442.8390105,
 "Aston Martin F1 Uses AI to Monitor Rival Radio": 1791576075.9408433,
-"Bending Spoons Deploys AI to Overhaul Acquired Software Companies": 1791568844.3940723,
 "Book Publishers Are Quietly Using More AI. Staff Are Revolting": 1791576075.9408433,
 "ByteDance merges TraeWork and TraeCode into unified TRAE platform": 1791626467.3472767,
 "Can the AI industry persuade data center opponents by getting rid of NDAs?": 1791738072.9983315,
@@ -2028,6 +2025,7 @@
 "Rogue Anthropic AI agent gave police fake tip in unsolved murder case": 1791684066.3197079,
 "Sakana AI\u2019s LLM Peer Review System Catches 73% of Core-Claim Errors": 1791676868.7245266,
 "Satya Nadella says we should assume all AI models are \u2018compromised\u2019": 1791673235.315645,
+"Silicon Valley is falling in line with Trump\u2019s attempt to rename AI": 1791745274.7381406,
 "Startup Led by Ex-Nvidia GPU Architect Designs Y10 Chip to Close Robot Control Loops in 1 ms": 1791684066.3197079,
 "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market": 1791648077.6042845,
 "Striding AI Unveils H1 and C1 Robots for 24/7 Convenience Stores, Targets 2027 Service Launch": 1791619239.5281484,
@@ -2039,5 +2037,5 @@
 "Westlake Robotics' WR1 Brain Has Two Humanoids Fold Trousers With Dexterous Hands": 1791684066.3197079,
 "What\u2019s in a name? What China and Trump call AI reveals how they see its future": 1791702057.5503523
 },
-"updated": 1791738072
+"updated": 1791745274
 }
