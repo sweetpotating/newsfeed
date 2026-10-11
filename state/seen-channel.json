@@ -1953,7 +1953,8 @@
 "ffc80d14a58cea97": 1790489103.4880033,
 "ffcc9a28912b321e": 1790228815.3582487,
 "ffdffcee6bf84b26": 1791550856.6136878,
-"ffe959c1b4d80568": 1789450900.8656733
+"ffe959c1b4d80568": 1789450900.8656733,
+"ffe9771dd0f2e869": 1791680450.3528528
 },
 "titles": {
 "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop": 1791579660.823547,
@@ -1962,7 +1963,6 @@
 "AI Insurance and Mortgage Platforms Raise $350M | Fundraises": 1791633646.957661,
 "AI Is Getting Really Good at Messing With Cybercriminals": 1791637281.5655718,
 "AI agent makers are promising privacy \u2014 will they deliver?": 1791640859.496158,
-"AI agents are reporting success while producing nothing \u2014 and your CI pipeline believes them": 1791504081.9154615,
 "AI disqualification yields new Nikon Small World in Motion winner": 1791572442.8390105,
 "AI glasses brand NIMO secures angel funding at RMB 1.5 billion valuation": 1791626467.3472767,
 "AI is changing how lawyers work \u2014 and putting the billable hour under pressure": 1791612081.98939,
@@ -1982,7 +1982,6 @@
 "Aston Martin F1 Uses AI to Monitor Rival Radio": 1791576075.9408433,
 "Automation and AI Move Deeper Into Payment Exceptions": 1791565260.39568,
 "Bending Spoons Deploys AI to Overhaul Acquired Software Companies": 1791568844.3940723,
-"Big Raise, Big Launches | TWIF China": 1791504081.9154615,
 "Book Publishers Are Quietly Using More AI. Staff Are Revolting": 1791576075.9408433,
 "ByteDance Seed Paper Finds a 'Phase Sensitivity' Blind Spot in Chunked KV-Cache Compression": 1791514890.005964,
 "ByteDance merges TraeWork and TraeCode into unified TRAE platform": 1791626467.3472767,
@@ -1996,7 +1995,6 @@
 "Control plane for agentic AI: Seismora's network vision": 1791601259.4453542,
 "Cramer\u2019s week ahead: Earnings kick off as banks and chipmakers face big tests": 1791586891.0979848,
 "Crossmint acquires Cycle AI": 1791507685.126161,
-"Crossmint deep dive": 1791507268.343647,
 "Crossmint has acquired Mordisco to power the next generation of AI agents": 1791507685.126161,
 "Danu Robotics\u2019 fight to build a better recycling robot": 1791565260.39568,
 "Doubao Work Adds an Infinite Creation Canvas With Seedream 5.0 Flash and the Doubao 2.1 Lite Model": 1791532859.204768,
@@ -2007,16 +2005,13 @@
 "From bridges to burn-and-mint: understanding Circle CCTP on Stellar and the multichain USDC economy": 1791514890.005964,
 "Google Research RRSI Guide: Mastering Self-Improving AI Agents": 1791529255.345111,
 "Google's Gemini 4 \"Carbon\" model is reportedly matching Anthropic's Opus 5.5 coding performance": 1791626467.3472767,
-"GreenCore Solutions Corp. (GSC) Opens London, UK Sales Office for A2A-Grocery.co.uk Agentic Commerce Hub": 1791504081.9154615,
 "Hollywood takes on Zuckerberg, Musk and Altman amid widespread anxiety over AI": 1791637281.5655718,
 "Huawei Goes Deep, Alibaba Broad, ByteDance Focused, Tencent Clever: The Fight to Own the AI Phone": 1791601259.4453542,
 "Impactful scheduling for GPU clusters": 1791561686.0913577,
 "Instinct was the buzziest AI agent around \u2014 can it survive Muse?": 1791558090.307549,
-"Introducing Agent Checkouts: one API for agents to buy anything, anywhere.": 1791507268.343647,
 "Investment research spend flatlines despite AI advancements": 1791550856.6136928,
 "KingKong Technology Open-Sources Jumper, a 22-DoF Crab Robot That Jumps Over 400 mm": 1791532859.204768,
 "Kurt Campbell on US\u2019 China focus, the Indo-Pacific Quad, risks of AI": 1791594081.6204903,
-"LegalOn halves Codex costs while maintaining development speed": 1791504081.9154615,
 "Lenovo's TianxiCode Agent and DeepSeek-V4.1-Flash Top SWE-bench-Live Lite at 71%, Verified": 1791601259.4453542,
 "LivSyn Robotics raises Series A funding for platform connecting robots with AI models": 1791626467.3472767,
 "Maniformer Opens a Crowdsourcing Platform That Pays People to Record Everyday Tasks for Robots": 1791619239.5281484,
@@ -2038,9 +2033,7 @@
 "OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets": 1791536489.5851412,
 "OpenAI's revenue scare, Delta earnings, what investors think of a Starbucks-Chipotle deal and more in Morning Squawk": 1791550856.6136928,
 "Personal AI Agents Are Great\u2014Until They Share Your Bank Statement in the Work Chat": 1791583254.1881206,
-"REVERSIBLE Launches Agentic Affiliate Platform Connecting AI Shopping to 700+ Premium Retailers": 1791507268.343647,
-"REVERSIBLE deep dive": 1791507268.343647,
-"REVERSIBLE launches REVERSIBLE Labs, an agentic affiliate platform for fashion and beauty commerce": 1791507268.343647,
+"Python 3.15.0 added to actions/python-versions": 1791680450.352857,
 "Robotera's VPP2 World Action Model Tops RoboDojo, Scores 58.5% Zero-Shot on Real ALOHA Arms": 1791601259.4453542,
 "Roundtables: A Conversation With the Creator of AI-Designed Viruses": 1791507685.126161,
 "Sakana AI\u2019s LLM Peer Review System Catches 73% of Core-Claim Errors": 1791676868.7245266,
@@ -2064,8 +2057,7 @@
 "We\u2019re putting too much faith in AI\u2019s ability to say no": 1791540078.7058928,
 "What happens if money is agentic?": 1791522042.6532815,
 "Zip US Collaborates with Google Cloud to Build AI-Native Product Factory with Gemini Enterprise": 1791514890.005964,
-"allow agents to buy from any online store using a single API": 1791507268.343647,
 "openJiuwen Open-Sources an Enterprise AgentOS for Agent Swarms, Sandboxes and Multi-Tenant Control": 1791532859.204768
 },
-"updated": 1791676868
+"updated": 1791680450
 }
