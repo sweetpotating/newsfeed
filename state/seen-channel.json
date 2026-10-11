@@ -1929,6 +1929,7 @@
 "fad4f3764c9360f0": 1790125813.4999485,
 "fb12232402883e09": 1791309698.9488075,
 "fb44dc121a37d02f": 1787906170.5962775,
+"fb612e7902f3ef6b": 1791756045.7377942,
 "fb94a1074278610b": 1789586314.786437,
 "fba83ed83d8cccab": 1788326496.9698803,
 "fbb79928f7d9c051": 1788932906.8798676,
@@ -1966,7 +1967,6 @@
 "ffe9771dd0f2e869": 1791680450.3528528
 },
 "titles": {
-"&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop": 1791579660.823547,
 "AI Insurance and Mortgage Platforms Raise $350M | Fundraises": 1791633646.957661,
 "AI Is Getting Really Good at Messing With Cybercriminals": 1791637281.5655718,
 "AI agent makers are promising privacy \u2014 will they deliver?": 1791640859.496158,
@@ -1977,16 +1977,12 @@
 "AI is changing how lawyers work \u2014 and putting the billable hour under pressure": 1791612081.98939,
 "AI may change the price of your Big Mac and groceries \u2014 what this means for shoppers": 1791698436.2494142,
 "AI\u2019s quiet safety gatekeepers are stepping into the spotlight": 1791720080.1155746,
-"Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model": 1791579660.823547,
-"An Anthropic AI model sent a false homicide tip to Philadelphia police": 1791576075.9408433,
 "Anchorage Buys Routable | Exits & Deep Reads": 1791720080.1155746,
 "Ant Group's LingGuang 2.0 Enters Limited Beta as a Personal Agent With Long-Term Memory": 1791705642.9848115,
 "Anthropic Says Its A.I. Agents Attempted to Access a Range of Government Sites": 1791597649.0479143,
 "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe": 1791662468.9776332,
 "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server": 1791712870.660179,
 "As AI mass-produces historical dramas in China, where are the boundaries?": 1791626467.3472767,
-"Aston Martin F1 Uses AI to Monitor Rival Radio": 1791576075.9408433,
-"Book Publishers Are Quietly Using More AI. Staff Are Revolting": 1791576075.9408433,
 "ByteDance merges TraeWork and TraeCode into unified TRAE platform": 1791626467.3472767,
 "Can the AI industry persuade data center opponents by getting rid of NDAs?": 1791738072.9983315,
 "CapCut, Tencent and Kuaishou Race to Build AI Tools for Interactive Film Games": 1791705642.9848115,
@@ -1997,6 +1993,7 @@
 "Cramer\u2019s week ahead: Earnings kick off as banks and chipmakers face big tests": 1791586891.0979848,
 "Deep Dive: Personal Agent Protocol and Agentic Commerce: By Sam Boboev": 1791709235.5864604,
 "DeepSeek Harness v0.2.1-alpha.2 Pre-Release Adds Reasoning Translation and Git Worktrees": 1791684066.3197079,
+"EU Tech Chief Says AI Act Can Contain Rogue Agents": 1791756045.7377973,
 "Erebor\u2019s $7bn growth problem": 1791723646.5152416,
 "Few people pay for AI, but those who do spend big": 1791630069.970231,
 "Google's Gemini 4 \"Carbon\" model is reportedly matching Anthropic's Opus 5.5 coding performance": 1791626467.3472767,
@@ -2017,7 +2014,6 @@
 "Nvidia GPUs are everywhere. Here are the ways companies are accessing them": 1791633646.957661,
 "Odyssey-3 is a new generative world model that you can try for free": 1791705642.9848115,
 "Open-source AI is Europe\u2019s only path to tech independence, says Alibaba chairman Joe Tsai": 1791612081.98939,
-"OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers": 1791579660.823547,
 "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data": 1791648077.6042845,
 "Personal AI Agents Are Great\u2014Until They Share Your Bank Statement in the Work Chat": 1791583254.1881206,
 "Python 3.15.0 added to actions/python-versions": 1791680450.352857,
@@ -2033,9 +2029,8 @@
 "The maker of non-text AI model Jev valued at $7.5B just weeks after launch": 1791583254.1881206,
 "These execs think voice AI hasn\u2019t reached its ChatGPT moment yet": 1791727286.8104775,
 "Ukraine\u2019s drones knock out AI data center belonging to \"Russia\u2019s Google\"": 1791586891.0979848,
-"Vitalize Secures $31 Million to Address Healthcare\u2019s Staffing Chaos": 1791579660.823547,
 "Westlake Robotics' WR1 Brain Has Two Humanoids Fold Trousers With Dexterous Hands": 1791684066.3197079,
 "What\u2019s in a name? What China and Trump call AI reveals how they see its future": 1791702057.5503523
 },
-"updated": 1791745274
+"updated": 1791756045
 }
