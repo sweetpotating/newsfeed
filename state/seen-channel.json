@@ -229,6 +229,7 @@
 "1ac8928caebe2a76": 1791482464.3900445,
 "1b4a002b97a1c114": 1789078340.2427356,
 "1b8f2b5ba7e67c1d": 1791475279.309852,
+"1b9dbb72200cd285": 1791702057.5503497,
 "1bcc38b6df306a39": 1790541793.230466,
 "1bf922bc7aeba3eb": 1791338431.125057,
 "1c215affa819b6c1": 1789926787.7759194,
@@ -1992,10 +1993,8 @@
 "DeepSeek Harness v0.2.1-alpha.2 Pre-Release Adds Reasoning Translation and Git Worktrees": 1791684066.3197079,
 "Doubao Work Adds an Infinite Creation Canvas With Seedream 5.0 Flash and the Doubao 2.1 Lite Model": 1791532859.204768,
 "Ecosia switches from Mistral to open-weight AI models including Qwen, GLM and Kimi": 1791536489.5851412,
-"Eight Years, Two Tech Booms, One Factory Problem: Inside Black Lake\u2019s Bet on Industrial AI": 1791525659.394204,
 "Even \u2018Law & Order\u2019 Is Terrified of AI": 1791543653.7633035,
 "Few people pay for AI, but those who do spend big": 1791630069.970231,
-"Google Research RRSI Guide: Mastering Self-Improving AI Agents": 1791529255.345111,
 "Google's Gemini 4 \"Carbon\" model is reportedly matching Anthropic's Opus 5.5 coding performance": 1791626467.3472767,
 "Hollywood takes on Zuckerberg, Musk and Altman amid widespread anxiety over AI": 1791637281.5655718,
 "Huawei Goes Deep, Alibaba Broad, ByteDance Focused, Tencent Clever: The Fight to Own the AI Phone": 1791601259.4453542,
@@ -2037,7 +2036,6 @@
 "Striding AI Unveils H1 and C1 Robots for 24/7 Convenience Stores, Targets 2027 Service Launch": 1791619239.5281484,
 "The AI agent race creates a new battleground for payments": 1791630069.970231,
 "The AI is in the computer": 1791561686.0913577,
-"The Robots Taking Warehouses to New Heights": 1791529255.345111,
 "The maker of non-text AI model Jev valued at $7.5B just weeks after launch": 1791583254.1881206,
 "This AI infrastructure stock will rise on agentic AI boom, Bank of America says": 1791558090.307549,
 "Too big to fail, but not too big to fine": 1791561686.0913577,
@@ -2048,7 +2046,8 @@
 "We can\u2019t help treating AI like it\u2019s human. But should we?": 1791565260.39568,
 "Westlake Robotics' WR1 Brain Has Two Humanoids Fold Trousers With Dexterous Hands": 1791684066.3197079,
 "We\u2019re putting too much faith in AI\u2019s ability to say no": 1791540078.7058928,
+"What\u2019s in a name? What China and Trump call AI reveals how they see its future": 1791702057.5503523,
 "openJiuwen Open-Sources an Enterprise AgentOS for Agent Swarms, Sandboxes and Multi-Tenant Control": 1791532859.204768
 },
-"updated": 1791698436
+"updated": 1791702057
 }
