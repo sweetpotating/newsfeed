@@ -23,6 +23,7 @@
 "01cb3a73e0a43ac7": 1791619239.5281453,
 "01d2d3a3ebba0945": 1791558090.3075418,
 "01d4e543c9419cea": 1790200689.8211148,
+"01fe9ceebb0dcd61": 1791676868.7245233,
 "0222924f025f9099": 1790459082.325528,
 "02596c3284e77644": 1791565249.850536,
 "025c06f4c8bed6cb": 1790716349.4147718,
@@ -1973,7 +1974,6 @@
 "Announcing a Strategic Investment from Circle Ventures": 1791507685.126161,
 "Anthropic Says Its A.I. Agents Attempted to Access a Range of Government Sites": 1791597649.0479143,
 "Anthropic claims Chinese AI firms secretly use Claude. Is it true?": 1791554448.165278,
-"Anthropic launches free AI security scans for open-source projects": 1791500451.0345237,
 "Anthropic's Claude Science creates the first complete ultraviolet map of the sky": 1791540078.7058928,
 "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows": 1791572442.8390105,
 "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe": 1791662468.9776332,
@@ -1992,10 +1992,8 @@
 "CaixaBank expands Google Cloud collaboration": 1791550856.6136928,
 "Cavero Secure launches protocol for autonomous AI governance": 1791540078.7058928,
 "Chinese optical chip stocks extend rout amid fears of potential US curbs": 1791540078.7058928,
-"Citrini Says Agentic Finance Fosters \u2018New Paradigm\u2019 for Crypto Investing": 1791500451.0345237,
 "Consumer AI agents could upend online shopping - but who really wins?": 1791644443.0351079,
 "Control plane for agentic AI: Seismora's network vision": 1791601259.4453542,
-"Cramer says Thursday's AI sell-off proves the value of this age-old investing strategy": 1791500451.0345237,
 "Cramer\u2019s week ahead: Earnings kick off as banks and chipmakers face big tests": 1791586891.0979848,
 "Crossmint acquires Cycle AI": 1791507685.126161,
 "Crossmint deep dive": 1791507268.343647,
@@ -2004,7 +2002,6 @@
 "Doubao Work Adds an Infinite Creation Canvas With Seedream 5.0 Flash and the Doubao 2.1 Lite Model": 1791532859.204768,
 "Ecosia switches from Mistral to open-weight AI models including Qwen, GLM and Kimi": 1791536489.5851412,
 "Eight Years, Two Tech Booms, One Factory Problem: Inside Black Lake\u2019s Bet on Industrial AI": 1791525659.394204,
-"Epic\u2019s AI Security Test Exposes Untraceable Patient Data Access": 1791500451.0345237,
 "Even \u2018Law & Order\u2019 Is Terrified of AI": 1791543653.7633035,
 "Few people pay for AI, but those who do spend big": 1791630069.970231,
 "From bridges to burn-and-mint: understanding Circle CCTP on Stellar and the multichain USDC economy": 1791514890.005964,
@@ -2046,6 +2043,7 @@
 "REVERSIBLE launches REVERSIBLE Labs, an agentic affiliate platform for fashion and beauty commerce": 1791507268.343647,
 "Robotera's VPP2 World Action Model Tops RoboDojo, Scores 58.5% Zero-Shot on Real ALOHA Arms": 1791601259.4453542,
 "Roundtables: A Conversation With the Creator of AI-Designed Viruses": 1791507685.126161,
+"Sakana AI\u2019s LLM Peer Review System Catches 73% of Core-Claim Errors": 1791676868.7245266,
 "Satya Nadella says we should assume all AI models are \u2018compromised\u2019": 1791673235.315645,
 "Simplexity Robotics Trains One Robot to Tend Two CNC Lathes With 600 Real Trajectories": 1791514890.005964,
 "Sophos cuts threat investigation time by 96% with OpenAI Daybreak": 1791540078.7058928,
@@ -2056,7 +2054,6 @@
 "The AI is in the computer": 1791561686.0913577,
 "The Robots Taking Warehouses to New Heights": 1791529255.345111,
 "The maker of non-text AI model Jev valued at $7.5B just weeks after launch": 1791583254.1881206,
-"The model that didn't exist, so you made it yourself": 1791500451.0345237,
 "This AI infrastructure stock will rise on agentic AI boom, Bank of America says": 1791558090.307549,
 "Too big to fail, but not too big to fine": 1791561686.0913577,
 "Trump\u2019s attempt to rename AI is looking awfully artificial": 1791558090.307549,
@@ -2070,5 +2067,5 @@
 "allow agents to buy from any online store using a single API": 1791507268.343647,
 "openJiuwen Open-Sources an Enterprise AgentOS for Agent Swarms, Sandboxes and Multi-Tenant Control": 1791532859.204768
 },
-"updated": 1791673235
+"updated": 1791676868
 }
