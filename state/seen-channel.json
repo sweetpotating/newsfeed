@@ -69,6 +69,7 @@
 "06cd666099a4231b": 1788326496.9698803,
 "077dea1e8a7adb2e": 1791475279.309852,
 "078ebef051c0525b": 1791406840.5123615,
+"07b25a407f155f0d": 1791846063.2124188,
 "07bd60be6d8f150e": 1791493260.9743483,
 "0825a4897dea2e82": 1791392504.48207,
 "0858f233dd17e8d6": 1791385272.7124245,
@@ -729,6 +730,7 @@
 "5520d57c6a998c02": 1789068393.9976008,
 "5532afee268629aa": 1791723641.1362042,
 "5540e693e9e9ada3": 1790774119.4255397,
+"5542c89362785204": 1791846058.043835,
 "55601352a9bd03c6": 1790264616.2300167,
 "556e1e4b03fe94eb": 1790808370.953167,
 "558841854585e6c7": 1790564940.1151152,
@@ -1788,6 +1790,7 @@
 "e0cf933e0fa59054": 1791109305.7267005,
 "e138de1068f8a1ca": 1791514890.005957,
 "e13c31b457bcad7b": 1790700224.7547443,
+"e15f269a1dddf39c": 1791846058.043835,
 "e174b019c140313d": 1791450054.5819125,
 "e179e1bf77eaa519": 1789735018.6507254,
 "e187471d5729e6be": 1788360860.9480863,
@@ -2031,6 +2034,7 @@
 "AI\u2019s quiet safety gatekeepers are stepping into the spotlight": 1791720080.1155746,
 "African Banks Want In | TWIF Africa": 1791824474.2077076,
 "Agentic payments: How will AI protocols transform finance?": 1791802874.528856,
+"Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents": 1791846063.212422,
 "Amazon Weighs $7 Billion Purchase of AI Startup Decart": 1791770469.0018435,
 "Amazon has over 1 million robot workers. What\u2019s next for human employees?": 1791810057.5501275,
 "Anchorage Buys Routable | Exits & Deep Reads": 1791720080.1155746,
@@ -2080,7 +2084,6 @@
 "Meta and Sierra\u2019s Poppy Lets Customers Set Limits for AI Agents": 1791828068.5899634,
 "Meta has some Wonder Full new AI models": 1791824474.2077076,
 "Microsoft President Argues AI Less Regulated Than Washing Machines": 1791813685.9780672,
-"Microsoft\u2019s Satya Nadella says AI models need an \u2018emergency brake\u2019": 1791669656.4383197,
 "Microsoft\u2019s new AI chip makes it less reliant on Nvidia\u2019s GPUs": 1791810057.5501275,
 "Nvidia Looks to Purchase Open-Weight AI Firm Reflection": 1791763281.8202617,
 "Odyssey-3 is a new generative world model that you can try for free": 1791705642.9848115,
@@ -2091,7 +2094,6 @@
 "Rogue Anthropic AI agent gave police fake tip in unsolved murder case": 1791684066.3197079,
 "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots": 1791828068.5899634,
 "Sakana AI\u2019s LLM Peer Review System Catches 73% of Core-Claim Errors": 1791676868.7245266,
-"Satya Nadella says we should assume all AI models are \u2018compromised\u2019": 1791673235.315645,
 "Scamming Becomes $422 Billion Business With AI Assistance": 1791759634.9932206,
 "Shopify (SHOP): Building the Underlying Rails for the Era of Agentic Commerce": 1791824474.2077076,
 "Silicon Valley is falling in line with Trump\u2019s attempt to rename AI": 1791745274.7381406,
@@ -2115,5 +2117,5 @@
 "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI \u2018tsunami\u2019": 1791795697.926929,
 "WorldArena 2.0 at IROS 2026: Visincept, Zhongguancun Academy and Xiaomi Win Its Three Tracks": 1791792041.2029839
 },
-"updated": 1791842426
+"updated": 1791846063
 }
