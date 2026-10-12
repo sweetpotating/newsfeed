@@ -324,6 +324,7 @@
 "26273c4daf3df0fc": 1790793952.6579113,
 "263be3ea97819082": 1791486039.597804,
 "263fa952490ea5db": 1790125813.4999485,
+"264f7b0a4a71e024": 1791820837.955341,
 "267023958f6c86e2": 1791410488.557862,
 "268bc2646ad27d94": 1790090485.1495569,
 "2691bd1051002629": 1791363647.6281357,
@@ -1115,6 +1116,7 @@
 "88424c051709563f": 1790512724.648376,
 "885cc8d5e999b0d3": 1790319659.2010918,
 "889598fb8a3a48ba": 1789297059.5738535,
+"88a27282c553beae": 1791820843.5138288,
 "88ab06725ec24638": 1789678328.615098,
 "88ad7be029ac587c": 1791615659.4532046,
 "88db72a67c9d3063": 1788932906.8798676,
@@ -1188,6 +1190,7 @@
 "917e452b38372bdd": 1791338431.125057,
 "91aafca02a8fbe7b": 1788989313.0220904,
 "91b3e98ec5c5c906": 1791309698.9488075,
+"91ba12342a6e6143": 1791820837.955341,
 "91da60a620a8bb5c": 1790991567.688881,
 "92034c41ee369ec3": 1791619233.4291482,
 "9204a1412aa73693": 1791478887.5128963,
@@ -1556,6 +1559,7 @@
 "c116b9a8e8aec337": 1791342061.7017689,
 "c1223c7202d30425": 1791550856.6136878,
 "c1570f4663620e71": 1788198439.1132581,
+"c16534e57db9a00c": 1791820843.5138288,
 "c1871b14297011d0": 1791396082.1346407,
 "c22759533565f95f": 1790529831.4548998,
 "c23447b265433979": 1791320465.553581,
@@ -1832,6 +1836,7 @@
 "eba1d42227099159": 1791385272.7124245,
 "ebbe4c4fb1b78465": 1789759414.9995234,
 "ebe60dcb82ab5341": 1788702828.7097697,
+"ec17819fd0d9ecc7": 1791820837.955341,
 "ec298bf9f2642e6c": 1788214673.9611828,
 "ec56094036c906f8": 1791316867.1318781,
 "ec8143d036e28cfd": 1788544769.3752894,
@@ -2039,6 +2044,7 @@
 "Former Plaud exec raises $26M for AI app that listens to you in the background": 1791810057.5501275,
 "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed": 1791799253.5719204,
 "Hong Kong workers fear AI-driven disruption to retirement but only 20% feel prepared: survey": 1791781277.818059,
+"How B2B Invoices Became Payment Infrastructure": 1791820843.5138328,
 "Huawei Details Xingji Positioning: Lane-Level Fixes in Tunnels, Floor Detection in Parking Garages": 1791792041.2029839,
 "Huawei Noah's Ark Lab's Memento 3 Agent Clears All 25 ARC-AGI-3 Public Games With a Frozen Model": 1791792041.2029839,
 "I Made Terrible Games With Google\u2019s AI Playground": 1791720080.1155746,
@@ -2069,6 +2075,7 @@
 "Tactile-sensor maker Matrix Innovation raises tens of millions of RMB": 1791788485.3448226,
 "Tencent Will Shut Down Its Yuanqi AI Agent Platform on November 9": 1791774055.445023,
 "These execs think voice AI hasn\u2019t reached its ChatGPT moment yet": 1791727286.8104775,
+"This AI startup says it can generate permit-ready blueprints in minutes": 1791820843.5138328,
 "TikTok CEO sees major scientific breakthroughs from AI within three years": 1791781277.818059,
 "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing": 1791799253.5719204,
 "Veryfi launches AI-powered fraud prevention tools": 1791802874.528856,
@@ -2079,5 +2086,5 @@
 "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI \u2018tsunami\u2019": 1791795697.926929,
 "WorldArena 2.0 at IROS 2026: Visincept, Zhongguancun Academy and Xiaomi Win Its Three Tracks": 1791792041.2029839
 },
-"updated": 1791817263
+"updated": 1791820843
 }
