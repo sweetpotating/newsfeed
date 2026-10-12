@@ -11,6 +11,7 @@
 "00d0d59372931171": 1791450054.5819125,
 "00e29a681a6f5e3b": 1789485866.7822447,
 "00fa347d3cc66d72": 1788561854.5857186,
+"00fff3266c0f04ec": 1791831641.4483652,
 "01054505e20cadcd": 1788344770.5042102,
 "0105f3a5fa8338fa": 1789586327.05038,
 "010ce3e5a17d579d": 1791583248.0031066,
@@ -1463,6 +1464,7 @@
 "b3ffaa721999ed41": 1791320452.1776714,
 "b408b3f64c7fb037": 1788282811.1388726,
 "b41fcd9593c52b93": 1788932922.5045826,
+"b470d062734aea8f": 1791831641.4483652,
 "b491d069937112b8": 1791421289.654492,
 "b49c1128bcb72617": 1791243392.5690556,
 "b4c43df9434baed5": 1791507685.126156,
@@ -1806,6 +1808,7 @@
 "e3e8dd2cf5f1f5c7": 1788392822.9035535,
 "e3fb5bc6a08c308c": 1789122453.3463948,
 "e43331e8aa6fe106": 1788294269.7060444,
+"e44149599c1b64d9": 1791831635.7767038,
 "e456e1e1777e5320": 1790012493.2013865,
 "e4ae4394e92ad862": 1789666275.9466765,
 "e4cd09d8b6810b9d": 1791507685.126156,
@@ -2033,6 +2036,7 @@
 "Anchorage Buys Routable | Exits & Deep Reads": 1791720080.1155746,
 "Ant Group's LingGuang 2.0 Enters Limited Beta as a Personal Agent With Long-Term Memory": 1791705642.9848115,
 "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do": 1791810057.5501275,
+"Anthropic's Claude AI submitted false murder tip to Philadelphia police": 1791831641.4483695,
 "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe": 1791662468.9776332,
 "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server": 1791712870.660179,
 "Baidu World 2026 Set for November 12 in Beijing Under the Theme 'Next Act, Intelligent Organization'": 1791792041.2029839,
@@ -2060,6 +2064,7 @@
 "Former HSBC executive launches wealth platform powered by team of AI agents": 1791795697.926929,
 "Former Plaud exec raises $26M for AI app that listens to you in the background": 1791810057.5501275,
 "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed": 1791799253.5719204,
+"Honeyjar offers AI tools to improve PR and comms at every company": 1791831641.4483695,
 "Hong Kong workers fear AI-driven disruption to retirement but only 20% feel prepared: survey": 1791781277.818059,
 "How B2B Invoices Became Payment Infrastructure": 1791820843.5138328,
 "Huawei Details Xingji Positioning: Lane-Level Fixes in Tunnels, Floor Detection in Parking Garages": 1791792041.2029839,
@@ -2106,5 +2111,5 @@
 "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI \u2018tsunami\u2019": 1791795697.926929,
 "WorldArena 2.0 at IROS 2026: Visincept, Zhongguancun Academy and Xiaomi Win Its Three Tracks": 1791792041.2029839
 },
-"updated": 1791828068
+"updated": 1791831641
 }
