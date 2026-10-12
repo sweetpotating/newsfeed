@@ -470,6 +470,7 @@
 "35fff0c66d517ad5": 1789855413.862585,
 "360213a8a81da18d": 1788978219.1050432,
 "3620663a8bf6ab40": 1789839707.4899158,
+"362a89674257fed6": 1791835270.8702211,
 "3631f5e786641f43": 1791504081.915458,
 "363bbead77de9f9f": 1789687181.0975847,
 "36c458e5a88f02f7": 1790700237.2549658,
@@ -1360,6 +1361,7 @@
 "a60246e7c8c8834a": 1791446454.418393,
 "a63351c4c1f57e22": 1789420741.0836432,
 "a651b0ec0b3d2f74": 1791320465.553581,
+"a668319bc0d46f70": 1791835270.8702211,
 "a678779cd43c2988": 1791342074.138936,
 "a67ff8ae95f6166f": 1790037047.14727,
 "a6b9d3eacf57d766": 1791540078.705887,
@@ -2037,7 +2039,6 @@
 "Ant Group's LingGuang 2.0 Enters Limited Beta as a Personal Agent With Long-Term Memory": 1791705642.9848115,
 "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do": 1791810057.5501275,
 "Anthropic's Claude AI submitted false murder tip to Philadelphia police": 1791831641.4483695,
-"Apple discloses deal to hire team and license tech from personalized podcast startup Huxe": 1791662468.9776332,
 "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server": 1791712870.660179,
 "Baidu World 2026 Set for November 12 in Beijing Under the Theme 'Next Act, Intelligent Organization'": 1791792041.2029839,
 "BeingBeyond's Being-M0.7 Uses 10,000 Hours of Human Video to Teach Humanoids to Walk and Grasp": 1791774055.445023,
@@ -2083,6 +2084,7 @@
 "Nvidia Looks to Purchase Open-Weight AI Firm Reflection": 1791763281.8202617,
 "Odyssey-3 is a new generative world model that you can try for free": 1791705642.9848115,
 "OpenAI\u2019s GPT-6 may lead to robotics breakthrough as soon as next year: Unitree founder": 1791813685.9780672,
+"OpenAI\u2019s Video Model Sora Could Get a Second Act": 1791835270.8702269,
 "Python 3.15.0 added to actions/python-versions": 1791680450.352857,
 "Rezolve Ai to Participate in the Maxim Growth Summit 2026": 1791810057.5501275,
 "Rogue Anthropic AI agent gave police fake tip in unsolved murder case": 1791684066.3197079,
@@ -2107,9 +2109,10 @@
 "What\u2019s in a name? What China and Trump call AI reveals how they see its future": 1791702057.5503523,
 "White House Says All AI Companies Must Report Security Incidents": 1791766855.6559057,
 "White House reverses course and restores UK AI Safety Institute's access to frontier models": 1791813685.9780672,
+"Why 42% of Companies Rely on Layered Defense Stacks to Combat Payments Fraud": 1791835270.8702269,
 "WindBorne wins a hefty US Air Force contract for its balloon data": 1791828068.5899634,
 "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI \u2018tsunami\u2019": 1791795697.926929,
 "WorldArena 2.0 at IROS 2026: Visincept, Zhongguancun Academy and Xiaomi Win Its Three Tracks": 1791792041.2029839
 },
-"updated": 1791831641
+"updated": 1791835270
 }
