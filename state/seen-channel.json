@@ -1331,6 +1331,7 @@
 "9ac1c7225b5732f4": 1791896442.5845528,
 "9ac6a1e600788ae2": 1791766855.6559029,
 "9add67cd656b3d63": 1789699618.2837198,
+"9aefc7389e41f34d": 1791950435.7500865,
 "9b05ef41fdc40083": 1788517428.6217308,
 "9b05f4f3416e6ffe": 1791601259.4453452,
 "9b4806d37c793cdd": 1789008129.6784012,
@@ -2146,14 +2147,12 @@
 "As personal AI agents take off, DeepLumen builds infrastructure for AI-driven commerce": 1791921683.1628804,
 "Baidu World 2026 Set for November 12 in Beijing Under the Theme 'Next Act, Intelligent Organization'": 1791792041.2029839,
 "Banks Stop Counting AI Hours and Start Counting Returns": 1791838848.9423482,
-"BeingBeyond's Being-M0.7 Uses 10,000 Hours of Human Video to Teach Humanoids to Walk and Grasp": 1791774055.445023,
 "Beyond A/B Testing: How AI Is Changing the Future of CRO": 1791838848.9423482,
 "ByteDance\u2019s Seed AI lab creates dedicated model safety and alignment department": 1791882049.8082263,
 "Carta secures fund admin licence in Luxembourg": 1791795697.926929,
 "Cerebras CEO pushes back on AI doomsday warnings": 1791932442.384097,
 "Cerebras CEO says we\u2019re nearing a future where everyone has a personal AI assistant at home": 1791936080.1900642,
 "Character.AI files for bankruptcy": 1791889246.7024856,
-"China Mobile Finishes Hohhot Computing Center Expansion, Taking Total Capacity to 20,100 PFLOPS": 1791774055.445023,
 "China's Rail Tech Plan for 2026-2030 Targets 400 km/h CR450 Service and 600 km/h Maglev Testing": 1791860456.7639496,
 "China\u2019s Iluvatar CoreX\u2019s first AI computing supernode squeezes most GPUs in 1 system": 1791882049.8082263,
 "China\u2019s factories leaping straight into agentic AI and taking it global: Black Lake CEO": 1791777646.6910074,
@@ -2193,7 +2192,6 @@
 "Industrial Next wants factory robots to switch tasks in minutes, not weeks": 1791936080.1900642,
 "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck": 1791795697.926929,
 "J&J Spotlights FDA-Approved Surgical Robot Amid $100 Billion Revenue Push": 1791914455.1258512,
-"JAKA Robotics Debuts Kargo50 Heavy-Duty Wheeled Humanoid and Zu50 Cobot at Shanghai Industry Fair": 1791774055.445023,
 "JPMorgan Card Spending Hits $539 Billion as Credit Improves": 1791907268.4539373,
 "Judge orders OpenAI to turn over hiring records in Apple trade secrets case": 1791925408.7646973,
 "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world": 1791914455.1258512,
@@ -2233,7 +2231,6 @@
 "Strict liability is gaining traction as an idea for forcing AI companies to get serious about safety": 1791921683.1628804,
 "Stripe broadens the connection between AI shopping and payments": 1791921683.1628804,
 "Tactile-sensor maker Matrix Innovation raises tens of millions of RMB": 1791788485.3448226,
-"Tencent Will Shut Down Its Yuanqi AI Agent Platform on November 9": 1791774055.445023,
 "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies": 1791889246.7024856,
 "The \u201calien\u201d economics of AI monetization": 1791907268.4539373,
 "This AI startup says it can generate permit-ready blueprints in minutes": 1791820843.5138328,
@@ -2244,6 +2241,7 @@
 "Veryfi launches AI-powered fraud prevention tools": 1791802874.528856,
 "Wells Fargo Enhances Banking Capabilities Using AI and Digital Assets": 1791925408.7646973,
 "Western mathematicians fear AI makes them dumber while China builds an entire alliance for it": 1791903651.7080514,
+"What will it take for AI-powered purchases to become the norm?": 1791950435.7500906,
 "When The Customer Isn't in the Room": 1791903651.7080514,
 "White House reverses course and restores UK AI Safety Institute's access to frontier models": 1791813685.9780672,
 "Why 42% of Companies Rely on Layered Defense Stacks to Combat Payments Fraud": 1791835270.8702269,
@@ -2256,5 +2254,5 @@
 "Xbox is officially embracing the chaos of AI-powered game ports": 1791918093.604473,
 "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB": 1791885686.412953
 },
-"updated": 1791946852
+"updated": 1791950435
 }
