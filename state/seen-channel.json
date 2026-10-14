@@ -255,6 +255,7 @@
 "1c215affa819b6c1": 1789926787.7759194,
 "1c34c71f2ff32d31": 1791932442.3840914,
 "1c3d76968024c40a": 1788613924.2504811,
+"1c6e421d4b754fe5": 1791946852.4715505,
 "1c95e9170ec0d9cf": 1791763281.8202572,
 "1ce82032c386e6ee": 1791292654.253122,
 "1cf34b8c72baeb8c": 1791370870.0140827,
@@ -1917,6 +1918,7 @@
 "e771149415607fb6": 1788267533.9978,
 "e78bbe18f99d8520": 1790716336.1381705,
 "e7a5abc1e77af7d0": 1791306079.6815777,
+"e7b66c8584e68c6c": 1791946847.4706397,
 "e7b9d12d1b3a7eb0": 1789687193.7643547,
 "e7bd2e85187f82ef": 1790074097.7825727,
 "e8269fc9a10961e9": 1788989313.0220904,
@@ -2131,8 +2133,8 @@
 "Agentic payments: How will AI protocols transform finance?": 1791802874.528856,
 "Alibaba Opens Sign-Ups for Qwen Go!, a Personal Agent That Files Flight-Delay Claims and Refunds": 1791878459.9743578,
 "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents": 1791846063.212422,
-"Amazon Weighs $7 Billion Purchase of AI Startup Decart": 1791770469.0018435,
 "Amazon has over 1 million robot workers. What\u2019s next for human employees?": 1791810057.5501275,
+"American Express Publishes Intent Intelligence Framework for Trusted Agentic Commerce": 1791946852.4715536,
 "Amex introduces a framework to prevent AI agents from making unauthorized purchases": 1791896447.9286525,
 "Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation": 1791892876.2806878,
 "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade": 1791907268.4539373,
@@ -2254,5 +2256,5 @@
 "Xbox is officially embracing the chaos of AI-powered game ports": 1791918093.604473,
 "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB": 1791885686.412953
 },
-"updated": 1791943261
+"updated": 1791946852
 }
