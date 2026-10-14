@@ -438,6 +438,7 @@
 "2f0be6ac1e6b2f09": 1791964891.1786637,
 "2f247017ab30846d": 1789687193.7643547,
 "2f269a03d10ac235": 1789687181.0975847,
+"2f3282e483141f68": 1791975646.0560396,
 "2f7176ba39ce7412": 1788326496.9698803,
 "2fbaf450dcbe0376": 1788171745.7560668,
 "2fe59e60c9a4d829": 1791417642.6386516,
@@ -480,6 +481,7 @@
 "3384b0294f8b8c94": 1791558080.7582514,
 "33a021ac7006473b": 1791446465.8827255,
 "33a622517098979c": 1791936069.812586,
+"33d9e5662959993e": 1791975653.4533274,
 "33df015f3dfd0272": 1791342074.138936,
 "33fda85c29214954": 1791478887.5128963,
 "3401ab2250809838": 1789431018.8542066,
@@ -1065,6 +1067,7 @@
 "7740e44e006e1047": 1788282824.185839,
 "77433187975033c4": 1791338431.125057,
 "775c1cdb23fc5ab1": 1791352872.5343761,
+"7766d84fe9caceb3": 1791975653.4533274,
 "77c7a3c035253a26": 1789586314.786437,
 "77cd2a6a82f1c4f3": 1788282811.1388726,
 "77e1afed14031dff": 1790401548.552749,
@@ -2243,10 +2246,12 @@
 "PHANES AI Launches SeePhys Hub, a Wearable Kit That Records Vision, Touch and Full-Body Motion": 1791964891.178669,
 "Pluto Security Secures $42 Million to Protect Corporate AI Without Blocking Innovation": 1791939655.866338,
 "Pluto Security raises $42M as AI gives enterprise security teams a new headache": 1791914455.1258512,
+"Radware launches security solution for AI agent protocol By Investing.com": 1791975653.4533305,
 "Redesigning source control at Anthropic": 1791936080.1900642,
 "Rezolve Ai to Participate in the Maxim Growth Summit 2026": 1791810057.5501275,
 "Ripple adds Stripe-owned wallets to XRP Ledger as AI payments pass 14 million": 1791957651.261074,
 "Rivian spinoff Mind Robotics hires Doug Field as president": 1791918093.604473,
+"Robot maker AGIBOT nears new funding round at RMB 50 billion valuation": 1791975653.4533305,
 "Run fast, private agents on-device with LFM2.5-24B-A2B": 1791914455.1258512,
 "SBS unveils sovereign AI platform for core banking": 1791932442.384097,
 "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots": 1791828068.5899634,
@@ -2278,5 +2283,5 @@
 "Xbox is officially embracing the chaos of AI-powered game ports": 1791918093.604473,
 "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB": 1791885686.412953
 },
-"updated": 1791972075
+"updated": 1791975653
 }
