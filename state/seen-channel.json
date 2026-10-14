@@ -798,6 +798,7 @@
 "589f2da15ff7242c": 1788932922.5045826,
 "58af5420e68bc208": 1791493260.9743483,
 "58b58cf117b521d6": 1790012493.2013865,
+"58e4191fcfe4b88c": 1791943261.6492867,
 "592ba84df956beb4": 1790105399.7742462,
 "592d3ff77c96528c": 1791910847.7944787,
 "5930f0e9d8cd31a1": 1789649882.2650232,
@@ -1618,6 +1619,7 @@
 "bf0c392237c5578c": 1791932442.3840914,
 "bf12268a3f5cbfbe": 1791712864.5625966,
 "bf13ae32c4297d44": 1791140247.136043,
+"bf1414ac3cab74cc": 1791943255.8602004,
 "bf21085de04afdb2": 1791417656.0126584,
 "bf4a027b483c5c5b": 1790290601.818761,
 "bf6f7d16dd2440de": 1789469535.8272645,
@@ -1707,6 +1709,7 @@
 "ca91a3caae732704": 1790401548.552749,
 "caa6203fc500b5ac": 1791910847.7944787,
 "caf00524ebbd5d3d": 1788198450.7102199,
+"cb51c1ed2fbd1151": 1791943261.6492867,
 "cb5dcb7292dca0ef": 1791163821.4825213,
 "cbb85c355d9cda68": 1788532974.8611455,
 "cbb957beb29459b9": 1790677166.4560523,
@@ -2173,8 +2176,10 @@
 "Forter Turns the AI Shopping Agent Surge Into a Secure Revenue Channel for Merchants": 1791896447.9286525,
 "Gemini 4 Argon for Robotics": 1791910860.0775514,
 "Goldman Sachs CEO Flags Financing Risk in AI Buildout": 1791928891.2085707,
+"Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams": 1791943261.6492903,
 "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed": 1791799253.5719204,
 "Google makes it easier to launch your vibe-coded apps": 1791910860.0775514,
+"GreenCore Solutions Corp. (GSC) Releases gtinfetch.ai -- the GTIN Resolver for AI Agents": 1791943261.6492903,
 "Here's where Jim Cramer stands on this newly public AI infrastructure stock": 1791932442.384097,
 "Higgsfield takes AI video from 1 minute to over 10": 1791928891.2085707,
 "Home-robot startup Ola Dimensions raises hundreds of millions of RMB in fourth funding round": 1791878459.9743578,
@@ -2249,5 +2254,5 @@
 "Xbox is officially embracing the chaos of AI-powered game ports": 1791918093.604473,
 "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB": 1791885686.412953
 },
-"updated": 1791939655
+"updated": 1791943261
 }
