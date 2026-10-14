@@ -1017,6 +1017,7 @@
 "73e5ca25073a8c8c": 1791381637.1326127,
 "73fafdf6f45f6a41": 1790200689.8211148,
 "74059dc18ca8db16": 1791406853.392855,
+"7455d181ef42b0be": 1791939655.8663342,
 "7477fb3d23492774": 1791594081.6204872,
 "747877bc53913c53": 1791615659.4532046,
 "749a4b04d0a1e740": 1791334880.6941729,
@@ -1805,6 +1806,7 @@
 "d8674998c41776b4": 1791536489.5851326,
 "d86c6da463d50815": 1789586327.05038,
 "d8758736e5ec1675": 1791403264.712308,
+"d8e926882e121fe8": 1791939651.195819,
 "d8f4cf2c2837ddb6": 1789339652.4825861,
 "d8fcbe95f7c37ca0": 1791295267.8579457,
 "d9159c4facd43a06": 1789431018.8542066,
@@ -1920,7 +1922,6 @@
 "e8b6cee082ae893b": 1788482331.9264214,
 "e8f9b1503cca2ddb": 1791403280.249783,
 "e93432f952d68c8f": 1791910847.7944787,
-"e99b0d4d4edfa874": 1788051439.687105,
 "e9c1ddde4585931b": 1790200677.5669413,
 "ea1a454d257ab6b2": 1788226399.21223,
 "ea5ee2183acce040": 1788438573.313593,
@@ -2200,13 +2201,13 @@
 "Michael Dell says AI needs safeguards and controls, and government has a role to play": 1791925408.7646973,
 "Microsoft President Argues AI Less Regulated Than Washing Machines": 1791813685.9780672,
 "Microsoft\u2019s new AI chip makes it less reliant on Nvidia\u2019s GPUs": 1791810057.5501275,
-"Nvidia Looks to Purchase Open-Weight AI Firm Reflection": 1791763281.8202617,
 "Open models have real benefits. Do they outweigh the risks?": 1791889246.7024856,
 "Open-Source WeChatBridge Arrives on Windows in Beta, Sending WeChat Chats to Codex and Other Agents": 1791878459.9743578,
 "OpenAI and Anthropic Tell British Lawmakers: Regulate Us": 1791921683.1628804,
 "OpenAI employee arrested for allegedly planting a bug in a conference room": 1791925408.7646973,
 "OpenAI\u2019s GPT-6 may lead to robotics breakthrough as soon as next year: Unitree founder": 1791813685.9780672,
 "OpenAI\u2019s Video Model Sora Could Get a Second Act": 1791835270.8702269,
+"Pluto Security Secures $42 Million to Protect Corporate AI Without Blocking Innovation": 1791939655.866338,
 "Pluto Security raises $42M as AI gives enterprise security teams a new headache": 1791914455.1258512,
 "Redesigning source control at Anthropic": 1791936080.1900642,
 "Rezolve Ai to Participate in the Maxim Growth Summit 2026": 1791810057.5501275,
@@ -2237,7 +2238,6 @@
 "Wells Fargo Enhances Banking Capabilities Using AI and Digital Assets": 1791925408.7646973,
 "Western mathematicians fear AI makes them dumber while China builds an entire alliance for it": 1791903651.7080514,
 "When The Customer Isn't in the Room": 1791903651.7080514,
-"White House Says All AI Companies Must Report Security Incidents": 1791766855.6559057,
 "White House reverses course and restores UK AI Safety Institute's access to frontier models": 1791813685.9780672,
 "Why 42% of Companies Rely on Layered Defense Stacks to Combat Payments Fraud": 1791835270.8702269,
 "Why Samsung, SK Hynix and CXMT shares are under pressure despite strong AI demand": 1791889246.7024856,
@@ -2249,5 +2249,5 @@
 "Xbox is officially embracing the chaos of AI-powered game ports": 1791918093.604473,
 "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB": 1791885686.412953
 },
-"updated": 1791936080
+"updated": 1791939655
 }
