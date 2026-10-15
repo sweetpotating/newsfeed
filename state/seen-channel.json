@@ -1824,6 +1824,7 @@
 "cf7974c15f030774": 1791367278.9518652,
 "cf8193754581c0da": 1791561686.0913327,
 "cf822e6cd0911848": 1789026474.0087512,
+"cfc1a60b2b5fdb7b": 1792029639.5986586,
 "cfd7c4d113f5adac": 1790247466.9676065,
 "cfe8e900401f31bb": 1790653645.6739786,
 "cffd954711218407": 1791309698.9488075,
@@ -1867,6 +1868,7 @@
 "d3a5f10a5a1376f3": 1789649882.2650232,
 "d3b315435a7f76e7": 1789769438.354502,
 "d3f18616dea2cc4d": 1790264604.3980355,
+"d3f2c5f43f6c7a84": 1792029639.5986586,
 "d416c1f86f9fa3c0": 1790677166.4560523,
 "d4c404f87b91d811": 1790200689.8211148,
 "d4cc66439c73fbc1": 1789214070.2179961,
@@ -1886,6 +1888,7 @@
 "d7999882a5c0574f": 1791882049.8082201,
 "d7aef8ec4a365423": 1788870738.803239,
 "d7efeb1ae63bfc3e": 1790228815.3582487,
+"d80b176a094395dc": 1792029639.5986586,
 "d84df9f9f26a6641": 1790279046.0895333,
 "d8674998c41776b4": 1791536489.5851326,
 "d86c6da463d50815": 1789586327.05038,
@@ -2314,6 +2317,7 @@
 "Michael Dell says AI needs safeguards and controls, and government has a role to play": 1791925408.7646973,
 "Micro-payments power autonomous AI software as onchain agentic transactions soar": 1791997304.9949026,
 "Microsoft has a new machine learning tool to improve weather forecasts": 1792022550.6234977,
+"Modal Triples Valuation to $15 Billion as AI Infrastructure Demand Explodes": 1792029639.5986612,
 "ModelBest Open-Sources MiniCPM-V 4.7, Its First MoE Multimodal Model, Running in 3GB on a Phone": 1791954088.6088815,
 "Movere launches AI-native payments platform": 1791968490.424505,
 "My AI doppelganger tells me what to eat": 1792015236.186493,
@@ -2339,11 +2343,13 @@
 "Redesigning source control at Anthropic": 1791936080.1900642,
 "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it": 1792015236.186493,
 "Researchers use AI to design proteins that cut up other proteins": 1792000888.3017664,
+"Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis": 1792029639.5986612,
 "Ripple adds Stripe-owned wallets to XRP Ledger as AI payments pass 14 million": 1791957651.261074,
 "Rivian spinoff Mind Robotics hires Doug Field as president": 1791918093.604473,
 "Robot maker AGIBOT nears new funding round at RMB 50 billion valuation": 1791975653.4533305,
 "Run fast, private agents on-device with LFM2.5-24B-A2B": 1791914455.1258512,
 "SBS unveils sovereign AI platform for core banking": 1791932442.384097,
+"SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount": 1792029639.5986612,
 "Scimplify raises $25M to challenge China\u2019s grip on critical materials with AI": 1791979256.9859445,
 "SentinelOne cuts malware analysis from weeks to hours": 1792004458.7587621,
 "Shopify opens its catalog up to more AI agents": 1791921683.1628804,
@@ -2381,5 +2387,5 @@
 "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB": 1791885686.412953,
 "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace": 1792026047.7916923
 },
-"updated": 1792026047
+"updated": 1792029639
 }
