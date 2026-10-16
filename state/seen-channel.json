@@ -525,6 +525,7 @@
 "3384b0294f8b8c94": 1791558080.7582514,
 "33a021ac7006473b": 1791446465.8827255,
 "33a622517098979c": 1791936069.812586,
+"33b4f3e25ed7932a": 1792119649.9291992,
 "33d9e5662959993e": 1791975653.4533274,
 "33df015f3dfd0272": 1791342074.138936,
 "33fda85c29214954": 1791478887.5128963,
@@ -1400,6 +1401,7 @@
 "92b5ff124292457f": 1791478900.9791346,
 "92d30124b7897640": 1789718002.4844427,
 "9304db4f19bb1881": 1791572442.8390057,
+"930f779251d4af4c": 1792119645.5257,
 "934cdf3e9e3901a3": 1789008115.471252,
 "9361707b92b96c6a": 1791260740.4586399,
 "937b27aac4034301": 1791799253.5719151,
@@ -2400,14 +2402,12 @@
 "GSS and Storm Reply collaborate on sanctions screening": 1791968490.424505,
 "Glance and PayPal Bring AI-Powered Shopping and Checkout to Tens of Millions of U.S. Consumers": 1792098077.4700484,
 "GoDaddy, Infoblox, Google and Cloudflare Demonstrate Secure AI Agent Transactions Across Platforms": 1792044057.940498,
-"Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams": 1791943261.6492903,
 "Google is making inline links more prominent in AI responses": 1792087279.590144,
 "Google launches its &#8216;universal&#8217; online shopping cart ahead of the holidays": 1792069283.8435595,
 "Google says self-improving AI isn't anywhere close": 1792008052.8773766,
 "Google wants Gemini 4 Argon to be the only AI model robots need": 1792083672.8793292,
 "Governments Draw the Line on Where AI Glasses Can Go": 1792000888.3017664,
 "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint": 1792098077.4700484,
-"GreenCore Solutions Corp. (GSC) Releases gtinfetch.ai -- the GTIN Resolver for AI Agents": 1791943261.6492903,
 "Gudea leverages AI to help organizations prevent social media crises before they erupt": 1792022550.6234977,
 "HSBC to double Hong Kong AI team to 300, outpacing Singapore plan": 1792062050.5804257,
 "Halo&#8217;s co-creator wrote a novel about AI taking over the world": 1791990117.0549455,
@@ -2420,6 +2420,7 @@
 "How Windows is being optimized for Nvidia\u2019s RTX Spark laptops": 1792076449.1833913,
 "Inovance Debuts InoBot W1, a Liquid-Cooled Wheeled Humanoid Built for Factory Shifts": 1792051261.9948025,
 "Inspire Robots Launches RH37D1, a Direct-Drive Three-Finger Hand That Lifts Up to 43kg": 1792051261.9948025,
+"Introducing Agent Vault: A Single, Portable Solution to Prevent Your Agents From Going Rogue with Credit Cards and Login Credentials, Built by Self Labs": 1792119649.9292016,
 "Is Shopify (SHOP) Becoming A Real Gateway For AI Driven Commerce?": 1792098077.4700484,
 "Jamie Dimon Slams the Door on Rogue AI Agents": 1792011688.2757642,
 "Jim Cramer says this week's AI sell-off offers a crucial lesson for investors": 1792105288.7451427,
@@ -2516,5 +2517,5 @@
 "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace": 1792026047.7916923,
 "openKylin Outlines Its Vision for Reimagining Linux in the AI Era at Open Source Summit Europe 2026": 1792112455.8867593
 },
-"updated": 1792116059
+"updated": 1792119649
 }
