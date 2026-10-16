@@ -790,6 +790,7 @@
 "50a8ea42f3fbbf1e": 1789779212.1166317,
 "50c0c58a8c9e994d": 1788965931.3250594,
 "50c430ec78244bc6": 1789537626.4272797,
+"50c5ae59463cb82e": 1792123279.693024,
 "50cacbd8be0156b7": 1792108880.1007142,
 "50e05f9b472e33e2": 1788294269.7060444,
 "50e21e9873b53022": 1788870738.803239,
@@ -1719,6 +1720,7 @@
 "b770c5dd23148ac4": 1791979256.9859388,
 "b796125fa2df5b84": 1791817263.976828,
 "b79c51d377764395": 1788310089.3160372,
+"b7bc5c37c52a97b2": 1792123279.693024,
 "b7bfe996acba56a1": 1791316867.1318781,
 "b7fe7fadd017fd46": 1788932922.5045826,
 "b80567384128eee2": 1792047675.0791833,
@@ -2020,6 +2022,7 @@
 "dc43978db286f51d": 1789571847.2776883,
 "dc86fee035123e37": 1788464090.0587308,
 "dca23352aa16c464": 1790842241.6856568,
+"dd551b2149ddff66": 1792123273.7328389,
 "dd562b2c6895ce87": 1789699618.2837198,
 "dd8d2d3c90d3a108": 1790264616.2300167,
 "ddac5291b8bf3db3": 1791243381.034786,
@@ -2355,7 +2358,6 @@
 "Alibaba launches Qwen N1 AI glasses with swappable batteries, starting at RMB 2,899": 1791964891.178669,
 "Amazon and Walmart Are Turning Retail Efficiency Into Someone Else\u2019s Expense": 1792090858.6557326,
 "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps": 1792094488.5859842,
-"American Express Publishes Intent Intelligence Framework for Trusted Agentic Commerce": 1791946852.4715536,
 "Amp puts AI agents to work beyond code with OpenAI models": 1791997304.9949026,
 "Android is using AI to suss out scammers in Google Messages": 1791993669.8961973,
 "Ant Group Open-Sources Ling-3.1-flash Weights Under MIT: 560B Total, 25B Active, 1M Context": 1792040479.1550605,
@@ -2427,6 +2429,7 @@
 "Kohl\u2019s Takes Its AI Gift Finder Into the Holiday Quarter": 1792022550.6234977,
 "Lack of financial confidence driving consumers to AI assistants": 1792069283.8435595,
 "Law Firm Freshfields Weighs Billion-Dollar Spinoff for AI Unit": 1792015236.186493,
+"Leju Robotics Puts 15 Humanoids on an Auto Parts Loading Line, Reporting About 98% Success": 1792123279.693029,
 "MagicLab's EchoPolicy-0 Tops AI2's MolmoSpaces Combined Board With a 75.4% Manipulation Success Rate": 1791954088.6088815,
 "Mastercard Research: 79% of Young People Have Used AI to Research Products": 1791954088.6088815,
 "Mathematicians Use Shanghai AI Lab's Intern-S2 to Prove 3D Ghys Conjecture, Verified in Lean": 1792051261.9948025,
@@ -2456,6 +2459,7 @@
 "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work": 1791997304.9949026,
 "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say": 1791979256.9859445,
 "OpenAI\u2019s Sachin Katti to leave infrastructure role, stay on as advisor": 1792000888.3017664,
+"OpenCode Makes DeepSeek V4.1 Flash Free to Use, With a 200K Context Window": 1792123279.693029,
 "PEX brings AI-powered finance workflows to ChatGPT and Claude": 1792087279.590144,
 "PHANES AI Launches SeePhys Hub, a Wearable Kit That Records Vision, Touch and Full-Body Motion": 1791964891.178669,
 "PNC Combats AI-Enabled Deposit Flight With Better Tech and Service": 1792090858.6557326,
@@ -2506,7 +2510,6 @@
 "Wall Street Is Ready to Package Agentic Commerce as an Asset Class. The Rails Are Not in the Filing.": 1792008052.8773766,
 "Wall Street's latest AI spook, Netflix layoffs, 'good debt' and more in Morning Squawk": 1792069283.8435595,
 "We Got Hot and Heavy With Meta\u2019s Muse\u2014and Baffled by Apple\u2019s HomeView": 1792101693.5453668,
-"What will it take for AI-powered purchases to become the norm?": 1791950435.7500906,
 "When it came to Cal AI\u2019s viral success, a small army of influencers paid off": 1792108880.1007214,
 "Why some banks are exploring 'bring your own AI agent'": 1792101693.5453668,
 "Women get hired. Men get promoted | TWIF Latin America": 1791986454.1858602,
@@ -2517,5 +2520,5 @@
 "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace": 1792026047.7916923,
 "openKylin Outlines Its Vision for Reimagining Linux in the AI Era at Open Source Summit Europe 2026": 1792112455.8867593
 },
-"updated": 1792119649
+"updated": 1792123279
 }
