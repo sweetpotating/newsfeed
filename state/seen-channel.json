@@ -657,6 +657,7 @@
 "42ef6381ee18d851": 1791439252.9826512,
 "4301b32d747d0678": 1791907268.453932,
 "432f9ba29a4518e0": 1791504081.915458,
+"435658c669931219": 1792321251.334857,
 "4380372536e30120": 1791428446.2973087,
 "4385374c82447794": 1791471678.200873,
 "43924b935ee06614": 1789026474.0087512,
@@ -1787,6 +1788,7 @@
 "be2314c62992cc2b": 1790187012.980589,
 "be40aa4a10f08471": 1791493272.502988,
 "be4a3c5426264d71": 1788482318.9182134,
+"be6ef1730da7e04a": 1792321251.334857,
 "beaede86e124ef87": 1789759414.9995234,
 "bebb9810cb07553e": 1791439264.5254161,
 "bec608de3e93fc80": 1792065692.9013379,
@@ -2309,6 +2311,7 @@
 "fb94a1074278610b": 1789586314.786437,
 "fbb79928f7d9c051": 1788932906.8798676,
 "fbc2b39fbb5e3c85": 1791727286.8104722,
+"fbc8841d3844be87": 1792321251.334857,
 "fc542ad500afcac5": 1789795522.100574,
 "fc7504bd728ab07b": 1792076449.1833832,
 "fc7753f2ea158ad9": 1788517428.6217308,
@@ -2375,7 +2378,6 @@
 "DeepSeek Adds Standalone Search and Fetch APIs for Agents, Priced at 5 Yuan per 1,000 Calls": 1792206045.5835502,
 "DeepSeek Harness v0.2.1-rc1 Arrives as an Unannounced V4.1 Flash Snapshot Briefly Surfaces": 1792224061.7970626,
 "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs": 1792234872.3589792,
-"Deutsche Bank rolls out on-premise AI system": 1792148437.6079218,
 "Elorian\u2019s first AI model wants to reason with images, not just about them": 1792170054.7357824,
 "FTC Subpoenas AI Companies Over Security Breaches Amid Shifting White House Policy": 1792173685.8203218,
 "Federal Judge Denies Gemini and CFTC Bid to Erase 2025 Settlement": 1792184457.5026116,
@@ -2398,6 +2400,7 @@
 "Meta removes language that raised scraping and AI training concerns": 1792274454.6509638,
 "Meta\u2019s new terms may allow it to train AI on news sites for free": 1792162865.728055,
 "New ways for fintechs to move money and expand globally": 1792173685.8203218,
+"OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty": 1792321251.3348634,
 "PayPal Just Put Agent Checkout on 60 Million Living Room Screens. The Merchant Liability Wall Did Not Get the Memo.": 1792267254.0775216,
 "Peng Cheng Cloud Brain III Puts 10,000P of Domestic AI Computing Into Trial Operation": 1792288848.4991488,
 "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents": 1792202465.74962,
@@ -2417,9 +2420,11 @@
 "Taco Bell Says AI Helps Workers Live M\u00e1s, Quit Less": 1792184457.5026116,
 "Tencent Confirms Third-Party AI Agents Targeted Alibaba Systems": 1792166467.0842657,
 "Tencent Hunyuan Open-Sources Hy Memory 2.0, Adding Working and Code Memory for AI Agents": 1792206045.5835502,
+"The Financial Sector Is Shifting from Blocking AI Agents to Building an Authorization Layer": 1792321251.3348634,
 "The first vibe-coded gun is here": 1792155700.8991675,
 "Trump Task Force Orders Report on AI Dangers": 1792184457.5026116,
 "Tsinghua, ModelBest and OpenBMB Release PilotDeck 2.0, an Open-Source Agent Operating System": 1792288848.4991488,
+"Two German courts now hold Google liable for what its AI overviews say": 1792321251.3348634,
 "UBTECH Details Thinker-WM, a World Model That Unifies Video, Depth and Robot Actions": 1792206045.5835502,
 "Unitree Releases UniUni Swarm Control Software, Free for Its Users, Starting With H2 and G1": 1792206045.5835502,
 "Websites are closing their doors to AI agents": 1792242056.7759595,
@@ -2430,5 +2435,5 @@
 "\u2018They Want a 2022 Version of Ramp\u2019: Why Banks Hesitate on Agentic Spend": 1792249271.012333,
 "\u201cthegentlemanpervert\u201d producing AI CSAM is a NJ prosecutor, say cops": 1792184457.5026116
 },
-"updated": 1792317666
+"updated": 1792321251
 }
