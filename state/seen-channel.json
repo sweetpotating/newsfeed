@@ -799,6 +799,7 @@
 "525609c02107b76d": 1791012467.5062776,
 "5271899e15977ec5": 1792047675.0791833,
 "52752974efc060af": 1789571847.2776883,
+"528af3186ff40ace": 1792368075.343114,
 "52aa9e0ccffc51e5": 1791925408.764691,
 "52d89c537abdfab5": 1788702828.7097697,
 "530db518a73a5717": 1790012493.2013865,
@@ -1972,6 +1973,7 @@
 "d4c404f87b91d811": 1790200689.8211148,
 "d4cc66439c73fbc1": 1789214070.2179961,
 "d4f9299dcd3b668a": 1791554448.1652741,
+"d5152be762f4fa22": 1792368075.343114,
 "d53e372330872d94": 1792231231.9933023,
 "d59045cfbbd51319": 1789138087.1567948,
 "d599f0a282be129f": 1791012479.8717043,
@@ -2359,6 +2361,7 @@
 "Anthropic says its workforce has become less junior and is spending more time in meetings": 1792270882.2645245,
 "Anthropic says it\u2019s committing 5% of its shares to a \u2018public benefit fund\u2019": 1792357262.6100593,
 "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes": 1792249271.012333,
+"CXMT forecasts up to US$19.8 billion in 3 quarters\u2019 net income; pledges share buy-back": 1792368075.3431191,
 "China Meteorological Administration Puts Fengqing AI Ensemble Forecast System Into Operation": 1792227665.4398818,
 "Circle CEO Sees AI Agents as Main Users of New Arc Blockchain": 1792270882.2645245,
 "Deep Dive: Ant International\u2019s Agentic Mobile Protocol: By Sam Boboev": 1792335668.58905,
@@ -2369,7 +2372,6 @@
 "Four Gemini 4 Argon agents beat Minecraft without any human help": 1792328480.7496276,
 "Glenfly Samples GF800, Its First Arm SoC Pairing an In-House GPU With a Dedicated NPU": 1792317666.9762378,
 "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework": 1792317666.9762378,
-"How Ita\u00fa is building generative AI for its entire customer base": 1792195263.7584496,
 "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models": 1792306848.421528,
 "Know Your Agent: How the Payments Industry Is Building the Trust Layer OAuth and SAML Couldn\u2019t": 1792332056.5385215,
 "Mastercard\u2019s New Agent Detection Score Asks a Question No Card Network Has Asked Before": 1792324853.8490307,
@@ -2401,9 +2403,10 @@
 "Unitree Releases UniUni Swarm Control Software, Free for Its Users, Starting With H2 and G1": 1792206045.5835502,
 "Websites are closing their doors to AI agents": 1792242056.7759595,
 "Why AI Isn\u2019t Ready to Tackle Our Convoluted Genomes": 1792231237.8790329,
+"World takes on AI-driven impersonations with new suite for banking and finance": 1792368075.3431191,
 "Zhejiang University's EMem-Bench Tests Whether Embodied Agents Remember What They Saw and Tried": 1792317666.9762378,
 "\u2018They Want a 2022 Version of Ramp\u2019: Why Banks Hesitate on Agentic Spend": 1792249271.012333,
 "\ud83e\udde0 JPMorgan and Citi block AI agents": 1792328480.7496276
 },
-"updated": 1792364448
+"updated": 1792368075
 }
