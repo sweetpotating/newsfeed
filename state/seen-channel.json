@@ -1944,6 +1944,7 @@
 "cc70d8898b47692c": 1791163821.4825213,
 "cc77912f90a27a64": 1792144866.9756327,
 "cc7925ecfcb2e4bd": 1791468090.4225378,
+"ccaab34e80938919": 1792447270.6119242,
 "ccc0613ff3f4656d": 1791892876.280682,
 "ccd361676f9f85df": 1790981176.946837,
 "ccdb5e08d9bb8d50": 1791558090.3075418,
@@ -2103,6 +2104,7 @@
 "df3b308b4fad629b": 1791460881.9454324,
 "df55322f62b02c5b": 1789855413.862585,
 "dfd1117c4b1ca61c": 1792432859.1090102,
+"dfdb1bd835808c9b": 1792447270.6119242,
 "dff52c66a1b3a159": 1792393281.4992802,
 "e0038dd80cecd795": 1791471678.200873,
 "e02ae19def6b6f7c": 1788780125.2372887,
@@ -2424,6 +2426,7 @@
 "Character.ai Bankruptcy Exposes the High Cost of AI Companionship": 1792443685.962818,
 "Circle and Proof Help Businesses Trust AI Agent Transactions": 1792443685.962818,
 "Congress\u2019 AI Expertise Gap Hampers Push for Meaningful Regulation": 1792425690.2334707,
+"CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem": 1792447270.6119292,
 "Coursera Brings Project Helix to Bengaluru to Focus on Building Karnataka\u2019s AI-Ready Workforce": 1792389655.98114,
 "DHS Bans DeepSeek Across Federal Government Networks": 1792432859.1090162,
 "Deep Dive: Ant International\u2019s Agentic Mobile Protocol: By Sam Boboev": 1792335668.58905,
@@ -2461,7 +2464,6 @@
 "Meet Voxel51 3.0: A Unified Multimodal Data Platform for Physical AI": 1792303235.000547,
 "Meituan leads Series D funding for collaborative robot maker FAIRINO": 1792404084.3540041,
 "Mesh Teams With Visa to Enable Stablecoin, Crypto Spending at Over 175 Million Merchants": 1792422077.0232315,
-"Meta removes language that raised scraping and AI training concerns": 1792274454.6509638,
 "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input": 1792418436.9868517,
 "MiniMax M3.1 Flash shows China's AI price race has no floor in sight": 1792436489.2620099,
 "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google\u2019s TimesFM-3": 1792378876.3149064,
@@ -2502,6 +2504,7 @@
 "Two German courts now hold Google liable for what its AI overviews say": 1792321251.3348634,
 "Utho Cloud Opens B300 GPU Bookings Ahead of February 2027 Rollout": 1792396863.778493,
 "Volcano Engine Offers Up to \u00a5200,000 for Seedance AI Dramas Ranked on Hongguo": 1792396863.778493,
+"WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot": 1792447270.6119292,
 "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why.": 1792411266.109355,
 "World takes on AI-driven impersonations with new suite for banking and finance": 1792368075.3431191,
 "X-Humanoid Sets Out Its Roadmap for a Unified Embodied Model and Self-Evolving Robot Policies": 1792375240.0126498,
@@ -2510,5 +2513,5 @@
 "\u201cWe were looking at it wrong\u201d: The explosive claim that\u2019s upended the AI world": 1792432859.1090162,
 "\ud83e\udde0 JPMorgan and Citi block AI agents": 1792328480.7496276
 },
-"updated": 1792443685
+"updated": 1792447270
 }
