@@ -116,6 +116,7 @@
 "0c86b618a56f0cdd": 1789420754.2410161,
 "0ca1450969b5beb5": 1791399658.329792,
 "0cb6ea887173365a": 1791612081.9893866,
+"0cd67b69c5f73fbe": 1792386074.2598205,
 "0cdab0122cbb0881": 1791414082.9642115,
 "0d112d38b58945d4": 1789330194.0889654,
 "0d128376e165fc00": 1790434217.4226847,
@@ -2042,6 +2043,7 @@
 "de0bc0984c8d936e": 1790774119.4255397,
 "de1a317d179f905d": 1791243381.034786,
 "de5c7fc2fb1e00cc": 1791410475.5652425,
+"de62b4a73443457b": 1792386074.2598205,
 "de6fa5e3267b7a15": 1791640855.9914496,
 "de7583d0d2e5b85c": 1790373371.6462529,
 "ded8d56acd4da2c8": 1790900803.4850624,
@@ -2383,6 +2385,7 @@
 "Meta removes language that raised scraping and AI training concerns": 1792274454.6509638,
 "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google\u2019s TimesFM-3": 1792378876.3149064,
 "Musk Says White House Duties Distracted Him From AI": 1792364448.316338,
+"NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration": 1792386074.2598255,
 "Nscale Investors Seek Lower IPO Target Amid AI-Related Concerns": 1792378876.3149064,
 "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty": 1792321251.3348634,
 "PayPal Just Put Agent Checkout on 60 Million Living Room Screens. The Merchant Liability Wall Did Not Get the Memo.": 1792267254.0775216,
@@ -2395,6 +2398,7 @@
 "Shanghai AI Laboratory Releases Atria Dawn Full Version With a 512K Context Window": 1792224061.7970626,
 "Some companies give AI to everyone. This CEO is doing the opposite": 1792216855.1413007,
 "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context": 1792227665.4398818,
+"Tech Mahindra Lifted Margins for 12 Quarters. AI Is the Next Test": 1792386074.2598255,
 "The AI promise was automation. The reality? Managing digital workers": 1792332056.5385215,
 "The Financial Sector Is Shifting from Blocking AI Agents to Building an Authorization Layer": 1792321251.3348634,
 "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web": 1792350081.2162118,
@@ -2408,5 +2412,5 @@
 "\u2018They Want a 2022 Version of Ramp\u2019: Why Banks Hesitate on Agentic Spend": 1792249271.012333,
 "\ud83e\udde0 JPMorgan and Citi block AI agents": 1792328480.7496276
 },
-"updated": 1792378876
+"updated": 1792386074
 }
