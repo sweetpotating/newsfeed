@@ -2261,6 +2261,7 @@
 "f076fcb44c55e6e3": 1791910847.7944787,
 "f07e285ed8ef415a": 1792177269.7547786,
 "f0946bee03765638": 1791032271.7625458,
+"f0ae13686d109574": 1792479648.6395283,
 "f0b470f88736cd88": 1790808384.201728,
 "f0b5f39c1b8b072f": 1791453659.8261607,
 "f0e3727a13bd9d1d": 1791489672.5341222,
@@ -2455,7 +2456,6 @@
 "Google says it can build data centers the right way. Some experts and residents are skeptical": 1792414855.0628679,
 "Hackers Use AI Agents to Do Hacking for Them": 1792422077.0232315,
 "Hackers hit AI coding tool OpenCode, running up charges on users\u2019 AI accounts": 1792440071.211382,
-"How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models": 1792306848.421528,
 "How to secure stablecoins and agentic payments with trust": 1792436489.2620099,
 "Huntington Bank partners Google Cloud for AI-powered small business operating system": 1792414855.0628679,
 "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second": 1792476083.4504435,
@@ -2517,6 +2517,7 @@
 "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web": 1792350081.2162118,
 "Tolan snags $30M for its AI companion that helps users navigate life": 1792436489.2620099,
 "Two German courts now hold Google liable for what its AI overviews say": 1792321251.3348634,
+"U.S. bans DeepSeek from government agency systems amid AI rift with China": 1792479648.639532,
 "Utho Cloud Opens B300 GPU Bookings Ahead of February 2027 Rollout": 1792396863.778493,
 "Volcano Engine Offers Up to \u00a5200,000 for Seedance AI Dramas Ranked on Hongguo": 1792396863.778493,
 "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot": 1792447270.6119292,
@@ -2530,5 +2531,5 @@
 "\u201cWe were looking at it wrong\u201d: The explosive claim that\u2019s upended the AI world": 1792432859.1090162,
 "\ud83e\udde0 JPMorgan and Citi block AI agents": 1792328480.7496276
 },
-"updated": 1792476083
+"updated": 1792479648
 }
