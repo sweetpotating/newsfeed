@@ -2389,6 +2389,7 @@
 "ea6aa43f2a2911a3": 1792436489.2620025,
 "ea81a8feece8a4a7": 1791554442.314329,
 "eab3d05985cbad94": 1790264616.2300167,
+"eac86c7944cf901e": 1792638069.0298421,
 "ead05d8f228a3a86": 1791363661.6811223,
 "eb446113cf5f5fb6": 1791882037.6045241,
 "eb5b9375063491dd": 1790382062.1950214,
@@ -2707,6 +2708,7 @@
 "Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait": 1792594865.6457496,
 "India Needs to Build the AI 'Brain' for Robotics, Not Just Import Hardware": 1792580480.1062639,
 "Investors are questioning neoclouds' business model but Nebius says AI computing prices are rising": 1792587658.039251,
+"Invoices and Bills, Not Carts: The First Real Agent Payments of the Season": 1792638069.0298464,
 "Judge dismisses Sam Altman\u2019s sister\u2019s sexual abuse lawsuit": 1792540889.747906,
 "LHV Bank uses AI agents for customer email support": 1792501254.7777638,
 "Lanxin Computing Unveils RISC-V Supernode Built on Its 48-Core LX500 Inference Chip": 1792634477.5562675,
@@ -2773,10 +2775,8 @@
 "Stablecoins Need to Get Behind Cards, Not Replace Them": 1792573279.0653179,
 "Starling build agentic fincrime investigator that takes 17 seconds": 1792540889.747906,
 "Stars Micro System Unveils C82-4G PCIe 6.0 Switch, an 800G AI NIC and a Multi-Mode RAID Chip": 1792483275.8307116,
-"StartLux-Decision v1.1 Tops Decision Index 0.3.2 With Open Models That Think Only When Unsure": 1792465253.1896935,
 "Survey: Agentic Commerce Has a Payment Trust Problem": 1792504849.4642212,
 "Tencent opens Yuanbao Search to developers building AI models and agents": 1792569651.2179275,
-"Tencent's Marvis AI Butler Lands in the Kylin Software Store With Support for Domestic CPUs": 1792465253.1896935,
 "Terminal X matches senior investor judgment 88.6% with GPT-6.1": 1792548069.9155657,
 "The $15 billion ad-powered AI startup your doctor may already be using": 1792598480.8171628,
 "The $20,000 Voxel bot will help you find misplaced things around your home": 1792519289.880595,
@@ -2804,8 +2804,7 @@
 "Xiaomi Open-Sources Xiaomi-Lens-0, a 4B Model That Points to Image Regions Pixel by Pixel": 1792566086.478366,
 "Yelp can now call on your behalf to check wait times at a restaurant": 1792497668.642571,
 "monday.com launches Harmony voice AI agent": 1792486863.7069826,
-"\u2018Open your doors for AI\u2019: German chancellor urges businesses to embrace AI as Nvidia announces new investments": 1792465253.1896935,
 "\ud835\udf0f-i18n: Evaluation across languages and beyond task completion": 1792623695.0527635
 },
-"updated": 1792634477
+"updated": 1792638069
 }
