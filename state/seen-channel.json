@@ -2242,6 +2242,7 @@
 "d9ebf8c7fb048884": 1792569651.2179198,
 "da01b63441dcf6b0": 1792116059.6198874,
 "da063a6da7444c5e": 1788800689.783579,
+"da21779e0ec6df84": 1792645267.8049955,
 "da2d174a674a5f6c": 1791882049.8082201,
 "da8baf1ba26e81ca": 1788853417.3916662,
 "da9b5fda6ca9df67": 1789214070.2179961,
@@ -2639,12 +2640,10 @@
 "Anthropic takes on Muse with Claude Duet, its new AI agent": 1792612861.3039272,
 "Anthropic\u2019s cloud partnerships are getting messy": 1792533664.8108335,
 "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms": 1792537246.3993936,
-"Anyone Can Make a Robot Move, Few Can Make It Stop": 1792468890.6676452,
 "Apec finance ministers reach consensus on AI, digital financing in Hong Kong": 1792576856.5137877,
 "Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons": 1792508471.3628047,
 "BBVA works with Nvidia to boost AI agent security": 1792598480.8171628,
 "Bank bosses under pressure to implement AI ahead of time": 1792584071.6612706,
-"Baseus\u2019 new security camera has a spotlight that tracks and follows moving targets": 1792468890.6676452,
 "Battle Drones - a vibe coded RTS with audio-based multiplayer": 1792526442.9476204,
 "Blacksmith hits unicorn valuation after Sequoia leads Series C": 1792627287.6907158,
 "Blackstone\u2019s Jas Khaira says fears over AI-buildout debt are overblown": 1792623695.0527635,
@@ -2733,6 +2732,7 @@
 "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation": 1792526442.9476204,
 "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability": 1792587658.039251,
 "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required": 1792609267.0480165,
+"NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels": 1792645267.8050299,
 "Nestl\u00e9 Hands Its Overdue Invoices to SAP\u2019s AI Agents": 1792544438.3443892,
 "New Gemini tools for small business owners": 1792515680.374697,
 "Northteq launches AI agents for equipment finance": 1792486863.7069826,
@@ -2808,5 +2808,5 @@
 "monday.com launches Harmony voice AI agent": 1792486863.7069826,
 "\ud835\udf0f-i18n: Evaluation across languages and beyond task completion": 1792623695.0527635
 },
-"updated": 1792641663
+"updated": 1792645267
 }
