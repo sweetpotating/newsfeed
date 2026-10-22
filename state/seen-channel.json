@@ -714,6 +714,7 @@
 "421a19c429375e5e": 1790819106.3175478,
 "421cb85581dd480b": 1792267254.0775177,
 "4220bb7b6e394267": 1792548061.9565682,
+"42210d7aec244c2b": 1792652456.1176977,
 "42254a1dab402c1d": 1789666262.4834309,
 "42314ce5d420850a": 1792008052.8773704,
 "4237925c849357c0": 1791468077.6753523,
@@ -2655,7 +2656,6 @@
 "China Telecom's TeleAI Spins Out Gamma Robotics to Build Self-Evolving Humanoid Robots": 1792634477.5562675,
 "China creates state-owned firm in Xiongan to develop nation\u2019s AI data resources": 1792508471.3628047,
 "China protests the US Deepseek ban while blocking ChatGPT, Claude, and Gemini at home": 1792591295.6080747,
-"China\u2019s AI microdrama boom joins a global surge in mobile viewing": 1792476083.4504435,
 "China\u2019s Magnetic-Sensor Champion Bets on Robot Joints": 1792490488.103991,
 "Chinese firm unveils \u2018guardian\u2019 robot that can disarm attackers, lift cars": 1792630858.2570817,
 "Claude Science tackles deadly scorpion stings by designing protein binders from scratch": 1792573279.0653179,
@@ -2701,7 +2701,6 @@
 "Hugging Face CEO warns that Netflix\u2019s OpenAI hack documentary isn\u2019t accurate": 1792537246.3993936,
 "Hugging Face \u2764\ufe0f TorchTPU: TPUs, Natively": 1792537246.3993936,
 "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction": 1792616455.2915688,
-"Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second": 1792476083.4504435,
 "Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait": 1792594865.6457496,
 "India Needs to Build the AI 'Brain' for Robotics, Not Just Import Hardware": 1792580480.1062639,
 "Investors are questioning neoclouds' business model but Nebius says AI computing prices are rising": 1792587658.039251,
@@ -2746,6 +2745,7 @@
 "Outmarket AI brings AI-native insurance workflows to agencies of all sizes": 1792627287.6907158,
 "PPRO launches Local Payments Council for agentic commerce": 1792609267.0480165,
 "Peking University and PrimeBot's HIL-UMI Collects Robot Correction Data Without a Robot Arm": 1792566086.478366,
+"Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method": 1792652456.1177025,
 "Pigment Raises $250 Million for Agentic AI Platform": 1792602042.7752287,
 "PlannerPal brings AI to mortgage advisers through Twenty7tec Advice": 1792501254.7777638,
 "Plants can speak using electricity, so this startup built an AI model to decipher their language": 1792512055.8162787,
@@ -2783,7 +2783,6 @@
 "The new economics of enterprise AI": 1792537246.3993936,
 "The new human-crafted Apple Music brand matters in an AI world": 1792620082.2009888,
 "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good": 1792602042.7752287,
-"U.S. bans DeepSeek from government agency systems amid AI rift with China": 1792479648.639532,
 "US Payments Forum Fall Meeting to Spotlight how AI Agents are Reshaping Transactions": 1792551642.9955173,
 "Using thousands of AI agents to uncover new leads in biological data": 1792594865.6457496,
 "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents": 1792623695.0527635,
@@ -2805,5 +2804,5 @@
 "monday.com launches Harmony voice AI agent": 1792486863.7069826,
 "\ud835\udf0f-i18n: Evaluation across languages and beyond task completion": 1792623695.0527635
 },
-"updated": 1792648866
+"updated": 1792652456
 }
