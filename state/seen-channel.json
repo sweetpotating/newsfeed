@@ -334,6 +334,7 @@
 "1d98bb3fc74b52ad": 1791496856.5046115,
 "1d9add4be86d17c7": 1792749653.2263443,
 "1dcb769d7e404577": 1792022550.6234918,
+"1de6713384500639": 1792792844.5504556,
 "1de8e62ff715d1f1": 1792594865.6457431,
 "1dfd3b667206b427": 1789900075.5438418,
 "1e13859e613bcb05": 1790209006.9655368,
@@ -1786,6 +1787,7 @@
 "a2050a2709ac4ca9": 1788989313.0220904,
 "a21e6470bcacc02d": 1791568840.4575586,
 "a2473ef55635ea51": 1791338431.125057,
+"a2899ce6ccb16cf2": 1792792850.4368992,
 "a28a2620a4ac4155": 1790619673.483938,
 "a28b1aca7175eb0b": 1791109305.7267005,
 "a2a7109355eb4e69": 1789450913.6395147,
@@ -2015,6 +2017,7 @@
 "b7098b0caf603250": 1788932922.5045826,
 "b71af9402a6d9677": 1791457235.7173436,
 "b724d65f63b6178d": 1790700224.7547443,
+"b72669c84c64b68d": 1792792844.5504556,
 "b744fa4c9e40777c": 1792404084.353994,
 "b757c507594df812": 1791453672.993573,
 "b770c5dd23148ac4": 1791979256.9859388,
@@ -2460,6 +2463,7 @@
 "e2dd933f457e7413": 1792598480.8171573,
 "e32bb5f9a5da556d": 1792155700.8991632,
 "e339b6abba3ce500": 1789008129.6784012,
+"e33bd29e6f4b7875": 1792792850.4368992,
 "e34152ef227f486f": 1791514890.005957,
 "e36c91761372080e": 1791954088.608875,
 "e38cc5ef01b605d2": 1792688463.321625,
@@ -2926,6 +2930,7 @@
 "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring": 1792778478.494932,
 "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents": 1792749667.5220094,
 "Tsinghua AIR Spinout Tairex Brings Multi-Specialty AI Doctor Avatars Into Outpatient Clinics": 1792656084.8170507,
+"Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO": 1792792850.4369035,
 "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox": 1792710041.5048957,
 "Uber puts all 30,000 employees on ChatGPT Work": 1792688475.8787177,
 "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia": 1792731671.39728,
@@ -2935,6 +2940,7 @@
 "Visa, Mastercard bet on AI, crypto ahead of earnings": 1792699256.2761817,
 "Walmart Opens Doors for AI Agents That Obey Strict Rules": 1792630858.2570817,
 "Walmart and Amazon Expand AI Agents\u2019 Roles in Shopping and Work": 1792681268.9847662,
+"Walmart unveils AI agent shopping controls, spending limits": 1792792850.4369035,
 "What FDE means at OpenAI": 1792677655.2962425,
 "What Fraud Data Says About Where Payment Security Is Headed": 1792659663.396207,
 "What To Make of Revolut's Outage | TWIF UK & Europe": 1792681268.9847662,
@@ -2947,5 +2953,5 @@
 "\ud835\udf0f-Entity: Can voice agents get the details right?": 1792681268.9847662,
 "\ud835\udf0f-i18n: Evaluation across languages and beyond task completion": 1792623695.0527635
 },
-"updated": 1792789262
+"updated": 1792792850
 }
