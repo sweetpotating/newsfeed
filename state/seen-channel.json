@@ -1277,6 +1277,7 @@
 "7477fb3d23492774": 1791594081.6204872,
 "747877bc53913c53": 1791615659.4532046,
 "749a4b04d0a1e740": 1791334880.6941729,
+"74bd4c2805d6048f": 1792724457.4998012,
 "74c76a92f58c5edf": 1789181042.7603884,
 "74d8983fb3699a37": 1791446454.418393,
 "74d9520b2f787a2e": 1791460881.9454324,
@@ -2739,6 +2740,7 @@
 "Apec finance ministers reach consensus on AI, digital financing in Hong Kong": 1792576856.5137877,
 "Arc browser is shutting down": 1792692053.9726994,
 "As Amazon Blocks Muse, Could Industry Fragmentation Derail Agentic Commerce?": 1792695680.2473085,
+"Asia-Pacific AI agent market to surge 14-fold to US$11.2 billion by 2030, Omdia says": 1792724457.499805,
 "Azoma raises $11.2 million Series A to continue defining the Agentic Commerce Optimization category": 1792670485.2259846,
 "BAAI's FlagOS 2.2 Expands Its Cross-Chip Operator Libraries to 1,454 Operators": 1792659663.396207,
 "BBVA works with Nvidia to boost AI agent security": 1792598480.8171628,
@@ -2890,7 +2892,6 @@
 "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good": 1792602042.7752287,
 "Tsinghua AIR Spinout Tairex Brings Multi-Specialty AI Doctor Avatars Into Outpatient Clinics": 1792656084.8170507,
 "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox": 1792710041.5048957,
-"US Payments Forum Fall Meeting to Spotlight how AI Agents are Reshaping Transactions": 1792551642.9955173,
 "Uber puts all 30,000 employees on ChatGPT Work": 1792688475.8787177,
 "Unitree developing AI system to let humanoid robots improve themselves": 1792677655.2962425,
 "Using thousands of AI agents to uncover new leads in biological data": 1792594865.6457496,
@@ -2913,5 +2914,5 @@
 "\ud835\udf0f-Entity: Can voice agents get the details right?": 1792681268.9847662,
 "\ud835\udf0f-i18n: Evaluation across languages and beyond task completion": 1792623695.0527635
 },
-"updated": 1792720876
+"updated": 1792724457
 }
