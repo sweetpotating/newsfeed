@@ -1873,6 +1873,7 @@
 "ac5f418eb97c236f": 1790359844.6465435,
 "ac753044059f34c3": 1790187001.4880269,
 "ac78dbbf7591b6ec": 1792591295.6080685,
+"ac84627354f447e5": 1792731671.397277,
 "acc67ef32e42e5a2": 1789699618.2837198,
 "ad2a95bf96104e65": 1792087279.590135,
 "ad4e14640e358f44": 1791392504.48207,
@@ -1975,6 +1976,7 @@
 "b63d46aff3ceaddb": 1792486863.7069774,
 "b65406b455ce4ef2": 1791921683.1628745,
 "b66b04ad9cd2ab8d": 1790169338.1258128,
+"b673f79f1d9c2568": 1792731671.397277,
 "b67b7064b22c9a1f": 1790382062.1950214,
 "b6b1e4118cdbb529": 1790116771.2835963,
 "b6ebc0d8d5081bd4": 1791986454.1858547,
@@ -2871,13 +2873,11 @@
 "Robbin launches credit integration with ChatGPT and Claude": 1792605679.7699535,
 "Robot hardware startup YITA secures funding from Galbot and Fourier": 1792569651.2179275,
 "S&P Global expands AI-powered capabilities across private markets": 1792681268.9847662,
-"Salesforce to Acquire Braze for $5.66 Bn to Strengthen AI Customer Marketing": 1792558853.3804328,
 "ServiceNow Announces New AI Agent Services With Nvidia": 1792616455.2915688,
 "ShengShu Livestreams Two Weeks of Motubrain 2.0 Training Ahead of Open-Source Release": 1792656084.8170507,
 "Skyfire, Forter partner on agentic commerce checkout": 1792688475.8787177,
 "Someone hacked the Switch 2 by using an old game and AI": 1792692053.9726994,
 "Southeast Asia is hungry for AI \u2014 and the money isn't just in subscriptions": 1792634477.5562675,
-"Southeast Asia\u2019s digital economy to hit $368 billion": 1792555276.8250062,
 "Spotify\u2019s current AI bet is about being the music service that agents choose": 1792684230.1268528,
 "Stablecoins Need to Get Behind Cards, Not Replace Them": 1792573279.0653179,
 "Stord Acquires AMS Fulfillment to Expand AI-Driven Logistics Network": 1792695680.2473085,
@@ -2893,6 +2893,7 @@
 "Tsinghua AIR Spinout Tairex Brings Multi-Specialty AI Doctor Avatars Into Outpatient Clinics": 1792656084.8170507,
 "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox": 1792710041.5048957,
 "Uber puts all 30,000 employees on ChatGPT Work": 1792688475.8787177,
+"Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia": 1792731671.39728,
 "Unitree developing AI system to let humanoid robots improve themselves": 1792677655.2962425,
 "Using thousands of AI agents to uncover new leads in biological data": 1792594865.6457496,
 "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents": 1792623695.0527635,
@@ -2907,6 +2908,7 @@
 "What To Make of Revolut's Outage | TWIF UK & Europe": 1792681268.9847662,
 "While Amazon blocks AI agents, Walmart rolls out the welcome mat": 1792627287.6907158,
 "Why Nandan Nilekani-Backed F2A Believes India's Investment Opportunity Lies in Edge AI": 1792641663.302075,
+"Why This AI Startup Is Taking a Different Path From Wonderful": 1792731671.39728,
 "Wyndham Deploys AI Agents to Boost Hotel Bookings and Cut Franchisee Costs": 1792710041.5048957,
 "Xiaomi MiMo-V2.6-Pro Lands on Tencent WorkBuddy and TokenHub With a 1M Context Window": 1792566086.478366,
 "Xiaomi Open-Sources Xiaomi-Lens-0, a 4B Model That Points to Image Regions Pixel by Pixel": 1792566086.478366,
@@ -2914,5 +2916,5 @@
 "\ud835\udf0f-Entity: Can voice agents get the details right?": 1792681268.9847662,
 "\ud835\udf0f-i18n: Evaluation across languages and beyond task completion": 1792623695.0527635
 },
-"updated": 1792724457
+"updated": 1792731671
 }
