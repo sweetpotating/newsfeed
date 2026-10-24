@@ -189,6 +189,7 @@
 "11b2de96858011df": 1792684217.4622378,
 "11d1ffc580163a73": 1792015223.2233362,
 "11e01f3aa9db49f9": 1792306848.421524,
+"11e866fe07624928": 1792800045.3323817,
 "1213e877344c7cd5": 1789431006.15034,
 "1215d4e42573e429": 1791140236.4629257,
 "1248db9e29ef1d14": 1790552003.8983855,
@@ -221,6 +222,7 @@
 "141c22105829a15e": 1791838843.4256217,
 "14431fcfd77ca5b9": 1789026474.0087512,
 "14434873aac15234": 1792666850.6005726,
+"146594deabcb422c": 1792800048.850736,
 "146726fa27b24809": 1789795509.9245374,
 "146e83d5748ebef0": 1790319672.0518599,
 "14782313ccbf28cb": 1791345657.7729232,
@@ -2795,9 +2797,7 @@
 "Beyond tree cover: mapping the world\u2019s forest types": 1792681268.9847662,
 "Bill Gates says to prepare for 20 years of \u2018tumultuous\u2019 AI disruption": 1792684230.1268528,
 "Blacksmith hits unicorn valuation after Sequoia leads Series C": 1792627287.6907158,
-"Blackstone\u2019s Jas Khaira says fears over AI-buildout debt are overblown": 1792623695.0527635,
 "Bringing foundational models to the front lines of TB screening": 1792782056.161602,
-"Broad access through consistent standards": 1792623695.0527635,
 "ByteDance launches Seedance 2.5 4K video model for film production": 1792764093.3299956,
 "Cambricon\u2019s third quarter profit surges 148% to US$210m amid push to replace Nvidia chips": 1792760458.181833,
 "Canva releases its first image generation model": 1792702885.8962703,
@@ -2858,7 +2858,6 @@
 "Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50 ms LFMs": 1792706462.952064,
 "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape": 1792774854.2917414,
 "MOSI and OpenMOSS Open-Source MOSS-Image, a 5B Model Built for Text and Layout Control": 1792742454.8027022,
-"Mark Zuckerberg Agrees to Stay in California Despite Billionaires\u2019 Tax Ballot Measure": 1792623695.0527635,
 "Meet Mori, a Cute Robot Mushroom That Doesn\u2019t Really Say (or Do) Anything": 1792684911.372843,
 "Meta stock sinks 6% as AI spend pushes free cash flow negative": 1792684911.372843,
 "Meta&#8217;s AI could still scrape news sites, legal experts say": 1792702885.8962703,
@@ -2885,6 +2884,7 @@
 "OpenAI lowers valuation target, raises up to $30 billion": 1792753264.3009777,
 "OpenAI makes its Jev competitor widely available as decision model competition heats up": 1792699256.2761817,
 "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors": 1792702885.8962703,
+"OpenAI says it will no longer train its AI models on the live internet, citing \u201csignificant risks\u201d": 1792800048.8507404,
 "OpenAI, Anthropic, and Nvidia had record lobbying quarters": 1792684911.372843,
 "Outmarket AI brings AI-native insurance workflows to agencies of all sizes": 1792627287.6907158,
 "People are vibe coding their way to better TVs": 1792764093.3299956,
@@ -2926,7 +2926,6 @@
 "Uber puts all 30,000 employees on ChatGPT Work": 1792688475.8787177,
 "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia": 1792731671.39728,
 "Unitree developing AI system to let humanoid robots improve themselves": 1792677655.2962425,
-"Vercel Open-Sources durable-harness for Crash-Proof Coding Agents": 1792623695.0527635,
 "Visa Starts AI Agent Pilot for Business Payments, Adds Fraud Prevention Tools": 1792670485.2259846,
 "Visa, Mastercard bet on AI, crypto ahead of earnings": 1792699256.2761817,
 "Walmart Opens Doors for AI Agents That Obey Strict Rules": 1792630858.2570817,
@@ -2941,8 +2940,7 @@
 "Wyndham Deploys AI Agents to Boost Hotel Bookings and Cut Franchisee Costs": 1792710041.5048957,
 "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA": 1792738843.172913,
 "\u2018Jensen\u2019s nightmare\u2019: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report": 1792670485.2259846,
-"\ud835\udf0f-Entity: Can voice agents get the details right?": 1792681268.9847662,
-"\ud835\udf0f-i18n: Evaluation across languages and beyond task completion": 1792623695.0527635
+"\ud835\udf0f-Entity: Can voice agents get the details right?": 1792681268.9847662
 },
-"updated": 1792796480
+"updated": 1792800048
 }
