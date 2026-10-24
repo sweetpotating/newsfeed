@@ -1629,6 +1629,7 @@
 "942d0a8237c5235c": 1790373359.4344556,
 "9448f395985ef9eb": 1791774055.4450195,
 "9480397be239e406": 1791392491.8408072,
+"9485b98b5dbf7448": 1792864840.8101826,
 "94a82ecda4e7176e": 1790200689.8211148,
 "94abb566385023a1": 1792342878.858519,
 "94af6bfe6b21fdf3": 1789500428.639876,
@@ -2792,7 +2793,6 @@
 "China\u2019s AI compute surge heavily reliant on US chips, offshore cloud access: report": 1792803687.3095803,
 "China\u2019s humanoid robots hunt for work in South Korea as Seoul bets on physical AI": 1792746074.1241996,
 "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5": 1792785687.240176,
-"Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise": 1792688475.8787177,
 "Chinese stocks bounce back from bear market on suspected state support": 1792738843.172913,
 "Coforge Revenue Rises 54% as AI Engineering and Deal Bookings Gain Momentum": 1792814468.62599,
 "Cognitive Credit raises $40m to scale specialist data and AI for credit markets": 1792713665.783274,
@@ -2807,6 +2807,7 @@
 "Discord now formats Markdown previews right": 1792695680.2473085,
 "Does Your Model Run on AWS Trainium? Look It Up": 1792767652.0384037,
 "Donating Agent Skills to the Agentic AI Foundation": 1792695680.2473085,
+"DrizzVision\u2019s AI App Testing Ambition Meets Reality": 1792864840.8101864,
 "Due Diligence 2.0: Connecting AI insight to operating reality in fintech": 1792749667.5220094,
 "Etsy bans AI-generated recipes and patterns from its online marketplace": 1792713665.783274,
 "Evervault adds Browser Tokens for AI agents": 1792760458.181833,
@@ -2850,9 +2851,7 @@
 "Now Google says it might use your Gmail and Google Photos data to target ads": 1792774854.2917414,
 "Nvidia and Reflection Make Open Models Enterprise-Ready": 1792713665.783274,
 "Nvidia's Huang heads to Kazakhstan for the first time \u2014 and he's not the only one with big plans": 1792746074.1241996,
-"OlmoEarth v1.3: State-of-the-art embeddings for the whole planet": 1792688475.8787177,
 "On the ground at Nvidia GTC Berlin: Jensen Huang, robot ducks and neocloud distress": 1792756856.248348,
-"Only 13 percent of companies see real returns from AI, Gartner survey finds": 1792688475.8787177,
 "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us": 1792771271.244391,
 "OpenAI and Poland\u2019s NASK partner to advance AI safety and security": 1792738843.172913,
 "OpenAI chairman: AI will democratize education, legal advice, and healthcare": 1792717245.3143206,
@@ -2874,7 +2873,6 @@
 "See what 5 builders are making with Gemini 4 Argon": 1792782056.161602,
 "Shoppers Would Send AI Agents to Marketplaces Over Brand Sites": 1792785687.240176,
 "Sierra joins the OpenAI Marketplace": 1792807267.924736,
-"Skyfire, Forter partner on agentic commerce checkout": 1792688475.8787177,
 "Someone hacked the Switch 2 by using an old game and AI": 1792692053.9726994,
 "SpaceX Enlists 130 Tech Leaders to Help Businesses Deploy Grok AI": 1792782056.161602,
 "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows": 1792843261.7106595,
@@ -2892,7 +2890,6 @@
 "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents": 1792749667.5220094,
 "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO": 1792792850.4369035,
 "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox": 1792710041.5048957,
-"Uber puts all 30,000 employees on ChatGPT Work": 1792688475.8787177,
 "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia": 1792731671.39728,
 "Visa, Mastercard bet on AI, crypto ahead of earnings": 1792699256.2761817,
 "Walmart unveils AI agent shopping controls, spending limits": 1792792850.4369035,
@@ -2904,5 +2901,5 @@
 "iFLYTEK Healthcare Upgrades Spark Medical Model to V3.7 and Reports 99.6 on MedBench 5.0": 1792810849.5719647,
 "iFLYTEK Open Platform Launches Agent OS, APA and XFYUN CLI for 700-Plus AI Capabilities": 1792828850.0353115
 },
-"updated": 1792861257
+"updated": 1792864840
 }
