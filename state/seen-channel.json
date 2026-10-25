@@ -2337,6 +2337,7 @@
 "d86c6da463d50815": 1789586327.05038,
 "d8758736e5ec1675": 1791403264.712308,
 "d896a6804b9a7729": 1792191644.4925244,
+"d89bb43df239330e": 1792944051.683704,
 "d8e926882e121fe8": 1791939651.195819,
 "d8f4cf2c2837ddb6": 1789339652.4825861,
 "d8fcbe95f7c37ca0": 1791295267.8579457,
@@ -2782,7 +2783,6 @@
 "Coforge Revenue Rises 54% as AI Engineering and Deal Bookings Gain Momentum": 1792814468.62599,
 "Customers Bank Uses AI to Close Commercial Loans in 7 Days": 1792803687.3095803,
 "Dawa Technology's Scenes AI Runs a 34B Real-Time World Model at 720p and 25fps on One RTX GPU": 1792810849.5719647,
-"Does Your Model Run on AWS Trainium? Look It Up": 1792767652.0384037,
 "DrizzVision\u2019s AI App Testing Ambition Meets Reality": 1792864840.8101864,
 "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies": 1792918854.7732012,
 "Fancy harnesses make coding agents more expensive but not better, study finds": 1792836052.038232,
@@ -2790,7 +2790,6 @@
 "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026": 1792785687.240176,
 "Fudan's RoboSkill Lets Robot Agents Save What They Learn as Reusable Text-and-Code Skills": 1792828850.0353115,
 "Full Alliance Group, Inc (OTC:FAGI) YAHBEE Highlights Community-Commerce Model for Agentic Commerce Era": 1792796480.8086753,
-"Goldman Sachs CEO Says Individuals Must Be Held Accountable for AI Failures": 1792767652.0384037,
 "Google\u2019s AI search changes upended online publishing": 1792929673.4165814,
 "Hikrobot Launches Single-Unit Smart Mobile Robots That Deploy in 30 Minutes Without a Server": 1792810849.5719647,
 "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide": 1792900850.5428634,
@@ -2823,6 +2822,7 @@
 "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster": 1792940443.4199631,
 "Securing our frontier model training environment": 1792785687.240176,
 "See what 5 builders are making with Gemini 4 Argon": 1792782056.161602,
+"Seven Answers to One Question: Who Decides Whether Your Agent Can Pay?": 1792944051.6837065,
 "Shoppers Would Send AI Agents to Marketplaces Over Brand Sites": 1792785687.240176,
 "Sierra joins the OpenAI Marketplace": 1792807267.924736,
 "SpaceX Enlists 130 Tech Leaders to Help Businesses Deploy Grok AI": 1792782056.161602,
@@ -2842,5 +2842,5 @@
 "r/opensource just banned AI, non-English speakers, and more": 1792936881.1613605,
 "\ud83e\udde0 Meet the ghost card": 1792936881.1613605
 },
-"updated": 1792940443
+"updated": 1792944051
 }
