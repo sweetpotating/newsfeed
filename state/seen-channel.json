@@ -1782,6 +1782,7 @@
 "a3095ad2c18d441b": 1791889233.9870415,
 "a323de3da5493bc1": 1789678328.615098,
 "a34b03346d380aa1": 1791986444.8935993,
+"a351bbffd5ac3395": 1792918854.7731967,
 "a3563b7b5882338d": 1792483264.696924,
 "a35c903c0b792bfe": 1791342061.7017689,
 "a3774cd9dd0fddf6": 1792519276.536417,
@@ -2273,6 +2274,7 @@
 "d18fbf3372853dba": 1792738830.3689773,
 "d19abab7ede3d1b5": 1789750424.397833,
 "d1cd4e8e07bc6ab9": 1790947727.5643232,
+"d1d027e8dae77e5e": 1792918854.7731967,
 "d2052599defca829": 1789059100.0603404,
 "d20b299aabe83c82": 1790967253.3896816,
 "d21071a5c3fefdc7": 1789914355.8912954,
@@ -2751,10 +2753,9 @@
 },
 "titles": {
 "360's Zhou Hongyi Says Its Sovereign AI Operating System Is Already in Use at Some Organizations": 1792828850.0353115,
+"57% of Large Firms Report Bot or Agent Incidents or Losses": 1792918854.7732012,
 "67% of Retailers Say They Plan to Open Catalogs to AI Agents. Fewer Than a Handful Have Actually Done It.": 1792861257.897722,
-"AI Agents Can Now Trade for Retail Customers. The Liability Question Is Still Open: By Andrii Bilous": 1792742454.8027022,
 "AI Can Be Cyborg or Centaur. But Can Enterprises Monetise It?": 1792900850.5428634,
-"AI Shifts Underwriting From the Person to the Purchase": 1792742454.8027022,
 "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio": 1792861257.897722,
 "AI makes junior patent attorneys instantly better but may quietly stunt their professional growth": 1792854050.7231903,
 "AMD\u2019s Server CPU Business Faces a New AI Boom": 1792749667.5220094,
@@ -2785,6 +2786,7 @@
 "DrizzVision\u2019s AI App Testing Ambition Meets Reality": 1792864840.8101864,
 "Due Diligence 2.0: Connecting AI insight to operating reality in fintech": 1792749667.5220094,
 "Evervault adds Browser Tokens for AI agents": 1792760458.181833,
+"Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies": 1792918854.7732012,
 "Fancy harnesses make coding agents more expensive but not better, study finds": 1792836052.038232,
 "Forced to pick, Grok\u2019s AI model chooses Republicans. OpenAI\u2019s picks Democrats.": 1792857675.9400854,
 "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026": 1792785687.240176,
@@ -2792,11 +2794,9 @@
 "Full Alliance Group, Inc (OTC:FAGI) YAHBEE Highlights Community-Commerce Model for Agentic Commerce Era": 1792796480.8086753,
 "Goldman Sachs CEO Says Individuals Must Be Held Accountable for AI Failures": 1792767652.0384037,
 "HKEX launches AI and semiconductor indices": 1792749667.5220094,
-"HiSilicon Backs NearLink SLE 3.0 Evolution Blue Paper at CEIC 2026 in Shenzhen": 1792742454.8027022,
 "Hikrobot Launches Single-Unit Smart Mobile Robots That Deploy in 30 Minutes Without a Server": 1792810849.5719647,
 "How an Engineer Is Using AI to Bridge the Accessible Education Gap": 1792746074.1241996,
 "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide": 1792900850.5428634,
-"Huawei Spells Out CANNLab, CANNBot and CANNJudge as Its Open Ascend Developer Base": 1792742454.8027022,
 "I hope Apple\u2019s touchscreen MacBook takes some lessons from this Lenovo laptop": 1792850459.073112,
 "Infosys AI Revenue Rises 29% in Q2, FY27 Growth Guidance Cut": 1792756856.248348,
 "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs": 1792782056.161602,
@@ -2806,7 +2806,6 @@
 "LTM Launches BlueVerse Industrial AI Lab in Chennai": 1792756856.248348,
 "Lenovo Previews AI Host P7 With Houmo M50 and CIX P1 Chips, Opens Early-Access Program": 1792893671.8794463,
 "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape": 1792774854.2917414,
-"MOSI and OpenMOSS Open-Source MOSS-Image, a 5B Model Built for Text and Layout Control": 1792742454.8027022,
 "MOSS-Image Passes 1 Million Downloads in Four Days and Tops Hugging Face Text-to-Image Trends": 1792915240.6354969,
 "Meet Anthropic\u2019s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers": 1792846836.7541714,
 "Meituan Waimai Offers Restaurants a Free AI Store Manager for Diagnosis, Store Checks and Menus": 1792915240.6354969,
@@ -2853,5 +2852,5 @@
 "iFLYTEK Healthcare Upgrades Spark Medical Model to V3.7 and Reports 99.6 on MedBench 5.0": 1792810849.5719647,
 "iFLYTEK Open Platform Launches Agent OS, APA and XFYUN CLI for 700-Plus AI Capabilities": 1792828850.0353115
 },
-"updated": 1792915240
+"updated": 1792918854
 }
