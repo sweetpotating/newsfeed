@@ -1703,6 +1703,7 @@
 "9bdd1b258b4bbb8f": 1791439264.5254161,
 "9bfa17b8f1bf0423": 1791316880.7900195,
 "9c038834472b4bc4": 1791286939.2440028,
+"9c1bbdcdebca21e2": 1792926048.2315838,
 "9c388f77f8d942c9": 1789847709.316187,
 "9c83e256b2ba058c": 1791453672.993573,
 "9cb054f8ac2dbacc": 1791378063.4142318,
@@ -2810,6 +2811,7 @@
 "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents": 1792908044.4374444,
 "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots": 1792821693.2384858,
 "Now Google says it might use your Gmail and Google Photos data to target ads": 1792774854.2917414,
+"Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra": 1792926048.2315884,
 "On the ground at Nvidia GTC Berlin: Jensen Huang, robot ducks and neocloud distress": 1792756856.248348,
 "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us": 1792771271.244391,
 "OpenAI lowers valuation target, raises up to $30 billion": 1792753264.3009777,
@@ -2847,5 +2849,5 @@
 "iFLYTEK Healthcare Upgrades Spark Medical Model to V3.7 and Reports 99.6 on MedBench 5.0": 1792810849.5719647,
 "iFLYTEK Open Platform Launches Agent OS, APA and XFYUN CLI for 700-Plus AI Capabilities": 1792828850.0353115
 },
-"updated": 1792922482
+"updated": 1792926048
 }
