@@ -123,6 +123,7 @@
 "0b637ae97a8a321a": 1789606925.2889712,
 "0b90dff0ed403021": 1791795697.9269226,
 "0bcebd968af54e61": 1789297059.5738535,
+"0bd000a70ac51bfe": 1792908044.437441,
 "0bea6aa8e9e76678": 1789104799.4151864,
 "0bf00b70dbd762e2": 1790870129.3807874,
 "0bf9d1ccd94508bf": 1792425674.884337,
@@ -2811,6 +2812,7 @@
 "MOSI and OpenMOSS Open-Source MOSS-Image, a 5B Model Built for Text and Layout Control": 1792742454.8027022,
 "Meet Anthropic\u2019s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers": 1792846836.7541714,
 "MiHoYo team open-sources GameScaling models that control games through keyboard and mouse actions": 1792764093.3299956,
+"Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents": 1792908044.4374444,
 "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots": 1792821693.2384858,
 "Now Google says it might use your Gmail and Google Photos data to target ads": 1792774854.2917414,
 "Nvidia's Huang heads to Kazakhstan for the first time \u2014 and he's not the only one with big plans": 1792746074.1241996,
@@ -2844,14 +2846,12 @@
 "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring": 1792778478.494932,
 "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents": 1792749667.5220094,
 "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO": 1792792850.4369035,
-"Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia": 1792731671.39728,
 "Walmart unveils AI agent shopping controls, spending limits": 1792792850.4369035,
 "What a day in customer service looks like \u2014 as AI changes everything": 1792821693.2384858,
-"Why This AI Startup Is Taking a Different Path From Wonderful": 1792731671.39728,
 "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA": 1792738843.172913,
 "battledrones v14: Compass Rose, a four player map": 1792854050.7231903,
 "iFLYTEK Healthcare Upgrades Spark Medical Model to V3.7 and Reports 99.6 on MedBench 5.0": 1792810849.5719647,
 "iFLYTEK Open Platform Launches Agent OS, APA and XFYUN CLI for 700-Plus AI Capabilities": 1792828850.0353115
 },
-"updated": 1792900850
+"updated": 1792908044
 }
