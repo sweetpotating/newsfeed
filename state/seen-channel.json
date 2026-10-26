@@ -2013,6 +2013,7 @@
 "b8fdcb897dbd7903": 1789420754.2410161,
 "b90790df407e0a29": 1791799253.5719151,
 "b907d29e9180a46a": 1792684217.4622378,
+"b90e005d196c2565": 1792998080.9411302,
 "b913b84251d84299": 1792440071.2113745,
 "b9170632a12c1b01": 1790373371.6462529,
 "b9488db46dcee49b": 1791349283.046097,
@@ -2162,6 +2163,7 @@
 "c7a63c435dd977bf": 1790247466.9676065,
 "c7c0aeb6a971e172": 1791151970.9399905,
 "c7cb014b848ec24a": 1792692053.9726937,
+"c7d3c1a4f82ca8db": 1792998080.9411302,
 "c7d3c8aeae425678": 1789150003.401243,
 "c7d745f6f8b596b2": 1791349269.7326534,
 "c7d7cc726d84e7e2": 1792684911.372835,
@@ -2769,6 +2771,7 @@
 "China shoots ahead on AI video models": 1792980083.7284513,
 "China\u2019s tech giants are paying 1 million yuan for a new kind of AI engineer": 1792911668.6921663,
 "DrizzVision\u2019s AI App Testing Ambition Meets Reality": 1792864840.8101864,
+"European payments players unite to launch the Local Payments Council for Agentic Commerce": 1792998080.9411347,
 "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies": 1792918854.7732012,
 "Fancy harnesses make coding agents more expensive but not better, study finds": 1792836052.038232,
 "Forced to pick, Grok\u2019s AI model chooses Republicans. OpenAI\u2019s picks Democrats.": 1792857675.9400854,
@@ -2788,7 +2791,6 @@
 "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents": 1792908044.4374444,
 "Musk Says SpaceX Closed $40 Bn GPU Debt Deal, Warns Most Neoclouds Won\u2019t Survive": 1792994440.3995233,
 "Mynt Condition: The Philippines Prints a Record IPO | TWIF Asia & India": 1792987276.6517057,
-"NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots": 1792821693.2384858,
 "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model": 1792969246.1564052,
 "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra": 1792926048.2315884,
 "OpenAI Training AI in Systems Shut Off From Web Access": 1792972907.3600297,
@@ -2801,6 +2803,7 @@
 "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster": 1792940443.4199631,
 "Sanxingdui: Future Past Opens as China's First Licensed All-AI-Workflow Feature Film": 1792983654.9874656,
 "Seven Answers to One Question: Who Decides Whether Your Agent Can Pay?": 1792944051.6837065,
+"Shenzhen Embodied-Chip Startup Primotion Unveils Paimon-0, Cutting Action-Chunk Inference to 300 ms": 1792998080.9411347,
 "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia": 1792990861.5570474,
 "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says": 1792976445.662904,
 "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows": 1792843261.7106595,
@@ -2808,7 +2811,6 @@
 "The hottest AI wearables and gadgets you should know about": 1792940443.4199631,
 "Three fired OpenAI safety researchers say they were never told what they actually leaked": 1792857675.9400854,
 "Weapon or armour? The contentious debate over China\u2019s open-weight AI": 1792980083.7284513,
-"What a day in customer service looks like \u2014 as AI changes everything": 1792821693.2384858,
 "Why cloud computing pioneer Wang Jian thinks space is the next AI frontier": 1792969246.1564052,
 "Zen Browser is the Arc replacement I was looking for": 1792958443.0063868,
 "battledrones v14: Compass Rose, a four player map": 1792854050.7231903,
@@ -2816,5 +2818,5 @@
 "r/opensource just banned AI, non-English speakers, and more": 1792936881.1613605,
 "\ud83e\udde0 Meet the ghost card": 1792936881.1613605
 },
-"updated": 1792994440
+"updated": 1792998080
 }
