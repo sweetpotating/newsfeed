@@ -1123,6 +1123,7 @@
 "65442e708214c10b": 1792195263.7584457,
 "654df4ff1ad2b74c": 1792072852.3713613,
 "658ace6fc148f9df": 1791460881.9454324,
+"6591a55ad0d813c4": 1792972907.3600264,
 "65b9448cef0da6ab": 1791986444.8935993,
 "65d73724372a3976": 1791338443.0046964,
 "65ebc1ad4c955a30": 1792047686.665453,
@@ -1878,6 +1879,7 @@
 "ac84627354f447e5": 1792731671.397277,
 "acc67ef32e42e5a2": 1789699618.2837198,
 "acdd6819cf1fec0b": 1792789262.00231,
+"ad10a7bc45a59a64": 1792972907.3600264,
 "ad2a95bf96104e65": 1792087279.590135,
 "ad4e14640e358f44": 1791392504.48207,
 "ad9990fad4faa116": 1792688475.8787105,
@@ -2759,6 +2761,7 @@
 "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027": 1792922482.694651,
 "Anthropic says one AI agent beats many subagents now that models can handle complexity alone": 1792922482.694651,
 "Baidu Health Adds a Video Health Camera and Doctor Matching, Says AI Services Top 50M Monthly Users": 1792893671.8794463,
+"Block\u2019s Voice AI Wins Praise and Triggers Scam Concerns": 1792972907.3600297,
 "Blue Planet III is keeping the rough edges in the age of AI": 1792882872.4702735,
 "Can stablecoins help fix banking?": 1792969246.1564052,
 "China Mobile Opens an Auto-Industry AI Foundation With 112.7 EFLOPS and Six Agents for Carmakers": 1792893671.8794463,
@@ -2772,7 +2775,6 @@
 "Fancy harnesses make coding agents more expensive but not better, study finds": 1792836052.038232,
 "Forced to pick, Grok\u2019s AI model chooses Republicans. OpenAI\u2019s picks Democrats.": 1792857675.9400854,
 "Fudan's RoboSkill Lets Robot Agents Save What They Learn as Reusable Text-and-Code Skills": 1792828850.0353115,
-"Full Alliance Group, Inc (OTC:FAGI) YAHBEE Highlights Community-Commerce Model for Agentic Commerce Era": 1792796480.8086753,
 "Google\u2019s AI search changes upended online publishing": 1792929673.4165814,
 "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019": 1792965652.6270633,
 "Hikrobot Launches Single-Unit Smart Mobile Robots That Deploy in 30 Minutes Without a Server": 1792810849.5719647,
@@ -2789,13 +2791,12 @@
 "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots": 1792821693.2384858,
 "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model": 1792969246.1564052,
 "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra": 1792926048.2315884,
+"OpenAI Training AI in Systems Shut Off From Web Access": 1792972907.3600297,
 "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers": 1792915240.6354969,
-"OpenAI says it will no longer train its AI models on the live internet, citing \u201csignificant risks\u201d": 1792800048.8507404,
 "OpenAnolis Builds Anolis OS 27 Agent-Native as Alibaba Cloud Says Agents Write 95% of New Code": 1792810849.5719647,
 "OpenMobile-2 proves open-source smartphone agents can rival proprietary models": 1792911668.6921663,
 "Pennsylvania will require labels on AI-generated ads": 1792868478.4870694,
 "Pigment and Whop Land $450M for Business Planning and Digital Commerce | Fundraises": 1792843261.7106595,
-"Quick Study": 1792796480.8086753,
 "Qwen Go! Adds My Apps, Letting Users Build Shareable Apps by Description With Alibaba Cloud Meoo": 1792828850.0353115,
 "Qwen's Jiang Guanjun Lays Out a Personal Agent Framework Built on Models, Memory and Ecosystem": 1792915240.6354969,
 "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster": 1792940443.4199631,
@@ -2814,5 +2815,5 @@
 "r/opensource just banned AI, non-English speakers, and more": 1792936881.1613605,
 "\ud83e\udde0 Meet the ghost card": 1792936881.1613605
 },
-"updated": 1792969246
+"updated": 1792972907
 }
