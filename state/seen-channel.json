@@ -256,6 +256,7 @@
 "16fa69af7bb5e288": 1791918093.6044674,
 "172d0640a3e0a8b8": 1791360091.3222437,
 "1740f40ed6619c78": 1789900064.299754,
+"1758535ac6be3e6b": 1793044887.679039,
 "1760517ccf4baf63": 1792900850.5428588,
 "1769dee7e63d34fe": 1789628593.0984766,
 "1772b5449187b27b": 1792058470.055232,
@@ -878,6 +879,7 @@
 "4ecb5611d5c268dd": 1792774846.1246743,
 "4eed1ac23a388a15": 1792101693.54536,
 "4ef7abdeba15fd6c": 1791378063.4142318,
+"4ef9ad5c3f156fac": 1793044880.7078319,
 "4f0fa867f94db2c9": 1789951579.1108053,
 "4f2b6d3cc0b517c2": 1791536489.5851326,
 "4f4fa8c02ada8fa3": 1791302483.5560808,
@@ -1554,6 +1556,7 @@
 "8ec9326537f74114": 1791928891.2085662,
 "8edc6bcc6d206f69": 1789586327.05038,
 "8f23b9c8649a1d2f": 1789926787.7759194,
+"8f2f08b6e197805b": 1793044887.679039,
 "8f35981ec1754311": 1792634477.5562625,
 "8f36733357b46026": 1791140247.136043,
 "8f3a9bab5dc01f95": 1792677655.2962358,
@@ -2845,8 +2848,10 @@
 "Google\u2019s AI search changes upended online publishing": 1792929673.4165814,
 "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019": 1792965652.6270633,
 "HCLTech Taps NVIDIA Simulation Tools to Automate Software-Defined Vehicle Testing": 1793016050.376482,
+"How Ultrafast cut incident investigation from hours to minutes at OpenAI": 1793044887.6790438,
 "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide": 1792900850.5428634,
 "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time": 1792951246.9141104,
+"Introducing GPT-6.1 Terra": 1793044887.6790438,
 "Jev Isn\u2019t An Overnight Fix For Your Lack of AI Fundamentals": 1793005294.2765408,
 "Kevin Roose is AGI-pilled. Why aren\u2019t you?": 1793023869.8535335,
 "Kimi Apologizes for K3.1 Pro Rate Limits, Resets 25% of Members' Monthly Quota and Trims Sub-Agents": 1792983654.9874656,
@@ -2871,7 +2876,6 @@
 "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers": 1792915240.6354969,
 "OpenMobile-2 proves open-source smartphone agents can rival proprietary models": 1792911668.6921663,
 "Our newest AI Quest: Mapping the human brain": 1793034084.593656,
-"Pennsylvania will require labels on AI-generated ads": 1792868478.4870694,
 "Pronto Founder Enters Physical AI Space With Provision Labs": 1793016050.376482,
 "Qwen's Jiang Guanjun Lays Out a Personal Agent Framework Built on Models, Memory and Ecosystem": 1792915240.6354969,
 "Reddit's r/opensource bans all AI-related projects, sparking backlash and a rival subreddit": 1793037671.7540858,
@@ -2910,5 +2914,5 @@
 "r/opensource just banned AI, non-English speakers, and more": 1792936881.1613605,
 "\ud83e\udde0 Meet the ghost card": 1792936881.1613605
 },
-"updated": 1793041255
+"updated": 1793044887
 }
