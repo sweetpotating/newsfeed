@@ -1164,6 +1164,7 @@
 "60f080c1035a8066": 1789969682.3749387,
 "61125b8f76b3ea61": 1791478900.9791346,
 "612cb7a9020137e6": 1792573279.0653114,
+"616cb9f28e757983": 1793250054.63216,
 "616f1dd52a741023": 1793196045.8043706,
 "617a389349a81463": 1790552003.8983855,
 "619aeb86604ef552": 1789735005.5363712,
@@ -3132,7 +3133,6 @@
 "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt": 1793199656.3422809,
 "NatWest slashes marketing compliance approval times with Adclear agents": 1793196045.804377,
 "Nvidia backs Indian startup helping companies run AI models with fewer GPUs": 1793102450.479,
-"OpenAI Launches GPT-6.1 Terra With 50% Lower API Prices, Resumes Frontier AI Training": 1793077245.869955,
 "OpenAI Plans to Purchase Google TPUs: Report": 1793167268.2395103,
 "OpenAI and ServiceNow expand partnership across enterprise workflows": 1793221242.4066823,
 "OpenAI asks outside experts, including a Nobel laureate, to check proofs its AI produced in math, computer science, and physics": 1793106081.0016732,
@@ -3173,6 +3173,7 @@
 "The future of the firm": 1793228448.6048753,
 "The sleep framework: A new way for LLMs to retain knowledge in continual learning": 1793124052.5814376,
 "This Bengaluru Startup Is Building AI Agents for Hardware Design": 1793181657.8362772,
+"U.S. workers\u2019 connection to their jobs hits lowest level since 2011, Gallup poll finds": 1793250054.6321695,
 "UK Home Office May Face Investigation Over Use of OpenAI Tools": 1793116859.556582,
 "US Foods Counts AI Gains in Seller Hours and Cases per Mile": 1793217670.0529873,
 "Unitree reports 70% surge in quarterly revenue, though AI investment weighs on net profit": 1793196045.804377,
@@ -3189,12 +3190,11 @@
 "With AI writing the code, entrepreneurial thinking is now what counts most for newcomers at Anthropic": 1793188865.3070574,
 "XPeng Says the Solid-State Battery for Its IRON Humanoid Has Entered Small-Batch Production": 1793174451.0603583,
 "XREAL AURA: Wired XR glasses to watch, work, and play": 1793210463.3807364,
-"ZTE up 7% after AI pivot, computing surge drive fivefold increase in third quarter profit": 1793073679.1086686,
 "Zafin to buy Naehas to expand AI-powered banking and compliance platform": 1793113286.5130436,
 "[Webinar Alert] Building Secure and Scalable Enterprise Applications in the Age of AI With Aurigo": 1793192458.501075,
 "xAI is buying out homeowners who promise not to sue over data center noise": 1793199656.3422809,
 "\u200b\u200bGoogle DeepMind Unveils Genie 4 for Real-Time World Simulation": 1793163688.4846063,
 "\u2018Owning of the IP Itself is Meaningless,\u2019 Says Mphasis\u2019 Ravi Vasantraj": 1793185284.9502602
 },
-"updated": 1793246459
+"updated": 1793250054
 }
