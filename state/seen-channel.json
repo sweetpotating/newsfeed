@@ -38,6 +38,7 @@
 "0287023760fae699": 1789812556.195291,
 "0288d179cb64cb4a": 1792141281.0825996,
 "02907331d83cdc85": 1791222239.5563254,
+"02d7ba83a08f71f9": 1793239255.9975548,
 "030193d3cda376ec": 1793203288.8824701,
 "03129f2b0b60d1b7": 1792468890.667641,
 "03294f5cfa242b18": 1792396863.7784855,
@@ -289,6 +290,7 @@
 "1836284cd5ff702c": 1792206045.5835428,
 "18404cb44f818b59": 1791486052.5651405,
 "185e559c77b9fcf3": 1793210449.037028,
+"186a5b9acb49e0a8": 1793239255.9975548,
 "186bffbb68ed21de": 1792494078.2609813,
 "186dc11d38543110": 1792821693.2384803,
 "18a1129975f24317": 1793217670.0529811,
@@ -1331,6 +1333,7 @@
 "6f9831e58d69c237": 1793120461.7773726,
 "6fc36bbe813e7c93": 1791109305.7267005,
 "6fc4e31664075803": 1791457247.5616589,
+"700fb176f046d427": 1793239255.9975548,
 "70219de838e0dd83": 1791774055.4450195,
 "7040f32247855a7e": 1792429272.2921124,
 "705144acb2a738bf": 1790774131.7900605,
@@ -3047,6 +3050,7 @@
 "Creating AI value with enterprise context": 1793221242.4066823,
 "Crown Agents Bank provides wholesale FX solutions to China's YeePay": 1793106081.0016732,
 "Crypto Long & Short: What happens when an AI agent pays for the wrong thing": 1793224870.9615414,
+"DOJ Probes Nvidia\u2019s Hugging Face Deal Over AI Competition Concerns": 1793239255.9975603,
 "DeepSeek reportedly ramps up hiring as it maps out new growth plans": 1793084473.6087902,
 "Desktop robot startup CyboPal secures investment from TCL and Shenzhen Capital Group": 1793080858.7468424,
 "Disruptive raises $10B fund to make big bets on at least 10 companies": 1793134851.3723006,
@@ -3108,6 +3112,7 @@
 "Meta rolls out consumer AI agent in Singapore amid global safety, retail pushback": 1793152878.4999666,
 "Meta says it&#8217;ll probably delay its controversial new business terms again": 1793221242.4066823,
 "Mexico makes cash the exception | TWIF Latin America": 1793206865.1432471,
+"Microsoft Sees Enterprise AI Adoption Accelerate as Copilot Usage Grows": 1793239255.9975603,
 "Microsoft hits 10 quarters of record- breaking revenue in a row": 1793224870.9615414,
 "Microsoft is ending Copilot support on smart TVs": 1793214055.4242635,
 "Microsoft recorded $10 billion in revenue from OpenAI": 1793224870.9615414,
@@ -3141,6 +3146,7 @@
 "RoboParty Open-Sources Its RP1 Humanoid, From Mechanical Design and Joints to Control Software": 1793152878.4999666,
 "Robot electronic-skin startup MoSense raises around RMB 100 million in angel-plus funding": 1793080858.7468424,
 "SK Hynix third-quarter profit sharply beats estimates on AI memory boost": 1793145668.887794,
+"Samsung Electronics third-quarter profit in line with estimates amid rising demand for AI memory chips": 1793239255.9975603,
 "Sarvam Signs 5-Year Defence AI Deal Covering Army, Navy and Air Force": 1793088045.7146175,
 "Shanghai Sets Satellite Internet Goals: 400 Gbps Laser Links, Onboard AI and Direct-to-Phone Access": 1793070061.564354,
 "Shopify Adopts Agentic Payment Tech from Visa, Mastercard": 1793232056.885383,
@@ -3183,5 +3189,5 @@
 "\u200b\u200bGoogle DeepMind Unveils Genie 4 for Real-Time World Simulation": 1793163688.4846063,
 "\u2018Owning of the IP Itself is Meaningless,\u2019 Says Mphasis\u2019 Ravi Vasantraj": 1793185284.9502602
 },
-"updated": 1793235645
+"updated": 1793239255
 }
