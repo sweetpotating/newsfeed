@@ -713,6 +713,7 @@
 "3a4573beabe45b75": 1792188031.7227561,
 "3a74571b9e672842": 1790729848.6548297,
 "3a772b0a34d9ef87": 1792670485.2259777,
+"3a7cfb98f5b04b7f": 1793232053.3693347,
 "3aa373b031ffc603": 1792166467.0842576,
 "3ae3244f0680b04c": 1793052556.6007133,
 "3b0f63c79e5a3be8": 1793203274.3899744,
@@ -952,6 +953,7 @@
 "4ef7abdeba15fd6c": 1791378063.4142318,
 "4ef9ad5c3f156fac": 1793044880.7078319,
 "4f0fa867f94db2c9": 1789951579.1108053,
+"4f1294733c23fedc": 1793232053.3693347,
 "4f2b6d3cc0b517c2": 1791536489.5851326,
 "4f4fa8c02ada8fa3": 1791302483.5560808,
 "4f7731dfb9b66f78": 1790090485.1495569,
@@ -2691,6 +2693,7 @@
 "e4cd09d8b6810b9d": 1791507685.126156,
 "e4fd42ad1a8e4224": 1791788485.344816,
 "e5148fcc21ba5d7a": 1792314067.7826824,
+"e5216363af4c4246": 1793232056.8853798,
 "e531b401d0243e7d": 1792814468.6259868,
 "e5a1c692b8223d85": 1792774846.1246743,
 "e5bc839e54ed20aa": 1792720870.5426488,
@@ -3031,7 +3034,6 @@
 "Banks are blocking external AI agents. Is this sustainable?": 1793149252.424715,
 "Beijing pushes for UN-led governance of artificial intelligence at global forum": 1793091666.9732225,
 "Bengaluru AI Startup Simplismart Raises $14 Mn in NVIDIA-Backed Round": 1793113286.5130436,
-"BlackBerry reinvented: CEO sees big opportunities AI-powered robots": 1793055674.643398,
 "Bloomberg rolls out AI coding assistant BQuant": 1793203288.8824778,
 "Build and manage Connected Apps in one place": 1793210463.3807364,
 "Build specialized multimodal models with LFM3": 1793124052.5814376,
@@ -3075,7 +3077,6 @@
 "Google alters its cloud playbook, enlisting partners to sell more AI chips": 1793188865.3070574,
 "Google opens Android development to third-party AI agents and unveils new Gemini APIs": 1793206865.1432471,
 "Google\u2019s Genie 4 world model adds audio, more realistic worlds, and real-time steering": 1793120474.4755614,
-"Greptile takes bug detection beyond code review with GPT-6 Astra": 1793055674.643398,
 "HCLTech Completes Acquisition of Croatia-Based Robotiq.ai": 1793098860.358975,
 "HOVERAir maker Zero Zero Robotics reportedly becomes a unicorn": 1793167268.2395103,
 "Home Depot Wants Your AI Agent to Show Some ID First": 1793192458.501075,
@@ -3145,6 +3146,7 @@
 "SK Hynix third-quarter profit sharply beats estimates on AI memory boost": 1793145668.887794,
 "Sarvam Signs 5-Year Defence AI Deal Covering Army, Navy and Air Force": 1793088045.7146175,
 "Shanghai Sets Satellite Internet Goals: 400 Gbps Laser Links, Onboard AI and Direct-to-Phone Access": 1793070061.564354,
+"Shopify Adopts Agentic Payment Tech from Visa, Mastercard": 1793232056.885383,
 "Should AI Decide Your Court Case? This Judge Says Yes": 1793170844.316223,
 "Silicon Valley AI political groups turn on each other in the 2026 election": 1793098860.358975,
 "SoMark Open-Sources OXR-1.0, a 1.3B Document Parser That Leads Three Public Benchmarks": 1793152878.4999666,
@@ -3184,5 +3186,5 @@
 "\u200b\u200bGoogle DeepMind Unveils Genie 4 for Real-Time World Simulation": 1793163688.4846063,
 "\u2018Owning of the IP Itself is Meaningless,\u2019 Says Mphasis\u2019 Ravi Vasantraj": 1793185284.9502602
 },
-"updated": 1793228448
+"updated": 1793232056
 }
