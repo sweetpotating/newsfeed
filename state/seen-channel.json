@@ -1597,6 +1597,7 @@
 "81779b23afd361e3": 1792688463.321625,
 "81a1780bc0f08b89": 1792810849.57196,
 "81bdb2ed2d56dd8a": 1790169325.8079007,
+"81c74f335aaddc07": 1793332860.3288517,
 "81d6020c5e0968f0": 1792530080.8306975,
 "81f16d28f768a0c1": 1791059304.4780717,
 "8201258f22077e8d": 1790290601.818761,
@@ -3241,7 +3242,6 @@
 "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform": 1793206865.1432471,
 "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses": 1793286057.750336,
 "OpenAI-backed Thrive Holdings acquires ADT": 1793304052.7079875,
-"Oracle Expands AI Compute Options With NVIDIA, Google TPUs and Cerebras": 1793160035.309579,
 "Pairing industrial AI autonomy and human control": 1793192458.501075,
 "Polymathic AI and Princeton Researchers Release FlashMap, a Flow Map Drafter for 6.14x Faster LLM Decoding": 1793178074.0960896,
 "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass": 1793304052.7079875,
@@ -3256,6 +3256,7 @@
 "South Korea\u2019s financial industry hit by fresh wave of cyberattacks": 1793203288.8824778,
 "Tech Companies Battle Infestation of AI-Discovered Bugs": 1793196045.804377,
 "Tencent says upcoming Hy4 and Hy4 flash models will support visual understanding": 1793253689.893868,
+"Tencent\u2019s WorkBuddy adds remote control, letting users manage AI tasks from their phones": 1793332860.328855,
 "The AI Slowdown Narrative Doesn\u2019t Reflect Enterprise Reality": 1793275278.3357046,
 "The Economics of Continuous Inference": 1793268069.7832406,
 "The NYT Cooking app is testing AI recipe modifications": 1793286057.750336,
@@ -3291,5 +3292,5 @@
 "\u2018Owning of the IP Itself is Meaningless,\u2019 Says Mphasis\u2019 Ravi Vasantraj": 1793185284.9502602,
 "\u2018You\u2019re Not Doing This AI Stuff,\u2019 Databricks CEO Tells Snowflake": 1793253689.893868
 },
-"updated": 1793329270
+"updated": 1793332860
 }
