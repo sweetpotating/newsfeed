@@ -220,6 +220,7 @@
 "11e866fe07624928": 1792800045.3323817,
 "12056f68900d63fa": 1792857675.9400814,
 "1215d4e42573e429": 1791140236.4629257,
+"121b23d0827dc0f2": 1793350860.0694616,
 "1248db9e29ef1d14": 1790552003.8983855,
 "124d7f2b173a0da9": 1791885686.4129477,
 "12546ec260ac886b": 1791349283.046097,
@@ -703,6 +704,7 @@
 "37ad6899ff7ce284": 1789826833.9044228,
 "37b5a1e81dc84f2f": 1791842426.9914238,
 "37ceb39cc3c1e1c5": 1793253678.6980128,
+"37d15adb035e4902": 1793350860.0694616,
 "37d33520a23ebcf6": 1792911668.6921628,
 "37fad016bf5b8aef": 1792540889.747899,
 "37fcd73bdc420046": 1793271641.5906868,
@@ -745,6 +747,7 @@
 "3ae3244f0680b04c": 1793052556.6007133,
 "3b0f63c79e5a3be8": 1793203274.3899744,
 "3b17176f7cd0c1a9": 1791374451.90625,
+"3b21452d1ceb6b92": 1793350851.5438066,
 "3b44a74c8a193138": 1793210463.3807302,
 "3b45441a01797004": 1791529249.1425295,
 "3b5ce86c8c402c8d": 1792526442.9476137,
@@ -863,6 +866,7 @@
 "435658c669931219": 1792321251.334857,
 "4380372536e30120": 1791428446.2973087,
 "4385374c82447794": 1791471678.200873,
+"43950e504ff2bf8e": 1793350860.0694616,
 "43a7d2d3aa6e1d98": 1790105399.7742462,
 "43a838e64035d2ae": 1792137690.6971,
 "43b92d35f9e6db57": 1791482464.3900445,
@@ -3252,7 +3256,9 @@
 "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass": 1793304052.7079875,
 "Ramp CEO Eric Glyman on AI, Glass and Life After Fintech": 1793203288.8824778,
 "Rivian expands joint venture with VW to include AI assistant": 1793311281.4924679,
+"Root CEO Alex Timm: AI Agents and the Evolving Future of Auto Insurance": 1793350860.0694664,
 "SAP India Targets 2 Million People for AI Skilling by 2030": 1793264449.714678,
+"Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost": 1793350860.0694664,
 "Samsung Electronics third-quarter profit in line with estimates amid rising demand for AI memory chips": 1793239255.9975603,
 "Sarvam, Krutrim Account for 68% of Indic AI Funding as Sector Raises $687 Million: Tracxn": 1793257264.7686372,
 "ServiceNow shares plunge 25% after earnings revive AI disruption fears": 1793289686.7562892,
@@ -3287,6 +3293,7 @@
 "Walmart and Home Depot Set the Rules for AI Shoppers": 1793293265.6760442,
 "WeRide\u2019s physical AI data subsidiary raises tens of millions of dollars": 1793253689.893868,
 "Welcome to The Financial News Network": 1793181657.8362772,
+"Wikipedia\u2019s operator says a bad AI copyright ruling could threaten the open web": 1793350860.0694664,
 "With AI writing the code, entrepreneurial thinking is now what counts most for newcomers at Anthropic": 1793188865.3070574,
 "XREAL AURA: Wired XR glasses to watch, work, and play": 1793210463.3807364,
 "You can now generate, preview, and edit documents, PDFs, presentations, spreadsheets, and more directly in Gemini.": 1793293265.6760442,
@@ -3297,5 +3304,5 @@
 "\u2018Owning of the IP Itself is Meaningless,\u2019 Says Mphasis\u2019 Ravi Vasantraj": 1793185284.9502602,
 "\u2018You\u2019re Not Doing This AI Stuff,\u2019 Databricks CEO Tells Snowflake": 1793253689.893868
 },
-"updated": 1793347287
+"updated": 1793350860
 }
