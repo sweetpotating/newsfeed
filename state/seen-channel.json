@@ -2377,6 +2377,7 @@
 "bd684f8a6f1686ec": 1791896447.9286487,
 "bd6a23f4945bfce5": 1792670485.2259777,
 "bd8620584324713b": 1792364448.316334,
+"bdbe7f55599d2359": 1793372452.3822956,
 "bdcaadda33995c5e": 1792692041.4078999,
 "bddbba6e501f0be7": 1792594852.519109,
 "be1cec657ebc099f": 1792004445.736014,
@@ -2485,6 +2486,7 @@
 "c76ab025fec75617": 1793016050.3764741,
 "c76c458c2fb8360d": 1791482464.3900445,
 "c78ed3d1d7c23a54": 1793023869.8535266,
+"c7a4c38fced19624": 1793372440.6714067,
 "c7a63c435dd977bf": 1790247466.9676065,
 "c7c0aeb6a971e172": 1791151970.9399905,
 "c7cb014b848ec24a": 1792692053.9726937,
@@ -2548,6 +2550,7 @@
 "cd4aaa6550345e90": 1793026852.0306826,
 "cd6a504d0e1d680f": 1791046850.7885356,
 "cd8d3f32393867c2": 1791222252.166783,
+"cd93137ee2f04553": 1793372452.3822956,
 "cdad6e34fcc75a02": 1792490488.1039848,
 "cdc5be0a4e8dae09": 1792533652.0835392,
 "ce127768ef115bdd": 1792623695.0527556,
@@ -2941,6 +2944,7 @@
 "efa8e3901685212b": 1791478887.5128963,
 "efbdf6407b7d3b5a": 1791342074.138936,
 "efd652a2c24d8302": 1792623681.877737,
+"efdd11e9cb0afe42": 1793372452.3822956,
 "f0364543467c3049": 1790900791.5999784,
 "f04078cfce7bb418": 1793052546.7668767,
 "f046edfa53a1dad6": 1790716349.4147718,
@@ -3162,6 +3166,7 @@
 "As search traffic dries up, Reddit announces it\u2019s shifting to a logged-in experience": 1793307678.3561106,
 "AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents": 1793264449.714678,
 "B2Broker Group moves into agentic trading": 1793318460.642354,
+"Binance's $6.3B exploit raises questions about crypto security in the AI era": 1793372452.3823,
 "Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech": 1793264449.714678,
 "Bloomberg rolls out AI coding assistant BQuant": 1793203288.8824778,
 "Build and manage Connected Apps in one place": 1793210463.3807364,
@@ -3255,6 +3260,7 @@
 "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform": 1793206865.1432471,
 "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses": 1793286057.750336,
 "OpenAI-backed Thrive Holdings acquires ADT": 1793304052.7079875,
+"Pope Leo calls for the disarmament of AI: \u2018Machines are tools, not persons\u2019": 1793372452.3823,
 "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass": 1793304052.7079875,
 "Ramp CEO Eric Glyman on AI, Glass and Life After Fintech": 1793203288.8824778,
 "Rivian expands joint venture with VW to include AI assistant": 1793311281.4924679,
@@ -3280,6 +3286,7 @@
 "The big questions remaining after Anthropic\u2019s blockbuster IPO prospectus": 1793365273.2183342,
 "The future of the firm": 1793228448.6048753,
 "This $149 digital candle uses AI to accurately simulate a flickering flame": 1793282495.714552,
+"This electric screwdriver uses a camera and AI to figure out what bit you need": 1793372452.3823,
 "Trump declares robot imports a national security threat": 1793311281.4924679,
 "Tsinghua, Infinigence AI and AgiBot Train 96 Real Robots to Learn From Each Other's Experience": 1793347287.5040376,
 "U.S. investigated Chinese spy plot aimed at Nvidia CEO": 1793293265.6760442,
@@ -3302,5 +3309,5 @@
 "xAI is buying out homeowners who promise not to sue over data center noise": 1793199656.3422809,
 "\u2018You\u2019re Not Doing This AI Stuff,\u2019 Databricks CEO Tells Snowflake": 1793253689.893868
 },
-"updated": 1793368858
+"updated": 1793372452
 }
