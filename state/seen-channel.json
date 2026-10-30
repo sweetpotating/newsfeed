@@ -1940,6 +1940,7 @@
 "9d5375a0149603fd": 1792087279.590135,
 "9d54c41e726bbf68": 1790653645.6739786,
 "9d5556c3d348c888": 1793210463.3807302,
+"9d5e90bcfd3be8aa": 1793354439.2181892,
 "9d60fe65a10bd84a": 1792407673.617632,
 "9d71a330cb08e49a": 1792522853.7492056,
 "9db4940a53f86840": 1792180864.593726,
@@ -2676,6 +2677,7 @@
 "da21779e0ec6df84": 1792645267.8049955,
 "da2d174a674a5f6c": 1791882049.8082201,
 "da3684d2e6f0520c": 1792821693.2384803,
+"da5058cf21e61de7": 1793354442.5795727,
 "da9bc33d3feb59e4": 1791059314.2713838,
 "da9f72a52565cd06": 1792069268.3587873,
 "dabe62d292a26983": 1789826833.9044228,
@@ -3122,7 +3124,6 @@
 "titles": {
 "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System": 1793300471.378658,
 "A-Comm Technologies, Inc. Forms Founding Consortium to Establish Open-Source Evidence Protocol for Agentic Commerce": 1793199656.3422809,
-"AI Emergency Alerts Are Coming. Humans Might Not Be Ready": 1793178074.0960896,
 "AI Hardware Investment Drives 3.4% Growth in US Economy": 1793286057.750336,
 "AI Is Changing How Banks Decide Who Gets a Business Loan": 1793199656.3422809,
 "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense": 1793185284.9502602,
@@ -3197,7 +3198,6 @@
 "Granola crunches up a dictation feature to compete with Wispr": 1793296847.5258732,
 "HCLTech Launches Nano GCC Model With AWS to Build AI Operations": 1793253689.893868,
 "Home Depot Wants Your AI Agent to Show Some ID First": 1793192458.501075,
-"How Lao Gan Ma, China\u2019s iconic chilli brand, got caught in an AI storm": 1793178074.0960896,
 "How Ropes & Gray is developing AI for transactional diligence": 1793296847.5258732,
 "How to use Gemini to update your resume": 1793289686.7562892,
 "How we detect frontier model misalignment": 1793293265.6760442,
@@ -3218,7 +3218,6 @@
 "Investors brace for a hawkish hold and tech on tap": 1793185284.9502602,
 "KPIT Bets on AI for Margin Growth as Q2 Revenue Growth Stays Weak": 1793188865.3070574,
 "Kai-Fu Lee\u2019s 01.AI secures Hangzhou state investment worth hundreds of millions of RMB": 1793340067.80163,
-"L&T\u2019s Vyoma.AI Breaks Ground on 52 MW Data Centre in Chennai": 1793178074.0960896,
 "Legora is building the agentic operating system for legal work": 1793185284.9502602,
 "Liability looms over AI shopping": 1793203288.8824778,
 "Live2.ai Raises \u20b9130 Cr in Pre-Series B Round Led by IvyCap Ventures": 1793181657.8362772,
@@ -3246,13 +3245,13 @@
 "Moore Threads Open-Sources Megatron-MUSA-Titan for Trillion-Parameter MoE Training on Its GPUs": 1793242843.6623347,
 "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt": 1793199656.3422809,
 "NatWest slashes marketing compliance approval times with Adclear agents": 1793196045.804377,
+"Noetix\u2019s RMB9,998 Humanoid Is Just the Start": 1793354442.5795755,
 "OpenAI and ServiceNow expand partnership across enterprise workflows": 1793221242.4066823,
 "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up": 1793307678.3561106,
 "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform": 1793206865.1432471,
 "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses": 1793286057.750336,
 "OpenAI-backed Thrive Holdings acquires ADT": 1793304052.7079875,
 "Pairing industrial AI autonomy and human control": 1793192458.501075,
-"Polymathic AI and Princeton Researchers Release FlashMap, a Flow Map Drafter for 6.14x Faster LLM Decoding": 1793178074.0960896,
 "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass": 1793304052.7079875,
 "Ramp CEO Eric Glyman on AI, Glass and Life After Fintech": 1793203288.8824778,
 "Rivian expands joint venture with VW to include AI assistant": 1793311281.4924679,
@@ -3304,5 +3303,5 @@
 "\u2018Owning of the IP Itself is Meaningless,\u2019 Says Mphasis\u2019 Ravi Vasantraj": 1793185284.9502602,
 "\u2018You\u2019re Not Doing This AI Stuff,\u2019 Databricks CEO Tells Snowflake": 1793253689.893868
 },
-"updated": 1793350860
+"updated": 1793354442
 }
