@@ -1772,6 +1772,7 @@
 "909a59bed6c80d7d": 1793401259.0842178,
 "90a3cfe5c600924d": 1792090858.655724,
 "90bb877635182928": 1792090858.655724,
+"90bd71d1e9a38077": 1793574059.0416162,
 "90ea81d2bf9bf94b": 1793019673.53156,
 "90eef7d7b2cfd1cd": 1792483275.8307056,
 "910e1cf6e72a8b54": 1791842422.6712728,
@@ -2075,6 +2076,7 @@
 "a668319bc0d46f70": 1791835270.8702211,
 "a678779cd43c2988": 1791342074.138936,
 "a67ff8ae95f6166f": 1790037047.14727,
+"a682cf8f7d8c22ab": 1793574059.0416162,
 "a6839327c19ffa52": 1792533664.8108258,
 "a6a1f4abbd10c813": 1793127679.7415578,
 "a6b9d3eacf57d766": 1791540078.705887,
@@ -3182,6 +3184,7 @@
 "How China's AI Labs Are Chasing Recursive Self-Improvement Without Touching Model Weights": 1793433678.6551926,
 "How To Use Claude Duet When It Rolls Out To You": 1793473219.6993947,
 "How We Took Over ChatGPT Accounts": 1793491251.5274768,
+"I Never Thought It Would Happen To Me": 1793574059.04162,
 "InSpatio Opens a Simulation-First Robot Data Center in Hangzhou, Targets a Million Hours a Month": 1793415659.1726072,
 "Judge allows NAACP lawsuit over xAI data center pollution to move forward": 1793484065.8936107,
 "Last-minute Halloween costumes for tech nerds": 1793401259.084223,
@@ -3192,6 +3195,7 @@
 "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon": 1793527270.5611346,
 "Nvidia weighs playing the cosigner for Nscale\u2019s AI data center in West Virginia": 1793412085.7032323,
 "Ollie, a privacy-focused AI assistant, is shutting down": 1793401259.084223,
+"OpenAI Cuts Funding Target by $10 Billion as Investor Jitters Shake AI Markets": 1793574059.04162,
 "OpenAI might rebrand its data centers as \u2018AI compute campuses\u2019": 1793570481.6826224,
 "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round": 1793480474.7990632,
 "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits": 1793466041.8501222,
@@ -3214,5 +3218,5 @@
 "dbreunig/nesformer": 1793401259.084223,
 "\ud83e\udde0 Binance hacked for $6.36B": 1793538047.5450773
 },
-"updated": 1793570481
+"updated": 1793574059
 }
