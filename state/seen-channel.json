@@ -2861,6 +2861,7 @@
 "e66f328c1ba218aa": 1789718002.4844427,
 "e6d890e931e68727": 1793286057.7503302,
 "e6f70a9d3779692d": 1791496849.72493,
+"e6fc2623379f88a0": 1793602849.6118255,
 "e7062846e3da9844": 1791471691.5115561,
 "e7107d9a76d915c4": 1790279046.0895333,
 "e723df75956bb361": 1790842241.6856568,
@@ -3072,6 +3073,7 @@
 "f858c327f65f09d3": 1791363661.6811223,
 "f876b94053938024": 1789991170.172087,
 "f8b8b729d17f0244": 1792587646.1744637,
+"f8c541663459b642": 1793602849.6118255,
 "f8c6fdb22632d17b": 1790090472.7950027,
 "f8d9b6988196d819": 1792688475.8787105,
 "f8de787ee2e56fc6": 1793318460.6423476,
@@ -3171,7 +3173,6 @@
 "Apple CEO says the company doesn\u2019t \u2018want to ship AI for AI\u2019s sake\u2019": 1793484065.8936107,
 "Apple Intelligence to roll out on iPhones in China in December with Alibaba backing": 1793444487.0629697,
 "Apple confirms Qwen integration for China AI rollout, with beta testing starting November 4": 1793595657.0966089,
-"Are Boutique AI Firms India\u2019s Next Big Thing?": 1793430042.041204,
 "Arrowhead AI Launches Fletch Voice Model for Multilingual Customer Calls": 1793599270.389743,
 "Beekeeping tips and wrestling advice can train AI models to sabotage oversight": 1793462458.2906682,
 "CASIA Adds Fingertip Touch to Robot Insertion, Lifting 0.05 mm Clearance Success From 52% to 67%": 1793588448.1157272,
@@ -3185,6 +3186,7 @@
 "Dataline Secures $10 Million to Expand Agent Data Marketplace": 1793584864.6410513,
 "Deep Dive: How Stripe\u2019s Link gives AI agents money they can spend: By Sam Boboev": 1793534468.744419,
 "DeepSeek Harness Team Open-Sources a Super-agent Prototype That Finds and Fixes Bugs on Its Own": 1793498439.4254396,
+"DeepSeek Proposes Super-Agent Architecture to Automate AI Coding Workflows": 1793602849.6118298,
 "DeepSeek team open-sources proactive coding agent research prototype": 1793595657.0966089,
 "DoorDash\u2019s $17B Instacart Deal Headlines a Busy Week for M&A | Exits & Deep Reads": 1793538047.5450773,
 "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners": 1793545246.4063313,
@@ -3219,6 +3221,7 @@
 "Self-improving AI the key step towards AGI but safety is key: Z.ai founder": 1793534468.744419,
 "SenseTime open-sources 9-billion-parameter AI model that reuses layers for deeper processing": 1793595657.0966089,
 "Social media platforms need to \u201cflag AI content\u201d or risk losing Gen Z, Her Campus CEO says": 1793566843.1652792,
+"South Korea targets 'world's highest performance' sovereign AI model in record new budget": 1793602849.6118298,
 "Spooky New Infostealer Malware Uses AI to \u2018Autodox\u2019 Victims": 1793451676.1906161,
 "Stocks started the week with promise but ended in despair. Our take on the big reversal": 1793462458.2906682,
 "Tencent Map Opens Its Agent Capabilities to Developers Through MCP, Agent Skills and Connectors": 1793433678.6551926,
@@ -3231,5 +3234,5 @@
 "Why AI is boosting Meta's ad business while hurting Google search": 1793538047.5450773,
 "\ud83e\udde0 Binance hacked for $6.36B": 1793538047.5450773
 },
-"updated": 1793599270
+"updated": 1793602849
 }
