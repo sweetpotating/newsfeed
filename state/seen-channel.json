@@ -615,6 +615,7 @@
 "2fbabec95870eb10": 1793214055.4242558,
 "2fc8e689e413caad": 1793185284.950253,
 "2fe59e60c9a4d829": 1791417642.6386516,
+"2fef426a19ffdae6": 1793664167.3232281,
 "2ff3154498bed476": 1790026503.64041,
 "300912b99f14f0f5": 1791274224.8517365,
 "3018692de3733c48": 1792429272.2921124,
@@ -907,6 +908,7 @@
 "45b0e7ee6b5a31fa": 1793588448.1157212,
 "45c59b41be76c584": 1790187012.980589,
 "45c648eee773e56c": 1793120474.4755538,
+"45e5c5745e4b8c18": 1793664161.3909085,
 "45f8c99aa62e6ced": 1792000888.3017595,
 "45fcb87da41bb89f": 1793538033.6503386,
 "460173ad53410a67": 1792702873.823297,
@@ -2785,6 +2787,7 @@
 "de0bc0984c8d936e": 1790774119.4255397,
 "de1a317d179f905d": 1791243381.034786,
 "de2eac1c96065df7": 1793264449.7146695,
+"de4cf53f9db96311": 1793664167.3232281,
 "de5c7fc2fb1e00cc": 1791410475.5652425,
 "de610f6deeea0af1": 1793304052.7079806,
 "de62b4a73443457b": 1792386074.2598205,
@@ -3246,7 +3249,6 @@
 "Google\u2019s Project Suncatcher Satellite Generates First AI Response in Orbit": 1793606466.1779175,
 "HSBC to open Hong Kong AI and emerging technology institute": 1793635244.474452,
 "How Hong Kong\u2019s fintech strategy is progressing \u2013 and where growth still lags": 1793613653.1476634,
-"How We Took Over ChatGPT Accounts": 1793491251.5274768,
 "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features": 1793617279.307064,
 "I Never Thought It Would Happen To Me": 1793574059.04162,
 "India floats AI plan under which \u2018The model travels to the data, rather than the data travelling to the model\u2019": 1793595657.0966089,
@@ -3279,6 +3281,7 @@
 "SEC\u2019s AI Disclosure Scrutiny Meets Growing Unease Over Infrastructure Financing": 1793635244.474452,
 "Sam Altman makes surprise South Korea visit as OpenAI builds on chip partnerships": 1793592054.574381,
 "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal": 1793620868.4810884,
+"Scaling Git at OpenAI": 1793664167.3232312,
 "Self-improving AI the key step towards AGI but safety is key: Z.ai founder": 1793534468.744419,
 "SenseTime open-sources 9-billion-parameter AI model that reuses layers for deeper processing": 1793595657.0966089,
 "ServiceNow launches AI governance alliance with Stripe and OpenAI": 1793613653.1476634,
@@ -3294,6 +3297,7 @@
 "The U.S. Census Bureau and \u201cSuper Intelligence\u201d": 1793628052.8964548,
 "The agentic web is here": 1793613653.1476634,
 "The latest AI news we announced in October 2026": 1793642489.6718767,
+"Trajectory raises $45M to make AI model training accessible to nontechnical experts": 1793664167.3232312,
 "US or China? Why Kazakhstan refuses to pick sides as it eyes AI revolution": 1793516459.456764,
 "Vera Health Secures $28.5 Million to Expand AI-Powered App for Clinicians": 1793649668.6335292,
 "WealthFeed expands 401(k) plan prospecting": 1793631669.947912,
@@ -3303,5 +3307,5 @@
 "Your catalog may already be visible to AI agents. Making it trustworthy is the next step.": 1793617279.307064,
 "\ud83e\udde0 Binance hacked for $6.36B": 1793538047.5450773
 },
-"updated": 1793660481
+"updated": 1793664167
 }
