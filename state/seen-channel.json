@@ -1628,6 +1628,7 @@
 "7d5955fa354a7237": 1792742454.8026972,
 "7d7be16f02de8ba2": 1791385259.2933097,
 "7d8e6aba6c482e66": 1792519289.8805883,
+"7d9ecdc3a63fd701": 1793764874.126559,
 "7da78f4c7a9c64cc": 1791583254.1881168,
 "7daf5a8503d469dc": 1790037035.144175,
 "7dc457c2b5d1949d": 1793757673.5411599,
@@ -2290,6 +2291,7 @@
 "ae74c18a1dd619c1": 1791561686.0913327,
 "ae8741fad8038911": 1792166455.2962296,
 "ae88b9b682390ecf": 1793181657.8362713,
+"ae8a522c422124f8": 1793764874.126559,
 "aeb782c983b366e4": 1790819106.3175478,
 "aec8a1671c3d701d": 1793030485.3745852,
 "aed513ba27d49372": 1789882674.4929106,
@@ -3400,6 +3402,7 @@
 "Humanoid Robot Makers Track Output but Not Payback": 1793732464.5384827,
 "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features": 1793617279.307064,
 "India floats AI plan under which \u2018The model travels to the data, rather than the data travelling to the model\u2019": 1793595657.0966089,
+"IndiaAI Mission Releases 3 Indigenous AI Models Developed by Soket, ZenteiQ": 1793764874.1265626,
 "India\u2019s Frontier AI Race Gets a 240M Model That Beats Liquid AI": 1793606466.1779175,
 "Irregular Says Human Error Allowed OpenAI and Anthropic AI Model Escapes": 1793743278.9524248,
 "Kimi Launches Game Development Solution With K3.1 Agents Working Inside Unity, Unreal and Blender": 1793754062.5760076,
@@ -3444,7 +3447,6 @@
 "Robots climb Mount Tai in China\u2019s first major mountain challenge": 1793674837.8315203,
 "SCMP Plus\u2019 fireside chat about AI with Professor Alan Macfarlane": 1793689260.151345,
 "SEC\u2019s AI Disclosure Scrutiny Meets Growing Unease Over Infrastructure Financing": 1793635244.474452,
-"Sam Altman makes surprise South Korea visit as OpenAI builds on chip partnerships": 1793592054.574381,
 "Same Model, Different Harness: CUGA, Hermes, and Deep Agents \u2014 When to Pick CUGA?": 1793721656.1315322,
 "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal": 1793620868.4810884,
 "Scaling Git at OpenAI": 1793664167.3232312,
@@ -3484,6 +3486,7 @@
 "WealthFeed expands 401(k) plan prospecting": 1793631669.947912,
 "When You Should\u2014and Shouldn\u2019t\u2014Use AI to Search the Web": 1793624439.4725468,
 "Why Chinese AI stars like Z.ai, MiniMax struggle to match Anthropic\u2019s profit margin": 1793710849.285073,
+"Will AI kill jobs? One tech leader says Ben Franklin would be just as confused by podcasting": 1793764874.1265626,
 "Worldwide Express Unfreezes $10 Million With AWS AI Agents": 1793750483.3834703,
 "Xiaomi Humanoid Works First 8-Hour Car Factory Shift as Xiaomi-Robotics-1 Starts Apartment Trial": 1793754062.5760076,
 "Y Combinator\u2019s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens": 1793671272.601924,
@@ -3491,5 +3494,5 @@
 "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention": 1793682056.1565442,
 "\u2018Our Risk, Their Reward\u2019: Zohran Mamdani on AI and Data Centers": 1793707263.732745
 },
-"updated": 1793761252
+"updated": 1793764874
 }
