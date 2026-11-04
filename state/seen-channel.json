@@ -307,6 +307,7 @@
 "1772b5449187b27b": 1792058470.055232,
 "17762b122a778773": 1793116859.556576,
 "1778fb273dbb6c0b": 1792555276.8250027,
+"17b6e95d34370bd0": 1793768466.9026482,
 "17b7ec0fb5a54bbd": 1792576856.5137813,
 "17c1ef68addffb00": 1791327649.375602,
 "18114e9dea9c11d5": 1792483275.8307056,
@@ -3344,7 +3345,6 @@
 "Apple Forecasts Slower Services Growth as AI Costs Rise": 1793678461.451856,
 "Apple Readies Launch of AI-Powered Health App": 1793754062.5760076,
 "Apple Watch\u2019s AI features for rewinding and recapping conversations begin beta testing": 1793692883.8768122,
-"Apple confirms Qwen integration for China AI rollout, with beta testing starting November 4": 1793595657.0966089,
 "Apple is all in on AI \u2014 its own and everyone else&#8217;s": 1793721656.1315322,
 "Apple is restricting dating apps and romanceable chatbots to over 18s": 1793718066.7695231,
 "Apple may try to increase revenue by doing\u2026something with third-party AI apps": 1793671272.601924,
@@ -3371,7 +3371,6 @@
 "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery": 1793646071.4910052,
 "DeepSeek Proposes Super-Agent Architecture to Automate AI Coding Workflows": 1793602849.6118298,
 "DeepSeek showcases Creator Mode for building custom plugins through conversation": 1793685697.0865912,
-"DeepSeek team open-sources proactive coding agent research prototype": 1793595657.0966089,
 "Dispatch Network Raises \u20b95 Cr Pre-Seed Led by Antler India to Build AI-Powered Delivery Network": 1793689260.151345,
 "Dost launches AskDost to give finance teams their own AI agents": 1793631669.947912,
 "E2E Networks Launches Blaze To Offer Pay-Per-Token AI Inference Services": 1793707263.732745,
@@ -3401,7 +3400,6 @@
 "Huawei tells customers to find their own AI chip memory, effectively outsourcing procurement to the black market": 1793707263.732745,
 "Humanoid Robot Makers Track Output but Not Payback": 1793732464.5384827,
 "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features": 1793617279.307064,
-"India floats AI plan under which \u2018The model travels to the data, rather than the data travelling to the model\u2019": 1793595657.0966089,
 "IndiaAI Mission Releases 3 Indigenous AI Models Developed by Soket, ZenteiQ": 1793764874.1265626,
 "India\u2019s Frontier AI Race Gets a 240M Model That Beats Liquid AI": 1793606466.1779175,
 "Irregular Says Human Error Allowed OpenAI and Anthropic AI Model Escapes": 1793743278.9524248,
@@ -3452,7 +3450,6 @@
 "Scaling Git at OpenAI": 1793664167.3232312,
 "SenseTime Releases SenseNova 6.8 Flash With Long-Term Memory, Animated Slides and Blender 3D Design": 1793761252.3211966,
 "SenseTime launches SenseNova 6.8 Flash for office and design workflows": 1793692883.8768122,
-"SenseTime open-sources 9-billion-parameter AI model that reuses layers for deeper processing": 1793595657.0966089,
 "ServiceNow launches AI governance alliance with Stripe and OpenAI": 1793613653.1476634,
 "Shopify Revenue Jumps 32% as Agent-Driven Commerce Surges": 1793736085.483401,
 "Six AgiBot G2 Humanoids Run a Shanghai Convenience Store for 24 Hours, Logging 1,730 Tasks": 1793750483.3834703,
@@ -3467,7 +3464,6 @@
 "Tencent and Mastercard sign MOU on agentic payments": 1793620868.4810884,
 "Tencent\u2019s WeChat Pay puts AI sales robot to work in 7-Eleven store": 1793599270.389743,
 "The AI-First Employee is Not What You Think": 1793685697.0865912,
-"The Ant Marches On: Japan, Malaysia, Beyond": 1793595657.0966089,
 "The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering": 1793667672.5629272,
 "The New York Times sues Brave web browser for AI scraping and bypassing paywalls": 1793642489.6718767,
 "The Next Million-Dollar Company Could Have Just One Employee, With AI Agents Doing The Rest: Report": 1793656859.0131326,
@@ -3479,6 +3475,7 @@
 "Trajectory raises $45M to make AI model training accessible to nontechnical experts": 1793664167.3232312,
 "Transformers Model Integration Contracts": 1793692883.8768122,
 "Tsinghua's Algebraic World Model Proves ARC-AGI-3 Levels Unwinnable With Lean 4": 1793678461.451856,
+"UiPath will charge per document for its new finance AI agents": 1793768466.9026513,
 "Upwork Embeds Freelance Marketplace Inside Top AI Tools": 1793671272.601924,
 "Vera Health Secures $28.5 Million to Expand AI-Powered App for Clinicians": 1793649668.6335292,
 "Visa survey: 54% of US adults use AI for holiday shopping": 1793761252.3211966,
@@ -3494,5 +3491,5 @@
 "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention": 1793682056.1565442,
 "\u2018Our Risk, Their Reward\u2019: Zohran Mamdani on AI and Data Centers": 1793707263.732745
 },
-"updated": 1793764874
+"updated": 1793768466
 }
