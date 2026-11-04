@@ -179,6 +179,7 @@
 "0ec0c3cc2f3eb61c": 1791327649.375602,
 "0ec1b9d730210e81": 1790125813.4999485,
 "0ec5b356570483a7": 1791338431.125057,
+"0ef7aaac5e6a690c": 1793793644.1388602,
 "0efbef36f8724bb6": 1790870129.3807874,
 "0f056806f9401776": 1793736085.4833927,
 "0f05fd4155a46f47": 1791500451.0345192,
@@ -307,6 +308,7 @@
 "17b6e95d34370bd0": 1793768466.9026482,
 "17b7ec0fb5a54bbd": 1792576856.5137813,
 "17c1ef68addffb00": 1791327649.375602,
+"17e3528db3783f13": 1793793648.4330723,
 "18114e9dea9c11d5": 1792483275.8307056,
 "1819d1665f91179e": 1793012475.4989476,
 "1827ea3db0ac3849": 1792828850.0353067,
@@ -3324,6 +3326,7 @@
 "titles": {
 "2 Engineers, Unlimited Tokens and Cisco\u2019s 98% Rewrite": 1793646071.4910052,
 "42AI comes out of stealth with $62.5M and a world model that can \u2018predict human behavior\u2019": 1793638860.9111395,
+"84% See AI Productivity Gains, but Only 10% Allow Agent Autonomy: TCS Study": 1793793648.4330757,
 "AI Agents Could Control 5% of Cross-Border Payments. Who Controls Them?": 1793700085.2354858,
 "AI Agents Take the Grunt Work Out of Pamarco\u2019s Close": 1793660481.8613153,
 "AI Incident Reporting Moves Toward Center of Governance Debate": 1793736085.483401,
@@ -3416,7 +3419,6 @@
 "Huawei tells customers to find their own AI chip memory, effectively outsourcing procurement to the black market": 1793707263.732745,
 "Huawei's openJiuwen Gives Agents Event-Based Video Memory, Cutting Answer Times by up to 97%": 1793775679.9726999,
 "Humanoid Robot Makers Track Output but Not Payback": 1793732464.5384827,
-"Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features": 1793617279.307064,
 "IndiaAI Mission Releases 3 Indigenous AI Models Developed by Soket, ZenteiQ": 1793764874.1265626,
 "Irregular Says Human Error Allowed OpenAI and Anthropic AI Model Escapes": 1793743278.9524248,
 "Kimi Launches Game Development Solution With K3.1 Agents Working Inside Unity, Unreal and Blender": 1793754062.5760076,
@@ -3442,7 +3444,6 @@
 "OpenAI hires former U.S. Army Secretary Dan Driscoll for national security role": 1793674837.8315203,
 "OpenAI is finally merging ChatGPT\u2019s chat and Work tabs": 1793628052.8964548,
 "OpenAI pitches data center power plants as a way to protect nearby areas": 1793646071.4910052,
-"OpenAI prepares lobbying blitz for a post-midterm Washington": 1793617279.307064,
 "OpenAI says ChatGPT is catching up to Google in search": 1793732464.5384827,
 "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week": 1793743278.9524248,
 "Overseas markets reportedly account for half of Seedance revenue": 1793779262.6024914,
@@ -3504,9 +3505,8 @@
 "Worldwide Express Unfreezes $10 Million With AWS AI Agents": 1793750483.3834703,
 "Xiaomi Humanoid Works First 8-Hour Car Factory Shift as Xiaomi-Robotics-1 Starts Apartment Trial": 1793754062.5760076,
 "Y Combinator\u2019s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens": 1793671272.601924,
-"Your catalog may already be visible to AI agents. Making it trustworthy is the next step.": 1793617279.307064,
 "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention": 1793682056.1565442,
 "\u2018Our Risk, Their Reward\u2019: Zohran Mamdani on AI and Data Centers": 1793707263.732745
 },
-"updated": 1793790068
+"updated": 1793793648
 }
