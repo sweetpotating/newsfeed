@@ -1752,6 +1752,7 @@
 "849b423196d125cc": 1792162865.72805,
 "84afa1aadc040050": 1790147492.7613568,
 "84cd8d44e9825e73": 1792537246.3993866,
+"84ceddc661dbf29e": 1793844041.7459016,
 "84dbedb386beec6d": 1793034084.5936491,
 "8542a461416d26ea": 1791601245.7660844,
 "8560636ebc000f33": 1792018860.56669,
@@ -3038,6 +3039,7 @@
 "e531b401d0243e7d": 1792814468.6259868,
 "e5616083334b4a90": 1793804491.564513,
 "e5a1c692b8223d85": 1792774846.1246743,
+"e5a2d8d16ad4f57e": 1793844045.360077,
 "e5bc839e54ed20aa": 1792720870.5426488,
 "e5cb2e6663b2cf73": 1793826088.9125378,
 "e6284e5a04a02175": 1791777646.6910043,
@@ -3166,6 +3168,7 @@
 "ef8f12163c603e05": 1790419181.6034276,
 "efa8e3901685212b": 1791478887.5128963,
 "efbdf6407b7d3b5a": 1791342074.138936,
+"efc3dad4540a511e": 1793844041.7459016,
 "efd652a2c24d8302": 1792623681.877737,
 "efdba2fdd85ea688": 1793527265.0409517,
 "efdd11e9cb0afe42": 1793372452.3822956,
@@ -3361,6 +3364,7 @@
 "fe8afc63523a15dd": 1791799253.5719151,
 "fe8f6f0503a806de": 1792101680.7577708,
 "fe9d03a9603aefd3": 1791705642.9848058,
+"fea2768d2f2e57e9": 1793844041.7459016,
 "febdd8eed659a733": 1791910860.0775473,
 "fec0e46ceba430b8": 1793692883.876808,
 "fec72472a3285e7f": 1793178074.096083,
@@ -3456,6 +3460,7 @@
 "Enmovil Plans to Quadruple FDE Team as Enterprise AI Hiring Moves Beyond Coding": 1793707263.732745,
 "Europe's Biggest Tech Startup Cuts AI Coding Costs by 90% Using Chinese Model": 1793707263.732745,
 "Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms": 1793790068.8266506,
+"Expedia Says Travelers Plan With AI Agents but Book Direct": 1793844045.3600802,
 "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes": 1793829656.040235,
 "Fiserv Wants AI to Fix What Decades of Payments Growth Made Expensive": 1793721656.1315322,
 "GPUWorks Open-Sources 40MB Inference Platform Running Ascend, PPU, Hygon and NVIDIA in One Cluster": 1793775679.9726999,
@@ -3551,7 +3556,6 @@
 "Texas was the new epicenter of the AI data center buildout. That might be kaput.": 1793822506.1843824,
 "The AI-First Employee is Not What You Think": 1793685697.0865912,
 "The CFO\u2019s Guide to LLMjacking: When Stolen AI Becomes a 7-Figure Cloud Bill": 1793829656.040235,
-"The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering": 1793667672.5629272,
 "The biggest modding site in PC gaming is taking a stance on AI": 1793757673.5411654,
 "Three Members Behind Claude Code Leave Anthropic Within 10 Days": 1793775679.9726999,
 "Trading 212 adopts Cardamon AI for regulatory compliance": 1793815293.7176359,
@@ -3579,5 +3583,5 @@
 "webAI Releases TwIL-8B, an 8.8B Reasoning Model Scoring 98.2 on MATH-500": 1793833290.6101866,
 "\u2018Our Risk, Their Reward\u2019: Zohran Mamdani on AI and Data Centers": 1793707263.732745
 },
-"updated": 1793840445
+"updated": 1793844045
 }
