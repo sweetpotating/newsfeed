@@ -331,6 +331,7 @@
 "186a5b9acb49e0a8": 1793239255.9975548,
 "186bffbb68ed21de": 1792494078.2609813,
 "186dc11d38543110": 1792821693.2384803,
+"1885097ec0cd44f8": 1793966475.3938375,
 "188a0fbcbb4ecc69": 1793275278.3356981,
 "18a1129975f24317": 1793217670.0529811,
 "18a6b2b7c0dbde95": 1790290601.818761,
@@ -2129,6 +2130,7 @@
 "9bfa17b8f1bf0423": 1791316880.7900195,
 "9c038834472b4bc4": 1791286939.2440028,
 "9c1bbdcdebca21e2": 1792926048.2315838,
+"9c5d9f5dee01f487": 1793966472.3986673,
 "9c83e256b2ba058c": 1791453672.993573,
 "9c8f53a0a8f0feb8": 1793224870.9615343,
 "9ca49938cf8008d0": 1793545246.4063282,
@@ -3494,7 +3496,6 @@
 "ffe9771dd0f2e869": 1791680450.3528528
 },
 "titles": {
-"84% See AI Productivity Gains, but Only 10% Allow Agent Autonomy: TCS Study": 1793793648.4330757,
 "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.": 1793876458.834489,
 "A YC startup is putting $1M behind five unsolved materials science problems for AI": 1793883663.3914738,
 "A new way to shop: Introducing a more intuitive, agentic shopping experience for consumers and retailers in Canada": 1793818890.1194491,
@@ -3517,6 +3518,7 @@
 "Ant launches Ling-3.2-flash multimodal model with million-token context": 1793952061.4122705,
 "Anthropic loses product lead Catherine Wu behind Claude Code to OpenAI": 1793883663.3914738,
 "Anthropic reverses course and pays for news content for the first time": 1793890858.1866236,
+"Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation": 1793966475.3938406,
 "Apple Cuts Engineering AI Spending Cap by One-Third": 1793840445.119258,
 "Apple\u2019s China AI partner has had a rough ride": 1793955643.4756305,
 "Aracore and Dozn partner to bridge Korean financial infrastructure and global stablecoin settlement": 1793887256.6243565,
@@ -3554,7 +3556,6 @@
 "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure": 1793894473.645193,
 "DuckDuckGo pitches itself to schools amid backlash over Google\u2019s AI policy": 1793822506.1843824,
 "Egyptian and Nigerian English join the Open ASR Leaderboard": 1793959268.683527,
-"Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms": 1793790068.8266506,
 "Expedia Says Travelers Plan With AI Agents but Book Direct": 1793844045.3600802,
 "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes": 1793829656.040235,
 "FinTechs Hand AI Agents the Company Card": 1793905256.6244273,
@@ -3626,7 +3627,6 @@
 "Sierra acquires Anon": 1793898072.2908099,
 "Sierra inducted into JPMorganChase Hall of Innovation": 1793923274.2582786,
 "Smaller Language Models Could Reshape How Enterprises Deploy AI": 1793959268.683527,
-"Snowflake Introduces Business Ontology, Cortex AI Gateway to Bring AI Agents Into Enterprise Workflows": 1793790068.8266506,
 "Sunrate launches Agentic Card for AI agent-initiated business payments": 1793797282.7156408,
 "SuperCLUE Office Agent Benchmark Crowns Doubao Work Ahead of Kimi Work and WorkBuddy": 1793865664.5029984,
 "S\u2019pore exploring adapting web domain name system to track AI agents, need for national registry": 1793804491.564521,
@@ -3656,5 +3656,5 @@
 "openJiuwen's Hyper-Agent Swarm Puts Persistent AI Agents Into Work Chats as Digital Employees": 1793847665.2363932,
 "webAI Releases TwIL-8B, an 8.8B Reasoning Model Scoring 98.2 on MATH-500": 1793833290.6101866
 },
-"updated": 1793962857
+"updated": 1793966475
 }
