@@ -961,6 +961,7 @@
 "43a838e64035d2ae": 1792137690.6971,
 "43b92d35f9e6db57": 1791482464.3900445,
 "43beed8f57fb7253": 1793761252.3211908,
+"43debe4fe2ca78f3": 1793998874.5404348,
 "43ef54e74d276082": 1791561686.0913327,
 "43f173f73c238573": 1793923265.0683343,
 "4413e37bc76e268b": 1792764093.3299913,
@@ -3535,9 +3536,9 @@
 "Accelerating Agentic AI in the Commercial Space": 1793836864.3229861,
 "Ads in Chatbots Have Arrived. Here\u2019s What\u2019s Working\u2014and What\u2019s Not": 1793916050.3544965,
 "Agentic Commerce Optimization: Adobe Forecasts 130% AI Shopping Traffic Growth; Google Launches Universal Cart": 1793905256.6244273,
-"Agile Deliberation: How AI helps humans define the gray areas": 1793822506.1843824,
 "Aina\u2019s smart ring has a screen, a joystick and a mic so you can talk to AI agents": 1793894473.645193,
 "Airbnb is working on an AI travel agent": 1793926850.2845063,
+"All the latest updates on AI data centers": 1793998874.5404384,
 "Almost no one uses AI agents to book their Uber, company says": 1793829656.040235,
 "Amazon will let you text Alexa your shopping list": 1793977254.3015406,
 "Amwell Says One-Third of Adults Now Using AI Health Tools": 1793826088.9125457,
@@ -3549,7 +3550,6 @@
 "Apple Cuts Engineering AI Spending Cap by One-Third": 1793840445.119258,
 "Apple\u2019s China AI partner has had a rough ride": 1793955643.4756305,
 "Aracore and Dozn partner to bridge Korean financial infrastructure and global stablecoin settlement": 1793887256.6243565,
-"As AI Listens In on Doctor Visits, States Are Writing the Rules": 1793822506.1843824,
 "Australian universities are creating AI-native graduates": 1793934075.7487774,
 "Axiom Math wants to keep AI slop out of mathematics": 1793912480.2472446,
 "BILL Slashes Underwriting Times From 3 Hours to 12 Minutes With AI": 1793930442.2752752,
@@ -3576,7 +3576,6 @@
 "DOJ Launches Super Intelligence Task Force to Combat AI Fraud and Hacks": 1793912480.2472446,
 "DeepSeek Harness Reaches 1.54 Million Daily Users and Plans an Official Plugin Marketplace": 1793934075.7487774,
 "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure": 1793894473.645193,
-"DuckDuckGo pitches itself to schools amid backlash over Google\u2019s AI policy": 1793822506.1843824,
 "Egyptian and Nigerian English join the Open ASR Leaderboard": 1793959268.683527,
 "Exclusive: Synctera Raises $24.5M as It Expands BaaS Network": 1793977254.3015406,
 "Expedia Says Travelers Plan With AI Agents but Book Direct": 1793844045.3600802,
@@ -3655,7 +3654,6 @@
 "Tabs partners Adyen to bring payment processing directly into invoicing and revenue platform": 1793912480.2472446,
 "Tech Giants Ration Premium AI as Company Budgets Hold": 1793995253.3667347,
 "Tencent releases Hy4 with vision and computer use, claims second place among Chinese AI models": 1793912480.2472446,
-"Texas was the new epicenter of the AI data center buildout. That might be kaput.": 1793822506.1843824,
 "The Anthropic-Indian IT Partnership Is a Two-Way Bet": 1793869246.9105618,
 "The CFO\u2019s Guide to LLMjacking: When Stolen AI Becomes a 7-Figure Cloud Bill": 1793829656.040235,
 "The brokers are coming | TWIF MENA": 1793858461.9244678,
@@ -3665,7 +3663,6 @@
 "ToyBlocks: A controlled world for robot learning and evaluation": 1793977254.3015406,
 "Transform a quick drawing into a live app with Gemini.": 1793901653.3671296,
 "Travis Credit Union turns to Finalytics.ai for personalised digital experience": 1793836864.3229861,
-"Verifone Turns to Visa\u2019s Featurespace to Combat Fraud": 1793822506.1843824,
 "Visa sets up six hubs in Singapore for AI and \u2018next-generation payments\u2019": 1793948465.430617,
 "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard": 1793887256.6243565,
 "Western Union Fights Revenue Slump With Stablecoin Card": 1793851250.1854157,
@@ -3677,5 +3674,5 @@
 "webAI Releases TwIL-8B, an 8.8B Reasoning Model Scoring 98.2 on MATH-500": 1793833290.6101866,
 "\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.": 1793988067.5378294
 },
-"updated": 1793995253
+"updated": 1793998874
 }
