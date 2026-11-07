@@ -3459,6 +3459,7 @@
 "fb12232402883e09": 1791309698.9488075,
 "fb256eff5e993745": 1792706462.9520597,
 "fb2e89b86d09726b": 1792011688.2757576,
+"fb322533d482b157": 1794049270.6230848,
 "fb38713656330def": 1792497657.9640799,
 "fb447bf808c767fe": 1792713665.7832685,
 "fb4a661c9abeb9ad": 1792450867.4740722,
@@ -3523,10 +3524,8 @@
 "ffe9771dd0f2e869": 1791680450.3528528
 },
 "titles": {
-"A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.": 1793876458.834489,
 "A YC startup is putting $1M behind five unsolved materials science problems for AI": 1793883663.3914738,
 "AI Companies Really, Really Want to Buy Your Work Files and Emails": 1793984481.0235586,
-"AI accounting platform Kabilio raises \u20ac10m": 1793872861.2242215,
 "AI agents went shopping for TVs and laptops\u2014and messed up nearly 50% of the time, study shows": 1793883663.3914738,
 "AI is the new dating dealbreaker": 1793984481.0235586,
 "AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025": 1793912480.2472446,
@@ -3549,13 +3548,12 @@
 "BILL Slashes Underwriting Times From 3 Hours to 12 Minutes With AI": 1793930442.2752752,
 "BMO Using Agentic AI to Help Credit Card Clients Get Faster Answers and Resolutions": 1793988067.5378294,
 "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model": 1793901653.3671296,
-"Big Tech\u2019s big AI buildout will not end until someone stops it": 1793876458.834489,
+"Binance Hack Shows How Attackers Can Turn a Company\u2019s Own Systems Against It": 1794049270.6230874,
 "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI": 1793952061.4122705,
 "CaixaBank strengthens its partnership with Palo Alto Networks to tackle advanced AI threats": 1793880079.1486628,
 "Capital One\u2019s Payments CTO on What It Takes to Move Money in Seconds": 1793905256.6244273,
 "China Seeks Comment on Robot Identification Codes Covering All Robot Categories": 1794038467.9343534,
 "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact": 1793934075.7487774,
-"China blocks SoftBank\u2019s US$5.4 billion takeover of ABB\u2019s robotics division": 1793876458.834489,
 "China reportedly recruited AI exec to spy on Jensen Huang": 1794006076.8601792,
 "China\u2019s AI chipmakers report first profits, but will the trend continue?": 1793962857.996244,
 "China\u2019s AI models, led by Kimi, dominate open-source enterprise spending": 1793980873.2722602,
@@ -3609,7 +3607,6 @@
 "Nivo launches site to let lenders try its AI assistnat": 1793980873.2722602,
 "No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark": 1793898072.2908099,
 "OpenAI bugging suspect Alfozan pleads not guilty": 1793995253.3667347,
-"OpenAI pledges to pay for data center power after election highlights AI concerns": 1793876458.834489,
 "OpenAI president Greg Brockman says company could be IPO ready in 2027": 1793905256.6244273,
 "OpenAI released a new cybersecurity model. Is that enough?": 1793908892.6428814,
 "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation": 1794006076.8601792,
@@ -3629,7 +3626,6 @@
 "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model": 1793995253.3667347,
 "Sand.ai raises $200 million ahead of MAGI-2 video model release": 1793952061.4122705,
 "Sardine launches Know Your Human protocol for AI agents": 1793962857.996244,
-"Setting a new standard for responsible AI infrastructure": 1793876458.834489,
 "Should Mastercard (MA) Investors Watch Its AI Bet And Card Rule Risk?": 1794034843.0337481,
 "Sierra acquires Anon": 1793898072.2908099,
 "Sierra inducted into JPMorganChase Hall of Innovation": 1793923274.2582786,
@@ -3651,5 +3647,5 @@
 "You can post AI music straight to SoundCloud from ElevenLabs": 1793890858.1866236,
 "\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.": 1793988067.5378294
 },
-"updated": 1794045651
+"updated": 1794049270
 }
