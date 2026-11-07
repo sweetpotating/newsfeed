@@ -302,6 +302,7 @@
 "162568b7abd5180b": 1791475265.3904877,
 "1649c5dd07045357": 1793401259.0842178,
 "165cb15531466377": 1792530080.8306975,
+"1677fa73b2cf64b3": 1794009655.5951064,
 "169442a4ef967e4f": 1792076435.8577428,
 "16a5c606977328e1": 1793530839.8896687,
 "16af82df22e357c2": 1792105288.7451375,
@@ -1070,6 +1071,7 @@
 "4c575c1d8a22e4c2": 1792760458.181828,
 "4cced70e21df2cbb": 1793196045.8043706,
 "4cfa73e20de35720": 1790564940.1151152,
+"4d307ccd94cdc8f5": 1794009652.5746217,
 "4d48e5b2cba63e95": 1792976442.0855875,
 "4d5513296a42082a": 1792040479.1550539,
 "4d55e08348423f1a": 1792105288.7451375,
@@ -2822,6 +2824,7 @@
 "cb5f51751d0b425a": 1792627287.6907094,
 "cba9b35f1edbcde8": 1793030485.3745852,
 "cbb957beb29459b9": 1790677166.4560523,
+"cbbc10579365aeea": 1794009652.5746217,
 "cbc46bb656514fd5": 1793098846.6975708,
 "cbc887d67feaee01": 1792515680.37469,
 "cbda9e38575e0983": 1793977241.1372373,
@@ -3522,9 +3525,7 @@
 "titles": {
 "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.": 1793876458.834489,
 "A YC startup is putting $1M behind five unsolved materials science problems for AI": 1793883663.3914738,
-"A thousand fewer paths to root": 1793833290.6101866,
 "AI Companies Really, Really Want to Buy Your Work Files and Emails": 1793984481.0235586,
-"AI PACs spent millions trying to shape Congress \u2014 here\u2019s how they fared": 1793833290.6101866,
 "AI accounting platform Kabilio raises \u20ac10m": 1793872861.2242215,
 "AI agents went shopping for TVs and laptops\u2014and messed up nearly 50% of the time, study shows": 1793883663.3914738,
 "AI is the new dating dealbreaker": 1793984481.0235586,
@@ -3601,7 +3602,6 @@
 "MercadoLibre Expands AI War Chest by $30 Million in Q3": 1793851250.1854157,
 "Mercedes Hopes to Woo Motorists With In-Car Conversational AI": 1793901653.3671296,
 "Merge builds product and business tools with OpenAI technology": 1793923274.2582786,
-"Meta acquires AI coding startup Conductor": 1793833290.6101866,
 "Meta introduces Spaces, a new way to collaborate with your Muse agent": 1793991667.8729904,
 "Meta says US users can now video chat with their Muse AI avatar": 1793908892.6428814,
 "Meta warns that election backlash against data centers could make AI expansion harder": 1793908892.6428814,
@@ -3620,6 +3620,7 @@
 "OpenAI released a new cybersecurity model. Is that enough?": 1793908892.6428814,
 "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation": 1794006076.8601792,
 "OpenAI says its new cybersecurity model is better at not hacking other companies": 1793898072.2908099,
+"OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO": 1794009655.5951092,
 "OpenAI's GPT-6 Astra quietly sabotaged safety research by inventing fake obstacles": 1793890858.1866236,
 "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off": 1793991667.8729904,
 "Oracle reportedly cancels $7 billion Tencent AI chip lease under US pressure": 1793862051.3263795,
@@ -3630,7 +3631,6 @@
 "Perplexity launches its own take on AI agents for work": 1793919679.844934,
 "Physicl raises $10M to make the digital world real enough for robots": 1793970041.1411364,
 "Powered by GPT-6, Unitree humanoid robots master painting, chess without training, says CEO": 1793880079.1486628,
-"Qualcomm is betting big on data centers as smartphone sales sink": 1793833290.6101866,
 "Ramp data shows AI spending stalling just as Anthropic nears its IPO": 1793980873.2722602,
 "Reap, Meitu's EveLab Insight, and Pivota Sign MOU to Explore Bringing Agentic Beauty Shopping to Life": 1793890858.1866236,
 "Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1": 1793836864.3229861,
@@ -3662,8 +3662,7 @@
 "You can edit your videos with AI on Instagram&#8217;s new desktop Edits app": 1793894473.645193,
 "You can post AI music straight to SoundCloud from ElevenLabs": 1793890858.1866236,
 "openJiuwen's Hyper-Agent Swarm Puts Persistent AI Agents Into Work Chats as Digital Employees": 1793847665.2363932,
-"webAI Releases TwIL-8B, an 8.8B Reasoning Model Scoring 98.2 on MATH-500": 1793833290.6101866,
 "\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.": 1793988067.5378294
 },
-"updated": 1794006076
+"updated": 1794009655
 }
