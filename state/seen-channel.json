@@ -349,6 +349,7 @@
 "191aaec3f9c4d9c9": 1791964876.6894073,
 "19244c7aa2063fd3": 1793635233.8520315,
 "1935c99ba905909f": 1792144866.9756327,
+"194ae44d1c667122": 1794045651.2448406,
 "196545ede5eab3f9": 1791936069.812586,
 "196e70fa588983e2": 1793829656.0402293,
 "19c41980914c48ce": 1791222252.166783,
@@ -1560,6 +1561,7 @@
 "7201f15fe5a7e2f6": 1792756842.0134695,
 "720dd4e0becf754d": 1791885686.4129477,
 "721d6114af982f69": 1790373359.4344556,
+"72206434ff666985": 1794045647.431797,
 "7234b90d06e10329": 1792389655.9811356,
 "72483bcf1de60f16": 1793178062.2845435,
 "72690b9f256b5c8f": 1793890858.186617,
@@ -2741,6 +2743,7 @@
 "c4ab93c0b8a9ae20": 1793905256.624421,
 "c4bc0b86f49720f9": 1792659663.396199,
 "c4c10268d737b6bb": 1792713665.7832685,
+"c4db962e9858bd67": 1794045647.431797,
 "c4e006b1fa04ee2f": 1792969246.1564002,
 "c4f5d2954769947b": 1793822506.1843767,
 "c5174bf0def542ef": 1792764078.001223,
@@ -3578,6 +3581,7 @@
 "Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets": 1793980873.2722602,
 "Geekplus Shows Its RoboShuttle Hyper Climbing Robot at CeMAT Asia, Rated at 6,000 Totes an Hour": 1793934075.7487774,
 "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips": 1793901653.3671296,
+"Google's AI detects high blood pressure from a regular smartwatch without a cuff": 1794045651.244845,
 "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable": 1793916050.3544965,
 "Grimes is going to star in an AI movie that\u2019s coming to theaters": 1793898072.2908099,
 "He Trolls AI Labs for a Living. Now They All Want to Work With Him": 1793880079.1486628,
@@ -3634,10 +3638,8 @@
 "Tabs partners Adyen to bring payment processing directly into invoicing and revenue platform": 1793912480.2472446,
 "Tech Giants Ration Premium AI as Company Budgets Hold": 1793995253.3667347,
 "Tencent releases Hy4 with vision and computer use, claims second place among Chinese AI models": 1793912480.2472446,
-"The Anthropic-Indian IT Partnership Is a Two-Way Bet": 1793869246.9105618,
 "The hidden supply chain costs of the AI boom": 1793894473.645193,
 "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models": 1793977254.3015406,
-"Together AI Releases Together Compiler: Agents Make Inference Up to 2.6x Faster": 1793869246.9105618,
 "ToyBlocks: A controlled world for robot learning and evaluation": 1793977254.3015406,
 "Transform a quick drawing into a live app with Gemini.": 1793901653.3671296,
 "Unitree and Star Plus Legend Launch Limited-Edition UNI-DOGGIE Robot at 43,900 Yuan": 1794020461.744395,
@@ -3649,5 +3651,5 @@
 "You can post AI music straight to SoundCloud from ElevenLabs": 1793890858.1866236,
 "\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.": 1793988067.5378294
 },
-"updated": 1794038467
+"updated": 1794045651
 }
