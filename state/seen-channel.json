@@ -441,6 +441,7 @@
 "1f9981de57006417": 1793923274.258275,
 "1fe92835ad3abafe": 1793127679.7415578,
 "1fed12f6e77e56e4": 1793253678.6980128,
+"200b22ecbd3445f9": 1794146468.796737,
 "201478933d15e267": 1790700237.2549658,
 "201b03bbc1c1bd15": 1793797274.0647988,
 "201ffc9996955dc8": 1791468077.6753523,
@@ -2402,6 +2403,7 @@
 "ae1b70b41ed33f9b": 1794060045.5879135,
 "ae3e59418abf5172": 1791990117.0549414,
 "ae3eb7d7faa46b1a": 1790373371.6462529,
+"ae4704feeb848dca": 1794146468.796737,
 "ae5525fbdaecfe8a": 1793923265.0683343,
 "ae64b9dd0e61f9ae": 1793005294.2765334,
 "ae74c18a1dd619c1": 1791561686.0913327,
@@ -2806,6 +2808,7 @@
 "ca91a3caae732704": 1790401548.552749,
 "caa6203fc500b5ac": 1791910847.7944787,
 "cac8f0705a231705": 1793826088.9125378,
+"cacfe991017fc641": 1794146468.796737,
 "cadb42495d335e1c": 1792432845.4123356,
 "cb1ce2b14a3882eb": 1793620868.4810832,
 "cb2b7482c1c8e800": 1792191647.988192,
@@ -3526,6 +3529,7 @@
 "AI will soon master biology, unleashing new safety risks, Tencent AI chief warns": 1794135647.1085749,
 "All the latest updates on AI data centers": 1793998874.5404384,
 "Amazon will let you text Alexa your shopping list": 1793977254.3015406,
+"Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again": 1794146468.796741,
 "America's newest small business owners with no employees are off to a hot start in AI era": 1794063675.003092,
 "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough": 1794052845.6061568,
 "BMO Using Agentic AI to Help Credit Card Clients Get Faster Answers and Resolutions": 1793988067.5378294,
@@ -3579,6 +3583,7 @@
 "Tech companies face mounting child safety lawsuits while pushing AI into schools": 1794056477.1641023,
 "Tencent Upgrades WorkRally With Three Video Models and Expands Beyond Animated Short Dramas": 1794103237.8414543,
 "The US let Nvidia sell chips to an empty office in China": 1794067279.1908925,
+"The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate": 1794146468.796741,
 "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts": 1794139237.7843518,
 "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models": 1793977254.3015406,
 "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs": 1794070858.8510735,
@@ -3588,7 +3593,8 @@
 "Why Is Visa (V) Building AI Shopping Standards And Six Singapore Hubs?": 1794056477.1641023,
 "World Models Will Soon Be Inescapable. Here\u2019s What You Need to Know": 1794135647.1085749,
 "X-Humanoid Releases Hi-WBC Whole-Body Control Model for Tiangong Humanoid Robots": 1794103237.8414543,
-"\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.": 1793988067.5378294
+"\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.": 1793988067.5378294,
+"\ud83e\udde0 Revolut is worth more than BNY or Barclays": 1794146468.796741
 },
-"updated": 1794142873
+"updated": 1794146468
 }
