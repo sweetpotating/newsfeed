@@ -1277,6 +1277,7 @@
 "5d5ff332a0b6b5ff": 1793048454.7593112,
 "5d83d2b928f9d13d": 1791964891.1786637,
 "5d99fcfae922332b": 1793473219.699391,
+"5da43dd2846ea7ba": 1794142869.4087257,
 "5db85db4ae056d9a": 1792400480.5167532,
 "5de6cba027f27e04": 1793106081.0016658,
 "5df103378b21f149": 1793451667.2566395,
@@ -1298,6 +1299,7 @@
 "5f190a0f6c2ba02b": 1793952061.412267,
 "5f261f8d09101946": 1792162855.0525935,
 "5f3cdcd96c1ba65e": 1790808384.201728,
+"5f49ba9c89e5136b": 1794142873.7425437,
 "5f552ddfe6e8660b": 1791813685.9780622,
 "5f89655c229be9ea": 1790359844.6465435,
 "5fa2dbb615773d8d": 1792720876.8989043,
@@ -3525,7 +3527,6 @@
 "All the latest updates on AI data centers": 1793998874.5404384,
 "Amazon will let you text Alexa your shopping list": 1793977254.3015406,
 "America's newest small business owners with no employees are off to a hot start in AI era": 1794063675.003092,
-"Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation": 1793966475.3938406,
 "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough": 1794052845.6061568,
 "BMO Using Agentic AI to Help Credit Card Clients Get Faster Answers and Resolutions": 1793988067.5378294,
 "Binance Hack Shows How Attackers Can Turn a Company\u2019s Own Systems Against It": 1794049270.6230874,
@@ -3566,9 +3567,9 @@
 "OpenCSG Releases Agentic-27B for Tool Workflows, With Commercial Use Requiring Permission": 1794038467.9343534,
 "Paraguay Seizes Neobank Ueno, Freezing Savings for Nearly 3 Million Customers": 1793984481.0235586,
 "Partnering with Hacktron to find vulnerabilities in OpenAI\u2019s systems": 1793991667.8729904,
-"Physicl raises $10M to make the digital world real enough for robots": 1793970041.1411364,
 "Pliant and Kalepa Land $155M for Payments and AI Underwriting | Fundraises": 1794056477.1641023,
 "Ramp data shows AI spending stalling just as Anthropic nears its IPO": 1793980873.2722602,
+"Razorpay Eyes IPO as Dealmakers Target Insurance and Payments | Exits & Deep Reads": 1794142873.742548,
 "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model": 1793995253.3667347,
 "Robotaxis are taking over China\u2019s cities. What are they actually like to ride?": 1794060051.5461948,
 "Should Mastercard (MA) Investors Watch Its AI Bet And Card Rule Risk?": 1794034843.0337481,
@@ -3589,5 +3590,5 @@
 "X-Humanoid Releases Hi-WBC Whole-Body Control Model for Tiangong Humanoid Robots": 1794103237.8414543,
 "\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.": 1793988067.5378294
 },
-"updated": 1794139237
+"updated": 1794142873
 }
