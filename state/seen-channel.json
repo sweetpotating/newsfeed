@@ -50,6 +50,7 @@
 "034dab9c36f5facb": 1792659663.396199,
 "03532706db96962c": 1791457247.5616589,
 "036382b5f04fb791": 1791367278.9518652,
+"0372d61d4166b563": 1794214844.4441354,
 "0372f306fc02f092": 1793689260.1513393,
 "03b9e7158de57f8d": 1791381637.1326127,
 "03d60a9ffdd50cde": 1793048450.8831046,
@@ -3512,6 +3513,7 @@
 "ffe9771dd0f2e869": 1791680450.3528528
 },
 "titles": {
+"0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP": 1794214844.4441388,
 "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds": 1794070858.8510735,
 "AI broke the cybersecurity world. What\u2019s next?": 1794063675.003092,
 "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test": 1794132050.0473542,
@@ -3527,10 +3529,8 @@
 "Can DeepSeek challenge OpenAI, Anthropic in AI agents as Harness adoption takes off?": 1794207689.7432768,
 "Chatbots might be coming to Apple\u2019s HomeView": 1794150065.77584,
 "China Mobile Cloud and Zhipu Plan GLM Integration, Coding Products and Token Research": 1794189655.0474226,
-"China Seeks Comment on Robot Identification Codes Covering All Robot Categories": 1794038467.9343534,
 "China Telecom Upgrades TeleAgent to V3.0, Giving Its Agent a Dedicated Cloud Computer": 1794207689.7432768,
 "China\u2019s Pudu Robotics, which makes 80% of its sales abroad, takes on Tesla in humanoids": 1794128460.4295244,
-"DEEP Robotics Launches X50 Quadruped With a Claimed 50-Kilogram Working Payload": 1794038467.9343534,
 "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban": 1794060051.5461948,
 "Elvis and Eminem rights holders are suing Suno": 1794160877.733348,
 "Goke Plans GK6950 Edge AI Chip Series for Embodied Robots, With 10 TOPS and VLA Support": 1794207689.7432768,
@@ -3540,7 +3540,6 @@
 "Hide your slop PR descriptions behind <details><summary>": 1794200449.2712247,
 "How Dong Mingzhu, China\u2019s manufacturing \u2018iron lady\u2019, is maintaining her cool in the AI era": 1794178865.289927,
 "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide": 1794081665.2802432,
-"Huawei Releases Standalone HarmonyOS PC Assistant With Office Task Automation": 1794038467.9343534,
 "Is Jensen Huang\u2019s job on the line? Yale\u2019s Jeffrey Sonnenfeld estimates it\u2019s \u201cabout a 50-50\u201d": 1794204053.1780615,
 "JPMorgan and Mastercard back Seattle startup Firmly\u2019s bet on AI shopping agents": 1794078047.4427686,
 "LTM, ServiceNow to Expand Partnership to Scale AI Agent Deployments": 1794200449.2712247,
@@ -3552,7 +3551,6 @@
 "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link": 1794164458.1750758,
 "Nvidia says it\u2019s investigating CEO Jensen Huang\u2019s relationship with possible Chinese spy": 1794171658.7071292,
 "OpenAI Valuation Hits $1.25 Trillion in New Funding Round": 1794186057.4447,
-"OpenCSG Releases Agentic-27B for Tool Workflows, With Commercial Use Requiring Permission": 1794038467.9343534,
 "Pliant and Kalepa Land $155M for Payments and AI Underwriting | Fundraises": 1794056477.1641023,
 "PrimeBOT Reports 98% Monthly Activity as Personal-Robot Output Reaches 10,000": 1794189655.0474226,
 "Razorpay Eyes IPO as Dealmakers Target Insurance and Payments | Exits & Deep Reads": 1794142873.742548,
@@ -3576,5 +3574,5 @@
 "X-Humanoid Releases Hi-WBC Whole-Body Control Model for Tiangong Humanoid Robots": 1794103237.8414543,
 "\ud83e\udde0 Revolut is worth more than BNY or Barclays": 1794146468.796741
 },
-"updated": 1794211258
+"updated": 1794214844
 }
