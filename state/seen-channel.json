@@ -373,6 +373,7 @@
 "1918cffeae8e5d37": 1792706462.9520597,
 "191aaec3f9c4d9c9": 1791964876.6894073,
 "19244c7aa2063fd3": 1793635233.8520315,
+"19332df0511e62ee": 1794387657.1374352,
 "1935c99ba905909f": 1792144866.9756327,
 "194ae44d1c667122": 1794045651.2448406,
 "196545ede5eab3f9": 1791936069.812586,
@@ -786,6 +787,7 @@
 "34370e88c88d0cd4": 1793120474.4755538,
 "343945ee4a52ea70": 1791324058.9346046,
 "34517ce7900a3e1f": 1793883663.3914676,
+"345d8e22d0de7a94": 1794387648.3701751,
 "3463dae385b23504": 1791792041.202978,
 "346f461ac299a677": 1793919676.1671767,
 "34a0d46a487f40fb": 1793260838.206275,
@@ -898,6 +900,7 @@
 "3ae3244f0680b04c": 1793052556.6007133,
 "3b0f63c79e5a3be8": 1793203274.3899744,
 "3b17176f7cd0c1a9": 1791374451.90625,
+"3b1e7c7289ab7395": 1794387657.1374352,
 "3b21452d1ceb6b92": 1793350851.5438066,
 "3b44a74c8a193138": 1793210463.3807302,
 "3b45441a01797004": 1791529249.1425295,
@@ -3439,6 +3442,7 @@
 "ec2c529c8a706ef6": 1793926850.2845006,
 "ec32e76331857678": 1794056477.1640983,
 "ec3771fa6cdf25b0": 1793746858.3372252,
+"ec3ee37f2d7a776b": 1794387657.1374352,
 "ec52b9d1848488b3": 1793174451.0603533,
 "ec56094036c906f8": 1791316867.1318781,
 "ec5eb18792de3106": 1793484065.8936062,
@@ -3618,6 +3622,7 @@
 "f858c327f65f09d3": 1791363661.6811223,
 "f866fd5082fbd2b9": 1793649668.6335232,
 "f868683996992668": 1794200449.271221,
+"f87b8262a863559d": 1794387648.3701751,
 "f8b8b729d17f0244": 1792587646.1744637,
 "f8c541663459b642": 1793602849.6118255,
 "f8d9b6988196d819": 1792688475.8787105,
@@ -3724,7 +3729,6 @@
 "ffe9771dd0f2e869": 1791680450.3528528
 },
 "titles": {
-"0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP": 1794214844.4441388,
 "14-year-old creates tool for AI agents to band together like a team": 1794337284.9466593,
 "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure": 1794290475.0111074,
 "AI Startup Sierra Is an Anchor Tenant for $300 Million Bond Deal": 1794340881.8314648,
@@ -3792,6 +3796,7 @@
 "Financial intelligence platform geniosAI raises $19.1m": 1794240062.866055,
 "Finovox detects more than \u20ac100,000 in AI-related fraud every month": 1794315672.6959739,
 "Fiserv\u2019s Clover Adds AI Tools to Help Small Businesses Reach eCommerce Shoppers": 1794344466.4654725,
+"Fish Audio Releases Live 3, a Full-Duplex Voice Model That Reacts in 186 ms": 1794387657.1374395,
 "Former Toutiao CEO Chen Lin confirms AI education venture": 1794304869.809632,
 "Froncort.AI Gets $2.3M From Google.org to Expand AI-Based Disease Screening in India": 1794312094.3635976,
 "GTN appoints former Gemini and Kraken executive Mark Jennings as global head of digital assets": 1794301266.9647436,
@@ -3847,10 +3852,12 @@
 "Morgan Stanley Taps Hyperlayer to Put Loan Proceeds in Existing Client Accounts, With Rules Built In": 1794301266.9647436,
 "Morgan Stanley agrees to buy transfer agent Vinyl Equity": 1794243652.5738215,
 "Mphasis Raises FY27 Growth Outlook After 9.2% Dollar Revenue Growth in Q2": 1794276064.3040926,
+"NHA Selects EkaCare for AI Voice Scribe in Public Health Facilities": 1794387657.1374395,
 "NSE Launches Stock Discovery Platform, Adds AI Features": 1794222061.1756961,
 "Nancy Pelosi\u2019s replacement is ready to regulate AI": 1794247283.6150904,
 "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context": 1794240062.866055,
 "Noitom Robotics Opens HiPHI-Hand Dataset, Used to Train NVIDIA's EgoHand Model": 1794297690.9672706,
+"Nvidia CEO Jensen Huang\u2019s affair: everything you need to know": 1794387657.1374395,
 "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation": 1794355256.4202235,
 "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot": 1794337284.9466593,
 "OpenAI acquires Odessia, travel startup created by Sonder founder": 1794348052.125867,
@@ -3903,5 +3910,5 @@
 "iDenfy connects Claude to KYC and AML data with MCP": 1794330071.9605453,
 "\u2018Adding fuel to fire\u2019: how Nvidia CEO\u2019s troubles, US midterms may tighten China chip curbs": 1794322898.6691005
 },
-"updated": 1794384081
+"updated": 1794387657
 }
