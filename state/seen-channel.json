@@ -1333,6 +1333,7 @@
 "5ad4c3d41cf7df5d": 1791414082.9642115,
 "5ad6e09dca7f00be": 1791986444.8935993,
 "5ad7d990f4fc7246": 1792828850.0353067,
+"5ade8b4886ffafab": 1794391277.6739137,
 "5adf776b0dbfc51e": 1791324045.4641411,
 "5ae44d23e14120c9": 1793206865.1432414,
 "5ae9ec28c5b36428": 1794265276.148046,
@@ -1845,6 +1846,7 @@
 "7e5283080124dfe9": 1792605679.7699463,
 "7e60f5237eddc095": 1791914442.0656986,
 "7e60fc823fb9e457": 1793275278.3356981,
+"7e65614cc89aac7b": 1794391277.6739137,
 "7e67b43cf9d0e609": 1790887494.0866246,
 "7e7376278fa1171e": 1792969246.1564002,
 "7e8594dbc36408c4": 1791381637.1326127,
@@ -2788,6 +2790,7 @@
 "bd181f82b7955163": 1793102450.4789937,
 "bd204e66be393836": 1791403264.712308,
 "bd319a3055e2f967": 1793898072.2908034,
+"bd3796f8b7aa12e5": 1794391268.7893672,
 "bd47999705b6e30a": 1792591280.9206808,
 "bd4af7cb3c22c7d8": 1792612861.3039188,
 "bd4b64b234417dbe": 1793732451.5619307,
@@ -3034,6 +3037,7 @@
 "ced4faa30bf1c294": 1792573279.0653114,
 "ceea262f65d9798e": 1791414070.5968428,
 "cef875715cea228a": 1793253678.6980128,
+"cf097931c31f1b57": 1794391277.6739137,
 "cf1597b2943daf21": 1793646058.9851842,
 "cf262f69ce9350a4": 1791414082.9642115,
 "cf29ce376c8be3ff": 1793829656.0402293,
@@ -3744,6 +3748,7 @@
 "Agentic commerce is slow to catch on": 1794319267.3203492,
 "Alibaba Folds Qoder's Harness Into Qwen Code 1.0 Preview and Open-Sources the Combined Agent Core": 1794384081.8695898,
 "Alibaba opens Qwen4-Max preview with a million-token context window": 1794380464.4456117,
+"Alibaba readies T-Head chip IPO as Hong Kong frenzy cools": 1794391277.6739173,
 "Alibaba's Qianwen Office 2.0 Brings AI Agents Into Team Workspaces and Event-Triggered Tasks": 1794279657.1020746,
 "Altegio Announces Open Platform Connecting Beauty and Wellness Businesses With AI Agents at Web Summit 2026": 1794304869.809632,
 "Amazon and Walmart Bring AI Agents Closer to the Purchase": 1794304869.809632,
@@ -3764,6 +3769,7 @@
 "BioCatch launches AiRE to detect AI agents in digital banking": 1794322898.6691005,
 "Blue J raises $176M to put AI agents to work for tax professionals": 1794333660.033999,
 "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model": 1794376859.7004833,
+"Bottomline Sees Expertise Turning AI Potential Into Customer Value": 1794391277.6739173,
 "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift": 1794250860.5491233,
 "Can You Trust Your \u2018Instinct\u2019 and Not \u2018Muse\u2019 Over the Risks?": 1794380464.4456117,
 "ChatGPT Enterprise now available in AWS Marketplace": 1794254503.124878,
@@ -3790,6 +3796,7 @@
 "EXL Acquires Aimpoint Digital, Adds 250 AI and Data Experts": 1794229280.4384463,
 "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration": 1794319267.3203492,
 "Exclusive: Addition Wealth Launches AI Financial Guidance Platform for Firms and Employers": 1794330071.9605453,
+"Experience the art and legacy of Dr. Esther Mahlangu": 1794391277.6739173,
 "FCA explores use of quantum computing to tackle financial crime": 1794258068.0713933,
 "FI Works launches Signals to turn predictive insights into action": 1794326477.4426975,
 "Feedvisor Expands Agentic Commerce Platform to Target Growing Amazon Business Demand": 1794272454.9585447,
@@ -3910,5 +3917,5 @@
 "iDenfy connects Claude to KYC and AML data with MCP": 1794330071.9605453,
 "\u2018Adding fuel to fire\u2019: how Nvidia CEO\u2019s troubles, US midterms may tighten China chip curbs": 1794322898.6691005
 },
-"updated": 1794387657
+"updated": 1794391277
 }
