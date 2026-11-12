@@ -1394,6 +1394,7 @@
 "5df103378b21f149": 1793451667.2566395,
 "5df45c5813134c05": 1791586891.097981,
 "5dfaa1d43f85e664": 1791810057.5501199,
+"5dfecc90bf73a5f6": 1794470453.8859265,
 "5e1efc2de8038f08": 1791309687.0431135,
 "5e1f724b467d598c": 1793656859.0131285,
 "5e2926bd75b635c0": 1793624439.472544,
@@ -3798,7 +3799,6 @@
 "titles": {
 "14-year-old creates tool for AI agents to band together like a team": 1794337284.9466593,
 "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn\u2019t Get Flagged for Weeks": 1794398478.8047795,
-"A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure": 1794290475.0111074,
 "A Startup Wants to Fight AI Bioweapons With AI": 1794420085.9998991,
 "AI Startup Sierra Is an Anchor Tenant for $300 Million Bond Deal": 1794340881.8314648,
 "AI agents are 'remarkable': OpenAI chairman talks compute & AI spending": 1794319267.3203492,
@@ -3884,6 +3884,7 @@
 "IBM and Microsoft Launch AI Agent Platform": 1794330071.9605453,
 "Introducing the Multimodal Knowledge Agent benchmark": 1794330071.9605453,
 "Is AI-Powered Reverse Engineering the Death of Proprietary Software?": 1794312094.3635976,
+"Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit": 1794470453.8859298,
 "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO": 1794445252.6552808,
 "JioStar\u2019s chief architect on AI discovery at 500M-user scale": 1794423686.347029,
 "Lame Duck Congress Faces Deadline on Cybersecurity and AI Safety Bills": 1794337284.9466593,
@@ -3955,12 +3956,11 @@
 "With $720M round, Britain\u2019s Fractile gets a leg up in the race for AI chips": 1794427254.1836355,
 "Work at the Frontier: AI\u2019s effect on freelance work": 1794326477.4426975,
 "Would you trust an AI agent to buy for you?": 1794348052.125867,
-"Yonkers Rises": 1794294055.225285,
 "aws-emulator": 1794434442.241586,
 "eBay appears to have shut the door on third-party AI agents": 1794333660.033999,
 "iDenfy connects Claude to KYC and AML data with MCP": 1794330071.9605453,
 "zerohash acquires agent identity stack for agentic finance": 1794441676.6138341,
 "\u2018Adding fuel to fire\u2019: how Nvidia CEO\u2019s troubles, US midterms may tighten China chip curbs": 1794322898.6691005
 },
-"updated": 1794463254
+"updated": 1794470453
 }
