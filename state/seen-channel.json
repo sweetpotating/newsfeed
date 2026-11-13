@@ -12,6 +12,7 @@
 "00b7aa4013b52627": 1791903651.7080472,
 "00d0d59372931171": 1791450054.5819125,
 "00eca51ea171cc65": 1793368858.6763177,
+"00f05659027cb0da": 1794564055.7324343,
 "00f080b3f0a008c5": 1792702885.8962634,
 "00fff3266c0f04ec": 1791831641.4483652,
 "010ce3e5a17d579d": 1791583248.0031066,
@@ -2047,6 +2048,7 @@
 "873ff9aa55ee4649": 1791406853.392855,
 "874e81390ba1f497": 1794315672.6959686,
 "8783e4a2648cf399": 1792789262.00231,
+"878bc719b07a3e14": 1794564058.85065,
 "87b165bfd5afc049": 1792710041.50489,
 "87f5b15c647b4558": 1792155700.8991632,
 "87fb0a63e0465e7d": 1793217657.0020387,
@@ -3317,6 +3319,7 @@
 "d7be410faf0160ad": 1794218483.3382032,
 "d7be822b1f8dc9d4": 1793689260.1513393,
 "d7e61bfb839a20fe": 1792605679.7699463,
+"d7e79e32eb234aa5": 1794564055.7324343,
 "d7f1887a1a48d911": 1792065692.9013379,
 "d80b176a094395dc": 1792029639.5986586,
 "d80c90fec8652b47": 1793178074.096083,
@@ -3977,6 +3980,7 @@
 "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence": 1794492078.7687829,
 "Emirates NBD launches real-time AI market insights for digital wealth customers": 1794405680.5063205,
 "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic": 1794402049.7808404,
+"Exclusive | AI Bots Are Using Credit Cards. Banks Are Racing to Keep Up.": 1794564058.850653,
 "Experience the art and legacy of Dr. Esther Mahlangu": 1794391277.6739173,
 "FAA expands AI advice to manage air traffic congestion across entire US airspace": 1794524470.1799383,
 "Families fight to keep Google\u2019s \u201cdisturbing\u201d AI off school-issued Chromebooks": 1794510065.9161532,
@@ -4082,5 +4086,5 @@
 "aws-emulator": 1794434442.241586,
 "zerohash acquires agent identity stack for agentic finance": 1794441676.6138341
 },
-"updated": 1794560488
+"updated": 1794564058
 }
