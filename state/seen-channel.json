@@ -1351,6 +1351,7 @@
 "5870e55ace3bcf53": 1792512055.8162713,
 "58739aec69aaa3f2": 1792695680.247302,
 "5875d64b397c657e": 1792015236.1864834,
+"58875a887a87a119": 1794535253.8303645,
 "5897ae7669307a21": 1791489672.5341222,
 "589e973c3cbe359f": 1793826088.9125378,
 "58a62fc602a6c93b": 1792159288.733519,
@@ -3781,6 +3782,7 @@
 "f7655bc54a460563": 1794423675.19605,
 "f779195534441511": 1791507685.126156,
 "f77a0f9a2410ce3a": 1792540889.747899,
+"f79336ab59746f0e": 1794535253.8303645,
 "f7a784fd39e76d3c": 1792623681.877737,
 "f803261172feef3b": 1791504071.005736,
 "f80fcd0fc56f7e5a": 1793610079.886712,
@@ -3907,6 +3909,7 @@
 "ffe9771dd0f2e869": 1791680450.3528528
 },
 "titles": {
+"35,000 Exposed Grok Apps Reveal Vibe Coding\u2019s Hidden Cost": 1794535253.8303683,
 "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn\u2019t Get Flagged for Weeks": 1794398478.8047795,
 "A Startup Wants to Fight AI Bioweapons With AI": 1794420085.9998991,
 "AI Agent Emily Books, Bills and Refills for MUSC Health": 1794531670.944266,
@@ -3914,7 +3917,6 @@
 "AI Changes the Work, but Trust Remains Essential": 1794477652.4453533,
 "AI agents can now do the one thing subscription companies count on you not doing: cancel. The average U.S. consumer spent $1,887 on subscriptions in 2025, up from $1,416 in 2024, according to a Mastercard and FT Strategies report. Meta\u2019s Muse can flag f": 1794423686.347029,
 "AI chatbots are recommending fake retail websites, study finds": 1794502857.7552903,
-"AI could cut banking industry's cost base by 20% - McKinsey's": 1794358875.8746214,
 "AI is coming for consulting\u2019s billable hours \u2014 and its graduate pipeline": 1794477652.4453533,
 "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models": 1794452482.363533,
 "Alibaba Folds Qoder's Harness Into Qwen Code 1.0 Preview and Open-Sources the Combined Agent Core": 1794384081.8695898,
@@ -3922,6 +3924,7 @@
 "Alibaba readies T-Head chip IPO as Hong Kong frenzy cools": 1794391277.6739173,
 "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days": 1794409265.4644585,
 "Anthropic's IPO roadshow video": 1794412888.3868787,
+"Anthropic\u2019s Claude Tops AI Rankings as OpenAI Limits Cyber Model": 1794535253.8303683,
 "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing": 1794481272.9590313,
 "Axway launches platform to put banks in control of AI costs, data, and decision": 1794499261.71832,
 "Baidu Puts ERNIE Lightning Reasoning Model and ERNIE-Wizshot-ME Expressive Video Model on Qianfan": 1794474077.8565784,
@@ -3963,7 +3966,6 @@
 "Galbot's ET1 Humanoid Named Best of Innovation in Robotics in the CES Innovation Awards 2027": 1794384081.8695898,
 "Gemini Decisions API: Fast, calibrated multimodal decisions": 1794423686.347029,
 "Get quick answers from Gemini on any website.": 1794506483.6985147,
-"Gilbert + Tobin rethinks the business of law with AI": 1794358875.8746214,
 "Goldman Sees Anthropic Revenue Hitting $685 Billion by 2030": 1794427254.1836355,
 "Gondola doubles revenue as its team builds more with Codex": 1794528057.9730885,
 "Google Brings Gemini Live to Apple CarPlay": 1794441676.6138341,
@@ -4002,7 +4004,6 @@
 "Meet Netweb, the Only Indian Company Building NVIDIA-Certified GPU Servers": 1794481272.9590313,
 "Meta Taps Former AWS Executive to Lead Infrastructure as AI Spending Surges": 1794445252.6552808,
 "Mexican national accused of striking 2 federal agents with truck near Texas border": 1794430874.0057738,
-"Microsoft\u2019s DLSS competitor is out for the Xbox Ally X and works in handheld mode": 1794358875.8746214,
 "Money20/20 USA 2026 wrap-up: AI, stablecoins and control": 1794420085.9998991,
 "Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected": 1794452482.363533,
 "More game developers are starting to use generative AI": 1794506483.6985147,
@@ -4061,5 +4062,5 @@
 "aws-emulator": 1794434442.241586,
 "zerohash acquires agent identity stack for agentic finance": 1794441676.6138341
 },
-"updated": 1794531670
+"updated": 1794535253
 }
