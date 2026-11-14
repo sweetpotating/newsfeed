@@ -3374,6 +3374,7 @@
 "d8fcbe95f7c37ca0": 1791295267.8579457,
 "d90312195146aba2": 1793667668.9174228,
 "d9084629aaf8e159": 1792620082.2009807,
+"d92c984a09cf4648": 1794636065.5029166,
 "d942d6f02f28b831": 1794502857.7552814,
 "d94aaa32c8327d30": 1794225646.2268217,
 "d9590fb0416f65c0": 1793599270.3897393,
@@ -4084,6 +4085,7 @@
 "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility": 1794524470.1799383,
 "Nvidia without Jensen Huang. What lies ahead for Asian chipmakers?": 1794556864.8186898,
 "Only 35% Indian Enterprises are Prepared for AI Cyberattacks: Kyndryl Study": 1794474077.8565784,
+"OpenAI Introduces ChatGPT Wallet for Agent-Led Payments": 1794636065.5029194,
 "OpenAI Launches API Inference Residency in India": 1794474077.8565784,
 "OpenAI board member worries an AI \"takeover\" of society could be months away": 1794592858.7250645,
 "OpenAI enters the cybersecurity market with two Daybreak products": 1794585659.1706057,
@@ -4108,7 +4110,6 @@
 "Travelport and Mastercard complete live agentic flight booking": 1794574870.4401908,
 "United Bars AI Agents from Booking Flights": 1794528057.9730885,
 "United Blocks AI Agents as Airbnb and OpenAI Build Their Own": 1794542466.7538705,
-"Virtusa CEO Admits Losing Money on AI, But is Betting the House on Chips": 1794463254.7831142,
 "What Early Industrial Revolutions Can Teach Us About Inclusive AI Adoption": 1794484859.1616232,
 "When robots dive underwater, HeymanDex sees new possibilities for dexterous hands": 1794556864.8186898,
 "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit": 1794495665.0906537,
@@ -4120,5 +4121,5 @@
 "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem": 1794582054.049404,
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887
 },
-"updated": 1794632476
+"updated": 1794636065
 }
