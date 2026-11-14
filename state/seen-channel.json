@@ -2633,6 +2633,7 @@
 "a9241a5007f5c066": 1792425690.2334619,
 "a92667754bb129c0": 1794200449.271221,
 "a9467db859acc8aa": 1791626467.3472712,
+"a94ea3d980e940c8": 1794693639.5482597,
 "a971e3deafb8add4": 1790922892.816635,
 "a97398f76ee518bf": 1790967253.3896816,
 "a983df80f44acf5e": 1793545237.7925878,
@@ -4025,6 +4026,7 @@
 "Costco Trusts AI to Reorder Drugs. Most Retailers Won\u2019t": 1794614452.5718129,
 "DeepSeek Opens Its App's Search, File, OCR and Voice Tools as APIs So Developers Can Rebuild the App": 1794625258.2135887,
 "Deloitte acquires Flipside Crypto's AI business and launches Edisyl": 1794567656.1304524,
+"Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang": 1794693639.5482626,
 "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home": 1794661252.2605891,
 "Exclusive | AI Bots Are Using Credit Cards. Banks Are Racing to Keep Up.": 1794564058.850653,
 "Export-banned Nvidia chips are behind China\u2019s most powerful AI models\u2014uh oh, Jensen!": 1794596453.2666578,
@@ -4035,7 +4037,6 @@
 "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol": 1794675683.229478,
 "Gondola doubles revenue as its team builds more with Codex": 1794528057.9730885,
 "HiSilicon CS6286 Image Sensor Puts AI On-Chip, Stretching Dashcam Sentry Mode Past Seven Days": 1794538884.8136091,
-"How Amplitude ships product improvements in 1\u20132 days with OpenAI": 1794517261.085597,
 "How Verifiable Intent builds trust in agentic AI commerce": 1794560488.139754,
 "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model": 1794538884.8136091,
 "HubSpot Founder Returns as CEO": 1794520849.462427,
@@ -4092,5 +4093,5 @@
 "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem": 1794582054.049404,
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887
 },
-"updated": 1794686449
+"updated": 1794693639
 }
