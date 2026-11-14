@@ -1394,6 +1394,7 @@
 "59dfa4875ece3754": 1794495651.8508883,
 "5a3f1f4a82c5b0a8": 1791140247.136043,
 "5a449a1d2f9028eb": 1792141266.5976655,
+"5a6d6415ec595fb3": 1794646846.3316317,
 "5a7623e87e5a2b97": 1794531670.9442582,
 "5a886eeb9cafb65d": 1792900844.18529,
 "5a8a8cf37871920c": 1792184457.502605,
@@ -3427,6 +3428,7 @@
 "dcaa441159bbb0c0": 1793746858.3372252,
 "dccbd8fd540c8fea": 1792688475.8787105,
 "dcffbd6f25b8e4ce": 1794549668.4826608,
+"dd14c964ee1a1647": 1794646846.3316317,
 "dd390d9e8ff66368": 1792774854.2917356,
 "dd551b2149ddff66": 1792123273.7328389,
 "dd6cf3bb9adebafc": 1792710041.50489,
@@ -4009,6 +4011,7 @@
 "ChatGPT\u2019s new Wallet lets AI agents shop and check out for you": 1794585659.1706057,
 "China could tighten rare earths exports if US escalates chip curbs over Nvidia: analysts": 1794574870.4401908,
 "China\u2019s SMIC sees AI computing crunch until 2028 as Nvidia heat risks tighter chip curbs": 1794549674.2034757,
+"China\u2019s Singles\u2019 Day Sells Robots, AI Credits and a Little Help Around the House": 1794646846.331636,
 "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year": 1794520849.462427,
 "Claude Meetings lets Anthropic's AI join your video calls": 1794520849.462427,
 "Claude\u2019s Duet agent is a little neurotic and surprisingly helpful": 1794578462.0349581,
@@ -4050,7 +4053,6 @@
 "Investing.com unveils AI financial analyst": 1794492078.7687829,
 "Israel\u2019s VCs see opportunity for challengers in Nvidia\u2019s turmoil": 1794574870.4401908,
 "Jensen Huang was reckless with the environment, too": 1794592858.7250645,
-"Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit": 1794470453.8859298,
 "Jensen Huang\u2019s departure blasts big hole in AI startup funding, VCs and founders say": 1794610871.643628,
 "Jensen Huang\u2019s exit puts Nvidia\u2019s support for open source in question": 1794510065.9161532,
 "Jim Cramer has three lingering questions about Anthropic ahead of its historic IPO": 1794531670.944266,
@@ -4105,6 +4107,7 @@
 "Travelport and Mastercard complete live agentic flight booking": 1794574870.4401908,
 "United Bars AI Agents from Booking Flights": 1794528057.9730885,
 "United Blocks AI Agents as Airbnb and OpenAI Build Their Own": 1794542466.7538705,
+"Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents": 1794646846.331636,
 "What Early Industrial Revolutions Can Teach Us About Inclusive AI Adoption": 1794484859.1616232,
 "When robots dive underwater, HeymanDex sees new possibilities for dexterous hands": 1794556864.8186898,
 "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit": 1794495665.0906537,
@@ -4116,5 +4119,5 @@
 "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem": 1794582054.049404,
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887
 },
-"updated": 1794639659
+"updated": 1794646846
 }
