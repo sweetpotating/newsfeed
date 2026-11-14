@@ -1843,6 +1843,7 @@
 "769153df3bc8369d": 1791295279.9053555,
 "769f2acbcbe62c7c": 1792162865.72805,
 "76b6f08be76cf8c2": 1792692053.9726937,
+"76c0ca7297fd12e0": 1794661252.2605846,
 "76c2895c431d6d4f": 1792393281.4992802,
 "76c3f0820877976e": 1792335668.589047,
 "76cdaa48bec40d05": 1791046850.7885356,
@@ -1995,6 +1996,7 @@
 "80f4cd3a9c518585": 1793851250.1854124,
 "80fcd87e37dd4495": 1792069283.8435533,
 "80fddfc65a7d9670": 1793707263.7327409,
+"8101b10e3393395a": 1794661246.0838342,
 "810764fe66308c60": 1791972075.069991,
 "811135c5b5fc1b13": 1792000888.3017595,
 "81140c7d4bf86c2d": 1791388837.366791,
@@ -3245,6 +3247,7 @@
 "cf742b63f2e69695": 1790947727.5643232,
 "cf7974c15f030774": 1791367278.9518652,
 "cf8193754581c0da": 1791561686.0913327,
+"cfa957cf4eb0159c": 1794661252.2605846,
 "cfc1a60b2b5fdb7b": 1792029639.5986586,
 "cfd4354afa14004f": 1793995253.3667295,
 "cfdc27da9cadc483": 1793808069.4068458,
@@ -4027,6 +4030,7 @@
 "DeepSeek Opens Its App's Search, File, OCR and Voice Tools as APIs So Developers Can Rebuild the App": 1794625258.2135887,
 "Deloitte acquires Flipside Crypto's AI business and launches Edisyl": 1794567656.1304524,
 "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence": 1794492078.7687829,
+"Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home": 1794661252.2605891,
 "Exclusive | AI Bots Are Using Credit Cards. Banks Are Racing to Keep Up.": 1794564058.850653,
 "Export-banned Nvidia chips are behind China\u2019s most powerful AI models\u2014uh oh, Jensen!": 1794596453.2666578,
 "FAA expands AI advice to manage air traffic congestion across entire US airspace": 1794524470.1799383,
@@ -4095,6 +4099,7 @@
 "SoftBank\u2019s billion-dollar loss may have put a cap on AI\u2019s natural gas ambitions": 1794506483.6985147,
 "Space Tech Startup Astrome Bags \u20b964 Cr RDI Fund for AI Satellite Network": 1794488482.973396,
 "Square Expands Agentic AI Tools to Give Sellers More Control Over Business Operations": 1794495665.0906537,
+"Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs": 1794661252.2605891,
 "Starling unveils AI-powered 'talk to transact' feature": 1794499261.71832,
 "Stock Tokens: 4 Models for Tokenized Equities Explained": 1794492078.7687829,
 "The Definitive Fine-Tuning Guide for 3D Generation Models": 1794510065.9161532,
@@ -4114,5 +4119,5 @@
 "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem": 1794582054.049404,
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887
 },
-"updated": 1794657673
+"updated": 1794661252
 }
