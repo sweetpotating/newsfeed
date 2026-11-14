@@ -1329,6 +1329,7 @@
 "5491f30ae0a0f9b6": 1791370870.0140827,
 "549b1a28afe78f68": 1791828068.5899556,
 "54c8227ce0d2d53b": 1791626467.3472712,
+"54c8bb4d7f540826": 1794679246.9792202,
 "54ec51439cc67907": 1792137690.6971,
 "54f237de851aab5e": 1793206851.3864436,
 "54f563452de14db4": 1790981176.946837,
@@ -2889,6 +2890,7 @@
 "b8633a02c53009e8": 1793379656.4121034,
 "b86ebb0615940f23": 1792544438.3443844,
 "b894e4ed62a31c41": 1793178074.096083,
+"b897fe51f2d23baa": 1794679250.433055,
 "b8a8c5f86cb4f72a": 1794078043.948948,
 "b8ac331f9c655156": 1794596453.2666526,
 "b8c239e24e05c27e": 1793466038.3933544,
@@ -4088,6 +4090,7 @@
 "SoftBank's AI Empire Rests on a Single Asset\u2014And It's Over-Leveraged": 1794578462.0349581,
 "SoftBank\u2019s billion-dollar loss may have put a cap on AI\u2019s natural gas ambitions": 1794506483.6985147,
 "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs": 1794661252.2605891,
+"The AI graveyard: a running list of projects and startups that didn\u2019t make it": 1794679250.433059,
 "The Definitive Fine-Tuning Guide for 3D Generation Models": 1794510065.9161532,
 "The Endless Frontier Open-Sources Fx-Bio-1031, a Qwen-Based Model That Runs Bioinformatics Analyses": 1794625258.2135887,
 "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs": 1794672056.2011592,
@@ -4104,5 +4107,5 @@
 "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem": 1794582054.049404,
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887
 },
-"updated": 1794675683
+"updated": 1794679250
 }
