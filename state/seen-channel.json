@@ -440,6 +440,7 @@
 "1bf16f90409d752d": 1792663258.71048,
 "1bf922bc7aeba3eb": 1791338431.125057,
 "1bfc4b2e169815fe": 1793916050.354491,
+"1c29abfb1ab38174": 1794632476.5537803,
 "1c2d5a104794a992": 1794380464.445608,
 "1c34c71f2ff32d31": 1791932442.3840914,
 "1c5389c02a5a45ee": 1792540889.747899,
@@ -3982,13 +3983,13 @@
 "AI Agents Can Now Make Payments. But Who Decides How Much They Can Spend?: By Anna Tobin": 1794585659.1706057,
 "AI Agents Start Paying Invoices Inside Supplier Portals": 1794531670.944266,
 "AI Changes the Work, but Trust Remains Essential": 1794477652.4453533,
+"AI Chatbots and Children: Should India Regulate What Bots Say?": 1794632476.553784,
 "AI Law Firm Crosby Bids for Weil Gotshal\u2019s Name and Data": 1794607243.488009,
 "AI agent startup LangChain hits $3B valuation": 1794603674.9528928,
 "AI chatbots are recommending fake retail websites, study finds": 1794502857.7552903,
 "AI is coming for consulting\u2019s billable hours \u2014 and its graduate pipeline": 1794477652.4453533,
 "Adobe, Google Expand AI Partnership Across Creative and Productivity Tools": 1794567656.1304524,
 "Agentic AI and the future of B2B payments": 1794553254.7250876,
-"AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models": 1794452482.363533,
 "Amazon Targets Google and Walmart With Plan to Catalog Every Product Online": 1794603674.9528928,
 "Analysis: AI Is Cracking Games. Is the Financial System Next?": 1794549674.2034757,
 "Andrew Yao and Yang Zhilin Co-Author TCSExam as Kimi K3 Adds an Edge to a Graph Record": 1794538884.8136091,
@@ -4069,7 +4070,6 @@
 "Meet Netweb, the Only Indian Company Building NVIDIA-Certified GPU Servers": 1794481272.9590313,
 "MetaX and UBTech-backed robotics chip startup Xilect raises RMB 500 million": 1794560488.139754,
 "Microsoft Outage: Fix Fails to Restore Outlook, Teams, Copilot Across 74 Countries": 1794553254.7250876,
-"Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected": 1794452482.363533,
 "More game developers are starting to use generative AI": 1794506483.6985147,
 "Muse can now place calls to U.S. businesses \u2014 if you pay": 1794524470.1799383,
 "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails": 1794589243.293155,
@@ -4102,7 +4102,6 @@
 "Square Expands Agentic AI Tools to Give Sellers More Control Over Business Operations": 1794495665.0906537,
 "Starling unveils AI-powered 'talk to transact' feature": 1794499261.71832,
 "Stock Tokens: 4 Models for Tokenized Equities Explained": 1794492078.7687829,
-"Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com": 1794452482.363533,
 "The Definitive Fine-Tuning Guide for 3D Generation Models": 1794510065.9161532,
 "The Endless Frontier Open-Sources Fx-Bio-1031, a Qwen-Based Model That Runs Bioinformatics Analyses": 1794625258.2135887,
 "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood": 1794571285.7296064,
@@ -4111,7 +4110,6 @@
 "United Blocks AI Agents as Airbnb and OpenAI Build Their Own": 1794542466.7538705,
 "Virtusa CEO Admits Losing Money on AI, But is Betting the House on Chips": 1794463254.7831142,
 "What Early Industrial Revolutions Can Teach Us About Inclusive AI Adoption": 1794484859.1616232,
-"What we know so far about Nvidia partner Megaspeed\u2019s Asia footprint": 1794456050.3675258,
 "When robots dive underwater, HeymanDex sees new possibilities for dexterous hands": 1794556864.8186898,
 "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit": 1794495665.0906537,
 "Why Singapore keeps turning up in the fight over Nvidia chips and China": 1794553254.7250876,
@@ -4122,5 +4120,5 @@
 "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem": 1794582054.049404,
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887
 },
-"updated": 1794625258
+"updated": 1794632476
 }
