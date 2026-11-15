@@ -535,6 +535,7 @@
 "2215caa5fe9e80a4": 1793037659.2968717,
 "2237a8c94c7589d6": 1793019673.53156,
 "2239d03763a7425c": 1792069268.3587873,
+"223a03e7aa07d18f": 1794780045.9996886,
 "223cd259bf2c875b": 1791331279.766803,
 "224ee0818768ef5f": 1792000888.3017595,
 "22643d6fcb195220": 1791378076.860452,
@@ -3443,6 +3444,7 @@
 "dd390d9e8ff66368": 1792774854.2917356,
 "dd551b2149ddff66": 1792123273.7328389,
 "dd6cf3bb9adebafc": 1792710041.50489,
+"dd73cd74bb28b935": 1794780043.1086981,
 "dd964df1a73fdff2": 1793102450.4789937,
 "ddac3b77f1308cf3": 1793091666.9732163,
 "ddac5291b8bf3db3": 1791243381.034786,
@@ -3981,18 +3983,15 @@
 "titles": {
 "AI Chatbots and Children: Should India Regulate What Bots Say?": 1794632476.553784,
 "AI DJs Completely Kill My Groove": 1794747655.3935246,
-"AI Law Firm Crosby Bids for Weil Gotshal\u2019s Name and Data": 1794607243.488009,
-"AI agent startup LangChain hits $3B valuation": 1794603674.9528928,
 "AI in mortgage lending: how AI agents help close more loans": 1794729662.5236251,
 "Affirm Expands in Germany | Exits & Deep Reads": 1794747655.3935246,
-"Amazon Targets Google and Walmart With Plan to Catalog Every Product Online": 1794603674.9528928,
 "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO": 1794686449.8888412,
 "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon": 1794657673.146267,
 "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5": 1794675683.229478,
 "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them": 1794758465.4570637,
+"Apple Puts Siri AI at the Center of the Home With HomeView": 1794780045.999692,
 "Australia's central bank finds AI hitting young workers first, especially in software and customer service": 1794740472.0516584,
 "Bessent calls for \u2018dramatic shakeup\u2019 at Nvidia, urges outside CEO": 1794769238.4631577,
-"Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights": 1794603674.9528928,
 "Beware the New AI-Fueled Ransomware Boom": 1794664863.533123,
 "Blue J and Imprint Lead Funding as AI and Payments Draw Investment | Fundraises": 1794664863.533123,
 "Can Chinese AI companies curb cyber risks from open-weight models without losing their edge?": 1794708047.9042838,
@@ -4013,7 +4012,6 @@
 "How to close care gaps with AI agents": 1794726071.750608,
 "Huawei Details Kirin 9050's Balong AI Modem, Claiming Four-SIM Three-Standby and Faster Uplink": 1794729662.5236251,
 "HyperS2C Launches With a Full Digital Front-End EDA Toolchain and Two AI Agents for Verification": 1794729662.5236251,
-"IAB Launches New Framework to Track When AI Influences or Completes Purchases": 1794607243.488009,
 "Jensen Huang might be plotting a return and more of the latest Nvidia drama": 1794776446.0522885,
 "Jensen Huang\u2019s departure blasts big hole in AI startup funding, VCs and founders say": 1794610871.643628,
 "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business": 1794733263.2332075,
@@ -4038,5 +4036,5 @@
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887,
 "yetone's Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth": 1794729662.5236251
 },
-"updated": 1794776446
+"updated": 1794780046
 }
