@@ -1200,6 +1200,7 @@
 "4ab93569e260b2b0": 1792609267.0480084,
 "4afd70c4fac2852d": 1792677641.8824985,
 "4b0e810f0a192403": 1792069268.3587873,
+"4b0fc5b701ffd77d": 1794783668.0212193,
 "4b1477896de8e019": 1791874865.8734095,
 "4b318045e6e69181": 1792137690.6971,
 "4b3b720c50b9a928": 1791734464.1475804,
@@ -2080,6 +2081,7 @@
 "8783e4a2648cf399": 1792789262.00231,
 "878bc719b07a3e14": 1794564058.85065,
 "87b165bfd5afc049": 1792710041.50489,
+"87d7014c15ee68a3": 1794783668.0212193,
 "87f5b15c647b4558": 1792155700.8991632,
 "87fb0a63e0465e7d": 1793217657.0020387,
 "880299e0e86d95f9": 1792162865.72805,
@@ -3981,6 +3983,7 @@
 "ffe9771dd0f2e869": 1791680450.3528528
 },
 "titles": {
+"A step toward defining the Standard Model on a lattice": 1794783668.0212224,
 "AI Chatbots and Children: Should India Regulate What Bots Say?": 1794632476.553784,
 "AI DJs Completely Kill My Groove": 1794747655.3935246,
 "AI in mortgage lending: how AI agents help close more loans": 1794729662.5236251,
@@ -4023,6 +4026,7 @@
 "OpenAI Gives AI Agents a Wallet While Blocking Them From Seeing the Card": 1794697265.1060245,
 "OpenAI Introduces ChatGPT Wallet for Agent-Led Payments": 1794636065.5029194,
 "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary": 1794657673.146267,
+"Our new blog for science": 1794783668.0212224,
 "Runway's open-source Praxis-1 turns video AI into a robot controller": 1794654073.060569,
 "Shield helps technicians hand off legacy portal work with OpenAI": 1794618045.8518977,
 "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs": 1794661252.2605891,
@@ -4036,5 +4040,5 @@
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887,
 "yetone's Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth": 1794729662.5236251
 },
-"updated": 1794780046
+"updated": 1794783668
 }
