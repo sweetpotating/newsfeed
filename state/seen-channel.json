@@ -1135,6 +1135,7 @@
 "467ae3bd6920000d": 1791085936.876221,
 "468a8b4a8970bfdd": 1794574858.0526526,
 "46b4a9f8f04d7fec": 1791802874.5288527,
+"46b4b3afc822aacb": 1794744060.4683454,
 "46b4f1b020590136": 1793084473.6087844,
 "46c3bcfcb3fbead4": 1792530080.8306975,
 "46e4901e56d9a536": 1794348040.5461268,
@@ -1332,6 +1333,7 @@
 "54ec51439cc67907": 1792137690.6971,
 "54f237de851aab5e": 1793206851.3864436,
 "54f563452de14db4": 1790981176.946837,
+"55019cac39e4be56": 1794744060.4683454,
 "550c4c02e9ff21a9": 1791914455.125845,
 "551def415af43579": 1791140247.136043,
 "5532afee268629aa": 1791723641.1362042,
@@ -2104,6 +2106,7 @@
 "8988ef106aad4e66": 1791532859.2047603,
 "8991845d14382bb8": 1792083672.8793216,
 "8999266ef52c8766": 1793743278.9524186,
+"89af4559da72d4cc": 1794744060.4683454,
 "89b4c0e0a9229337": 1791442854.5767436,
 "89e71d606e38f635": 1792000888.3017595,
 "89f18472110dc937": 1792317666.9762323,
@@ -2937,6 +2940,7 @@
 "bbd7fda02b192182": 1791536489.5851326,
 "bbef20143a2b524d": 1793214055.4242558,
 "bbf86d5d08f69b86": 1792112455.8867548,
+"bbfdff8ea22ce9ed": 1794744063.8360891,
 "bc042a5bc54278cb": 1793678461.4518507,
 "bc08483ae8811072": 1791529255.3451064,
 "bc38e1ec69a109f1": 1794524460.196876,
@@ -4049,6 +4053,7 @@
 "The AI graveyard: a running list of projects and startups that didn\u2019t make it": 1794679250.433059,
 "The Endless Frontier Open-Sources Fx-Bio-1031, a Qwen-Based Model That Runs Bioinformatics Analyses": 1794625258.2135887,
 "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs": 1794672056.2011592,
+"This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets": 1794744063.8360922,
 "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood": 1794571285.7296064,
 "Travelport and Mastercard complete live agentic flight booking": 1794574870.4401908,
 "UniPat AI's SPU Benchmark Asks AI Agents to Predict Real Wet-Lab Results, and None Score Above 0.5": 1794708047.9042838,
@@ -4059,5 +4064,5 @@
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887,
 "yetone's Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth": 1794729662.5236251
 },
-"updated": 1794740472
+"updated": 1794744063
 }
