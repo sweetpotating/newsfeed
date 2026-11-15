@@ -2445,6 +2445,7 @@
 "9e644ca061818088": 1793818877.284317,
 "9e8df1f2bf965ce5": 1793412081.9329298,
 "9e9eab017187f3b5": 1793282480.5562677,
+"9eaf5401368cfec2": 1794718872.0188506,
 "9eb034d4d52318d6": 1793948459.13775,
 "9ed0b37e5e257928": 1794438054.8615737,
 "9f081a221dd8c9a3": 1792173685.820315,
@@ -3969,10 +3970,8 @@
 "ffe9771dd0f2e869": 1791680450.3528528
 },
 "titles": {
-"35,000 Exposed Grok Apps Reveal Vibe Coding\u2019s Hidden Cost": 1794535253.8303683,
 "60% of Small Business AI Users Do More Without Adding Staff": 1794560488.139754,
 "A Practical Blueprint for an AI-Ready Enterprise": 1794567656.1304524,
-"ACE Robotics Pairs Mundo World Model With Self-Improving Skills to Run a Hotel Laundry Workflow": 1794538884.8136091,
 "AI Agents Can Now Make Payments. But Who Decides How Much They Can Spend?: By Anna Tobin": 1794585659.1706057,
 "AI Chatbots and Children: Should India Regulate What Bots Say?": 1794632476.553784,
 "AI Law Firm Crosby Bids for Weil Gotshal\u2019s Name and Data": 1794607243.488009,
@@ -3981,13 +3980,11 @@
 "Agentic AI and the future of B2B payments": 1794553254.7250876,
 "Amazon Targets Google and Walmart With Plan to Catalog Every Product Online": 1794603674.9528928,
 "Analysis: AI Is Cracking Games. Is the Financial System Next?": 1794549674.2034757,
-"Andrew Yao and Yang Zhilin Co-Author TCSExam as Kimi K3 Adds an Edge to a Graph Record": 1794538884.8136091,
 "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO": 1794686449.8888412,
 "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon": 1794657673.146267,
 "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5": 1794675683.229478,
 "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows": 1794589243.293155,
 "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history": 1794585659.1706057,
-"Anthropic\u2019s Claude Tops AI Rankings as OpenAI Limits Cyber Model": 1794535253.8303683,
 "Astribot's CoMind Lets Robots Lend Each Other Their Eyes, Cutting Shared Data by About 80%": 1794556864.8186898,
 "Banks Face Agentic AI\u2019s Twin Tests: Customer Authority and Internal Costs": 1794600068.8656712,
 "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls": 1794596453.2666578,
@@ -4017,12 +4014,9 @@
 "Exclusive | AI Bots Are Using Credit Cards. Banks Are Racing to Keep Up.": 1794564058.850653,
 "Export-banned Nvidia chips are behind China\u2019s most powerful AI models\u2014uh oh, Jensen!": 1794596453.2666578,
 "Fed\u2019s Barr Warns AI Could Lower Prices While Concentrating Market Power": 1794596453.2666578,
-"Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders": 1794538884.8136091,
 "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models": 1794585659.1706057,
 "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol": 1794675683.229478,
-"HiSilicon CS6286 Image Sensor Puts AI On-Chip, Stretching Dashcam Sentry Mode Past Seven Days": 1794538884.8136091,
 "How Verifiable Intent builds trust in agentic AI commerce": 1794560488.139754,
-"Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model": 1794538884.8136091,
 "Hyundai Card launches new AI-powered credit card model": 1794582054.049404,
 "IAB Launches New Framework to Track When AI Influences or Completes Purchases": 1794607243.488009,
 "In Nvidia\u2019s Shadow, a Chinese Chipmaker Takes a Different Route": 1794556864.8186898,
@@ -4036,6 +4030,7 @@
 "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails": 1794589243.293155,
 "NiCE's next-generation Cognigy bets the hard part of AI agents is running them, not building them": 1794682869.2768373,
 "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?": 1794657673.146267,
+"No actors, no crew, no ticket sales: \u2018So obviously AI\u2019 film flops at China\u2019s box office": 1794718872.018854,
 "Nvidia hasn\u2019t selected search firm for permanent Huang replacement, board tells CNBC": 1794600068.8656712,
 "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion": 1794553254.7250876,
 "Nvidia without Jensen Huang. What lies ahead for Asian chipmakers?": 1794556864.8186898,
@@ -4059,7 +4054,6 @@
 "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood": 1794571285.7296064,
 "Travelport and Mastercard complete live agentic flight booking": 1794574870.4401908,
 "UniPat AI's SPU Benchmark Asks AI Agents to Predict Real Wet-Lab Results, and None Score Above 0.5": 1794708047.9042838,
-"United Blocks AI Agents as Airbnb and OpenAI Build Their Own": 1794542466.7538705,
 "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents": 1794646846.331636,
 "When robots dive underwater, HeymanDex sees new possibilities for dexterous hands": 1794556864.8186898,
 "Why Singapore keeps turning up in the fight over Nvidia chips and China": 1794553254.7250876,
@@ -4069,5 +4063,5 @@
 "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem": 1794582054.049404,
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887
 },
-"updated": 1794708047
+"updated": 1794718872
 }
