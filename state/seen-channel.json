@@ -999,6 +999,7 @@
 "3e1b5b745309dbfa": 1793127679.7415578,
 "3e21bf261d77e299": 1794571285.729602,
 "3e315b9af1fda19d": 1792584071.6612651,
+"3e7715aff318b681": 1794816078.901783,
 "3e78d0d4c307cbbe": 1791918078.8381948,
 "3e8dbf3c59040b6d": 1791410475.5652425,
 "3ea9a82107199d29": 1793260838.206275,
@@ -2702,6 +2703,7 @@
 "ad4f350f6db727a9": 1793084459.9637983,
 "ad4fbb56c1d30a92": 1794326477.4426906,
 "ad55954a09e4a960": 1793314871.0537257,
+"ad7a194f6208b33d": 1794816078.901783,
 "ad7bf5994c80ca72": 1793790068.826647,
 "ad7c0903cc399c45": 1794420085.999894,
 "ad9990fad4faa116": 1792688475.8787105,
@@ -2877,6 +2879,7 @@
 "b7d248bc90d8f889": 1793394085.8728986,
 "b7e8355b292892b0": 1793984469.7486467,
 "b80567384128eee2": 1792047675.0791833,
+"b809a1ba2b5f7ca8": 1794816070.1428943,
 "b810030289ed799f": 1793642489.6718705,
 "b817ced09356f6fd": 1794254491.069193,
 "b81d9f9ef5ecce95": 1792411255.1448567,
@@ -3881,6 +3884,7 @@
 "f9744d2996f65a44": 1792803687.309576,
 "f9780310bf7f9d55": 1791370870.0140827,
 "f97c21c88a0b4315": 1791399644.6886425,
+"f9a24c46515b2610": 1794816078.901783,
 "f9b499debdda31c0": 1792602042.7752247,
 "f9b7f3882d60137b": 1792173685.820315,
 "f9b8c683c448800b": 1791381649.7539372,
@@ -3987,6 +3991,7 @@
 },
 "titles": {
 "A step toward defining the Standard Model on a lattice": 1794783668.0212224,
+"ACE Robotics' ACE-CaP-0 Has AI Agents Write Reusable Robot Code, Reporting 92.1% Success": 1794816078.9017878,
 "AI DJs Completely Kill My Groove": 1794747655.3935246,
 "AI in mortgage lending: how AI agents help close more loans": 1794729662.5236251,
 "Affirm Expands in Germany | Exits & Deep Reads": 1794747655.3935246,
@@ -4005,6 +4010,7 @@
 "Can Chinese AI companies curb cyber risks from open-weight models without losing their edge?": 1794708047.9042838,
 "CataX AI raises RMB 40 million to bring AI agents into clinical drug development": 1794812466.3051362,
 "ChatGPT Wallet Launches With Visa, Mastercard and Amex": 1794664863.533123,
+"China\u2019s Moonshot AI puts Kimi models into race for science discoveries": 1794816078.9017878,
 "China\u2019s Singles\u2019 Day Sells Robots, AI Credits and a Little Help Around the House": 1794646846.331636,
 "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy": 1794682869.2768373,
 "Congress wants to tighten export rules on AI chips after Nvidia spy scandal": 1794772872.974789,
@@ -4022,6 +4028,7 @@
 "Huawei Cloud Opens openPangu-2.1-Pro on MaaS With Output Priced at 3.2 Yuan per Million Tokens": 1794798053.4570582,
 "Huawei Cloud plans to open-source its Ascend-based world model for robots": 1794812466.3051362,
 "Huawei Details Kirin 9050's Balong AI Modem, Claiming Four-SIM Three-Standby and Faster Uplink": 1794729662.5236251,
+"Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan a Month": 1794816078.9017878,
 "HyperS2C Launches With a Full Digital Front-End EDA Toolchain and Two AI Agents for Verification": 1794729662.5236251,
 "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market": 1794787245.85293,
 "Jensen Huang might be plotting a return and more of the latest Nvidia drama": 1794776446.0522885,
@@ -4047,5 +4054,5 @@
 "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents": 1794646846.331636,
 "yetone's Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth": 1794729662.5236251
 },
-"updated": 1794812466
+"updated": 1794816078
 }
