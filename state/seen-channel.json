@@ -669,6 +669,7 @@
 "2a26a5ec3e2b4a77": 1792166455.2962296,
 "2a3d14b5c6e99bea": 1792670485.2259777,
 "2a453af27cca2b39": 1794578453.8944085,
+"2a6a4ac099731458": 1794819659.2439585,
 "2a75e987f0592ec1": 1792522853.7492056,
 "2a77d56352eaa7bd": 1791370870.0140827,
 "2a7d7857bb0b6c0e": 1791900080.3486333,
@@ -2596,6 +2597,7 @@
 "a678779cd43c2988": 1791342074.138936,
 "a682cf8f7d8c22ab": 1793574059.0416162,
 "a6839327c19ffa52": 1792533664.8108258,
+"a6867e32dfff2581": 1794819659.2439585,
 "a6a1f4abbd10c813": 1793127679.7415578,
 "a6b9d3eacf57d766": 1791540078.705887,
 "a6d946457696e07b": 1792569635.0567853,
@@ -4011,7 +4013,6 @@
 "CataX AI raises RMB 40 million to bring AI agents into clinical drug development": 1794812466.3051362,
 "ChatGPT Wallet Launches With Visa, Mastercard and Amex": 1794664863.533123,
 "China\u2019s Moonshot AI puts Kimi models into race for science discoveries": 1794816078.9017878,
-"China\u2019s Singles\u2019 Day Sells Robots, AI Credits and a Little Help Around the House": 1794646846.331636,
 "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy": 1794682869.2768373,
 "Congress wants to tighten export rules on AI chips after Nvidia spy scandal": 1794772872.974789,
 "Conversational AI use cases: examples by industry and how to choose": 1794726071.750608,
@@ -4023,6 +4024,7 @@
 "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home": 1794661252.2605891,
 "Future Doctor Says MedGPT Outscored Doctors in 88% of Comparisons on Complex Lung Cancer Cases": 1794798053.4570582,
 "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol": 1794675683.229478,
+"Gen Z Turns to AI to Navigate Homebuying": 1794819659.2439632,
 "Grab thinks AI agents can handle grocery shopping. Will SEA bite?": 1794794463.3661697,
 "How to close care gaps with AI agents": 1794726071.750608,
 "Huawei Cloud Opens openPangu-2.1-Pro on MaaS With Output Priced at 3.2 Yuan per Million Tokens": 1794798053.4570582,
@@ -4040,6 +4042,7 @@
 "No actors, no crew, no ticket sales: \u2018So obviously AI\u2019 film flops at China\u2019s box office": 1794718872.018854,
 "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio": 1794686449.8888412,
 "OpenAI Gives AI Agents a Wallet While Blocking Them From Seeing the Card": 1794697265.1060245,
+"OpenAI launches ChatGPT Wallet for agentic payments in the US": 1794819659.2439632,
 "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary": 1794657673.146267,
 "Our new blog for science": 1794783668.0212224,
 "Runway's open-source Praxis-1 turns video AI into a robot controller": 1794654073.060569,
@@ -4051,8 +4054,7 @@
 "The Sony Aibo was a robot revolution dressed like a dog": 1794751266.824959,
 "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets": 1794744063.8360922,
 "UniPat AI's SPU Benchmark Asks AI Agents to Predict Real Wet-Lab Results, and None Score Above 0.5": 1794708047.9042838,
-"Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents": 1794646846.331636,
 "yetone's Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth": 1794729662.5236251
 },
-"updated": 1794816078
+"updated": 1794819659
 }
