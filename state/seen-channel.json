@@ -3843,6 +3843,7 @@
 "f6ee3fe6f08ca7c6": 1791493260.9743483,
 "f6ef20224d94cd85": 1793307678.356103,
 "f6fba1b46dc3cfab": 1792468890.667641,
+"f7056c5e8f2de875": 1794801643.995253,
 "f70d5d21e2b308ca": 1792072865.627621,
 "f71acc3b2f86a2a8": 1793376075.087431,
 "f7205d804f41cbd0": 1793001657.5825112,
@@ -3989,6 +3990,7 @@
 "AI DJs Completely Kill My Groove": 1794747655.3935246,
 "AI in mortgage lending: how AI agents help close more loans": 1794729662.5236251,
 "Affirm Expands in Germany | Exits & Deep Reads": 1794747655.3935246,
+"Alibaba says new flagship AI model cuts task costs by 60% while tightening cyber guardrails": 1794801643.995256,
 "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO": 1794686449.8888412,
 "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon": 1794657673.146267,
 "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5": 1794675683.229478,
@@ -4008,7 +4010,6 @@
 "Conversational AI use cases: examples by industry and how to choose": 1794726071.750608,
 "Could Jensen Huang make a comeback? Musk, other tech heavyweights pressure Nvidia board": 1794754848.709517,
 "D-Robotics and Infinigence AI Bring RLinf and Three Other Open-Source Robot Tools to Sunrise Chips": 1794729662.5236251,
-"DeepSeek Opens Its App's Search, File, OCR and Voice Tools as APIs So Developers Can Rebuild the App": 1794625258.2135887,
 "DeepSeek's Web Code Shows Quota Management Pointing to a 'Coding Plan', but No Plan Is Announced": 1794708047.9042838,
 "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang": 1794693639.5482626,
 "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home": 1794661252.2605891,
@@ -4035,14 +4036,12 @@
 "Runway's open-source Praxis-1 turns video AI into a robot controller": 1794654073.060569,
 "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs": 1794661252.2605891,
 "The AI graveyard: a running list of projects and startups that didn\u2019t make it": 1794679250.433059,
-"The Endless Frontier Open-Sources Fx-Bio-1031, a Qwen-Based Model That Runs Bioinformatics Analyses": 1794625258.2135887,
 "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs": 1794672056.2011592,
 "The Sony Aibo was a robot revolution dressed like a dog": 1794751266.824959,
 "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets": 1794744063.8360922,
 "UniPat AI's SPU Benchmark Asks AI Agents to Predict Real Wet-Lab Results, and None Score Above 0.5": 1794708047.9042838,
 "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents": 1794646846.331636,
-"openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887,
 "yetone's Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth": 1794729662.5236251
 },
-"updated": 1794798053
+"updated": 1794801643
 }
