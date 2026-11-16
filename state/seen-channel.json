@@ -167,6 +167,7 @@
 "0b2e1c02de474f20": 1794330071.9605381,
 "0b327b637ecd1e7b": 1791986444.8935993,
 "0b396cb4a56bd5ab": 1793926840.4222286,
+"0b5c7a6bb2adbf05": 1794798048.2556102,
 "0b7bd1540175da27": 1793995253.3667295,
 "0b8becd3ee8676e4": 1794729662.5236177,
 "0b90dff0ed403021": 1791795697.9269226,
@@ -2195,6 +2196,7 @@
 "8f6dc913fde6b94f": 1791889233.9870415,
 "8f79033b5aee96d0": 1792569651.2179198,
 "8fa4df729d45620b": 1794326463.076508,
+"8fdaf2954b144796": 1794798053.4570558,
 "8fdd6a5d2137a408": 1793916050.354491,
 "8ff506bac8e0dfcc": 1792375240.012643,
 "90051de0f0c0ca30": 1794495665.0906487,
@@ -3944,6 +3946,7 @@
 "fd83ae3d1e3e02de": 1791936080.1900575,
 "fdb1dcd5479f9de0": 1794481272.9590256,
 "fdb4608a0c46da87": 1793001657.5825112,
+"fdcc8f92e8955830": 1794798053.4570558,
 "fdcfeaa7c2669a95": 1791478900.9791346,
 "fdd2bd210a1b77e0": 1791914455.125845,
 "fdd3410cc71e5e64": 1794063675.0030885,
@@ -4009,9 +4012,11 @@
 "DeepSeek's Web Code Shows Quota Management Pointing to a 'Coding Plan', but No Plan Is Announced": 1794708047.9042838,
 "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang": 1794693639.5482626,
 "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home": 1794661252.2605891,
+"Future Doctor Says MedGPT Outscored Doctors in 88% of Comparisons on Complex Lung Cancer Cases": 1794798053.4570582,
 "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol": 1794675683.229478,
 "Grab thinks AI agents can handle grocery shopping. Will SEA bite?": 1794794463.3661697,
 "How to close care gaps with AI agents": 1794726071.750608,
+"Huawei Cloud Opens openPangu-2.1-Pro on MaaS With Output Priced at 3.2 Yuan per Million Tokens": 1794798053.4570582,
 "Huawei Details Kirin 9050's Balong AI Modem, Claiming Four-SIM Three-Standby and Faster Uplink": 1794729662.5236251,
 "HyperS2C Launches With a Full Digital Front-End EDA Toolchain and Two AI Agents for Verification": 1794729662.5236251,
 "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market": 1794787245.85293,
@@ -4039,5 +4044,5 @@
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887,
 "yetone's Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth": 1794729662.5236251
 },
-"updated": 1794794463
+"updated": 1794798053
 }
