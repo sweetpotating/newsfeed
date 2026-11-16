@@ -2157,6 +2157,7 @@
 "8d7c3da3770ff250": 1793109670.9837482,
 "8d7f0c341858e969": 1792501254.777756,
 "8d80763cf31814e6": 1791514890.005957,
+"8d87d951ba259293": 1794794463.3661666,
 "8d9c898d2ddd858a": 1792144866.9756327,
 "8da54325963571c5": 1793667672.5629244,
 "8da82a8b95734226": 1791968490.4244976,
@@ -2448,6 +2449,7 @@
 "9e3620f50526f029": 1792684217.4622378,
 "9e3f632cea1fb369": 1792612846.557877,
 "9e644ca061818088": 1793818877.284317,
+"9e82e739c996c3e3": 1794794463.3661666,
 "9e8df1f2bf965ce5": 1793412081.9329298,
 "9e9eab017187f3b5": 1793282480.5562677,
 "9eaf5401368cfec2": 1794718872.0188506,
@@ -3209,6 +3211,7 @@
 "cd1ebbcdcc0bcee9": 1793862042.7510593,
 "cd241a04ac163c57": 1791540078.705887,
 "cd4aaa6550345e90": 1793026852.0306826,
+"cd63ea37174fab21": 1794794457.9664354,
 "cd6a504d0e1d680f": 1791046850.7885356,
 "cd6c02ad08e6a928": 1794294051.5945556,
 "cd8d3f32393867c2": 1791222252.166783,
@@ -3988,6 +3991,7 @@
 "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5": 1794675683.229478,
 "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them": 1794758465.4570637,
 "Apple Puts Siri AI at the Center of the Home With HomeView": 1794780045.999692,
+"Apple launches new app to study how people use AI for health": 1794794463.3661697,
 "Australia's central bank finds AI hitting young workers first, especially in software and customer service": 1794740472.0516584,
 "Bessent calls for \u2018dramatic shakeup\u2019 at Nvidia, urges outside CEO": 1794769238.4631577,
 "Beware the New AI-Fueled Ransomware Boom": 1794664863.533123,
@@ -4006,6 +4010,7 @@
 "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang": 1794693639.5482626,
 "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home": 1794661252.2605891,
 "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol": 1794675683.229478,
+"Grab thinks AI agents can handle grocery shopping. Will SEA bite?": 1794794463.3661697,
 "How to close care gaps with AI agents": 1794726071.750608,
 "Huawei Details Kirin 9050's Balong AI Modem, Claiming Four-SIM Three-Standby and Faster Uplink": 1794729662.5236251,
 "HyperS2C Launches With a Full Digital Front-End EDA Toolchain and Two AI Agents for Verification": 1794729662.5236251,
@@ -4034,5 +4039,5 @@
 "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins": 1794625258.2135887,
 "yetone's Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth": 1794729662.5236251
 },
-"updated": 1794790867
+"updated": 1794794463
 }
