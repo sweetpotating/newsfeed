@@ -123,6 +123,7 @@
 "070e44b21926761a": 1793394085.8728986,
 "0738dbf81d05cffc": 1792008052.8773704,
 "073ac82b324238c6": 1793206865.1432414,
+"073bbec620a6c63b": 1794913267.6711047,
 "074e6b695807eb3e": 1792548069.9155612,
 "077dea1e8a7adb2e": 1791475279.309852,
 "078ebef051c0525b": 1791406840.5123615,
@@ -3629,6 +3630,7 @@
 "e23bfd29b3d2db07": 1792173677.6079154,
 "e24b61a9d7bb4db9": 1792202465.7496154,
 "e254ac178fa16d84": 1794488479.5143704,
+"e258d3dfbeab7ea0": 1794913267.6711047,
 "e277af765ecd4707": 1793606466.177912,
 "e2aa5d466e21b012": 1791286939.2440028,
 "e2b8c54a42a0eca7": 1793206851.3864436,
@@ -4088,13 +4090,15 @@
 "ffd1be60b8ac1c68": 1794315672.6959686,
 "ffde3ba9cfd7d8d5": 1791964891.1786637,
 "ffdffcee6bf84b26": 1791550856.6136878,
-"ffe9771dd0f2e869": 1791680450.3528528
+"ffe9771dd0f2e869": 1791680450.3528528,
+"fffbfe0be78fee0e": 1794913267.6711047
 },
 "titles": {
 "A step toward defining the Standard Model on a lattice": 1794783668.0212224,
 "ACE Robotics' ACE-CaP-0 Has AI Agents Write Reusable Robot Code, Reporting 92.1% Success": 1794816078.9017878,
 "AI DJs Completely Kill My Groove": 1794747655.3935246,
 "AI Dominates Fintech Jobs, But Non-Engineers Needn't Fret": 1794859249.4449644,
+"AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business": 1794913267.671108,
 "AI Tools are Making Us Sound the Same at Work\u2014Unless You're a Woman": 1794898882.5229502,
 "Accenture, Google Cloud to Expand AI Education Across 1,000 Indian Institutions": 1794906079.0427496,
 "Affirm Expands in Germany | Exits & Deep Reads": 1794747655.3935246,
@@ -4167,6 +4171,7 @@
 "Meet Meta\u2019s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands": 1794826854.3132324,
 "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU": 1794740472.0516584,
 "More ways to move care forward with ChatGPT for Healthcare": 1794841256.4920292,
+"NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure": 1794913267.671108,
 "New Ask Maps features to help with holiday travel and prep": 1794841256.4920292,
 "Nuvei Says Merchants Need Their Own AI Shopping Agents": 1794823274.1334178,
 "Nvidia Was Already in Trouble Before the Jensen Huang Mess": 1794830450.622846,
@@ -4198,11 +4203,12 @@
 "Tencent publishes all-hands notes urging teams to rebuild their businesses around AI": 1794812466.3051362,
 "The King\u2019s Trust and OpenAI launch \u00a31m partnership": 1794830450.622846,
 "The Sony Aibo was a robot revolution dressed like a dog": 1794751266.824959,
+"The building blocks of agentic payments": 1794913267.671108,
 "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets": 1794744063.8360922,
 "U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024": 1794898882.5229502,
 "UQPAY Deploys Visa Payment Passkey, Advancing the Next Generation of Agentic Payment Experience": 1794888073.9323707,
 "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges": 1794902467.7768373,
 "\u2018Standing on one leg\u2019: IMF chief warns about global economy as AI circular financing hits $1 trillion": 1794823274.1334178
 },
-"updated": 1794909661
+"updated": 1794913267
 }
