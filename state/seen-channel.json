@@ -256,6 +256,7 @@
 "1079f39760c5384a": 1792026047.7916877,
 "107aa1b6166f4894": 1793336458.9355783,
 "107f1fb559efca17": 1791493272.502988,
+"10ae93e56cae8826": 1794992467.2261527,
 "10b41c0e4ba92723": 1793620868.4810832,
 "10b6b4a1c74a6640": 1792080089.5237737,
 "10cd6a39cdf39922": 1791475279.309852,
@@ -548,6 +549,7 @@
 "20ef24394bd7393a": 1794250846.8408992,
 "20ff2247506a716f": 1794056477.1640983,
 "2114d2d6281b9630": 1792105288.7451375,
+"211574cce9482afb": 1794992474.2792068,
 "212b83c2cf357223": 1791504081.915458,
 "21557eaa69ea1dd1": 1794074471.8255296,
 "21950d90e4d22f53": 1791331268.103109,
@@ -4178,7 +4180,6 @@
 },
 "titles": {
 "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat": 1794978050.6943252,
-"ACE Robotics' ACE-CaP-0 Has AI Agents Write Reusable Robot Code, Reporting 92.1% Success": 1794816078.9017878,
 "AI Dominates Fintech Jobs, But Non-Engineers Needn't Fret": 1794859249.4449644,
 "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business": 1794913267.671108,
 "AI Tools are Making Us Sound the Same at Work\u2014Unless You're a Woman": 1794898882.5229502,
@@ -4205,7 +4206,6 @@
 "Building trustworthy AI by fencing it in, not predicting it": 1794848486.5206897,
 "California sues OpenAI over rogue AI hacking incidents": 1794862873.698525,
 "Can RayNeo\u2019s smart glasses become a habit?": 1794988846.9845564,
-"China\u2019s Moonshot AI puts Kimi models into race for science discoveries": 1794816078.9017878,
 "China\u2019s \u2018token export\u2019 ambitions take shape with new Huawei-powered data centre": 1794963664.1046836,
 "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML": 1794848486.5206897,
 "Clearing Up the Confusion on AI Data Retention: Two Standard Designs Explained": 1794956465.0729897,
@@ -4224,7 +4224,6 @@
 "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes": 1794873681.6330876,
 "Former Meituan and Feishu executives reportedly team up to build an AI recording ring": 1794898882.5229502,
 "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM": 1794834055.0326326,
-"Gen Z Turns to AI to Navigate Homebuying": 1794819659.2439632,
 "Genesys Opens Its AI Agent to Contact Centers Not on Genesys Cloud": 1794931275.2716813,
 "Google Acquires AI Assistant Howie to Automate Small Business Operations": 1794952876.9494457,
 "Google Maps can now create trip itineraries for you": 1794837662.721775,
@@ -4242,7 +4241,6 @@
 "How Revolut raises ambition without lowering the bar": 1794898882.5229502,
 "How a Tsinghua spin-out became China\u2019s first commercial AI safety watchdog": 1794978050.6943252,
 "Huawei Details Kirin 9050 Display DPU With AI-HDR2020 and Pixel-Level Control": 1794906079.0427496,
-"Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan a Month": 1794816078.9017878,
 "Huawei reveals the design of its first OSTA phone ahead of November 20 launch": 1794898882.5229502,
 "Hugging Face and OpenRouter join forces to make open-weight models easy to run": 1794866451.7629187,
 "IBEX at RBC Global Technology conference: ai push lifts growth": 1794927666.5245209,
@@ -4288,7 +4286,6 @@
 "OpenAI Weighed $5 Billion Deal For AI Behavior Firm Goodfire": 1794862873.698525,
 "OpenAI bugging case defendant Alfozan set for trial in January": 1794967260.0813148,
 "OpenAI inks agreements with four independent evaluators to boost company's safety work": 1794859249.4449644,
-"OpenAI launches ChatGPT Wallet for agentic payments in the US": 1794819659.2439632,
 "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM": 1794848486.5206897,
 "OpenAI will embed Apollo researchers to investigate AI subversion": 1794852068.8415866,
 "Over a Third of Gen Z-ers Rely on AI for Friendship": 1794981688.2738655,
@@ -4311,6 +4308,7 @@
 "See what 5 builders are making with Gemini 4 Carbon": 1794952876.9494457,
 "SenseTime releases open-weight Loop-9B model that reuses layers for deeper computation": 1794985274.9991117,
 "Shenzhen \u2013 once a fishing village, now China\u2019s \u2018Robot Valley\u2019 \u2013 takes the Apec stage": 1794952876.9494457,
+"Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk": 1794992474.2792096,
 "Starling Founder Launches Agentic AI-Focused Bank Lockwood": 1794862873.698525,
 "State Financial Regulators Bring AI Into the Examination Process": 1794844877.535479,
 "Strengthening NATO and allied cyber defenses with AI": 1794902467.7768373,
@@ -4328,5 +4326,5 @@
 "\u2018Standing on one leg\u2019: IMF chief warns about global economy as AI circular financing hits $1 trillion": 1794823274.1334178,
 "\ud83e\udde0 Life after the Swipe": 1794924069.2383623
 },
-"updated": 1794988846
+"updated": 1794992474
 }
