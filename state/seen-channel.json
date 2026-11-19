@@ -95,6 +95,7 @@
 "04ec61241327200e": 1791403280.249783,
 "050e9f208ee72e90": 1795035648.5974877,
 "0515ef78a7d6a464": 1793811688.0904481,
+"0521563bf9873da8": 1795089696.8266363,
 "0537ec76f6a20aff": 1791378076.860452,
 "055a8f58f58333d4": 1791338431.125057,
 "055b9b0913660adf": 1792659648.4641314,
@@ -707,6 +708,7 @@
 "2943f19100563cde": 1791396082.1346407,
 "29499e44d11c00d6": 1794884464.4226148,
 "294c246e7e16ea99": 1794549674.203472,
+"29620de759bf6cbd": 1795089683.8789403,
 "2965c0a12793f7c4": 1791684066.3197024,
 "2969d92a168beae7": 1792778478.4949276,
 "296a13300ae47081": 1793199656.3422747,
@@ -1574,6 +1576,7 @@
 "5dab3f0243ea1b86": 1794834047.0977623,
 "5db85db4ae056d9a": 1792400480.5167532,
 "5dc12a2327e6f454": 1794859249.4449594,
+"5dd162ab8cb823d9": 1795089696.8266363,
 "5dd1ea86ad525f20": 1794963656.2011764,
 "5dd559de6910b922": 1794380464.445608,
 "5de6cba027f27e04": 1793106081.0016658,
@@ -4311,7 +4314,9 @@
 "AI agents are starting to fill out medical forms and file insurance requests in place of human staff": 1794934894.5023494,
 "AI models can be tricked into identifying civilians as military targets by telling them it\u2019s a game": 1794938504.7159934,
 "ANZ migrates data platform to AWS": 1795017687.2678015,
+"AXS, Visa and Mastercard partner to let AI agents pay bills without multiple app log-ins": 1795089696.8266413,
 "Advancing chip design with OpenAI models": 1795024877.6302853,
+"Alibaba\u2019s AI bet paying off as cloud services drive 10% revenue jump": 1795089696.8266413,
 "America\u2019s AI Chip War Is Heating Up in the Dumbest Possible Ways": 1795039265.6853058,
 "Amidst fears of AI-cyberattacks, Satya Nadella says lots of critical infrastructure is \u2018unpatchable\u2019": 1795046471.7222714,
 "An Agent's Got To Know Its Limitations | TWIF Agent Provocateur": 1794949281.0024471,
@@ -4400,7 +4405,6 @@
 "Nvidia and the Sunny Side of Black Swans": 1795086070.9955218,
 "Nvidia board says it has no plans to reinstate Jensen Huang as CEO": 1794963664.1046836,
 "Nvidia says its open source AI strategy remains intact after Jensen Huang\u2019s exit": 1794960048.9081674,
-"Nvidia's Kress faces earnings test after stock drags Wall Street into the red": 1794916858.02545,
 "Nvidia's numbers and Anthropic anticipation drive Nasdaq futures up": 1795010505.0958319,
 "Nvidia\u2019s Kress faces a divided workforce as some employees push for Huang\u2019s return": 1795003278.2958434,
 "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months": 1795082472.65288,
@@ -4453,7 +4457,6 @@
 "What Banks Can Do to Prepare for OCC Scrutiny of AI": 1795017687.2678015,
 "What is Nvidia without AI\u2019s sugar daddy in charge?": 1795028473.0808794,
 "What\u2019s next for Nvidia? Whatever doesn\u2019t rock the mind-bogglingly profitable boat": 1795032091.4150727,
-"Who Knew What at NVIDIA? Shareholder Suits Put Board\u2019s Oversight on Trial": 1794916858.02545,
 "Why your fine-tuning job takes longer than the FLOPs say": 1795028473.0808794,
 "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything": 1794949281.0024471,
 "Will Wright\u2019s next game uses AI to map your memories": 1795010505.0958319,
@@ -4464,5 +4467,5 @@
 "\ud83c\udf99\ufe0f What Does It Take to Build an AI-Native Bank? | David Henry, CPO, Mal": 1794996084.744825,
 "\ud83e\udde0 Life after the Swipe": 1794924069.2383623
 },
-"updated": 1795086070
+"updated": 1795089696
 }
