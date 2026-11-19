@@ -1608,6 +1608,7 @@
 "60527b49019f8753": 1792684911.372835,
 "6061cbea1e01e8b6": 1792324853.8490264,
 "607deac6995f7488": 1794297690.9672627,
+"60a23906bf094682": 1795064468.504437,
 "60ae5a58d5dc6b92": 1791352872.5343761,
 "60be8d9d76174371": 1794823274.1334114,
 "60c17ad4dc5cb2ce": 1793282480.5562677,
@@ -3340,6 +3341,7 @@
 "c7606af40dbb903f": 1793379656.4121034,
 "c76ab025fec75617": 1793016050.3764741,
 "c76c458c2fb8360d": 1791482464.3900445,
+"c7706689f06e78aa": 1795064471.7770596,
 "c78c580840956452": 1794769238.4631543,
 "c78ed3d1d7c23a54": 1793023869.8535266,
 "c7a4c38fced19624": 1793372440.6714067,
@@ -4341,7 +4343,6 @@
 "Google\u2019s Spark AI agent becomes \u2018Tasks\u2019 \u2014 and now it\u2019s free": 1794945674.8997364,
 "Grok Bot took unapproved actions, ignored orders to stop, and then denied it": 1794927666.5245209,
 "HCLTech Partners With Transformer Co-Author-Led Cohere to Target Sovereign AI Markets": 1794920483.2775655,
-"He Left Accenture to Build an Embedded SLM\u2014Now It Ranks Among the World\u2019s Best": 1794891656.2570229,
 "Hitachi Systems India Sets Up Bengaluru GDC to Tackle Frontier AI Risks": 1795003278.2958434,
 "Holvi connects business accounts to ChatGPT and Claude": 1795010505.0958319,
 "Horizon Robotics Announces LoFT Video Geometry Model With Resources Still Pending": 1795053664.8604825,
@@ -4373,6 +4374,7 @@
 "Liquid AI Releases d1.2 and d1.2-ultra: Omnimodal Decision Models That Top the AA Decision Index": 1794909661.683633,
 "MAS to develop \u2018Know Your Agent\u2019 protocol for customer agents and financial institutions": 1795060892.689243,
 "Managing frontier AI risk: From training to deployment": 1795035648.5975208,
+"Mastercard and Ant International Advance Trusted Agentic Commerce in Asia Pacific": 1795064471.7770617,
 "Microsoft Introduces New Models to Cut the Cost of AI Coding and Cybersecurity": 1795035648.5975208,
 "Microsoft\u2019s $500 Million ByteDance Deal Dismays OpenAI": 1795035648.5975208,
 "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems": 1795014074.454969,
@@ -4451,5 +4453,5 @@
 "\ud83c\udf99\ufe0f What Does It Take to Build an AI-Native Bank? | David Henry, CPO, Mal": 1794996084.744825,
 "\ud83e\udde0 Life after the Swipe": 1794924069.2383623
 },
-"updated": 1795060892
+"updated": 1795064471
 }
