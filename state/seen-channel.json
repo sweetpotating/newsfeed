@@ -78,6 +78,7 @@
 "03fc5641b68f7d85": 1793311281.4924605,
 "03fda1db8e1c7fa6": 1791302483.5560808,
 "040af99b170922ff": 1793386864.5187855,
+"0416252daf0d5956": 1795168842.5156775,
 "0431f94166b42b78": 1795104074.3183146,
 "043a8ce2c3b69f01": 1795050074.1518528,
 "04461c097f2ba73d": 1792648857.8433063,
@@ -3006,6 +3007,7 @@
 "af7a0162fbc6b1f5": 1791396068.073698,
 "af8787b8f1454ea6": 1793959261.3111532,
 "afa97549e43ae255": 1795042892.5925138,
+"afd64fcc08a690f5": 1795168845.4655993,
 "afeb5e9555f8f133": 1793152878.49996,
 "b03f3867aa0d6d71": 1793991656.2997084,
 "b05a66f7711a037d": 1795060892.6892388,
@@ -4412,6 +4414,7 @@
 "Anthropic IPO signals AI market maturity, but investment bubble poses risks: OpenAI chairman": 1795006855.9074175,
 "Anthropic Offers Discounts to Gain Ground With New Products": 1795122051.594472,
 "Anthropic Sets Record With $81.3 Billion Share Sale Before Nasdaq Debut": 1795057242.679825,
+"Anthropic shares fall nearly 6% in premarket amid AI selloff as Nvidia, AMD shares drop": 1795168845.4656026,
 "Apple May Try to Challenge Meta for Personal Agent Supremacy": 1795132883.3687456,
 "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development": 1795107668.0400753,
 "BMO reaches quantum utility": 1795100463.0324948,
@@ -4524,7 +4527,6 @@
 "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor": 1795032091.4150727,
 "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut": 1795140063.0383952,
 "Soket AI Secures $4 Mn as it Rolls Out EKA-1 Model": 1795165266.6057067,
-"Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk": 1794992474.2792096,
 "Suno's new Visuals feature pairs AI-generated music with AI-generated video": 1794999683.2955468,
 "Superhuman pushes its Go assistant everywhere": 1795096879.065805,
 "Survivor": 1795140063.0383952,
@@ -4561,5 +4563,5 @@
 "\u2018Just Ridiculous\u2019: A Famed Philosopher Takes on AI Consciousness": 1795017687.2678015,
 "\ud83c\udf99\ufe0f What Does It Take to Build an AI-Native Bank? | David Henry, CPO, Mal": 1794996084.744825
 },
-"updated": 1795165266
+"updated": 1795168845
 }
