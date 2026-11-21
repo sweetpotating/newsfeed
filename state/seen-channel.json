@@ -1297,6 +1297,7 @@
 "4c2f2be3aef85667": 1793365273.2183294,
 "4c575c1d8a22e4c2": 1792760458.181828,
 "4cced70e21df2cbb": 1793196045.8043706,
+"4ce53216c0e31185": 1795298461.9320576,
 "4cfd4cbe4b2a43e6": 1794988839.2194102,
 "4d307ccd94cdc8f5": 1794009652.5746217,
 "4d3d591379e73dc9": 1795197651.2662294,
@@ -2539,6 +2540,7 @@
 "9c83e256b2ba058c": 1791453672.993573,
 "9c8f53a0a8f0feb8": 1793224870.9615343,
 "9ca49938cf8008d0": 1793545246.4063282,
+"9cbab5d16e26c1c8": 1795298461.9320576,
 "9cbede616ecdc4a4": 1793282480.5562677,
 "9cd6f5ae0206736d": 1793008852.6676483,
 "9cd913d596ab7ee5": 1793008852.6676483,
@@ -4239,6 +4241,7 @@
 "fffbfe0be78fee0e": 1794913267.6711047
 },
 "titles": {
+"A tale of two Nvidias": 1795298461.9320633,
 "AI Copyright Rulings Put Data Governance on the Institutional Agenda": 1795212099.2811432,
 "AI Vendors Ditch Seat Licenses for Per-Agent Pricing": 1795208474.649597,
 "AI agents are getting wallets. Is Hong Kong ready for them?": 1795230051.3814259,
@@ -4321,6 +4324,7 @@
 "Samsung Electronics Shakes Up Chips Leadership Amid Soaring Memory Demand": 1795158067.1626804,
 "Senate passes BAAJA permitting reform bill backed by AI, energy sectors": 1795147247.9205482,
 "Signal is blocking Gemini and Siri AI from reading your screen": 1795179682.538859,
+"Signal restricts mobile screenshots as it confronts \u2018existential threat\u2019 of AI surveillance": 1795298461.9320633,
 "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion": 1795280461.2806287,
 "Simplex AI Releases Linger Code for Local Personal Agents": 1795165266.6057067,
 "Siteimprove.ai Accessibility Agent Now Available for AI Agents Through Agentic Commerce on AWS Marketplace": 1795132883.3687456,
@@ -4348,5 +4352,5 @@
 "Why the robots are ditching Uber": 1795176078.9454122,
 "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor": 1795212099.2811432
 },
-"updated": 1795294870
+"updated": 1795298461
 }
