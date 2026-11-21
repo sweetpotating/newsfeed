@@ -760,6 +760,7 @@
 "2c13a3107c61cd5c": 1793091666.9732163,
 "2c1c8ab7e9c62026": 1793199656.3422747,
 "2c1da1479a9a3794": 1793671272.6019194,
+"2c39ade9f69460be": 1795280461.2806237,
 "2c65d2abfcf241a2": 1791640859.4961543,
 "2c702fc17ae4d3c6": 1791460881.9454324,
 "2c7791b6580f8cd4": 1792022550.6234918,
@@ -3982,6 +3983,7 @@
 "ee44c6e40f82f98d": 1794618042.7771919,
 "ee61fc5da30c0fe2": 1791586891.097981,
 "eea3cc599ca49e2b": 1793016050.3764741,
+"eee425950e0e95bb": 1795280461.2806237,
 "eef25281b848e033": 1792144866.9756327,
 "eefcdc9dc5ba87d8": 1795204881.1347106,
 "ef024eae52315efd": 1793192458.5010688,
@@ -4289,7 +4291,6 @@
 "Agentic Commerce 1.0: Who's Building the Stack and What's Still Missing? \ud83e\udd14": 1795176078.9454122,
 "Agentic tokenization explained: How tokenization builds trust in AI-powered commerce": 1795158067.1626804,
 "Alibaba uses its own chips to train next-generation Qwen model": 1795186864.3488727,
-"Analysis: Should Finance fear OpenAI ChatGPT Wallet?": 1795104074.318319,
 "Anthropic Offers Discounts to Gain Ground With New Products": 1795122051.594472,
 "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude": 1795194059.6872916,
 "Anthropic raises $93.5 billion total as underwriters scoop up \u2018greenshoe\u2019 overallotment": 1795183280.2074687,
@@ -4303,7 +4304,6 @@
 "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others": 1795194059.6872916,
 "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model": 1795255268.5701485,
 "Can AI help scientists identify promising drug candidates?": 1795215651.0503867,
-"ChatGPT can transcribe as you speak now with Live Dictation": 1795104074.318319,
 "China\u2019s AI watchdogs": 1795176078.9454122,
 "Citi Cautions Customers Against Using Third-Party AI Agents": 1795215651.0503867,
 "Combatting adversarial distillation": 1795204881.1347184,
@@ -4359,6 +4359,7 @@
 "NextEra\u2019s AI Saves Florida Customers $20 Million": 1795222856.403479,
 "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup": 1795186864.3488727,
 "Nvidia faces further blow after shock US export permit data release: analysts": 1795226454.5277023,
+"Nvidia researchers argue huge AI context windows are a dead end": 1795280461.2806287,
 "Nvidia stock plunges 12%, rides longest weekly losing streak since 2008 financial crisis": 1795204881.1347184,
 "OpenAI Faces Investigation in Arizona Over Rogue AI Agents": 1795111265.6769156,
 "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min": 1795266072.5402355,
@@ -4375,6 +4376,7 @@
 "Samsung Electronics Shakes Up Chips Leadership Amid Soaring Memory Demand": 1795158067.1626804,
 "Senate passes BAAJA permitting reform bill backed by AI, energy sectors": 1795147247.9205482,
 "Signal is blocking Gemini and Siri AI from reading your screen": 1795179682.538859,
+"Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion": 1795280461.2806287,
 "Simplex AI Releases Linger Code for Local Personal Agents": 1795165266.6057067,
 "Siteimprove.ai Accessibility Agent Now Available for AI Agents Through Agentic Commerce on AWS Marketplace": 1795132883.3687456,
 "Six AI-powered gadgets that could make your home office smarter": 1795183280.2074687,
@@ -4403,5 +4405,5 @@
 "With attacks on the rise, UK regulators clarify cyber expectations": 1795107668.0400753,
 "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor": 1795212099.2811432
 },
-"updated": 1795276863
+"updated": 1795280461
 }
