@@ -1864,6 +1864,7 @@
 "74907e93861b1c7f": 1793300471.3786504,
 "74bd4c2805d6048f": 1792724457.4998012,
 "74c3f7a06573464d": 1793102450.4789937,
+"74cfa8fabf7c6eb2": 1795377629.3324633,
 "74e2a74d8e7af469": 1793736085.4833927,
 "74e7597016b33680": 1792170054.7357783,
 "74fa6641c63a3708": 1791514877.233564,
@@ -4144,12 +4145,12 @@
 "Citi Cautions Customers Against Using Third-Party AI Agents": 1795215651.0503867,
 "Combatting adversarial distillation": 1795204881.1347184,
 "Daniel Ek backs AI researcher\u2019s fusion power startup. Here\u2019s what they\u2019re building.": 1795204881.1347184,
+"Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens": 1795377629.3324673,
 "Eufy\u2019s Omni C28 is 53 percent off ahead of Black Friday": 1795208474.649597,
 "From Raye to Coldplay, How AI Scalpers are Pricing You Out of Concert Tickets": 1795327257.557395,
 "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude": 1795341650.7713785,
 "Get your year-end tasks done with new Connected Apps.": 1795215651.0503867,
 "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries": 1795345273.6265845,
-"Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working": 1795201257.3480277,
 "HarnessBuy signs MoU with Mastercard on agentic commerce in APAC": 1795208474.649597,
 "Hebbia sees improvements in financial research with GPT-6 Astra": 1795212099.2811432,
 "Here are the top AI agents that can live in your text messages": 1795284053.2178593,
@@ -4180,8 +4181,6 @@
 "Tencent Announces WorkBuddy Computer Use Beta for Desktop Apps": 1795244464.0947225,
 "The Outages Are Just Getting Started": 1795269645.493376,
 "The UN fails to agree on rules regulating \u2018killer robots\u2019": 1795294870.2982671,
-"The most misunderstood graph in AI just got a major update": 1795201257.3480277,
-"Trump threatens \u2018tremendous tax\u2019 for moving AI data centers outside the US": 1795201257.3480277,
 "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up": 1795262452.7459095,
 "Unitree Robot Wins Xiongan Boxing Belt in Bout Against EngineAI": 1795334460.0429409,
 "Wall Street Banks Are Demanding Guardrails for Rogue AI Agents": 1795233644.053696,
@@ -4189,5 +4188,5 @@
 "Zoellent AI Lab Releases GR-SAC to Refine Frozen Robot Policies With a Small Controller": 1795334460.0429409,
 "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor": 1795212099.2811432
 },
-"updated": 1795374052
+"updated": 1795377629
 }
