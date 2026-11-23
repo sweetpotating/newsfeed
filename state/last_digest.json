@@ -1,33 +1,45 @@
 {
-"generated": 1795341684,
+"generated": 1795392090,
 "posts": [
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/unitree-engineai-xiongan-robot-boxing-belt\">Unitree Robot Wins Xiongan Boxing Belt in Bout Against EngineAI</a></b>\n<i>Pandaily (China) · 🌏 Asia · 2h ago</i>\n\n• Unitree robot defeated EngineAI competitor in boxing match with undisclosed technical details.\n• Competition lacked transparency on robot models, control methods, and autonomy levels.\n• Event outcome unclear in significance without performance metrics or rule specifications.\n\n<a href=\"https://pandaily.com/unitree-engineai-xiongan-robot-boxing-belt\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/boxing_editorial_42b13944a2.png"
+"text": "🌐 AI Industry\n<b><a href=\"https://fintechbusinessweekly.substack.com/p/onemain-gets-fdic-nod-on-ilc-charter\">OneMain Gets FDIC Nod On ILC Charter</a></b>\n<i>Fintech Business Weekly (Jason Mikula) · ✍️ Expert analysis · 10h ago</i>\n\n• OneMain received FDIC approval for an ILC charter, following similar attempts by other fintech lenders.\n• The approval marks a significant regulatory milestone for OneMain&#x27;s banking operations.\n• Dave and other consumer finance platforms have pursued similar ILC charters with varying outcomes.\n\n<a href=\"https://fintechbusinessweekly.substack.com/p/onemain-gets-fdic-nod-on-ilc-charter\">Read more →</a>",
+"photo": "https://substackcdn.com/image/fetch/$s_!XjxW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8c30a22-438b-4f02-9460-b5a2e6c97337_2470x1584.png"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/openatom-humanoid-robot-open-source-working-committee\">OpenAtom Forms Working Committee for Humanoid Robot Open-Source Community</a></b>\n<i>Pandaily (China) · 🌏 Asia · 2h ago</i>\n\n• Nine organizations established OpenAtom committee to standardize humanoid robot software and governance.\n• Committee will coordinate shared models, data, and development standards across members.\n• Initiative targets fragmentation in open-source humanoid robot development ecosystem.\n\n<a href=\"https://pandaily.com/openatom-humanoid-robot-open-source-working-committee\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/openatom_editorial_9d5d8d234c.png"
+"text": "🌐 AI Industry\n<b><a href=\"https://www.fintechbrainfood.com/p/ai-payment-advice\">AI Payment Advice: Affirm and Consumer Reports’ Tests</a></b>\n<i>Brainfood (Simon Taylor) · ✍️ Expert analysis · 10h ago</i>\n\n• Affirm and Consumer Reports tested AI payment method selection based on user instructions.\n• Ramp is in discussions valued at $70B+; Figure released new AI banking results.\n• AI payment advice reveals how instruction quality affects payment choice recommendations.\n\n<a href=\"https://www.fintechbrainfood.com/p/ai-payment-advice\">Read more →</a>",
+"photo": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/289101c6-5908-4eb6-8f97-c3913a1b1a3f/upload_c7211c66a2263392.png?t=1795269279"
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/agibot-g2-lens-technology-smartphone-testing-lines\">AgiBot Deploys G2 Robots on Lens Technology’s Smartphone Test Lines</a></b>\n<i>Pandaily (China) · 🌏 Asia · 2h ago</i>\n\n• AgiBot G2 robots deployed at Lens Technology for smartphone component testing and handling.\n• Robots interact directly with testing equipment in production manufacturing environment.\n• Deployment demonstrates practical industrial application of general-purpose robots.\n\n<a href=\"https://pandaily.com/agibot-g2-lens-technology-smartphone-testing-lines\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/lens_editorial_74e8ad500a.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://pandaily.com/zoellent-gr-sac-gated-residual-controller-frozen-vla\">Zoellent AI Lab Releases GR-SAC to Refine Frozen Robot Policies With a Small Controller</a></b>\n<i>Pandaily (China) · 🌏 Asia · 2h ago</i>\n\n• GR-SAC adds lightweight controller to frozen vision-language-action models for improved performance.\n• Method achieved five additional successful outcomes in 800-test robotic benchmark evaluation.\n• Approach enables policy refinement without full model retraining.\n\n<a href=\"https://pandaily.com/zoellent-gr-sac-gated-residual-controller-frozen-vla\">Read more →</a>",
-"photo": "https://cms-image.pandaily.com/1/grsac_editorial_d07a910bd8.png"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://analyticsindiamag.com/ai-features/from-raye-to-coldplay-how-ai-scalpers-are-pricing-you-out-of-concert-tickets\">From Raye to Coldplay, How AI Scalpers are Pricing You Out of Concert Tickets</a></b>\n<i>Analytics India Magazine · 🌏 Asia · 4h ago</i>\n\n• AI-powered ticket fraud exploits automated bulk purchasing and fake bookings for resale.\n• AI scalpers bypass ticket platforms&#x27; safeguards to manipulate concert ticket markets.\n• Platforms responding by strengthening verification and resale control mechanisms.\n\n<a href=\"https://analyticsindiamag.com/ai-features/from-raye-to-coldplay-how-ai-scalpers-are-pricing-you-out-of-concert-tickets\">Read more →</a>",
-"photo": "https://gspoceeuwjazjpplxtxe.supabase.co/storage/v1/object/public/imported-images/1795174409938-gaij8.webp"
-},
-{
-"text": "🌐 AI Industry\n<b><a href=\"https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/\">A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels</a></b>\n<i>MarkTechPost · 8h ago</i>\n\n• TensorLean formally verifies GPU kernel correctness at PTX assembly level using Lean proof assistant.\n• Analysis proved 83 of 149 FlashAttention and DeepGEMM kernel instances correct, found 38 bugs.\n• Tool enables automated bug detection in production GPU code for critical AI workloads.\n\n<a href=\"https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/\">OpenAI’s chief scientist has thoughts on how to limit AI development</a></b>\n<i>TechCrunch AI · 🟢 ChatGPT · 2h ago</i>\n\n• OpenAI&#x27;s chief scientist advocates for speed limits on AI development.\n• Measuring development speed requires agreed-upon metrics across the industry.\n• Establishing AI development boundaries depends on defining measurable speed parameters.\n\n<a href=\"https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/\">Read more →</a>",
 "photo": null
 },
 {
-"text": "🌐 AI Industry\n<b><a href=\"https://simonwillison.net/2026/Nov/21/muru/\">Muru</a></b>\n<i>Simon Willison · 10h ago</i>\n\n• Muru is AI-assisted Rust server for running Python ASGI and WSGI applications in production.\n• Creator Graham Dumpleton refined production Python deployment approach over 20 years.\n• Project addresses need for better Python web application hosting solutions.\n\n<a href=\"https://simonwillison.net/2026/Nov/21/muru/\">Read more →</a>",
+"text": "🤖 AI Platform\n<b><a href=\"https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/\">Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost</a></b>\n<i>MarkTechPost · 🟢 ChatGPT · 🔵 Gemini · 13h ago</i>\n\n• Multiple personal AI agents ranked including Hermes Agent, OpenClaw, and Gemini Spark in 2026.\n• Comparison metrics include memory, security defaults, and real-world costs.\n• Personal AI agents vary significantly in security and cost profiles.\n\n<a href=\"https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/\">Read more →</a>",
 "photo": null
+},
+{
+"text": "🤖 AI Platform\n<b><a href=\"https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/\">Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries</a></b>\n<i>MarkTechPost · 🔵 Gemini · 13h ago</i>\n\n• Google previewed Tool Retrieval for Gemini API to handle large tool libraries.\n• The feature loads tool schemas on-demand within single API requests.\n• Tool Retrieval improves efficiency for agents managing extensive tool catalogs.\n\n<a href=\"https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/\">Read more →</a>",
+"photo": "https://s.w.org/images/core/emoji/17.0.2/72x72/25b6.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart/\">Amazon Nears $7.5 Billion Purchase of AI Startup Decart</a></b>\n<i>PYMNTS · 1h ago</i>\n\n• Amazon is nearing a $7.5 billion acquisition of AI startup Decart.\n• The deal represents a major investment in AI capabilities by Amazon.\n• Decart&#x27;s software technology reportedly justifies the high valuation.\n\n<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart/\">Read more →</a>",
+"photo": "https://www.pymnts.com/wp-content/uploads/2026/11/Amazon-Decart-2.jpg?w=457"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html\">Employees at Eric Trump-backed robot startup lose health benefits as company&#x27;s cash crunch deepens</a></b>\n<i>CNBC Tech · 5h ago</i>\n\n• Foundation, an Eric Trump-backed robotics startup, lost employee health benefits amid cash shortages.\n• The company seeks a $150 million investment from South Korea&#x27;s Base Group.\n• Foundation is pursuing emergency bridge financing as funding discussions continue.\n\n<a href=\"https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html\">Read more →</a>",
+"photo": null
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/\">NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor</a></b>\n<i>MarkTechPost · 5h ago</i>\n\n• NVIDIA released Alpamayo 2 Edge, a 2B vision-language-action model for autonomous driving.\n• The model achieves 160-190ms latency for pixel-to-trajectory planning on DRIVE AGX Thor.\n• Alpamayo 2 Edge provides reasoning capabilities for real-time driving decisions.\n\n<a href=\"https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/\">Read more →</a>",
+"photo": "https://s.w.org/images/core/emoji/17.0.2/72x72/25b6.png"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://www.theverge.com/games/1039770/binding-of-isaac-ai-music\">Binding of Isaac developer removes AI music from Repentance Plus</a></b>\n<i>The Verge – AI · 6h ago</i>\n\n• The Binding of Isaac: Repentance Plus was review-bombed after AI-generated music was discovered.\n• AI music appeared in a Grand Theft Auto-themed game section.\n• The developer removed the AI music following community backlash.\n\n<a href=\"https://www.theverge.com/games/1039770/binding-of-isaac-ai-music\">Read more →</a>",
+"photo": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+},
+{
+"text": "🌐 AI Industry\n<b><a href=\"https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/\">AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace</a></b>\n<i>The Decoder · 8h ago</i>\n\n• AI coding agents complete fewer than one in ten tasks in simulated workplace environments.\n• Agents struggle with messy workflows including incomplete handoffs and project management.\n• Even advanced models like Opus 5.5 and Astra fail most real-world software development tasks.\n\n<a href=\"https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/\">Read more →</a>",
+"photo": "https://the-decoder.com/wp-content/uploads/2026/11/cowork-benchmark-chatgpt-5-6.jpg"
 }
 ]
 }
