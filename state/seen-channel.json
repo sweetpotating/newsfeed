@@ -486,7 +486,6 @@
 "1e2e9cf2b1675592": 1791910860.0775473,
 "1e4c77e7d495ea54": 1795107668.04007,
 "1e5009aa530cd2bc": 1792573279.0653114,
-"1e6df550a77b15d3": 1791594078.0814476,
 "1e72333b6562ab0c": 1791993669.8961906,
 "1e79c9b5cc06bdad": 1793955643.4756272,
 "1e86df8e843badee": 1791630063.8455696,
@@ -1858,7 +1857,6 @@
 "745a4185cc3b0aaa": 1792850459.0731091,
 "74652be16da728a7": 1795125666.2228656,
 "746dab3dd6baa113": 1792983654.9874613,
-"7477fb3d23492774": 1791594081.6204872,
 "747877bc53913c53": 1791615659.4532046,
 "7480e5eef089e0f2": 1794927652.3182309,
 "74907e93861b1c7f": 1793300471.3786504,
@@ -2336,6 +2334,7 @@
 "93f5a58c67313679": 1791727286.8104722,
 "93fd72245aad6ae6": 1792101693.54536,
 "942137ef89e77a16": 1792702885.8962634,
+"942601e5e862b274": 1795485637.3493814,
 "943d47a827b227eb": 1793242843.6623292,
 "943fadd3608d9436": 1793113286.5130377,
 "9448f395985ef9eb": 1791774055.4450195,
@@ -3208,6 +3207,7 @@
 "c6d6e9950413abbb": 1792065692.9013379,
 "c6dda91ffa5b438b": 1794412888.3868732,
 "c6ead281fe01ff5b": 1793797282.7156358,
+"c6f1b3c9b9ab3fd5": 1795485637.3493814,
 "c6f711288d709427": 1795230046.5827904,
 "c721aa93ae508571": 1794279657.1020706,
 "c727f6d9043f1a31": 1793984481.0235534,
@@ -3875,6 +3875,7 @@
 "ef9def98a16c5fdc": 1793952051.8298569,
 "efb1f06d99a2a331": 1795442486.0808184,
 "efc3dad4540a511e": 1793844041.7459016,
+"efc98a45d9318282": 1795485641.583968,
 "efcf2dc52887de8f": 1794567656.130447,
 "efd652a2c24d8302": 1792623681.877737,
 "efdad44c75685664": 1794218483.3382032,
@@ -4184,6 +4185,7 @@
 "Finding faster quantum algorithms with agents and formal verification": 1795453242.9748657,
 "From Raye to Coldplay, How AI Scalpers are Pricing You Out of Concert Tickets": 1795327257.557395,
 "From steel to style: China\u2019s \u2018flagship\u2019 AI factories move beyond heavy industry": 1795435287.4480226,
+"GLM-5.4: Toward Generalized Coding with Our First Loop Transformer": 1795485641.583971,
 "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude": 1795341650.7713785,
 "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy": 1795442486.0808258,
 "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries": 1795345273.6265845,
@@ -4208,7 +4210,6 @@
 "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough": 1795442486.0808258,
 "MetaX Adds Hy4 Support on C-Series GPUs With FlagOS W8A8 Weights": 1795316458.3326933,
 "MiniMax publishes AI-discovered cryptographic attacks with papers and code": 1795417282.1347604,
-"Muru": 1795309262.683852,
 "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor": 1795374052.8672361,
 "Natural Enables Voice Agents to Accept Payments Over the Phone": 1795471236.8441052,
 "New 19-month low: Hong Kong stocks plunge as AI sell-off spreads to Asia": 1795410090.4354215,
@@ -4250,5 +4251,5 @@
 "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model": 1795449652.757841,
 "Zoellent AI Lab Releases GR-SAC to Refine Frozen Robot Policies With a Small Controller": 1795334460.0429409
 },
-"updated": 1795482057
+"updated": 1795485641
 }
