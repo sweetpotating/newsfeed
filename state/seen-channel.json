@@ -15,7 +15,6 @@
 "00f05659027cb0da": 1794564055.7324343,
 "00f080b3f0a008c5": 1792702885.8962634,
 "00fff3266c0f04ec": 1791831641.4483652,
-"0120bc044508278f": 1791597649.047911,
 "01212082730fe661": 1793199656.3422747,
 "01352d6c3c0202bc": 1791990117.0549414,
 "014c8313d8ac54a1": 1795053664.8604789,
@@ -515,6 +514,7 @@
 "1fdb7d5f221caefe": 1794171658.7071257,
 "1fe504fe4e220619": 1794967255.2582295,
 "1fe5fdadb1357fb8": 1795093286.2845266,
+"1fe7bf180d5847e5": 1795489256.5325952,
 "1fe894cfb23cf0af": 1794549668.4826608,
 "1fe92835ad3abafe": 1793127679.7415578,
 "1fed12f6e77e56e4": 1793253678.6980128,
@@ -913,6 +913,7 @@
 "36f138fb117eddd4": 1795194059.687286,
 "372847c9499451eb": 1794517261.0855923,
 "3733c75a28bf26df": 1792090845.5723166,
+"37495a40dd8f173e": 1795489256.5325952,
 "375572a3e90a4c70": 1792540889.747899,
 "3765bf8b4bb581f7": 1795125680.8884284,
 "376c6f6cb16a8911": 1794236476.0895865,
@@ -2093,7 +2094,6 @@
 "852b6e7f3baa25b3": 1794747655.3935215,
 "8537d0166b8b611b": 1795255268.5701442,
 "853b24ff0d6ecd3f": 1794866451.762912,
-"8542a461416d26ea": 1791601245.7660844,
 "8560636ebc000f33": 1792018860.56669,
 "856ce3052b5a266a": 1792404084.353994,
 "85d76d2166222faa": 1793178062.2845435,
@@ -2558,6 +2558,7 @@
 "a1e6a94e886402e1": 1792674071.7463386,
 "a1e6c6d97e4bd95b": 1791982862.286218,
 "a1f4f495998f34dd": 1793908892.6428735,
+"a210b656f29470cd": 1795489259.4385765,
 "a2170614856ebd5c": 1794038467.9343472,
 "a2357e701f020223": 1793743278.9524186,
 "a24c82f9097342fc": 1793325682.9594874,
@@ -4142,7 +4143,6 @@
 "titles": {
 "27 Cybersecurity Terms to Prepare You for the Age of AI": 1795431699.0784333,
 "68% of Finance Leaders Say AI Gives Fraudsters the Upper Hand": 1795428159.6705632,
-"A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels": 1795312862.1064804,
 "A legendary philosopher isn\u2019t buying Anthropic\u2019s consciousness argument": 1795456844.1017735,
 "A more tailored Google Search that\u2019s uniquely yours": 1795456844.1017735,
 "AI Competitors Team to Prevent Agentic Fragmentation": 1795395682.1210608,
@@ -4208,7 +4208,6 @@
 "Meta Muse can now do your Black Friday shopping at Walmart": 1795431699.0784333,
 "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD": 1795424484.2815967,
 "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough": 1795442486.0808258,
-"MetaX Adds Hy4 Support on C-Series GPUs With FlagOS W8A8 Weights": 1795316458.3326933,
 "MiniMax publishes AI-discovered cryptographic attacks with papers and code": 1795417282.1347604,
 "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor": 1795374052.8672361,
 "Natural Enables Voice Agents to Accept Payments Over the Phone": 1795471236.8441052,
@@ -4248,8 +4247,9 @@
 "Visa Launches New A.I. Agent Wallet": 1795453242.9748657,
 "WooshPay Unveils Agentic Payments Demo, Achieving First Product Milestone with Yunfeng Financial's AlphaToken": 1795431699.0784333,
 "X Square Robot Introduces WALL-OSS-1.0 With a Planning Harness and API": 1795420857.7789943,
+"XPeng Upgrades X-World 1.6 With Repeatable Virtual City Driving Tests": 1795489259.4385796,
 "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model": 1795449652.757841,
 "Zoellent AI Lab Releases GR-SAC to Refine Frozen Robot Policies With a Small Controller": 1795334460.0429409
 },
-"updated": 1795485641
+"updated": 1795489259
 }
