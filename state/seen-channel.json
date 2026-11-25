@@ -59,6 +59,7 @@
 "034dab9c36f5facb": 1792659663.396199,
 "0372d61d4166b563": 1794214844.4441354,
 "0372f306fc02f092": 1793689260.1513393,
+"037a4c46bee21382": 1795590058.3431277,
 "038fd92f94782191": 1795467683.6498945,
 "03a1359147b666ff": 1794340881.8314586,
 "03bf4135efb50664": 1794866451.762912,
@@ -440,7 +441,6 @@
 "1b835f493beb5f0f": 1794355256.4202173,
 "1b8b07d65249a9ab": 1794600062.0409029,
 "1b9ac1232d2bdd51": 1794906079.042744,
-"1b9dbb72200cd285": 1791702057.5503497,
 "1baa7f28c9c0c475": 1793120474.4755538,
 "1bad0f6b47731217": 1793761240.1926258,
 "1bad4f7da343ee44": 1794312078.4906569,
@@ -1588,6 +1588,7 @@
 "607deac6995f7488": 1794297690.9672627,
 "60a23906bf094682": 1795064468.504437,
 "60be8d9d76174371": 1794823274.1334114,
+"60c02004c989d913": 1795590058.3431277,
 "60c17ad4dc5cb2ce": 1793282480.5562677,
 "60c72e7613398426": 1793991656.2997084,
 "60e32687720848b1": 1793365273.2183294,
@@ -4211,6 +4212,7 @@
 "ff47e882fd215180": 1794985262.7633653,
 "ff48c52c9a5ffd4c": 1795032078.84189,
 "ff5fe3b2ecfb23b0": 1793433678.655187,
+"ff6b722a3791fd2c": 1795590050.6959593,
 "ff72221a21f2a559": 1795107668.04007,
 "ffc748cb8d88a919": 1791928891.2085662,
 "ffc8c26fa40cd4aa": 1794376859.7004774,
@@ -4269,6 +4271,7 @@
 "Croissant Uses Remy AI to Match Luxury Shoppers With New Brands": 1795428159.6705632,
 "Crossmint launches Menta plugin for AI assistant shopping": 1795435287.4480226,
 "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks": 1795446061.3353772,
+"Crypto talent will return \u2018when AI implodes,\u2019 Arthur Hayes says": 1795590058.343133,
 "David Fincher is being dragged for suspected use of AI in his latest film": 1795546848.817275,
 "Daydream\u2019s AI Stylist Knows Your Closet and Your Calendar": 1795482057.8535266,
 "Deep Dive: Visa\u2019s AI shopping benchmark shows agents still buy when they get it wrong: By Sam Boboev": 1795536050.1198637,
@@ -4312,6 +4315,7 @@
 "Kohl\u2019s Deploys AI Assistant, On-Demand Delivery, Flexible Payments for Holidays": 1795579263.9235396,
 "L&T Bags Contract to Deploy NVIDIA B300 GPUs in Chennai Data Centre": 1795442486.0808258,
 "L&T Technology Services Launches AI Toolchain for Software-Defined Vehicles": 1795431699.0784333,
+"Lianlian DigiTech and Visa complete agent-initiated B2B payment": 1795590058.343133,
 "Lloyds publishes guide on scaling AI responsibly": 1795482057.8535266,
 "Maple raises $5.3M to build AI products that protect your data, even from itself": 1795561244.7020314,
 "Mastercard, Antom test AI agent payments": 1795446061.3353772,
@@ -4377,5 +4381,5 @@
 "Zhihu discloses indirect investment in DeepSeek through fund": 1795503649.9083605,
 "Zoom Focuses on AI-Driven Automation Amid Enterprise Growth": 1795554052.2201686
 },
-"updated": 1795586469
+"updated": 1795590058
 }
