@@ -2330,6 +2330,7 @@
 "8ff87455c5796bfd": 1795474849.0219686,
 "8ffe287efb156ad7": 1795183280.2074625,
 "90051de0f0c0ca30": 1794495665.0906487,
+"9009a9178534baad": 1795734040.5576358,
 "9016d790fe754fba": 1793588448.1157212,
 "901f3639ec61a58a": 1792411266.1093485,
 "9027888ff1f1c65c": 1795636892.4657843,
@@ -4263,7 +4264,6 @@
 "AI agent accounts on Bilibili and beyond: Who owns the conversation?": 1795575651.0885239,
 "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant": 1795615283.6557946,
 "AI data centers are becoming harder to build, and neoclouds are feeling it": 1795622457.3932323,
-"AI debt markets shudder as Nvidia's top 'banker' returns": 1795557674.1138592,
 "AI is straining America\u2019s open records systems": 1795608068.083069,
 "AI may soon change what it means to be a theoretical physicist": 1795611656.6130388,
 "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead": 1795708867.211547,
@@ -4295,10 +4295,8 @@
 "DataCanvas Launches Physical AI Factory and Opens Infra and Dev APIs": 1795680073.3892417,
 "Debia and Mastercard Sign MoU to Advance Agentic Commerce": 1795665653.4467494,
 "Dell Lifts FY27 Outlook for Third Time as AI Server Backlog Hits $132 Billion": 1795582840.0571365,
-"Dell earnings beat on AI strength, company authorizes $25 billion buyback": 1795557674.1138592,
 "ElevenLabs Targets $33 Billion Valuation in Early 2027 Funding Round": 1795658443.6661747,
 "EngineAI Releases Awaken-Based Smart Fire-Facility Inspection Solution": 1795680073.3892417,
-"Even the best AI agents struggle with everyday life": 1795557674.1138592,
 "Ex-Infosys Exec's Enterprise AI Startup Bags $32 Mn for Agentic Deployment": 1795586469.8880558,
 "Ex-xAI Team Has Launched a New Startup to Do the Impossible\u2014Predict the Future": 1795593652.473123,
 "Exam Prep: What State Bank Supervisors May Ask About AI": 1795626044.5255618,
@@ -4319,7 +4317,6 @@
 "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000": 1795644060.5137565,
 "How Intentful uses dots to make more time for growth": 1795561244.7020314,
 "Huawei forms patent teams for chips and AI, eyeing ecosystem to rival Nvidia": 1795608068.083069,
-"In all-hands meeting, Jensen Huang thanks White House and says he\u2019s in therapy": 1795557674.1138592,
 "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon": 1795694476.7155256,
 "Jensen Huang broke Nvidia\u2019s code of conduct, and his employees may not forget it": 1795636892.46579,
 "Kohl\u2019s Deploys AI Assistant, On-Demand Delivery, Flexible Payments for Holidays": 1795579263.9235396,
@@ -4348,6 +4345,7 @@
 "Rakuten Mobile and Mastercard sign MoU on Agent Pay eSIM": 1795593652.473123,
 "Robots could be doing household chores in just 1-2 years, Chinese EV firm says": 1795680073.3892417,
 "S&P considers Nvidia credit downgrade over governance and \u2018key man\u2019 risks": 1795647647.1822548,
+"Sakana AI Releases Namazu Small, a 30B Model Built on Nemotron 3 Nano": 1795734040.5576394,
 "Sale Edge and Neumetria offer AI agents and lenders a current, cross-bank view of customers": 1795701648.4824636,
 "Sand.ai Launches Full MAGI-2 Video Model, With Open Weights Still Promised": 1795575651.0885239,
 "Saudi national charged in OpenAI bugging to be released on $1 million bond": 1795561244.7020314,
@@ -4371,7 +4369,6 @@
 "When Every Payments Company Has AI, What Separates the Winners?": 1795600882.0653694,
 "Where scientists draw the line on AI agents": 1795633252.6923177,
 "Where the market may be mispricing risk most: AI boom, volatility, high-yield bonds": 1795658443.6661747,
-"Why Asia\u2019s AI rally faces a tougher road even after Jensen Huang\u2019s comeback": 1795557674.1138592,
 "Wipro to Onboard BP's 3,000-Member Finance Team in AI Transformation Deal": 1795611656.6130388,
 "XPeng plans January production of IRON humanoid robot, with showroom deployment to follow": 1795676438.9994373,
 "XREAL Makes Google\u2019s Smart Glasses Dream Real": 1795579263.9235396,
@@ -4381,5 +4378,5 @@
 "nCino offers lending platform to Rabobank": 1795608068.083069,
 "\u2018Your booth is waiting\u2019: Denny\u2019s welcomes Jensen Huang back as Nvidia CEO": 1795662072.881402
 },
-"updated": 1795730466
+"updated": 1795734040
 }
