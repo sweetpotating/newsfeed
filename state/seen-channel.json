@@ -42,6 +42,7 @@
 "025b158487f006bb": 1792749667.521924,
 "025cec54e9fe696f": 1795636892.4657843,
 "026e099a3abc5a3f": 1795460438.8648493,
+"027bca890fa84f58": 1795683642.4988728,
 "0288d179cb64cb4a": 1792141281.0825996,
 "02a3e8edfbb63667": 1793797274.0647988,
 "02a5fec0a19829ca": 1793898054.5723624,
@@ -3630,6 +3631,7 @@
 "d9590fb0416f65c0": 1793599270.3897393,
 "d96b5a796695c679": 1792530068.509879,
 "d982f21b152eb749": 1792414855.062862,
+"d993dd0cd7da838a": 1795683639.2661095,
 "d9a6b82ea7c905c2": 1792774846.1246743,
 "d9aa416771da7989": 1793134851.3722956,
 "d9c19cdea3ebe76d": 1794902467.77683,
@@ -4290,7 +4292,6 @@
 "AI debt markets shudder as Nvidia's top 'banker' returns": 1795557674.1138592,
 "AI is straining America\u2019s open records systems": 1795608068.083069,
 "AI may soon change what it means to be a theoretical physicist": 1795611656.6130388,
-"Ahead of Budget, Nasscom Seeks AI Scheme for Indian IT": 1795507294.10195,
 "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long": 1795608068.083069,
 "Alibaba Opens Free AI Calling Through Qwen Go": 1795593652.473123,
 "Allstate Outage Locks Customers and Agents Out of Claims and Payments": 1795644060.5137565,
@@ -4299,11 +4300,8 @@
 "Amazon says hackers' AI agents found and exploited 0-day with little human input": 1795525274.4039423,
 "Amazon\u2019s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race": 1795536050.1198637,
 "An Indic Voice Agent with CUGA": 1795604472.5216837,
-"Ant Group Releases Ling-3.2-air Multimodal Model With 5.5B Active Parameters": 1795507294.10195,
-"Antariksh Venture Capital Fund Invests \u20b960 Cr in Bengaluru's SatSure": 1795507294.10195,
 "Anthropic Brings Claude Duet AI Agent to India": 1795604472.5216837,
 "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving": 1795539693.7816732,
-"Anthropic Introduces Claude Ship to Bring AI Agents Into Code Approval": 1795510832.6590393,
 "Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \"stupid things\" in the rollout": 1795532476.1792953,
 "Anthropic shares fall below IPO price, a worrying sign for AI startups": 1795546848.817275,
 "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools": 1795615283.6557946,
@@ -4349,6 +4347,7 @@
 "GPT-6 models demonstrate intrinsic protein-design capabilities": 1795561244.7020314,
 "Galaxea Releases G0.7 Embodied Foundation Model With Long Context and Fast Mode": 1795662072.881402,
 "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"": 1795525274.4039423,
+"Global stocks rally as investors shrug off U.S. tariffs and AI jitters": 1795683642.4988759,
 "Google Enables Users to Connect Wallet to AI Mode for Personalized Responses": 1795568448.001945,
 "Google Launches Initiative to Support Indian Startups With AI, Cloud Infra": 1795518061.2017121,
 "Google Wallet Taps AI to Help Users Maximize Credit Card Rewards": 1795597249.148907,
@@ -4397,7 +4396,6 @@
 "Sand.ai Launches Full MAGI-2 Video Model, With Open Weights Still Promised": 1795575651.0885239,
 "Saudi national charged in OpenAI bugging to be released on $1 million bond": 1795561244.7020314,
 "Searching for distant planets with Astra": 1795550475.470442,
-"Signal joins United Airlines, banks in limiting AI agents over customer risks": 1795507294.10195,
 "Stafford Building Society adopts AI-powered financial crime checks": 1795604472.5216837,
 "Startups Raise $515 Million to Build AI Agents Their Own Internet": 1795636892.46579,
 "State AGs fight Character AI\u2019s plan to auction off users\u2019 private chats": 1795629670.2213192,
@@ -4433,5 +4431,5 @@
 "nCino offers lending platform to Rabobank": 1795608068.083069,
 "\u2018Your booth is waiting\u2019: Denny\u2019s welcomes Jensen Huang back as Nvidia CEO": 1795662072.881402
 },
-"updated": 1795680073
+"updated": 1795683642
 }
