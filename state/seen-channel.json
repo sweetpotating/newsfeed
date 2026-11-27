@@ -1740,6 +1740,7 @@
 "69fbaed98a3b3b7d": 1795132883.3687387,
 "6a1dd9fef9865e86": 1794434433.8704963,
 "6a328b3b30061cea": 1794549674.203472,
+"6a3382e11f09b564": 1795762834.2196374,
 "6a39d8d064e34569": 1793300458.5974588,
 "6a4d07cdc5921669": 1795424484.281591,
 "6a4e1d522a1ee898": 1793833290.6101813,
@@ -2221,6 +2222,7 @@
 "88c6d528a1586ffa": 1794200449.271221,
 "88e24b575b565364": 1794304858.8357997,
 "88ef5d8f687e1a9f": 1795500054.4421563,
+"88f95f08c689273d": 1795762828.661105,
 "890493601ad90bab": 1793833290.6101813,
 "890af4e7e9cc6af3": 1793476843.8968284,
 "890fedd64368feae": 1793894473.6451845,
@@ -4265,6 +4267,7 @@
 "78% of Firms With Multiple Payment Capabilities See Improved Conversion": 1795687398.4483242,
 "AI Agents and Fintech: Who Decides What Is Allowed?": 1795615283.6557946,
 "AI Agents in Healthcare: 4 Lessons from HLTH 2026": 1795633252.6923177,
+"AI Job Cuts Come to SAP, 10,000 Roles to be Restructured: Report": 1795762834.2196403,
 "AI Trading in India Promises Smarter Investment Bets\u2014At a Steep New Risk": 1795615283.6557946,
 "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant": 1795615283.6557946,
 "AI data centers are becoming harder to build, and neoclouds are feeling it": 1795622457.3932323,
@@ -4299,11 +4302,9 @@
 "DataCanvas Launches Physical AI Factory and Opens Infra and Dev APIs": 1795680073.3892417,
 "Debia and Mastercard Sign MoU to Advance Agentic Commerce": 1795665653.4467494,
 "DeepSeek Tests a Per-Turn Consumption Quota Display on Web and App": 1795748494.6713324,
-"Dell Lifts FY27 Outlook for Third Time as AI Server Backlog Hits $132 Billion": 1795582840.0571365,
 "ElevenLabs Targets $33 Billion Valuation in Early 2027 Funding Round": 1795658443.6661747,
 "ElevenLabs Targets $33 Billion Valuation in Fresh Funding Round: Report": 1795755636.0826128,
 "EngineAI Releases Awaken-Based Smart Fire-Facility Inspection Solution": 1795680073.3892417,
-"Ex-Infosys Exec's Enterprise AI Startup Bags $32 Mn for Agentic Deployment": 1795586469.8880558,
 "Ex-xAI Team Has Launched a New Startup to Do the Impossible\u2014Predict the Future": 1795593652.473123,
 "Exam Prep: What State Bank Supervisors May Ask About AI": 1795626044.5255618,
 "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space": 1795629670.2213192,
@@ -4356,7 +4357,6 @@
 "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target\u2019s Sparse KV Cache": 1795752052.119553,
 "The Next Big IT Services Opportunity Could Be Operationalising AI": 1795687398.4483242,
 "The challenge banks face in drawing consumers to AI payments": 1795640483.2101479,
-"Thomas Dohmke\u2019s Entire Partners With Sarvam to Bring AI Coding Agents to India": 1795586469.8880558,
 "Threasury secures FCA agent registration": 1795615283.6557946,
 "Threatened by SaaSpocalypse, 9 Bets Defined Indian IT\u2019s AI Strategy in 2026": 1795698074.6554096,
 "UK reappoints Starling and Lloyds execs as AI champions": 1795654871.9335785,
@@ -4378,5 +4378,5 @@
 "nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in": 1795752052.119553,
 "\u2018Your booth is waiting\u2019: Denny\u2019s welcomes Jensen Huang back as Nvidia CEO": 1795662072.881402
 },
-"updated": 1795755636
+"updated": 1795762834
 }
