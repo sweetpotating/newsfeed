@@ -3219,6 +3219,7 @@
 "c1fe12706eebde59": 1795003262.7659748,
 "c205f6e047328089": 1792058470.055232,
 "c2271aa5184f800c": 1793890858.186617,
+"c227e5eaf73b582e": 1795752052.1195495,
 "c23ff95bde3cd9d2": 1792980083.7284474,
 "c2423e1c1e590182": 1793282495.7145445,
 "c24a90c485e86c0b": 1793224857.3180208,
@@ -3956,6 +3957,7 @@
 "ed4b58253682640f": 1793649668.6335232,
 "ed6003f4b1f41e59": 1792069283.8435533,
 "ed63f2e4c40fa2f7": 1792166455.2962296,
+"ed85252d7686e01a": 1795752052.1195495,
 "ed9370da1e7574e6": 1792047686.665453,
 "eda354f30bfa8a6c": 1792746074.1241956,
 "edabce43c2c0b8cc": 1792238439.117125,
@@ -4344,6 +4346,7 @@
 "State AGs fight Character AI\u2019s plan to auction off users\u2019 private chats": 1795629670.2213192,
 "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems": 1795698074.6554096,
 "Tencent Lab Leads Nature Paper on AI-Designed Dual-Target Therapeutic Peptides": 1795748494.6713324,
+"Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target\u2019s Sparse KV Cache": 1795752052.119553,
 "The Next Big IT Services Opportunity Could Be Operationalising AI": 1795687398.4483242,
 "The challenge banks face in drawing consumers to AI payments": 1795640483.2101479,
 "Thomas Dohmke\u2019s Entire Partners With Sarvam to Bring AI Coding Agents to India": 1795586469.8880558,
@@ -4366,7 +4369,8 @@
 "Zhejiang Humanoid Robot Innovation Center Rolls Out SPIRE 2.0 and Navi-Dataset": 1795662072.881402,
 "Zytra AI launches AI governance platform": 1795636892.46579,
 "nCino offers lending platform to Rabobank": 1795608068.083069,
+"nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in": 1795752052.119553,
 "\u2018Your booth is waiting\u2019: Denny\u2019s welcomes Jensen Huang back as Nvidia CEO": 1795662072.881402
 },
-"updated": 1795748494
+"updated": 1795752052
 }
